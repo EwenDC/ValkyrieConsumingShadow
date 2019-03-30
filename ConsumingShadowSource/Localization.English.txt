@@ -1,5 +1,5 @@
 .,English
-quest.name,The Consuming Shadow (v0.93) [BETA]
+quest.name,The Consuming Shadow (v0.94) [BETA]
 quest.authors,Ewen Cameron
 TokenHouse_SearchEntryTable.button1,{action} Investigate
 EventHouse_PlaceYard1.button1,Continue
@@ -299,7 +299,7 @@ EventHouse_InteractPersonWoman_Positive_CondPreMinor.button1,Button1
 EventHouse_InteractPersonWoman_Negative.button1,Button1
 SpawnHouse_BathroomDeepOne.text,Before the woman can speak, the taps on the bath start pouring out disgusting black water of their own accord. You reach over and shut them off, but the water level in the tub keeps rising. Suddenly a disgusting clawed hand reaches out of the tub and drags the poor screaming woman under the water. The water tints red with blood, then a disgusting creature emerges from its depths. Discard this Person token and spawn a {c:SpawnHouse_BathroomDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnHouse_BathroomDeepOne.button1,Continue
-SpawnHouse_Bedroom2DeepOne.text,As the woman thanks you profusely, a thick dark water starts seeping out from underneath the bathroom wall. The water is so black you cannot make out the floor only a few millimetres under its surface. Suddenly a clawed hand shoots out from the puddle, digging its fingers into the flesh of the woman. Before she can scream she is dragged into the impossible depths. A horrendous creature emerges in her place, its mouth still red with her fresh hot blood. Discard this Person token and spawn a {c:SpawnHouse_BathroomDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnHouse_Bedroom2DeepOne.text,As the woman thanks you profusely, a thick dark water starts seeping out from underneath the bathroom wall. The water is so black you cannot make out the floor only a few millimetres under its surface. Suddenly a clawed hand shoots out from the puddle, digging its fingers into the flesh of the woman. Before she can scream she is dragged into the impossible depths. A horrendous creature emerges in her place, its mouth still red with her fresh hot blood. Discard this Person token and spawn a {c:House_Bedroom2DeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnHouse_Bedroom2DeepOne.button1,Continue
 EventHouse_InteractPersonWoman_Negative_CondPostMinor.button1,Button1
 EventHouse_InteractPersonWoman_Negative_CondPostMajor.button1,Button1
@@ -319,7 +319,7 @@ EventHouse_InteractPersonMan_Positive_CondPreMinor.button1,Button1
 EventHouse_InteractPersonMan_Positive_CondPreMajor.button1,Button1
 EventHouse_InteractPersonMan_Negative.button1,Button1
 SpawnHouse_OfficeBrainwashedResident.button1,Continue
-SpawnHouse_StudyBrainwashedResident.text,"The man reaches out his hand to shake yours. As you go to reciprocate the glint of a blade in his sleeve catches your attention. The man takes out the knife and stabs it towards your stomach. Suffer 2 Damage ({agility} negates). ""You got lucky."" he snarls. ""My master will prove that your luck won't last long!"" Discard this Person token and spawn a Child of Dagon as indicated. This is a {c:SpawnHouse_OfficeBrainwashedResident}."
+SpawnHouse_StudyBrainwashedResident.text,"The man reaches out his hand to shake yours. As you go to reciprocate the glint of a blade in his sleeve catches your attention. The man takes out the knife and stabs it towards your stomach. Suffer 2 Damage ({agility} negates). ""You got lucky."" he snarls. ""My master will prove that your luck won't last long!"" Discard this Person token and spawn a Child of Dagon as indicated. This is a {c:SpawnHouse_StudyBrainwashedResident}."
 SpawnHouse_StudyBrainwashedResident.button1,Continue
 EventHouse_InteractPersonMan_Negative_CondPostMinor.button1,Button1
 EventHouse_InteractPersonMan_Negative_CondPostMajor.button1,Button1
@@ -401,15 +401,15 @@ TokenWarehouse_ExploreBasementWarehouse.button1,{action} Explore
 EventWarehouse_PlaceBasement.text,You open the creaky door to reveal a basement shrouded in complete darkness. Place the {c:TileWarehouse_Basement} tile as indicated and discard any Explore tokens leading to it. Then place Darkness in each space of the {c:TileWarehouse_Basement}.
 EventWarehouse_PlaceBasement.button1,Continue
 EventWarehouse_PlaceSearchFurnace.button1,Continue
-SpawnWarehouse_BasementHorrificHive.text,"As your eyes adjust to the darkness a horrific sight becomes apparent to you. Near the furnace a mass of what looks to be flesh is growing on the floor. You realise in horror that there is a humans face in the mass, and it is staring back at you. You see the mouth silently form the words ""Kill me."" Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_StudyHorrificHive}."
+SpawnWarehouse_BasementHorrificHive.text,"As your eyes adjust to the darkness a horrific sight becomes apparent to you. Near the furnace a mass of what looks to be flesh is growing on the floor. You realise in horror that there is a humans face in the mass, and it is staring back at you. You see the mouth silently form the words ""Kill me."" Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_BasementHorrificHive}."
 EventWarehouse_PlaceSearchFurnace.text,The reflection of a metal object buried in the ash of the furnace briefly flashes in the darkness. Place a Search token as indicated.
 SpawnWarehouse_BasementHorrificHive.button1,Continue
-SpawnWarehouse_BasementDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_StudyDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_StudyDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_StudyDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse_BasementDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_BasementDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_BasementDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_BasementDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_BasementDeepOne.button1,Continue
 EventWarehouse_PlaceExploreRootCellarBasement.text,A small door provides an easy escape into the cellar and out of the warehouse. Place an Explore token as indicated.
 EventWarehouse_PlaceExploreRootCellarBasement.button1,Continue
 EventWarehouse_PlaceExploreWarehouseBasement.button1,Continue
-SpawnWarehouse_BasementCultLeader.text,In the darkness, a {c:SpawnWarehouse_BasementCultLeader} is standing over the corpse of one of his cultists. He mutters various prayers in forbidden languages. As you inch forward to get a better look, you accidentally knock over a stack of boxes. The {c:SpawnWarehouse_StudyCultLeader} snaps his head in your direction. Spawn a Priest of Dagon and place a Search token as indicated. This is a {c:SpawnWarehouse_BasementCultLeader}.
+SpawnWarehouse_BasementCultLeader.text,In the darkness, a {c:SpawnWarehouse_BasementCultLeader} is standing over the corpse of one of his cultists. He mutters various prayers in forbidden languages. As you inch forward to get a better look, you accidentally knock over a stack of boxes. The {c:SpawnWarehouse_BasementCultLeader} snaps his head in your direction. Spawn a Priest of Dagon and place a Search token as indicated. This is a {c:SpawnWarehouse_BasementCultLeader}.
 EventWarehouse_PlaceExploreWarehouseBasement.text,A door at the top of the stairs provides an escape into the main warehouse space. Place an Explore token as indicated.
 SpawnWarehouse_BasementCultLeader.button1,Continue
 TokenWarehouse_ExploreBasementRootCellar.text,A door leads to the larger basement from the cellar.
