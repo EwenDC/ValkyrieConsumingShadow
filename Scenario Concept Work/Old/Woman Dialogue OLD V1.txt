@@ -1,0 +1,19 @@
+A middle-aged woman bursts out of a nearby door. She quickly slams it shut and locks it behind her. As she turns to leave, her eyes connect with yours. Place a Person token as indicated.
+-
+Continue
+-
+She quickly shuffles towards you. Move this Person token as indicated. "Investigators, I know why you are here. You are here for the object that is poisoning people's minds."
+-
+"How do you know that?"
+-
+"What do you know about the object?"
+-
+The woman gives you an exasperated look. "That is really not important right now! Listen, there are actually three objects hidden behind locked doors on this pier. One of them is the one you are looking for, but the other two are booby trapped fakes!"
+-
+"It is going to be harder to find than first thought. There is not just one but three objects in total, each behind a locked door on this pier. One of them is the one you are looking for, but the other two are booby trapped fakes!"
+-
+"Which one is the real object?"
+-
+"Sadly, I don't know. All I know is the real object is marked by the colour of the cult who worships it's madness. I hope you know which one that is. I have to go now, it is too dangerous to hang around. Godspeed, for everybodys sake." Without another word the woman leaves in the direction you came from. Remove this Person token.
+-
+Continue
