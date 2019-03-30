@@ -1,12 +1,12 @@
 .,English
-quest.name,The Consuming Shadow (v0.91) [BETA]
+quest.name,The Consuming Shadow (v0.92) [BETA]
 quest.authors,Ewen Cameron
 TokenHouse_SearchEntryTable.button1,{action} Investigate
 EventHouse_PlaceYard1.button1,Continue
 EventHouse_PlaceSearchEntryTable.button1,Continue
 EventHouse_SearchEntryTableFaliure.text,You glance over the items but spot nothing unexpected.
 EventHouse_SearchEntryTableSuccess.button1,Continue
-TokenHouse_SightHallCorner2.text,The enterance hall continues to the east of the bathroom door. An investigator in the Hall Corner 3 may reveal the adjacent area.
+TokenHouse_SightHallCorner2.text,The entrance hall continues to the east of the bathroom door. An investigator in the Hall Corner 3 may reveal the adjacent area.
 EventHouse_PlaceSightHallCorner2.button1,Continue
 EventHouse_MaxCam.button1,Button1
 TokenHouse_SearchEntryTable.text,The table is lying on its side, its contents freshly scattered across the ground.
@@ -48,12 +48,12 @@ EventHouseStart_MinCam.button1,Button1
 EventPrintTime.button1,Button1
 SpawnHouse_KitchenCultLeader.button1,Continue
 CustomMonsterCultLeader.info,-
-SpawnHouse_KitchenCultLeader.text,Inside the kitchen a robed figure is littering the floor with random kitchen utensils, searching for something of value in the cupboards. Spawn a Preist of Dagon and place a Search token as indicated. This is a {c:SpawnHouse_KitchenCultLeader}.
+SpawnHouse_KitchenCultLeader.text,Inside the kitchen a robed figure is littering the floor with random kitchen utensils, searching for something of value in the cupboards. Spawn a Priest of Dagon and place a Search token as indicated. This is a {c:SpawnHouse_KitchenCultLeader}.
 CustomMonsterCultLeader.monstername,Cult Leader
 EventHouse_CultLeaderJeer.text,"The {c:SpawnHouse_KitchenCultLeader} turns his attention away from the Cupboards and onto you. He sneers ""You don't look like you'd be carrying much of value on you, but I'd be happy to take what you have regardless."""
 EventHouse_CultLeaderJeer.button1,"""Drop your weapons servant of Yig, and you may be spared."""
 EventHouse_CultLeaderJeer.button2,"""You have betrayed humanity cultist. Zhar has deceived you."""
-EventHouse_CultLeaderJeer.button3,"""Hastur has no power here. You actions acheive nothing."""
+EventHouse_CultLeaderJeer.button3,"""Hastur has no power here. You actions achieve nothing."""
 EventAssignPainGodRole_Invader.button1,Button1
 EventAssignPainGodRole.button1,Button1
 EventAssignPainGodRole_Enemy.button1,Button1
@@ -77,7 +77,7 @@ EventHouse_PlaceExploreInteriorHallDiningRoom.text,You spot another way out of t
 EventHouse_PlaceExploreInteriorHallDiningRoom.button1,Continue
 EventMove1SpaceMessage.text,You may move 1 space into the explored area.
 EventMove1SpaceMessage.button1,Continue
-quest.description,In less than 12 hours, a cult is going to help an Ancient One invade our reality. You must work fast to figure out which cult is facilitating the invasion, and then banish the correct god before time runs out. Based on the video game The Consuming Shadow by Ben 'Yahtzee' Croshaw.\n\nThis scenario involves a moderate amount of deduction. A pencil and paper is reccomended while playing.
+quest.description,In less than 12 hours, a cult is going to help an Ancient One invade our reality. You must work fast to figure out which cult is facilitating the invasion, and then banish the correct god before time runs out. Based on the video game The Consuming Shadow by Ben 'Yahtzee' Croshaw.\n\nThis scenario involves a moderate amount of deduction. A pencil and paper is recommended while playing.
 EventAdvanceTime.button1,Button1
 EventPrintTime_OneHourNotPalace.button1,Continue
 EventPrintTime_ManyHours.text,You have {var:InvestigationHours} hours left before the summoning occurs.
@@ -112,7 +112,7 @@ EventHouse_PlaceExploresHallCorner2.button1,Continue
 EventHouse_ExploreBathroom.text,You open the door leading into the bathroom. Discard this Explore token.
 EventHouse_ExploreBathroom.button1,Continue
 EventHouse_PlaceBandages.button1,Continue
-EventHouse_PlacePersonWoman1.text,A bound woman is lying in the empty bathtub. She struggles and desprately tries to speak, but her words are muffled by a rag tied over her mouth. Place a Person token as indicated.
+EventHouse_PlacePersonWoman1.text,A bound woman is lying in the empty bathtub. She struggles and desperately tries to speak, but her words are muffled by a rag tied over her mouth. Place a Person token as indicated.
 EventHouse_PlacePersonWoman1.button1,Continue
 EventAssignPainGodColour.button1,Button1
 EventAssignPainGodColour_Red.button1,Button1
@@ -122,7 +122,7 @@ SpawnHouse_BathroomCultist.button1,Continue
 SpawnHouse_BathroomCultist.text,A {c:SpawnHouse_BathroomCultist} stands in the bathroom, surveying the fixtures inside. Upon hearing the door open, they quickly turn their attention on you. Spawn a {c:SpawnHouse_BathroomCultist} as indicated.
 TokenHouse_ExploreBedroom2.text,A door leads to the master bedroom of the house.
 TokenHouse_ExploreBedroom2.button1,{action} Explore
-EventHouse_PlaceSearchBedroomDesk.text,The desk is messy with various lose sheaves of paper. The writing on the papers are incoherant and speak of that which is unnatural. Place a Search token as indicated.
+EventHouse_PlaceSearchBedroomDesk.text,The desk is messy with various lose sheaves of paper. The writing on the papers are incoherent and speak of that which is unnatural. Place a Search token as indicated.
 EventHouse_PlaceSearchBedroomDesk.button1,Continue
 EventHouse_PlacePersonWoman2.text,A woman cowers behind the bed, trying to hide herself from the horrors lurking within the house. Place a Person token as indicated.
 EventHouse_PlacePersonWoman2.button1,Continue
@@ -151,7 +151,7 @@ EventHouse_PlaceSearchFilingCabinet.button1,Continue
 EventHouse_PlaceExploreStudyOffice.text,A door at the back of the room provides a shortcut to the Study. Place an Explore token as indicated.
 EventHouse_PlaceSearchFilingCabinet.text,The contents of a filing cabinet have been littered over the floor. Place a Search token as indicated.
 EventHouse_PlaceExploreStudyOffice.button1,Continue
-EventHouse_PlacePersonMan1.text,A man is bound and gagged in the far corner of the room. Though he struggles voilently with his restraints he cannot escape them alone. Place a Person token as indicated.
+EventHouse_PlacePersonMan1.text,A man is bound and gagged in the far corner of the room. Though he struggles violently with his restraints he cannot escape them alone. Place a Person token as indicated.
 EventHouse_PlacePersonMan1.button1,Continue
 SpawnHouse_OfficeCultist.button1,Continue
 SpawnHouse_OfficeCultist.text,A {c:SpawnHouse_OfficeCultist} rummages through the office desk. Preoccupied in their task, they have not noticed you peeking into the office. Spawn a {c:SpawnHouse_OfficeCultist} as indicated.
@@ -184,13 +184,13 @@ EventHouse_PuzzleConclusiveEvidenceComplete.button2,View Clue
 EventViewEvidence_ConclusiveEvidence.button1,Button1
 EventViewEvidence_ConclusiveEvidence_Enemies.text,"A passage from an ancient Pagan holy text, roughly translated, reads: ""Though we may consider the concepts of Pain and Madness to go hand-in-hand, it is said that the entities behind these afflictions share no affection for each other. In fact, they could even be described as sworn enemies."""
 EventViewEvidence_ConclusiveEvidence_Enemies.button1,Continue
-EventViewEvidence_ConclusiveEvidence_Allies.text,"A passage from an ancient Pagan holy text, roughly translated, reads: ""Pain and Madness have long been considered concepts that go hand-in-hand. Indeed, it is said that the entities behind these afflictions work together on a regular basis. In fact, their bond is so strong that to worship one would, in effect, be the same as worshiping the other."""
+EventViewEvidence_ConclusiveEvidence_Allies.text,"A passage from an ancient Pagan holy text, roughly translated, reads: ""Pain and Madness have long been considered concepts that go hand-in-hand. Indeed, it is said that the entities behind these afflictions work together on a regular basis. In fact, their bond is so strong that to worship one would, in effect, be the same as worshipping the other."""
 EventViewEvidence_ConclusiveEvidence_Allies.button1,Continue
 TokenHouse_SearchHallDesk.text,A cluttered desk contains various books, most of which look older than Arkham itself.
 TokenHouse_SearchHallDesk.button1,{action} Investigate
 EventHouse_SearchHallDeskSuccess.text,Most of the books seem to relate to ancient Pagan traditions and beliefs. Among the pile you spot a book that may be useful during your investigations. Gain the {c:QItemTome} Common Item. Then discard this Search token.
 EventHouse_SearchHallDeskSuccess.button1,Continue
-TokenHouse_ExploreSmallBedroom2.text,A door bearing the name 'Alasdiar' leads to a child's bedroom.
+TokenHouse_ExploreSmallBedroom2.text,A door bearing the name 'Alasdair' leads to a child's bedroom.
 TokenHouse_ExploreSmallBedroom2.button1,{action} Explore
 TokenHouse_ExploreSmallBedroom1.text,A door bearing the name 'Elizabeth' leads to a child's bedroom.
 TokenHouse_ExploreSmallBedroom1.button1,{action} Explore
@@ -198,13 +198,13 @@ EventHouse_ExploreSmallBedroom2.text,You open the door to reveal a small threadb
 EventHouse_ExploreSmallBedroom2.button1,Continue
 EventHouse_PlaceSearchToyChest.button1,Continue
 EventHouse_PlacePersonChild2.button1,Continue
-EventHouse_PlaceSearchToyChest.text,Besides the bed and end table, the only peice of furniture inside the room is a sturdy toy chest. Place a Search token as indicated.
+EventHouse_PlaceSearchToyChest.text,Besides the bed and end table, the only piece of furniture inside the room is a sturdy toy chest. Place a Search token as indicated.
 SpawnHouse_SmallBedroom2Cultist.text,A {c:SpawnHouse_SmallBedroom2Cultist} jumps in surprise upon seeing you, before coming to their senses and unsheathing their knife. Spawn a {c:SpawnHouse_SmallBedroom2Cultist} as indicated.
 EventHouse_PlacePersonChild2.text,A little boy and and little girl have had their hands and legs bound to a bedpost. Though they are not gagged, the children are too terrified to make a sound. Place a Person token as indicated.
 SpawnHouse_SmallBedroom2Cultist.button1,Continue
 EventHouse_ExploreSmallBedroom1.text,You open the door to reveal a small plain bedroom. You assume this is the bedroom of a child, despite its dull appearance. Discard this Explore token.
 EventHouse_ExploreSmallBedroom1.button1,Continue
-EventHouse_PlaceSearchKidBookshelf.text,A bookshelf sits against the wall of the bedroom. Strangely, it's almost completely empty, besides a few teenage fasion magazines doting the shelves. Place a Search token as indicated.
+EventHouse_PlaceSearchKidBookshelf.text,A bookshelf sits against the wall of the bedroom. Strangely, it's almost completely empty, besides a few teenage fashion magazines doting the shelves. Place a Search token as indicated.
 EventHouse_PlaceSearchKidBookshelf.button1,Continue
 EventHouse_PlacePersonChild1.text,A little boy and a little girl are huddled behind the bed, looks of terror on their faces. Place a Person token as indicated.
 EventHouse_PlacePersonChild1.button1,Continue
@@ -217,7 +217,7 @@ EventHouse_SearchToyChestSkillCheck.button1,Confirm
 EventHouse_SearchToyChestSkillCheck.button2,Button2
 EventHouse_SearchToyChestFaliure.text,While your instincts tell you that these objects are important, you cannot figure out how.
 EventHouse_SearchToyChestFaliure.button1,Continue
-EventHouse_SearchToyChestSuccess.text,Amoungst the bizzare items you spot a small statue. Though what it depicts is hard to comprehend, you are sure the information it gives is vital for your investigation. Gain the {c:QItemGrotesqueStone} Unique Item. Then discard this Search token. The investigator holding the {c:QItemGrotesqueStone} can view the associated clue by interacting with it in the app.
+EventHouse_SearchToyChestSuccess.text,Amongst the bizarre items you spot a small statue. Though what it depicts is hard to comprehend, you are sure the information it gives is vital for your investigation. Gain the {c:QItemGrotesqueStone} Unique Item. Then discard this Search token. The investigator holding the {c:QItemGrotesqueStone} can view the associated clue by interacting with it in the app.
 EventHouse_SearchToyChestSuccess.button1,Continue
 EventHouse_SearchToyChestSuccess.button2,View Clue
 EventViewEvidence_GrotesqueStone.button1,Button1
@@ -238,7 +238,7 @@ EventHouse_CultLeaderJeer_ZharIncorrectPositive_CondMad.button1,Button1
 EventHouse_CultLeaderJeer_HasturIncorrectPositive_CondMad.button1,Button1
 EventHouse_CultLeaderJeer_HasturIncorrectPositive.text,"The {c:SpawnHouse_KitchenCultLeader} smiles wryly. ""With his and my Master's power combined, they can do more than you could possibly comprehend."" Gain 1 Clue."
 EventHouse_CultLeaderJeer_ZharCorrect.button1,Continue
-TokenHouse_SearchKidBookshelf.text,The bookshelf is almost completely empty, besides a few teenage fasion magazines lying on the shelves.
+TokenHouse_SearchKidBookshelf.text,The bookshelf is almost completely empty, besides a few teenage fashion magazines lying on the shelves.
 TokenHouse_SearchKidBookshelf.button1,{action} Investigate
 EventHouse_SearchKidBookshelfSkillCheck.text,You leaf through the various magazines, looking for anything out of place ({observation}).
 EventHouse_SearchKidBookshelfSkillCheck.button1,Confirm
@@ -247,24 +247,24 @@ EventHouse_SearchKidBookshelfSuccess.text,You notice that many of the pages insi
 EventHouse_SearchKidBookshelfSuccess.button1,Continue
 EventHouse_SearchKidBookshelfFaliure.text,Though many pages within the magazines have been torn out, you cannot figure out a pattern between those that remain.
 EventHouse_SearchKidBookshelfFaliure.button1,Continue
-TokenHouse_SearchCupboards.text,The {c:SpawnHouse_KitchenCultLeader} was desprately searching for something in these cupboards.
+TokenHouse_SearchCupboards.text,The {c:SpawnHouse_KitchenCultLeader} was desperately searching for something in these cupboards.
 TokenHouse_SearchCupboards.button1,{action} Investigate
 EventHouse_SearchCupboardsSkillCheck.text,You spot a fake panel at the back of the cupboards, and attempt to tear it off ({strength}).
 EventHouse_SearchCupboardsSkillCheck.button1,Confirm
 EventHouse_SearchCupboardsSkillCheck.button2,Button2
-EventHouse_SearchCupboardsSuccess.text,You tear the peice of wood away to reveal a small jewlery box. Inside is what you can only conclude to be the entire life savings of this family. This must be what the {c:SpawnHouse_KitchenCultLeader} was looking for. Gain 1 clue. Then discard this Search token.
+EventHouse_SearchCupboardsSuccess.text,You tear the piece of wood away to reveal a small jewellery box. Inside is what you can only conclude to be the entire life savings of this family. This must be what the {c:SpawnHouse_KitchenCultLeader} was looking for. Gain 1 clue. Then discard this Search token.
 EventHouse_SearchCupboardsSuccess.button1,Continue
 EventHouse_SearchCupboardsFaliure.text,You put all of your strength into trying to move the panel, but it remains firmly secured to the cupboard.
 EventHouse_SearchCupboardsFaliure.button1,Continue
-TokenHouse_SearchBedroomDesk.text,You see various lose sheaves of paper cotaining incoherant writing that speaks of the unnatural.
+TokenHouse_SearchBedroomDesk.text,You see various lose sheaves of paper containing incoherent writing that speaks of the unnatural.
 TokenHouse_SearchBedroomDesk.button1,{action} Investigate
-EventHouse_SearchBedroomDeskSkillCheck.text,You try to desipher any information of use from the incoherant noise ({lore}).
+EventHouse_SearchBedroomDeskSkillCheck.text,You try to decipher any information of use from the incoherent noise ({lore}).
 EventHouse_SearchBedroomDeskSkillCheck.button1,Confirm
 EventHouse_SearchBedroomDeskSkillCheck.button2,Button2
 EventHouse_SearchBedroomDeskSuccess.text,Throughout the writing you start noticing a pattern of information that may provide useful. Gain the {c:QItemCircumstantialEvidence} Unique Item. Then discard this Search token. The investigator holding the {c:QItemCircumstantialEvidence} can view the associated clue by interacting with it in the app.
 EventHouse_SearchBedroomDeskSuccess.button1,Continue
 EventHouse_SearchBedroomDeskSuccess.button2,View Clue
-EventHouse_SearchBedroomDeskFaliure.text,Try as you might, the writing is too obtuse for you to descern anything useful from it.
+EventHouse_SearchBedroomDeskFaliure.text,Try as you might, the writing is too obtuse for you to discern anything useful from it.
 EventHouse_SearchBedroomDeskFaliure.button1,Continue
 EventViewEvidence_CircumstantialEvidence.button1,Button1
 EventViewEvidence_CircumstantialEvidence_Red.text,The papers contain specific passages of old pagan poems. Throughout the various writings, there is a strong allusion to the relationship between the colour red and feelings of lust. One of the poems is even titled 'Red Lust.'
@@ -276,7 +276,7 @@ EventViewEvidence_CircumstantialEvidence_Blue.button1,Continue
 EventHouse_PlaceBandages.text,A first aid kit containing {c:QItemBandages} sits on some bathroom shelves. Place the {c:QItemBandages} Common Item as indicated.
 EventHouse_PlaceCarbineRifle.button1,Continue
 TokenHouse_PersonChild1.text,The children remain in their hiding spot, clinging on to each other and covering their eyes in fear.
-EventHouse_InteractPersonChild1.text,You slowly approach the children, reassuring them that everything is alright. You gently grab each child's hand and stand them up.
+EventHouse_InteractPersonChild1.text,You slowly approach the children, reassuring them that everything is all right. You gently grab each child's hand and stand them up.
 EventHouse_InteractPersonChild1.button1,Continue
 EventHouse_InteractPersonChild_Positive.button1,Continue
 EventHouse_InteractPersonChild_Positive_CondPreMinor.button1,Button1
@@ -291,7 +291,7 @@ SpawnHouse_SmallBedroom2HuntingHorror.text,Suddenly, a twisted smile crosses the
 EventHouse_InteractPersonChild_Negative_CondPostMajor.button1,Button1
 TokenHouse_PersonChild2.text,The children remain tied to the bed, sitting with their tear-stained faces in stony silence.
 TokenHouse_PersonChild2.button1,{action} Free Children
-EventHouse_InteractPersonChild2.text,You untie the childrens restraints. They immediently spring up, stretching their cramped legs.
+EventHouse_InteractPersonChild2.text,You untie the childrens restraints. They immediately spring up, stretching their cramped legs.
 EventHouse_InteractPersonChild2.button1,Continue
 TokenHouse_PersonWoman1.text,The woman is lying in the empty bathtub, struggling against her restraints.
 TokenHouse_PersonWoman1.button1,{action} Free Woman
@@ -304,21 +304,21 @@ EventHouse_InteractPersonWoman_Positive_CondPreMinor.button1,Button1
 EventHouse_InteractPersonWoman_Negative.button1,Button1
 SpawnHouse_BathroomDeepOne.text,Before the woman can speak, the taps on the bath start pouring out disgusting black water of their own accord. You reach over and shut them off, but the water level in the tub keeps rising. Suddenly a disgusting clawed hand reaches out of the tub and drags the poor screaming woman under the water. The water tints red with blood, then a disgusting creature emerges from its depths. Discard this Person token and spawn a {c:SpawnHouse_BathroomDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnHouse_BathroomDeepOne.button1,Continue
-SpawnHouse_Bedroom2DeepOne.text,As the woman thanks you prefusely, a thick dark water starts seeping out from underneath the bathroom wall. The water is so black you cannot make out the floor only a few milimeters under its surface. Suddenly a clawed hand shoots out from the puddle, digging its fingers into the flesh of the woman. Before she can scream she is dragged into the impossible depths. A horrendous creature emerges in her place, its mouth still red with her fresh hot blood. Discard this Person token and spawn a {c:SpawnHouse_BathroomDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnHouse_Bedroom2DeepOne.text,As the woman thanks you profusely, a thick dark water starts seeping out from underneath the bathroom wall. The water is so black you cannot make out the floor only a few millimetres under its surface. Suddenly a clawed hand shoots out from the puddle, digging its fingers into the flesh of the woman. Before she can scream she is dragged into the impossible depths. A horrendous creature emerges in her place, its mouth still red with her fresh hot blood. Discard this Person token and spawn a {c:SpawnHouse_BathroomDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnHouse_Bedroom2DeepOne.button1,Continue
 EventHouse_InteractPersonWoman_Negative_CondPostMinor.button1,Button1
 EventHouse_InteractPersonWoman_Negative_CondPostMajor.button1,Button1
-TokenHouse_PersonWoman2.text,The woman is hiding behind her bed, desprately holding a pillow as some form of ineffectual self defense.
+TokenHouse_PersonWoman2.text,The woman is hiding behind her bed, desperately holding a pillow as some form of ineffectual self defence.
 TokenHouse_PersonWoman2.button1,{action} Speak To Woman
 EventHouse_InteractPersonWoman2.text,"""No!"" she yells, cutting you off, ""Stay away from me and my family!"" You round the bed with your hands in the air, showing that you are no danger to her. For your troubles, you get clobbered in the face with a pillow. When the woman sees who you are she frantically apologies."
 EventHouse_InteractPersonWoman2.button1,Continue
-TokenHouse_PersonMan1.text,The man sits bound and gagged in the corner of the room. He desprately tries to speak to you but his words are muffled.
+TokenHouse_PersonMan1.text,The man sits bound and gagged in the corner of the room. He desperately tries to speak to you but his words are muffled.
 TokenHouse_PersonMan1.button1,{action} Free Man
 TokenHouse_PersonMan2.text,The man is frozen in place; A look of terror in his eyes as they connect with yours.
 TokenHouse_PersonMan2.button1,{action} Speak To Man
 EventHouse_InteractPersonMan1.text,You take off the ropes that bind the man, allowing him to stand. He pauses for a moment to catch his breath.
 EventHouse_InteractPersonMan1.button1,Continue
-EventHouse_InteractPersonMan_Positive.text,"The man grabs your hand and shakes it vigirously. ""Thank you!"" he says, ""Thank you so much! I knew those damn devotees were trouble. My wife, bless her heart, wanted us to hear them out. I fear what reprecussions our kindness will have. Please, if you haven't already, make sure she and the kids are ok. I'll meet them outside."" Without another word, he promptly leaves. Discard this Person token."
+EventHouse_InteractPersonMan_Positive.text,"The man grabs your hand and shakes it vigorously. ""Thank you!"" he says, ""Thank you so much! I knew those damn devotees were trouble. My wife, bless her heart, wanted us to hear them out. I fear what repercussions our kindness will have. Please, if you haven't already, make sure she and the kids are okay. I'll meet them outside."" Without another word, he promptly leaves. Discard this Person token."
 EventHouse_InteractPersonMan_Positive.button1,Continue
 EventHouse_InteractPersonMan_Positive_CondPreMinor.button1,Button1
 EventHouse_InteractPersonMan_Positive_CondPreMajor.button1,Button1
@@ -361,9 +361,9 @@ EventWarehouse_PlaceWarehouse.text,You open the door, revealing the cavernous wa
 EventWarehouse_PlaceWarehouse.button1,Continue
 EventWarehouse_PlaceSearchEmptyBox.button1,Continue
 TokenWarehouse_ExploreRootCellarBasement.text,A door leads to a smaller cellar within the basement.
-EventWarehouse_PlaceSearchEmptyBox.text,Amoungst the rotting wood and cardboard, you spot an empty box that looks suspiciously intact. Place a Search token as indicated.
+EventWarehouse_PlaceSearchEmptyBox.text,Amongst the rotting wood and cardboard, you spot an empty box that looks suspiciously intact. Place a Search token as indicated.
 TokenWarehouse_ExploreRootCellarBasement.button1,{action} Explore
-EventWarehouse_PlaceSearchBody.text,Your heart sinks as you spot a body lying facedown amoungst some boxes. This must be one of the poor souls who entered this accursed building before you. Place a Search token as indicated.
+EventWarehouse_PlaceSearchBody.text,Your heart sinks as you spot a body lying facedown amongst some boxes. This must be one of the poor souls who entered this accursed building before you. Place a Search token as indicated.
 EventWarehouse_PlaceSearchBody.button1,Continue
 EventWarehouse_PlaceLightsource.button1,Continue
 SpawnWarehouse_WarehouseDeepOne.text,A {c:SpawnWarehouse_WarehouseDeepOne} stumbles around the warehouse, covered in gooey birthing fluids and looking rather helpless. Once the creature spots you however, it becomes clear that it is anything but. Spawn a {c:SpawnWarehouse_WarehouseDeepOne} as indicated.
@@ -388,14 +388,14 @@ EventWarehouse_PlaceSearchBookshelf.text,Inside the office, an old bookshelf has
 EventWarehouse_PlaceSearchBookshelf.button1,Continue
 CustomMonsterHorrificHive.info,-
 CustomMonsterHorrificHive.monstername,The Horror's Hive
-SpawnWarehouse_StudyHorrificHive.text,"As you look further into the room you spot a horrific sight. Near the back wall a mass of what looks to be flesh is growing out of the floorboards. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words ""Kill me."" Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_StudyHorrificHive}."
+SpawnWarehouse_StudyHorrificHive.text,"As you look further into the room you spot a horrific sight. Near the back wall a mass of what looks to be flesh is growing out of the floorboards. You realise in horror that there is a humans face in the mass, and it is staring back at you. You see the mouth silently form the words ""Kill me."" Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_StudyHorrificHive}."
 SpawnWarehouse_StudyHorrificHive.button1,Continue
 SpawnWarehouse_StudyDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_StudyDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_StudyDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_StudyDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_StudyDeepOne.button1,Continue
 CustomMonsterBrainwashedResident.info,-
 SpawnHouse_OfficeBrainwashedResident.text,"The man reaches out his hand to shake yours. As you go to reciprocate the glint of a blade in his sleeve catches your attention. The man takes out the knife and stabs it towards your stomach. Suffer 2 Damage ({agility} negates). ""How are you still alive?"" he snarls. ""No matter, you are no match for me or my master."" Discard this Person token and spawn a Child of Dagon as indicated. This is a {c:SpawnHouse_OfficeBrainwashedResident}."
 CustomMonsterBrainwashedResident.monstername,Brainwashed Resident
-SpawnWarehouse_StudyCultLeader.text,At the back of the room, a {c:SpawnWarehouse_StudyCultLeader} is standing over the corpse of one of his cultists. He mutters various prayers in forbidden languages. As you silently observe, your body weight leans on an old floorboard, unleashing a loud creak. The {c:SpawnWarehouse_StudyCultLeader} snaps his head in your direction. Spawn a Preist of Dagon and place a Search token as indicated. This is a {c:SpawnWarehouse_StudyCultLeader}.
+SpawnWarehouse_StudyCultLeader.text,At the back of the room, a {c:SpawnWarehouse_StudyCultLeader} is standing over the corpse of one of his cultists. He mutters various prayers in forbidden languages. As you silently observe, your body weight leans on an old floorboard, unleashing a loud creak. The {c:SpawnWarehouse_StudyCultLeader} snaps his head in your direction. Spawn a Priest of Dagon and place a Search token as indicated. This is a {c:SpawnWarehouse_StudyCultLeader}.
 SpawnWarehouse_StudyCultLeader.button1,Continue
 EventWarehouse_CultLeaderJeer.text,"The {c:CustomMonsterCultLeader} draws a long and ornate dagger from it's scabbard. ""You are about to experience hurt beyond this mortal realm."""
 EventWarehouse_CultLeaderJeer.button1,"""Isn't Hastur a little busy to be focusing on me?"""
@@ -406,15 +406,15 @@ TokenWarehouse_ExploreBasementWarehouse.button1,{action} Explore
 EventWarehouse_PlaceBasement.text,You open the creaky door to reveal a basement shrouded in complete darkness. Place the {c:TileWarehouse_Basement} tile as indicated and discard any Explore tokens leading to it. Then place Darkness in each space of the {c:TileWarehouse_Basement}.
 EventWarehouse_PlaceBasement.button1,Continue
 EventWarehouse_PlaceSearchFurnace.button1,Continue
-SpawnWarehouse_BasementHorrificHive.text,"As your eyes adjust to the darkness a horrific sight becomes apparent to you. Near the furnace a mass of what looks to be flesh is growing on the floor. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words ""Kill me."" Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_StudyHorrificHive}."
-EventWarehouse_PlaceSearchFurnace.text,The reflection of a metal object buried in the ash of the furnace breifly flashes in the darkness. Place a Search token as indicated.
+SpawnWarehouse_BasementHorrificHive.text,"As your eyes adjust to the darkness a horrific sight becomes apparent to you. Near the furnace a mass of what looks to be flesh is growing on the floor. You realise in horror that there is a humans face in the mass, and it is staring back at you. You see the mouth silently form the words ""Kill me."" Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_StudyHorrificHive}."
+EventWarehouse_PlaceSearchFurnace.text,The reflection of a metal object buried in the ash of the furnace briefly flashes in the darkness. Place a Search token as indicated.
 SpawnWarehouse_BasementHorrificHive.button1,Continue
 SpawnWarehouse_BasementDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_StudyDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_StudyDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_StudyDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_BasementDeepOne.button1,Continue
 EventWarehouse_PlaceExploreRootCellarBasement.text,A small door provides an easy escape into the cellar and out of the warehouse. Place an Explore token as indicated.
 EventWarehouse_PlaceExploreRootCellarBasement.button1,Continue
 EventWarehouse_PlaceExploreWarehouseBasement.button1,Continue
-SpawnWarehouse_BasementCultLeader.text,In the darkness, a {c:SpawnWarehouse_BasementCultLeader} is standing over the corpse of one of his cultists. He mutters various prayers in forbidden languages. As you inch forward to get a better look, you accidentally knock over a stack of boxes. The {c:SpawnWarehouse_StudyCultLeader} snaps his head in your direction. Spawn a Preist of Dagon and place a Search token as indicated. This is a {c:SpawnWarehouse_BasementCultLeader}.
+SpawnWarehouse_BasementCultLeader.text,In the darkness, a {c:SpawnWarehouse_BasementCultLeader} is standing over the corpse of one of his cultists. He mutters various prayers in forbidden languages. As you inch forward to get a better look, you accidentally knock over a stack of boxes. The {c:SpawnWarehouse_StudyCultLeader} snaps his head in your direction. Spawn a Priest of Dagon and place a Search token as indicated. This is a {c:SpawnWarehouse_BasementCultLeader}.
 EventWarehouse_PlaceExploreWarehouseBasement.text,A door at the top of the stairs provides an escape into the main warehouse space. Place an Explore token as indicated.
 SpawnWarehouse_BasementCultLeader.button1,Continue
 TokenWarehouse_ExploreBasementRootCellar.text,A door leads to the larger basement from the cellar.
@@ -463,14 +463,14 @@ EventWarehouse_SearchDeadCultistPuzzle.button2,Cancel
 EventWarehouse_SearchDeadCultistPuzzle.text,You have not yet identified the occult passage being referenced in the cultist's tattoo. You can attempt the puzzle using {lore} as an action.
 EventWarehouse_PuzzleForensicEvidenceComplete.button1,Continue
 EventWarehouse_PuzzleForensicEvidenceComplete.button2,View Clue
-EventDock_PuzzleRitualComponentsComplete.text,You fight through the magics and force your hand into the box. You feel a ripple go through the air as the energies protecting the crate dissapate. From the box you pull out various magical trinkets and baubes, which you identify as the shop womans order of components. Gain the {c:QItemRitualComponents} Unique Item. Then discard this Search token. The investigator holding the {c:QItemRitualComponents} can view the associated clue by interacting with it in the app.
+EventDock_PuzzleRitualComponentsComplete.text,You fight through the magics and force your hand into the box. You feel a ripple go through the air as the energies protecting the crate dissipate. From the box you pull out various magical trinkets and baubles, which you identify as the shop womans order of components. Gain the {c:QItemRitualComponents} Unique Item. Then discard this Search token. The investigator holding the {c:QItemRitualComponents} can view the associated clue by interacting with it in the app.
 TokenWarehouse_SearchDeadCultistBasement.button1,Button1
 EventViewEvidence_ForensicEvidence.button1,Button1
-EventViewEvidence_ForensicEvidence_Pain.text,"The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads ""Despite all of its power, the entity cannot exist in our reality. Indeed, it's administration of the feelings of pain in our universe is said to be born of jealousy. Try as it might, it simpily cannot enter our world."""
+EventViewEvidence_ForensicEvidence_Pain.text,"The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads ""Despite all of its power, the entity cannot exist in our reality. Indeed, it's administration of the feelings of pain in our universe is said to be born of jealousy. Try as it might, it simply cannot enter our world."""
 EventViewEvidence_ForensicEvidence_Pain.button1,Continue
-EventViewEvidence_ForensicEvidence_Lust.text,"The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads ""Despite it's control of the emotions of lust in our universe, the entity cannot exist in this reality. Though entity's worshipers try to apease their master with material goods, it simpily cannot exist alongside anything from our world."""
+EventViewEvidence_ForensicEvidence_Lust.text,"The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads ""Despite it's control of the emotions of lust in our universe, the entity cannot exist in this reality. Though entity's worshippers try to appease their master with material goods, it simply cannot exist alongside anything from our world."""
 EventViewEvidence_ForensicEvidence_Lust.button1,Continue
-EventViewEvidence_ForensicEvidence_Madness.text,"The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads ""Despite the power it exerts on our collective consciousnesses, the entity cannot exist in our reality. Whenever a human as attempted to bring their mind within range of the entity, they quickly die of the madness inflicted upon them. As all madness stems from it, to enter our world would be to destory itself and our reality."""
+EventViewEvidence_ForensicEvidence_Madness.text,"The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads ""Despite the power it exerts on our collective consciousnesses, the entity cannot exist in our reality. Whenever a human as attempted to bring their mind within range of the entity, they quickly die of the madness inflicted upon them. As all madness stems from it, to enter our world would be to destroy itself and our reality."""
 EventViewEvidence_ForensicEvidence_Madness.button1,Continue
 TokenWarehouse_SearchFurnace.text,You think you saw a metal object buried deep in the ash of the furnace.
 TokenWarehouse_SearchFurnace.button1,{action} Investigate
@@ -483,17 +483,17 @@ EventWarehouse_SearchFurnaceSuccess.text,You efforts pay off, as you unearth a s
 EventWarehouse_SearchFurnaceSuccess.button1,Continue
 EventWarehouse_SearchFurnaceSuccess.button2,View Clue
 EventViewEvidence_MissingLink.button1,Button1
-EventViewEvidence_MissingLink_HasturLikeYig.text,"The professor's notes record what she discovered while researching ancient briton religion. She noted two primonent religions that existed between the 1st and 10th centries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Hastur,"" while the other a god called ""Yig."" Despite being two very distinct religions with different deities, they were apparently very cordial with each other. It wasn't uncommon for the same tribe to be split between the two religions, sometimes even within family groups."
+EventViewEvidence_MissingLink_HasturLikeYig.text,"The professor's notes record what she discovered while researching ancient Briton religion. She noted two prominent religions that existed between the 1st and 10th centuries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Hastur,"" while the other a god called ""Yig."" Despite being two very distinct religions with different deities, they were apparently very cordial with each other. It wasn't uncommon for the same tribe to be split between the two religions, sometimes even within family groups."
 EventViewEvidence_MissingLink_HasturLikeYig.button1,Continue
-EventViewEvidence_MissingLink_HasturLikeZhar.text,"The professor's notes record what she discovered while researching ancient briton religion. She noted two primonent religions that existed between the 1st and 10th centries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Hastur,"" while the other a god called ""Zhar."" Despite being two very distinct religions with different deities, they were apparently very cordial with each other. It wasn't uncommon for the same tribe to be split between the two religions, sometimes even within family groups."
+EventViewEvidence_MissingLink_HasturLikeZhar.text,"The professor's notes record what she discovered while researching ancient Briton religion. She noted two prominent religions that existed between the 1st and 10th centuries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Hastur,"" while the other a god called ""Zhar."" Despite being two very distinct religions with different deities, they were apparently very cordial with each other. It wasn't uncommon for the same tribe to be split between the two religions, sometimes even within family groups."
 EventViewEvidence_MissingLink_HasturLikeZhar.button1,Continue
-EventViewEvidence_MissingLink_YigLikeZhar.text,"The professor's notes record what she discovered while researching ancient briton religion. She noted two primonent religions that existed between the 1st and 10th centries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Zhar,"" while the other a god called ""Yig."" Despite being two very distinct religions with different deities, they were apparently very cordial with each other. It wasn't uncommon for the same tribe to be split between the two religions, sometimes even within family groups."
+EventViewEvidence_MissingLink_YigLikeZhar.text,"The professor's notes record what she discovered while researching ancient Briton religion. She noted two prominent religions that existed between the 1st and 10th centuries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Zhar,"" while the other a god called ""Yig."" Despite being two very distinct religions with different deities, they were apparently very cordial with each other. It wasn't uncommon for the same tribe to be split between the two religions, sometimes even within family groups."
 EventViewEvidence_MissingLink_YigLikeZhar.button1,Continue
-EventViewEvidence_MissingLink_HasturHateYig.text,"The professor's notes record what she discovered while researching ancient briton religion. She noted two primonent religions that existed between the 1st and 10th centries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Hastur,"" while the other a god called ""Yig."" The history between these two religions is long and sordid, with many recounts of bloody battles fought between the respective worshipers. An old briton fable even revolves around the animosity, with a man who converts from one of the religions to the other, and then murders his family when they do not do the same."
+EventViewEvidence_MissingLink_HasturHateYig.text,"The professor's notes record what she discovered while researching ancient Briton religion. She noted two prominent religions that existed between the 1st and 10th centuries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Hastur,"" while the other a god called ""Yig."" The history between these two religions is long and sordid, with many recounts of bloody battles fought between the respective worshippers. An old Briton fable even revolves around the animosity, with a man who converts from one of the religions to the other, and then murders his family when they do not do the same."
 EventViewEvidence_MissingLink_HasturHateYig.button1,Continue
-EventViewEvidence_MissingLink_HasturHateZhar.text,"The professor's notes record what she discovered while researching ancient briton religion. She noted two primonent religions that existed between the 1st and 10th centries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Hastur,"" while the other a god called ""Zhar."" The history between these two religions is long and sordid, with many recounts of bloody battles fought between the respective worshipers. An old briton fable even revolves around the animosity, with a man who converts from one of the religions to the other, and then murders his family when they do not do the same."
+EventViewEvidence_MissingLink_HasturHateZhar.text,"The professor's notes record what she discovered while researching ancient Briton religion. She noted two prominent religions that existed between the 1st and 10th centuries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Hastur,"" while the other a god called ""Zhar."" The history between these two religions is long and sordid, with many recounts of bloody battles fought between the respective worshippers. An old Briton fable even revolves around the animosity, with a man who converts from one of the religions to the other, and then murders his family when they do not do the same."
 EventViewEvidence_MissingLink_HasturHateZhar.button1,Continue
-EventViewEvidence_MissingLink_YigHateZhar.text,"The professor's notes record what she discovered while researching ancient briton religion. She noted two primonent religions that existed between the 1st and 10th centries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Zhar,"" while the other a god called ""Yig."" The history between these two religions is long and sordid, with many recounts of bloody battles fought between the respective worshipers. An old briton fable even revolves around the animosity, with a man who converts from one of the religions to the other, and then murders his family when they do not do the same."
+EventViewEvidence_MissingLink_YigHateZhar.text,"The professor's notes record what she discovered while researching ancient Briton religion. She noted two prominent religions that existed between the 1st and 10th centuries AD, far longer than any other within their culture. One of the religions worshipped a god called ""Zhar,"" while the other a god called ""Yig."" The history between these two religions is long and sordid, with many recounts of bloody battles fought between the respective worshippers. An old Briton fable even revolves around the animosity, with a man who converts from one of the religions to the other, and then murders his family when they do not do the same."
 EventViewEvidence_MissingLink_YigHateZhar.button1,Continue
 TokenWarehouse_SearchBookshelf.text,Various knick-knacks line the shelf, having only recently been placed there.
 TokenWarehouse_SearchBookshelf.button1,{action} Investigate
@@ -512,7 +512,7 @@ EventViewEvidence_IncriminatingEvidence_Yig.text,"The memoir starts ""Hear me mo
 EventViewEvidence_IncriminatingEvidence_Yig.button1,Continue
 EventViewEvidence_IncriminatingEvidence_Zhar.text,"The memoir starts ""Hear me mortals and tremble in fear! My name is Zhar and I am the purveyor of pain!"" Not being one for beating around the bush, the memoir goes on to describe in great detail the various ways the Ancient One will torture those who oppose it."
 EventViewEvidence_IncriminatingEvidence_Zhar.button1,Continue
-TokenWarehouse_SearchBody.text,A body lies facedown amoungst some boxes. This must be one of the poor souls who entered this accursed building before you.
+TokenWarehouse_SearchBody.text,A body lies facedown amongst some boxes. This must be one of the poor souls who entered this accursed building before you.
 TokenWarehouse_SearchBody.button1,{action} Investigate
 EventWarehouse_SearchBodySkillCheck.text,You examine the mangled corpse, trying to determine a cause of death ({will}).
 EventWarehouse_SearchBodySkillCheck.button1,Confirm
@@ -521,7 +521,7 @@ EventWarehouse_SearchBodyFaliure.text,Try though you might, you cannot bring you
 EventWarehouse_SearchBodyFaliure.button1,Continue
 EventWarehouse_SearchBodySuccess.text,Though the body has suffered many lacerations and broken bones, you determine the cause of death to be from gradual blood loss. Whatever attacked this person was toying with them, keeping them alive and suffering for as long as possible. Gain 1 clue. Then discard this Search token.
 EventWarehouse_SearchBodySuccess.button1,Continue
-TokenWarehouse_SearchEmptyBox.text,Amoungst the rotting wood and cardboard sits an empty box, looking suspiciously intact.
+TokenWarehouse_SearchEmptyBox.text,Amongst the rotting wood and cardboard sits an empty box, looking suspiciously intact.
 TokenWarehouse_SearchEmptyBox.button1,{action} Investigate
 EventWarehouse_SearchEmptyBoxSkillCheck.text,You examine the box, looking for any indication of it's origin ({observation}).
 EventWarehouse_SearchEmptyBoxSkillCheck.button1,Confirm
@@ -537,13 +537,13 @@ EventWarehouse_SearchBarrelSkillCheck.button1,Confirm
 EventWarehouse_SearchBarrelSkillCheck.button2,Button2
 EventWarehouse_SearchBarrelFaliure.text,Your fingers slip and you fail to remove the barrel lid.
 EventWarehouse_SearchBarrelFaliure.button1,Continue
-EventWarehouse_SearchBarrelSuccess.text,You pry open the barrel, revealing that it is full of an unidentifiable meat. You pray to yourself that this is the meat of an animal and not something else. The handle of a strange ornate dagger protudes from the flesh. Gain the {c:QItemRitualDagger} Common Item and 1 clue. Then discard this Search token.
+EventWarehouse_SearchBarrelSuccess.text,You pry open the barrel, revealing that it is full of an unidentifiable meat. You pray to yourself that this is the meat of an animal and not something else. The handle of a strange ornate dagger protrudes from the flesh. Gain the {c:QItemRitualDagger} Common Item and 1 clue. Then discard this Search token.
 EventWarehouse_SearchBarrelSuccess.button1,Continue
 EventHorrificHive_Activations.button1,Button1
-EventHorrificHive_ActivationMeleeAttack.text,The Hive's skin boils and ripples. Then flesh barbs shoot out of the hive, attacking each investigatior in its space.
+EventHorrificHive_ActivationMeleeAttack.text,The Hive's skin boils and ripples. Then flesh barbs shoot out of the hive, attacking each investigator in its space.
 EventHorrificHive_ActivationMeleeAttack.button1,The monster attacks.
 EventHorrificHive_ActivationMeleeAttack.button2,No investigators in the space.
-EventHorrificHive_ActivationMeleeAttack_Effect1.text,The barb peirces your body, sending you into excruciating agony. Suffer 2 facedown Damage ({strength}-1 negates).
+EventHorrificHive_ActivationMeleeAttack_Effect1.text,The barb pierces your body, sending you into excruciating agony. Suffer 2 facedown Damage ({strength}-1 negates).
 EventHorrificHive_ActivationMeleeAttack_Effect1.button1,Continue
 EventHorrificHive_ActivationMeleeAttack_Effect2.text,You grab the barb before it can dig into your flesh ({agility}; 2). If you pass, you snap the tendril off and the monster suffers 1 damage. If you fail, the barb directs itself downwards into your foot; suffer 1 Damage and become Restrained.
 EventHorrificHive_ActivationMeleeAttack_Effect2.button1,Continue
@@ -577,7 +577,7 @@ EventHorrificHive_Horror_Effect2.text,Warts start forming on the skin of {c:Cust
 EventHorrificHive_Horror_Effect2.button1,Continue
 EventHorrificHive_Horror_Effect4.text,You look upon the Hive's face and are overcome with a sense of familiarity ({observation}; 2). If you pass, you realise you are mistaken, and become determined to help protect the person you were thinking of; become Focused. If you fail, you realise you know the person this used to be; suffer 2 Horror and flip 2 Horror faceup.
 EventHorrificHive_Horror_Effect4.button1,Continue
-EventHorrificHive_Horror_Effect3.text,You stare at {c:CustomMonsterHorrificHive}, wondering how it was able to form. As you picture the process, you notice it starting to happen to yourself. Your flesh starts to expand and stick to any surface it comes into contacnt with. Suffer 3 facedown Horror ({will} negates). If you suffer 2 or more Horror, your flesh sticks to the ground below your feet; become Restrained.
+EventHorrificHive_Horror_Effect3.text,You stare at {c:CustomMonsterHorrificHive}, wondering how it was able to form. As you picture the process, you notice it starting to happen to yourself. Your flesh starts to expand and stick to any surface it comes into contact with. Suffer 3 facedown Horror ({will} negates). If you suffer 2 or more Horror, your flesh sticks to the ground below your feet; become Restrained.
 EventHorrificHive_Horror_Effect3.button1,Continue
 TokenWarehouse_InteractExit.text,An investigator can trigger all investigators to leave this location at the end of the Investigation Phase. Once a location has been left, it cannot be returned to.
 TokenWarehouse_InteractExit.button1,{action} Leave Industrial District
@@ -590,9 +590,9 @@ EventWarehouse_TriggerExit.text,You unanimously agree to abandon this haunted wa
 EventWarehouse_TriggerExit.button1,Continue
 EventWarehouseEnd_MissionComplete.text,You depart from the warehouse, once loud with the sound of unspeakable horrors, now completely silent in the dim cool night. Clear the board. Though you cannot bring back those lost to the horrors inside, you rest easy knowing you saved many more from a similar fate.
 EventWarehouseEnd_MissionComplete.button1,Continue
-EventWarehouseEnd_HorrificHiveAlive.text,You flee from the infested warehouse, sprinting away at full speed. Clear the board. Though you try to supress the thought, deep down you know the monsters spilling out of this building will kill hundreds before they can be contained. Each investigator suffers 2 Horror.
+EventWarehouseEnd_HorrificHiveAlive.text,You flee from the infested warehouse, sprinting away at full speed. Clear the board. Though you try to suppress the thought, deep down you know the monsters spilling out of this building will kill hundreds before they can be contained. Each investigator suffers 2 Horror.
 EventWarehouseEnd_HorrificHiveAlive.button1,Continue
-EventWarehouseEnd_RemainingMonsters.text,You slip out of the warehouse and past all of the creatures infesting the building. Clear the board. As you drive away, you wonder what will happen to the local workers when they uncover these creatures tommorow morning. Each investigator suffers {var:RemainingMonsters} facedown Horror.
+EventWarehouseEnd_RemainingMonsters.text,You slip out of the warehouse and past all of the creatures infesting the building. Clear the board. As you drive away, you wonder what will happen to the local workers when they uncover these creatures tomorrow morning. Each investigator suffers {var:RemainingMonsters} facedown Horror.
 EventWarehouseEnd_RemainingMonsters.button1,Continue
 EventDockStart_MinCam.button1,Button1
 EventDock_MaxCam.button1,Button1
@@ -608,9 +608,9 @@ EventDock_PlacePier.text,To the north you sight the docks themselves. Place the 
 EventDock_PlacePier.button1,Continue
 EventDock_PlaceSearchPierGoods.button1,Continue
 EventDock_PlaceSearchRowboat.button1,Continue
-EventDock_PlaceSearchPierGoods.text,Various peices of junk litter the dock. While none of the items look of interest, you conclude it would not hurt to search them anyway. Place a Search token as indicated.
+EventDock_PlaceSearchPierGoods.text,Various pieces of junk litter the dock. While none of the items look of interest, you conclude it would not hurt to search them anyway. Place a Search token as indicated.
 EventDock_PlaceExploreSnackShack.text,A small shack on the pier, despite appearing to hold nothing of value, has been securely sealed by chains with Brass locks. Place an Explore token as indicated.
-EventDock_PlaceSearchRowboat.text,	A dilapidated rowboat sits half under the sea water. The tarpaulin draped over it looks to have been disturbed recently. Place a Search token as indicated.
+EventDock_PlaceSearchRowboat.text,	A dilapidated row boat sits half under the sea water. The tarpaulin draped over it looks to have been disturbed recently. Place a Search token as indicated.
 EventDock_PlaceExploreSnackShack.button1,Continue
 EventDock_PlaceSightsPier.text,The dock continues to the north and east, out of sight. Place Sight tokens as indicated. An investigator in the {c:TileDock_Pier} may reveal the adjacent areas.
 EventDock_PlaceSightsPier.button1,Continue
@@ -621,7 +621,7 @@ EventDock_WomanNote.button1,Continue
 EventDock_RemoveWoman.text,She quickly shuffles towards you, and firmly presses a scrunched up note into your hand. Before you can react, the woman hurries down the long winding street leading further into town and out of sight. Remove this Person token.
 TokenDock_SightStreet2FleaMarket.text,The market stalls obscure your vision of the opposite side of the street. An investigator in the {c:TileDock_FleaMarket} may reveal the adjacent area.
 TokenDock_SightStreet2FleaMarket.button1,Reveal
-EventDock_PlaceStreet2.text, The street continues on in much the same fasion it did on the other side. Place the {c:TileDock_Street2} tile as indicated and discard all Sight tokens leading to it.
+EventDock_PlaceStreet2.text, The street continues on in much the same fashion it did on the other side. Place the {c:TileDock_Street2} tile as indicated and discard all Sight tokens leading to it.
 EventDock_PlaceStreet2.button1,Continue
 EventDock_PlaceSearchPosters.text,The brick wall of this building has been covered in various flyers and posters. Place a Search token as indicated.
 EventDock_PlaceSearchPosters.button1,Continue
@@ -643,7 +643,7 @@ TokenDock_SightRentalDock.text,The dock continues to the north, out of sight. An
 TokenDock_SightRentalDock.button1,Reveal
 EventDock_PlaceRentalDock.text,At the end of the pier is a rental dock, allowing the rent of boats for cargo or passenger transport. Discard this Sight token and place the {c:TileDock_RentalDock} tile as indicated.
 EventDock_PlaceRentalDock.button1,Continue
-EventDock_PlaceSearchRentalDockGoods.text,Amoungst the boats avaliable for rent lie various items. While nothing stands out to you, you see value in searching them anyway. Place a Search token as indicated.
+EventDock_PlaceSearchRentalDockGoods.text,Amongst the boats available for rent lie various items. While nothing stands out to you, you see value in searching them anyway. Place a Search token as indicated.
 EventDock_PlaceSearchRentalDockGoods.button1,Continue
 EventDock_PlaceExploreRentalDock.text,The small shack housing the rental business has been padlocked shut with a Silver lock. Place an Explore token as indicated.
 EventDock_PlaceExploreRentalDock.button1,Continue
@@ -659,19 +659,19 @@ EventDock_PlaceExploreHouseboat.text,Doors on the bow and stern of the boat lead
 EventDock_PlaceExploreHouseboat.button1,Continue
 EventDock_PlaceInteractExit.button1,Continue
 EventDock_PlaceInteractExit.text,All investigators may leave this location at any time. However, once left, it cannot be returned to. Place an Interact token as indicated.
-TokenDock_SearchPierGoods.text,Various peices of junk litter the pier surface.
+TokenDock_SearchPierGoods.text,Various pieces of junk litter the pier surface.
 TokenDock_SearchPierGoods.button1,{action} Investigate
 EventDock_SearchPierGoodsSkillCheck.text,A stack of boxes holding smaller items has been buried under heavier boxes. You start lifting the heavier boxes away to search the boxes below ({strength}).
 EventDock_SearchPierGoodsSkillCheck.button1,Confirm
 EventDock_SearchPierGoodsSkillCheck.button2,Button2
 EventDock_SearchPierGoodsFaliure.text,You lift away as many boxes as you can, but you tire before you can clear away all of them.
 EventDock_SearchPierGoodsFaliure.button1,Continue
-EventDock_RedKeyPickup.text,Amoungst the junk you find a {c:QItemSilverKey} hidden in a scrap of paper. On the paper is written delusional rantings about the danger of the colour red. Gain the {c:QItemSilverKey} Unique Item. Then discard this Search token.
+EventDock_RedKeyPickup.text,Amongst the junk you find a {c:QItemSilverKey} hidden in a scrap of paper. On the paper is written delusional rantings about the danger of the colour red. Gain the {c:QItemSilverKey} Unique Item. Then discard this Search token.
 EventDock_RedKeyPickup.button1,Continue
-EventDock_RedItemPickup.text,"While you are not any closer to finding the cursed object, you find another magical item amoungst the junk. You presume the item to be a gift for a loved one, as it carries the label ""For Alex. May it bring you luck in this mad world."" Gain the {c:QItemLuckyRabbitsFoot} Common Item and 1 Clue. Then discard this Search token."
+EventDock_RedItemPickup.text,"While you are not any closer to finding the cursed object, you find another magical item amongst the junk. You presume the item to be a gift for a loved one, as it carries the label ""For Alex. May it bring you luck in this mad world."" Gain the {c:QItemLuckyRabbitsFoot} Common Item and 1 Clue. Then discard this Search token."
 EventDock_SearchPierGoodsSuccess.button1,Button1
 EventDock_RedItemPickup.button1,Continue
-EventDock_RedClue.text,Sadly the only item of interest you can find in the junk is an old newspaper. The newspaper is dated for 2 days ago, but you cannot help but be taken aback by how bizzare and incoherant the articles written inside are. Gain 1 Clue. Then discard this Search token.
+EventDock_RedClue.text,Sadly the only item of interest you can find in the junk is an old newspaper. The newspaper is dated for 2 days ago, but you cannot help but be taken aback by how bizarre and incoherent the articles written inside are. Gain 1 Clue. Then discard this Search token.
 EventDock_RedClue.button1,Continue
 TokenDock_SearchBlackStall.text,Strangely, while the stall itself has been closed for the night, a table laid out with goods from the stall has been left out.
 TokenDock_SearchBlackStall.button1,{action} Investigate
@@ -687,7 +687,7 @@ EventDock_SearchBlueStallSkillCheck.button2,Button2
 EventDock_SearchBlueStallSuccess.button1,Button1
 EventDock_SearchBlackStallFaliure.text,The table is full of so many items that you cannot find anything relevant to your investigation.
 EventDock_SearchBlackStallFaliure.button1,Continue
-EventDock_SearchBlueStallFaliure.text,You sift through the junk, but find nothing of intererst.
+EventDock_SearchBlueStallFaliure.text,You sift through the junk, but find nothing of interest.
 EventDock_SearchBlueStallFaliure.button1,Continue
 TokenDock_SearchPosters.text,The brick wall of this building has been covered in various flyers and posters.
 TokenDock_SearchPosters.button1,{action} Investigate
@@ -696,7 +696,7 @@ EventDock_SearchPostersSkillCheck.button1,Confirm
 EventDock_SearchPostersSkillCheck.button2,Button2
 EventDock_SearchPostersFaliure.text,You stare blankly at the various sheets of paper, failing to gain any knowledge of use to your investigation.
 EventDock_SearchPostersFaliure.button1,Continue
-EventDock_SearchPostersSuccess.text,Though most of the wall is filled with advertisements for various shops and stalls, a flyer for an art gallery exhibition stands out to you. The gallery is set to display ancient Briton art peices dating back thousands of years. Gain the {c:QItemPhotographicEvidence} Unique Item. Then discard this Search token. The investigator holding the {c:QItemPhotographicEvidence} can view the associated clue by interacting with it in the app.
+EventDock_SearchPostersSuccess.text,Though most of the wall is filled with advertisements for various shops and stalls, a flyer for an art gallery exhibition stands out to you. The gallery is set to display ancient Briton art pieces dating back thousands of years. Gain the {c:QItemPhotographicEvidence} Unique Item. Then discard this Search token. The investigator holding the {c:QItemPhotographicEvidence} can view the associated clue by interacting with it in the app.
 EventDock_SearchPostersSuccess.button1,Continue
 EventDock_SearchPostersSuccess.button2,View Clue
 EventViewEvidence_PhotographicEvidence.button1,Button1
@@ -712,9 +712,9 @@ EventViewEvidence_PhotographicEvidence_RedHateBlue.text,On the flyer is a pictur
 EventViewEvidence_PhotographicEvidence_RedHateBlue.button1,Continue
 EventViewEvidence_PhotographicEvidence_GreenHateBlue.text,On the flyer is a picture of one of the ancient paintings set to appear in the exhibition. What it depicts is abstract, but somehow strange and unsettling. You notice an interesting pattern within the picture between the colours of Blue and Green. Throughout the entire painting those colours never appear near each other. It is almost like the two colours are repelling each other.
 EventViewEvidence_PhotographicEvidence_GreenHateBlue.button1,Continue
-TokenDock_SearchRowboat.text,	A dilapidated rowboat sits half under the sea water. The tarpaulin draped over it looks to have been disturbed recently.
+TokenDock_SearchRowboat.text,A dilapidated row boat sits half under the sea water. The tarpaulin draped over it looks to have been disturbed recently.
 TokenDock_SearchRowboat.button1,{action} Investigate
-EventDock_SearchRowboatSkillCheck.text,As you reach over the peir edge to remove the tarpaulin, the boat is suddenly pulled away by the ocean current ({agility}).
+EventDock_SearchRowboatSkillCheck.text,As you reach over the pier edge to remove the tarpaulin, the boat is suddenly pulled away by the ocean current ({agility}).
 EventDock_SearchRowboatSkillCheck.button1,Confirm
 EventDock_SearchRowboatSkillCheck.button2,Button2
 EventDock_SearchRowboatFaliure.text,You are able to react fast enough to save yourself from falling into the water. However, the boat drifts to the end of its mooring and out of reach.
@@ -753,13 +753,13 @@ EventDock_SearchRedStallSkillCheck.button2,Button2
 EventDock_SearchRedStallFaliure.text,While rustling through the junk you hear the sound of somebody approaching. You quickly restore the stall to its original state, but when you turn around nobody is there.
 EventDock_SearchRedStallFaliure.button1,Continue
 EventDock_SearchRedStallSuccess.button1,Button1
-EventDock_GreenKeyPickup.text,"Amoungst the junk you spot a small leather pouch containing a {c:QItemGoldKey}. The inside of the pouch is padded with green felt. On the outside of the pouch is embroided the message ""For the strong of mind."" Gain the {c:QItemGoldKey} Unique Item. Then discard this Search token."
+EventDock_GreenKeyPickup.text,"Amongst the junk you spot a small leather pouch containing a {c:QItemGoldKey}. The inside of the pouch is padded with green felt. On the outside of the pouch is embroidered the message ""For the strong of mind."" Gain the {c:QItemGoldKey} Unique Item. Then discard this Search token."
 EventDock_GreenKeyPickup.button1,Continue
-EventDock_GreenItemPickup.text,While you are not any closer to finding the cursed object, you find an item of use amoungst the junk. You persume it was misplaced from a recent shipment, as a shipment tag has been tied around it. Reading the tag, you find that it has been filled out with complete gibberish. Gain the {c:QItemSedatives} Common Item and 1 Clue. Then discard this Search token.
+EventDock_GreenItemPickup.text,While you are not any closer to finding the cursed object, you find an item of use amongst the junk. You presume it was misplaced from a recent shipment, as a shipment tag has been tied around it. Reading the tag, you find that it has been filled out with complete gibberish. Gain the {c:QItemSedatives} Common Item and 1 Clue. Then discard this Search token.
 EventDock_GreenItemPickup.button1,Continue
 EventDock_GreenClue.text,In the junk you find a shipping manifest for a ship that arrived at the docks two days ago. While the items on the manifest are themselves mundane, the destinations for them is unusual. All of them have been addressed to various asylums and psychiatric hospitals in the Arkham area. Gain 1 Clue. Then discard this Search token.
 EventDock_GreenClue.button1,Continue
-EventDock_SearchYellowStallSkillCheck.text,You search for anything salvegable in the pile of rotten items ({observation}).
+EventDock_SearchYellowStallSkillCheck.text,You search for anything salvageable in the pile of rotten items ({observation}).
 EventDock_SearchYellowStallSkillCheck.button1,Confirm
 EventDock_SearchYellowStallSkillCheck.button2,Button2
 EventDock_SearchYellowStallSuccess.button1,Button1
@@ -777,13 +777,13 @@ EventDock_SearchHouseBoatGoodsSkillCheck.text,You begin the dirty task of cleari
 EventDock_SearchHouseBoatGoodsSkillCheck.button1,Confirm
 EventDock_SearchHouseBoatGoodsSkillCheck.button2,Button2
 EventDock_SearchHouseBoatGoodsSuccess.button1,Button1
-EventDock_SearchHouseBoatGoodsFaliure.text,The smell of the fish overwhlems your senses, making you gag uncontrollably and preventing you from continuing.
+EventDock_SearchHouseBoatGoodsFaliure.text,The smell of the fish overwhelms your senses, making you gag uncontrollably and preventing you from continuing.
 EventDock_SearchHouseBoatGoodsFaliure.button1,Continue
-EventDock_BlueKeyPickup.text,You notice a glint of metal amoungst the junk in front of you. You shove your hand in and pull it out, revealing a blue tag attached to a {c:QItemBrassKey}. On the tag is a drawing of a distorted brain, serving almost like a warning. Gain the {c:QItemBrassKey} Common Item. Then discard this Search token.
+EventDock_BlueKeyPickup.text,You notice a glint of metal amongst the junk in front of you. You shove your hand in and pull it out, revealing a blue tag attached to a {c:QItemBrassKey}. On the tag is a drawing of a distorted brain, serving almost like a warning. Gain the {c:QItemBrassKey} Common Item. Then discard this Search token.
 EventDock_BlueKeyPickup.button1,Continue
-EventDock_BlueItemPickup.text,Amoungst the junk you find a torn sheet of paper with notes scribbled on it. Reading the page, you find whats written on it to be complete nonsense. However, after you finish reading the words echo around your head, filling it with forbidden knowledge. Suffer 1 facedown Horror and gain the {c:QItemInstillBravery} Spell and 2 Clues. Then discard this Search token.
+EventDock_BlueItemPickup.text,Amongst the junk you find a torn sheet of paper with notes scribbled on it. Reading the page, you find whats written on it to be complete nonsense. However, after you finish reading the words echo around your head, filling it with forbidden knowledge. Suffer 1 facedown Horror and gain the {c:QItemInstillBravery} Spell and 2 Clues. Then discard this Search token.
 EventDock_BlueItemPickup.button1,Continue
-EventDock_BlueClue.text,In the junk you find a discarded psychiatric textbook. A bookmark has been left on an entry describing the phenomena of shared psychosis. In a given example, paitents in an asylum reported having the same hallucination of a god-like creature, preporting to be the source of their madness, demanding their subjugation. Gain 1 Clue. Then discard this Search token.
+EventDock_BlueClue.text,In the junk you find a discarded psychiatric textbook. A bookmark has been left on an entry describing the phenomena of shared psychosis. In a given example, patients in an asylum reported having the same hallucination of a god-like creature, preporting to be the source of their madness, demanding their subjugation. Gain 1 Clue. Then discard this Search token.
 EventDock_BlueClue.button1,Continue
 TokenDock_SearchDock2Goods.text,Cargo from the docked boat has been left on the dockside.
 TokenDock_SearchDock2Goods.button1,{action} Investigate
@@ -793,7 +793,7 @@ EventDock_SearchDock2GoodsSkillCheck.button2,Button2
 EventDock_SearchDock2GoodsSuccess.button1,Button1
 EventDock_SearchDock2GoodsFaliure.text,Your unpack what feels like half the carrying capacity of the small boat, without finding anything of potential interest.
 EventDock_SearchDock2GoodsFaliure.button1,Continue
-TokenDock_SearchRentalDockGoods.text,Amoungst the boats avaliable for rent lie various innocuous items.
+TokenDock_SearchRentalDockGoods.text,Amongst the boats available for rent lie various innocuous items.
 TokenDock_SearchRentalDockGoods.button1,{action} Investigate
 EventDock_SearchRentalDockGoodsSkillCheck.text,Inspecting the pile of boats you realise there are items hidden within the stacks. You start the strenuous job of moving the top boats off the piles ({strength}).
 EventDock_SearchRentalDockGoodsSkillCheck.button1,Confirm
@@ -805,9 +805,9 @@ TokenDock_ExploreSnackShack.button1,Button1
 TokenDock_ExploreHouseboat1.button1,Button1
 TokenDock_ExploreHouseboat2.button1,Button1
 TokenDock_ExploreRentalDock.button1,Button1
-EventDock_ExploreSnackShackNoKey.text,The flimy door on the small peir shack has been securely sealed by chains with brass key locks, despite appearing to hold nothing of value.
+EventDock_ExploreSnackShackNoKey.text,The flimsy door on the small pier shack has been securely sealed by chains with brass key locks, despite appearing to hold nothing of value.
 EventDock_ExploreSnackShackNoKey.button1,Continue
-EventDock_ExploreSnackShackKey.text,The flimy door on the small peir shack has been securely sealed by chains with brass key locks, despite appearing to hold nothing of value. You can explore only if you have the {c:QItemBrassKey} Unique Item.
+EventDock_ExploreSnackShackKey.text,The flimsy door on the small pier shack has been securely sealed by chains with brass key locks, despite appearing to hold nothing of value. You can explore only if you have the {c:QItemBrassKey} Unique Item.
 EventDock_ExploreSnackShackKey.button1,{action} Explore
 EventDock_ExploreSnackShackKey.button2,Cancel
 EventDock_ExploreRentalDockNoKey.text,The small shack housing the boat rental business has been padlocked shut by a silver lock.
@@ -822,11 +822,11 @@ EventDock_ExploreHouseboatKey.button1,{action} Explore
 EventDock_ExploreHouseboatKey.button2,Cancel
 EventDock_ExploreSnackShack.text,You take off the padlocks securing the chains in place, freeing the flimsy door as they fall to the floor. You cautiously tug at the door handle, revealing the interior of the shack. Discard this Explore token. 
 EventDock_ExploreSnackShack.button1,Continue
-EventDock_PlaceSearchBlueCrate.text,The inside of the shack is completely bare, apart from one cargo crate that has been placed in the center of the interior space. The container has been covered in blue marking and a strange energy hangs around it. This may contain the components you are looking for. Place a Search token as indicated.
+EventDock_PlaceSearchBlueCrate.text,The inside of the shack is completely bare, apart from one cargo crate that has been placed in the centre of the interior space. The container has been covered in blue marking and a strange energy hangs around it. This may contain the components you are looking for. Place a Search token as indicated.
 EventDock_PlaceSearchBlueCrate.button1,Continue
-SpawnDock_SnackShackDeepOneHybrid.text,Next to the crate a townsperson stands motionless, staring at it and with their back towards you. You fear what damage has been delt to this poor persons psyche by this vile object. You consider gently leading them out of the shack, but you stop as you spot the scales on the persons hands. They turn suddenly, revealing a face foaming at the mouth and barely resembling a humans. Spawn a {c:SpawnDock_SnackShackDeepOneHybrid} as indicated.
+SpawnDock_SnackShackDeepOneHybrid.text,Next to the crate a townsperson stands motionless, staring at it and with their back towards you. You fear what damage has been dealt to this poor persons psyche by this vile object. You consider gently leading them out of the shack, but you stop as you spot the scales on the persons hands. They turn suddenly, revealing a face foaming at the mouth and barely resembling a humans. Spawn a {c:SpawnDock_SnackShackDeepOneHybrid} as indicated.
 SpawnDock_SnackShackDeepOneHybrid.button1,Continue
-EventDock_SearchBlueCrate.text,A cargo crate has been placed in the center of the small shack. The container has been covered in blue marking and a strange energy hangs around it. This may contain the components you are looking for.
+EventDock_SearchBlueCrate.text,A cargo crate has been placed in the centre of the small shack. The container has been covered in blue marking and a strange energy hangs around it. This may contain the components you are looking for.
 TokenDock_SearchBlueCrate.button1,Button1
 EventDock_BlueCrateTrap.text,When you go to touch the box a sharp pain shoots through your hand and an unnatural scream echos through the night air. Each investigator in the Snack Shack suffers 1 facedown Horror. Then discard this Search token.
 EventDock_BlueCrateTrap.button1,Continue
@@ -834,7 +834,7 @@ EventDock_SearchBlueCrate.button1,{action} Open
 EventDock_ContinueCratePuzzle.text,The contents of the crate is still sealed away by magic energies. You can attempt the puzzle using {will} as an action.
 EventDock_ContinueCratePuzzle.button1,{action} Attempt
 EventDock_ContinueCratePuzzle.button2,Cancel
-EventDock_CratePuzzleStart.text,You reach for the crate, but magical energies stop you before you can touch the box. You use all of your willpower to fight the malign eneriges. Tap to attempt the puzzle using {will}.
+EventDock_CratePuzzleStart.text,You reach for the crate, but magical energies stop you before you can touch the box. You use all of your willpower to fight the malign energies. Tap to attempt the puzzle using {will}.
 EventDock_CratePuzzleStart.button1,Continue
 PuzzleDock_RitualComponents.button1,Complete
 EventWarehouse_PuzzleForensicEvidenceComplete.text,You eventually locate the passage being referenced, and tear it from the book for future reference. Contained in the passage is an important clue for your investigation. Gain the {c:QItemForensicEvidence} Unique Item. Then discard this Search token. The investigator holding the {c:QItemForensicEvidence} can view the associated clue by interacting with it in the app.
@@ -860,11 +860,11 @@ EventViewEvidence_RitualComponents_Blue_CondMad.button1,Button1
 EventDock_SearchBlueCrate.button2,Cancel
 SpawnDock_PierDeepOne.text,You hear a unnatural cry ring out in response from the bay. Through the serving window you spot a scaly creature rise up from the water next to the pier. Spawn a {c:SpawnDock_PierDeepOne} as indicated.
 SpawnDock_PierDeepOne.button1,Continue
-EventDock_ExploreHouseboat.text,You insert the key into the door, unlocking it with a click. Inside the boat is a cozy living space designed to house one resident. Discard all Explore tokens leading to the Cabin.
+EventDock_ExploreHouseboat.text,You insert the key into the door, unlocking it with a click. Inside the boat is a cosy living space designed to house one resident. Discard all Explore tokens leading to the Cabin.
 EventDock_ExploreHouseboat.button1,Continue
 EventDock_PlaceSearchGreenCrate.text,A strange crate has been pushed into the corner of the Cabin. Green runes embedded in the wood glow brightly, and a magical energy surrounds the container. This may contain the components you are looking for. Place a Search token as indicated.
 EventDock_PlaceSearchGreenCrate.button1,Continue
-SpawnDock_CabinCultLeader.text,Next to the crate a {c:SpawnDock_CabinCultLeader} mutters some incantations, persumably wards to prevent tampering. Upon noticing the moonlight spilling onto the floor next to him, the {c:SpawnDock_CabinCultLeader} spins around and locks eyes with you. Spawn a Preist of Dagon as indicated. This is a {c:SpawnDock_CabinCultLeader}.
+SpawnDock_CabinCultLeader.text,Next to the crate a {c:SpawnDock_CabinCultLeader} mutters some incantations, presumably wards to prevent tampering. Upon noticing the moonlight spilling onto the floor next to him, the {c:SpawnDock_CabinCultLeader} spins around and locks eyes with you. Spawn a Priest of Dagon as indicated. This is a {c:SpawnDock_CabinCultLeader}.
 SpawnDock_CabinCultLeader.button1,Continue
 EventDock_CultLeaderJeer.text,The {c:SpawnDock_CabinCultLeader} raises his fist and starts angrily yelling gibberish at you. While the words make absolutely no sense, the meaning behind them is clear.
 EventDock_CultLeaderJeer.button1,"""Do you do the bidding of Hastur?"""
@@ -897,7 +897,7 @@ EventDock_ExploreRentalDock.text,You turn the key and hear an audible click. The
 EventDock_ExploreRentalDock.button1,Continue
 EventDock_PlaceSearchRedCrate.text,On top of the counter a red crate has been placed. There is a faint glow coming from within the box, and a tag covered in ancient runes has been attached to it. This may contain the components you are looking for. Place a Search token as indicated.
 EventDock_PlaceSearchRedCrate.button1,Continue
-SpawnDock_RentalShackDeepOneHybrid.text,The owner of the rental business sits on a stool behind the counter, sleeping with his chin on his chest. You try not to wake him by gently maneuvering around the shack. However, a gust of wind outside slams the shack door shut. The man suddenly jerks awake, and affixes you with yellow alien eyes. Spawn a {c:SpawnDock_RentalShackDeepOneHybrid} as indicated.
+SpawnDock_RentalShackDeepOneHybrid.text,The owner of the rental business sits on a stool behind the counter, sleeping with his chin on his chest. You try not to wake him by gently manoeuvring around the shack. However, a gust of wind outside slams the shack door shut. The man suddenly jerks awake, and affixes you with yellow alien eyes. Spawn a {c:SpawnDock_RentalShackDeepOneHybrid} as indicated.
 SpawnDock_RentalShackDeepOneHybrid.button1,Continue
 TokenDock_SearchRedCrate.button1,Button1
 EventDock_SearchRedCrate.text,On top of the counter a red crate has been placed. There is a faint glow coming from within the box, and a tag covered in ancient runes has been attached to it. This may contain the components you are looking for.
@@ -911,16 +911,16 @@ EventDock_GreenCratePuzzleComplete.button1,Button1
 EventDock_RedCratePuzzleComplete.button1,Button1
 TokenDock_InteractExit.text,An investigator can trigger all investigators to leave this location at the end of the Investigation Phase. Once a location has been left, it cannot be returned to.
 TokenDock_InteractExit.button1,{action} Leave Commercial District
-EventDock_TriggerExit.text,You unanimously agree to depart these acursed streets for good. Discard this Interact token. At the end of the Investigator Phase, all investigators will leave this location.
+EventDock_TriggerExit.text,You unanimously agree to depart these accursed streets for good. Discard this Interact token. At the end of the Investigator Phase, all investigators will leave this location.
 EventDock_TriggerExit.button1,Continue
 EventDockEnd_MissionComplete.text,As you walk away from those haunted streets, you hear the faint signs of normal life returning to the cursed district. Clear the board. While the local people may never fully return to their original selves, you know that you have saved them from a fate worse than death.
 EventDockEnd_MissionComplete.button1,Continue
-EventDockEnd_ComponentsNotTaken.text,You sprint down the winding streets and away from the dock, not daring to look back. Clear the board. Your mind is haunted by the deathly quiet of the cold night air, an unusual occurance in a district that used to be so full of life. Each investigator suffers 2 Horror.
+EventDockEnd_ComponentsNotTaken.text,You sprint down the winding streets and away from the dock, not daring to look back. Clear the board. Your mind is haunted by the deathly quiet of the cold night air, an unusual occurrence in a district that used to be so full of life. Each investigator suffers 2 Horror.
 EventDockEnd_ComponentsNotTaken.button1,Continue
 EventDockEnd_RemainingMonsters.text,You dart between the winding streets, hiding in the darkness and out of sight of the horrors roaming the docks. Clear the board. As you make your getaway you hear the unmistakable sound of a childs scream, before it is abruptly cut off. Each investigator suffers {var:RemainingMonsters} facedown Horror.
 EventDockEnd_RemainingMonsters.button1,Continue
 UICutsceneFrame.button1,Continue
-UIPrologue_Text.uitext,You throw down the telegram you are reading and curse loudly.       \nHow could you have not seen this sooner? You cross-reference the   \ntranslated runes, but only find evidence that corroborates the story. \nThe telegram must be telling the truth. At the first light of              \ntommorrow morning, a ritual will be performed at the site of the    \nOld Governors Palace. A ritual to summon an Ancient One into    \nour world.                                                                                        \n\nYou stand up and pace around your office. You have spent the last  \nfew months occupied with your investigation into three local cults, \nbut you would have never imagined any of them capable of more   \nthan hosting tea parties. Clearly, you were mistaken.                       \n\nWhile the message you have received is a barely coherant ramble,   \nyou cannot risk ignoring it. It speaks of one of the cults you have   \nbeen following as the perpetrator of the vial ritual, with another     \none lending it aid. The third cult is said to be working against the  \nother two, but you find that fact to be of little solace.                     \n\nYou slide back into your chair and review the telegram. You            \ndesprately search for any clues identifying the cults being discussed, \nbut find nothing. The translated runes on your desk contain exact  \ninstructions on how to perform a banishment ritual capable of        \nstopping the Ancient Ones invasion. However, the ritual described \nrequires the name of the Ancient One being banished to be            \nperformed.                                                                                       \n\nYou curse again. You are short on leads and even shorter on time.   \nYou throw your jacket on, grab your gun, and head out into town. 
+UIPrologue_Text.uitext,You throw down the telegram you are reading and curse loudly.      \nHow could you have not seen this sooner? You cross-reference the  \ntranslated runes, but only find evidence that corroborates the story.\nThe telegram must be telling the truth. At the first light of              \ntommorrow morning, a ritual will be performed at the site of the    \nOld Governors Palace. A ritual to summon an Ancient One into    \nour world.                                                                                        \n\nYou stand up and pace around your office. You have spent the last  \nfew months occupied with your investigation into three local cults, \nbut you would have never imagined any of them capable of more   \nthan hosting tea parties. Clearly, you were mistaken.                       \n\nWhile the message you have received is a barely coherent ramble,   \nyou cannot risk ignoring it. It speaks of one of the cults you have   \nbeen following as the perpetrator of the vial ritual, with another     \none lending it aid. The third cult is said to be working against the  \nother two, but you find that fact to be of little solace.                     \n\nYou slide back into your chair and review the telegram. You            \ndesprately search for any clues identifying the cults being discussed, \nbut find nothing. The translated runes on your desk contain exact  \ninstructions on how to perform a banishment ritual capable of        \nstopping the Ancient Ones invasion. However, the ritual described \nrequires the name of the Ancient One being banished to be            \nperformed.                                                                                       \n\nYou curse again. You are short on leads and even shorter on time.   \nYou throw your jacket on, grab your gun, and head out into town. 
 EventStart.text,Each investigator begins with 2 Clue(s).
 EventStart.button1,Begin Scenario
 UIPrologue_Continue.button1,Button1
@@ -935,7 +935,7 @@ UIHouse_IntroContinue.button1,Button1
 UIDock_IntroContinue.uitext,Continue
 UIDock_IntroContinue.button1,Button1
 EventEliminated.button1,Button1
-UIEliminated_Text.uitext,The loss of your fellow investigator leaves the group in shambles.     \nYou struggle to continue the investigation, but the loss of your ally  \nproves devastating. Though you try your hardest to continue on,     \nyou simpily lack the manpower to make enough headway on           \nstopping the ritual.                                                                            \n\nBefore you know it, the sun crests the horizon and the town is         \nbathed in the orange light of dawn. You scan the Arkham skyline,   \nlooking for the Governors Palace. You spot it in the shadow of an   \nunnatural black cloud. As you watch, the cloud starts to consume    \nthe skyline, screams breifly echoing from each touched building       \nbefore being suddenly silenced.                                                         \n\nYou are too late. Within minutes, everything you know will be       \nreplaced with a reality of infinite horror and torture. You spare a    \nmoment to mourn the loss of our world, before cowardly putting   \nyour gun to your head and pulling the trigger.                                \n\n\n\n\n\n\n\n\n\n\n\n
+UIEliminated_Text.uitext,The loss of your fellow investigator leaves the group in shambles.     \nYou struggle to continue the investigation, but the loss of your ally  \nproves devastating. Though you try your hardest to continue on,     \nyou simpily lack the manpower to make enough headway on           \nstopping the ritual.                                                                            \n\nBefore you know it, the sun crests the horizon and the town is         \nbathed in the orange light of dawn. You scan the Arkham skyline,   \nlooking for the Governors Palace. You spot it in the shadow of an   \nunnatural black cloud. As you watch, the cloud starts to consume    \nthe skyline, screams briefly echoing from each touched building       \nbefore being suddenly silenced.                                                         \n\nYou are too late. Within minutes, everything you know will be       \nreplaced with a reality of infinite horror and torture. You spare a    \nmoment to mourn the loss of our world, before cowardly putting   \nyour gun to your head and pulling the trigger.                                \n\n\n\n\n\n\n\n\n\n\n\n
 EventEliminated_BanishCorrect.text,Your group fights valiantly but are ultimately overpowered by the priests and killed. Though you did not survive the fight, you were still able to foil the cults schemes and save our reality. All investigators have successfully prevented an ancient one invasion.
 UIPalace_Continue.uitext,Continue
 UIPalace_Continue.button1,Button1
@@ -946,18 +946,18 @@ EventPalace_PlaceExploresLobby.button1,Continue
 EventPalace_PlaceLobby.text,You burst through the front entrance of the Palace, determined to put an end to these vial cult schemes once and for all. Place the {c:TilePalace_Lobby} tile, a Wall, and your Investigator figures as indicated.
 EventPalace_BanishZharCorrect_CondPain.button1,Button1
 EventNextLocations_WarehouseHouseDock.button4,Travel to Palace
-EventNextLocation_PalaceConfirm.text,Are you sure you wish to travel to Governors Palace before visting all of the districts? You will not be able to leave the palace once you arrive.
+EventNextLocation_PalaceConfirm.text,Are you sure you wish to travel to Governors Palace before visiting all of the districts? You will not be able to leave the palace once you arrive.
 EventNextLocation_PalaceConfirm.button1,Travel to Palace
 EventNextLocation_PalaceConfirm.button2,Cancel
-EventNextLocations_WarehouseHouse.text,Though you feel that you gained some valuable information in the Commercial District, you still feel there is more to learn elsewhere in Arkham before traveling to Governors palace.
+EventNextLocations_WarehouseHouse.text,Though you feel that you gained some valuable information in the Commercial District, you still feel there is more to learn elsewhere in Arkham before travelling to Governors palace.
 EventNextLocations_WarehouseHouse.button1,Travel to Industrial District
 EventNextLocations_WarehouseHouse.button2,Travel to Residential District
 EventNextLocations_WarehouseHouse.button3,Travel to Palace
-EventNextLocations_WarehouseDock.text,Though you feel that you gained some valuable information in the Residential District, you still feel there is more to learn elsewhere in Arkham before traveling to Governors palace.
+EventNextLocations_WarehouseDock.text,Though you feel that you gained some valuable information in the Residential District, you still feel there is more to learn elsewhere in Arkham before travelling to Governors palace.
 EventNextLocations_WarehouseDock.button1,Travel to Industrial District
 EventNextLocations_WarehouseDock.button2,Travel to Commercial District
 EventNextLocations_WarehouseDock.button3,Travel to Palace
-EventNextLocations_HouseDock.text,Though you feel that you gained some valuable information in the Industrial District, you still feel there is more to learn elsewhere in Arkham before traveling to Governors palace.
+EventNextLocations_HouseDock.text,Though you feel that you gained some valuable information in the Industrial District, you still feel there is more to learn elsewhere in Arkham before travelling to Governors palace.
 EventNextLocations_HouseDock.button1,Travel to Residential District
 EventNextLocations_HouseDock.button2,Travel to Commercial District
 EventNextLocations_HouseDock.button3,Travel to Palace
@@ -971,7 +971,7 @@ EventNextLocation_Dock.text,After investigating two of the cults, your understan
 EventNextLocation_Dock.button1,Travel to Commercial District
 EventNextLocation_Dock.button2,Travel to Palace
 EventPalace_PlaceLounge.text,You throw open the door to reveal a small lounge for entertaining waiting visitors. Discard this Explore token and place the {c:TilePalace_Lounge} tile as indicated.
-UINoHours_Text.uitext,You catch a glimse at your wristwatch and recoil in horror. Has     \nthat much time passed already? You were so absorbed in your        \ninvestigation that you failed to stay on top of the approaching       \ndawn. You rush outside and peer up at the night sky. Your heart    \nsinks as you spot faint orange rays of sunlight to the east. You        \nsprint at full speed towards the palace, but to no avail.                    \n\nThe sun crests the horizon and the town is bathed in the orange    \nlight of dawn. You scan the Arkham skyline, looking for the          \nGovernors Palace. You spot it in the shadow of an unnatural black\ncloud. As you watch, the cloud starts to consume the skyline,         \nscreams breifly echoing from each touched building before being   \nsuddenly silenced.                                                                           \n\nYou are too late. Within minutes, everything you know will be     \nreplaced with a reality of infinite horror and torture. You spare a   \nmoment to mourn the loss of our world, before cowardly putting  \nyour gun to your head and pulling the trigger.                               \n\n\n\n\n\n\n\n\n\n\n\n
+UINoHours_Text.uitext,You catch a glimpse at your wristwatch and recoil in horror. Has   \nthat much time passed already? You were so absorbed in your        \ninvestigation that you failed to stay on top of the approaching       \ndawn. You rush outside and peer up at the night sky. Your heart    \nsinks as you spot faint orange rays of sunlight to the east. You        \nsprint at full speed towards the palace, but to no avail.                    \n\nThe sun crests the horizon and the town is bathed in the orange    \nlight of dawn. You scan the Arkham skyline, looking for the          \nGovernors Palace. You spot it in the shadow of an unnatural black\ncloud. As you watch, the cloud starts to consume the skyline,         \nscreams briefly echoing from each touched building before being   \nsuddenly silenced.                                                                           \n\nYou are too late. Within minutes, everything you know will be     \nreplaced with a reality of infinite horror and torture. You spare a   \nmoment to mourn the loss of our world, before cowardly putting  \nyour gun to your head and pulling the trigger.                               \n\n\n\n\n\n\n\n\n\n\n\n
 EventEliminated_NotPalace.text,The death of your fellow investigator prevents you from banishing the Ancient One before it invades our reality.
 TokenPalace_ExploreHallCorner2Lobby1.text,An unmarked door leads further into the palace.
 TokenPalace_ExploreHallCorner2Lobby1.button1,{action} Explore
@@ -992,7 +992,7 @@ TokenPalace_ExploreAtticBallroom.text,A small access door leads further into the
 TokenPalace_ExploreAtticBallroom.button1,{action} Explore
 TokenPalace_ExploreBallroomAttic.text,An unmarked door leads further into the palace.
 TokenPalace_ExploreBallroomAttic.button1,{action} Explore
-EventPalace_PlaceHallCorner2HallEnd.text,Behind the door is a small access corridor seperating the public spaces of the palace from the private ones. The sound of chanting is audibly quieter here. Place the {c:TilePalace_HallCorner2} and {c:TilePalace_HallEnd} tiles and a Wall as indicated and discard all Explore tokens leading to them.
+EventPalace_PlaceHallCorner2HallEnd.text,Behind the door is a small access corridor separating the public spaces of the palace from the private ones. The sound of chanting is audibly quieter here. Place the {c:TilePalace_HallCorner2} and {c:TilePalace_HallEnd} tiles and a Wall as indicated and discard all Explore tokens leading to them.
 EventPalace_PlaceHallCorner2HallEnd.button1,Continue
 TokenPalace_ExploreHallEnd.text,An unmarked door leads further into the palace.
 SpawnPalace_HallEndCultist.button1,Continue
@@ -1008,13 +1008,13 @@ EventImmediateExitTrigger.button1,Button1
 EventPalace_PlaceLounge.button1,Continue
 EventPalace_PlaceExploreAtticLounge.text,A door at the far end of the room has been boarded over with planks and nails. Place an Explore token as indicated.
 EventPalace_PlaceExploreAtticLounge.button1,Continue
-EventPalace_PlaceSearchTrapdoor.text,On the far side of the room, near the giant windows spilling in moonlight, you notice something peculiar. A patch of floor is noticibly cleaner than the floor next to it, almost as though a rug that was kept there for years was recently moved. Place a Search token as indicated.
+EventPalace_PlaceSearchTrapdoor.text,On the far side of the room, near the giant windows spilling in moonlight, you notice something peculiar. A patch of floor is noticeably cleaner than the floor next to it, almost as though a rug that was kept there for years was recently moved. Place a Search token as indicated.
 EventPalace_PlaceSearchTrapdoor.button1,Continue
 SpawnPalace_LoungeHuntingHorror.text,From the other side of the room you hear an incomprehensible sound coming from an indescribable creature of great horror. Spawn a {c:SpawnPalace_LoungeHuntingHorror} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnPalace_LoungeHuntingHorror.button1,Continue
 SpawnPalace_BallroomDeepOne.text,At the far end of the ballroom, a slimy creature slips and slides on the polished floor. While at first comical, the creature quickly finds its footing once it spots you. Spawn a {c:SpawnPalace_BallroomDeepOne} as indicated. Then suffer 1 Horror ({will} negates).
 SpawnPalace_BallroomDeepOne.button1,Continue
-TokenPalace_SearchTrapdoor.text,A patch of floor is noticibly cleaner than the floor next to it, almost as though a rug that was kept there for years was recently moved.
+TokenPalace_SearchTrapdoor.text,A patch of floor is noticeably cleaner than the floor next to it, almost as though a rug that was kept there for years was recently moved.
 TokenPalace_SearchTrapdoor.button1,{action} Investigate
 EventPalace_SearchTrapdoorSkillCheck.text,You lean down and examine the floorboards, looking for anything that might be hiding there ({observation}).
 EventPalace_SearchTrapdoorSkillCheck.button1,Confirm
@@ -1026,8 +1026,8 @@ EventPalace_ExploreAtticBallroomSkillCheck.button1,Confirm
 EventPalace_ExploreAtticBallroomSkillCheck.button2,Button2
 EventPalace_ExploreAtticBallroomSuccess.text,You pull on the door until its warped frame finally gives way, releasing the door and letting it swing open. You peer through the doorway, seeing the attic space of the palace on the other side. Discard this Explore token.
 EventPalace_ExploreAtticBallroomSuccess.button1,Continue
-UIHouse_IntroText.uitext,"You wander down the endless rows of houses but see nothing            \nuntoward. You go to return to your car when you spot a man            \naimlessly wandering the empty streets. Upon seeing you he stops      \nsuddenly and begins walking straight towards you. You nervously     \nfumble in your jacket for a weapon to defend yourself, but fail to      \ngrab one before the man makes it to within striking distance of you. \n\nThankfully, the man does not attack you. Rather, he seems relieved  \nto see you. ""I'm sorry to bother you, but I need help and nobody is  \nanswering their door."" You ask the man what is wrong and he          \nexplains, ""I was going to visit my sister and her family, but when I   \narrived at their house they were not answering the door. I looked     \nthrough the windows and saw that their lights were on.                    \n\n""I am worried about my sisters saftey. She has gotten herself             \ninvolved with some unsavoury characters as of late. I think some of \nthem were in her house, as I could hear voices inside that did not     \nbelong to her or anyone else in her family. They are meant to be at  \nhome tonight, as they had planned to have dinner with me, but       \nthere is no sign of them.""                                                                  \n\nYou ask him where the house is and he gives you an address and      \ndirections. ""She has a husband and a little boy and girl, please make\nsure they are safe too. If you can just get them out of the house,       \nthey can find their way to my place where it is safe."" The man          \nthanks you again before hurrying off into the sea of houses. You get \nin your car and follow the directions given to you.                            \n\n"
-UIWarehouse_IntroText.uitext,You do not make it far into the lines of industrial buildings before    \nencountering some locals wandering the street, brandishing              \nweapons covered in dark sticky blood. You fear that an evil might    \nhave possessed these good people, forcing them to commit               \nunspeakable atrocities against their will. However, when they spot    \nyou they beg you to return to your car and leave the district for        \nyour own saftey.                                                                                \n\nYou ask them to explain the situation. They tell you fantastical        \nstories of animals bigger than bears, but unlike any creature known \nto man, attacking local workers in the streets and buildings all over \nthe district. You are skeptical of these stories, until an awful creature\nsuddenly jumps out of a nearby alley and besets the group. With     \ngreat difficulty they overpower the creature and kill it, but not         \nbefore losing one of their own in the fight.                                       \n\nThe group again begs you to leave, but you instead ask that they     \ntell you where these creatures are coming from. They try to warn    \nyou off going there, but after much insistence tell you about an old \nwarehouse that had been only recently decommissioned.                 \nNeighboring buildings reported hearing strange noises coming        \nfrom within, and chalked it up to an animal infestation. However,  \neverybody who has entered the building since has not made it back \nout again.                                                                                         \n\nYou thank the group and wish them luck in their endevours, before\nheading out in the direction of the old warehouse. As you walk       \naway, you hear members of the group utter quiet prayers for your   \nimmortal soul.                                                                                 
+UIHouse_IntroText.uitext,"You wander down the endless rows of houses but see nothing            \nuntoward. You go to return to your car when you spot a man            \naimlessly wandering the empty streets. Upon seeing you he stops      \nsuddenly and begins walking straight towards you. You nervously     \nfumble in your jacket for a weapon to defend yourself, but fail to      \ngrab one before the man makes it to within striking distance of you. \n\nThankfully, the man does not attack you. Rather, he seems relieved  \nto see you. ""I'm sorry to bother you, but I need help and nobody is  \nanswering their door."" You ask the man what is wrong and he          \nexplains, ""I was going to visit my sister and her family, but when I   \narrived at their house they were not answering the door. I looked     \nthrough the windows and saw that their lights were on.                    \n\n""I am worried about my sisters safety. She has gotten herself             \ninvolved with some unsavoury characters as of late. I think some of \nthem were in her house, as I could hear voices inside that did not     \nbelong to her or anyone else in her family. They are meant to be at  \nhome tonight, as they had planned to have dinner with me, but       \nthere is no sign of them.""                                                                  \n\nYou ask him where the house is and he gives you an address and      \ndirections. ""She has a husband and a little boy and girl, please make\nsure they are safe too. If you can just get them out of the house,       \nthey can find their way to my place where it is safe."" The man          \nthanks you again before hurrying off into the sea of houses. You get \nin your car and follow the directions given to you.                            \n\n"
+UIWarehouse_IntroText.uitext,You do not make it far into the lines of industrial buildings before    \nencountering some locals wandering the street, brandishing              \nweapons covered in dark sticky blood. You fear that an evil might    \nhave possessed these good people, forcing them to commit               \nunspeakable atrocities against their will. However, when they spot    \nyou they beg you to return to your car and leave the district for        \nyour own safety.                                                                                \n\nYou ask them to explain the situation. They tell you fantastical        \nstories of animals bigger than bears, but unlike any creature known  \nto man, attacking local workers in the streets and buildings all over  \nthe district. You are skeptical of these stories, until an awful              \ncreature suddenly jumps out of a nearby alley and besets the group.  \nWith great difficulty they overpower the creature and kill it, but       \nnot before losing one of their own in the fight.                                 \n\nThe group again begs you to leave, but you instead ask that they     \ntell you where these creatures are coming from. They try to warn    \nyou off going there, but after much insistence tell you about an old \nwarehouse that had been only recently decommissioned.                 \nNeighboring buildings reported hearing strange noises coming        \nfrom within, and chalked it up to an animal infestation. However,  \neverybody who has entered the building since has not made it back \nout again.                                                                                         \n\nYou thank the group and wish them luck in their endeavours,        \nbefore heading out in the direction of the old warehouse. As you    \nwalk away, you hear members of the group utter quiet prayers for  \nyour immortal soul.                                                                        
 UIDock_IntroText.uitext,"You wander past the store fronts of various shops, most of them        \nclosed for the night. In the few that are still open, the shopkeepers     \nare uncharacteristically inhospitable. Most refuse to engage in            \nconversation and some even refuse to let you inside. Just as you are    \nready to give up and investigate elsewhere, a mysterious object in a    \nshop window catches your attention.                                                  \n\nWhat would at first glance appear to be a novelty candlestick, you     \ninstantly recognise as a vital component in rituals just like the one     \nhappening at first light tomorrow morning. You peer inside the         \nshop and notice the shop keeper still in there, attempting to hide       \nher presence. You walk up to the front door and hammer on it          \nrepeatedly until your presence can no longer be ignored.                    \n\nThe woman throws open the door and snarls ""We are closed!"" She   \ngoes to slam the door shut but you grab it and hold it open,              \ndemanding to know where she got the component from. After a        \nbrief struggle the woman eventually relents and explains,                   \n\n""I had a lot of people coming into my store and asking for that, so    \nI decided to get it supplied to my store. The first order arrived two   \nweeks ago, and ever since then nothing but misfortune has fallen      \nupon me and my shop. Everybody who has walked out of this shop \nwith one has met an unfortunate end. Another batch arrived three   \ndays ago on a boat, but I do not dare go to the docks to collect it.""  \n\nYou thank the woman and apologise for the intrusion, before          \nheading straight to the dockside. You must retreive the remaining   \nritual components before they can cause any more damage.             "
 EventDock_WomanNote.text,"You unfurl the note and read it carefully. ""Open only the crate decorated with the colour of the god of madness. Your actions have not gone unnoticed investigators. Good luck, for everybodys sake."""
 EventPalace_SearchTrapdoorFaliure.text,You curse as you see nothing untoward.
@@ -1093,7 +1093,7 @@ EventPalace_SpawnYig_CondLust.button1,Button1
 EventPalace_SpawnYig_CondMad.button1,Button1
 EventPalace_SpawnZhar_CondPain.button1,Button1
 EventPalace_SpawnZhar_CondLust.button1,Button1
-EventErrorState.text,!! CRITICAL ERROR !!\n\n{action} You have reached a game state that should not be accessible through normal gameplay. Your scenario may or may not have broken in a way that makes it impossible to continue.\n\n{clue} Please raise a new issue at https://github.com/EwenDC/ValkyrieConsumingShadow/issues with your savegame attached and a list of reproduction steps.\n\n{success} I apologise profusely for the inconvenience. To make up for it, below is an instant win button (although I would kindly reccomend restarting the scenario instead of using that button, unless you were almost at the end anyway).
+EventErrorState.text,!! CRITICAL ERROR !!\n\n{action} You have reached a game state that should not be accessible through normal gameplay. Your scenario may or may not have broken in a way that makes it impossible to continue.\n\n{clue} Please raise a new issue at https://github.com/EwenDC/ValkyrieConsumingShadow/issues with your savegame attached and a list of reproduction steps.\n\n{success} I apologise profusely for the inconvenience. To make up for it, below is an instant win button (although I would kindly recommend restarting the scenario instead of using that button, unless you were almost at the end anyway).
 EventPalace_SpawnZhar_CondMad.button1,Button1
 EventErrorState.button1,Continue Scenario
 EventErrorState.button2,Instant Win
@@ -1147,12 +1147,12 @@ CustomMonsterPriestYig.info,-
 CustomMonsterPriestHastur.monstername,Priest of Hastur
 CustomMonsterPriestZhar.info,-
 CustomMonsterPriestYig.monstername,Priest of Yig
-SpawnPalace_AtticPriestHastur.text,"The first robed figure takes off their hood and turns towards you. ""How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!"" Spawn a Preist of Dagon as indicated. This is the {c:SpawnPalace_AtticPriestHastur}."
+SpawnPalace_AtticPriestHastur.text,"The first robed figure takes off their hood and turns towards you. ""How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!"" Spawn a Priest of Dagon as indicated. This is the {c:SpawnPalace_AtticPriestHastur}."
 CustomMonsterPriestZhar.monstername,Priest of Zhar
 SpawnPalace_AtticPriestHastur.button1,Continue
 SpawnPalace_AtticPriestYig.button1,Continue
-SpawnPalace_AtticPriestZhar.text,"The first robed figure takes off their hood and turns towards you. ""How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!"" Spawn a Preist of Dagon as indicated. This is the {c:SpawnPalace_AtticPriestZhar}."
-SpawnPalace_AtticPriestYig.text,"The first robed figure takes off their hood and turns towards you. ""How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!"" Spawn a Preist of Dagon as indicated. This is the {c:SpawnPalace_AtticPriestYig}."
+SpawnPalace_AtticPriestZhar.text,"The first robed figure takes off their hood and turns towards you. ""How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!"" Spawn a Priest of Dagon as indicated. This is the {c:SpawnPalace_AtticPriestZhar}."
+SpawnPalace_AtticPriestYig.text,"The first robed figure takes off their hood and turns towards you. ""How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!"" Spawn a Priest of Dagon as indicated. This is the {c:SpawnPalace_AtticPriestYig}."
 SpawnPalace_AtticPriestZhar.button1,Continue
 CustomMonsterChildHastur.info,-
 CustomMonsterChildYig.info,-
@@ -1184,7 +1184,7 @@ UICutsceneEnd.uitext,The End
 EventEliminated_NotPalace.button1,Continue
 EventEliminated_Palace.text,The death of your fellow investigator prevents you from banishing the Ancient One before it invades our reality.
 EventEliminated_Palace.button1,Continue
-UIPalace_EliminatedText.uitext,The loss of your fellow investigator leaves the group in shambles.     \nYou struggle to continue the investigation, but the loss of your ally  \nproves devastating. Though you try your hardest to continue on,     \nyou simpily lack the manpower to make enough headway on           \nstopping the ritual.                                                                            \n\nBefore you know it, the sun crests the horizon and the town is         \nbathed in the orange light of dawn. Though the dawns vibrant        \nlight pours through the palace windows, the inside of the palace is  \ndarker than ever before. You desprately fling open doors, trying       \nyour hardest to find the summoning ritual, but only succeeding in  \nbecoming hopelessly lost.                                                                 \n\nHad the ritual even been here in the first place? Your broken mind  \ncannot figure it out. You begin to question the nature of your         \nreality, as your last remaining shred of sanity slips away. Suddenly,  \na loud crash deafens your ears as the roof of the palace is torn off    \nby a being beyond human comprehension.                                      \n\nYou are too late. Within minutes, everything you know will be       \nreplaced with a reality of infinite horror and torture. You spare a    \nmoment to mourn the loss of our world, before cowardly putting   \nyour gun to your head and pulling the trigger.                                \n\n\n\n\n\n\n\n
+UIPalace_EliminatedText.uitext,The loss of your fellow investigator leaves the group in shambles.     \nYou struggle to continue the investigation, but the loss of your ally  \nproves devastating. Though you try your hardest to continue on,     \nyou simply lack the manpower to make enough headway on           \nstopping the ritual.                                                                            \n\nBefore you know it, the sun crests the horizon and the town is         \nbathed in the orange light of dawn. Though the dawns vibrant        \nlight pours through the palace windows, the inside of the palace is  \ndarker than ever before. You desperately fling open doors, trying     \nyour hardest to find the summoning ritual, but only succeeding in  \nbecoming hopelessly lost.                                                                 \n\nHad the ritual even been here in the first place? Your broken mind  \ncannot figure it out. You begin to question the nature of your         \nreality, as your last remaining shred of sanity slips away. Suddenly,  \na loud crash deafens your ears as the roof of the palace is torn off    \nby a being beyond human comprehension.                                      \n\nYou are too late. Within minutes, everything you know will be       \nreplaced with a reality of infinite horror and torture. You spare a    \nmoment to mourn the loss of our world, before cowardly putting   \nyour gun to your head and pulling the trigger.                                \n\n\n\n\n\n\n\n
 EventPalace_PriestHasturDefeated.button1,Button1
 EventPalace_PriestYigDefeated.button1,Button1
 EventPalace_PriestZharDefeated.button1,Button1
@@ -1219,7 +1219,6 @@ UIPalace_GodWinText.uitext,If history books were still to be written, they would
 UIPalace_IntroText.uitext,You drive your car up the long and winding road leading to            \nGovernors Palace. While there are several cars parked outside, the   \nbuilding itself is eerily quiet. A thought flashes in your head, what if\nthe translation was wrong? What if there is no invasion happening?\nYou disregard the idea. Even if it were true, you cannot risk what    \nwill happen if the translations are correct.\n                                        \n\nYou pause to consider all of the evidence you have collected so far.  \nYou are unsure if it will be enough, but then again, no amount of   \nevidence could sufficiently prepare you for something like this. You\nsteel yourself, before approaching the palaces grand entrance.         \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 UIPalace_BanishCorrectText.uitext,You have succeeded in dismantling the vile cults schemes and saved \nour reality as we know it. The warm light of the morning sun          \nbathes you body, and you give yourself a moment to take in the       \nnatural beauty surrounding the palace. Thanks to you, these grand  \noaks and everything else of beauty in this world will continue to      \nexist.                                                                                                 \n\nThe sound of numerous patrol cars driving up the palace driveway  \nsnaps you out of your rapture. The commotion in the palace must  \nhave been observed in town. Not wishing to be caught and forced  \nto explain the unexplainable, you sneak out a servant entrance and \npast the policemen entering the palace.                                            \n\nYou leave all your collected evidence on the bonnet of a police        \nvehicle, before departing in your car. With that evidence you left,   \nthe police will be able to arrest any remaining cult members            \nthemselves. Today is a red letter day in the ongoing fight between   \nthe known and the unknowable. However, though the battle was    \nwon, the war was certainly not.                                                        \n\nYou throw yourself into your bedsheets and get some much             \ndeserved rest. Tomorrow, a new battle will almost certainly begin,   \nand the cycle of defending reality will continue on as it has done for\ncenturies.                                                                                          \n\n\n\n\n
 UIPalace_BanishIncorrectText.uitext,Somehow, against all of the odds, you came face to face with an       \ninterdimensional being and lived to tell the tale. The warm light of  \nthe morning sun bathes you body, and you give yourself a moment  \nto take in the natural beauty surrounding the palace. Though the     \npalaces grand oaks are of undeniable beauty, they do little to calm    \nyour frayed nerves.                                                                            \n\nThe sound of numerous patrol cars driving up the palace driveway   \nsnaps you out of your trance. What happened in the palace would   \nhave almost certainly been seen from town. Not wishing to start a   \nfight with the police, you hand yourself in.                                       \n\nAfter a lengthy interrogation, you give the police enough evidence   \nto arrest the remaining cult members, and are released from             \ncustody. Though today is a red letter day, you cannot help but feel  \nas if all you have succeeded in doing is delaying the inevitable.        \n\nIn the coming years you will live in a state of constant fear and       \nparanoia. Your dreams will be haunted by visions of the ancient      \none you miraculously bested, enacting its cruel torturous revenge    \non you. You will be constantly on edge, waiting for the return of     \n the ancient being whose evil plans you know you only temporarily   \nfoiled.                                                                                               \n\nOn your deathbed you will be a broken mess, young and alone,      \nwith no trust in anyone but yourself. You will not live long enough\nto see the ancient ones return, or to stop it.                                     \n\n
-EventStart.button2,TEST CUTSCENE PRIESTS WIN
-UIPalace_PriestsWinText.uitext,Though you fight valiantly, the priests manage to overpower you     \nand kill you where you stand. Their victory, however, is short lived. \nAs they try to leave the scene of the crime they are caught by police  \nand arrested. They are charged with your murder and sentenced to   \nbe hanged. The evidence found in your office and on your person is \nused to convict the remaining cult members, putting a permanent    \nend to their catastrophic rituals and vile schemes.                              \n\nYour investigation work single-handedly stopped an invasion of our\nreality and helped take down three cults, though you did not live to \nsee it happen. Your funeral is a small affair with only one attendee.   \nA police officer, who admired your valiant and unsung work, and    \nwished to spare you from a unremembered passing.                          \n\nYour death was a red letter day. It marked a decisive victory in the   \nbattle between the known and the unknowable. However, though   \nthe battle was won, the war was certainly not. Your death marks a   \nsignificant blow to the effort against the evil cosmic forces lurking   \nin the shadows.                                                                                 \n\nThough you can no longer fight to defend our reality, your actions  \nwill inspire a whole new generation of investigators. Ready to          \nexplore topics others dismiss. Ready to go places others do not        \ndare. Ready to fight that which would paralyse most men with fear.\n\n\n\n\n\n
+UIPalace_PriestsWinText.uitext,Though you fight valiantly, the priests manage to overpower you     \nand kill you where you stand. Their victory, however, is short lived. \nAs they try to leave the scene of the crime they are caught by police  \nand arrested. They are charged with your murder and sentenced to   \nbe hanged. The evidence found in your office and on your person is \nused to convict the remaining cult members, putting a permanent    \nend to their catastrophic rituals and vile schemes.                              \n\nYour investigation work singlehandedly stopped an invasion of our  \nreality and helped take down three cults, though you did not live to \nsee it happen. Your funeral is a small affair with only one attendee.   \nA police officer, who admired your valiant and unsung work, and    \nwished to spare you from a unremembered passing.                          \n\nYour death was a red letter day. It marked a decisive victory in the   \nbattle between the known and the unknowable. However, though   \nthe battle was won, the war was certainly not. Your death marks a   \nsignificant blow to the effort against the evil cosmic forces lurking   \nin the shadows.                                                                                 \n\nThough you can no longer fight to defend our reality, your actions  \nwill inspire a whole new generation of investigators. Ready to          \nexplore topics others dismiss. Ready to go places others do not        \ndare. Ready to fight that which would paralyse most men with fear.\n\n\n\n\n\n
 quest.authors_short,Ewen Cameron
 quest.synopsys,You must identify and stop a cult from summoning an Ancient One before they can complete the ritual.
