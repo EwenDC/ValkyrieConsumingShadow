@@ -1,5 +1,5 @@
 .,English
-quest.name,The Consuming Shadow (v1.1)
+quest.name,The Consuming Shadow (v1.2)
 quest.authors,"Ewen Cameron\nMark J. Hadley"
 TokenHouse_SearchEntryTable.button1,{action} Investigate
 EventHouse_PlaceYard1.button1,Continue
@@ -733,7 +733,7 @@ SpawnDock_CabinCultLeader.button1,Continue
 EventDock_CultLeaderJeer.text,The {c:SpawnDock_CabinCultLeader} raises his fist and starts angrily yelling gibberish at you. While the words make absolutely no sense, the meaning behind them is clear.
 EventDock_CultLeaderJeer.button1,Do you do the bidding of Hastur?
 EventDock_CultLeaderJeer.button2,Why lose so much just to serve Yig?
-EventDock_CultLeaderJeer.button3,Madman, did Zhar take your mind?
+EventDock_CultLeaderJeer.button3,What lies has Zhar fed you madman?
 EventDock_CultLeaderJeer_Correct.text,The {c:SpawnDock_CabinCultLeader} staggers back, looking visibly shocked. Clearly, you have hit the nail on the head. Gain 2 Clues.
 EventDock_CultLeaderJeer_Correct.button1,Continue
 EventDock_CultLeaderJeer_IncorrectPositive.text,The {c:SpawnDock_CabinCultLeader} gives you a confused look, before bursting into laughter. Clearly, you failed to name his master, though he did not resent the name you used instead. Gain 1 Clue.
@@ -785,7 +785,7 @@ UIEliminated_Text.uitext,|||<align="left">The loss of your fellow investigator l
 EventEliminated_BanishCorrect.text,Your group fights valiantly but are ultimately overpowered by the priests and killed. Though you did not survive the fight, you were still able to foil the cults schemes and save our reality. All investigators have successfully prevented an ancient one invasion.
 EventPalace_PlaceLobby.button1,Continue
 EventPalace_PlaceExploresLobby.button1,Continue
-EventPalace_PlaceLobby.text,You burst through the front entrance of the Palace, determined to put an end to these vial cult schemes once and for all. Place the {c:TilePalace_Lobby} tile, a Wall, and your Investigator figures as indicated.
+EventPalace_PlaceLobby.text,You burst through the front entrance of the Palace, determined to put an end to these vile cult schemes once and for all. Place the {c:TilePalace_Lobby} tile, a Wall, and your Investigator figures as indicated.
 EventNextLocations_WarehouseHouseDock.button4,Travel to Palace
 EventNextLocation_PalaceConfirm.text,Are you sure you wish to travel to Governors Palace before visiting all of the districts? You will not be able to leave the palace once you arrive.
 EventNextLocation_PalaceConfirm.button1,Travel to Palace
@@ -889,12 +889,12 @@ EventPalace_PlaceExploreBallroomAttic.text,An unmarked door leads further into t
 TokenPalace_InteractSummoningRitual.button1,{action} Disrupt Ritual
 EventPalace_InteractSummoningRitualSkillCheck.text,You begin summoning energies for the counter-ritual, your mind racing as you wonder if you have enough information to complete the spell ({will}).
 EventPalace_InteractSummoningRitualSkillCheck.button1,Confirm
-EventPalace_InteractSummoningRitualFaliure.text,Your mind is overtaken with doubt and you falter, causing the summoned energies to dissapate.
+EventPalace_InteractSummoningRitualFaliure.text,Your mind is overtaken with doubt and you falter, causing the summoned energies to dissipate.
 EventPalace_InteractSummoningRitualFaliure.button1,Continue
 EventPalace_InteractSummoningRitualSuccess.text,You see the magical energies of the summoning ritual give way to the energies of your counter-ritual, and you know it is time to begin your spell. Discard this Interact token.
 TokenPalace_InteractSummoningRitual.text,Two robed figures stand around a summoning circle, their eyes glazed over as they chant dark magic. When you try to approach them, the magics of the ritual knock you back. You will have to begin the counter-ritual to stop them.
 EventPalace_InteractSummoningRitualSuccess.button1,Continue
-EventPalace_CounterRitual_MinorQ1.text,|||You speak in ancient tounge, "To the one who wishes to violate our whole, begone your vile shade of..."|||
+EventPalace_CounterRitual_MinorQ1.text,|||You speak in ancient tongue, "To the one who wishes to violate our whole, begone your vile shade of..."|||
 EventPalace_CounterRitual_MinorQ1.button1,Red
 EventPalace_PlaceExploresLobby.text,The sounds of chanting echo through the structure of the building from somewhere above where you are standing. Five unmarked doors lead into the palace. Place Explore tokens as indicated.
 EventPalace_CounterRitual_MinorFaliure.button1,Continue
@@ -946,7 +946,7 @@ EventPalace_CounterRitual_YigSuccess.text,You complete the counter-ritual to ban
 EventPalace_CounterRitual_YigSuccess.button1,Continue
 EventPalace_CounterRitual_ZharSuccess.text,You complete the counter-ritual to banish Zhar from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
 EventPalace_CounterRitual_ZharSuccess.button1,Continue
-EventPalace_CounterRitual_MinorFaliure.text,You complete the counter-ritual to banish the ancient one. The summoning ritual faulters, inhibited by your spell. However, your counter-ritual, weakened by mistakes made while casting it, is unable to stop the summoning ritual's completion entirely. Each investigator suffers 3 Horror.
+EventPalace_CounterRitual_MinorFaliure.text,You complete the counter-ritual to banish the ancient one. The summoning ritual falters, inhibited by your spell. However, your counter-ritual, weakened by mistakes made while casting it, is unable to stop the summoning ritual's completion entirely. Each investigator suffers 3 Horror.
 CustomMonsterPriestHastur.info,-
 CustomMonsterPriestYig.info,-
 CustomMonsterPriestHastur.monstername,Priest of Hastur
