@@ -1,5 +1,5 @@
 .,English
-quest.name,The Consuming Shadow (v1.2)
+quest.name,The Consuming Shadow (v1.21)
 quest.authors,"Ewen Cameron\nMark J. Hadley"
 TokenHouse_SearchEntryTable.button1,{action} Investigate
 EventHouse_PlaceYard1.button1,Continue
