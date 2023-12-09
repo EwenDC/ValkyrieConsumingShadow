@@ -1,0 +1,8 @@
+﻿1,2,3,4,5,6
+Industrial,Industrial,,,,
+Residential,,Residential,Residential,,
+,,Industrial,,,
+Commercial,Commercial,Commercial,Commercial,Commercial,Commercial
+,Residential,,,,Residential
+,,,Industrial,Industrial,Industrial
+,,,,Residential,

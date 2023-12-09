@@ -505,7 +505,7 @@ EventInteractExit.button1,{action} Opuść Dzielnicę Przemysłową
 EventInteractExit.button2,{action} Opuść Dzielnicę Mieszkalną
 EventInteractExit.button3,{action} Opuść Dzielnicę Handlową
 EventInteractExit.button4,Anuluj
-EventInteractExit.text,Każdy gracz może sprawić, że wszyscy opuszczą tę lokalizację na koniec tej fazy badaczy.\n\n<b>Uwaga!</b> Po opuszczeniu tej lokacji, nie będzie można już do niej powrócić.
+EventInteractExit.text,"Każdy gracz może sprawić, że wszyscy opuszczą tę lokalizację na koniec tej fazy badaczy.\n\n<b>Uwaga!</b> Po opuszczeniu tej lokacji, nie będzie można już do niej powrócić."
 EventMissionCompleteMessage.button1,Kontynuuj
 EventMissionCompleteMessage.text,Ukończyliście swoją misję w tej lokacji. Możecie ją opuścić, wchodząc w interakcję z Żetonem Interakcji znajdującym się na początku mapy. Być może przed opuszczeniem tej lokacji rozsądnie byłoby pokonać wszelkie pozostałe na planszy potwory. Wiecie doskonale, że miejscowi mieszkańcy nie będą w stanie samodzielnie poradzić sobie z tym problemem...
 EventMove1SpaceMessage.button1,Kontynuuj
@@ -525,20 +525,27 @@ EventNextLocation_PalaceConfirm.button2,Anuluj
 EventNextLocation_PalaceConfirm.text,Czy na pewno chcecie udać się do Pałacu Gubernatorskiego przed odwiedzeniem wszystkich dzielnic? Po przybyciu na miejsce nie będzie można opuścić Pałacu.
 EventNextLocations_HouseDock.button1,Do Dzielnicy Mieszkalnej
 EventNextLocations_HouseDock.button2,Do Dzielnicy Handlowej
-EventNextLocations_HouseDock.button3,Do Pałacu
+EventNextLocations_HouseDock.button3,Do Dzielnicy Mieszkalnej
+EventNextLocations_HouseDock.button4,Do Pałacu
 EventNextLocations_HouseDock.text,Chociaż zdobyliście kilka cennych informacji w Dzielnicy Przemysłowej, nadal uważacie, że jest więcej wskazówek do pozyskania w innych Dzielnicach Arkham, zanim udacie się do Pałacu Gubernatorskiego.
 EventNextLocations_WarehouseDock.button1,Do Dzielnicy Przemysłowej
 EventNextLocations_WarehouseDock.button2,Do Dzielnicy Handlowej
-EventNextLocations_WarehouseDock.button3,Do Pałacu
+EventNextLocations_WarehouseDock.button3,Do Dzielnicy Przemysłowej
+EventNextLocations_WarehouseDock.button4,Do Pałacu
 EventNextLocations_WarehouseDock.text,Chociaż zdobyliście kilka cennych informacji w Dzielnicy Mieszkalnej, nadal uważacie, że jest więcej wskazówek do pozyskania w innych Dzielnicach Arkham, zanim udacie się do Pałacu Gubernatorskiego.
 EventNextLocations_WarehouseHouse.button1,Do Dzielnicy Przemysłowej
 EventNextLocations_WarehouseHouse.button2,Do Dzielnicy Mieszkalnej
-EventNextLocations_WarehouseHouse.button3,Do Pałacu
+EventNextLocations_WarehouseHouse.button3,Do Dzielnicy Przemysłowej
+EventNextLocations_WarehouseHouse.button4,Do Pałacu
 EventNextLocations_WarehouseHouse.text,Chociaż zdobyliście kilka cennych informacji w Dzielnicy Handlowej, nadal uważacie, że jest więcej wskazówek do pozyskania w innych Dzielnicach Arkham, zanim udacie się do Pałacu Gubernatorskiego.
 EventNextLocations_WarehouseHouseDock.button1,Do Dzielnicy Przemysłowej
 EventNextLocations_WarehouseHouseDock.button2,Do Dzielnicy Mieszkalnej
-EventNextLocations_WarehouseHouseDock.button3,Do Dzielnicy Handlowej
-EventNextLocations_WarehouseHouseDock.button4,Do Pałacu
+EventNextLocations_WarehouseHouseDock.button3,Do Dzielnicy Przemysłowej
+EventNextLocations_WarehouseHouseDock.button4,Do Dzielnicy Handlowej
+EventNextLocations_WarehouseHouseDock.button5,Do Dzielnicy Mieszkalnej
+EventNextLocations_WarehouseHouseDock.button6,Do Dzielnicy Przemysłowej
+EventNextLocations_WarehouseHouseDock.button7,Do Dzielnicy Mieszkalnej
+EventNextLocations_WarehouseHouseDock.button8,Do Pałacu
 EventNextLocations_WarehouseHouseDock.text,Zatrzaskujecie drzwi waszego samochodu, ale nie uruchamiacie jeszcze silnika. Trzeba podjąć decyzję. Gdzie pojedziecie najpierw? Zastanawiacie się, w której z trzech dzielnic Arkham rozpocząć wasze śledztwo.
 EventPalace_CounterRitual_HasturSuccess.button1,Kontynuuj
 EventPalace_CounterRitual_HasturSuccess.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału, aby raz na zawsze wygnać Hastura z naszej rzeczywistości. Powietrze wokół ciebie staje się śmiertelnie ciche, gdy rytuał nagle wygasa. Udało ci się powstrzymać inwazję Przedwiecznego na naszą rzeczywistość. \n\nKażdy badacz otrzymuje stan Skupiony."
@@ -659,7 +666,7 @@ EventPalaceEnd_YigDefeated.text,"Pod wpływem waszych ciosów, {c:CustomMonsterY
 EventPalaceEnd_ZharDefeated.button1,Kontynuuj
 EventPalaceEnd_ZharDefeated.text,"Pod wpływem waszych ciosów, {c:CustomMonsterZhar} chwieje się przez ułamek sekundy, zaskoczony oporem, jaki mu stawiono w tym wymiarze. To trwa zaledwie mgnienie oka, lecz jednocześnie wystarczająco długo, abyś mógł skierować na niego energię swojego kontr-rytuału. Bestia wrzeszczy z wściekłości, gdy kosmiczna energia wyrywa jego fizyczną formę z naszego świata z powrotem do jego własnego. \n\nUdało się zapobiec inwazji Zhara! Badacze wygrywają!"
 EventPlaceInteractExitMessage.button1,Kontynuuj
-EventPlaceInteractExitMessage.text,Badacze mogą opuścić to miejsce w dowolnym momencie. \n\n<b>Uwaga!</b> Po opuszczeniu, nie będzie można już wrócić do tej dzielnicy. \n\nUmieść Żeton Interakcji we wskazanym miejscu.
+EventPlaceInteractExitMessage.text,"Badacze mogą opuścić to miejsce w dowolnym momencie. \n\n<b>Uwaga!</b> Po opuszczeniu, nie będzie można już wrócić do tej dzielnicy. \n\nUmieść Żeton Interakcji we wskazanym miejscu."
 EventPrintTime_ManyHours.button1,Kontynuuj
 EventPrintTime_ManyHours.text,Ilość godzin, jakie pozostały do rozpoczęcia rytuału przywołania Wielkiego Przedwiecznego: {var:InvestigationHours}.
 EventPrintTime_NoHoursNotPalace.button1,Kontynuuj

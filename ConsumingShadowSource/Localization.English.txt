@@ -525,20 +525,27 @@ EventNextLocation_PalaceConfirm.button2,Cancel
 EventNextLocation_PalaceConfirm.text,Are you sure you wish to travel to Governors Palace before visiting all of the districts? You will not be able to leave the palace once you arrive.
 EventNextLocations_HouseDock.button1,Travel to Residential District
 EventNextLocations_HouseDock.button2,Travel to Commercial District
-EventNextLocations_HouseDock.button3,Travel to Palace
+EventNextLocations_HouseDock.button3,Travel to Residential District
+EventNextLocations_HouseDock.button4,Travel to Palace
 EventNextLocations_HouseDock.text,Though you feel that you gained some valuable information in the Industrial District, you still feel there is more to learn elsewhere in Arkham before travelling to Governors palace.
 EventNextLocations_WarehouseDock.button1,Travel to Industrial District
 EventNextLocations_WarehouseDock.button2,Travel to Commercial District
-EventNextLocations_WarehouseDock.button3,Travel to Palace
+EventNextLocations_WarehouseDock.button3,Travel to Industrial District
+EventNextLocations_WarehouseDock.button4,Travel to Palace
 EventNextLocations_WarehouseDock.text,Though you feel that you gained some valuable information in the Residential District, you still feel there is more to learn elsewhere in Arkham before travelling to Governors palace.
 EventNextLocations_WarehouseHouse.button1,Travel to Industrial District
 EventNextLocations_WarehouseHouse.button2,Travel to Residential District
-EventNextLocations_WarehouseHouse.button3,Travel to Palace
+EventNextLocations_WarehouseHouse.button3,Travel to Industrial District
+EventNextLocations_WarehouseHouse.button4,Travel to Palace
 EventNextLocations_WarehouseHouse.text,Though you feel that you gained some valuable information in the Commercial District, you still feel there is more to learn elsewhere in Arkham before travelling to Governors palace.
 EventNextLocations_WarehouseHouseDock.button1,Travel to Industrial District
 EventNextLocations_WarehouseHouseDock.button2,Travel to Residential District
-EventNextLocations_WarehouseHouseDock.button3,Travel to Commercial District
-EventNextLocations_WarehouseHouseDock.button4,Travel to Palace
+EventNextLocations_WarehouseHouseDock.button3,Travel to Industrial District
+EventNextLocations_WarehouseHouseDock.button4,Travel to Commercial District
+EventNextLocations_WarehouseHouseDock.button5,Travel to Residential District
+EventNextLocations_WarehouseHouseDock.button6,Travel to Industrial District
+EventNextLocations_WarehouseHouseDock.button7,Travel to Residential District
+EventNextLocations_WarehouseHouseDock.button8,Travel to Palace
 EventNextLocations_WarehouseHouseDock.text,You slam the door of your car shut but stop short of starting your car. Where are you going to go first? You mull over which of the three districts of Arkham to start your investigation in.
 EventPalace_CounterRitual_HasturSuccess.button1,Continue
 EventPalace_CounterRitual_HasturSuccess.text,You complete the counter-ritual to banish Hastur from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
