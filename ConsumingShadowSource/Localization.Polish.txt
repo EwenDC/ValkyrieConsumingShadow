@@ -66,7 +66,8 @@ EventDock_GreenClue.text,"W rupieciach znajduje się manifest przewozowy statku,
 EventDock_GreenCrateTrap.button1,Kontynuuj
 EventDock_GreenCrateTrap.text,"Otwierasz skrzynię i okazuje się, że jest całkowicie pusta. Runy na powierzchni drewna jarzą się złowieszczo, a morze wokół ciebie staje się coraz bardziej wzburzone. Duża fala nagle uderza w łódź, rzucając cię na ziemię. \n\nKażdy Badacz znajdujący się w kabinie otrzymuje 1 Zakrytą Kartę Obrażenia. Odrzuć ten Żeton Przeszukiwania."
 EventDock_GreenItemPickup.button1,Kontynuuj
-EventDock_GreenItemPickup.text,"Chociaż wcale nie jesteś bliżej odnalezienia tej przeklętej skrzynki, wśród śmieci znajdujesz coś przydatnego. Przypuszczasz, że zostało to zagubione z jakiejś przesyłki, ponieważ zawiązano na nim etykietę pocztową. Po przeczytaniu etykiety okazuje się jednak, że została ona zapisana kompletnym bełkotem.\n\nOtrzymujesz przedmiot powszechny {c:QItemSedatives} oraz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}. Odrzuć ten Żeton Przeszukiwania."
+EventDock_GreenItemPickup.button2,Pokaż wskazówkę
+EventDock_GreenItemPickup.text,While you don't find the cursed object, you spot an important piece of evidence hidden amongst the junk. You see a pendant that, while innocuous to the untrained eye, is clearly a cult's membership token. You presume it was misplaced from a recent shipment, as a shipping tag has been tied to it. Gain the {c:QItemCultSigil} Unique Item. Then discard this Search token. The investigator holding the {c:QItemCultSigil} can view the associated clue by interacting with it in the app.
 EventDock_GreenKeyPickup.button1,Kontynuuj
 EventDock_GreenKeyPickup.text,|||Wśród sterty bezużytecznych drobiazgów nagle dostrzegasz małą, skórzaną sakiewkę zawierającą {c:QItemGoldKey}. Sakiewka posiada wyhaftowaną wiadomość o treści: "Bądź silny umysłem". \n\nOtrzymujesz przedmiot unikatowy {c:QItemGoldKey}. Odrzuć ten Żeton Przeszukiwania.|||
 EventDock_PlaceDock1.button1,Kontynuuj
@@ -105,6 +106,8 @@ EventDock_PlaceSearchRentalDockGoods.button1,Kontynuuj
 EventDock_PlaceSearchRentalDockGoods.text,"Wśród łodzi dostępnych do wynajęcia pozostawiono różne przedmioty. Nic nie rzuca się w oczy, ale i tak dochodzisz do wniosku, że warto je przeszukać. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock_PlaceSearchRowboat.button1,Kontynuuj
 EventDock_PlaceSearchRowboat.text,"Zniszczona łódź znajduje się już w połowie pod morską tonią. Wygląda na to, że plandeka niedbale rzucona na łódź została niedawno naruszona, a jeden z jej rogów łopocze na wietrze. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
+EventDock_PlaceSedatives.button1,Kontynuuj
+EventDock_PlaceSedatives.text,A useful item has been carelessly discarded on the dock, perhaps misplaced from a larger shipment. Place the {c:QItemSedatives} Common Item as indicated.
 EventDock_PlaceSightDock1Street2.button1,Kontynuuj
 EventDock_PlaceSightDock1Street2.text,"Na północy ulica ustępuje miejsca dokowi. \n\nUmieść Żeton Obserwacji we wskazanym miejscu. Badacz stojący na polu {c:TileDock_Street2} może wejść w interakcję z tym żetonem, aby odsłonić sąsiedni obszar."
 EventDock_PlaceSightDock2HouseBoat.button1,Kontynuuj
@@ -136,38 +139,38 @@ EventDock_RedItemPickup_LuckyRing.button1,Kontynuuj
 EventDock_RedItemPickup_LuckyRing.text,|||Chociaż nie znalazłeś się w żaden sposób bliżej odnalezienia przeklętej skrzyni, pośród śmieci znajdujesz inny wart twojej uwagi przedmiot. Przypuszczasz, że był to prezent dla ukochanej osoby, ponieważ przyczepiono do niego liścik o treści: "Dla Alexa. Niech przyniesie ci szczęście w tym szalonym świecie.". \n\nOtrzymujesz przedmiot powszechny {c:QItemLuckyRing} i 1 <COLOR=GREEN>Wskazówkę</COLOR> {clue}. Następnie odrzuć ten Żeton Przeszukiwania.|||
 EventDock_RedKeyPickup.button1,Kontynuuj
 EventDock_RedKeyPickup.text,"Wśród śmieci znajdujesz {c:QItemSilverKey}, zawinięty w skrawku papieru. Na kartce znajdują się urojone, gorączkowo nabazgrane i prawie całkowicie nieczytelne teksty. \n\nZdobywasz przedmiot unikatowy {c:QItemSilverKey}. Odrzuć ten żeton Przeszukiwania."
-EventDock_SearchBlackStallFaliure.button1,Kontynuuj
-EventDock_SearchBlackStallFaliure.text,Stół wypełniono po brzegi tak znaczną ilością drobnych przedmiotów, że znalezienie w nim czegoś istotnego dla twojego śledztwa sprawa ci problem.
+EventDock_SearchBlackStallFailure.button1,Kontynuuj
+EventDock_SearchBlackStallFailure.text,Stół wypełniono po brzegi tak znaczną ilością drobnych przedmiotów, że znalezienie w nim czegoś istotnego dla twojego śledztwa sprawa ci problem.
 EventDock_SearchBlackStallSkillCheck.button1,Potwierdź
 EventDock_SearchBlackStallSkillCheck.text,Przeszukujesz przedmioty rozłożone na stole, szukając czegokolwiek przydatnego ({observation}).
 EventDock_SearchBlueCrate.button1,{action} Otwórz
 EventDock_SearchBlueCrate.button2,Anuluj
 EventDock_SearchBlueCrate.text,Skrzynia ładunkowa stoi na środku szałasu. Pojemnik został pokryty niebieskimi runami, a powietrze wokół niego iskrzy od dziwnej energii. Być może zawiera on komponenty, których szukasz.
-EventDock_SearchBlueStallFaliure.button1,Kontynuuj
-EventDock_SearchBlueStallFaliure.text,Przeszukujesz sterty przedmiotów, ale nie znajdujesz nic interesującego.
+EventDock_SearchBlueStallFailure.button1,Kontynuuj
+EventDock_SearchBlueStallFailure.text,Przeszukujesz sterty przedmiotów, ale nie znajdujesz nic interesującego.
 EventDock_SearchBlueStallSkillCheck.button1,Potwierdź
 EventDock_SearchBlueStallSkillCheck.text,Przeszukujesz przedmioty na stoisku, szukając czegokolwiek przydatnego ({observation}).
-EventDock_SearchDock1GoodsFaliure.button1,Kontynuuj
-EventDock_SearchDock1GoodsFaliure.text,Otwierasz pudła i beczki, aż masz wrażenie, że zaraz odpadną ci ręce, ale nie znajdujesz nic wartościowego.
+EventDock_SearchDock1GoodsFailure.button1,Kontynuuj
+EventDock_SearchDock1GoodsFailure.text,Otwierasz pudła i beczki, aż masz wrażenie, że zaraz odpadną ci ręce, ale nie znajdujesz nic wartościowego.
 EventDock_SearchDock1GoodsSkillCheck.button1,Zatwierdź
 EventDock_SearchDock1GoodsSkillCheck.text,Wszystkie te skrzynie i beczki są nadal zapieczętowane i starannie ułożone po niedawnej podróży statkiem. Rozpoczynasz żmudne zadanie ich rozpieczętowania i przeszukania ({strength}).
-EventDock_SearchDock2GoodsFaliure.button1,Kontynuuj
-EventDock_SearchDock2GoodsFaliure.text,Rozpakowujesz skrzynie, które mogłyby bez problemu zapełnić ładowność niewielkiego statku handlowego, ale nie udaje ci się znaleźć nic choćby potencjalnie interesującego.
+EventDock_SearchDock2GoodsFailure.button1,Kontynuuj
+EventDock_SearchDock2GoodsFailure.text,Rozpakowujesz skrzynie, które mogłyby bez problemu zapełnić ładowność niewielkiego statku handlowego, ale nie udaje ci się znaleźć nic choćby potencjalnie interesującego.
 EventDock_SearchDock2GoodsSkillCheck.button1,Zatwierdź
 EventDock_SearchDock2GoodsSkillCheck.text,Zaczynasz rozpakowywać zawartość ładunku, szukając czegokolwiek przydatnego w śledztwie ({strength}).
 EventDock_SearchGreenCrate.button1,{action} Otwórz
 EventDock_SearchGreenCrate.button2,Anuluj
 EventDock_SearchGreenCrate.text,Dziwna skrzynia została wepchnięta w róg kabiny. Pojemnik został pokryty zielonymi runami, a powietrze wokół niego iskrzy od dziwnej energii. Być może zawiera on komponenty, których szukasz.
-EventDock_SearchHouseBoatGoodsFaliure.button1,Kontynuuj
-EventDock_SearchHouseBoatGoodsFaliure.text,Lepki odór gnijących ryb przytłacza twoje zmysły powodując, że musisz odejść od beczki, wymiotując gwałtownie na bruk.
+EventDock_SearchHouseBoatGoodsFailure.button1,Kontynuuj
+EventDock_SearchHouseBoatGoodsFailure.text,Lepki odór gnijących ryb przytłacza twoje zmysły powodując, że musisz odejść od beczki, wymiotując gwałtownie na bruk.
 EventDock_SearchHouseBoatGoodsSkillCheck.button1,Zatwierdź
 EventDock_SearchHouseBoatGoodsSkillCheck.text,Rozpoczynasz brudne zadanie rozgrzebania warstwy zepsutych ryb i przeszukania ukrytych pod nimi przedmiotów. Odór cuchnących ryb wypełnia ci nozdrza, a twoje oczy łzawią od niemożliwego do zniesienia smrodu. Zbierasz całą swoją siłę woli, aby nie zwymiotować ({will}).
-EventDock_SearchPierGoodsFaliure.button1,Kontynuuj
-EventDock_SearchPierGoodsFaliure.text,Podnosisz tyle pudeł, ile jesteś w stanie, ale narastające zmęczenie nie pozwala ci na to, aby usunąć je wszystkie.
+EventDock_SearchPierGoodsFailure.button1,Kontynuuj
+EventDock_SearchPierGoodsFailure.text,Podnosisz tyle pudeł, ile jesteś w stanie, ale narastające zmęczenie nie pozwala ci na to, aby usunąć je wszystkie.
 EventDock_SearchPierGoodsSkillCheck.button1,Zatwierdź
 EventDock_SearchPierGoodsSkillCheck.text,Zauważasz, że pod stosem cięższych pudeł umieszczono kilka mniejszych, zawierających jakieś przydatne przedmioty. Zaczynasz podnosić cięższe pudła, aby dostać się do tych znajdujących się poniżej ({strength}).
-EventDock_SearchPostersFaliure.button1,Kontynuuj
-EventDock_SearchPostersFaliure.text,Wpatrujesz się pustym wzrokiem w wiszące na ścianie kartki i plakaty, ale nie widzisz w nich nic wartego uwagi. Nie zdobywasz żadnej wiedzy, którą mógłbyś wykorzystać w swoim śledztwie.
+EventDock_SearchPostersFailure.button1,Kontynuuj
+EventDock_SearchPostersFailure.text,Wpatrujesz się pustym wzrokiem w wiszące na ścianie kartki i plakaty, ale nie widzisz w nich nic wartego uwagi. Nie zdobywasz żadnej wiedzy, którą mógłbyś wykorzystać w swoim śledztwie.
 EventDock_SearchPostersSkillCheck.button1,Potwierdź
 EventDock_SearchPostersSkillCheck.text,Czytasz różne plakaty i ulotki, szukając informacji, które mogłyby się okazać przydatne w twoim śledztwie ({lore}).
 EventDock_SearchPostersSuccess.button1,Kontynuuj
@@ -176,23 +179,23 @@ EventDock_SearchPostersSuccess.text,"Chociaż większość ściany jest wypełni
 EventDock_SearchRedCrate.button1,{action} Otwórz
 EventDock_SearchRedCrate.button2,Anuluj
 EventDock_SearchRedCrate.text,Na blacie umieszczono czerwoną skrzynię. Z jej wnętrza wydobywa się słaby blask, a do skrzyni przymocowany jest znacznik pokryty starożytnymi runami. Może ona zawierać komponenty, których szukasz.
-EventDock_SearchRedStallFaliure.button1,Kontynuuj
-EventDock_SearchRedStallFaliure.text,Podczas szperania w zgromadzonych tu rzeczach słyszysz odgłos zbliżającej się osoby. Szybko przywracasz stragan do pierwotnego stanu i odchodzisz wpół kroku, ale kiedy się odwracasz - nikogo tam nie ma.
+EventDock_SearchRedStallFailure.button1,Kontynuuj
+EventDock_SearchRedStallFailure.text,Podczas szperania w zgromadzonych tu rzeczach słyszysz odgłos zbliżającej się osoby. Szybko przywracasz stragan do pierwotnego stanu i odchodzisz wpół kroku, ale kiedy się odwracasz - nikogo tam nie ma.
 EventDock_SearchRedStallSkillCheck.button1,Zatwierdź
 EventDock_SearchRedStallSkillCheck.text,Nie widząc nikogo w pobliżu, postanawiasz przeszukać wystawione przedmioty, szukając czegoś, co mogłoby cię zainteresować ({observation}).
-EventDock_SearchRentalDockGoodsFaliure.button1,Kontynuuj
-EventDock_SearchRentalDockGoodsFaliure.text,Starasz się z całych sił, ale nie udaje ci się przesunąć żadnej z łodzi.
+EventDock_SearchRentalDockGoodsFailure.button1,Kontynuuj
+EventDock_SearchRentalDockGoodsFailure.text,Starasz się z całych sił, ale nie udaje ci się przesunąć żadnej z łodzi.
 EventDock_SearchRentalDockGoodsSkillCheck.button1,Zatwierdź
 EventDock_SearchRentalDockGoodsSkillCheck.text,Sprawdzając stos ułożonych na sobie łodzi, zdajesz sobie sprawę, że zostały tam ukryte przedmioty. Rozpoczynasz żmudną pracę zdejmowania górnych łodzi ze stosów tak, aby dostać się do zawartości znajdującej się poniżej ({strength}).
-EventDock_SearchRowboatFaliure.button1,Kontynuuj
-EventDock_SearchRowboatFaliure.text,Jesteś w stanie zareagować wystarczająco szybko, aby uchronić się przed wpadnięciem do wody, jednak łódź dryfuje do końca cumy, poza zasięgiem twoich rąk.
+EventDock_SearchRowboatFailure.button1,Kontynuuj
+EventDock_SearchRowboatFailure.text,Jesteś w stanie zareagować wystarczająco szybko, aby uchronić się przed wpadnięciem do wody, jednak łódź dryfuje do końca cumy, poza zasięgiem twoich rąk.
 EventDock_SearchRowboatSkillCheck.button1,Zatwierdź
 EventDock_SearchRowboatSkillCheck.text,Gdy sięgasz za krawędź pomostu, by zajrzeć pod plandekę, łódź nagle zaczyna podskakiwać na przybrzeżnych falach ({agility}).
 EventDock_SearchRowboatSuccess.button1,Kontynuuj
 EventDock_SearchRowboatSuccess.button2,Pokaż wskazówkę
 EventDock_SearchRowboatSuccess.text,"Szybko chwytasz krawędź łodzi i przyciągasz ją do siebie w kierunku molo. Zdejmujesz naderwaną plandekę i pod spodem znajdujesz {c:QItemOldJournal} umieszczony ostrożnie w suchym miejscu, poza zasięgiem wody. \n\nOtrzymujesz przedmiot unikatowy {c:QItemOldJournal}. Odrzuć ten Żeton Przeszukiwania. Badacz posiadający w swoim ekwipunku {c:QItemOldJournal} może wyświetlić powiązaną z nim wskazówkę, przy pomocy aplikacji."
-EventDock_SearchYellowStallFaliure.button1,Kontynuuj
-EventDock_SearchYellowStallFaliure.text,Usunąłeś część zepsutych rupieci ze straganu, ale nie znalazłeś nic ciekawego.
+EventDock_SearchYellowStallFailure.button1,Kontynuuj
+EventDock_SearchYellowStallFailure.text,Usunąłeś część zepsutych rupieci ze straganu, ale nie znalazłeś nic ciekawego.
 EventDock_SearchYellowStallSkillCheck.button1,Zatwierdź
 EventDock_SearchYellowStallSkillCheck.text,W stosie zepsutych, zgniłych przedmiotów szukasz czegokolwiek, co dałoby się uratować ({observation}).
 EventDock_TriggerExit.button1,Kontynuuj
@@ -371,29 +374,29 @@ EventHouse_PlaceYard1.text,Wasz samochód podjeżdża pod frontową bramę zwycz
 EventHouse_PuzzleConclusiveEvidenceComplete.button1,Kontynuuj
 EventHouse_PuzzleConclusiveEvidenceComplete.button2,Pokaż wskazówkę
 EventHouse_PuzzleConclusiveEvidenceComplete.text,"Wykorzystując swoją wiedzę na temat starożytnych języków, jesteś w stanie odtworzyć oryginalny tekst zawarty w tych dokumentach. Poświęcając czas na przeczytanie fragmentów, zauważasz ten, który twoim zdaniem może okazać się pomocny w twoim śledztwie. \n\nOtrzymujesz przedmiot unikatowy {c:QItemConclusiveEvidence}. Następnie odrzuć ten Żeton Przeszukiwania. \n\nBadacz posiadający {c:QItemConclusiveEvidence} w swoim ekwipunku może wyświetlić powiązaną z nim wskazówkę przy pomocy aplikacji."
-EventHouse_SearchBedroomDeskFaliure.button1,Kontynuuj
-EventHouse_SearchBedroomDeskFaliure.text,Choć starasz się, jak możesz, te papiery został zapisane w sposób zbyt chaotyczny i niezrozumiały, byś mógł dostrzec w nich cokolwiek użytecznego.
+EventHouse_SearchBedroomDeskFailure.button1,Kontynuuj
+EventHouse_SearchBedroomDeskFailure.text,Choć starasz się, jak możesz, te papiery został zapisane w sposób zbyt chaotyczny i niezrozumiały, byś mógł dostrzec w nich cokolwiek użytecznego.
 EventHouse_SearchBedroomDeskSkillCheck.button1,Zatwierdź
 EventHouse_SearchBedroomDeskSkillCheck.text,Przeglądasz papiery, próbując odszyfrować z nich cokolwiek użytecznego pośród tego niespójnego oceanu informacji ({lore}).
 EventHouse_SearchBedroomDeskSuccess.button1,Kontynuuj
 EventHouse_SearchBedroomDeskSuccess.button2,Pokaż wskazówkę
 EventHouse_SearchBedroomDeskSuccess.text,"Przeglądając tę bazgraninę, zaczynasz zauważać pewien powtarzający się wzór informacji, które uznajesz za przydatne. \n\nOtrzymujesz Przedmiot Unikatowy {c:QItemCircumstantialEvidence}. Następnie odrzuć ten Żeton Przeszukiwania. \n\nBadacz posiadający w swoim ekwipunku {c:QItemCircumstantialEvidence}, może wyświetlić powiązaną z nim wskazówkę, korzystając z aplikacji."
-EventHouse_SearchCupboardsFaliure.button1,Kontynuuj
-EventHouse_SearchCupboardsFaliure.text,Wkładasz całą swoją siłę w próbę przesunięcia panelu, ale pozostaje on mocno przymocowany do szafki.
+EventHouse_SearchCupboardsFailure.button1,Kontynuuj
+EventHouse_SearchCupboardsFailure.text,Wkładasz całą swoją siłę w próbę przesunięcia panelu, ale pozostaje on mocno przymocowany do szafki.
 EventHouse_SearchCupboardsSkillCheck.button1,Zatwierdź
 EventHouse_SearchCupboardsSkillCheck.text,Zauważasz fałszywy panel z tyłu jednej szafek i próbujesz go oderwać ({strength}).
 EventHouse_SearchCupboardsSuccess.button1,Kontynuuj
 EventHouse_SearchCupboardsSuccess.text,You tear the piece of wood away to reveal a small jewellery box. Inside is what you can only conclude to be the entire life savings of this family. This must be what the Cultist was looking for. Gain 1 clue. Then discard this Search token.
-EventHouse_SearchDiningTableFaliureThermos.button1,Kontynuuj
-EventHouse_SearchDiningTableFaliureThermos.text,"Wpadasz w panikę i chwytasz cokolwiek, co leży najbliżej ciebie na stole, zbyt późno zdając sobie sprawę, że w obecnym stanie nie może być użyte jako broń. \n\nOtrzymujesz przedmiot powszechny {c:QItemThermos}. Następnie odrzuć ten Żeton Przeszukiwania."
-EventHouse_SearchDiningTableFaliureWhiskey.button1,Kontynuuj
-EventHouse_SearchDiningTableFaliureWhiskey.text,"Wpadasz w panikę i chwytasz cokolwiek, co leży najbliżej ciebie na stole, zbyt późno zdając sobie sprawę, że w obecnym stanie nie może być użyte jako broń. \n\nOtrzymujesz przedmiot powszechny {c:QItemWhiskey}. Następnie odrzuć ten Żeton Przeszukiwania."
+EventHouse_SearchDiningTableFailureThermos.button1,Kontynuuj
+EventHouse_SearchDiningTableFailureThermos.text,"Wpadasz w panikę i chwytasz cokolwiek, co leży najbliżej ciebie na stole, zbyt późno zdając sobie sprawę, że w obecnym stanie nie może być użyte jako broń. \n\nOtrzymujesz przedmiot powszechny {c:QItemThermos}. Następnie odrzuć ten Żeton Przeszukiwania."
+EventHouse_SearchDiningTableFailureWhiskey.button1,Kontynuuj
+EventHouse_SearchDiningTableFailureWhiskey.text,"Wpadasz w panikę i chwytasz cokolwiek, co leży najbliżej ciebie na stole, zbyt późno zdając sobie sprawę, że w obecnym stanie nie może być użyte jako broń. \n\nOtrzymujesz przedmiot powszechny {c:QItemWhiskey}. Następnie odrzuć ten Żeton Przeszukiwania."
 EventHouse_SearchDiningTableSkillCheck.button1,Potwierdź
 EventHouse_SearchDiningTableSkillCheck.text,Chwytasz pierwszy z brzegu przedmiot, który wygląda potencjalnie zabójczo ({agility}).
 EventHouse_SearchDiningTableSuccess.button1,Kontynuuj
 EventHouse_SearchDiningTableSuccess.text,"Szybko sięgasz po okrutnie wyglądający {c:QItemMeatCleaver}, wbity mocno w znajdującą się na stole pieczeń. Otrzymujesz Przedmiot Powszechny {c:QItemMeatCleaver}. \n\nOdrzuć ten Żeton Przeszukiwania."
-EventHouse_SearchEntryTableFaliure.button1,Kontynuuj
-EventHouse_SearchEntryTableFaliure.text,Rzucasz okiem na przedmioty, ale nie dostrzegasz nic niespodziewanego.
+EventHouse_SearchEntryTableFailure.button1,Kontynuuj
+EventHouse_SearchEntryTableFailure.text,Rzucasz okiem na przedmioty, ale nie dostrzegasz nic niespodziewanego.
 EventHouse_SearchEntryTableSkillCheck.button1,Potwierdź
 EventHouse_SearchEntryTableSkillCheck.text,Rzucasz okiem na różne przedmioty porozrzucane na podłodze, szukając czegoś niezwykłego ({observation}).
 EventHouse_SearchEntryTableSuccess.button1,Kontynuuj
@@ -404,8 +407,8 @@ EventHouse_SearchHallDesk.button1,Kontynuuj
 EventHouse_SearchHallDesk.text,"Większość książek wydaje się odnosić do starożytnych pogańskich tradycji i wierzeń. Wśród stosu dostrzegasz książkę, która w twojej ocenie może okazać się przydatna podczas twojego śledztwa. \n\nOtrzymujesz przedmiot powszechny {c:QItemTome}. \n\nOdrzuć ten Żeton Przeszukiwania."
 EventHouse_SearchKidBookshelf.button1,Kontynuuj
 EventHouse_SearchKidBookshelf.text,|||Zauważasz, że wiele stron wewnątrz magazynów zostało wyrwanych. Studiując strony, które pozostały, zauważasz, że wszystkie zawierają co najmniej jeden artykuł na temat najnowszej, bardzo modnej diety-cud "wysokiego ryzyka". Drżysz, wyobrażając sobie małą dziewczynkę poddającą się temu, co jest napisane na tych stronach. \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}. Następnie odrzuć ten Żeton Przeszukiwania.|||
-EventHouse_SearchToyChestFaliure.button1,Kontynuuj
-EventHouse_SearchToyChestFaliure.text,Chociaż twój instynkt podpowiada ci, że te przedmioty są ważne, nie jesteś w stanie odkryć, dlaczego.
+EventHouse_SearchToyChestFailure.button1,Kontynuuj
+EventHouse_SearchToyChestFailure.text,Chociaż twój instynkt podpowiada ci, że te przedmioty są ważne, nie jesteś w stanie odkryć, dlaczego.
 EventHouse_SearchToyChestSkillCheck.button1,Zatwierdź
 EventHouse_SearchToyChestSkillCheck.text,Przeszukujesz dziwne bibeloty znajdujące się w skrzyni, szukając czegoś godnego uwagi ({observation}).
 EventHouse_SearchToyChestSuccess.button1,Kontynuuj
@@ -549,14 +552,14 @@ EventNextLocations_WarehouseHouseDock.button8,Do Pałacu
 EventNextLocations_WarehouseHouseDock.text,Zatrzaskujecie drzwi waszego samochodu, ale nie uruchamiacie jeszcze silnika. Trzeba podjąć decyzję. Gdzie pojedziecie najpierw? Zastanawiacie się, w której z trzech dzielnic Arkham rozpocząć wasze śledztwo.
 EventPalace_CounterRitual_HasturSuccess.button1,Kontynuuj
 EventPalace_CounterRitual_HasturSuccess.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału, aby raz na zawsze wygnać Hastura z naszej rzeczywistości. Powietrze wokół ciebie staje się śmiertelnie ciche, gdy rytuał nagle wygasa. Udało ci się powstrzymać inwazję Przedwiecznego na naszą rzeczywistość. \n\nKażdy badacz otrzymuje stan Skupiony."
-EventPalace_CounterRitual_MajorFaliure.button1,Kontynuuj
-EventPalace_CounterRitual_MajorFaliure.text,Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału. Powietrze wokół ciebie na moment staje się śmiertelnie ciche, gdy nagle, rytuał wzmaga się, znacznie szybciej i potężniej, niż wcześniej. Twoje serce zamiera, gdy dociera do ciebie to, co się stało - popełniłeś pomyłkę. Starałeś się wygnać niewłaściwą istotę.
+EventPalace_CounterRitual_MajorFailure.button1,Kontynuuj
+EventPalace_CounterRitual_MajorFailure.text,Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału. Powietrze wokół ciebie na moment staje się śmiertelnie ciche, gdy nagle, rytuał wzmaga się, znacznie szybciej i potężniej, niż wcześniej. Twoje serce zamiera, gdy dociera do ciebie to, co się stało - popełniłeś pomyłkę. Starałeś się wygnać niewłaściwą istotę.
 EventPalace_CounterRitual_MajorQ.button1,Hastura
 EventPalace_CounterRitual_MajorQ.button2,Yiga
 EventPalace_CounterRitual_MajorQ.button3,Zhara
 EventPalace_CounterRitual_MajorQ.text,|||Czujesz, jak energia zaklęcia kieruje się w stronę celu. Wołasz: "Wracaj do plugawych wód, które nazywasz domem. Choć możesz próbować wiele razy, ten świat na zawsze odmówi wejściu..."|||
-EventPalace_CounterRitual_MinorFaliure.button1,Kontynuuj
-EventPalace_CounterRitual_MinorFaliure.text,"Ukończyłeś kontr-rytuał. Rytuał przywołania zawodzi, hamowany przez twoje zaklęcie. Szybko jednak zauważasz, że twój kontr-rytuał, osłabiony przez popełnione podczas jego rzucania błędy, nie jest w stanie całkowicie powstrzymać nadejścia Przedwiecznego. \n\nKażdy badacz otrzymuje 3 Karty Przerażenia."
+EventPalace_CounterRitual_MinorFailure.button1,Kontynuuj
+EventPalace_CounterRitual_MinorFailure.text,"Ukończyłeś kontr-rytuał. Rytuał przywołania zawodzi, hamowany przez twoje zaklęcie. Szybko jednak zauważasz, że twój kontr-rytuał, osłabiony przez popełnione podczas jego rzucania błędy, nie jest w stanie całkowicie powstrzymać nadejścia Przedwiecznego. \n\nKażdy badacz otrzymuje 3 Karty Przerażenia."
 EventPalace_CounterRitual_MinorQ1.button1,Czerwieni
 EventPalace_CounterRitual_MinorQ1.button2,Zieleni
 EventPalace_CounterRitual_MinorQ1.button3,Błękitu
@@ -569,14 +572,14 @@ EventPalace_CounterRitual_YigSuccess.button1,Kontynuuj
 EventPalace_CounterRitual_YigSuccess.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału, aby raz na zawsze wygnać Yiga z naszej rzeczywistości. Powietrze wokół ciebie staje się śmiertelnie ciche, gdy rytuał nagle wygasa. Udało ci się powstrzymać inwazję Przedwiecznego na naszą rzeczywistość. \n\nKażdy badacz otrzymuje stan Skupiony."
 EventPalace_CounterRitual_ZharSuccess.button1,Kontynuuj
 EventPalace_CounterRitual_ZharSuccess.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału, aby raz na zawsze wygnać Zhara z naszej rzeczywistości. Powietrze wokół ciebie staje się śmiertelnie ciche, gdy rytuał nagle wygasa. Udało ci się powstrzymać inwazję Przedwiecznego na naszą rzeczywistość. \n\nKażdy badacz otrzymuje stan Skupiony."
-EventPalace_ExploreAtticBallroomFaliure.button1,Kontynuuj
-EventPalace_ExploreAtticBallroomFaliure.text,Pociągasz za klamkę, aż twoje dłonie stają się czerwone, ale drzwi ani drgną.
+EventPalace_ExploreAtticBallroomFailure.button1,Kontynuuj
+EventPalace_ExploreAtticBallroomFailure.text,Pociągasz za klamkę, aż twoje dłonie stają się czerwone, ale drzwi ani drgną.
 EventPalace_ExploreAtticBallroomSkillCheck.button1,Zatwierdź
 EventPalace_ExploreAtticBallroomSkillCheck.text,Przekręcasz klamkę i naciskasz na drzwi, ale okazuje się, że są szczelnie zamknięte. Wkładasz całą swoją siłę w to, by otworzyć drzwi ({strength}).
 EventPalace_ExploreAtticBallroomSuccess.button1,Kontynuuj
 EventPalace_ExploreAtticBallroomSuccess.text,"Pociągasz za drzwi, aż ich wypaczona rama w końcu ustępuje, puszczając drzwi i pozwalając im się otworzyć. Zaglądasz przez drzwi i widzisz poddasze pałacu po drugiej stronie. \n\nOdrzuć ten Żeton Eksploracji."
-EventPalace_InteractSummoningRitualFaliure.button1,Kontynuuj
-EventPalace_InteractSummoningRitualFaliure.text,Twój umysł ogarniają wątpliwości i chwiejesz się, powodując rozproszenie przywołanych energii.
+EventPalace_InteractSummoningRitualFailure.button1,Kontynuuj
+EventPalace_InteractSummoningRitualFailure.text,Twój umysł ogarniają wątpliwości i chwiejesz się, powodując rozproszenie przywołanych energii.
 EventPalace_InteractSummoningRitualSkillCheck.button1,Zatwierdź
 EventPalace_InteractSummoningRitualSkillCheck.text,Zaczynasz przywoływać energię do kontr-rytuału, zastanawiając się, czy udało ci się zebrać wystarczająco dużo informacji, by skutecznie ukończyć zaklęcie ({will}).
 EventPalace_InteractSummoningRitualSuccess.button1,Kontynuuj
@@ -641,14 +644,14 @@ EventPalace_RevealMap3_AtticSecretPassage.button1,Kontynuuj
 EventPalace_RevealMap3_AtticSecretPassage.text,Umieść Żeton Tajnego Przejścia we wskazanym miejscu.
 EventPalace_RevealMap3_AtticTrapdoor.button1,Kontynuuj
 EventPalace_RevealMap3_AtticTrapdoor.text,Umieść Żeton Tajnego Przejścia we wskazanym miejscu.
-EventPalace_SearchBookshelfFaliure.button1,Kontynuuj
-EventPalace_SearchBookshelfFaliure.text,Chociaż działasz tak szybko, jak możesz, tajemnicza siła okazuje się być ostatecznie szybsza. Regał zamyka się, zanim zdążysz przemknąć na drugą stronę.
+EventPalace_SearchBookshelfFailure.button1,Kontynuuj
+EventPalace_SearchBookshelfFailure.text,Chociaż działasz tak szybko, jak możesz, tajemnicza siła okazuje się być ostatecznie szybsza. Regał zamyka się, zanim zdążysz przemknąć na drugą stronę.
 EventPalace_SearchBookshelfSkillCheck.button1,Zatwierdź
 EventPalace_SearchBookshelfSkillCheck.text,Pociągasz za regał i odkrywasz, że zamontowany został na ukrytym zawiasie. Chcesz go otworzyć, ale ku twojemu zdumieniu, jakaś dziwna, niewidoczna siła ponownie go zamyka. Próbujesz otworzyć regał, zanim ten zdąży się zamknąć ({agility}).
 EventPalace_SearchBookshelfSuccess.button1,Kontynuuj
 EventPalace_SearchBookshelfSuccess.text,"Chwytasz za pobliskie krzesło i wciskasz je między ścianę a regał. Wspinając się po nim, dostrzegasz małe drzwi za regałem. Otwierasz je, odsłaniając tajne przejście prowadzące w głąb pałacu.\n\nOdrzuć ten Żeton Przeszukiwania oraz Żeton Ścianę i umieść Żeton Tajnego Przejścia we wskazanym miejscu."
-EventPalace_SearchTrapdoorFaliure.button1,Kontynuuj
-EventPalace_SearchTrapdoorFaliure.text,Przeklinasz, ale nie widzisz tu nic podejrzanego.
+EventPalace_SearchTrapdoorFailure.button1,Kontynuuj
+EventPalace_SearchTrapdoorFailure.text,Przeklinasz, ale nie widzisz tu nic podejrzanego.
 EventPalace_SearchTrapdoorSkillCheck.button1,Zatwierdź
 EventPalace_SearchTrapdoorSkillCheck.text,Pochylasz się i badasz deski podłogowe, szukając czegokolwiek, co mogłoby się tam ukrywać ({observation}).
 EventPalace_SearchTrapdoorSuccess.button1,Kontynuuj
@@ -708,10 +711,16 @@ EventViewEvidence_CircumstantialEvidence_Green.button1,Kontynuuj
 EventViewEvidence_CircumstantialEvidence_Green.text,|||Poświęcasz chwilę na analizę papierów i nagle dociera do ciebie, że te dokumenty stanowią tak naprawdę konkretne fragmenty pochodzące ze starych, pogańskich poematów. W różnych miejscach analizowanych przez ciebie pism powtarza się wielokrotnie silna aluzja do związku, jaki istnieje pomiędzy kolorem zielonym a uczuciem pożądania. Jeden z zapisanych tu wierszy nosi nawet tytuł "Zielona żądza". Masz wrażenie, że nie jest to przypadek, a ta informacja będzie ci potrzebna w przyszłości.|||
 EventViewEvidence_CircumstantialEvidence_Red.button1,Kontynuuj
 EventViewEvidence_CircumstantialEvidence_Red.text,|||Poświęcasz chwilę na analizę papierów i nagle dociera do ciebie, że te dokumenty stanowią tak naprawdę konkretne fragmenty pochodzące ze starych, pogańskich poematów. W różnych miejscach analizowanych przez ciebie pism powtarza się wielokrotnie silna aluzja do związku, jaki istnieje pomiędzy kolorem czerwonym a uczuciem pożądania. Jeden z zapisanych tu wierszy nosi nawet tytuł "Czerwona żądza". Masz wrażenie, że nie jest to przypadek, a ta informacja będzie ci potrzebna w przyszłości.|||
-EventViewEvidence_ConclusiveEvidence_Allies.button1,Kontynuuj
-EventViewEvidence_ConclusiveEvidence_Allies.text,|||Fragment starożytnego pogańskiego świętego tekstu, z grubsza przetłumaczony, brzmi następująco: "Ból i Szaleństwo od dawna uważane są za pojęcia, które idą ze sobą w parze. Rzeczywiście, mówi się, że istoty stojące za tymi dolegliwościami regularnie ze sobą współpracują. W rzeczywistości ich więź jest tak silna, że oddawanie czci jednemu z nich byłoby w efekcie tym samym, co oddawanie czci drugiemu".|||
-EventViewEvidence_ConclusiveEvidence_Enemies.button1,Kontynuuj
-EventViewEvidence_ConclusiveEvidence_Enemies.text,|||Fragment starożytnego pogańskiego świętego tekstu, z grubsza przetłumaczony, brzmi następująco: "Chociaż możemy uważać, że koncepcje Bólu i Szaleństwa idą w parze, mówi się, że istoty stojące za tymi dolegliwościami nie darzą się wzajemną sympatią. W rzeczywistości można je nawet opisać jako zaprzysięgłych wrogów.".|||
+EventViewEvidence_ConclusiveEvidence_Hastur.button1,Kontynuuj
+EventViewEvidence_ConclusiveEvidence_Hastur.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Hastur and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_ConclusiveEvidence_Yig.button1,Kontynuuj
+EventViewEvidence_ConclusiveEvidence_Yig.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Yig and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_ConclusiveEvidence_Zhar.button1,Kontynuuj
+EventViewEvidence_ConclusiveEvidence_Zhar.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Zhar and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_CultSigil_Allies.button1,Kontynuuj
+EventViewEvidence_CultSigil_Allies.text,|||You quickly realise why this item did not make it to its intended destination. Instead of containing a destination address, the following has been written on the shipping tag: "To the far corners of the near shore. Where madness builds its tall towers soaring high into the ground. Feel your deepest pains and know you are close. Deliver to madness or pain; it does not matter. Together they will destroy you."|||
+EventViewEvidence_CultSigil_Enemies.button1,Kontynuuj
+EventViewEvidence_CultSigil_Enemies.text,|||You quickly realise why this item did not make it to its intended destination. Instead of containing a destination address, the following has been written on the shipping tag: "To the far corners of the near shore. Where madness builds its tall towers soaring high into the ground. Avoid your deepest pains as they will lead you astray. Deliver to madness but stay away from pain! It is no friend of madness, and never will be."|||
 EventViewEvidence_ForensicEvidence_Lust.button1,Kontynuuj
 EventViewEvidence_ForensicEvidence_Lust.text,|||Fragment tekstu, do którego odnosi się tatuaż, mówi o jednym z trzech Wielkich Przedwiecznych. Brzmi on: "Pomimo tego, że istota ta sprawuje kontrolę nad emocją pożądania w naszym wszechświecie, istota ta nie może istnieć w materialny sposób w tej rzeczywistości. Chociaż czciciele tej istoty próbują uspokoić swojego pana różnego rodzaju darami oraz dobrami materialnymi, nie jest ona w stanie z nich skorzystać, ponieważ nie może ona istnieć na naszym planie egzystencji.".|||
 EventViewEvidence_ForensicEvidence_Madness.button1,Kontynuuj
@@ -863,14 +872,14 @@ EventWarehouse_SearchBarrelScalpel.button1,Kontynuuj
 EventWarehouse_SearchBarrelScalpel.text,"Otwierasz beczkę, odkrywając, że jest ona pełna mięsa, którego nie jesteś w stanie zidentyfikować. Modlisz się do siebie, aby było to mięso zwierzęcia, a nie... czegoś innego. Zauważasz, że z tej obrzydliwej masy skóry, tłuszczu i ścięgien wystaje rękojeść chirurgicznego skalpela. \n\nOtrzymujesz przedmiot powszechny {c:QItemScalpel} i 1 <COLOR=GREEN>Wskazówkę</COLOR> {clue}. Następnie odrzuć ten Żeton Przeszukiwania."
 EventWarehouse_SearchBarrelSilverTwilightDagger.button1,Kontynuuj
 EventWarehouse_SearchBarrelSilverTwilightDagger.text,"Otwierasz beczkę, odkrywając, że jest ona pełna mięsa, którego nie jesteś w stanie zidentyfikować. Modlisz się do siebie, aby było to mięso zwierzęcia, a nie... czegoś innego. Zauważasz, że z tej obrzydliwej masy skóry, tłuszczu i ścięgien wystaje zdobiona rękojeść sztyletu. \n\nOtrzymujesz przedmiot powszechny {c:QItemSilverTwilightDagger} i 1 <COLOR=GREEN>Wskazówkę</COLOR> {clue}. Następnie odrzuć ten Żeton Przeszukiwania."
-EventWarehouse_SearchBodyFaliure.button1,Kontynuuj
-EventWarehouse_SearchBodyFaliure.text,"Choć próbujesz, nie możesz zmusić się do dalszego patrzenia na ciało. Czujesz, jak twój ostatni posiłek skręca ci się żołądku i nie możesz przestać myśleć o tym, jak będą wyglądać twoje własne zwłoki - zmasakrowane przez jakąś piekielną bestię w ciemnej piwnicy. \n\nOtrzymujesz 1 Kartę Przerażenia ({will}-1 neguje)."
+EventWarehouse_SearchBodyFailure.button1,Kontynuuj
+EventWarehouse_SearchBodyFailure.text,"Choć próbujesz, nie możesz zmusić się do dalszego patrzenia na ciało. Czujesz, jak twój ostatni posiłek skręca ci się żołądku i nie możesz przestać myśleć o tym, jak będą wyglądać twoje własne zwłoki - zmasakrowane przez jakąś piekielną bestię w ciemnej piwnicy. \n\nOtrzymujesz 1 Kartę Przerażenia ({will}-1 neguje)."
 EventWarehouse_SearchBodySkillCheck.button1,Potwierdź
 EventWarehouse_SearchBodySkillCheck.text,Badasz zmasakrowane zwłoki, próbując ustalić przyczynę śmierci. Widok potwornie zniekształconego ciała budzi w tobie odrazę. Tłumisz w sobie chęć ucieczki z tego okropnego miejsca i pochylasz nad trupem ({will}).
 EventWarehouse_SearchBodySuccess.button1,Kontynuuj
 EventWarehouse_SearchBodySuccess.text,"Chociaż ciało doznało wielu ran ciętych i złamań kości, bezpośrednią przyczyną jego śmierci była utrata krwi. Ze zgrozą dochodzisz do wniosku, że cokolwiek zaatakowało tę osobę, bawiło się nią, utrzymując ją przy życiu i cierpiącą tak długo, jak było to możliwe. \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}. Odrzuć ten Żeton Przeszukiwania."
-EventWarehouse_SearchBookshelfFaliure.button1,Kontynuuj
-EventWarehouse_SearchBookshelfFaliure.text,Zapisujesz w notatniku swoją najlepszą możliwą interpretację znaczenia odczytanych przez ciebie run. Niestety, kiedy przeglądasz to, co właśnie napisałeś stwierdzasz, że absolutnie nic z tego nie ma sensu.
+EventWarehouse_SearchBookshelfFailure.button1,Kontynuuj
+EventWarehouse_SearchBookshelfFailure.text,Zapisujesz w notatniku swoją najlepszą możliwą interpretację znaczenia odczytanych przez ciebie run. Niestety, kiedy przeglądasz to, co właśnie napisałeś stwierdzasz, że absolutnie nic z tego nie ma sensu.
 EventWarehouse_SearchBookshelfSkillCheck.button1,Potwierdź
 EventWarehouse_SearchBookshelfSkillCheck.text,Przeglądając przedmioty, dostrzegasz księgę zapisaną w całości starożytnymi runami. Otwierasz księgę i próbujesz rozszyfrować strony ({lore}).
 EventWarehouse_SearchBookshelfSuccess.button1,Kontynuuj
@@ -886,8 +895,8 @@ EventWarehouse_SearchDeadCultistPuzzleStart.button1,Kontynuuj
 EventWarehouse_SearchDeadCultistPuzzleStart.text,"Tatuaże pokrywające ciało kultysty to głównie różne myśli, cytaty, inwokacje oraz mantry. Jeden tatuaż zdecydowanie wyróżnia się na tle pozostałych. Jest to numer oznaczający stronę oraz linijki znanego ci tekstu okultystycznego. Szczęśliwie, kopia tego tekstu znajduje się przy zwłokach zmarłego. Otwierasz książeczkę, próbując dopasować liczby z tatuażu do konkretnych run zapisanych w tej książce. \n\nNaciśnij przycisk, aby spróbować rozwiązać łamigłówkę za pomocą {lore}."
 EventWarehouse_SearchEmptyBox.button1,Kontynuuj
 EventWarehouse_SearchEmptyBox.text,|||Na spodniej stronie pudełka zauważasz pokwitowanie potwierdzające jego oryginalną zawartość. Zgodnie z tym dokumentem, pudełko służyło do spakowania łańcuchów, kajdan i małych narzędzi tortur. Zaadresowane zostało do "Najlepszej Rzeźni w Arkham", co bez wątpienia stanowi przykrywkę dla kultu działającego w dzielnicy przemysłowej. \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}. Odrzuć ten Żeton Przeszukiwania.|||
-EventWarehouse_SearchFurnaceFaliure.button1,Kontynuuj
-EventWarehouse_SearchFurnaceFaliure.text,Kopiesz tak szybko, jak potrafisz, ale popiół zasypuje efekty twojej pracy szybciej, niż jesteś w stanie działać. Męczysz się, zanim zdołasz cokolwiek odkryć.
+EventWarehouse_SearchFurnaceFailure.button1,Kontynuuj
+EventWarehouse_SearchFurnaceFailure.text,Kopiesz tak szybko, jak potrafisz, ale popiół zasypuje efekty twojej pracy szybciej, niż jesteś w stanie działać. Męczysz się, zanim zdołasz cokolwiek odkryć.
 EventWarehouse_SearchFurnaceSkillCheck.button1,Potwierdź
 EventWarehouse_SearchFurnaceSkillCheck.text,Gdy próbujesz przekopać się przez popiół, ten zsypuje się z powrotem w tworzoną przez ciebie dziurę. Próbujesz kopać na tyle szybko, by dotrzeć do przedmiotu, zanim popiół zdąży osiąść ({agility}).
 EventWarehouse_SearchFurnaceSuccess.button1,Kontynuuj

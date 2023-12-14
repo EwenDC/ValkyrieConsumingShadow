@@ -66,7 +66,8 @@ EventDock_GreenClue.text,In the junk you find a shipping manifest for a ship tha
 EventDock_GreenCrateTrap.button1,Continue
 EventDock_GreenCrateTrap.text,You throw open the crate, only to reveal that it is completely empty. The runes on the woods surface glow ominously, and you feel the sea around you getting rougher. A large wave suddenly knocks into the boat, throwing you to the ground. Each investigator in the Cabin suffers 1 facedown Damage. Then discard this Search token.
 EventDock_GreenItemPickup.button1,Continue
-EventDock_GreenItemPickup.text,While you are not any closer to finding the cursed object, you find an item of use amongst the junk. You presume it was misplaced from a recent shipment, as a shipment tag has been tied around it. Reading the tag, you find that it has been filled out with complete gibberish. Gain the {c:QItemSedatives} Common Item and 1 Clue. Then discard this Search token.
+EventDock_GreenItemPickup.button2,View Clue
+EventDock_GreenItemPickup.text,While you don't find the cursed object, you spot an important piece of evidence hidden amongst the junk. You see a pendant that, while innocuous to the untrained eye, is clearly a cult's membership token. You presume it was misplaced from a recent shipment, as a shipping tag has been tied to it. Gain the {c:QItemCultSigil} Unique Item. Then discard this Search token. The investigator holding the {c:QItemCultSigil} can view the associated clue by interacting with it in the app.
 EventDock_GreenKeyPickup.button1,Continue
 EventDock_GreenKeyPickup.text,|||Amongst the junk you spot a small leather pouch containing a {c:QItemGoldKey}. On the outside of the pouch is embroidered the message "Be strong in mind." Gain the {c:QItemGoldKey} Unique Item. Then discard this Search token.|||
 EventDock_PlaceDock1.button1,Continue
@@ -105,6 +106,8 @@ EventDock_PlaceSearchRentalDockGoods.button1,Continue
 EventDock_PlaceSearchRentalDockGoods.text,Amongst the boats available for rent lie various items. While nothing stands out to you, you see value in searching them anyway. Place a Search token as indicated.
 EventDock_PlaceSearchRowboat.button1,Continue
 EventDock_PlaceSearchRowboat.text,A dilapidated row boat sits half under the sea water. The tarpaulin draped over it looks to have been disturbed recently. Place a Search token as indicated.
+EventDock_PlaceSedatives.button1,Continue
+EventDock_PlaceSedatives.text,A useful item has been carelessly discarded on the dock, perhaps misplaced from a larger shipment. Place the {c:QItemSedatives} Common Item as indicated.
 EventDock_PlaceSightDock1Street2.button1,Continue
 EventDock_PlaceSightDock1Street2.text,To the north the street gives way to the dock. Place a Sight token as indicated. An investigator in {c:TileDock_Street2} may reveal the adjacent area.
 EventDock_PlaceSightDock2HouseBoat.button1,Continue
@@ -136,38 +139,38 @@ EventDock_RedItemPickup_LuckyRing.button1,Continue
 EventDock_RedItemPickup_LuckyRing.text,|||While you are not any closer to finding the cursed crate, you find another magical item amongst the junk. You presume the item to be a gift for a loved one, as it carries the label "For Alex. May it bring you luck in this mad world." Gain the {c:QItemLuckyRing} Common Item and 1 Clue. Then discard this Search token.|||
 EventDock_RedKeyPickup.button1,Continue
 EventDock_RedKeyPickup.text,Amongst the junk you find a {c:QItemSilverKey} hidden in a scrap of paper. On the paper you find delusional rantings scribbled frantically and almost completely illegible. Gain the {c:QItemSilverKey} Unique Item. Then discard this Search token.
-EventDock_SearchBlackStallFaliure.button1,Continue
-EventDock_SearchBlackStallFaliure.text,The table is full of so many items that you cannot find anything relevant to your investigation.
+EventDock_SearchBlackStallFailure.button1,Continue
+EventDock_SearchBlackStallFailure.text,The table is full of so many items that you cannot find anything relevant to your investigation.
 EventDock_SearchBlackStallSkillCheck.button1,Confirm
 EventDock_SearchBlackStallSkillCheck.text,You search through the items laid out on the table, looking for anything of use ({observation}).
 EventDock_SearchBlueCrate.button1,{action} Open
 EventDock_SearchBlueCrate.button2,Cancel
 EventDock_SearchBlueCrate.text,A cargo crate has been placed in the centre of the small shack. The container has been covered in blue marking and a strange energy hangs around it. This may contain the components you are looking for.
-EventDock_SearchBlueStallFaliure.button1,Continue
-EventDock_SearchBlueStallFaliure.text,You sift through the junk, but find nothing of interest.
+EventDock_SearchBlueStallFailure.button1,Continue
+EventDock_SearchBlueStallFailure.text,You sift through the junk, but find nothing of interest.
 EventDock_SearchBlueStallSkillCheck.button1,Confirm
 EventDock_SearchBlueStallSkillCheck.text,You search through the items lining the stall, looking for anything of use ({observation}).
-EventDock_SearchDock1GoodsFaliure.button1,Continue
-EventDock_SearchDock1GoodsFaliure.text,You open boxes and barrels until you feel like your arms are about to fall off, but find nothing of value.
+EventDock_SearchDock1GoodsFailure.button1,Continue
+EventDock_SearchDock1GoodsFailure.text,You open boxes and barrels until you feel like your arms are about to fall off, but find nothing of value.
 EventDock_SearchDock1GoodsSkillCheck.button1,Confirm
 EventDock_SearchDock1GoodsSkillCheck.text,All of the boxes and barrels are still sealed from their recent boat journey. You start the arduous task of unsealing and searching them ({strength}).
-EventDock_SearchDock2GoodsFaliure.button1,Continue
-EventDock_SearchDock2GoodsFaliure.text,Your unpack what feels like half the carrying capacity of the small boat, without finding anything of potential interest.
+EventDock_SearchDock2GoodsFailure.button1,Continue
+EventDock_SearchDock2GoodsFailure.text,Your unpack what feels like half the carrying capacity of the small boat, without finding anything of potential interest.
 EventDock_SearchDock2GoodsSkillCheck.button1,Confirm
 EventDock_SearchDock2GoodsSkillCheck.text,You start unpacking the contents of the cargo, looking out for anything useful to your investigation ({strength}).
 EventDock_SearchGreenCrate.button1,{action} Open
 EventDock_SearchGreenCrate.button2,Cancel
 EventDock_SearchGreenCrate.text,A strange crate has been pushed into the corner of the Cabin. Green runes embedded in the wood glow brightly, and a magical energy surrounds the container. This may contain the components you are looking for.
-EventDock_SearchHouseBoatGoodsFaliure.button1,Continue
-EventDock_SearchHouseBoatGoodsFaliure.text,The smell of the fish overwhelms your senses, making you gag uncontrollably and preventing you from continuing.
+EventDock_SearchHouseBoatGoodsFailure.button1,Continue
+EventDock_SearchHouseBoatGoodsFailure.text,The smell of the fish overwhelms your senses, making you gag uncontrollably and preventing you from continuing.
 EventDock_SearchHouseBoatGoodsSkillCheck.button1,Confirm
 EventDock_SearchHouseBoatGoodsSkillCheck.text,You begin the dirty task of clearing out the rotten fish and searching through the rest of the items in the barrel ({will}).
-EventDock_SearchPierGoodsFaliure.button1,Continue
-EventDock_SearchPierGoodsFaliure.text,You lift away as many boxes as you can, but you tire before you can clear away all of them.
+EventDock_SearchPierGoodsFailure.button1,Continue
+EventDock_SearchPierGoodsFailure.text,You lift away as many boxes as you can, but you tire before you can clear away all of them.
 EventDock_SearchPierGoodsSkillCheck.button1,Confirm
 EventDock_SearchPierGoodsSkillCheck.text,A stack of boxes holding smaller items has been buried under heavier boxes. You start lifting the heavier boxes away to search the boxes below ({strength}).
-EventDock_SearchPostersFaliure.button1,Continue
-EventDock_SearchPostersFaliure.text,You stare blankly at the various sheets of paper, failing to gain any knowledge of use to your investigation.
+EventDock_SearchPostersFailure.button1,Continue
+EventDock_SearchPostersFailure.text,You stare blankly at the various sheets of paper, failing to gain any knowledge of use to your investigation.
 EventDock_SearchPostersSkillCheck.button1,Confirm
 EventDock_SearchPostersSkillCheck.text,You read through the various posters and flyers, looking out for any information useful to your investigation ({lore}).
 EventDock_SearchPostersSuccess.button1,Continue
@@ -176,23 +179,23 @@ EventDock_SearchPostersSuccess.text,Though most of the wall is filled with adver
 EventDock_SearchRedCrate.button1,{action} Open
 EventDock_SearchRedCrate.button2,Cancel
 EventDock_SearchRedCrate.text,On top of the counter a red crate has been placed. There is a faint glow coming from within the box, and a tag covered in ancient runes has been attached to it. This may contain the components you are looking for.
-EventDock_SearchRedStallFaliure.button1,Continue
-EventDock_SearchRedStallFaliure.text,While rustling through the junk you hear the sound of somebody approaching. You quickly restore the stall to its original state, but when you turn around nobody is there.
+EventDock_SearchRedStallFailure.button1,Continue
+EventDock_SearchRedStallFailure.text,While rustling through the junk you hear the sound of somebody approaching. You quickly restore the stall to its original state, but when you turn around nobody is there.
 EventDock_SearchRedStallSkillCheck.button1,Confirm
 EventDock_SearchRedStallSkillCheck.text,Seeing nobody nearby, you decide to rifle through the items on display, looking for any of interest ({observation}).
-EventDock_SearchRentalDockGoodsFaliure.button1,Continue
-EventDock_SearchRentalDockGoodsFaliure.text,You try your hardest, but fail to shift any of the boats off the stacks.
+EventDock_SearchRentalDockGoodsFailure.button1,Continue
+EventDock_SearchRentalDockGoodsFailure.text,You try your hardest, but fail to shift any of the boats off the stacks.
 EventDock_SearchRentalDockGoodsSkillCheck.button1,Confirm
 EventDock_SearchRentalDockGoodsSkillCheck.text,Inspecting the pile of boats you realise there are items hidden within the stacks. You start the strenuous job of moving the top boats off the piles ({strength}).
-EventDock_SearchRowboatFaliure.button1,Continue
-EventDock_SearchRowboatFaliure.text,You are able to react fast enough to save yourself from falling into the water. However, the boat drifts to the end of its mooring and out of reach.
+EventDock_SearchRowboatFailure.button1,Continue
+EventDock_SearchRowboatFailure.text,You are able to react fast enough to save yourself from falling into the water. However, the boat drifts to the end of its mooring and out of reach.
 EventDock_SearchRowboatSkillCheck.button1,Confirm
 EventDock_SearchRowboatSkillCheck.text,As you reach over the pier edge to remove the tarpaulin, the boat is suddenly pulled away by the ocean current ({agility}).
 EventDock_SearchRowboatSuccess.button1,Continue
 EventDock_SearchRowboatSuccess.button2,View Clue
 EventDock_SearchRowboatSuccess.text,You quickly grab the edge of the boat and pull it back towards the Pier. Removing the tarpaulin you find an {c:QItemOldJournal} placed carefully in the boat and out of the waters reach. Gain the {c:QItemOldJournal} Unique Item. Then discard this Search token. The investigator holding the {c:QItemOldJournal} can view the associated clue by interacting with it in the app.
-EventDock_SearchYellowStallFaliure.button1,Continue
-EventDock_SearchYellowStallFaliure.text,You clear out some of the broken junk lining the stall, but find nothing of interest remaining.
+EventDock_SearchYellowStallFailure.button1,Continue
+EventDock_SearchYellowStallFailure.text,You clear out some of the broken junk lining the stall, but find nothing of interest remaining.
 EventDock_SearchYellowStallSkillCheck.button1,Confirm
 EventDock_SearchYellowStallSkillCheck.text,You search for anything salvageable in the pile of rotten items ({observation}).
 EventDock_TriggerExit.button1,Continue
@@ -283,7 +286,7 @@ EventHouse_ExploreSmallBedroom2.text,You open the door to reveal a small threadb
 EventHouse_InteractPersonChild_Positive.button1,Continue
 EventHouse_InteractPersonChild_Positive.text,The children tearfully hug you. You let yourself enjoy this small respite of happiness, before hurriedly directing them out of the building. Discard this Person token.
 EventHouse_InteractPersonChild1.button1,Continue
-EventHouse_InteractPersonChild1.text,You slowly approach the children, reassuring them that everything is all right. You gently grab each childs hand and stand them up.
+EventHouse_InteractPersonChild1.text,You slowly approach the children, reassuring them that everything is all right. You gently grab each child's hand and stand them up.
 EventHouse_InteractPersonChild2.button1,Continue
 EventHouse_InteractPersonChild2.text,You untie the childrens restraints. They immediately spring up, stretching their cramped legs.
 EventHouse_InteractPersonMan_Positive.button1,Continue
@@ -371,29 +374,29 @@ EventHouse_PlaceYard1.text,Your car pulls up to the front gate of an ordinary lo
 EventHouse_PuzzleConclusiveEvidenceComplete.button1,Continue
 EventHouse_PuzzleConclusiveEvidenceComplete.button2,View Clue
 EventHouse_PuzzleConclusiveEvidenceComplete.text,Using your knowledge of ancient language you are able to reassemble the original text contained in this cabinet. Taking the time to read the passages, you spot a passage that could be helpful to your investigation. Gain the {c:QItemConclusiveEvidence} Unique Item. Then discard this Search token. The investigator holding the {c:QItemConclusiveEvidence} can view the associated clue by interacting with it in the app.
-EventHouse_SearchBedroomDeskFaliure.button1,Continue
-EventHouse_SearchBedroomDeskFaliure.text,Try as you might, the writing is too obtuse for you to discern anything useful from it.
+EventHouse_SearchBedroomDeskFailure.button1,Continue
+EventHouse_SearchBedroomDeskFailure.text,Try as you might, the writing is too obtuse for you to discern anything useful from it.
 EventHouse_SearchBedroomDeskSkillCheck.button1,Confirm
 EventHouse_SearchBedroomDeskSkillCheck.text,You try to decipher any information of use from the incoherent noise ({lore}).
 EventHouse_SearchBedroomDeskSuccess.button1,Continue
 EventHouse_SearchBedroomDeskSuccess.button2,View Clue
 EventHouse_SearchBedroomDeskSuccess.text,Throughout the writing you start noticing a pattern of information that may provide useful. Gain the {c:QItemCircumstantialEvidence} Unique Item. Then discard this Search token. The investigator holding the {c:QItemCircumstantialEvidence} can view the associated clue by interacting with it in the app.
-EventHouse_SearchCupboardsFaliure.button1,Continue
-EventHouse_SearchCupboardsFaliure.text,You put all of your strength into trying to move the panel, but it remains firmly secured to the cupboard.
+EventHouse_SearchCupboardsFailure.button1,Continue
+EventHouse_SearchCupboardsFailure.text,You put all of your strength into trying to move the panel, but it remains firmly secured to the cupboard.
 EventHouse_SearchCupboardsSkillCheck.button1,Confirm
 EventHouse_SearchCupboardsSkillCheck.text,You spot a fake panel at the back of the cupboards, and attempt to tear it off ({strength}).
 EventHouse_SearchCupboardsSuccess.button1,Continue
 EventHouse_SearchCupboardsSuccess.text,You tear the piece of wood away to reveal a small jewellery box. Inside is what you can only conclude to be the entire life savings of this family. This must be what the Cultist was looking for. Gain 1 clue. Then discard this Search token.
-EventHouse_SearchDiningTableFaliureThermos.button1,Continue
-EventHouse_SearchDiningTableFaliureThermos.text,You panic and grab whatever is sitting closest to you on the table, realising too late that it cannot be used as a weapon in its current state. Gain the {c:QItemThermos} Common Item. Then discard this Search token.
-EventHouse_SearchDiningTableFaliureWhiskey.button1,Continue
-EventHouse_SearchDiningTableFaliureWhiskey.text,You panic and grab whatever is sitting closest to you on the table, realising too late that it cannot be used as a weapon in its current state. Gain the {c:QItemWhiskey} Common Item. Then discard this Search token.
+EventHouse_SearchDiningTableFailureThermos.button1,Continue
+EventHouse_SearchDiningTableFailureThermos.text,You panic and grab whatever is sitting closest to you on the table, realising too late that it cannot be used as a weapon in its current state. Gain the {c:QItemThermos} Common Item. Then discard this Search token.
+EventHouse_SearchDiningTableFailureWhiskey.button1,Continue
+EventHouse_SearchDiningTableFailureWhiskey.text,You panic and grab whatever is sitting closest to you on the table, realising too late that it cannot be used as a weapon in its current state. Gain the {c:QItemWhiskey} Common Item. Then discard this Search token.
 EventHouse_SearchDiningTableSkillCheck.button1,Confirm
 EventHouse_SearchDiningTableSkillCheck.text,You grab the first item that looks potentially deadly ({agility}).
 EventHouse_SearchDiningTableSuccess.button1,Continue
 EventHouse_SearchDiningTableSuccess.text,You quickly grab a vicious looking {c:QItemMeatCleaver} buried in the roast. Gain the {c:QItemMeatCleaver} Common Item. Then discard this Search token.
-EventHouse_SearchEntryTableFaliure.button1,Continue
-EventHouse_SearchEntryTableFaliure.text,You glance over the items but spot nothing unexpected.
+EventHouse_SearchEntryTableFailure.button1,Continue
+EventHouse_SearchEntryTableFailure.text,You glance over the items but spot nothing unexpected.
 EventHouse_SearchEntryTableSkillCheck.button1,Confirm
 EventHouse_SearchEntryTableSkillCheck.text,You glance over the various items scattered on the floor, looking for anything out of the ordinary ({observation}).
 EventHouse_SearchEntryTableSuccess.button1,Continue
@@ -404,8 +407,8 @@ EventHouse_SearchHallDesk.button1,Continue
 EventHouse_SearchHallDesk.text,Most of the books seem to relate to ancient Pagan traditions and beliefs. Among the pile you spot a book that may be useful during your investigations. Gain the {c:QItemTome} Common Item. Then discard this Search token.
 EventHouse_SearchKidBookshelf.button1,Continue
 EventHouse_SearchKidBookshelf.text,You notice that many of the pages inside the magazines have been torn out. Studying the pages that remain, you notice that all of them contain at least one article about the latest high-risk fad diet. You shudder to imagine a little girl subjecting herself to some of what is written in those pages. Gain 1 clue. Then discard this Search token.
-EventHouse_SearchToyChestFaliure.button1,Continue
-EventHouse_SearchToyChestFaliure.text,While your instincts tell you that these objects are important, you cannot figure out how.
+EventHouse_SearchToyChestFailure.button1,Continue
+EventHouse_SearchToyChestFailure.text,While your instincts tell you that these objects are important, you cannot figure out how.
 EventHouse_SearchToyChestSkillCheck.button1,Confirm
 EventHouse_SearchToyChestSkillCheck.text,You rummage through the strange knick-knacks contained in the chest, looking for any of note ({observation}).
 EventHouse_SearchToyChestSuccess.button1,Continue
@@ -549,14 +552,14 @@ EventNextLocations_WarehouseHouseDock.button8,Travel to Palace
 EventNextLocations_WarehouseHouseDock.text,You slam the door of your car shut but stop short of starting your car. Where are you going to go first? You mull over which of the three districts of Arkham to start your investigation in.
 EventPalace_CounterRitual_HasturSuccess.button1,Continue
 EventPalace_CounterRitual_HasturSuccess.text,You complete the counter-ritual to banish Hastur from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
-EventPalace_CounterRitual_MajorFaliure.button1,Continue
-EventPalace_CounterRitual_MajorFaliure.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being.
+EventPalace_CounterRitual_MajorFailure.button1,Continue
+EventPalace_CounterRitual_MajorFailure.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being.
 EventPalace_CounterRitual_MajorQ.button1,Hastur
 EventPalace_CounterRitual_MajorQ.button2,Yig
 EventPalace_CounterRitual_MajorQ.button3,Zhar
 EventPalace_CounterRitual_MajorQ.text,|||You feel the energies of your spell direct themselves towards your target. You cry, "Go back to the vile waters which you call home. Though you may try many times, forever more this world will deny the entrance of..."|||
-EventPalace_CounterRitual_MinorFaliure.button1,Continue
-EventPalace_CounterRitual_MinorFaliure.text,You complete the counter-ritual to banish the ancient one. The summoning ritual falters, inhibited by your spell. However, your counter-ritual, weakened by mistakes made while casting it, is unable to stop the summoning ritual's completion entirely. Each investigator suffers 3 Horror.
+EventPalace_CounterRitual_MinorFailure.button1,Continue
+EventPalace_CounterRitual_MinorFailure.text,You complete the counter-ritual to banish the ancient one. The summoning ritual falters, inhibited by your spell. However, your counter-ritual, weakened by mistakes made while casting it, is unable to stop the summoning ritual's completion entirely. Each investigator suffers 3 Horror.
 EventPalace_CounterRitual_MinorQ1.button1,Red
 EventPalace_CounterRitual_MinorQ1.button2,Green
 EventPalace_CounterRitual_MinorQ1.button3,Blue
@@ -569,14 +572,14 @@ EventPalace_CounterRitual_YigSuccess.button1,Continue
 EventPalace_CounterRitual_YigSuccess.text,You complete the counter-ritual to banish Yig from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
 EventPalace_CounterRitual_ZharSuccess.button1,Continue
 EventPalace_CounterRitual_ZharSuccess.text,You complete the counter-ritual to banish Zhar from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
-EventPalace_ExploreAtticBallroomFaliure.button1,Continue
-EventPalace_ExploreAtticBallroomFaliure.text,You pull on the handle until your hands are bright red, but the door does not budge.
+EventPalace_ExploreAtticBallroomFailure.button1,Continue
+EventPalace_ExploreAtticBallroomFailure.text,You pull on the handle until your hands are bright red, but the door does not budge.
 EventPalace_ExploreAtticBallroomSkillCheck.button1,Confirm
 EventPalace_ExploreAtticBallroomSkillCheck.text,You turn the handle and push on the door, only to find it tightly jammed shut. You put all of your strength into pulling open the door ({strength}).
 EventPalace_ExploreAtticBallroomSuccess.button1,Continue
 EventPalace_ExploreAtticBallroomSuccess.text,You pull on the door until its warped frame finally gives way, releasing the door and letting it swing open. You peer through the doorway, seeing the attic space of the palace on the other side. Discard this Explore token.
-EventPalace_InteractSummoningRitualFaliure.button1,Continue
-EventPalace_InteractSummoningRitualFaliure.text,Your mind is overtaken with doubt and you falter, causing the summoned energies to dissipate.
+EventPalace_InteractSummoningRitualFailure.button1,Continue
+EventPalace_InteractSummoningRitualFailure.text,Your mind is overtaken with doubt and you falter, causing the summoned energies to dissipate.
 EventPalace_InteractSummoningRitualSkillCheck.button1,Confirm
 EventPalace_InteractSummoningRitualSkillCheck.text,You begin summoning energies for the counter-ritual, your mind racing as you wonder if you have enough information to complete the spell ({will}).
 EventPalace_InteractSummoningRitualSuccess.button1,Continue
@@ -641,14 +644,14 @@ EventPalace_RevealMap3_AtticSecretPassage.button1,Continue
 EventPalace_RevealMap3_AtticSecretPassage.text,Place a Secret Passage as indicated.
 EventPalace_RevealMap3_AtticTrapdoor.button1,Continue
 EventPalace_RevealMap3_AtticTrapdoor.text,Place a Trapdoor as indicated.
-EventPalace_SearchBookshelfFaliure.button1,Continue
-EventPalace_SearchBookshelfFaliure.text,Though you work as fast as you can the force is ultimately faster. The bookshelf shuts before you can stop it.
+EventPalace_SearchBookshelfFailure.button1,Continue
+EventPalace_SearchBookshelfFailure.text,Though you work as fast as you can the force is ultimately faster. The bookshelf shuts before you can stop it.
 EventPalace_SearchBookshelfSkillCheck.button1,Confirm
 EventPalace_SearchBookshelfSkillCheck.text,You pull on the bookshelf to find that it swings on a hidden hinge. You swing it open, but a strange force pulls it shut again. You try to jam the bookshelf open before it has a chance to shut itself ({agility}).
 EventPalace_SearchBookshelfSuccess.button1,Continue
 EventPalace_SearchBookshelfSuccess.text,You grab a nearby armchair and jam it between the wall and the bookshelf. Climbing over it, you spot a small door behind the bookshelf. You open the door, revealing a secret passage that leads further into the palace. Discard this Search token and Wall, and place a Secret Passage as indicated.
-EventPalace_SearchTrapdoorFaliure.button1,Continue
-EventPalace_SearchTrapdoorFaliure.text,You curse as you see nothing untoward.
+EventPalace_SearchTrapdoorFailure.button1,Continue
+EventPalace_SearchTrapdoorFailure.text,You curse as you see nothing untoward.
 EventPalace_SearchTrapdoorSkillCheck.button1,Confirm
 EventPalace_SearchTrapdoorSkillCheck.text,You lean down and examine the floorboards, looking for anything that might be hiding there ({observation}).
 EventPalace_SearchTrapdoorSuccess.button1,Continue
@@ -708,10 +711,16 @@ EventViewEvidence_CircumstantialEvidence_Green.button1,Continue
 EventViewEvidence_CircumstantialEvidence_Green.text,The papers contain specific passages of old pagan poems. Throughout the various writings, there is a strong allusion to the relationship between the colour green and feelings of lust. One of the poems is even titled 'Green Lust.'
 EventViewEvidence_CircumstantialEvidence_Red.button1,Continue
 EventViewEvidence_CircumstantialEvidence_Red.text,The papers contain specific passages of old pagan poems. Throughout the various writings, there is a strong allusion to the relationship between the colour red and feelings of lust. One of the poems is even titled 'Red Lust.'
-EventViewEvidence_ConclusiveEvidence_Allies.button1,Continue
-EventViewEvidence_ConclusiveEvidence_Allies.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Pain and Madness have long been considered concepts that go hand-in-hand. Indeed, it is said that the entities behind these afflictions work together on a regular basis. In fact, their bond is so strong that to worship one would, in effect, be the same as worshipping the other."|||
-EventViewEvidence_ConclusiveEvidence_Enemies.button1,Continue
-EventViewEvidence_ConclusiveEvidence_Enemies.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Though we may consider the concepts of Pain and Madness to go hand-in-hand, it is said that the entities behind these afflictions share no affection for each other. In fact, they could even be described as sworn enemies."|||
+EventViewEvidence_ConclusiveEvidence_Hastur.button1,Continue
+EventViewEvidence_ConclusiveEvidence_Hastur.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Hastur and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_ConclusiveEvidence_Yig.button1,Continue
+EventViewEvidence_ConclusiveEvidence_Yig.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Yig and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_ConclusiveEvidence_Zhar.button1,Continue
+EventViewEvidence_ConclusiveEvidence_Zhar.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Zhar and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_CultSigil_Allies.button1,Continue
+EventViewEvidence_CultSigil_Allies.text,|||You quickly realise why this item did not make it to its intended destination. Instead of containing a destination address, the following has been written on the shipping tag: "To the far corners of the near shore. Where madness builds its tall towers soaring high into the ground. Feel your deepest pains and know you are close. Deliver to madness or pain; it does not matter. Together they will destroy you."|||
+EventViewEvidence_CultSigil_Enemies.button1,Continue
+EventViewEvidence_CultSigil_Enemies.text,|||You quickly realise why this item did not make it to its intended destination. Instead of containing a destination address, the following has been written on the shipping tag: "To the far corners of the near shore. Where madness builds its tall towers soaring high into the ground. Avoid your deepest pains as they will lead you astray. Deliver to madness but stay away from pain! It is no friend of madness, and never will be."|||
 EventViewEvidence_ForensicEvidence_Lust.button1,Continue
 EventViewEvidence_ForensicEvidence_Lust.text,|||The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads "Despite it's control of the emotions of lust in our universe, the entity cannot exist in this reality. Though entity's worshippers try to appease their master with material goods, it simply cannot exist alongside anything from our world."|||
 EventViewEvidence_ForensicEvidence_Madness.button1,Continue
@@ -863,14 +872,14 @@ EventWarehouse_SearchBarrelScalpel.button1,Continue
 EventWarehouse_SearchBarrelScalpel.text,You pry open the barrel, revealing that it is full of an unidentifiable meat. You pray to yourself that this is the meat of an animal and not something else. The handle of a surgical scalpel protrudes from the flesh. Gain the {c:QItemScalpel} Common Item and 1 clue. Then discard this Search token.
 EventWarehouse_SearchBarrelSilverTwilightDagger.button1,Continue
 EventWarehouse_SearchBarrelSilverTwilightDagger.text,You pry open the barrel, revealing that it is full of an unidentifiable meat. You pray to yourself that this is the meat of an animal and not something else. The handle of a strange ornate dagger protrudes from the flesh. Gain the {c:QItemSilverTwilightDagger} Common Item and 1 clue. Then discard this Search token.
-EventWarehouse_SearchBodyFaliure.button1,Continue
-EventWarehouse_SearchBodyFaliure.text,Try though you might, you cannot bring yourself to keep looking upon the body. Your stomach feels sick and you can't stop thinking of the corpse as your own. Suffer 1 Horror ({will}-1 negates).
+EventWarehouse_SearchBodyFailure.button1,Continue
+EventWarehouse_SearchBodyFailure.text,Try though you might, you cannot bring yourself to keep looking upon the body. Your stomach feels sick and you can't stop thinking of the corpse as your own. Suffer 1 Horror ({will}-1 negates).
 EventWarehouse_SearchBodySkillCheck.button1,Confirm
 EventWarehouse_SearchBodySkillCheck.text,You examine the mangled corpse, trying to determine a cause of death ({will}).
 EventWarehouse_SearchBodySuccess.button1,Continue
 EventWarehouse_SearchBodySuccess.text,Though the body has suffered many lacerations and broken bones, you determine the cause of death to be from gradual blood loss. Whatever attacked this person was toying with them, keeping them alive and suffering for as long as possible. Gain 1 clue. Then discard this Search token.
-EventWarehouse_SearchBookshelfFaliure.button1,Continue
-EventWarehouse_SearchBookshelfFaliure.text,You write down your best interpretation of the runes meaning in your notebook. Reading back what you wrote, absolutely none of it makes sense.
+EventWarehouse_SearchBookshelfFailure.button1,Continue
+EventWarehouse_SearchBookshelfFailure.text,You write down your best interpretation of the runes meaning in your notebook. Reading back what you wrote, absolutely none of it makes sense.
 EventWarehouse_SearchBookshelfSkillCheck.button1,Confirm
 EventWarehouse_SearchBookshelfSkillCheck.text,Looking through the items, you spot a book written entirely in ancient runes. You open the book and attempt to decipher the pages ({lore}).
 EventWarehouse_SearchBookshelfSuccess.button1,Continue
@@ -886,8 +895,8 @@ EventWarehouse_SearchDeadCultistPuzzleStart.button1,Continue
 EventWarehouse_SearchDeadCultistPuzzleStart.text,The tattoos are mostly various cult mantras. However, one that stands out contains a passage number from an occult text. Having found a copy of the text on the corpse, you attempt to match up the number in the tattoo with the runes in the book. Tap to attempt the puzzle using {lore}.
 EventWarehouse_SearchEmptyBox.button1,Continue
 EventWarehouse_SearchEmptyBox.text,|||Hidden underneath a flap you find a receipt of the box's original contents. The box contained various chains, shackles, and small torture devices. It is addressed to "Arkham's Finest Butchery," no doubt a front for the cult operating within the Industrial District. Gain 1 clue. Then discard this Search token.|||
-EventWarehouse_SearchFurnaceFaliure.button1,Continue
-EventWarehouse_SearchFurnaceFaliure.text,You dig as fast as you can, but the ash moves faster than you. You tire yourself out before you can uncover anything.
+EventWarehouse_SearchFurnaceFailure.button1,Continue
+EventWarehouse_SearchFurnaceFailure.text,You dig as fast as you can, but the ash moves faster than you. You tire yourself out before you can uncover anything.
 EventWarehouse_SearchFurnaceSkillCheck.button1,Confirm
 EventWarehouse_SearchFurnaceSkillCheck.text,As you try digging through the ash, it fills the hole you are creating faster than you can dig it. You attempt to dig fast enough to reach the object before the ash can settle ({agility}).
 EventWarehouse_SearchFurnaceSuccess.button1,Continue
