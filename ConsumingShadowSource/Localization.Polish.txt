@@ -30,30 +30,30 @@ EventDock_ContinueCratePuzzle.button2,Anuluj
 EventDock_ContinueCratePuzzle.text,Zawartość skrzyni jest wciąż zamknięta przez otaczającą ją gęstą, magiczną aurę. W ramach swojej akcji możesz spróbować przebić się przez tę barierę, rozwiązując w tym celu łamigłówkę przy użyciu {will}.
 EventDock_CratePuzzleStart.button1,Kontynuuj
 EventDock_CratePuzzleStart.text,Sięgasz po skrzynię, ale magiczna energia powstrzymuje cię, zanim zdążysz jej dotknąć. Używasz całej swojej siły woli, aby pokonać tę nienaturalną barierę. Naciśnij, aby spróbować rozwiązać łamigłówkę przy pomocy {will}.
-EventDock_CultLeaderJeer_Correct.button1,Kontynuuj
-EventDock_CultLeaderJeer_Correct.text,"{c:SpawnDock_CabinCultLeader} zatacza się, wyglądając na wyraźnie zszokowanego. Najwyraźniej trafiłeś w sedno. \n\nOtrzymujesz 2 <COLOR=GREEN>wskazówki</COLOR> {clue}."
-EventDock_CultLeaderJeer_IncorrectNegative.button1,Kontynuuj
-EventDock_CultLeaderJeer_IncorrectNegative.text,"{c:SpawnDock_CabinCultLeader} wykrzywia twarz w grymasie prawdziwej furii, gdy zaczyna on rzucać w ciebie bełkotliwymi, niezrozumiałymi wyzwiskami. Najwyraźniej imię, którego użyłeś, mocno go zdenerwowało. \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}."
-EventDock_CultLeaderJeer_IncorrectPositive.button1,Kontynuuj
-EventDock_CultLeaderJeer_IncorrectPositive.text,"{c:SpawnDock_CabinCultLeader} rzuca ci zdezorientowane spojrzenie, po czym wybucha maniakalnym śmiechem. Najwyraźniej nie udało ci się właściwie nazwać jego pana, choć twojej uwadze nie umknął fakt, że kultysta nie miał ci za złe, że użyłeś wobec niego nieprawidłowego imienia.\n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}."
-EventDock_CultLeaderJeer.button1,Czy wykonujesz rozkazy Hastura?
-EventDock_CultLeaderJeer.button2,Po co tracić tak wiele tylko po to, by służyć Yigowi?
-EventDock_CultLeaderJeer.button3,Jakimi kłamstwami karmi cię Zhar, szaleńcze?
-EventDock_CultLeaderJeer.text,{c:SpawnDock_CabinCultLeader} unosi pięść i zaczyna gniewnie wykrzykiwać w twoją stronę słowa, które w twoich uszach brzmią jak bełkot. Choć nie mają one absolutnie żadnego sensu, ich znaczenie jest jasne. Wasze spotkanie skończy się śmiercią i rozlewem krwi.
-EventDock_ExploreHouseboat.button1,Kontynuuj
-EventDock_ExploreHouseboat.text,"Wkładasz klucz do drzwi, odblokowując je z kliknięciem. Wewnątrz łodzi znajduje się przytulna przestrzeń mieszkalna przeznaczona dla jednego mieszkańca. \n\nOdrzuć wszystkie Żetony Eksploracji prowadzące do kabiny."
-EventDock_ExploreHouseboatKey.button1,{action} Eksploruj
-EventDock_ExploreHouseboatKey.button2,Anuluj
-EventDock_ExploreHouseboatKey.text,Drzwi ze złotą dziurką od klucza, prowadzące do małego kabiny łodzi, zostały zamknięte. Możesz je otworzyć tylko, jeśli posiadasz przedmiot unikatowy {c:QItemGoldKey}.
-EventDock_ExploreHouseboatNoKey.button1,Kontynuuj
-EventDock_ExploreHouseboatNoKey.text,Drzwi ze złotą dziurką od klucza, prowadzące do małej kabiny łodzi, zostały zamknięte.
-EventDock_ExploreRentalDock.button1,Kontynuuj
-EventDock_ExploreRentalDock.text,"Przekręcasz klucz i słyszysz kliknięcie. Drzwi otwierają się swobodnie, dając ci dostęp do wnętrza chatki. \n\nOdrzuć ten Żeton Eksploracji."
-EventDock_ExploreRentalDockKey.button1,{action} Eksploruj
-EventDock_ExploreRentalDockKey.button2,Anuluj
-EventDock_ExploreRentalDockKey.text,Mała chatka, w której mieści się wypożyczalnia łodzi, została zamknięta na srebrną kłódkę. Możesz ją otworzyć tylko, jeśli posiadasz przedmiot unikatowy {c:QItemSilverKey}.
-EventDock_ExploreRentalDockNoKey.button1,Kontynuuj
-EventDock_ExploreRentalDockNoKey.text,Mała chatka, w której mieści się wypożyczalnia łodzi, została zamknięta na srebrną kłódkę.
+EventDock_CultistJeer_Correct.button1,Kontynuuj
+EventDock_CultistJeer_Correct.text,The Cultist staggers back, looking visibly shocked. Clearly, you have hit the nail on the head. Gain 2 Clues.
+EventDock_CultistJeer_IncorrectNegative.button1,Kontynuuj
+EventDock_CultistJeer_IncorrectNegative.text,Rage fills the Cultist's face, and he starts hurling gibberish abuse at you. Clearly, the name you used upset him deeply. Gain 1 Clue.
+EventDock_CultistJeer_IncorrectPositive.button1,Kontynuuj
+EventDock_CultistJeer_IncorrectPositive.text,The Cultist gives you a confused look, before bursting into laughter. Clearly, you failed to name his master, though he did not resent the name you used instead. Gain 1 Clue.
+EventDock_CultistJeer.button1,Czy wykonujesz rozkazy Hastura?
+EventDock_CultistJeer.button2,Po co tracić tak wiele tylko po to, by służyć Yigowi?
+EventDock_CultistJeer.button3,Jakimi kłamstwami karmi cię Zhar, szaleńcze?
+EventDock_CultistJeer.text,The Cultist raises his fist and starts angrily yelling gibberish at you. While the words make absolutely no sense, the meaning behind them is clear.
+EventDock_ExploreCabin.button1,Kontynuuj
+EventDock_ExploreCabin.text,"Wkładasz klucz do drzwi, odblokowując je z kliknięciem. Wewnątrz łodzi znajduje się przytulna przestrzeń mieszkalna przeznaczona dla jednego mieszkańca. \n\nOdrzuć wszystkie Żetony Eksploracji prowadzące do kabiny."
+EventDock_ExploreCabinKey.button1,{action} Eksploruj
+EventDock_ExploreCabinKey.button2,Anuluj
+EventDock_ExploreCabinKey.text,Drzwi ze złotą dziurką od klucza, prowadzące do małego kabiny łodzi, zostały zamknięte. Możesz je otworzyć tylko, jeśli posiadasz przedmiot unikatowy {c:QItemGoldKey}.
+EventDock_ExploreCabinNoKey.button1,Kontynuuj
+EventDock_ExploreCabinNoKey.text,Drzwi ze złotą dziurką od klucza, prowadzące do małej kabiny łodzi, zostały zamknięte.
+EventDock_ExploreRentalShack.button1,Kontynuuj
+EventDock_ExploreRentalShack.text,"Przekręcasz klucz i słyszysz kliknięcie. Drzwi otwierają się swobodnie, dając ci dostęp do wnętrza chatki. \n\nOdrzuć ten Żeton Eksploracji."
+EventDock_ExploreRentalShackKey.button1,{action} Eksploruj
+EventDock_ExploreRentalShackKey.button2,Anuluj
+EventDock_ExploreRentalShackKey.text,Mała chatka, w której mieści się wypożyczalnia łodzi, została zamknięta na srebrną kłódkę. Możesz ją otworzyć tylko, jeśli posiadasz przedmiot unikatowy {c:QItemSilverKey}.
+EventDock_ExploreRentalShackNoKey.button1,Kontynuuj
+EventDock_ExploreRentalShackNoKey.text,Mała chatka, w której mieści się wypożyczalnia łodzi, została zamknięta na srebrną kłódkę.
 EventDock_ExploreSnackShack.button1,Kontynuuj
 EventDock_ExploreSnackShack.text,"Zdejmujesz kłódki zabezpieczające łańcuchy, uwalniając wątłe drzwi. Ostrożnie pociągasz za klamkę, odsłaniając wnętrze chaty. \n\nOdrzuć ten Żeton Eksploracji."
 EventDock_ExploreSnackShackKey.button1,{action} Eksploruj
@@ -74,10 +74,10 @@ EventDock_PlaceDock1.button1,Kontynuuj
 EventDock_PlaceDock1.text,"Dok biegnie wzdłuż krawędzi dzielnicy, umożliwiając łodziom rozładunek towarów bezpośrednio do sklepów, w których są sprzedawane. \n\nUmieść kafelek {c:TileDock_Dock1} we wskazanym miejscu i odrzuć wszystkie prowadzące do niego Żetony Obserwacji."
 EventDock_PlaceDock2HouseBoat.button1,Kontynuuj
 EventDock_PlaceDock2HouseBoat.text,"Dok schodzi do poziomu wody, umożliwiając cumowanie tutaj różnych łodzi. Miejsca do cumowania są dziwnie puste, za wyjątkiem jednej łodzi mieszkalnej, która została postawiona nieopodal. \n\nOdrzuć ten Żeton Obserwacji i umieść kafelki {c:TileDock_Dock2} oraz {c:TileDock_HouseBoat} we wskazanych miejscach."
-EventDock_PlaceExploreHouseboat.button1,Kontynuuj
-EventDock_PlaceExploreHouseboat.text,"Drzwi na dziobie i rufie łodzi prowadzą do niewielkiej przestrzeni wewnętrznej. W obu drzwiach znajdują się zdobione, złote dziurki na klucz, które wydają się być zamknięte. \n\nUmieść Żetony Eksploracji we wskazanych miejscach."
 EventDock_PlaceExploreRentalDock.button1,Kontynuuj
 EventDock_PlaceExploreRentalDock.text,"Mała chatka, w której mieści się wypożyczalnia, została zamknięta na błyszczącą, srebrną kłódkę. \n\nUmieść Żeton Eksploracji we wskazanym miejscu."
+EventDock_PlaceExploresCabin.button1,Kontynuuj
+EventDock_PlaceExploresCabin.text,"Drzwi na dziobie i rufie łodzi prowadzą do niewielkiej przestrzeni wewnętrznej. W obu drzwiach znajdują się zdobione, złote dziurki na klucz, które wydają się być zamknięte. \n\nUmieść Żetony Eksploracji we wskazanych miejscach."
 EventDock_PlaceExploreSnackShack.button1,Kontynuuj
 EventDock_PlaceExploreSnackShack.text,"Ta niewielka chatka przykuwa twoją uwagę. Choć budynek sprawia wrażenie opuszczonego i nie zawierającego w sobie nic wartościowego, to jednak zauważasz, że ktoś zadbał o to, aby nikt nieproszony nie zdołał wejść do środka. Chatka została bowiem solidnie zabezpieczona ciężkimi łańcuchami z mosiężnymi zamkami. \n\nUmieść Żeton Eksploracji we wskazanym miejscu."
 EventDock_PlaceFleaMarket.button1,Kontynuuj
@@ -206,6 +206,95 @@ EventDock_WomanExit.button1,Kontynuuj
 EventDock_WomanExit.text,Szybko podchodzi do ciebie i zdecydowanym ruchem wciska ci do ręki pomięty skrawek papieru. Zanim zdążysz zareagować na to nietypowe zachowanie, kobieta pospiesznie oddala się długą, krętą ulicą prowadzącą w kierunku centrum miasta i znika ci z pola widzenia.
 EventDock_WomanNote.button1,Kontynuuj
 EventDock_WomanNote.text,|||Rozwijasz notatkę i czytasz ją uważnie. "Otwórzcie tylko skrzynię noszącą kolor Boga Szaleństwa. Wasze działania nie pozostały niezauważone, Badacze. Powodzenia, dla dobra nas wszystkich".|||
+EventDock2_ExploreCabin.button1,Kontynuuj
+EventDock2_ExploreCabin.text,"Wkładasz klucz do drzwi, odblokowując je z kliknięciem. Wewnątrz łodzi znajduje się przytulna przestrzeń mieszkalna przeznaczona dla jednego mieszkańca. \n\nOdrzuć wszystkie Żetony Eksploracji prowadzące do kabiny."
+EventDock2_ExploreMoldyShack.button1,Kontynuuj
+EventDock2_ExploreMoldyShack.text,You turn the key and hear an audible click. The door grinds against the dilapidated floorboards of the old shack as you force it open. Discard this Explore token. 
+EventDock2_ExploreMoldyShackKey.button1,{action} Eksploruj
+EventDock2_ExploreMoldyShackKey.button2,Anuluj
+EventDock2_ExploreMoldyShackKey.text,A small nondescript shack is sealed shut by a pristine silver lock. You can explore only if you have the {c:QItemSilverKey} Unique Item.
+EventDock2_ExploreMoldyShackNoKey.button1,Kontynuuj
+EventDock2_ExploreMoldyShackNoKey.text,A small nondescript shack is sealed shut by a pristine silver lock.
+EventDock2_ExploreSnackShack.button1,Kontynuuj
+EventDock2_ExploreSnackShack.text,"Zdejmujesz kłódki zabezpieczające łańcuchy, uwalniając wątłe drzwi. Ostrożnie pociągasz za klamkę, odsłaniając wnętrze chaty. \n\nOdrzuć ten Żeton Eksploracji."
+EventDock2_ExploreStorefront.button1,Kontynuuj
+EventDock2_ExploreStorefront.text,A little bell dings as you open the door to the shop. Discard this Explore token. 
+EventDock2_PlaceBeach.button1,Kontynuuj
+EventDock2_PlaceBeach.text,On the shoreline you spot a ruined house boat washed up on the shore. Place the {c:TileDock2_Beach} and the {c:TileDock2_HouseBoat} tiles as indicated. Then discard all Sight tokens leading to them.
+EventDock2_PlaceBilliardsRoom.button1,Kontynuuj
+EventDock2_PlaceBilliardsRoom.text,You open the door to reveal a small dimly lit room, barely more than a hole in the wall. Place the {c:TileDock2_BilliardsRoom} tile and a door as indicated and discard all Explore tokens leading to it.
+EventDock2_PlaceExploreMoldyShack.button1,Kontynuuj
+EventDock2_PlaceExploreMoldyShack.text,On the shoreline sits a small nondescript shack. Its dilapidated appearance is interrupted by a pristine locked door with a silver lock. Place an Explore token as indicated.
+EventDock2_PlaceExploresBilliardsRoom.button1,Kontynuuj
+EventDock2_PlaceExploresBilliardsRoom.text,Oh the other side of the street you see the facade of a small billiards hall. Place Explore tokens as indicated.
+EventDock2_PlaceExploresCabin.button1,Kontynuuj
+EventDock2_PlaceExploresCabin.text,"Drzwi na dziobie i rufie łodzi prowadzą do niewielkiej przestrzeni wewnętrznej. W obu drzwiach znajdują się zdobione, złote dziurki na klucz, które wydają się być zamknięte. \n\nUmieść Żetony Eksploracji we wskazanych miejscach."
+EventDock2_PlaceExploreSnackShack.button1,Kontynuuj
+EventDock2_PlaceExploreSnackShack.text,"Ta niewielka chatka przykuwa twoją uwagę. Choć budynek sprawia wrażenie opuszczonego i nie zawierającego w sobie nic wartościowego, to jednak zauważasz, że ktoś zadbał o to, aby nikt nieproszony nie zdołał wejść do środka. Chatka została bowiem solidnie zabezpieczona ciężkimi łańcuchami z mosiężnymi zamkami. \n\nUmieść Żeton Eksploracji we wskazanym miejscu."
+EventDock2_PlaceExploreStorefront.button1,Kontynuuj
+EventDock2_PlaceExploreStorefront.text,A small trinket store, despite showing no signs of life, appears to still be open. Place an Explore token as indicated.
+EventDock2_PlacePier.button1,Kontynuuj
+EventDock2_PlacePier.text,To the north you sight some docks on the river. Place the {c:TileDock2_Pier} tile as indicated and discard all Sight tokens leading to it.
+EventDock2_PlacePierGoods.button1,Kontynuuj
+EventDock2_PlacePierGoods.text,Various piles of junk litter the dock. While on the surface uninteresting, you conclude that it would not hurt to search them anyway. Place Search tokens as indicated.
+EventDock2_PlaceSearchBar.button1,Kontynuuj
+EventDock2_PlaceSearchBar.text,A small bar has been repurposed as storage for some suspicious unmarked crates. Place a Search token as indicated.
+EventDock2_PlaceSearchBlueCrate.button1,Kontynuuj
+EventDock2_PlaceSearchBlueCrate.text,"Wnętrze szałasu jest całkowicie puste, z wyjątkiem jednej skrzyni ładunkowej, która została umieszczona na jego środku. Pojemnik został pokryty niebieskimi runami, a powietrze wokół niego iskrzy od dziwnej energii. Być może zawiera on komponenty, których szukasz. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
+EventDock2_PlaceSearchesBeach.button1,Kontynuuj
+EventDock2_PlaceSearchesBeach.text,Cargo from the wrecked ship covers its ruined deck and the beach beside it. Place Search tokens as indicated.
+EventDock2_PlaceSearchesStorefront.button1,Kontynuuj
+EventDock2_PlaceSearchesStorefront.text,You spot a number of places inside that an item from the cursed crate may have ended up. Place Search tokens as indicated.
+EventDock2_PlaceSearchGreenCrate.button1,Kontynuuj
+EventDock2_PlaceSearchGreenCrate.text,Dziwna skrzynia została wepchnięta w róg kabiny. Pojemnik został pokryty zielonymi runami, a powietrze wokół niego iskrzy od dziwnej energii. Być może zawiera on komponenty, których szukasz.
+EventDock2_PlaceSearchPosters.button1,Kontynuuj
+EventDock2_PlaceSearchPosters.text,"Ceglana ściana tego budynku została pokryta różnymi ulotkami i plakatami. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
+EventDock2_PlaceSearchRedCrate.button1,Kontynuuj
+EventDock2_PlaceSearchRedCrate.text,In a pile of decayed wood you spot an intact red crate. There is a faint glow coming from within, and a tag covered in ancient runes has been attached to it. This may contain the components you are looking for. Place a Search token as indicated.
+EventDock2_PlaceSearchRowboat.button1,Kontynuuj
+EventDock2_PlaceSearchRowboat.text,"Zniszczona łódź znajduje się już w połowie pod morską tonią. Wygląda na to, że plandeka niedbale rzucona na łódź została niedawno naruszona, a jeden z jej rogów łopocze na wietrze. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
+EventDock2_PlaceSedatives.button1,Kontynuuj
+EventDock2_PlaceSedatives.text,A useful item is poking out of the cushion cracks of a small sofa, presumably having fallen out of a pocket unnoticed. Place the {c:QItemSedatives} Common Item as indicated.
+EventDock2_PlaceSightBeachPier.button1,Kontynuuj
+EventDock2_PlaceSightBeachPier.text,The large wooden boards of the dock obscure the shoreline below. Place a Sight token as indicated. An investigator in the {c:TileDock2_Pier} may reveal the adjacent area.
+EventDock2_PlaceSightPierBeach.button1,Kontynuuj
+EventDock2_PlaceSightPierBeach.text,A light haze obscures the docks further down the shore. Place a Sight token as indicated. An investigator in the {c:TileDock2_Beach} or {c:TileDock2_HouseBoat} may reveal the adjacent area.
+EventDock2_PlaceSightsStreetCorners.button1,Kontynuuj
+EventDock2_PlaceSightsStreetCorners.text,The shoreline of the river is just out of sight from your current position. Place Sight tokens as indicated.
+EventDock2_PlaceStorefrontSideStreet1.button1,Kontynuuj
+EventDock2_PlaceStorefrontSideStreet1.text,You make your way down the winding streets of the commercial district and towards the dock. Place the {c:TileDock2_Storefront} and the {c:TileDock2_SideStreet1} tiles and your Investigator figures as indicated.
+EventDock2_PlaceStreetCorners.button1,Kontynuuj
+EventDock2_PlaceStreetCorners.text,Ahead of you is a street running along the shoreline of Miskatonic River. Place the {c:TileDock2_StreetCorner1} and the {c:TileDock2_StreetCorner2} tiles and a wall indicated.
+EventDock2_RedCrateTrap.button1,Kontynuuj
+EventDock2_RedCrateTrap.text,As you tear the lid off the box, the corner of the room begins to crumble, almost as if it had been structurally supported by the crate. An avalanche of soft rotten wood pushes you deep into the large piles of detritus within the shack. Each investigator in the Rental Shack drops 1 random Item. Then discard this Search token.
+EventDock2_SearchBackroomFailure.button1,Kontynuuj
+EventDock2_SearchBackroomFailure.text,You accidentally knock down an open box from a high up shelf, spilling its contents all over the floor. You pause your search to clean up the mess. 
+EventDock2_SearchBackroomSkillCheck.button1,Zatwierdź
+EventDock2_SearchBackroomSkillCheck.text,You begin the laborious process of sorting through the various boxes ({observation}).
+EventDock2_SearchBarFailure.button1,Kontynuuj
+EventDock2_SearchBarFailure.text,After searching through many crates and finding nothing, you finally relent and give your aching arms a rest.
+EventDock2_SearchBarSkillCheck.button1,Zatwierdź
+EventDock2_SearchBarSkillCheck.text,You start the strenuous job of opening each crate to check its contents ({strength}).
+EventDock2_SearchDisplayFailure.button1,Kontynuuj
+EventDock2_SearchDisplayFailure.text,You are so focused on the task at hand that you fail to feel your grasp on the heavy glass lid slip. You notice just in time to pull your arm back before the lid slams shut.
+EventDock2_SearchDisplaySkillCheck.button1,Zatwierdź
+EventDock2_SearchDisplaySkillCheck.button2,Button2
+EventDock2_SearchDisplaySkillCheck.text,You gently lift the glass and slide your arm underneath, rummaging through the trinkets with your hand ({observation}).
+EventDock2_SearchHouseBoatGoodsWFailure.button1,Kontynuuj
+EventDock2_SearchHouseBoatGoodsWFailure.text,Przeszukujesz sterty przedmiotów, ale nie znajdujesz nic interesującego.
+EventDock2_SearchHouseBoatGoodsWSkillCheck.button1,Zatwierdź
+EventDock2_SearchHouseBoatGoodsWSkillCheck.text,You search through the goods laid out on the deck, looking for anything of use ({observation}).
+EventDock2_SearchRedCrate.button1,{action} Otwórz
+EventDock2_SearchRedCrate.button2,Anuluj
+EventDock2_SearchRedCrate.text,In a pile of decayed wood sits a red crate. A faint glow emanates from within, and a tag covered in ancient runes hangs off it. This may contain the components you are looking for.
+EventDock2_SearchShelvesFailure.button1,Kontynuuj
+EventDock2_SearchShelvesFailure.text,You search for what feels like an age, but barely make a dent in the seemingly endless piles of items stuffing the shelves.
+EventDock2_SearchShelvesSkillCheck.button1,Zatwierdź
+EventDock2_SearchShelvesSkillCheck.text,You sift through the vast quantities of junk packing the shelves ({observation}).
+EventDock2_WomanEntrance.button1,Kontynuuj
+EventDock2_WomanEntrance.text,A middle-aged woman turns the street corner, heading in your direction. She stops suddenly as her eyes connect with yours.
+EventDock2_WomanExit.button1,Kontynuuj
+EventDock2_WomanExit.text,She quickly shuffles towards you, and firmly presses a scrunched up note into your hand. Before you can react, the woman hurries down the long winding street leading further into town and out of sight.
 EventDockEnd_ComponentsNotTaken.button1,Kontynuuj
 EventDockEnd_ComponentsNotTaken.text,"Biegniecie sprintem przez kręte uliczki Dzielnicy Handlowej, oddalając się od doku. Podczas biegu nie macie nawet odwagi, by spojrzeć za siebie. Goni was śmiertelna cisza oraz zimne, nocne powietrze wypełniające te niegdyś tętniące życiem okolice. \n\nKażdy Badacz otrzymuje 2 Karty Przerażenia.\n\nWyczyśćcie pole gry, usuwając z niego wszystkie kafelki, figurki, żetony oraz przedmioty. "
 EventDockEnd_MissionComplete.button1,Kontynuuj
@@ -918,8 +1007,8 @@ quest.authors,|||Ewen Cameron\nMark J. Hadley\n\nTłumaczenie: Damian "sircohen"
 quest.description,|||Za mniej niż 12 godzin, jeden z działających w Arkham kultów przeprowadzi rytuał przywołania Wielkiego Przedwiecznego, umożliwiając mu dokonanie inwazji na naszą rzeczywistość. Musicie działać szybko, aby wydedukować, który z kultów jest odpowiedzialny za zbliżający się kataklizm, a następnie wygnać właściwego Przedwiecznego, zanim skończy się wam czas. \n\nScenariusz stworzony na podstawie gry wideo pod nazwą "The Consuming Shadow" autorstwa Bena "Yahtzee" Croshawa, ze ścieżką dźwiękową autorstwa Marka J. Hadleya (udostępnioną na licencji CC BY-NC 3.0).\n\nTen scenariusz wymagał będzie od graczy znacznej ilości dedukcji. Podczas gry zalecane jest korzystanie przez graczy z własnoręcznych notatek.|||
 quest.name,Pochłaniający Cień (v1.3)
 quest.synopsys,Zidentyfikuj i powstrzymaj kultystów, zanim dokończą rytuał przywołania Przedwiecznego.
-SpawnDock_CabinCultLeader.button1,Kontynuuj
-SpawnDock_CabinCultLeader.text,"Stojący obok skrzyni {c:SpawnDock_CabinCultLeader} mruczy jakieś niezrozumiałe zaklęcia, przypuszczalnie mające zapobiec jakimkolwiek próbom jej otwarcia. Światło księżyca przedostaje się przez drzwi do wnętrza kabiny, rozlewając się na podłodze obok niego i zdradzając twoją obecność. {c:SpawnDock_CabinCultLeader} odwraca się i spogląda ci w oczy. \n\nUmieść figurkę potwora {c:SpawnDock_CabinCultLeader} we wskazanym miejscu."
+SpawnDock_CabinCultist.button1,Kontynuuj
+SpawnDock_CabinCultist.text,"Stojący obok skrzyni {c:SpawnDock_CabinCultist} mruczy jakieś niezrozumiałe zaklęcia, przypuszczalnie mające zapobiec jakimkolwiek próbom jej otwarcia. Światło księżyca przedostaje się przez drzwi do wnętrza kabiny, rozlewając się na podłodze obok niego i zdradzając twoją obecność. {c:SpawnDock_CabinCultist} odwraca się i spogląda ci w oczy. \n\nUmieść figurkę potwora {c:SpawnDock_CabinCultist} we wskazanym miejscu."
 SpawnDock_Dock1DeepOneHybrid.button1,Kontynuuj
 SpawnDock_Dock1DeepOneHybrid.text,"Zauważasz mężczyznę gorączkowo odrzucającego na bok  pudła, desperacko próbując dostać się do czegoś pod spodem. Nagle zatrzymuje się, gdy zdaje sobie sprawę z twojej obecności, a jego duże czarne oczy spoglądają w twoją stronę. Zauważasz, w że nie ma w nich białek ani tęczówek. \n\nUmieść figurkę potwora {c:SpawnDock_Dock1DeepOneHybrid} we wskazanym miejscu."
 SpawnDock_HouseBoatDeepOne.button1,Kontynuuj
@@ -940,6 +1029,28 @@ SpawnDock_SnackShackDeepOneHybrid.button1,Kontynuuj
 SpawnDock_SnackShackDeepOneHybrid.text,"Obok skrzyni stoi nieruchomo mieszkaniec miasta, wpatrując się w nią plecami do ciebie. Obawiasz się, jakie szkody zostały wyrządzone psychice tej biednej osoby przez ten nikczemny przedmiot. Rozważasz delikatne wyprowadzenie go z chaty, ale zatrzymujesz się, gdy dostrzegasz łuski na jego dłoniach. Mieszkaniec odwraca się nagle w twoją stronę, ukazując ci twarz z ustami pełnymi piany, wykrzywioną w grymasie ledwo przypominającym ludzki. \n\nUmieść figurkę potwora {c:SpawnDock_SnackShackDeepOneHybrid} we wskazanym miejscu."
 SpawnDock_Street2DeepOneHybrid.button1,Kontynuuj
 SpawnDock_Street2DeepOneHybrid.text,"Mężczyzna opiera się o ścianę, wpatrując się w ulotki i plakaty. Spodziewasz się zobaczyć butelkę alkoholu w jego dłoni, ale gdy na nią zerkasz, zamiast tego dostrzegasz długie pazury wystające z jego pokrytych rybią łuską dłoni. \n\nUmieść figurkę potwora {c:SpawnDock_Street2DeepOneHybrid} we wskazanym miejscu."
+SpawnDock2_BeachDeepOne.button1,Kontynuuj
+SpawnDock2_BeachDeepOne.text,You hear a large shifting of silt from the river shoreline outside. You peer through the gaps in the shack wall, your dazed eyes barely registering the sight of a large lumbering mass impossibly emerging from the ground. Spawn a {c:SpawnDock2_BeachDeepOne} as indicated.
+SpawnDock2_BeachHuntingDeepOne.button1,Kontynuuj
+SpawnDock2_BeachHuntingDeepOne.text,You hear a large shifting of silt from the river shoreline outside. You peer through the gaps in the shack wall, your dazed eyes barely registering the sight of a large lumbering mass impossibly emerging from the ground. Spawn a {c:SpawnDock2_BeachHuntingDeepOne} as indicated.
+SpawnDock2_BilliardsRoomDeepOneHybrid.button1,Kontynuuj
+SpawnDock2_BilliardsRoomDeepOneHybrid.text,A patron of the hall sits in a chair, dozing slightly. You think nothing of it, until you spot his clawed hand as he rises from the chair. Spawn a {c:SpawnDock2_BilliardsRoomDeepOneHybrid} as indicated.
+SpawnDock2_CabinCultist.button1,Kontynuuj
+SpawnDock2_CabinCultist.text,"Stojący obok skrzyni {c:SpawnDock2_CabinCultist} mruczy jakieś niezrozumiałe zaklęcia, przypuszczalnie mające zapobiec jakimkolwiek próbom jej otwarcia. Światło księżyca przedostaje się przez drzwi do wnętrza kabiny, rozlewając się na podłodze obok niego i zdradzając twoją obecność. {c:SpawnDock2_CabinCultist} odwraca się i spogląda ci w oczy. \n\nUmieść figurkę potwora {c:SpawnDock2_CabinCultist} we wskazanym miejscu."
+SpawnDock2_HouseBoatDeepOne.button1,Kontynuuj
+SpawnDock2_HouseBoatDeepOne.text,You start to feel the boat move beneath you. What initially feels like the boat being picked up by the water is actually a large mass crawling over the bow and onto the deck. Spawn a {c:SpawnDock2_HouseBoatDeepOne} as indicated.
+SpawnDock2_HouseBoatHuntingDeepOne.button1,Kontynuuj
+SpawnDock2_HouseBoatHuntingDeepOne.text,You start to feel the boat move beneath you. What initially feels like the boat being picked up by the water is actually a large mass crawling over the bow and onto the deck. Spawn a {c:SpawnDock2_HouseBoatHuntingDeepOne} as indicated.
+SpawnDock2_MoldyShackDeepOneHybrid.button1,Kontynuuj
+SpawnDock2_MoldyShackDeepOneHybrid.text,You think you spot a horrific figure silhouetted against the shack, but assume that it must be the dimly lit room playing tricks on your eyes. Your comforting illusion is shattered when the figure raises a clawed hand in preparation to attack. Spawn a {c:SpawnDock2_MoldyShackDeepOneHybrid} as indicated.
+SpawnDock2_PierDeepOne.button1,Kontynuuj
+SpawnDock2_PierDeepOne.text,"Z zatoki dobiega twoich uszu nienaturalny krzyk. Przez okienko dostrzegasz łuskowate stworzenie wynurzające się z wody obok pomostu. \n\nUmieść figurkę potwora {c:SpawnDock2_PierDeepOne} we wskazanym miejscu."
+SpawnDock2_PierHuntingDeepOne.button1,Kontynuuj
+SpawnDock2_PierHuntingDeepOne.text,"Znad zatoki dobiega cię nienaturalny krzyk, którego nie mogło wydać ludzkie gardło. Przez okienko dostrzegasz łuskowate stworzenie wynurzające się z wody obok pomostu. \n\nUmieść figurkę potwora {c:SpawnDock2_PierHuntingDeepOne} we wskazanym miejscu."
+SpawnDock2_SnackShackDeepOneHybrid.button1,Kontynuuj
+SpawnDock2_SnackShackDeepOneHybrid.text,"Obok skrzyni stoi nieruchomo mieszkaniec miasta, wpatrując się w nią plecami do ciebie. Obawiasz się, jakie szkody zostały wyrządzone psychice tej biednej osoby przez ten nikczemny przedmiot. Rozważasz delikatne wyprowadzenie go z chaty, ale zatrzymujesz się, gdy dostrzegasz łuski na jego dłoniach. Mieszkaniec odwraca się nagle w twoją stronę, ukazując ci twarz z ustami pełnymi piany, wykrzywioną w grymasie ledwo przypominającym ludzki. \n\nUmieść figurkę potwora {c:SpawnDock2_SnackShackDeepOneHybrid} we wskazanym miejscu."
+SpawnDock2_StorefrontDeepOneHybrid.button1,Kontynuuj
+SpawnDock2_StorefrontDeepOneHybrid.text,Your gaze meets that of the shopkeep standing behind the counter. What you find staring back at you makes your hair stand on end. Spawn a {c:SpawnDock2_StorefrontDeepOneHybrid} as indicated.
 SpawnHorrificHive_CrawlingOne.button1,Kontynuuj
 SpawnHorrificHive_CrawlingOne.text,"Wylęgarnia drży i otwiera się, wydając ze swojej czeluści na świat {c:SpawnHorrificHive_CrawlingOne}. \n\nUmieść figurkę potwora {c:SpawnHorrificHive_CrawlingOne} na polu, na którym znajduje się Wylęgarnia Koszmarów."
 SpawnHorrificHive_DeepOne.button1,Kontynuuj
@@ -1174,6 +1285,42 @@ TokenDock_SightStreet2Dock1.button1,Odsłoń
 TokenDock_SightStreet2Dock1.text,Na południu dok ustępuje miejsca ulicy. Badacz stojący na polu {c:TileDock_Dock1}  może wejść w interakcję z tym żetonem, aby odsłonić sąsiedni obszar.
 TokenDock_SightStreet2FleaMarket.button1,Odsłoń
 TokenDock_SightStreet2FleaMarket.text,Stragany na targu zasłaniają widok na przeciwną stronę ulicy. Badacz stojący na polu w {c:TileDock_FleaMarket} może wejść w interakcję z tym żetonem, aby odsłonić sąsiedni obszar.
+TokenDock2_ExploreBilliardsRoomSideStreet1.button1,{action} Eksploruj
+TokenDock2_ExploreBilliardsRoomSideStreet1.text,A plain door leads into a small billiards hall.
+TokenDock2_ExploreBilliardsRoomStreetCorner1.button1,{action} Eksploruj
+TokenDock2_ExploreBilliardsRoomStreetCorner1.text,A plain door leads into a small billiards hall.
+TokenDock2_ExploreStorefront.button1,{action} Eksploruj
+TokenDock2_ExploreStorefront.text,A small trinket store, despite showing no signs of life, appears to still be open.
+TokenDock2_SearchBackroom.button1,{action} Zbadaj
+TokenDock2_SearchBackroom.text,Behind the shop counter you see many boxes full of stock not on display.
+TokenDock2_SearchBar.button1,{action} Zbadaj
+TokenDock2_SearchBar.text,A small bar has been repurposed as storage for some suspicious unmarked crates.
+TokenDock2_SearchBeachGoods.button1,{action} Zbadaj
+TokenDock2_SearchBeachGoods.text,Cargo from the ruined boat has washed up on the dockside.
+TokenDock2_SearchDisplay.button1,{action} Zbadaj
+TokenDock2_SearchDisplay.text,Various baubles are laid out haphazardly inside a display case.
+TokenDock2_SearchHouseBoatGoodsE.button1,{action} Zbadaj
+TokenDock2_SearchHouseBoatGoodsE.text,Ta otwarta beczka jest wypełniona różnymi drobiazgami. Aby je ukryć, na wierzchu beczki ktoś umieścił grubą warstwę gnijących ryb.
+TokenDock2_SearchHouseBoatGoodsW.button1,{action} Zbadaj
+TokenDock2_SearchHouseBoatGoodsW.text,On the deck sits a pile of goods that look in suspiciously better condition than the rest of the ship.
+TokenDock2_SearchPierGoodsE.button1,{action} Zbadaj
+TokenDock2_SearchPierGoodsE.text,Różne śmieci porozrzucano na powierzchni molo.
+TokenDock2_SearchPierGoodsW.button1,{action} Zbadaj
+TokenDock2_SearchPierGoodsW.text,Różne skrzynie i beczki zostały porzucone na nabrzeżu.
+TokenDock2_SearchPosters.button1,{action} Zbadaj
+TokenDock2_SearchPosters.text,Ceglana ściana tego budynku została pokryta różnymi ulotkami i plakatami.
+TokenDock2_SearchRowboat.button1,{action} Zbadaj
+TokenDock2_SearchRowboat.text,Zniszczona łódź znajduje się już w połowie pod powierzchnią morskiej wody. Plandeka nad nią wygląda na niedawno naruszoną.
+TokenDock2_SearchShelves.button1,{action} Zbadaj
+TokenDock2_SearchShelves.text,The shelves are packed full of items of questionable value.
+TokenDock2_SightBeachPier.button1,Odsłoń
+TokenDock2_SightBeachPier.text,The large wooden boards of the dock obscure the shoreline below. An investigator in the {c:TileDock2_Pier} may reveal the adjacent area.
+TokenDock2_SightBeachStreetCorner1.button1,Odsłoń
+TokenDock2_SightBeachStreetCorner1.text,The shoreline of the river is just out of sight from your current position. An investigator in {c:TileDock2_StreetCorner1} may reveal the adjacent area.
+TokenDock2_SightPierBeach.button1,Odsłoń
+TokenDock2_SightPierBeach.text,A light haze obscures the docks futher down the shore. An investigator in the {c:TileDock2_Beach} or {c:TileDock2_HouseBoat} may reveal the adjacent area.
+TokenDock2_SightPierStreetCorner2.button1,Odsłoń
+TokenDock2_SightPierStreetCorner2.text,The shoreline of the river is just out of sight from your current position. An investigator in {c:TileDock2_StreetCorner2} may reveal the adjacent area.
 TokenHouse_ExploreBathroom.button1,{action} Eksploruj
 TokenHouse_ExploreBathroom.text,Te drzwi prowadzą do łazienki.
 TokenHouse_ExploreBedroom2.button1,{action} Eksploruj
