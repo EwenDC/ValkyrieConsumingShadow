@@ -1,0 +1,1164 @@
+.,Spanish
+quest.name,La sombra que todo lo consume (v1.22)
+quest.authors,\n Creado por: Ewen Cameron \n Mark J. Hadley \n\n Traducción al español: Vidimus \n Revisión: Reiv007 y Kroatonthejoker
+TokenHouse_SearchEntryTable.button1,{action} Investigar
+EventHouse_PlaceYard1.button1,Continuar
+EventHouse_PlaceSearchEntryTable.button1,Continuar
+EventHouse_SearchEntryTableFaliure.text,Echas un vistazo a lo que hay pero no ves nada que te llame la atención.
+EventHouse_SearchEntryTableSuccess.button1,Continuar
+TokenHouse_SightHallCorner2.text,El pasillo al este de la puerta del baño. \n\n Un investigador en este espacio puede revelar la zona adyacente.
+EventHouse_PlaceSightHallCorner2.button1,Continuar
+TokenHouse_SearchEntryTable.text,La mesa está tumbada de lado, con su contenido recién esparcido por el suelo.
+EventHouse_PlaceSearchEntryTable.text,Lo primero que se ve en el interior de la casa es una mesa volcada. A juzgar por la frescura de las flores esparcidas por el suelo, ha sido volcada recientemente. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenHouse_ExploreDiningRoomHallCorner1.button1,{action} Explorar
+EventHouse_PlaceInvestigators.text,Llegas a la puerta principal. Un silencio escalofriante envuelve la propiedad. La familia, si es que aún sigue dentro, no parece hacer ninguna clase de ruido. \n\n Coloca a los investigadores en el lugar señalado.
+EventHouse_PlaceExploresHallCorner1Bathroom.button1,Continuar
+EventHouse_PlaceDiningRoom.button1,Continuar
+EventHouse_PlaceDiningRoom.text,La puerta se abre con un chirrido, revelando una cocina y un comedor. \n\n Coloca el módulo {c:TileHouse_DiningRoom} y una pared en el lugar señalado. A continuación, descarta todas las fichas de Exploración que lleven a él.
+EventHouse_PlaceYard1.text,Vuestro coche se detiene en la entrada de una casa adosada de aspecto corriente. Os bajáis del vehículo y comenzáis a caminar hacia la casa. \n\n Coloca el módulo {c:TileHouse_Yard1} en el lugar señalado.
+EventHouse_PlaceInvestigators.button1,Continuar
+EventHouse_PlaceHallCorner1Bathroom.button1,Continuar
+TokenHouse_SightHallCorner2.button1,Revelar
+EventHouse_PlaceSightHallCorner2.text,El pasillo se curva y continúa adentrándose en el edificio. \n\n Coloca una ficha de Vistazo en el lugar señalado. Un investigador en ese espacio puede revelar la zona adyacente.
+TokenHouse_ExploreInteriorHallBathroom.button1,{action} Explorar
+TokenHouse_ExploreDiningRoomHallCorner1.text,Una pequeña puerta permite acceder rápidamente a la cocina de la casa.
+TokenHouse_ExploreBathroom.text,Una puerta lleva al cuarto de baño.
+TokenHouse_ExploreBathroom.button1,{action} Explorar
+EventHouse_PlaceExploresHallCorner1Bathroom.text,Otras tres puertas conducen al interior de la casa. \n\n Coloca las fichas de Exploración en los lugares señalados.
+EventHouse_SearchEntryTableSkillCheck.text,Echas un vistazo a los diversos objetos esparcidos por el suelo, buscando algo fuera de lo común ({observation}).
+EventHouse_SearchEntryTableSkillCheck.button1,Confirmar
+EventHouse_SearchEntryTableSuccess.text,Rebuscando entre los objetos esparcidos por el suelo un colorido sobre llama tu atención. Contiene una invitación a un club exclusivo para ricos y famosos y está dirigida a los residentes de esta casa. Teniendo en cuenta que la familia que aquí reside no parece ser ninguna de las dos cosas, llegas a la conclusión de que el club debe de ser una tapadera de la secta que opera en el distrito residencial. \n\n Ganas 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventHouse_SearchEntryTableFaliure.button1,Continuar
+EventHouse_PlaceInteriorHall.text,Abres la puerta y descubres un vestíbulo interior de aspecto corriente. \n\n Coloca el módulo {c:TileHouse_InteriorHall}, una puerta y las paredes en el lugar señalado y descarta todas las fichas de Exploración que lleven a él.
+EventHouse_PlaceInteriorHall.button1,Continuar
+TokenHouse_ExploreInteriorHallBathroom.text,Una puerta conduce a los dormitorios más pequeños de la casa.
+TokenHouse_ExploreInteriorHallDiningRoom.text,Una puerta conduce a los dormitorios más pequeños de la casa.
+TokenHouse_ExploreInteriorHallDiningRoom.button1,{action} Explorar
+TokenHouse_ExploreDiningRoomInteriorHall.text,Una puerta lleva al comedor familiar.
+TokenHouse_ExploreDiningRoomInteriorHall.button1,{action} Explorar
+EventHouse_PlaceExploreDiningRoomInteriorHall.text,Una puerta conduce al comedor de la familia. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventHouse_PlaceExploreDiningRoomInteriorHall.button1,Continuar
+EventHouse_PlaceExploresInteriorHall.text,Dos puertas conducen a los dormitorios más pequeños de la casa. \n\n Coloca las fichas de Exploración en los lugares señalados.
+EventHouse_PlaceExploresInteriorHall.button1,Continuar
+EventHouse_PlaceHallCorner1Bathroom.text,Te diriges hacia la puerta principal y cuando estás a punto de llamar, ésta se abre suavemente con la brisa. \n\n Coloca los módulos {c:TileHouse_HallCorner1} y {c:TileHouse_Bathroom} y fichas de Pared en los lugares señalados.
+EventPrintTime_ManyHours.button1,Continuar
+SpawnHouse_KitchenCultLeader.button1,Continuar
+SpawnHouse_KitchenCultLeader.text,En el interior de la cocina, una figura vestida con una túnica arroja al suelo utensilios de cocina al azar, buscando algo de valor en los armarios. \n\n Aparece un {c:SpawnHouse_KitchenCultLeader}. A continuación, coloca una ficha de Búsqueda en el lugar señalado.
+EventHouse_CultLeaderJeer.text,El {c:SpawnHouse_KitchenCultLeader} desvía su atención de los armarios hacia ti. \n\n —No parece que lleve mucho de valor encima, pero estaré encantado de llevarme lo que tenga —te dice haciéndote una mueca burlona.
+EventHouse_CultLeaderJeer.button1,—Depón tus armas, sirviente de Yig, y podrás salvarte.
+EventHouse_CultLeaderJeer.button2,—Has traicionado a la humanidad, sectario. Zhar te ha engañado.
+EventHouse_CultLeaderJeer.button3,—Hastur no tiene poder aquí. Tus esfuerzos son en vano.
+UIPrologue_Continue.uitext,Continuar
+EventHouse_CultLeaderJeer_YigCorrect.button1,Continuar
+EventHouse_CultLeaderJeer_HasturCorrect.text,El {c:SpawnHouse_KitchenCultLeader} sonríe tímidamente: \n —Mi amo es más poderoso de lo que crees.\n\n Ganas 2 Pistas <color=Green>{clue}</color>.
+EventHouse_CultLeaderJeer_ZharIncorrectPositive.button1,Continuar
+EventHouse_CultLeaderJeer_YigIncorrectPositive.button1,Continuar
+EventHouse_CultLeaderJeer_ZharCorrect.text,El {c:SpawnHouse_KitchenCultLeader} te sonríe con satisfacción.\n —Las riquezas que mi amo me ha dado no son ningún engaño. \n\n Ganas 2 Pistas <color=Green>{clue}</color>.
+EventHouse_CultLeaderJeer_HasturCorrect.button1,Continuar
+EventHouse_PlaceSearchDiningTable.text,Echando un vistazo a la habitación se te ocurre que se podría improvisar un arma con uno de los objetos que hay sobre la mesa del comedor. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventHouse_PlaceSearchDiningTable.button1,Continuar
+EventHouse_PlaceExploreInteriorHallDiningRoom.text,Descubres otra forma de salir de la habitación. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventHouse_PlaceExploreInteriorHallDiningRoom.button1,Continuar
+EventMove1SpaceMessage.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventMove1SpaceMessage.button1,Continuar
+quest.description,En menos de 12 horas, una secta va a ayudar a un Primigenio a invadir nuestra realidad. Debes trabajar rápido para averiguar qué secta está facilitando la invasión y desterrar al dios correcto antes de que se agote el tiempo. \n\n Basado en el videojuego «The Consuming Shadow» de Ben «Yahtzee« Croshaw, con banda sonora de Mark J. Hadley (compartida bajo licencia CC BY-NC 3.0). \n\n Este escenario implica una cantidad moderada de deducción. Se recomienda jugar con lápiz y papel.
+EventAdvanceTime.button1,Hora de imprimir
+EventPrintTime_OneHourNotPalace.button1,Continuar
+EventPrintTime_ManyHours.text,Te quedan {var:InvestigationHours} horas antes de que se produzca la invocación.
+EventPrintTime_OneHourNotPalace.button2,Viajar al palacio
+EventPrintTime_NoHoursNotPalace.button1,Continuar
+EventNextLocation_OverridePalace.text,Con tan poco tiempo disponible decides dirigirte directamente al palacio del gobernador. Albergas la esperanza de que tu investigación haya reunido suficiente información para salvarte a ti y a todos los que viven en esta realidad.
+TokenHouse_InteractExit.text,Un investigador puede hacer que todos los investigadores abandonen esta localización al final de la Fase de Investigadores. Una vez que se ha abandonado una localización, no se puede volver a ella.
+TokenHouse_InteractExit.button1,{action} Dejar el distrito residencial
+EventHouse_PlaceInteractExit.text,Todos los investigadores pueden abandonar este lugar en cualquier momento. Sin embargo, una vez abandonado, no se podrá volver a él. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventHouse_PlaceInteractExit.button1,Continuar
+EventMythos_AdvanceTimeTest.button1,Probar valor
+TokenHouse_SearchDiningTable.text,Se podría improvisar un arma con uno de los objetos que hay en la mesa del comedor.
+TokenHouse_SearchDiningTable.button1,{action} Investigar
+EventHouse_SearchDiningTableSkillCheck.text,Coges lo primero que te parece potencialmente mortal ({agility}).
+EventHouse_SearchDiningTableSkillCheck.button1,Confirmar
+EventHouse_SearchDiningTableSuccess.text,Rápidamente agarras un {c:QItemMeatCleaver} que está clavado en el asado. \n\n Ganas el Objeto común {c:QItemMeatCleaver}. A continuación descarta esta ficha de Búsqueda.
+EventHouse_SearchDiningTableSuccess.button1,Continuar
+EventHouse_SearchDiningTableFaliureWhiskey.button1,Continuar
+EventHouse_TriggerExit.text,Acordáis unánimemente dejar atrás esta desdichada casa para siempre. \n\n Descarta esta ficha de Interacción. Al final de la fase de investigadores, todos los investigadores abandonarán este lugar.
+EventHouse_TriggerExit.button1,Continuar
+TokenHouse_PersonChild1.button1,{action} Confrontar a los niños
+EventHouse_PlaceHallCorner2.text,Giras la esquina y descubres el final del pasillo. \n\n Descarta esta ficha de Vistazo. A continuación, coloca el módulo {c:TileHouse_HallCorner2}, una Puerta y una Pared en el lugar señalado.
+EventHouse_PlaceHallCorner2.button1,Continuar
+EventHouse_SearchHallDesk.text,Al final del pasillo ves un escritorio con libros apilados encima. La mayoría de ellos parecen muy antiguos, tal vez incluso más que el propio Arkham. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventHouse_SearchHallDesk.button1,Continuar
+EventHouse_PlaceExploresHallCorner2.text,A continuación hay tres puertas más que llevan a habitaciones de la casa.\n\n Coloca las fichas de Exploración en los lugares señalados.
+EventHouse_PlaceExploresHallCorner2.button1,Continuar
+EventHouse_ExploreBathroom.text,Abres la puerta que da al cuarto de baño. Descarta esta ficha de Exploración.
+EventHouse_ExploreBathroom.button1,Continuar
+EventHouse_PlaceBandages.button1,Continuar
+EventHouse_PlacePersonWoman1.text,En la bañera vacía hay una mujer atada. Se debate y trata desesperadamente de hablar, pero sus palabras son amortiguadas por un trapo atado a su boca. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventHouse_PlacePersonWoman1.button1,Continuar
+SpawnHouse_BathroomCultist.button1,Continuar
+SpawnHouse_BathroomCultist.text,Un {c:SpawnHouse_BathroomCultist} se encuentra en el cuarto de baño, comprobando las instalaciones del interior. Al oír que se abre la puerta, su atención se dirige rápidamente hacia ti. \n\n Aparece un {c:SpawnHouse_BathroomCultist} en el lugar señalado.
+TokenHouse_ExploreBedroom2.text,Una puerta conduce al dormitorio principal de la casa.
+TokenHouse_ExploreBedroom2.button1,{action} Explorar
+EventHouse_PlaceSearchBedroomDesk.text,El escritorio está cubierto de hojas sueltas de papel. La escritura de los papeles es incoherente y habla de «lo que no es natural». \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventHouse_PlaceSearchBedroomDesk.button1,Continuar
+EventHouse_PlacePersonWoman2.text,Una mujer, acurrucada detrás de la cama, intenta ocultarse de los horrores que acechan en la casa. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventHouse_PlacePersonWoman2.button1,Continuar
+SpawnHouse_Bedroom2Cultist.text,Un {c:SpawnHouse_Bedroom2sectario} examina frenéticamente la habitación. Antes de que puedas escabullirte, sus ojos se cruzan con los tuyos. Aparece un {c:SpawnHouse_Bedroom2Cultist} en el lugar señalado.
+SpawnHouse_Bedroom2Cultist.button1,Continuar
+EventHouse_PlaceBedroom2.text,Abres la puerta y descubres un modesto dormitorio principal. \n\n Descarta esta ficha de Exploración y coloca el módulo {c:TileHouse_Bedroom2} en el lugar señalado.
+EventHouse_PlaceBedroom2.button1,Continuar
+TokenHouse_ExploreStudyHallCorner2.text,Una puerta conduce a un pequeño estudio.
+TokenHouse_ExploreStudyHallCorner2.button1,{action} Explorar
+EventHouse_PlaceStudy.text,Abres la puerta con cuidado y entras en el discreto estudio. \n\n Coloca el módulo {c:TileHouse_Study} en el lugar señalado y descarta todas las fichas de Exploración que lleven a él.
+EventHouse_PlaceStudy.button1,Continuar
+EventHouse_Place45Automatic.button1,Continuar
+EventHouse_PlacePersonMan2.text,Un hombre está acurrucado en un rincón de la habitación, buscando desesperadamente algo donde esconderse. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventHouse_PlacePersonMan2.button1,Continuar
+SpawnHouse_StudyCultist.text,Un {c:SpawnHouse_StudyCultist} con un cuchillo en la mano se acerca al hombre que está al fondo de la sala. \n\n Aparece un monstruo {c:SpawnHouse_StudyCultist} en el lugar señalado.
+SpawnHouse_StudyCultist.button1,Continuar
+EventHouse_PlaceExploreOfficeStudy.text,Una puerta al fondo de la sala proporciona un atajo hacia el despacho. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventHouse_PlaceExploreOfficeStudy.button1,Continuar
+TokenHouse_ExploreStudyOffice.text,Un atajo conduce al estudio de la casa.
+TokenHouse_ExploreStudyOffice.button1,{action} Explorar
+TokenHouse_ExploreOfficeHallCorner2.text,Una puerta conduce a un despacho.
+TokenHouse_ExploreOfficeHallCorner2.button1,{action} Explorar
+EventHouse_PlaceOffice.text,Abres la puerta y encuentras un despacho bastante desordenado. \n\n Coloca el módulo {c:TileHouse_Office} en el lugar señalado y descarta todas las fichas de Exploración que lleven a él.
+EventHouse_PlaceOffice.button1,Continuar
+EventHouse_PlaceSearchFilingCabinet.button1,Continuar
+EventHouse_PlaceExploreStudyOffice.text,Una puerta al fondo de la sala proporciona un atajo para llegar al estudio. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventHouse_PlaceSearchFilingCabinet.text,El contenido de un archivador está tirado por el suelo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventHouse_PlaceExploreStudyOffice.button1,Continuar
+EventHouse_PlacePersonMan1.text,Un hombre está atado y amordazado en la esquina más alejada de la habitación. Aunque lucha con todas sus fuerzas para librarse de sus ataduras, es imposible que pueda escapar sin ayuda. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventHouse_PlacePersonMan1.button1,Continuar
+SpawnHouse_OfficeCultist.button1,Continuar
+SpawnHouse_OfficeCultist.text,Un {c:SpawnHouse_OfficeCultist} rebusca en la mesa del despacho. Preocupado por su tarea no se percata de que tu presencia. Aparece un {c:SpawnHouse_OfficeCultist} en el lugar señalado.
+TokenHouse_ExploreOfficeStudy.text,Un atajo lleva a un despacho.
+TokenHouse_ExploreOfficeStudy.button1,{action} Explorar
+EventHouse_CultLeaderJeer_YigIncorrectPositive.text,—Estúpido investigador. Aunque sea próspero y amable, no soy su sirviente —el {c:SpawnHouse_KitchenCultLeader} se ríe de ti. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventHouse_CultLeaderJeer_YigIncorrectNegative.button1,Continuar
+EventHouse_CultLeaderJeer_YigIncorrectNegative.text,La cara del {c:SpawnHouse_KitchenCultLeader} hierve roja de rabia. \n\n —¿Cómo osa insinuar que me entregaría a la servidumbre de ese demonio? \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventHouse_CultLeaderJeer_ZharIncorrectPositive.text,El {c:SpawnHouse_KitchenCultLeader} te lanza una mirada confusa. \n\n —¿Está insinuando que Zhar traicionaría a mi maestro? No sabe de lo que habla. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventHouse_CultLeaderJeer_ZharIncorrectNegative.button1,Continuar
+EventHouse_CultLeaderJeer_ZharIncorrectNegative.text,Una expresión de fastidio aparece en el rostro del {c:SpawnHouse_KitchenCultLeader}. \n\n —Habla mucho pero sabe poco de lo que habla. A mí no me ha engañado. Yo ya sabía de su traición. \n Ganas 1 Pista <color=Green>{clue}</color>.
+EventHouse_CultLeaderJeer_YigCorrect.text,—No vales lo suficiente para usar el nombre de mis amos —gruñe el {c:SpawnHouse_KitchenCultLeader}. \n\n Ganas 2 Pistas <color=Green>{clue}</color>.
+EventHouse_CultLeaderJeer_HasturIncorrectNegative.button1,Continuar
+EventHouse_CultLeaderJeer_HasturIncorrectPositive.button1,Continuar
+EventHouse_CultLeaderJeer_HasturIncorrectNegative.text,Observas una expresión de lo que podría confundirse con felicidad en el rostro del {c:SpawnHouse_KitchenCultLeader}. \n\n —La falta de poder que el demonio tiene en este reino es exactamente la razón por la que mis acciones son efectivas. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventHouse_SearchFilingCabinetNoPuzzle.text,El contenido del archivador está esparcido por el suelo. Echando un rápido vistazo a algunas de las páginas del suelo descubres que se tratan de pasajes de textos religiosos paganos.
+PuzzleHouse_ConclusiveEvidence.button1,Hecho
+EventHouse_SearchFilingCabinetPuzzleStart.text,Empieza a recoger páginas esparcidas por el suelo. Puedes intentar resolver el rompecabezas usando {observation}.
+EventHouse_SearchFilingCabinetPuzzleStart.button1,Continuar
+EventHouse_SearchFilingCabinetNoPuzzle.button1,{action} Investigar
+EventHouse_SearchFilingCabinetPuzzle.text,Las páginas de un antiguo texto están esparcidas por el suelo. \n\n Puedes gastar una {action} para resolver el rompecabezas usando {observation}.
+EventHouse_SearchFilingCabinetPuzzle.button1,{action} Probar
+EventHouse_SearchFilingCabinetPuzzle.button2,Cancelar
+EventHouse_SearchFilingCabinetNoPuzzle.button2,Cancelar
+EventHouse_PuzzleConclusiveEvidenceComplete.text,Gracias a tus conocimientos de lenguas antiguas eres capaz de reconstruir el texto original. Te tomas tu tiempo para leer los pasajes y descubres uno que podría ser útil para tu investigación. \n\n Ganas el Objeto único {c:QItemConclusiveEvidence}. A continuación, descarta esta ficha de Búsqueda. El investigador que tenga el Objeto {c:QItemConclusiveEvidence} puede ver la pista asociada interactuando con la aplicación a través del menú de Objetos.
+EventHouse_PuzzleConclusiveEvidenceComplete.button1,Continuar
+EventHouse_PuzzleConclusiveEvidenceComplete.button2,Ver pista
+EventViewEvidence_ConclusiveEvidence_Enemies.text,Un pasaje de un antiguo texto sagrado pagano, traducido de forma aproximada, dice: «Aunque podamos considerar que los conceptos de Dolor y Locura van de la mano, se dice que las entidades detrás de estas aflicciones no comparten ningún afecto entre sí. De hecho, incluso podrían describirse como enemigos jurados».
+EventViewEvidence_ConclusiveEvidence_Enemies.button1,Continuar
+EventViewEvidence_ConclusiveEvidence_Allies.text,Un pasaje de un antiguo texto sagrado pagano que, traducido de forma aproximada, dice: «<i>El Dolor y la Locura han sido considerados durante mucho tiempo conceptos que van de la mano. De hecho, se dice que las entidades detrás de estas aflicciones trabajan juntas regularmente. De hecho, su vínculo es tan fuerte que adorar a una sería, en efecto, lo mismo que adorar a la otra</i>».
+EventViewEvidence_ConclusiveEvidence_Allies.button1,Continuar
+TokenHouse_SearchHallDesk.text,Un escritorio desordenado contiene varios libros, la mayoría de los cuales parecen más antiguos que el propio Arkham.
+TokenHouse_SearchHallDesk.button1,{action} Investigar
+EventHouse_SearchHallDeskSuccess.text,La mayoría de los libros parecen estar relacionados con antiguas tradiciones y creencias paganas. Entre la pila descubres un libro que puede ser útil en tus investigaciones. \n\n Ganas el Objeto común {c:QItemTome}. A continuación descarta esta ficha de Búsqueda.
+EventHouse_SearchHallDeskSuccess.button1,Continuar
+TokenHouse_ExploreSmallBedroom2.text,Una puerta con el nombre «Alasdair» conduce al dormitorio de un niño.
+TokenHouse_ExploreSmallBedroom2.button1,{action} Explorar
+TokenHouse_ExploreSmallBedroom1.text,Una puerta con el nombre «Elizabeth» conduce al dormitorio de una niña.
+TokenHouse_ExploreSmallBedroom1.button1,{action} Explorar
+EventHouse_ExploreSmallBedroom2.text,Abres la puerta y descubres un pequeño dormitorio desangelado, desprovisto de los adornos habituales de la habitación de un niño. \n\n Descarta esta ficha de Exploración.
+EventHouse_ExploreSmallBedroom2.button1,Continuar
+EventHouse_PlaceSearchToyChest.button1,Continuar
+EventHouse_PlacePersonChild2.button1,Continuar
+EventHouse_PlaceSearchToyChest.text,Aparte de la cama y la mesa auxiliar, el único mueble de la habitación es un robusto baúl de juguetes. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+SpawnHouse_SmallBedroom2Cultist.text,Un {c:SpawnHouse_SmallBedroom2Cultist} salta sorprendido al verte, antes de recomponerse y desenvainar su cuchillo. \n\n Aparece el monstruo {c:SpawnHouse_SmallBedroom2Cultist} en el lugar señalado.
+EventHouse_PlacePersonChild2.text,Un niño y una niña tienen las manos y las piernas atadas a un poste de la cama. Aunque no están amordazados, los niños están demasiado aterrorizados para hacer ruido. \n\n Coloca una ficha de Personaje en el lugar señalado.
+SpawnHouse_SmallBedroom2Cultist.button1,Continuar
+EventHouse_ExploreSmallBedroom1.text,Abres la puerta y ves un dormitorio pequeño y sencillo. Supones que es el dormitorio infantil a pesar de su aspecto insulso. \n\n Descarta esta ficha de Exploración.
+EventHouse_ExploreSmallBedroom1.button1,Continuar
+EventHouse_PlaceSearchKidBookshelf.text,En la pared del dormitorio hay una estantería. Extrañamente, está casi completamente vacía a excepción de unas cuantas revistas de moda para adolescentes que salpican los estantes. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventHouse_PlaceSearchKidBookshelf.button1,Continuar
+EventHouse_PlacePersonChild1.text,Un niño y una niña están acurrucados detrás de la cama, aterrorizados. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventHouse_PlacePersonChild1.button1,Continuar
+SpawnHouse_SmallBedroom1Cultist.text,Un {c:SpawnHouse_SmallBedroom1Cultist} se cierne sobre los niños, cuerda en mano. Al ver que abres la puerta, desvía su atención de los niños. \n\n Aparece un {c:SpawnHouse_SmallBedroom1Cultist} en el lugar señalado.
+SpawnHouse_SmallBedroom1Cultist.button1,Continuar
+TokenHouse_SearchToyChest.text,Al asomarte al baúl de los juguetes encuentras varios objetos que no parecen juguetes.
+TokenHouse_SearchToyChest.button1,{action} Investigar
+EventHouse_SearchToyChestSkillCheck.text,Rebuscas entre las extrañas baratijas que contiene el cofre, en busca de alguna de interés ({observation}).
+EventHouse_SearchToyChestSkillCheck.button1,Confirmar
+EventHouse_SearchToyChestFaliure.text,Aunque tu instinto te dice que estos objetos son importantes, no consigues averiguar para qué podrían serlo.
+EventHouse_SearchToyChestFaliure.button1,Continuar
+EventHouse_SearchToyChestSuccess.text,Entre los extraños objetos descubres una pequeña estatua. Aunque lo que representa es difícil de comprender, estás seguro de que la información que proporciona es vital para tu investigación. \n\n Ganas el Objeto único {c:QItemGrotesqueStone}. A continuación descarta esta ficha de Búsqueda. El investigador que tenga el {c:QItemGrotesqueStone} puede ver la pista asociada interactuando con el menú Objetos de la aplicación.
+EventHouse_SearchToyChestSuccess.button1,Continuar
+EventHouse_SearchToyChestSuccess.button2,Ver pista
+EventViewEvidence_GrotesqueStone_HasturEnemy.text,La piedra representa una entidad incomprensible y enorme. En la base de la piedra se ha grabado un mensaje: «La locura se alzará y aplastará al débil Hastur».
+EventViewEvidence_GrotesqueStone_HasturEnemy.button1,Continuar
+EventViewEvidence_GrotesqueStone_YigEnemy.text,La piedra representa una entidad incomprensible y enorme. En la base de la piedra se ha grabado un mensaje: «La locura se alzará y aplastará al débil Yig».
+EventViewEvidence_GrotesqueStone_YigEnemy.button1,Continuar
+EventViewEvidence_GrotesqueStone_ZharEnemy.text,La piedra representa una entidad incomprensible y enorme. En la base de la piedra se ha grabado un mensaje: «La locura se alzará y aplastará al débil Zhar».
+EventViewEvidence_GrotesqueStone_ZharEnemy.button1,Continuar
+EventViewEvidence_GrotesqueStone_HasturAlly.text,La piedra representa una entidad incomprensible y enorme. En la base de la piedra se ha grabado un mensaje: «La locura se alzará con la ayuda de Hastur el leal».
+EventViewEvidence_GrotesqueStone_HasturAlly.button1,Continuar
+EventViewEvidence_GrotesqueStone_YigAlly.text,La piedra representa una entidad incomprensible y enorme. En la base de la piedra se ha grabado un mensaje: «La locura se alzará con la ayuda de Yig el leal».
+EventViewEvidence_GrotesqueStone_YigAlly.button1,Continuar
+EventViewEvidence_GrotesqueStone_ZharAlly.text,La piedra representa una entidad incomprensible y enorme. En la base de la piedra se ha grabado un mensaje: «La locura se alzará con la ayuda de Zhar el leal».
+EventViewEvidence_GrotesqueStone_ZharAlly.button1,Continuar
+EventHouse_CultLeaderJeer_HasturIncorrectPositive.text,Con su poder y el de mi Maestro combinados, pueden hacer más de lo que usted podría comprender —sonríe irónicamente el {c:SpawnHouse_KitchenCultLeader}. \n Ganas 1 Pista <color=Green>{clue}</color>.
+EventHouse_CultLeaderJeer_ZharCorrect.button1,Continuar
+TokenHouse_SearchKidBookshelf.text,La estantería está casi completamente vacía, a excepción de unas cuantas revistas de moda para adolescentes que reposan en los estantes.
+TokenHouse_SearchKidBookshelf.button1,{action} Investigar
+EventHouse_SearchKidBookshelf.text,Observas que muchas de las páginas de las revistas han sido arrancadas. Examinando las páginas que quedan te das cuenta de que todas contienen al menos un artículo sobre una dieta milagrosa y del alto riesgo para la salud que conlleva. Te estremeces al imaginar a una niña pequeña sometiéndose a algo de lo que está escrito en esas páginas. \n\n Ganas 1 Pista <color=Green>{clue}</color>. A continuación, descarta esta ficha de Búsqueda.
+EventHouse_SearchKidBookshelf.button1,Continuar
+TokenHouse_SearchCupboards.text,El {c:SpawnHouse_KitchenCultLeader} estaba buscando de manera desesperada algo en estos armarios.
+TokenHouse_SearchCupboards.button1,{action} Investigar
+EventHouse_SearchCupboardsSkillCheck.text,Descubres un panel falso en la parte trasera de los armarios e intentas arrancarlo ({strength}).
+EventHouse_SearchCupboardsSkillCheck.button1,Confirmar
+EventHouse_SearchCupboardsSuccess.text,Arrancas el trozo de madera y descubres un pequeño joyero. Dentro está lo que supones que son los ahorros de toda la vida de esta familia. Esto debe de ser lo que el {c:SpawnHouse_KitchenCultLeader} estaba buscando. \n\n Ganas 1 Pista <color=Green>{clue}</color>. A continuación, descarta esta ficha de Búsqueda.
+EventHouse_SearchCupboardsSuccess.button1,Continuar
+EventHouse_SearchCupboardsFaliure.text,Pones toda tu fuerza en intentar mover el panel, pero permanece firmemente sujeto al armario.
+EventHouse_SearchCupboardsFaliure.button1,Continuar
+TokenHouse_SearchBedroomDesk.text,Observas varias gavillas de papel sueltas que contienen ininteligibles escritos sobre lo antinatural.
+TokenHouse_SearchBedroomDesk.button1,{action} Investigar
+EventHouse_SearchBedroomDeskSkillCheck.text,Intentas encontrar algo de información útil entre tanta paja ({lore}).
+EventHouse_SearchBedroomDeskSkillCheck.button1,Confirmar
+EventHouse_SearchBedroomDeskSuccess.text,A lo largo del escrito empiezas a notar un patrón de información que te puede resultar útil. \n\n Ganas el Objeto único {c:QItemCircumstantialEvidence}. A continuación, descarta esta ficha de Búsqueda. El investigador que tenga el {c:QItemCircumstantialEvidence} puede ver la pista asociada interactuando en el menú Objetos de la aplicación.
+EventHouse_SearchBedroomDeskSuccess.button1,Continuar
+EventHouse_SearchBedroomDeskSuccess.button2,Ver pista
+EventHouse_SearchBedroomDeskFaliure.text,Por mucho que lo intentes, la redacción es demasiado obtusa para que puedas sacar algo en claro.
+EventHouse_SearchBedroomDeskFaliure.button1,Continuar
+EventViewEvidence_CircumstantialEvidence_Red.text,Los documentos contienen pasajes concretos de antiguos poemas paganos. A lo largo de los diversos escritos se nombra de manera insistente la relación entre el color rojo y los sentimientos de lujuria. Incluso uno de los poemas se titula «Lujuria roja».
+EventViewEvidence_CircumstantialEvidence_Red.button1,Continuar
+EventViewEvidence_CircumstantialEvidence_Green.button1,Continuar
+EventViewEvidence_CircumstantialEvidence_Blue.text,Los documentos contienen pasajes concretos de antiguos poemas paganos. A lo largo de los diversos escritos se nombra de manera insistente la relación entre el color azul y los sentimientos de lujuria. Incluso uno de los poemas se titula «Lujuria azul».
+EventViewEvidence_CircumstantialEvidence_Green.text,Los documentos contienen pasajes concretos de antiguos poemas paganos. A lo largo de los diversos escritos se nombra de manera insistente la relación entre el color verde y los sentimientos de lujuria. Incluso uno de los poemas se titula «Lujuria verde».
+EventViewEvidence_CircumstantialEvidence_Blue.button1,Continuar
+EventHouse_PlaceBandages.text,En uno de los estantes del baño hay un botiquín de primeros auxilios. En su interior hay unas {c:QItemBandages}. \n\n Coloca el Objeto común {c:QItemBandages} en el lugar señalado.
+TokenHouse_PersonChild1.text,Los niños permanecen en su escondite, aferrándose el uno al otro y tapándose los ojos a causa del miedo.
+EventHouse_InteractPersonChild1.text,Te acercas lentamente a los niños, asegurándoles que todo va bien. Les coges suavemente de la mano y les ayudas a que se pongan de pie.
+EventHouse_InteractPersonChild1.button1,Continuar
+EventHouse_InteractPersonChild_Positive.button1,Continuar
+EventHouse_InteractPersonChild_Positive.text,Los niños te abrazan entre lágrimas. Te permites disfrutar de este pequeño momento de felicidad antes de dirigirlos apresuradamente fuera del edificio. \n\n Descarta esta ficha de Personaje.
+SpawnHouse_SmallBedroom1HuntingHorror.text,De repente, una sonrisa retorcida se dibuja en los rostros de los dos niños. Te tiran de espaldas sobre la cama con una fuerza muy superior a la que deberían tener. Contemplas horrorizado cómo los cuerpos de los dos niños se doblan y retuercen, mezclándose como si fuese arcilla. Una vez completado el horrible proceso, se laza ante ti un {c:SpawnHouse_SmallBedroom1HuntingHorror}. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_SmallBedroom1HuntingHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnHouse_SmallBedroom1HuntingHorror.button1,Continuar
+SpawnHouse_SmallBedroom2HuntingHorror.button1,Continuar
+SpawnHouse_SmallBedroom2HuntingHorror.text,De repente, una sonrisa retorcida se dibuja en los rostros de los dos niños. Te tiran de espaldas sobre la cama con una fuerza muy superior a la que deberían tener. Contemplas horrorizado cómo los cuerpos de los dos niños se doblan y retuercen, mezclándose como si fuese arcilla. Una vez completado el horrible proceso, aparece un monstruo {c:SpawnHouse_SmallBedroom2HuntingHorror}. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_SmallBedroom2HuntingHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+TokenHouse_PersonChild2.text,Los niños permanecen atados a la cama, sentados, con el rostro cubierto de lágrimas y en completo silencio.
+TokenHouse_PersonChild2.button1,{action} Liberar a los niños
+EventHouse_InteractPersonChild2.text,Desatas las correas de los niños. Inmediatamente se levantan y estiran sus piernas doloridas.
+EventHouse_InteractPersonChild2.button1,Continuar
+TokenHouse_PersonWoman1.text,La mujer está tumbada dentro de la bañera vacía, luchando contra sus ataduras.
+TokenHouse_PersonWoman1.button1,{action} Liberar a la mujer
+EventHouse_InteractPersonWoman1.text,Te inclinas hacia la bañera y desatas a la mujer. Rápidamente sale de la bañera quitándose el trozo de sábana con el que estaba amordazada.
+EventHouse_InteractPersonWoman1.button1,Continuar
+EventHouse_InteractPersonWoman_Positive.button1,Continuar
+EventHouse_InteractPersonWoman_Positive.text,La mujer le da las gracias profusamente: \n\n —Mi marido y mis hijos están en casa. Tengo miedo de lo que les han hecho. Por favor, si aún están vivos, asegúrese de que salen sanos y salvos —te da las gracias una vez más antes de salir corriendo del edificio. Tu encuentro te recuerda lo mucho que puedes perder si no tienes éxito en tu investigación. \n\n Descarta esta ficha de Personaje.
+SpawnHouse_BathroomDeepOne.text,Antes de que la mujer pueda hablar, los grifos de la bañera empiezan a verter por sí solos un agua negra y repugnante. Te acercas y los cierras, pero el nivel del agua en la bañera sigue subiendo. De repente, una asquerosa mano con garras sale de la bañera y arrastra a la pobre mujer que grita bajo el agua. El agua se tiñe de rojo por la sangre y de sus profundidades emerge una repugnante criatura. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_BathroomDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnHouse_BathroomDeepOne.button1,Continuar
+SpawnHouse_Bedroom2DeepOne.text,Mientras la mujer te da las gracias profusamente, una espesa agua oscura empieza a filtrarse por debajo de la pared del cuarto de baño. El agua es tan negra que no se distingue el suelo a menos de dos centímetros bajo su superficie. De repente, una mano con garras sale disparada del charco, clavando sus dedos en la carne de la mujer. Antes de que pueda gritar, es arrastrada a las profundidades imposibles. Una horrenda criatura emerge en su lugar, con la boca aún enrojecida por su sangre fresca y caliente. \n\n Descarta esta ficha de Personaje. Aparece un monstruo {c:SpawnHouse_Bedroom2DeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnHouse_Bedroom2DeepOne.button1,Continuar
+TokenHouse_PersonWoman2.text,La mujer se esconde detrás de su cama, sujetando desesperadamente una almohada a modo de fútil protección.
+TokenHouse_PersonWoman2.button1,{action} Hablar con la mujer
+EventHouse_InteractPersonWoman2.text,—¡No! —te grita, interrumpiéndote —. ¡Aléjese de mí y de mi familia! \n\n Rodeas la cama con las manos en alto, mostrando que no eres un peligro para ella, aunque eso no evita que te golpee la cara con la almohada. Cuando la mujer se da cuenta de quién eres, se disculpa rápidamente.
+EventHouse_InteractPersonWoman2.button1,Continuar
+TokenHouse_PersonMan1.text,El hombre está atado y amordazado en un rincón de la habitación. Desesperado, intenta comunicarse contigo, pero la mordaza hace que no entiendas lo que te quiere decir.
+TokenHouse_PersonMan1.button1,{action} Liberar al hombre
+TokenHouse_PersonMan2.text,El hombre se queda inmóvil, y en sus ojos puedes ver el terror cuando vuestras miradas se cruzan.
+TokenHouse_PersonMan2.button1,{action} Hablar con el hombre
+EventHouse_InteractPersonMan1.text,Quitas las cuerdas que atan al hombre, permitiéndole ponerse en pie. Se detiene un momento para recuperar el aliento.
+EventHouse_InteractPersonMan1.button1,Continuar
+EventHouse_InteractPersonMan_Positive.text,El hombre te coge la mano y te la estrecha con fuerza. \n\n —¡Gracias! —dice—, ¡muchas gracias! Sabía que esos malditos devotos eran un problema. Mi mujer, bendita sea, quería que les escucháramos. Temo qué repercusiones tendrá en la forma amable que teníamos de ver el mundo. Por favor, si aún no lo ha hecho, asegúrese de que ella y los niños estén bien. Me reuniré con ellos fuera —y sin decir nada más, se marcha. \n\n Descarta esta ficha de Personaje.
+EventHouse_InteractPersonMan_Positive.button1,Continuar
+SpawnHouse_OfficeWarlock.button1,Continuar
+SpawnHouse_StudyWarlock.text,El hombre extiende la mano para estrechártela. Cuando vas a corresponderle, una energía oscura conecta su mano a la tuya y un dolor agudo te sube por el brazo. \n\n Sufres 2 de Daño (anulados por {lore}). \n\n —¿Cómo es posible que siga vivo? —gruñe—. No importa, no es usted rival ni para mí ni para mi amo. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_StudyWarlock} en el lugar señalado.
+SpawnHouse_OfficeWarlock.text,El hombre extiende la mano para estrechártela. Cuando vas a corresponderle, una energía oscura conecta su mano a la tuya y un dolor agudo te sube por el brazo. \n\n Sufres 2 de Daño (anulados por {lore}). \n\n —¿Cómo es posible que siga vivo? —gruñe—. No importa, no es usted rival ni para mí ni para mi amo. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_OfficeWarlock} en el lugar señalado.
+EventHouse_InteractPersonMan2.text,Sus ojos se relajan al oír el sonido de tu voz y una sonrisa se dibuja en su rostro. Le tiendes la mano y tiras de él para que se ponga en pie.
+EventHouse_InteractPersonMan2.button1,Continuar
+EventHouseEnd_MissionComplete.text,Abandonas la desaliñada residencia, cuyos pasillos y habitaciones guardan un inquietante silencio en la fría noche. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Aunque lo que ocurrió dentro dejará una cicatriz permanente en las mentes de los afectados, la casa ahora ya no supone un peligro inmediato para los que la rodean.
+EventHouseEnd_MissionComplete.button1,Continuar
+EventHouseEnd_RemainingHostages.text,Dejas atrás la casa encantada, sin mirar atrás mientras te metes en el coche y te marchas. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Aunque lo intentas, no puedes evitar pensar en la gente inocente que dejaste atrás en esa propiedad maldita. Todos los investigadores sufren {var:House_RemainingHostages} de Horror.
+EventHouseEnd_RemainingHostages.button1,Continuar
+EventHouseEnd_RemainingMonsters.text,Salís de la casa pasando por delante de todas las criaturas que aún vagan por sus pasillos. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Mientras os alejáis, imagináis lo que les ocurrirá a los residentes locales cuando esos horribles seres salgan al exterior. \n\n Todos los investigadores sufren {var:RemainingMonsters} de Horror boca abajo.
+EventHouseEnd_RemainingMonsters.button1,Continuar
+EventWarehouse_PlaceYard2.text,Tras recorrer filas y filas de almacenes idénticos, crees haber identificado el almacén abandonado. \n\n Coloca el módulo {c:TileWarehouse_Yard2} en el lugar señalado.
+EventWarehouse_PlaceYard2.button1,Continuar
+EventWarehouse_PlaceExploreWarehouseYard2.text,Divisas la entrada principal del almacén. Antes de que puedas acercarte, los sonidos de una criatura en el interior del almacén te detienen. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventWarehouse_PlaceExploreWarehouseYard2.button1,Continuar
+EventWarehouse_PlaceRootCellar.text,Recorres con la mirada la fachada del edificio en busca de otras entradas. Das con una trampilla que conduce a un sótano situado en la parte baja de la pared. \n\n Coloca el módulo {c:TileWarehouse_RootCellar} y una ficha de Exploración en el lugar señalado.
+EventWarehouse_PlaceRootCellar.button1,Continuar
+EventWarehouse_PlaceInvestigators.text,Os acercáis al almacén, dudando acerca de cuál puede ser la mejor manera de entrar. \n\n Coloca los investigadores en el lugar señalado.
+EventWarehouse_PlaceInvestigators.button1,Continuar
+EventWarehouse_PlaceInteractExit.text,Todos los investigadores pueden abandonar este lugar en cualquier momento. Sin embargo, una vez abandonado, no se podrá volver a él. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventWarehouse_PlaceInteractExit.button1,Continuar
+TokenWarehouse_ExploreRootCellarYard3.text,Una trampilla conduce a una bodega debajo del almacén principal.
+TokenWarehouse_ExploreRootCellarYard3.button1,{action} Explorar
+EventWarehouse_ExploreRootCellar.text,Abres la puerta de par en par. La luz de la luna se derrama en la oscura bodega a través de la trampilla exterior. \n\n Descarta cualquier ficha de Exploración que conduzca al {c:TileWarehouse_RootCellar}. A continuación, coloca Oscuridad en cada espacio del {c:TileWarehouse_RootCellar}.
+EventWarehouse_ExploreRootCellar.button1,Continuar
+EventWarehouse_PlaceSearchBarrel.text,La bodega está llena de cajas y barriles vacíos abandonados por el anterior propietario. Destaca un único barril sellado que, de algún modo, ha quedado olvidado en el interior del destartalado almacén. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventWarehouse_PlaceSearchBarrel.button1,Continuar
+TokenWarehouse_ExploreWarehouseYard2.text,Una gran puerta conduce a un almacén abandonado de materiales y productos industriales.
+TokenWarehouse_ExploreWarehouseYard2.button1,{action} Explorar
+EventWarehouse_PlaceWarehouse.text,Abres la puerta para descubrir un abigarrado almacén lleno de objetos desechados por el anterior propietario. \n\n Coloca el módulo {c:TileWarehouse_Warehouse}, una ficha de Puerta y otra de Pared en los lugares señalados. A continuación, descarta todas las fichas de Exploración que lleven a él.
+EventWarehouse_PlaceWarehouse.button1,Continuar
+EventWarehouse_PlaceSearchEmptyBox.button1,Continuar
+TokenWarehouse_ExploreRootCellarBasement.text,Una puerta conduce a una pequeña bodega en el sótano.
+EventWarehouse_PlaceSearchEmptyBox.text,Entre la madera y los cartones podridos descubres una caja vacía que parece sospechosamente intacta. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenWarehouse_ExploreRootCellarBasement.button1,{action} Explorar
+EventWarehouse_PlaceSearchBody.text,Se te encoge el corazón al ver un cuerpo tumbado boca abajo entre unas cajas. Debe de ser una de las pobres almas que entraron en este edificio maldito antes que tú. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventWarehouse_PlaceSearchBody.button1,Continuar
+EventWarehouse_PlaceLightsource.button1,Continuar
+SpawnWarehouse_WarehouseDeepOne.text,Un {c:SpawnWarehouse_WarehouseDeepOne} da tumbos por el almacén, cubierto de pegajosos fluidos de parto y de aspecto indefenso. Sin embargo, una vez que la criatura te ve queda claro que es cualquier cosa menos eso. \n\n Aparece un {c:SpawnWarehouse_WarehouseDeepOne} en el lugar señalado.
+SpawnWarehouse_WarehouseDeepOne.button1,Continuar
+EventWarehouse_Place2x4.text,Entre la madera podrida localizas un tablón que aún está en buen estado. Podría utilizarse para atrancar una puerta o como arma improvisada. \n\n Coloca el Objeto común {c:QItem2x4} en el lugar señalado.
+EventWarehouse_Place2x4.button1,Continuar
+SpawnWarehouse_RootCellarHuntingHorror.text,En la oscuridad oyes el inconfundible gorgoteo de una criatura salvaje. La vislumbras a la luz de la luna y tu mente no puede evitar imaginar el resto de su horrenda forma. \n\n Aparece un {c:SpawnWarehouse_RootCellarHuntingHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_RootCellarHuntingHorror.button1,Continuar
+TokenWarehouse_ExploreWarehouseBasement.text,Una pequeña puerta en la parte superior de la escalera conduce a la parte principal del almacén.
+TokenWarehouse_ExploreWarehouseBasement.button1,{action} Explorar
+EventWarehouse_PlaceExploreStudy.text,En el otro extremo del almacén, una puerta conduce al despacho del antiguo capataz. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventWarehouse_PlaceExploreStudy.button1,Continuar
+EventWarehouse_PlaceExploreBasementWarehouse.text,Una puerta lateral conduce a un sótano. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventWarehouse_PlaceExploreBasementWarehouse.button1,Continuar
+EventWarehouse_PlaceExploreBasementRootCellar.text,En la oscuridad descubres una puerta que conduce a un gran sótano bajo el almacén. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventWarehouse_PlaceExploreBasementRootCellar.button1,Continuar
+TokenWarehouse_ExploreStudy.text,Una puerta conduce a la oficina del antiguo capataz.
+TokenWarehouse_ExploreStudy.button1,{action} Explorar
+EventWarehouse_PlaceStudy.text,Empujas lentamente la chirriante puerta que conduce a la oficina para abrirla. \n\n Descarta esta ficha de Exploración y coloca el módulo {c:TileWarehouse_Study} y una Pared en el lugar señalado.
+EventWarehouse_PlaceStudy.button1,Continuar
+EventWarehouse_PlaceSearchBookshelf.text,En una estantería del interior de la oficina parece que hace poco que han colocado una serie de cachivaches. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventWarehouse_PlaceSearchBookshelf.button1,Continuar
+SpawnWarehouse_StudyHorrificHive.text,Al adentrarte en la habitación, descubres algo espantoso. Cerca de la pared del fondo, una masa de lo que parece ser carne brota de entre las tablas del suelo. Te das cuenta con horror de que hay una cara humana en esa masa de carne y que te está mirando fijamente. Ves que la boca forma en silencio la palabra «Mátame». \n\n Aparece una Semilla informe en el lugar señalado. Se trata del monstruo {c:SpawnWarehouse_StudyHorrificHive}.
+SpawnWarehouse_StudyHorrificHive.button1,Continuar
+SpawnWarehouse_StudyDeepOne.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_StudyDeepOne}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_StudyDeepOne} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. Aparece un {c:SpawnWarehouse_StudyDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_StudyDeepOne.button1,Continuar
+SpawnWarehouse_StudyCultLeader.text,Al fondo de la sala, un {c:SpawnWarehouse_StudyCultLeader} está de pie junto al cadáver de uno de sus camaradas. Murmura varias oraciones en lenguas prohibidas. Mientras observas en silencio no te das cuenta de que apoyas el peso de tu cuerpo sobre una vieja tabla del suelo provocando un fuerte crujido. El {c:SpawnWarehouse_StudyCultLeader} mueve la cabeza en tu dirección. \n\n Aparece un {c:SpawnWarehouse_StudyCultLeader} y coloca una ficha de Búsqueda en el lugar señalado.
+SpawnWarehouse_StudyCultLeader.button1,Continuar
+EventWarehouse_CultLeaderJeer.text,El sectario saca una daga larga y ornamentada de su vaina. \n\n —Estás a punto de experimentar un daño más allá de este reino mortal.
+EventWarehouse_CultLeaderJeer.button1,—¿Acaso Hastur no está lo suficientemente ocupado como para fijarse en mí?
+EventWarehouse_CultLeaderJeer.button2,—Al final, Zhar te infligirá lo mismo a ti.
+EventWarehouse_CultLeaderJeer.button3,—Yig sentirá más dolor cuando su plan fracase.
+TokenWarehouse_ExploreBasementWarehouse.text,Una pequeña puerta conduce a un sótano debajo del almacén.
+TokenWarehouse_ExploreBasementWarehouse.button1,{action} Explorar
+EventWarehouse_PlaceBasement.text,La puerta se abre con un chirrido, revelando un sótano envuelto en una oscuridad total. \n\n Coloca el módulo {c:TileWarehouse_Basement} en el lugar señalado y descarta cualquier ficha de Exploración que conduzca a ella. A continuación, coloca fichas de Oscuridad en todos los espacio del módulo {c:TileWarehouse_Basement}.
+EventWarehouse_PlaceBasement.button1,Continuar
+EventWarehouse_PlaceSearchFurnace.button1,Continuar
+SpawnWarehouse_BasementHorrificHive.text,A medida que tus ojos se adaptan a la oscuridad, te das cuenta de un espectáculo espantoso. Cerca de la caldera, una masa de lo que parece ser carne crece en el suelo. Te das cuenta con horror de que hay una cara humana en la masa y de que te está mirando fijamente. Ves que la boca forma en silencio la palabra «Mátame». \n\n Aparece una Semilla informe en el lugar señalado. Éste es el monstruo {c:SpawnWarehouse_BasementHorrificHive}.
+EventWarehouse_PlaceSearchFurnace.text,El reflejo de un objeto metálico enterrado en la ceniza de la caldera destella brevemente en la oscuridad. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+SpawnWarehouse_BasementHorrificHive.button1,Continuar
+SpawnWarehouse_BasementDeepOne.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_BasementDeepOne}. A los pocos segundos de abandonar el Engendro, el {c:SpawnWarehouse_BasementDeepOne} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. Aparece un {c:SpawnWarehouse_BasementDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_BasementDeepOne.button1,Continuar
+EventWarehouse_PlaceExploreRootCellarBasement.text,Una pequeña puerta proporciona una salida fácil hacia el sótano desde el almacén. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventWarehouse_PlaceExploreRootCellarBasement.button1,Continuar
+EventWarehouse_PlaceExploreWarehouseBasement.button1,Continuar
+SpawnWarehouse_BasementCultLeader.text,En la oscuridad, un {c:SpawnWarehouse_BasementCultLeader} permanece de pie junto al cadáver de uno de sus camaradas. Murmura varias oraciones en lenguas prohibidas. Al acercarte un poco para ver mejor, derribas accidentalmente una pila de cajas. El {c:SpawnWarehouse_BasementCultLeader} mueve la cabeza en tu dirección. \n\n Coloca un {c:SpawnWarehouse_BasementCultLeader} y coloca una ficha de Búsqueda en el lugar señalado.
+EventWarehouse_PlaceExploreWarehouseBasement.text,Una puerta en la parte superior de las escaleras proporciona una salida hacia la zona principal del almacén. \n\n Coloca una ficha de Exploración en el lugar señalado.
+SpawnWarehouse_BasementCultLeader.button1,Continuar
+TokenWarehouse_ExploreBasementRootCellar.text,Una puerta conduce desde la bodega a un gran sótano.
+TokenWarehouse_ExploreBasementRootCellar.button1,{action} Explorar
+EventPrintTime_OneHourPalace.text,Te queda 1 hora para que se produzca la invocación. El tiempo se acaba y tienes que localizar el círculo ritual y realizar el hechizo de destierro.
+EventPrintTime_OneHourNotPalace.text,Te queda 1 hora para que se produzca la invocación. Si abandonas tu ubicación actual ahora mismo, tal vez puedas llegar al palacio a tiempo para detener el ritual.
+EventPrintTime_OneHourPalace.button1,Continuar
+EventPrintTime_NoHoursNotPalace.text,No lograste desterrar al Primigenio antes de que fuera invocado, condenando nuestra realidad tal y como la conocemos.
+EventNextLocation_OverridePalace.button1,Viajar al palacio
+EventNextLocation_Palace.text,Has aprendido todo lo que has podido de tus investigaciones en Arkham. Mientras te diriges al palacio del gobernador, sólo esperas que todo esto sea suficiente para salvarte a ti y a todos los demás que viven en esta realidad.
+EventNextLocation_Palace.button1,Viajar al palacio
+EventWarehouse_PlaceLightsource.text,Hay una fuente de luz en el suelo del almacén, justo fuera de la vista. Esperas que quienquiera que la sostuviera originalmente haya conseguido escapar con vida. \n\n Coloca el Objeto común {c:QItemLightsource} en el lugar señalado.
+EventWarehouse_CultLeaderJeer_HasturCorrect.text,Una sonrisa inquietante cruza el rostro del sectario. \n —Mi amo siempre tiene tiempo para torturar herejes. \n\n Ganas 2 Pistas <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_HasturCorrect.button1,Continuar
+EventWarehouse_CultLeaderJeer_HasturIncorrectPositive.text,—Con su poder y el de mi Maestro, ambos podrían hacer más daño del que su mente puede comprender —te dice el sectario mientras sonríe amenazadoramente. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_HasturIncorrectPositive.button1,Continuar
+EventWarehouse_CultLeaderJeer_HasturIncorrectNegative.text,El sectario entrecierra los ojos y te mira: —¿Cómo voy a saber yo para qué tiene tiempo ese falso dios?\n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_HasturIncorrectNegative.button1,Continuar
+EventWarehouse_CultLeaderJeer_ZharCorrect.text,—¡Mi amo recompensa la lealtad, no la castiga! —gruñe el sectario. \n Ganas 2 Pistas <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_ZharCorrect.button1,Continuar
+EventWarehouse_CultLeaderJeer_ZharIncorrectPositive.text,El sectario te mira confuso. \n\n —¿Por qué iba Zhar a castigar a los devotos de su más antiguo aliado? No tiene sentido. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_ZharIncorrectPositive.button1,Continuar
+EventWarehouse_CultLeaderJeer_ZharIncorrectNegative.text,La rabia llena el rostro del sectario. \n\n —¿Representas a ese vil demonio? Dile que mi amo vendrá a por él a continuación. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_ZharIncorrectNegative.button1,Continuar
+EventWarehouse_CultLeaderJeer_YigCorrect.text,—Menos mal que mi amo nunca falla —responde el sectario. \n\n Ganas 2 Pistas <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_YigCorrect.button1,Continuar
+EventWarehouse_CultLeaderJeer_YigIncorrectPositive.text,El sectario te lanza una mirada de suficiencia. \n\n —Con la poderosa mano de mi maestro detrás, Yig nunca podría fallar. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_YigIncorrectPositive.button1,Continuar
+EventWarehouse_CultLeaderJeer_YigIncorrectNegative.text,Una risita siniestra escapa de los labios del sectario. \n\n —¡Sí que lo hará! Mi amo se asegurará de que ese vil demonio sufra. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventWarehouse_CultLeaderJeer_YigIncorrectNegative.button1,Continuar
+EventWarehouse_SearchDeadCultistNoPuzzle.text,Miras al sectario muerto y te preguntas cómo alguien pudo desperdiciar su vida para dedicarse a un propósito tan horrible. Cuando logras apartar de tu mente ese pensamiento, observas detenidamente los tatuajes de la secta que lleva en el cuerpo.
+EventWarehouse_SearchDeadCultistNoPuzzle.button1,{action} Investigar
+EventWarehouse_SearchDeadCultistNoPuzzle.button2,Cancelar
+EventWarehouse_SearchDeadCultistPuzzleStart.text,Los tatuajes son en su mayoría diversos mantras de la secta. Sin embargo destaca uno que contiene un número de pasaje de un texto de ocultismo. Tras encontrar una copia del texto en el cadáver, intentas relacionar el número del tatuaje con las runas del libro. \n\n Puedes resolver el rompecabezas usando {lore}.
+EventWarehouse_SearchDeadCultistPuzzleStart.button1,Continuar
+EventWarehouse_SearchDeadCultistPuzzle.button1,{action} Probar
+PuzzleWarehouse_ForensicEvidence.button1,Hecho
+EventWarehouse_SearchDeadCultistPuzzle.button2,Cancelar
+EventWarehouse_SearchDeadCultistPuzzle.text,Aún no has identificado el pasaje oculto al que hace referencia el tatuaje del sectario. Puedes usar una {action] para tratar de resolver el acertijo usando {lore}.
+EventWarehouse_PuzzleForensicEvidenceComplete.button1,Continuar
+EventWarehouse_PuzzleForensicEvidenceComplete.button2,Ver pista
+EventDock_PuzzleRitualComponentsComplete.text,Con esfuerzo, vences a la magia e introduces la mano en la caja. En ese momento notas como el aire ondula al tiempo que la energía que protegía la caja se disipa. En su interior encuentras varias baratijas y fruslerías mágicas que identificas como componentes rituales. \n\n Ganas el Objeto único {c:QItemRitualComponents}. A continuación descarta esta ficha de Búsqueda. El investigador que tenga los {c:QItemRitualComponents} puede ver la pista asociada interactuando con la aplicación en el menú Objetos.
+EventViewEvidence_ForensicEvidence_Pain.text,El pasaje al que hace referencia el tatuaje habla de uno de los tres Primigenios. Dice así: «A pesar de todo su poder, la entidad no puede existir en nuestra realidad. De hecho, se dice que controla el sentimiento de dolor de nuestro universo y que nace de los celos. Por mucho que lo intente, simplemente no puede entrar en nuestro mundo».
+EventViewEvidence_ForensicEvidence_Pain.button1,Continuar
+EventViewEvidence_ForensicEvidence_Lust.text,El pasaje al que hace referencia el tatuaje habla de uno de los tres Primigenios. Dice así: «A pesar de que controla el sentimiento de lujuria de nuestro universo, la entidad no puede existir en esta realidad. Aunque los adoradores de la entidad intentan apaciguar a su amo con bienes materiales, simplemente no puede existir junto a nada de nuestro mundo.«
+EventViewEvidence_ForensicEvidence_Lust.button1,Continuar
+EventViewEvidence_ForensicEvidence_Madness.text,El pasaje al que hace referencia el tatuaje habla de uno de los tres Primigenios. Dice así: «<i>A pesar del poder que ejerce sobre nuestras conciencias colectivas, la entidad no puede existir en nuestra realidad. Cada vez que un humano intenta poner su mente al alcance de la entidad, muere rápidamente a causa de la locura que le inflige. Como de él emana toda esa locura, si lograse entrar en nuestro mundo, éste sería destruido junto con nuestra realidad.</i>».
+EventViewEvidence_ForensicEvidence_Madness.button1,Continuar
+TokenWarehouse_SearchFurnace.text,Crees haber visto un objeto metálico enterrado entre las cenizas de la caldera.
+TokenWarehouse_SearchFurnace.button1,{action} Investigar
+EventWarehouse_SearchFurnaceSkillCheck.text,Al intentar cavar a través de la ceniza, ésta llena el agujero que estás creando más rápido de lo que puedes quitarla. Intentas cavar lo bastante rápido para alcanzar el objeto antes de que la ceniza pueda asentarse ({agility}).
+EventWarehouse_SearchFurnaceSkillCheck.button1,Confirmar
+EventWarehouse_SearchFurnaceFaliure.text,Cavas tan rápido como puedes, pero la ceniza avanza más rápido que tú. Agotado, abandonas antes de encontrar algo.
+EventWarehouse_SearchFurnaceFaliure.button1,Continuar
+EventWarehouse_SearchFurnaceSuccess.text,Tus esfuerzos dan resultado y desentierras una pequeña lata de metal. La sacas de las cenizas antes de que las cenizas se la traguen de nuevo. La abres y en su interior encuentras las notas de una vieja investigación de un profesor local experto en cultura antigua. \n\n Ganas el Objeto único {c:QItemMissingLink}. A continuación, descarta esta ficha de Búsqueda. El investigador que tenga la {c:QItemMissingLink} puede ver la pista asociada interactuando con la aplicación a través del menú de Objetos.
+EventWarehouse_SearchFurnaceSuccess.button1,Continuar
+EventWarehouse_SearchFurnaceSuccess.button2,Ver pista
+EventViewEvidence_MissingLink_HasturLikeYig.text,Los apuntes de la profesora recogen lo que descubrió mientras investigaba sobre la antigua religión británica. Señaló dos religiones prominentes que existieron entre los siglos I y X d.C., mucho más tiempo que cualquier otra dentro de su cultura. Una de las religiones adoraba a un dios llamado «Hastur», mientras que la otra a un dios llamado «Yig». A pesar de ser dos religiones muy distintas con deidades diferentes, al parecer tenían relaciones muy cordiales entre ellas. No era raro que una misma tribu se dividiera entre las dos religiones, a veces incluso dentro de grupos familiares.
+EventViewEvidence_MissingLink_HasturLikeYig.button1,Continuar
+EventViewEvidence_MissingLink_HasturLikeZhar.text,Los apuntes de la profesora recogen lo que descubrió mientras investigaba sobre la antigua religión británica. Señaló dos religiones prominentes que existieron entre los siglos I y X d.C., mucho más tiempo que cualquier otra dentro de su cultura. Una de las religiones adoraba a un dios llamado «Hastur», mientras que la otra a un dios llamado «Zhar». A pesar de ser dos religiones muy distintas con deidades diferentes, al parecer tenían relaciones muy cordiales entre ellas. No era raro que una misma tribu se dividiera entre las dos religiones, a veces incluso dentro de grupos familiares.
+EventViewEvidence_MissingLink_HasturLikeZhar.button1,Continuar
+EventViewEvidence_MissingLink_YigLikeZhar.text,Los apuntes de la profesora recogen lo que descubrió mientras investigaba sobre la antigua religión británica. Señaló dos religiones prominentes que existieron entre los siglos I y X d.C., mucho más tiempo que cualquier otra dentro de su cultura. Una de las religiones adoraba a un dios llamado «Zhar», mientras que la otra a un dios llamado «Yig». A pesar de ser dos religiones muy distintas con deidades diferentes, al parecer tenían relaciones muy cordiales entre ellas. No era raro que una misma tribu se dividiera entre las dos religiones, a veces incluso dentro de grupos familiares.
+EventViewEvidence_MissingLink_YigLikeZhar.button1,Continuar
+EventViewEvidence_MissingLink_HasturHateYig.text,Los apuntes de la profesora recogen lo que descubrió mientras investigaba sobre la religión de la antigua isla de Gran Bretaña. Señala dos religiones prominentes que existieron entre los siglos I y X d.C., ambas las más longevas de la época. Una de las religiones adoraba a un dios llamado «Hastur», mientras que la otra adoraba a un dios llamado «Yig». La historia de estas dos religiones es larga y sórdida, con muchos relatos de sangrientas batallas libradas entre sus respectivos adoradores. Una antigua fábula británica incluso gira en torno a esa animadversión. Narra como un hombre se convierte de una de las religiones a la otra y luego asesina a su familia cuando deciden no convertirse también.
+EventViewEvidence_MissingLink_HasturHateYig.button1,Continuar
+EventViewEvidence_MissingLink_HasturHateZhar.text,Los apuntes de la profesora recogen lo que descubrió mientras investigaba sobre la religión de la antigua isla de Gran Bretaña. Señala dos religiones prominentes que existieron entre los siglos I y X d.C., ambas las más longevas de la época. Una de las religiones adoraba a un dios llamado «Hastur», mientras que la otra adoraba a un dios llamado «Zhar». La historia de estas dos religiones es larga y sórdida, con muchos relatos de sangrientas batallas libradas entre sus respectivos adoradores. Una antigua fábula británica incluso gira en torno a esa animadversión. Narra como un hombre se convierte de una de las religiones a la otra y luego asesina a su familia cuando deciden no convertirse también.
+EventViewEvidence_MissingLink_HasturHateZhar.button1,Continuar
+EventViewEvidence_MissingLink_YigHateZhar.text,Los apuntes de la profesora recogen lo que descubrió mientras investigaba sobre la religión de la antigua isla de Gran Bretaña. Señala dos religiones prominentes que existieron entre los siglos I y X d.C., ambas las más longevas de la época. Una de las religiones adoraba a un dios llamado «Zhar», mientras que la otra adoraba a un dios llamado «Yig». La historia de estas dos religiones es larga y sórdida, con muchos relatos de sangrientas batallas libradas entre sus respectivos adoradores. Una antigua fábula británica incluso gira en torno a esa animadversión. Narra como un hombre se convierte de una de las religiones a la otra y luego asesina a su familia cuando deciden no convertirse también.
+EventViewEvidence_MissingLink_YigHateZhar.button1,Continuar
+TokenWarehouse_SearchBookshelf.text,La estantería está llena de trastos que han sido colocados recientemente.
+TokenWarehouse_SearchBookshelf.button1,{action} Investigar
+EventWarehouse_SearchBookshelfSkillCheck.text,Mirando entre los objetos descubres un libro escrito por completo usando runas antiguas. Abres el libro e intentas descifrar las páginas ({lore}).
+EventWarehouse_SearchBookshelfSkillCheck.button1,Confirmar
+EventWarehouse_SearchBookshelfFaliure.text,Anotas en tu cuaderno la mejor interpretación que se te ocurre del significado de las runas. Al volver a leer lo que has escrito, te das cuenta de que nada lo que has puesto tiene sentido.
+EventWarehouse_SearchBookshelfFaliure.button1,Continuar
+EventWarehouse_SearchBookshelfSuccess.text,Anotas en tu cuaderno la mejor interpretación que se te ocurre del significado de las runas. Al volver a leer lo que escribiste, te das cuenta de que este libro son las memorias de uno de los Primigenios. \n\n Ganas el Objeto único {c:QItemIncriminatingEvidence}. A continuación, descarta esta ficha de Búsqueda. El investigador que tenga la {c:QItemIncriminatingEvidence} puede ver la pista asociada interactuando con la aplicación a través del menú de Objetos.
+EventWarehouse_SearchBookshelfSuccess.button1,Continuar
+EventWarehouse_SearchBookshelfSuccess.button2,Ver pista
+EventViewEvidence_IncriminatingEvidence_Hastur.text,La relato comienza con un «¡Escuchadme mortales y temblad de miedo! Me llamo Hastur y soy el proveedor del dolor». Sin andarse con rodeos, el relato pasa a describir con todo lujo de detalles las diversas formas en que el Primigenio torturará a quienes se le opongan.
+EventViewEvidence_IncriminatingEvidence_Hastur.button1,Continuar
+EventViewEvidence_IncriminatingEvidence_Yig.text,La relato comienza con un «¡Escuchadme mortales y temblad de miedo! Me llamo Yig y soy el proveedor del dolor». Sin andarse con rodeos, el relato pasa a describir con todo lujo de detalles las diversas formas en que el Primigenio torturará a quienes se le opongan.
+EventViewEvidence_IncriminatingEvidence_Yig.button1,Continuar
+EventViewEvidence_IncriminatingEvidence_Zhar.text,La relato comienza con un «¡Escuchadme mortales y temblad de miedo! Me llamo Zhar y soy el proveedor del dolor». Sin andarse con rodeos, el relato pasa a describir con todo lujo de detalles las diversas formas en que el Primigenio torturará a quienes se le opongan.
+EventViewEvidence_IncriminatingEvidence_Zhar.button1,Continuar
+TokenWarehouse_SearchBody.text,Un cuerpo yace boca abajo entre unas cajas. Debe de ser una de las pobres almas que entraron en este edificio maldito antes que tú.
+TokenWarehouse_SearchBody.button1,{action} Investigar
+EventWarehouse_SearchBodySkillCheck.text,Examinas el destrozado cadáver intentando determinar la causa de la muerte ({will}).
+EventWarehouse_SearchBodySkillCheck.button1,Confirmar
+EventWarehouse_SearchBodyFaliure.text,Aunque lo intentas, no eres capaz de seguir mirando el cadáver. Sientes náuseas y no puedes dejar de pensar en el cadáver como si fuese el tuyo propio. \n\n Sufres 1 de Horror (anulado por {will} -1).
+EventWarehouse_SearchBodyFaliure.button1,Continuar
+EventWarehouse_SearchBodySuccess.text,Aunque el cuerpo ha sufrido muchas laceraciones y tiene varios huesos rotos, determinas que la causa de la muerte es la pérdida gradual de sangre. Lo que atacó a esta persona estaba jugando con ella, manteniéndola viva y haciéndola sufrir el mayor tiempo posible. \n\n Ganas 1 Pista <color=Green>{clue}</color>. A continuación, descarta esta ficha de Búsqueda.
+EventWarehouse_SearchBodySuccess.button1,Continuar
+TokenWarehouse_SearchEmptyBox.text,Entre la madera y los cartones podridos hay una caja vacía que parece sospechosamente intacta.
+TokenWarehouse_SearchEmptyBox.button1,{action} Investigar
+EventWarehouse_SearchEmptyBox.text,Oculto bajo una tapa encuentras un recibo del contenido original de la caja. Contenía varias cadenas, grilletes y pequeños dispositivos de tortura. Está dirigida a «La carnicería más selecta de Arkham«, sin duda una tapadera de la secta que opera en el distrito industrial. \n\n Ganas 1 Pista <color=Green>{clue}</color>. A continuación, descarta esta ficha de Búsqueda.
+EventWarehouse_SearchEmptyBox.button1,Continuar
+TokenWarehouse_SearchBarrel.text,Un barril solitario con la tapa sellada destaca entre una multitud de barriles vacíos.
+TokenWarehouse_SearchBarrel.button1,{action} Investigar
+EventWarehouse_SearchBarrelRitualDagger.button1,Continuar
+EventHorrificHive_ActivationMeleeAttack.text,La piel del Engendro hierve y se ondula. A continuación, unas púas de carne salen disparadas del Engendro y atacan a todos los investigadores que se encuentra en su mismo espacio.
+EventHorrificHive_ActivationMeleeAttack.button1,El monstruo ataca.
+EventHorrificHive_ActivationMeleeAttack.button2,No hay investigadores en el espacio.
+EventHorrificHive_ActivationMeleeAttack_Effect1.text,La púa atraviesa tu cuerpo, provocándote una agonía atroz. Sufres 2 de Daño boca abajo (anulados por {strength} -1).
+EventHorrificHive_ActivationMeleeAttack_Effect1.button1,Continuar
+EventHorrificHive_ActivationMeleeAttack_Effect2.text,Agarras el zarcillo antes de que pueda clavarse en tu carne ({agility}; 2). Si superas la tirada, arrancas la púa y el monstruo sufre 1 de Daño. Si fallas la tirada, la púa se clava en tu pie; sufres 1 de Daño y adquieres el estado Retenido.
+EventHorrificHive_ActivationMeleeAttack_Effect2.button1,Continuar
+EventHorrificHive_ActivationMeleeAttack_Effect3.text,La púa envuelve tu cuerpo y te aplasta con una fuerza antinatural. Sufres 2 de Daño boca abajo ({strength} niega). Si sufres 2 de Daño, la experiencia te abruma; adquieres el estado Aturdido.
+EventHorrificHive_ActivationMeleeAttack_Effect3.button1,Continuar
+EventHorrificHive_ActivationRangedAttack.text,El Engendro libera un gas nocivo que ataca a todos los investigadores a su alcance.
+EventHorrificHive_ActivationRangedAttack.button1,El monstruo ataca.
+EventHorrificHive_ActivationRangedAttack.button2,No hay investigadores dentro del rango.
+EventHorrificHive_ActivationRangedAttack_Effect1.text,El gas nubla tu mente, dificultando tus pensamientos ({voluntad}; 2). \n\n Si superas la tirada, te tiras al suelo y dejas que el aire fresco despeje tu mente. Si fallas la tirada, te agitas asaltado por visiones de criaturas que devoran tu carne; sufres 1 de Daño y adquieres el Estado Aturdido.
+EventHorrificHive_ActivationRangedAttack_Effect1.button1,Continuar
+EventHorrificHive_ActivationRangedAttack_Effect2.text,El gas quema tu carne al contacto y te ves obligado a salir de su alcance. \n\n Sufres 2 de Daño boca abajo (anulados por {agility}). A continuación aléjate 1 espacio del Engendro.
+EventHorrificHive_ActivationRangedAttack_Effect2.button1,Continuar
+EventHorrificHive_ActivationRangedAttack_Effect3.text,El gas le irrita los pulmones y te hace toser sin control ({observation}; 2). \n\n Si superas la tirada, notas que el gas se disipa y aguantas la respiración hasta que pase. Si fallas la tirada, tu tos te hace inhalar más gas; sufres 1 de Daño boca abajo.
+EventHorrificHive_ActivationRangedAttack_Effect3.button1,Continuar
+SpawnHorrificHive_DeepOne.text,El Engendro se estremece y se abre, dando a luz a un {c:SpawnHorrificHive_DeepOne}. \n\n Aparece un {c:SpawnHorrificHive_DeepOne} en el espacio del Engendro.
+SpawnHorrificHive_DeepOne.button1,Continuar
+SpawnHorrificHive_HuntingHorror.text,El Engendro se estremece y se abre, dando a luz un {c:SpawnHorrificHive_HuntingHorror}. \n\n Aparece un {c:SpawnHorrificHive_HuntingHorror} en el espacio del Engendro.
+SpawnHorrificHive_HuntingHorror.button1,Continuar
+EventHorrificHive_ActivationMonsters_Effect.button1,Continuar
+EventHorrificHive_ActivationMonsters_Effect.text,El Engendro abre una cavidad en su cuerpo soltando un potente chillido antinatural. \n\n Todos los investigadores sufren 1 de Horror (anulados por {will}). A continuación, todos los demás monstruos del tablero se mueven 1 casilla hacia el Engendro.
+EventHorrificHive_Evade_Effect1.text,El Engendro parece señalar de algún modo tus intenciones a los demás monstruos. Debes realizar una prueba de Evasión contra el monstruo con la Percepción más alta (sin contar al Engendro) que esté en el mismo espacio que el Engendro. Si no hay otros monstruos en el espacio, tu acción se lleva a cabo de manera normal.
+EventHorrificHive_Evade_Effect1.button1,Continuar
+EventHorrificHive_Evade_Effect2.text,Cuando te alejas del Engendro, ves una expresión de desesperación en su rostro. Sientes su sufrimiento y te invade un sentimiento de culpa. \n\n Sufres 1 de Horror boca abajo (anulado por {will}).
+EventHorrificHive_Evade_Effect2.button1,Continuar
+EventHorrificHive_Horror_Effect1.text,El rostro del Engendro se retuerce y contorsiona en una agonía indescriptible. \n\n Sufres 2 de Horror boca abajo (anulados por {will} -1).
+EventHorrificHive_Horror_Effect1.button1,Continuar
+EventHorrificHive_Horror_Effect2.text,Unas verrugas comienzan a aparecer en la piel de la criatura {c:CustomMonsterHorrificHive} para ir poco a poco reventado y liberando una serie de insectos peludos de gran tamaño ({agility}; 2). Si superas la tirada, te agachas y los insectos pasan volando junto a ti y salen del edificio. Si fallas la tirada, los insectos pululan por toda tu piel, se arrastran por tu pelo y bajan por tu garganta; sufres 2 de Horror.
+EventHorrificHive_Horror_Effect2.button1,Continuar
+EventHorrificHive_Horror_Effect4.text,Observas el rostro del Engendro y te invade una sensación de familiaridad ({observation}; 2). Si superas la tirada, te das cuenta de que te has equivocado y que lo mejor que puedes hacer es acabar con esta monstruosidad; adquieres el estado Concentrado. Si fallas la tirada, te das cuenta de que conoces a la persona que ahora es esa aberración; sufres 2 de Horror. A continuación pon boca arriba 2 de Horror.
+EventHorrificHive_Horror_Effect4.button1,Continuar
+EventHorrificHive_Horror_Effect3.text,Miras fijamente a {c:CustomMonsterHorrificHive}, preguntándote cómo ha podido formarse. Mientras imaginas el proceso, notas que empieza a ocurrirte a ti mismo. Tu carne empieza a expandirse y a pegarse a cualquier superficie con la que entra en contacto. \n\n Sufres 3 de Horror boca abajo (anulados por {will}). Si sufres 2 o más Horror, tu carne se pega al suelo que hay bajo tus pies; adquieres el estado Retenido.
+EventHorrificHive_Horror_Effect3.button1,Continuar
+TokenWarehouse_InteractExit.text,Un investigador puede provocar que todos los investigadores abandonen esta localización al final de la Fase de Investigadores. Una vez que se ha abandonado una localización, no se puede volver a ella.
+TokenWarehouse_InteractExit.button1,{action} Dejar el distrito industrial
+EventWarehouse_HorrificHiveDefeated.text,Jurarías que has visto una mirada de gratitud en los ojos de la abominación justo antes de que expire y se convierta en un cascarón de carne sin vida. Con la muerte del Engendro ya no habrá más monstruos que acosen a la población local.
+EventWarehouse_HorrificHiveDefeated.button1,Continuar
+EventMissionCompleteMessage.text,Has completado tu misión en este lugar. Puedes irte interactuando con la ficha de Interacción que hay al principio de esta localización. Sería aconsejable derrotar a los monstruos restantes antes de abandonar este lugar.
+EventMissionCompleteMessage.button1,Continuar
+EventWarehouse_TriggerExit.text,Acordáis por unanimidad abandonar para siempre este almacén encantado. \n\n Descarta esta ficha de Interacción. Al final de la fase de investigador, todos los investigadores abandonarán este lugar.
+EventWarehouse_TriggerExit.button1,Continuar
+EventWarehouseEnd_MissionComplete.text,Abandonas el almacén, antes lleno por los sonidos de horrores indescriptibles y ahora completamente en silencio, envuelto por el aire tenue y fresco de la noche. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Aunque no puedes traer de vuelta a los que perdieron la vida a manos de los horrores de su interior, al menos descansas tranquilo sabiendo que has salvado a muchos más de un destino similar.
+EventWarehouseEnd_MissionComplete.button1,Continuar
+EventWarehouseEnd_HorrificHiveAlive.text,Huyes del almacén infestado, corriendo a toda velocidad. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Aunque intentas reprimir el pensamiento, en el fondo sabes que los monstruos que salen de este edificio matarán a cientos antes de que puedan ser contenidos. Todos los investigadores sufren 2 de Horror.
+EventWarehouseEnd_HorrificHiveAlive.button1,Continuar
+EventWarehouseEnd_RemainingMonsters.text,Salís del almacén pasando por delante de todas las criaturas que infestan el edificio. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Mientras os alejáis, os preguntáis qué les ocurrirá a los trabajadores locales cuando descubran a estas criaturas mañana por la mañana. \n\n Todos los investigadores sufren {var:RemainingMonsters} de Horror boca abajo.
+EventWarehouseEnd_RemainingMonsters.button1,Continuar
+EventDock_PlaceStreet1.text,Te abres paso por las sinuosas calles del distrito comercial y te diriges hacia el muelle. Coloca el módulo {c:TileDock_Street1} y las miniaturas de los investigadores en el lugar señalado.
+EventDock_PlaceStreet1.button1,Continuar
+EventDock_PlaceFleaMarket.text,Al este se ha instalado un pequeño mercado en una plaza. Extrañamente, aunque todos los puestos siguen abiertos, no hay ni un alma a la vista. \n\n Coloca el módulo {c:TileDock_FleaMarket} en el lugar señalado.
+EventDock_PlaceFleaMarket.button1,Continuar
+EventDock_PlaceSearchesFleaMarket.text,La caja que buscas puede estar en alguno de estos puestos. \n\n Coloca las fichas de Búsqueda en los lugares señalados.
+EventDock_PlaceSearchesFleaMarket.button1,Continuar
+EventDock_PlaceSightStreet2FleaMarket.text,Los puestos del mercado no te dejan ver el lado opuesto de la calle. \n\n Coloca una ficha de Vistazo en el lugar señalado. Un investigador en el módulo {c:TileDock_FleaMarket} puede revelar el área adyacente.
+EventDock_PlaceSightStreet2FleaMarket.button1,Continuar
+EventDock_PlacePier.text,Al norte se divisan los muelles propiamente dichos. \n\n Coloca el módulo {c:TileDock_Pier} tal y en el lugar señalado.
+EventDock_PlacePier.button1,Continuar
+EventDock_PlaceSearchPierGoods.button1,Continuar
+EventDock_PlaceSearchRowboat.button1,Continuar
+EventDock_PlaceSearchPierGoods.text,El muelle está lleno de basura. Aunque ninguno de los objetos parece interesante, quizá sería mejor echarles un vistazo con más detenimiento. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventDock_PlaceExploreSnackShack.text,Una pequeña cabaña en el muelle, a pesar de que no parezca que pueda contener algo de valor, ha sido sellada con cadenas y unos candados de latón. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventDock_PlaceSearchRowboat.text,Una destartalada barca de remos medio sumergida en el mar. Da la impresión de que la lona que la cubre ha sido movida hace poco. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventDock_PlaceExploreSnackShack.button1,Continuar
+EventDock_PlaceSightsPier.text,El muelle continúa hacia el norte y el este, más allá del alcance de tu vista. \n\n Coloca las fichas de Vistazo en el lugar señalado. Un investigador en el módulo {c:TileDock_Pier} puede revelar las zonas adyacentes.
+EventDock_PlaceSightsPier.button1,Continuar
+EventDock_PlaceWoman.text,Una mujer de mediana edad irrumpe por una puerta cercana. La cierra silenciosamente y echa el pestillo tras de sí. Cuando se da la vuelta para marcharse, sus ojos se cruzan con los tuyos.
+EventDock_RemoveWoman.button1,Continuar
+EventDock_PlaceWoman.button1,Continuar
+EventDock_WomanNote.button1,Continuar
+EventDock_RemoveWoman.text,Rápidamente se dirige hacia ti y te entrega en la mano un billete arrugado. Antes de que puedas reaccionar, la mujer se apresura a adentrarse en la ciudad y desaparece de tu vista.
+TokenDock_SightStreet2FleaMarket.text,Los puestos del mercado no te dejan ver el lado opuesto de la calle. \n\n Un investigador en el módulo {c:TileDock_FleaMarket} puede revelar la zona adyacente.
+TokenDock_SightStreet2FleaMarket.button1,Revelar
+EventDock_PlaceStreet2.text,La calle continúa por el otro lado. \n\n Coloca el módulo {c:TileDock_Street2} en el lugar señalado y descarta todas las fichas de Vistazo que lleven a él.
+EventDock_PlaceStreet2.button1,Continuar
+EventDock_PlaceSearchPosters.text,La pared de ladrillo de este edificio ha sido cubierta con propaganda y carteles. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventDock_PlaceSearchPosters.button1,Continuar
+EventDock_PlaceSightDock1Street2.text,Al norte, la calle da paso al muelle. \n\n Coloca una ficha de Vistazo en el lugar señalado. Un investigador en el módulo {c:TileDock_Street2} puede revelar el área adyacente.
+EventDock_PlaceSightDock1Street2.button1,Continuar
+TokenDock_SightDock1Street2.text,Al norte, la calle da paso al muelle. \n\n Un investigador en la localización {c:TileDock_Street2} puede revelar la zona adyacente.
+TokenDock_SightDock1Street2.button1,Revelar
+EventDock_PlaceDock1.button1,Continuar
+EventDock_PlaceSearchDock1Goods.button1,Continuar
+EventDock_PlaceDock1.text,El muelle bordea el distrito permitiendo a los barcos descargar mercancías directamente en las tiendas que las venden. \n\n Coloca el módulo {c:TileDock_Dock1} en el lugar señalado y descarta todas las fichas de Vistazo que lleven a él.
+EventDock_PlaceSightStreet2Dock1.button1,Continuar
+EventDock_PlaceSearchDock1Goods.text,Han dejado varias cajas y barriles en el muelle. Aunque no parezca que tenga nada en especial, será mejor que les eches un vistazo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenDock_SightStreet2Dock1.text,Al sur, el muelle da paso a la calle. \n\n Un investigador en la localización {c:TileDock_Dock1} puede revelar la zona adyacente.
+EventDock_PlaceSightStreet2Dock1.text,Al sur, el muelle da paso a una calle. \n\n Coloca una ficha de Vistazo en el lugar señalado. Un investigador en el módulo {c:TileDock_Dock1} puede revelar el área adyacente.
+TokenDock_SightStreet2Dock1.button1,Revelar
+TokenDock_SightDock1Pier.text,El muelle continúa hacia el este, fuera de la vista. \n\n Un investigador en el {c:TileDock_Pier} puede revelar la zona adyacente.
+TokenDock_SightDock1Pier.button1,Revelar
+TokenDock_SightRentalDock.text,El muelle continúa hacia el norte, fuera de la vista. \n\n Un investigador en el {c:TileDock_Pier} puede revelar la zona adyacente.
+TokenDock_SightRentalDock.button1,Revelar
+EventDock_PlaceRentalDock.text,Al final del muelle hay un puesto de alquiler de embarcaciones para transporte de carga o pasajeros. \n\n Descarta esta ficha de Vista y coloca el módulo {c:TileDock_RentalDock} en el lugar señalado.
+EventDock_PlaceRentalDock.button1,Continuar
+EventDock_PlaceSearchRentalDockGoods.text,Entre los barcos disponibles para alquilar hay varios objetos. Aunque no hay nada que te llame la atención igual sería interesante que los examinaras. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventDock_PlaceSearchRentalDockGoods.button1,Continuar
+EventDock_PlaceExploreRentalDock.text,La pequeña cabaña que alberga el negocio de alquiler ha sido cerrada con un candado plateado. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventDock_PlaceExploreRentalDock.button1,Continuar
+EventDock_PlaceSightDock2HouseBoat.text,Hacia el este el muelle desciende hasta unos amarres para barcos aunque desde tu posición no puedes verlos. \n\n Coloca una ficha de Vista en el lugar señalado. Un investigador en el módulo {c:TileDock_RentalDock} puede revelar el área adyacente.
+EventDock_PlaceSightDock2HouseBoat.button1,Continuar
+TokenDock_SightDock2HouseBoat.text,Hacia el este el muelle desciende hasta llegar a los amarres para barcos, aunque desde donde estás no los puedes ver. \n\n Un investigador en el módulo {c:TileDock_RentalDock} puede revelar la zona adyacente.
+TokenDock_SightDock2HouseBoat.button1,Revelar
+EventDock_PlaceDock2HouseBoat.text,El muelle desciende hasta casi el nivel del agua, permitiendo el amarre de varios barcos. Los amarres están extrañamente vacíos con la excepción de una casa flotante que está cerca del muelle de alquiler. \n\n Descarta esta ficha de Vistazo y coloca los módulos {c:TileDock_Dock2} y {c:TileDock_HouseBoat} en el lugar señalado.
+EventDock_PlaceDock2HouseBoat.button1,Continuar
+EventDock_PlaceSearchesDock2HouseBoat.text,Varios barriles y cajas salpican tanto el muelle como el barco.\n\n Coloca las fichas de Búsqueda en los lugares señalados.
+EventDock_PlaceSearchesDock2HouseBoat.button1,Continuar
+EventDock_PlaceExploreHouseboat.text,Una puerta en la proa y otra en la popa del barco conducen a un pequeño espacio interior. Ambas puertas tienen bocallaves doradas y parecen estar cerradas con llave. \n\n Coloca las fichas de Exploración en los lugares señalados.
+EventDock_PlaceExploreHouseboat.button1,Continuar
+EventDock_PlaceInteractExit.button1,Continuar
+EventDock_PlaceInteractExit.text,Todos los investigadores pueden abandonar este lugar en cualquier momento. Sin embargo, una vez abandonado, no se podrá volver a él. \n\n Coloca una ficha de Interacción en el lugar señalado.
+TokenDock_SearchPierGoods.text,Varios restos de basura cubren el muelle.
+TokenDock_SearchPierGoods.button1,{action} Investigar
+EventDock_SearchPierGoodsSkillCheck.text,Una pila de cajas con objetos pequeños ha quedado enterrada bajo cajas más pesadas. Empiezas a levantar las cajas más pesadas con la intención de examinar las cajas de abajo ({strength}).
+EventDock_SearchPierGoodsSkillCheck.button1,Confirmar
+EventDock_SearchPierGoodsFaliure.text,Levanta todas las cajas que puede, pero te cansas antes de poder retirarlas todas.
+EventDock_SearchPierGoodsFaliure.button1,Continuar
+EventDock_RedKeyPickup.text,Entre la basura encuentras una {c:QItemSilverKey} envuelta en un trozo de papel. El papel está repleto de unos delirantes desvaríos garabateados frenéticamente y casi completamente ilegibles. \n\n Ganas el Objeto único {c:QItemSilverKey}. A continuación, descarta esta ficha de Búsqueda.
+EventDock_RedKeyPickup.button1,Continuar
+EventDock_RedItemPickup_LuckyRabbitsFoot.button1,Continuar
+EventDock_RedClue.text,Lamentablemente, el único objeto de interés que encuentras entre los trastos es un viejo periódico. El periódico está fechado hace dos días, pero no puedes evitar sorprenderte por lo extraños e incoherentes que son los artículos que contiene. \n\n Ganas 1 Pista <color=Green>{clue}</color>. A continuación, descarta esta ficha de Búsqueda.
+EventDock_RedClue.button1,Continuar
+TokenDock_SearchBlackStall.text,Curiosamente, aunque el puesto lo han cerrado por la noche, se ha dejado fuera una mesa con productos del puesto.
+TokenDock_SearchBlackStall.button1,{action} Investigar
+EventDock_SearchBlackStallSkillCheck.text,Rebuscas entre los objetos colocados sobre la mesa, buscando algo útil ({observation}).
+EventDock_SearchBlackStallSkillCheck.button1,Confirmar
+TokenDock_SearchBlueStall.text,El puesto está abierto y desatendido durante la noche, algo muy inusual. Está lleno de todo tipo de baratijas, aparentemente de poco interés.
+TokenDock_SearchBlueStall.button1,{action} Investigar
+EventDock_SearchBlueStallSkillCheck.text,Rebuscas entre los objetos que cubren el puesto, buscando cualquier cosa de utilidad ({observation}).
+EventDock_SearchBlueStallSkillCheck.button1,Confirmar
+EventDock_SearchBlackStallFaliure.text,La mesa está abarrotada de objetos irrelevantes para tu investigación.
+EventDock_SearchBlackStallFaliure.button1,Continuar
+EventDock_SearchBlueStallFaliure.text,Buscas entre la basura pero no encuentras nada interesante.
+EventDock_SearchBlueStallFaliure.button1,Continuar
+TokenDock_SearchPosters.text,La pared de ladrillo de este edificio está cubierta de propaganda y carteles.
+TokenDock_SearchPosters.button1,{action} Investigar
+EventDock_SearchPostersSkillCheck.text,Lees los distintos carteles en busca de información útil para tu investigación ({lore}).
+EventDock_SearchPostersSkillCheck.button1,Confirmar
+EventDock_SearchPostersFaliure.text,Miras fijamente las hojas de papel, sin obtener nada útil para tu investigación.
+EventDock_SearchPostersFaliure.button1,Continuar
+EventDock_SearchPostersSuccess.text,Aunque la mayor parte de la pared está llena de anuncios de varias tiendas y puestos, te llama la atención un cartel de una exposición de una galería de arte. En ella se exponen piezas de arte británico antiguo que datan de hace miles de años. \n\n Ganas el Objeto único {c:QItemPhotographicEvidence}. A continuación descarta esta ficha de Búsqueda. El investigador que tenga el {c:QItemPhotographicEvidence} puede ver la pista asociada interactuando con la aplicación a través del menú de Objetos.
+EventDock_SearchPostersSuccess.button1,Continuar
+EventDock_SearchPostersSuccess.button2,Ver pista
+EventViewEvidence_PhotographicEvidence_RedLikeGreen.text,En el cartel hay una imagen de una de las pinturas antiguas que aparecerán en la exposición. La imagen es abstracta, pero extraña e inquietante. En el cartel se aprecia un patrón interesante entre los colores rojo y verde. A lo largo de todo el cartel esos colores nunca se alejan el uno del otro y nunca aparece uno sin que el otro esté cerca.
+EventViewEvidence_PhotographicEvidence_RedLikeGreen.button1,Continuar
+EventViewEvidence_PhotographicEvidence_RedLikeBlue.text,En el cartel hay una imagen de una de las pinturas antiguas que aparecerán en la exposición. La imagen es abstracta, pero extraña e inquietante. En el cartel se aprecia un patrón interesante entre los colores rojo y azul. A lo largo de todo el cartel esos colores nunca se alejan el uno del otro y nunca aparece uno sin que el otro esté cerca.
+EventViewEvidence_PhotographicEvidence_RedLikeBlue.button1,Continuar
+EventViewEvidence_PhotographicEvidence_GreenLikeBlue.text,En el cartel hay una imagen de una de las pinturas antiguas que aparecerán en la exposición. La imagen es abstracta, pero extraña e inquietante. En el cartel se aprecia un patrón interesante entre los colores azul y verde. A lo largo de todo el cartel, esos colores nunca se alejan el uno del otro, y nunca aparece uno sin que el otro esté cerca.
+EventViewEvidence_PhotographicEvidence_GreenLikeBlue.button1,Continuar
+EventViewEvidence_PhotographicEvidence_RedHateGreen.text,En el cartel hay una imagen de una de las pinturas antiguas que aparecerán en la exposición. La imagen es abstracta, pero extraña e inquietante. En el cartel se aprecia un patrón interesante entre los colores rojo y verde. A lo largo de todo el cartel esos colores nunca aparecen juntos. Es casi como si los dos colores se repelieran.
+EventViewEvidence_PhotographicEvidence_RedHateGreen.button1,Continuar
+EventViewEvidence_PhotographicEvidence_RedHateBlue.text,En el cartel hay una imagen de una de las pinturas antiguas que aparecerán en la exposición. La imagen es abstracta, pero extraña e inquietante. En el cartel se aprecia un patrón interesante entre los colores rojo y azul. A lo largo de todo el cartel, esos colores nunca aparecen juntos. Es casi como si los dos colores se repelieran.
+EventViewEvidence_PhotographicEvidence_RedHateBlue.button1,Continuar
+EventViewEvidence_PhotographicEvidence_GreenHateBlue.text,En el cartel hay una imagen de una de las pinturas antiguas que aparecerán en la exposición. La imagen es abstracta, pero extraña e inquietante. En el cartel se aprecia un patrón interesante entre los colores azul y verde. A lo largo de todo el cartel, esos colores nunca aparecen juntos. Es casi como si los dos colores se repelieran.
+EventViewEvidence_PhotographicEvidence_GreenHateBlue.button1,Continuar
+TokenDock_SearchRowboat.text,Una destartalada barca de remos medio sumergida en el mar. Da la impresión de que la lona que la cubre ha sido movida hace poco.
+TokenDock_SearchRowboat.button1,{action} Investigar
+EventDock_SearchRowboatSkillCheck.text,Cuando te acercas al borde del muelle para retirar la lona, la corriente marina arrastra repentinamente la embarcación ({agility}).
+EventDock_SearchRowboatSkillCheck.button1,Confirmar
+EventDock_SearchRowboatFaliure.text,Eres capaz de reaccionar lo suficientemente rápido como para evitar caer al agua. Sin embargo, la embarcación se mueve a la deriva hasta quedar fuera de tu alcance.
+EventDock_SearchRowboatFaliure.button1,Continuar
+EventDock_SearchRowboatSuccess.text,Sin dudarlo, agarras el borde de la barca y tiras de ella hacia el muelle. Quitas la lona y encuentras un {c:QItemOldJournal} colocado cuidadosamente en el interior, resguardado del agua. \n\n Ganas el Objeto único {c:QItemOldJournal}. A continuación descarta esta ficha de Búsqueda. El investigador que tenga el {c:QItemOldJournal} puede ver la pista asociada interactuando con la aplicación a través del menú de Objetos.
+EventDock_SearchRowboatSuccess.button1,Continuar
+EventDock_SearchRowboatSuccess.button2,Ver pista
+EventViewEvidence_OldJournal_HasturRed.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada hay una nota garabateada que dice «Hastur = Rojo».
+EventViewEvidence_OldJournal_HasturRed.button1,Continuar
+EventViewEvidence_OldJournal_HasturGreen.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada hay una nota garabateada que dice «Hastur = Verde».
+EventViewEvidence_OldJournal_HasturGreen.button1,Continuar
+EventViewEvidence_OldJournal_HasturBlue.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada hay una nota garabateada que dice «Hastur = Azul».
+EventViewEvidence_OldJournal_HasturBlue.button1,Continuar
+EventViewEvidence_OldJournal_YigRed.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada se ha garabateado apresuradamente una nota en la que se lee «Yig = Rojo».
+EventViewEvidence_OldJournal_YigRed.button1,Continuar
+EventViewEvidence_OldJournal_YigGreen.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada se ha garabateado apresuradamente una nota en la que se lee «Yig = Verde».
+EventViewEvidence_OldJournal_YigGreen.button1,Continuar
+EventViewEvidence_OldJournal_YigBlue.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada se ha garabateado apresuradamente una nota en la que se lee «Yig = Azul».
+EventViewEvidence_OldJournal_YigBlue.button1,Continuar
+EventViewEvidence_OldJournal_ZharRed.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada hay una nota garabateada que dice «Zhar = Rojo».
+EventViewEvidence_OldJournal_ZharRed.button1,Continuar
+EventViewEvidence_OldJournal_ZharGreen.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada hay una nota garabateada que dice «Zhar = Verde».
+EventViewEvidence_OldJournal_ZharGreen.button1,Continuar
+EventViewEvidence_OldJournal_ZharBlue.text,Ojeas el diario e identificas al propietario como un investigador de lo oculto no muy diferente a ti. Te inquieta darte cuenta de que el investigador estaba llevando a cabo casi exactamente la misma investigación que tú en este momento. El diario termina bruscamente con una entrada en la que se indica la intención del investigador de visitar el distrito comercial al día siguiente. En el interior de la contraportada hay una nota garabateada que dice «Zhar = Azul».
+EventViewEvidence_OldJournal_ZharBlue.button1,Continuar
+TokenDock_SearchDock1Goods.text,Alguien ha dejado abandonadas varias cajas y unos barriles en el muelle.
+TokenDock_SearchDock1Goods.button1,{action} Investigar
+TokenDock_SearchYellowStall.text,El puesto, escondido en un rincón de la plaza, se ha ido deteriorando por falta de uso. Sin embargo, en el mostrador quedan algunas cosas aunque casi completamente podridas por los vientos marinos.
+TokenDock_SearchYellowStall.button1,{action} Investigar
+TokenDock_SearchRedStall.text,El puesto, en el que se venden baratijas de todo tipo, está abierto. Sin embargo, parece que no hay nadie atendiéndolo.
+TokenDock_SearchRedStall.button1,{action} Investigar
+EventDock_SearchRedStallSkillCheck.text,Al no ver a nadie cerca, decides rebuscar entre los objetos expuestos para ver si encuentras algo interesante ({observation}).
+EventDock_SearchRedStallSkillCheck.button1,Confirmar
+EventDock_SearchRedStallFaliure.text,Mientras rebuscas entre los trastos oyes el ruido de alguien que se acerca. Rápidamente vuelves a colocar todo en su sitio pero cuando te das la vuelta no hay nadie.
+EventDock_SearchRedStallFaliure.button1,Continuar
+EventDock_GreenKeyPickup.text,Entre los trastos descubres una pequeña bolsa de cuero que contiene una {c:QItemGoldKey}. En el exterior de la bolsa está bordado el mensaje «Sé fuerte de mente». \n\n Ganas el Objeto único {c:QItemGoldKey}. A continuación descarta esta ficha de Búsqueda.
+EventDock_GreenKeyPickup.button1,Continuar
+EventDock_GreenItemPickup.text,Aunque no estás más cerca de encontrar el objeto maldito, encuentras un objeto útil entre los trastos. Supones que se trata de un envío reciente que se ha extraviado ya que lleva atada una etiqueta de envío. Tratas de leer la etiqueta pero descubres que es un completo galimatías. \n\n Ganas el Objeto común {c:QItemSedatives} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventDock_GreenItemPickup.button1,Continuar
+EventDock_GreenClue.text,Entre los trastos encuentras un manifiesto de embarque de un barco que llegó a los muelles hace dos días. Aunque los artículos del manifiesto son mundanos, su destino es inusual. Todos ellos han sido dirigidos a varios manicomios y hospitales psiquiátricos de la zona de Arkham. \n\n Ganas 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventDock_GreenClue.button1,Continuar
+EventDock_SearchYellowStallSkillCheck.text,Buscas algo salvable en el montón de objetos podridos ({observation}).
+EventDock_SearchYellowStallSkillCheck.button1,Confirmar
+EventDock_SearchYellowStallFaliure.text,Retiras algunos de los trastos rotos que cubren el puesto, pero no encuentras nada interesante.
+EventDock_SearchYellowStallFaliure.button1,Continuar
+EventDock_SearchDock1GoodsSkillCheck.text,Todas las cajas y barriles permanecen sellados por su reciente viaje en barco. Comienzas la ardua tarea de desprecintarlos y registrarlos ({strength}).
+EventDock_SearchDock1GoodsSkillCheck.button1,Confirmar
+EventDock_SearchDock1GoodsFaliure.text,Abres cajas y barriles hasta quedar agotado pero sin encontrar nada de valor.
+EventDock_SearchDock1GoodsFaliure.button1,Continuar
+TokenDock_SearchHouseBoatGoods.text,Un barril abierto lleno de baratijas. En un intento de ocultarlas, alguien ha añadido una capa de pescado podrido en la parte superior del barril.
+TokenDock_SearchHouseBoatGoods.button1,{action} Investigar
+EventDock_SearchHouseBoatGoodsSkillCheck.text,Comienzas la sucia tarea de limpiar el pescado podrido y buscar entre el resto de objetos del barril ({will}).
+EventDock_SearchHouseBoatGoodsSkillCheck.button1,Confirmar
+EventDock_SearchHouseBoatGoodsFaliure.text,El olor del pescado abruma sus sentidos, provocándole arcadas incontrolables que le impiden continuar.
+EventDock_SearchHouseBoatGoodsFaliure.button1,Continuar
+EventDock_BlueKeyPickup.text,Percibes un destello metálico entre los trastos que tienes delante. Metes la mano y encuentras una {c:QItemBrassKey} que lleva una etiqueta con un dibujo borroso de un cerebro, dando la impresión de ser una especie de advertencia. \n\n Ganas el Objeto común {c:QItemBrassKey}. A continuación descarta esta ficha de Búsqueda.
+EventDock_BlueKeyPickup.button1,Continuar
+EventDock_BlueItemPickup_Wrack.button1,Continuar
+EventDock_BlueClue.text,En la basura encuentras un libro de texto de psiquiatría. Se ha dejado un marcapáginas en una entrada que describe el fenómeno de la psicosis compartida. En un ejemplo dado, los pacientes de un manicomio informaron haber tenido la misma alucinación de una criatura parecida a un dios, que pretendía ser la fuente de su locura y exigía su sometimiento. \n\n Ganas 1 Pista <color=Green>{clue}</color>. A continuación, descarta esta ficha de Búsqueda.
+EventDock_BlueClue.button1,Continuar
+TokenDock_SearchDock2Goods.text,Han dejado en el muelle la carga del barco que está atracado.
+TokenDock_SearchDock2Goods.button1,{action} Investigar
+EventDock_SearchDock2GoodsSkillCheck.text,Empiezas a desempaquetar el contenido de la carga, buscando cualquier cosa útil para tu investigación ({strength}).
+EventDock_SearchDock2GoodsSkillCheck.button1,Confirmar
+EventDock_SearchDock2GoodsFaliure.text,Desembalas aproximadamente la mitad de la carga de la pequeña embarcación sin encontrar nada de interés.
+EventDock_SearchDock2GoodsFaliure.button1,Continuar
+TokenDock_SearchRentalDockGoods.text,Entre las embarcaciones disponibles para alquilar se encuentran varios objetos sin interés aparente.
+TokenDock_SearchRentalDockGoods.button1,{action} Investigar
+EventDock_SearchRentalDockGoodsSkillCheck.text,Inspeccionando la pila de botes te das cuenta de que hay objetos escondidos entre los montones. Comienzas la extenuante tarea de mover los botes superiores de las pilas ({strength}).
+EventDock_SearchRentalDockGoodsSkillCheck.button1,Confirmar
+EventDock_SearchRentalDockGoodsFaliure.text,Te esfuerzas al máximo pero no consigues mover ninguno de los botes.
+EventDock_SearchRentalDockGoodsFaliure.button1,Continuar
+EventDock_ExploreSnackShackNoKey.text,La endeble puerta de la pequeña choza del embarcadero está bien cerrada con cadenas y candados de latón a pesar de que no parece contener nada de valor.
+EventDock_ExploreSnackShackNoKey.button1,Continuar
+EventDock_ExploreSnackShackKey.text,La endeble puerta de la pequeña choza del embarcadero está bien cerrada con cadenas y candados de latón a pesar de que no parece contener nada de valor. \n\n Sólo la puedes explorar si tienes el Objeto Único {c:QItemBrassKey}.
+EventDock_ExploreSnackShackKey.button1,{action} Explorar
+EventDock_ExploreSnackShackKey.button2,Cancelar
+EventDock_ExploreRentalDockNoKey.text,El pequeño quiosco que alberga el negocio de alquiler de embarcaciones está cerrado con un candado plateado.
+EventDock_ExploreRentalDockNoKey.button1,Continuar
+EventDock_ExploreRentalDockKey.text,La pequeña cabaña que alberga el negocio de alquiler de botes ha sido cerrada con un candado plateado. \n\n Sólo la puedes explorar si tienes el Objeto único {c:QItemSilverKey}.
+EventDock_ExploreRentalDockKey.button1,{action} Explorar
+EventDock_ExploreRentalDockKey.button2,Cancelar
+EventDock_ExploreHouseboatNoKey.text,Una puerta con un ojo de cerradura dorado conduce al pequeño espacio interior del barco. Está cerrada con llave.
+EventDock_ExploreHouseboatNoKey.button1,Continuar
+EventDock_ExploreHouseboatKey.text,Una puerta con una cerradura dorada conduce al pequeño espacio interior del barco. Está cerrada con llave. \n\n Solo la puedes explorar si tienes el Objeto Único {c:QItemGoldKey}.
+EventDock_ExploreHouseboatKey.button1,{action} Explorar
+EventDock_ExploreHouseboatKey.button2,Cancelar
+EventDock_ExploreSnackShack.text,Retiras los candados que sujetan las cadenas, liberando la endeble puerta. Tiras cautelosamente de la manilla de la puerta, revelando el interior de la choza. \n\n Descarta esta ficha de Exploración.
+EventDock_ExploreSnackShack.button1,Continuar
+EventDock_PlaceSearchBlueCrate.text,El interior del puesto está completamente vacío menos un cajón de carga que ha sido colocado en el centro. El contenedor está rodeado de marcas azules y una extraña energía flota a su alrededor. Puede que contenga los componentes que buscas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventDock_PlaceSearchBlueCrate.button1,Continuar
+SpawnDock_SnackShackDeepOneHybrid.text,Junto a la caja, un habitante de la ciudad permanece inmóvil, mirándola fijamente y de espaldas a ti. Temes el daño que este vil objeto habrá causado en la psique de esta pobre persona. Consideras la posibilidad de sacarle del quiosco, pero te detienes al ver las escamas en sus manos. De repente se gira revelando un rostro que echa espuma por la boca y apenas se parece a un ser humano. \n\n Aparece el monstruo {c:SpawnDock_SnackShackDeepOneHybrid} en el lugar señalado.
+SpawnDock_SnackShackDeepOneHybrid.button1,Continuar
+EventDock_SearchBlueCrate.text,Hay un cajón de mercancías en el centro de la pequeña choza, con una marca azul pintada en su superficie y una extraña energía flotando a su alrededor. Puede que contenga los componentes que buscas.
+EventDock_BlueCrateTrap.text,Cuando vas a tocar la caja un dolor agudo te atraviesa la mano y un grito antinatural resuena en el aire nocturno. \n\n Todos los investigadores en el quiosco sufren 1 de Horror boca abajo. A continuación, descarta esta ficha de Búsqueda.
+EventDock_BlueCrateTrap.button1,Continuar
+EventDock_SearchBlueCrate.button1,{action} Abrir
+EventDock_ContinueCratePuzzle.text,El contenido de la caja sigue todavía sellado por energías mágicas. Puedes intentar el rompecabezas usando {will}.
+EventDock_ContinueCratePuzzle.button1,{action} Probar
+EventDock_ContinueCratePuzzle.button2,Cancelar
+EventDock_CratePuzzleStart.text,Estiras el brazo para alcanzar la caja pero una energía mágica te detiene antes de que puedas tocarla. Haciendo acopio de toda tu fuerza de voluntad, peleas contra esa maligna fuerza {will}.
+EventDock_CratePuzzleStart.button1,Continuar
+PuzzleDock_RitualComponents.button1,Hecho
+EventWarehouse_PuzzleForensicEvidenceComplete.text,Finalmente localizas el pasaje al que se hace referencia y lo arrancas del libro para estudiarlo más a fondo. El pasaje contiene una pista importante para tu investigación. \n\n Ganas el Objeto único {c:QItemForensicEvidence}. A continuación, descarta esta ficha de Búsqueda. El investigador que tenga la {c:QItemForensicEvidence} puede ver la pista asociada interactuando con la aplicación a través del menú de Objetos.
+EventDock_PuzzleRitualComponentsComplete.button1,Continuar
+EventDock_PuzzleRitualComponentsComplete.button2,Ver pista
+EventViewEvidence_RitualComponents_Red.text,Para obtener más información, intentas deconstruir la magia imbuida en estos componentes. Sin embargo, al hacerlo te sobrecoge una extraña visión. En la visión eres un Primigenio de gran poder. Has conquistado muchas realidades, subyugándolas bajo tu emblema de color rojo rubí. Sin embargo, al ver nuestra realidad, tu reacción es indiferente en el mejor de los casos. Por alguna lógica incomprensible llegas a la conclusión de que no entrarías en nuestra realidad aunque alguien te abriera un portal. La visión termina y te desplomas en el suelo, con la cabeza palpitando y sin ganas de seguir examinando los componentes.
+EventViewEvidence_RitualComponents_Red.button1,Continuar
+EventViewEvidence_RitualComponents_Green.text,Para obtener más información, intentas deconstruir la magia imbuida en estos componentes. Sin embargo, al hacerlo te sobrecoge una extraña visión. En la visión eres un Primigenio de gran poder. Has conquistado muchas realidades, subyugándolas bajo tu emblema de color verde esmeralda. Sin embargo, al ver nuestra realidad, tu reacción es indiferente en el mejor de los casos. Por alguna lógica incomprensible llegas a la conclusión de que no entrarías en nuestra realidad aunque alguien te abriera un portal. La visión termina y te desplomas en el suelo, con la cabeza palpitando y sin ganas de seguir examinando los componentes.
+EventViewEvidence_RitualComponents_Green.button1,Continuar
+EventViewEvidence_RitualComponents_Blue.text,Para obtener más información, intentas deconstruir la magia imbuida en estos componentes. Sin embargo, al hacerlo te sobrecoge una extraña visión. En la visión eres un Primigenio de gran poder. Has conquistado muchas realidades, subyugándolas bajo tu emblema de color azul zafiro. Sin embargo, al ver nuestra realidad, tu reacción es indiferente en el mejor de los casos. Por alguna lógica incomprensible llegas a la conclusión de que no entrarías en nuestra realidad aunque alguien te abriera un portal. La visión termina y te desplomas en el suelo, con la cabeza palpitando y sin ganas de seguir examinando los componentes.
+EventViewEvidence_RitualComponents_Blue.button1,Continuar
+EventDock_SearchBlueCrate.button2,Cancelar
+SpawnDock_PierDeepOne.text,Como respuesta, un grito antinatural resuena desde la bahía. A través de la ventana de servicio ves a una criatura escamosa salir del agua, junto al muelle. \n\n Aparece un {c:SpawnDock_PierDeepOne} en el lugar señalado.
+SpawnDock_PierDeepOne.button1,Continuar
+EventDock_ExploreHouseboat.text,Introduces la llave en la puerta y ésta se abre con un clic. \n\n En su interior encuentras un lugar acogedor dispuesto para alojar cómodamente a una persona. \n\n Descarta todas las fichas de Exploración que lleven al camarote.
+EventDock_ExploreHouseboat.button1,Continuar
+EventDock_PlaceSearchGreenCrate.text,Han arrastrado hasta un rincón del camarote una extraña caja de madera. Unas runas verdes incrustadas en la madera brillan intensamente y una energía mágica rodea la caja. Puede que contenga los componentes que buscas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventDock_PlaceSearchGreenCrate.button1,Continuar
+SpawnDock_CabinCultLeader.text,Junto a la caja, un {c:SpawnDock_CabinCultLeader} murmura unos conjuros, presumiblemente para impedir injerencias. Al percatarse de que la luz de la luna se derrama por el suelo junto a él, el {c:SpawnDock_CabinCultLeader} gira sobre sí mismo y te mira fijamente. \n\n Aparece un {c:SpawnDock_CabinCultLeader} en el lugar señalado.
+SpawnDock_CabinCultLeader.button1,Continuar
+EventDock_CultLeaderJeer.text,El {c:SpawnDock_CabinCultLeader} levanta el puño y empieza a gritarte un galimatías. Aunque las palabras no tienen ningún sentido, su propósito está claro.
+EventDock_CultLeaderJeer.button1,—¿Conoces la atadura a Hastur?
+EventDock_CultLeaderJeer.button2,—¿Por qué perder tanto sólo para servir a Yig?
+EventDock_CultLeaderJeer.button3,—¿Qué clase de mentiras te ha contado Zhar, insensato?
+EventDock_CultLeaderJeer_Correct.text,El {c:SpawnDock_CabinCultLeader} se tambalea, visiblemente sorprendido. Está claro que has dado en el clavo. \n\n Ganas 2 Pistas <color=Green>{clue}</color>.
+EventDock_CultLeaderJeer_Correct.button1,Continuar
+EventDock_CultLeaderJeer_IncorrectPositive.text,El {c:SpawnDock_CabinCultLeader} te mira algo confundido antes de estallar en carcajadas. Está claro que no has sabido nombrar a su amo, aunque no le ha molestado el nombre que has utilizado en su lugar. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventDock_CultLeaderJeer_IncorrectPositive.button1,Continuar
+EventDock_CultLeaderJeer_IncorrectNegative.text,El rostro del {c:SpawnDock_CabinCultLeader} se llena de rabia y empieza a insultarte. Está claro que el nombre que has utilizado le ha molestado profundamente. \n\n Ganas 1 Pista <color=Green>{clue}</color>.
+EventDock_CultLeaderJeer_IncorrectNegative.button1,Continuar
+EventDock_SearchGreenCrate.text,Han arrastrado una extraña caja de madera hasta un rincón del camarote. Unas runas verdes incrustadas en la madera brillan intensamente mientras una energía mágica rodea la caja. Puede que contenga los componentes que buscas. 
+EventDock_SearchGreenCrate.button1,{action} Abrir
+EventDock_SearchGreenCrate.button2,Cancelar
+EventDock_GreenCrateTrap.text,Abres la caja y descubres que está completamente vacía. Las runas de la superficie de la madera brillan siniestramente y sientes que el mar a tu alrededor se agita. De repente, una gran ola golpea el bote, tirándote al suelo. \n\n Todos los investigadores en el Camarote sufren 1 de Daño boca abajo. A continuación, descarta esta ficha de Búsqueda.
+EventDock_GreenCrateTrap.button1,Continuar
+SpawnDock_HouseBoatDeepOne.text,La pequeña casa flotante es zarandeada por el mar embravecido. Otra ola provoca una fuerte escora de la embarcación. Cuando recupera su horizontalidad, te das cuenta de que hay un bulto extraño en el costado de estribor. \n\n Aparece un {c:SpawnDock_HouseBoatDeepOne} en el lugar señalado.
+SpawnDock_HouseBoatDeepOne.button1,Continuar
+EventDock_ExploreRentalDock.text,Giras la llave y oyes un clic. La puerta se abre dándote acceso a la cabaña de alquiler. \n\n Descarta esta ficha de Exploración.
+EventDock_ExploreRentalDock.button1,Continuar
+EventDock_PlaceSearchRedCrate.text,Han dejado una caja roja sobre el mostrador. Hay un débil resplandor que sale de dentro de la caja y tiene atada una etiqueta cubierta de runas antiguas. Puede que contenga los componentes que buscas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventDock_PlaceSearchRedCrate.button1,Continuar
+SpawnDock_RentalShackDeepOneHybrid.text,El dueño del negocio de alquiler está sentado en un taburete detrás del mostrador, durmiendo con la barbilla sobre el pecho. Intentas no despertarle dando vueltas por la cabaña. Sin embargo, una ráfaga de viento cierra la puerta de golpe. El hombre se despierta de repente y te mira con unos extraños ojos de color amarillo. \n\n Aparece un monstruo {c:SpawnDock_RentalShackDeepOneHybrid} en el lugar señalado.
+SpawnDock_RentalShackDeepOneHybrid.button1,Continuar
+EventDock_SearchRedCrate.text,Han dejado una caja roja sobre el mostrador. Hay un débil resplandor que sale de dentro de la caja y tiene atada una etiqueta cubierta de runas antiguas. Puede que contenga los componentes que buscas.
+EventDock_SearchRedCrate.button1,{action} Abrir
+EventDock_SearchRedCrate.button2,Cancelar
+EventDock_RedCrateTrap.text,Coges la caja del mostrador y la sujetas con una mano mientras que con la otra intentas abrir la tapa. Sin embargo, en el momento en que tu mano toca la tapa, un destello de luz te ciega y la dejas caer. \n\n Todos los investigadores en Puesto de Alquiler dejan caer 1 objeto al azar. A continuación, descarta esta ficha de Búsqueda.
+EventDock_RedCrateTrap.button1,Continuar
+SpawnDock_RentalDockDeepOne.text,Cuando vuelves en ti ves los restos destrozados de la caja en el suelo pero ninguna señal de su posible contenido. En el muelle oyes un fuerte estruendo. Te asomas a través de un hueco en la pared de la cabaña y ves a una horrible criatura que se abre paso entre los barcos de alquiler. \n\n Aparece un {c:SpawnDock_RentalDockDeepOne} en el lugar señalado.
+SpawnDock_RentalDockDeepOne.button1,Continuar
+TokenDock_InteractExit.text,Un investigador puede hacer que todos los investigadores abandonen esta localización al final de la Fase de Investigadores. Una vez que se ha abandonado una localización, no se puede volver a ella.
+TokenDock_InteractExit.button1,{action} Dejar el distrito comercial
+EventDock_TriggerExit.text,Acordáis unánimemente abandonar para siempre estas calles malditas. \n\n Descarta esta ficha de Interacción. Al final de la fase de investigador, todos los investigadores abandonarán este lugar.
+EventDock_TriggerExit.button1,Continuar
+EventDockEnd_MissionComplete.text,Mientras te alejas de esas calles embrujadas te llegan unos débiles indicios de que la normalidad regresa al distrito maldito. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Aunque puede que la gente del lugar nunca vuelva a ser como antes, sabes que les has salvado de un destino peor que la muerte.
+EventDockEnd_MissionComplete.button1,Continuar
+EventDockEnd_ComponentsNotTaken.text,Corréis por las sinuosas calles y os alejáis del muelle, sin atreveros a mirar atrás. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Vuestra mente está atormentada por la quietud mortal del aire frío de la noche, algo inusual en un distrito que solía estar tan lleno de vida. \n\n Todos los investigadores sufren 2 de Horror.
+EventDockEnd_ComponentsNotTaken.button1,Continuar
+EventDockEnd_RemainingMonsters.text,Te escabulles entre las sinuosas calles envolviendote con la oscuridad, tratando de evitar la mirada de los horrores que vagan por los muelles. \n\n Descarta todos los módulos de tablero, monstruos y fichas sobre la mesa. \n\n Mientras huyes del lugar, te llega el inconfundible grito de un niño, interrumpido inmediatamente después de manera brusca. Todos los investigadores sufren {var:RemainingMonsters} Horror boca abajo.
+EventDockEnd_RemainingMonsters.button1,Continuar
+UICutsceneFrame.button1,Continuar
+UIPrologue_Text.uitext,Arrojas el telegrama al suelo y maldices en voz alta. ¿Cómo no lo has visto antes? Cruzas referencias con las runas traducidas pero sólo encuentras pruebas que corroboran la historia. El telegrama parece estar en lo cierto. Con las primeras luces de la mañana se llevará a cabo un ritual en el viejo palacio del gobernador. Un ritual para convocar a un Primigenio a nuestro mundo. \n\n Te levantas y paseas por tu despacho. Has pasado los últimos meses ocupado con tu investigación sobre tres sectas locales, pero nunca habrías imaginado que alguna de ellas fuera capaz de algo más que organizar fiestas de té. Está claro que te equivocabas. \n\n Aunque el mensaje que has recibido es un galimatías no puedes arriesgarte a ignorarlo. Habla de una de las sectas que habéis estado siguiendo y que sería la encargada de llevar a cabo el vil ritual. Otra de las sectas estaría prestándole ayuda. Se dice que la tercera secta trabajaría contra las otras dos, pero eso no te sirve de consuelo. \n\n Vuelves a sentarte en la silla y revisas el telegrama. Buscas desesperadamente una pista que identifique a las sectas aludidas, pero nada. Las runas traducidas que tienes en tu escritorio contienen instrucciones exactas sobre cómo realizar un ritual de destierro capaz de detener a un Primigenio. Sin embargo, el ritual descrito requiere información sobre el Primigenio a desterrar. \n\n Maldices de nuevo. Te faltan pistas y sobre todo tiempo. Te pones la chaqueta, coges tu pistola, reúnes a tu equipo y os dirigís a la ciudad.
+EventStart.text,Cada investigador comienza con 2 Pistas <color=Green>{clue}</color>.
+EventStart.button1,Comenzar el escenario
+EventNextLocations_WarehouseHouseDock.text,Cierras la puerta del coche de un portazo, pero no llegas a arrancarlo. Te preguntas a dónde deberías ir en primer lugar. Reflexionas sobre cuál de los tres distritos de Arkham deberías investigar.
+EventNextLocations_WarehouseHouseDock.button1,Viajar al distrito industrial
+EventNextLocations_WarehouseHouseDock.button2,Viajar al distrito residencial
+EventNextLocations_WarehouseHouseDock.button3,Viajar al distrito comercial
+UIWarehouse_IntroContinue.uitext,Continuar
+UIHouse_IntroContinue.uitext,Continuar
+UIDock_IntroContinue.uitext,Continuar
+UIEliminated_Text.uitext,La pérdida de vuestro compañero de investigación supone un duro golpe para el equipo. Tratáis de seguir con la investigación, pero la pérdida de vuestro aliado os resulta devastadora. Pronto sois conscientes de que, además de ánimo, os falta efectivos para detener el ritual. \n\n Antes de que os deis cuenta, el sol asoma por el horizonte y la ciudad queda bañada por la luz anaranjada del amanecer. Oteáis el horizonte de Arkham en busca del palacio del gobernador. Lo localizáis a la sombra de una nube negra de aspecto antinatural. Ante vuestros ojos, la nube comienza a consumir el horizonte y os llegan unos gritos procedentes de los edificios que son alcanzados y que se extinguen casi inmediatamente después. \n\n Es demasiado tarde. En cuestión de minutos, el mundo que conocéis es sustituido por una realidad de horror infinito y tormento. Apretando contra vuestra sien una pistola, dedicáis un instante a llorar la pérdida de vuestro mundo antes de, en un acto de cobardía, apretar el gatillo.
+EventEliminated_BanishCorrect.text,Tu grupo lucha valientemente, pero los sacerdotes acaban venciendo y os matan. Aunque no habéis sobrevivido a la lucha, al menos pudísteis desbaratar los planes de la secta y salvar nuestra realidad. Los investigadores han tenido éxito deteniendo la invasión del Primigenio.
+EventPalace_PlaceLobby.button1,Continuar
+EventPalace_PlaceExploresLobby.button1,Continuar
+EventPalace_PlaceLobby.text,Irrumpes atravesando la entrada principal del palacio, decidido a acabar de una vez por todas con los viles planes de la secta.\n\n Coloca el módulo {c:TilePalace_Lobby}, una ficha de Pared y las figuras de los investigadores en el lugar señalado.
+EventNextLocations_WarehouseHouseDock.button4,Viajar al palacio
+EventNextLocation_PalaceConfirm.text,¿Está seguro de que desea viajar al palacio del gobernador antes de visitar todos los distritos? No podrá salir del palacio una vez que haya llegado.
+EventNextLocation_PalaceConfirm.button1,Viajar al palacio
+EventNextLocation_PalaceConfirm.button2,Cancelar
+EventNextLocations_WarehouseHouse.text,Aunque crees que has obtenido algo de información valiosa en el distrito comercial, crees que hay más información que debes recoger en otros lugares de Arkham antes de viajar al palacio del gobernador.
+EventNextLocations_WarehouseHouse.button1,Viajar al distrito industrial
+EventNextLocations_WarehouseHouse.button2,Viajar al distrito residencial
+EventNextLocations_WarehouseHouse.button3,Viajar al palacio
+EventNextLocations_WarehouseDock.text,Aunque crees que has obtenido algo de información valiosa en el distrito residencial, crees que hay más información que debes recoger en otros lugares de Arkham antes de viajar al palacio del gobernador.
+EventNextLocations_WarehouseDock.button1,Viajar al distrito industrial
+EventNextLocations_WarehouseDock.button2,Viajar al distrito comercial
+EventNextLocations_WarehouseDock.button3,Viajar al palacio
+EventNextLocations_HouseDock.text,Aunque crees que has obtenido algo de información valiosa en el distrito industrial, crees que hay más información que debes recoger en otros lugares de Arkham antes de viajar al palacio del gobernador.
+EventNextLocations_HouseDock.button1,Viajar al distrito residencial
+EventNextLocations_HouseDock.button2,Viajar al distrito comercial
+EventNextLocations_HouseDock.button3,Viajar al palacio
+EventNextLocation_NonPalace.button1,Viajar al distrito industrial
+EventNextLocation_NonPalace.button2,Viajar al distrito residencial
+EventNextLocation_NonPalace.button4,Viajar al palacio
+EventPalace_PlaceLounge.text,Abres la puerta y descubres una pequeña habitación destinada al entretenimiento de los visitantes. \n\n Descarta esta ficha de Exploración y coloca el módulo {c:TilePalace_Lounge} en el lugar señalado.
+UINoHours_Text.uitext,Echáis un vistazo a vuestros relojes y retrocedéis horrorizados. ¿Ha pasado ya tanto tiempo? Estábais tan absortos en vuestra investigación que no os disteis cuenta de que se acercaba el amanecer. Salís corriendo y miráis hacia el cielo nocturno. Se os encoge el corazón cuando veis unos tenues rayos de sol anaranjados al este. Rápidamente os dirigís hacia el palacio, pero es inútil. \n\n Antes de que podáis hace algo, el sol asoma por el horizonte y la ciudad queda bañada por la luz anaranjada del amanecer. Oteáis el horizonte de Arkham en busca del palacio del gobernador. Lo localizáis a la sombra de una nube negra de aspecto antinatural. Ante vuestros ojos, la nube comienza a consumir el horizonte y os llegan unos gritos procedentes de los edificios que son alcanzados y que se extinguen casi inmediatamente después. \n\n Es demasiado tarde. En cuestión de minutos, el mundo que conocéis es sustituido por una realidad de horror infinito y tormento. Apretando contra vuestra sien una pistola, dedicáis un instante a llorar la pérdida de vuestro mundo antes de, en un acto de cobardía, apretar el gatillo.
+EventEliminated_NotPalace.text,La muerte de vuestro compañero de investigación frustra vuestro plan para desterrar al Primigenio antes de que invada nuestra realidad.
+TokenPalace_ExploreHallCorner2Lobby1.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace_ExploreHallCorner2Lobby1.button1,{action} Explorar
+TokenPalace_ExploreHallCorner2Lobby2.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace_ExploreHallCorner2Lobby2.button1,{action} Explorar
+TokenPalace_ExploreBallroomLobby1.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace_ExploreBallroomLobby1.button1,{action} Explorar
+TokenPalace_ExploreBallroomLobby2.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace_ExploreBallroomLobby2.button1,{action} Explorar
+TokenPalace_ExploreLounge.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace_ExploreLounge.button1,{action} Explorar
+TokenPalace_ExploreBallroomHallEnd.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace_ExploreBallroomHallEnd.button1,{action} Explorar
+TokenPalace_ExploreHallEnd.button1,{action} Explorar
+SpawnPalace_HallEndCultist.text,En el otro extremo del pasillo, un {c:SpawnPalace_HallEndCultist} vuelve a colocar una estantería en su sitio. Se vuelve y te mira, soltando un grito de sorpresa antes de desenvainar su daga. \n\n Aparece un {c:SpawnPalace_HallEndCultist} y coloca una ficha de Búsqueda en el lugar señalado.
+TokenPalace_ExploreAtticLounge.text,La puerta ha sido tapiada con tablones y clavos. Aunque tratas de arrancarlos, una fuerza antinatural los mantiene donde están.
+TokenPalace_ExploreAtticBallroom.text,Una pequeña puerta de acceso conduce al interior del palacio. Al este se oye claramente el sonido de los cánticos.
+TokenPalace_ExploreAtticBallroom.button1,{action} Explorar
+TokenPalace_ExploreBallroomAttic.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace_ExploreBallroomAttic.button1,{action} Explorar
+EventPalace_PlaceHallCorner2HallEnd.text,Tras la puerta hay un pequeño pasillo de acceso que separa los espacios públicos del palacio de los privados. El sonido de los cánticos llega hasta aquí más débilmente. \n\n Coloca los módulos {c:TilePalace_HallCorner2} y {c:TilePalace_HallEnd} y una ficha de Pared en el lugar señalado. A continuación, descarta todas las fichas de Exploración que lleven a estos módulos.
+EventPalace_PlaceHallCorner2HallEnd.button1,Continuar
+TokenPalace_ExploreHallEnd.text,Una puerta sin indicaciones conduce al interior del palacio.
+SpawnPalace_HallEndCultist.button1,Continuar
+EventPalace_PlaceBallroom.text,Abres la puerta para descubrir el lujoso salón de baile utilizado para entretener a los invitados con conciertos y pequeñas obras de teatro. \n\n Coloca el módulo {c:TilePalace_Ballroom} y las fichas de Puertas en los lugares señalados. A continuación, descarta todas las fichas de Exploración que lleven a él.
+EventPalace_PlaceBallroom.button1,Continuar
+EventPalace_PlaceExploreBallroomHallEnd.text,Una puerta sin indicaciones conduce al interior del palacio. Coloca una ficha de Exploración en el lugar señalado.
+EventPalace_PlaceExploreBallroomHallEnd.button1,Continuar
+EventPalace_PlaceExploreAtticBallroom.text,El sonido de los cánticos es claramente audible tras una pequeña puerta de acceso al fondo del salón de baile. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPalace_PlaceExploreAtticBallroom.button1,Continuar
+EventPalace_PlaceExploreHallEnd.text,Una puerta sin indicaciones conduce al interior del palacio. Coloca una ficha de Exploración en el lugar señalado.
+EventPalace_PlaceExploreHallEnd.button1,Continuar
+EventPalace_PlaceLounge.button1,Continuar
+EventPalace_PlaceExploreAtticLounge.text,Una puerta en el otro extremo de la habitación ha sido tapiada con tablones y clavos. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPalace_PlaceExploreAtticLounge.button1,Continuar
+EventPalace_PlaceSearchTrapdoor.text,En el otro extremo de la habitación, cerca de las gigantescas ventanas que derraman la luz de la luna, notas algo peculiar. Un trozo de suelo está notablemente más limpio que el suelo de al lado, dando la impresión de que ha estado cubierto durante mucho tiempo por una alfombra que ahora no está. \n\n Coloca una ficha de Búsqueda en el lugar indicado.
+EventPalace_PlaceSearchTrapdoor.button1,Continuar
+SpawnPalace_LoungeHuntingHorror.text,Desde el otro lado de la sala oyes un sonido incomprensible procedente de una criatura indescriptible y terrorífica. \n\n Aparece un {c:Aparecerpalacio_SalónCazarHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnPalace_LoungeHuntingHorror.button1,Continuar
+SpawnPalace_BallroomDeepOne.text,En el otro extremo del salón de baile, una criatura viscosa resbala y se desliza por el suelo pulido. Aunque al principio te resulta cómica, pronto te das cuenta de tu error al ver que se pone en pie rápidamente al detectarte. \n\n Aparece un {c:SpawnPalace_BallroomDeepOne} en el lugar señalado. A continuación sufres 1 de Horror (anulado por {will}).
+SpawnPalace_BallroomDeepOne.button1,Continuar
+TokenPalace_SearchTrapdoor.text,Un trozo de suelo está notablemente más limpio que el resto. Da la impresión de que durante mucho tiempo ha habido en ese sitio una alfombra, aunque ahora no está.
+TokenPalace_SearchTrapdoor.button1,{action} Investigar
+EventPalace_SearchTrapdoorSkillCheck.text,Te inclinas y examinas las tablas del suelo, buscando cualquier cosa que pueda estar escondida en este lugar ({observation}).
+EventPalace_SearchTrapdoorSkillCheck.button1,Confirmar
+EventPalace_SearchTrapdoorSuccess.text,En la zona más clara observas una forma cuadrada grabada en las tablas. Tanteas alrededor del cuadrado y encuentras una tabla suelta. Tiras de ella, abriendo una trampilla oculta y revelando un túnel secreto. \n\n Descarta esta ficha de Búsqueda y coloca una Trampilla en el lugar señalado.
+EventPalace_SearchTrapdoorSuccess.button1,Continuar
+EventPalace_ExploreAtticBallroomSkillCheck.text,Giras la manilla y empujas la puerta pero descubres que está atrancada. Tratas de abrirla usando toda tu ({strength}).
+EventPalace_ExploreAtticBallroomSkillCheck.button1,Confirmar
+EventPalace_ExploreAtticBallroomSuccess.text,Tiras de la puerta hasta que su marco deformado cede, la sueltas y la abres. Miras a través de la puerta y ves el ático del palacio al otro lado. \n\n Descarta esta ficha de Exploración.
+EventPalace_ExploreAtticBallroomSuccess.button1,Continuar
+UIHouse_IntroText.uitext,Deambulas por las interminables hileras de viviendas pero no ves nada raro. Estás a punto de volver a tu coche cuando encuentras a un hombre vagando sin rumbo por las calles vacías. Al verte se detiene de repente y comienza a caminar hacia ti. Buscas nerviosamente en tu chaqueta un arma con la que defenderte, pero no consigues cogerla antes de que el hombre se acerque a ti. \n\n Afortunadamente, el hombre no te ataca. Al contrario, parece aliviado de verte. \n—Siento molestarle, pero necesito ayuda y nadie abre la puerta —hace una pausa y al preguntarle qué le pasa, continúa—. Iba a visitar a mi hermana y a su familia, pero cuando llegué a su casa no contestaban a la puerta —te explica—. Miré por las ventanas y vi que tenían las luces encendidas. Me preocupa la seguridad de mi hermana. Últimamente se ha visto involucrada en algunos asuntos con unos personajes desagradables. Creo que algunos de ellos estaban ya dentro ya que pude oír voces en el interior que no pertenecían ni a ella ni a nadie de su familia. Deberían estar en casa esta noche, ya que habían planeado cenar conmigo, pero no hay rastro de ellos —al preguntarle por el sitio, te da una dirección y cómo llegar—. Tiene marido y dos niños pequeños, un chico y una chica. Por favor, asegúrese de que ellos también están a salvo. Si puede sacarlos, acudan a mi domicilio, es un lugar seguro —el hombre vuelve a darte las gracias y se aleja a toda prisa hacia el mar de casas. Subes al coche y sigues las indicaciones que te ha dado.
+UIWarehouse_IntroText.uitext,Cuando apenas te habías adentrado en las hileras de edificios industriales te topas con algunos lugareños que deambulan por la calle, blandiendo armas cubiertas de sangre oscura y pegajosa. Temes que un mal haya poseído a estas buenas gentes, obligándolas a cometer atrocidades indescriptibles contra su voluntad. Sin embargo, cuando te ven, te ruegan que vuelvas a tu coche y abandones el distrito por tu propia seguridad. \n\n Les pides que te expliquen la situación. Te cuentan historias fantásticas de animales más grandes que los osos, pero distintos de cualquier criatura conocida por el hombre, que atacan a los trabajadores locales en las calles y edificios de todo el distrito. Te muestras escéptico ante estas historias hasta que una horrible criatura salta de repente desde un callejón cercano y acosa al grupo. Con gran dificultad vencen a la criatura, matándola no sin antes perder a uno de los suyos en la lucha. \n\n El grupo vuelve a rogarte que te marches, pero en cambio les pides que te digan de dónde vienen esas criaturas. Intentan advertirte de que no vayas allí, pero tras mucho insistir te hablan de un viejo almacén que había sido abandonado recientemente. Los vecinos del edificio dicen haber oído ruidos extraños, pero lo atribuyen a una plaga de animales. Sin embargo, todos los que han entrado en el edificio desde entonces no han vuelto a salir. \n\n Das las gracias al grupo y te marchas mientras algunos de ellos rezan en voz baja por tu alma inmortal. Te diriges hacia el viejo almacén con la intención de destruir la plaga antes de que se cobre más vidas inocentes.
+UIDock_IntroText.uitext,Deambuláis entre los escaparates de varias tiendas, la mayoría cerradas esta noche. En las pocas que aún permanecen abiertas los comerciantes se muestran ariscos. La mayoría se niega a entablar conversación y algunos incluso a dejaros entrar. Justo cuando estábais a punto de rendiros e investigar en otra parte, un misterioso objeto en un escaparate llama vuestra atención. \n\n Lo que a primera vista parece un estiloso candelabro, lo reconocéis al instante como un componente vital en rituales como el que tendrá lugar mañana al amanecer. Os asomáis al interior de la tienda y observáis que la dependienta sigue allí, intentando ocultar su presencia. Os acercáis a la puerta principal y la golpeáis repetidamente hasta que vuestra presencia deja de ser ignorada. \n\n La mujer abre la puerta de golpe. \n\n —¡Estamos cerrados! —gruñe. Va a cerrar la puerta de un portazo, pero la sujetáis y la mantenéis abierta, exigiendo saber de dónde ha sacado el componente. Tras un breve forcejeo con la puerta, la mujer acaba cediendo—. Hace dos semanas, conocí a un hombre en el muelle que intentaba deshacerse de tres cajas llenas de chatarra. Me ofreció venderme una caja con un gran descuento y acepté. Desde entonces, sólo han caído desgracias sobre mí y mi tienda. Todos los que han comprado algo de esa caja han tenido un final desafortunado. Lo último que supe es que a ese miserable del muelle aún le quedaba una caja que no había podido vender. \n\n Le dais las gracias a la mujer y os disculpáis por vuestra brusquedad antes de ir directamente al muelle. Debéis recuperar la caja restante con componentes rituales antes de que traiga más desgracias. \n
+EventDock_WomanNote.text,Despliegas la nota y la lees con atención. \n\n «Abrid sólo la caja decorada con el color del dios de la locura. Vuestras acciones no han pasado desapercibidas, investigadores. Buena suerte, por el bien de todos».
+EventPalace_SearchTrapdoorFaliure.text,Maldices por lo bajo cuando compruebas que no hay nada desagradable.
+EventPalace_SearchTrapdoorFaliure.button1,Continuar
+EventPalace_PlaceAttic.text,El pequeño ático del palacio está lleno de muebles viejos y polvo. Aunque el palacio propiamente dicho está en buen estado, sería muy raro que alguien se aventurase a venir a este ala, por lo que es un lugar ideal para esconderse de miradas indiscretas. \n\n Coloca el módulo {c:TilePalace_Attic} en el lugar señalado.
+EventPalace_PlaceAttic.button1,Continuar
+EventPalace_PlaceInteractSummoningRitual.button1,Continuar
+EventPalaceEnd_HasturDefeated.button1,Continuar
+EventPalace_PlaceAtticTrapdoor.text,El túnel secreto termina con una trampilla que lleva a la entrada del ático, evitando la puerta encadenada. \n\n Coloca una ficha de Trampilla en el lugar señalado. A continuación mueve a tu investigador a ese espacio.
+EventPalace_PlaceAtticTrapdoor.button1,Continuar
+TokenPalace_SearchBookshelf.text,Hace poco sorprendiste a un sectario moviendo esta estantería. El propósito que tenía el sectario sigue siendo un misterio para ti.
+TokenPalace_SearchBookshelf.button1,{action} Investigar
+EventPalace_SearchBookshelfSkillCheck.button1,Confirmar
+EventPalace_SearchBookshelfSkillCheck.text,Tiras de la estantería y descubres que gira sobre una bisagra oculta. La abres pero una fuerza desconocida la vuelve a cerrar. Lo intentas de nuevo, esta vez tratando de bloquear la estantería antes de que pueda cerrarse sola ({agility}).
+EventPalace_SearchBookshelfFaliure.text,Aunque actúas lo más rápido que puedes no consigues evitar que la estantería se cierre.
+EventPalace_SearchBookshelfFaliure.button1,Continuar
+EventPalace_SearchBookshelfSuccess.text,Arrastras un sillón cercano y lo encajas entre la pared y la estantería. Trepando por ella descubres una pequeña puerta detrás de la estantería. La abres y encuentras un pasadizo secreto que conduce al interior del palacio. \n\n Descarta esta ficha de Búsqueda y la ficha de Pared. A continuación, coloca una ficha de Pasadizo secreto en el lugar señalado.
+EventPalace_SearchBookshelfSuccess.button1,Continuar
+EventPalace_PlaceAtticSecretPassage.text,El pasadizo secreto conduce al interior de un viejo armario. Al abrir las puertas del armario te das cuenta de que estás en el ático. \n\n Coloca una ficha Pasadizo Secreto en el lugar señalado. A continuación mueve a tu investigador a ese espacio.
+EventPalace_PlaceAtticSecretPassage.button1,Continuar
+EventPalace_ExploreAtticBallroomFaliure.text,Tiras de la manilla hasta que tus manos se ponen rojas, pero la puerta no se mueve.
+EventPalace_ExploreAtticBallroomFaliure.button1,Continuar
+EventPalace_PlaceExploreBallroomAttic.button1,Continuar
+EventPalace_PlaceExploreLoungeAttic.text,Una puerta al final de las escaleras del ático ha sido tapiada con tablones y clavos. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPalace_PlaceExploreLoungeAttic.button1,Continuar
+EventPalace_PlaceExploreBallroomAttic.text,Una puerta sin indicaciones conduce al interior del palacio. Coloca una ficha de Exploración en el lugar señalado.
+TokenPalace_InteractSummoningRitual.button1,{action} Interrumpir el ritual
+EventPalace_InteractSummoningRitualSkillCheck.text,Comienzas a invocar las energías para el contraritual y tu mente se acelera mientras te preguntas si tienes suficiente información para completar el hechizo ({will}).
+EventPalace_InteractSummoningRitualSkillCheck.button1,Confirmar
+EventPalace_InteractSummoningRitualFaliure.text,Tu mente se ve invadida por la duda y vacilas, haciendo que las energías convocadas se disipen.
+EventPalace_InteractSummoningRitualFaliure.button1,Continuar
+EventPalace_InteractSummoningRitualSuccess.text,Observas que las energías mágicas del ritual de invocación dan paso a las energías de tu contraritual. Tienes claro que ahora es el momento de comenzar tu hechizo. \n\n Descarta esta ficha de Interacción.
+TokenPalace_InteractSummoningRitual.text,Dos figuras ataviadas con túnicas se sitúan alrededor de un círculo de invocación. Sus ojos vidriosos brillan mientras recitan un cántico de magia oscura. Cuando tratas de acercarte a ellos, la magia del ritual te hace retroceder. Tendrás que iniciar el contraritual para detenerlos.
+EventPalace_InteractSummoningRitualSuccess.button1,Continuar
+EventPalace_CounterRitual_MinorQ1.text,Hablas en lengua antigua: «Al que quiere violar nuestro todo, yo te conmino al exilio, vil sombra de...».
+EventPalace_CounterRitual_MinorQ1.button1,Rojo
+EventPalace_PlaceExploresLobby.text,El sonido de los cánticos resuena en la estructura del edificio desde algún lugar por encima de donde te encuentras. Cinco puertas sin marcar conducen al interior del palacio. \n\n Coloca fichas de Exploración en los lugares señalados.
+EventPalace_CounterRitual_MinorFaliure.button1,Continuar
+CustomMonsterHastur.info,-
+CustomMonsterYig.info,-
+CustomMonsterHastur.monstername,Avatar de Hastur
+CustomMonsterZhar.info,-
+CustomMonsterYig.monstername,Avatar de Yig
+CustomMonsterZhar.monstername,Avatar de Zhar
+EventErrorState.text,¡ERROR CRÍTICO! \n\n Has llegado a un estado del juego que no debería ser accesible en una partida normal. Tu escenario puede o no haberse roto de una manera que haga imposible continuar. Por favor, abre un nuevo informe de problemas en https://github.com/EwenDC/ValkyrieConsumingShadow/issues , adjuntado el archivo con la partida guardada y una lista de los pasos dados que permita reproducir la situación. \n\n {success} Te pido disculpas por las molestias. Para compensar, a continuación hay un botón que permite obtener la victoria de forma instantánea (aunque te recomendaría por favor que reinicies el escenario en lugar de utilizar ese botón a menos que ya estuvieras casi al final del escenario).
+EventErrorState.button1,Continuar escenario
+EventErrorState.button2,Victoria instantánea
+SpawnPalace_AtticHastur.text,El ritual de invocación se completa con éxito y un portal a otra dimensión se abre ante tus ojos. Las cáscaras sin vida de las dos figuras con túnica caen al suelo, libradas de las horribles repercusiones que tendrán sus acciones. Del propio portal emerge el antiguo ser Hastur, dispuesto a tomar este mundo como suyo. \n\n Aparece una Semilla estelar en el lugar señalado. Es el {c:SpawnPalace_AtticHastur}.
+SpawnPalace_AtticHastur.button1,Continuar
+SpawnPalace_AtticYig.text,El ritual de invocación se completa con éxito y un portal a otra dimensión se abre ante tus ojos. Las cáscaras sin vida de las dos figuras con túnica caen al suelo, libradas de las horribles repercusiones que tendrán sus acciones. Del propio portal emerge el antiguo ser Yig, dispuesto a tomar este mundo como suyo.\n\n Aparece una Semilla estelar en el lugar señalado. Es el {c:SpawnPalace_AtticYig}.
+SpawnPalace_AtticYig.button1,Continuar
+EventPalace_WinCondition_BanishIncorrect.button1,Continuar
+EventTest_Cutscenes.button9,Cancelar
+SpawnPalace_AtticZhar.text,El ritual de invocación se completa con éxito y un portal a otra dimensión se abre ante tus ojos. Las cáscaras sin vida de las dos figuras con túnica caen al suelo, libradas de las horribles repercusiones que tendrán sus acciones. Del propio portal emerge el antiguo ser Zhar, dispuesto a tomar este mundo como suyo. Aparece una Semilla estelar en el lugar señalado. Es el {c:SpawnPalace_AtticZhar}.
+SpawnPalace_AtticZhar.button1,Continuar
+EventPalace_PlaceInteractSummoningRitual.text,En el rincón más alejado del desván ves a dos figuras vestidas alrededor de un círculo de invocación, con los ojos vidriosos mientras recitan un salmo de magia negra. Has encontrado el ritual de invocación. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventPalaceEnd_ZharDefeated.text,{c:CustomMonsterZhar} se tambalea sólo un instante, pero es tiempo suficiente para que canalices las energías de tu contraritual contra él. Grita de rabia mientras una energía cósmica arranca su forma física de nuestro mundo y la devuelve al suyo. Los investigadores han evitado con éxito la invasión de Zhar.
+EventPalaceEnd_YigDefeated.button1,Continuar
+EventPalaceEnd_HasturDefeated.text,{c:CustomMonsterHastur} se tambalea sólo un instante, pero es tiempo suficiente para que canalices las energías de tu contraritual contra él. Grita de rabia mientras una energía cósmica arranca su forma física de nuestro mundo y la devuelve al suyo. Los investigadores han evitado con éxito la invasión de Hastur.
+EventPalaceEnd_ZharDefeated.button1,Continuar
+EventEliminated_BanishIncorrect.text,Tu grupo lucha con valentía, pero al final el poder del Primigenio se impone y sois asesinados. Con vuestra muerte, el Primigenio tiene ahora vía libre para invadir nuestra realidad.
+EventPalace_RevealMap3_AtticNoBallroom.button1,Continuar
+EventPalace_RevealMap1_HallCorner2HallEnd.button1,Continuar
+EventPalace_RevealMap1_HallEndSecretPassage.text,Descarta esta ficha de Búsqueda y de Pared. A continuación, coloca un Pasadizo secreto en el lugar señalado.
+EventPalace_RevealMap2_Ballroom.text,Coloca el módulo {c:TilePalace_Ballroom} y las fichas de Puertas en el lugar señalado y descarta todas las fichas de Exploración que lleven a él.
+EventPalace_RevealMap2_LoungeNoAttic.text,Coloca el módulo {c:TilePalace_Lounge}, una ficha de Trampilla y otra de Exploración en el lugar señalado. Descarta la otra ficha de Exploración que conduce a este módulo.
+EventPalace_RevealMap2_LoungeNoAttic.button1,Continuar
+EventPalace_RevealMap2_LoungeAttic.text,Coloca el módulo {c:TilePalace_Lobge} y una ficha de Trampilla en el lugar señalado. A continuación, descarta la ficha de Exploración que conecta los módulos {c:TilePalace_Lobby} y {c:TilePalace_Lounge}.
+EventPalace_RevealMap2_LoungeAttic.button1,Continuar
+EventPalace_RevealMap1_HallEndSecretPassage.button1,Continuar
+EventPalace_RevealMap2_LoungeTrapdoor.text,Descarta esta ficha de Búsqueda y coloca una Trampilla en el lugar señalado.
+EventPalace_RevealMap2_LoungeTrapdoor.button1,Continuar
+EventPalace_RevealMap3_AtticNoBallroom.text,Coloca el módulo {c:TilePalace_Attic}, un Pasadizo secreto y una Trampilla en el lugar señalado.
+EventPalace_RevealMap3_AtticBallroom.button1,Continuar
+EventPalace_RevealMap3_AtticBallroom.text,Coloca el módulo {c:TilePalace_Attic}, una ficha de Pasadizo secreto y otra de Trampilla en el lugar señalado. A continuación, descarta la ficha de Exploración que conecta los módulos {c:TilePalace_Ballroom} y {c:TilePalace_Attic}.
+EventPalace_RevealMap3_AtticSecretPassage.text,Coloca un Pasadizo secreto en el lugar señalado.
+EventPalace_RevealMap3_AtticSecretPassage.button1,Continuar
+EventPalace_RevealMap3_AtticTrapdoor.text,Coloca una Trampilla en el lugar señalado.
+EventPalace_RevealMap2_Ballroom.button1,Continuar
+EventPalace_RevealMap1_HallCorner2HallEnd.text,Coloca los módulos {c:TilePalace_HallCorner2} y {c:TilePalace_HallEnd} y un Pasadizo Secreto en el lugar señalado. A continuación, descarta todas las fichas de Exploración que lleven a ellos.
+EventPalace_RevealMap3_AtticTrapdoor.button1,Continuar
+EventPalace_CounterRitual_HasturSuccess.button1,Continuar
+EventPalace_CounterRitual_YigSuccess.text,Completas el contraritual para desterrar a Yig de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración.
+EventPalace_CounterRitual_YigSuccess.button1,Continuar
+EventPalace_CounterRitual_ZharSuccess.text,Completas el contraritual para desterrar a Zhar de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración.
+EventPalace_CounterRitual_ZharSuccess.button1,Continuar
+EventPalace_CounterRitual_MinorFaliure.text,Completas el contraritual para desterrar al Primigenio. El ritual de invocación parece perder fuerza, inhibido por tu hechizo. Sin embargo, tu contrarritual, debilitado por los errores cometidos al lanzarlo, es incapaz de detener por completo el ritual de invocación. 2N Todos los investigadores sufren 3 de Horror.
+CustomMonsterPriestHastur.info,-
+CustomMonsterPriestYig.info,-
+CustomMonsterPriestHastur.monstername,Sacerdote de Hastur
+CustomMonsterPriestZhar.info,-
+CustomMonsterPriestYig.monstername,Sacerdote de Yig
+SpawnPalace_AtticPriestHastur.text,La primera figura se quita la capucha y se vuelve hacia ti. \n\n —¡Cómo se atreve interrumpir los planes de mis amos, insolente! No importa, una vez que le mate podré deshacer su patético hechizo y comenzar de nuevo el ritual de invocación. \n\n Aparece un Sacerdote de Dagon en el lugar señalado. Es el {c:SpawnPalace_AtticPriestHastur}.
+CustomMonsterPriestZhar.monstername,Sacerdote de Zhar
+SpawnPalace_AtticPriestHastur.button1,Continuar
+SpawnPalace_AtticPriestYig.button1,Continuar
+SpawnPalace_AtticPriestZhar.text,La primera figura se quita la capucha y se vuelve hacia ti. \n\n —¡Cómo se atreve a interrumpir los planes de mis amos, insolente! No importa, una vez que le mate podré deshacer su patético hechizo y comenzar de nuevo el ritual de invocación. \n\n Aparece un Sacerdote de Dagon en el lugar señalado. Este es el {c:SpawnPalace_AtticPriestZhar}.
+SpawnPalace_AtticPriestYig.text,La primera figura se quita la capucha y se vuelve hacia ti. \n\n —¡Cómo se atreve a interrumpir los planes de mis amos, insolente! No importa, una vez que le mate podré deshacer su patético hechizo y comenzar de nuevo el ritual de invocación. \n\n Aparece un Sacerdote de Dagon en el lugar señalado. Es el {c:SpawnPalace_AtticPriestYig}.
+SpawnPalace_AtticPriestZhar.button1,Continuar
+CustomMonsterChildHastur.info,-
+CustomMonsterChildYig.info,-
+CustomMonsterChildHastur.monstername,Sacerdote de Hastur
+CustomMonsterChildZhar.info,-
+CustomMonsterChildYig.monstername,Sacerdote de Yig
+CustomMonsterChildZhar.monstername,Sacerdote de Zhar
+SpawnPalace_AtticChildHastur.text,La segunda figura se quita la capucha. \n\n —¡Faltar al respeto a un aliado de mi maestro es faltar al respeto directamente a mi maestro! Voy a destriparle y a utilizar sus huesos para fabricar un nuevo conjunto de componentes rituales. Lástima que no vivirá para ver cómo se usan. \n\n Aparece un Hijo de Dagon en el lugar señalado. Es el {c:SpawnPalace_AtticChildHastur}.
+SpawnPalace_AtticChildHastur.button1,Continuar
+EventPalace_WinCondition_BanishCorrect.button1,Continuar
+SpawnPalace_AtticChildYig.text,La segunda figura se quita la capucha. \n\n —¡Faltar al respeto a un aliado de mi maestro es faltar al respeto directamente a mi maestro! Voy a destriparle y a utilizar sus huesos para fabricar un nuevo conjunto de componentes rituales. Lástima que no vivirá para ver cómo se usan. \n\n Aparece un Hijo de Dagon en el lugar señalado. Es el {c:SpawnPalace_AtticChildYig}.
+SpawnPalace_AtticChildYig.button1,Continuar
+SpawnPalace_AtticChildZhar.text,La segunda figura se quita la capucha. \n\n —¡Faltar al respeto a un aliado de mi maestro es faltar al respeto directamente a mi maestro! Voy a destriparle y a utilizar sus huesos para fabricar un nuevo conjunto de componentes rituales. Lástima que no vivirá para ver cómo se usan. \n\n Aparece un Hijo de Dagon en el lugar señalado. Es el {c:SpawnPalace_AtticChildZhar}.
+SpawnPalace_AtticChildZhar.button1,Continuar
+EventPalaceEnd_PriestsDefeated.button1,Continuar
+EventPalaceEnd_YigDefeated.text,{c:CustomMonsterYig} se tambalea sólo un instante, pero es tiempo suficiente para que canalices las energías de tu contraritual contra él. Grita de rabia mientras una energía cósmica arranca su forma física de nuestro mundo y la devuelve al suyo. Los investigadores han evitado con éxito la invasión de Yig.
+UICutsceneEnd.uitext,FIN
+EventEliminated_NotPalace.button1,Continuar
+EventEliminated_Palace.text,La muerte de vuestro compañero de investigación frustra vuestro plan para desterrar al Primigenio antes de que invada nuestra realidad.
+EventEliminated_Palace.button1,Continuar
+UIPalace_EliminatedText.uitext,La pérdida de vuestro compañero de investigación supone un duro golpe para el equipo. Tratáis de seguir con la investigación, pero la pérdida de vuestro aliado os resulta devastadora. Pronto sois conscientes de que además de ánimo, os falta efectivos para detener el ritual. \n\n Antes de que os deis cuenta, el sol asoma por el horizonte y la ciudad queda bañada por la luz anaranjada del amanecer. Aunque la vibrante luz del amanecer se cuela por las ventanas del palacio, su interior permanece en una oscuridad absoluta. Desesperados, abrís las puertas tratando por todos los medios de encontrar el ritual de invocación pero lo único que conseguís es perderos sin remedio. \n\n ¿Quizá el ritual estaba en este lugar desde el principio? Vuestra mente destrozada ya no puede razonar. Comenzáis a cuestionaros la naturaleza misma de la realidad mientras el último resquicio de cordura abandona vuestras mentes. De repente, con un ensordecedor estruendo, el techo del edificio es arrancado por un ser cuya naturaleza escapa a la comprensión humana. \n\n Es demasiado tarde. En cuestión de minutos, el mundo que conocéis es sustituido por una realidad de horror infinito y tormento. Apretando contra vuestra sien una pistola, dedicáis un instante a llorar la pérdida de vuestro mundo antes de, en un acto de cobardía, apretar el gatillo.
+EventEliminated_BanishCorrect.button1,Continuar
+EventPalaceEnd_PriestsDefeated.text,Con un golpe final acabas con el sacerdote restante, descabezando las sectas que han estado operando en Arkham durante tanto tiempo. Bastará con entregar a la policía las pruebas que has recogido para que los miembros restantes sean arrestados. \n\n Todos los investigadores han evitado con éxito que un Primigenio invadiese nuestra realidad.
+EventEliminated_BanishIncorrect.button1,Continuar
+EventPrintTime_NoHoursPalace.text,Maldices cuando las primeras luces del alba empiezan a asomar por el horizonte. A tu alrededor, el sonido de los cánticos es ensordecedor. Entonces, de repente, se detienen y notas como una oleada de energía atraviesa todo el palacio.
+EventPrintTime_NoHoursPalace.button1,Continuar
+EventPalace_NoHoursAttic.text,Miras a tu alrededor y te das cuenta, horrorizado, de que sólo restan unos pocos segundos para completar el ritual. \n\n Descarta esta ficha de Interacción. \n\n Sin pensártelo dos veces, canalizas la energía ambiental para crear un poderoso contraritual con la intención de desterrar al dios invasor.
+EventPalace_NoHoursAttic.button1,Continuar
+EventPalace_NoHoursNotAttic.text,La energía que se arremolina alrededor de tu cabeza entra en tu mente proporcionándote una visión clarividente del propio ritual. Te das cuenta con horror de que el ritual está a pocos segundos de completarse. Sin pensarlo dos veces, canalizas la energía ambiental en un poderoso contraritual, listo para desterrar al dios invasor.
+EventPalace_NoHoursNotAttic.button1,Continuar
+EventWarehouse_PlaceBarricadesWarehouse.text,Algunas de las estanterías que quedan en el almacén podrían utilizarse para atrancar una puerta si surgiera la necesidad. \n\n Coloca fichas de Obstrucción en el lugar señalado.
+EventWarehouse_PlaceBarricadesWarehouse.button1,Continuar
+EventWarehouse_PlaceRootCellarBarricade.text,Algunos barriles y varias cajas que parecen muy pesadas podrían utilizarse para atrancar una puerta si fuera necesario. \n\n Coloca una Obstrucción en el lugar señalado.
+EventWarehouse_PlaceRootCellarBarricade.button1,Continuar
+EventHouse_PlaceInteriorHallBarricade.text,Una pequeña estantería en el pasillo podría utilizarse para atrancar una puerta si surgiera la necesidad. \n\n Coloca una ficha de Obstrucción en el lugar señalado.
+EventHouse_PlaceInteriorHallBarricade.button1,Continuar
+EventHouse_PlaceHallCorner2Barricade.text,Un armario recién vaciado podría utilizarse para hacer una barricada en una puerta si surgiera la necesidad. \n\n Coloca una Obstrucción en el lugar señalado.
+EventHouse_PlaceHallCorner2Barricade.button1,Continuar
+UIPalace_GodWinText.uitext,Si aún se siguieran escribiendo libros de historia, éstos hablarían muy bien de tu valiente intento por luchar contra el Primigenio sin ayuda de nadie. Los historiadores no te culparían por sucumbir a las heridas o a la locura, ya que el resultado de la lucha era inevitable. Te alabarían por haber aguantado tanto tiempo y te aclamarían como un faro de humanidad. \n\n Lamentablemente, nadie escribió nada sobre lo que ha pasado aquí, ni sobre nada más. Cuando el Primigenio y sus seguidores invadieron nuestro mundo, los pocos que sobrevivieron más allá de un par de minutos fueron torturados implacablemente hasta que desearon no haber sobrevivido. \n\n Lo que una vez fue de nuestro mundo se transformó en algo demasiado incomprensible y horrible para describirlo. Bastará con decir que deberías estar agradecido de que la muerte te llegara antes de que todo eso pasase. \n\n
+UIPalace_IntroText.uitext,Conduces tu coche por la larga y sinuosa carretera que conduce al palacio del gobernador. A pesar de los numerosos coches estacionados en el exterior, el edificio está inquietantemente silencioso. Un pensamiento se te pasa por la cabeza. <i>¿Y si la traducción estaba equivocada? ¿Y si no hay ninguna invasión?</i> \n\n Decides ignorar tus pensamientos. Incluso si eso fuera cierto, no puedes arriesgarte a que eso ocurra si las traducciones son correctas. \n\n Haces una pausa para considerar todas las pruebas que has reunido hasta ahora. No estás seguro de que sean suficientes, pero quizá nunca lo serían en un caso como éste. Te armas de valor antes de acercarte a la imponente entrada del palacio.
+UIPalace_BanishCorrectText.uitext,Habéis conseguido desmantelar los planes de la vil secta y salvar nuestra realidad tal y como la conocemos. La cálida luz del sol matutino baña vuestros cuerpos y os dais un momento para contemplar la belleza natural que rodea el palacio. Gracias a vosotros estos grandes robles y todo lo bello de este mundo seguirán existiendo. \n\n El ruido de numerosos coches patrulla que suben por la entrada del palacio os saca de vuestro éxtasis. Todo el alboroto causado en el palacio debe de haber sido observado desde la ciudad. No queriendo que os descubran y os obliguen a explicar lo inexplicable, os escabullís por una entrada de servicio y pasáis por delante de los policías que entran en el palacio. \n\n Dejáis todas las pruebas recogidas sobre el capó de un vehículo policial antes de partir en vuestro coche. Con las pruebas que habéis dejado la policía podrá detener por sí misma a los miembros de la secta que queden. Hoy es un día señalado en la lucha entre lo conocido y lo desconocido. Sin embargo, aunque la batalla se ha ganado, la guerra desde luego no. \n\n Ya en casa, os dejáis caer sobre vuestras camas y os tomáis un merecido descanso. Mañana, casi con toda seguridad, comenzará una nueva batalla del ciclo para defender nuestra realidad, que continuará como lo ha hecho durante incontables siglos. \n
+UIPalace_BanishIncorrectText.uitext,De algún modo, contra todo pronóstico, os enfrentásteis cara a cara con un ser interdimensional y vivísteis para contarlo. La cálida luz del sol matutino baña vuestros cuerpos y os tomáis un momento para contemplar la belleza natural que rodea al palacio. Aunque los grandes robles del palacio son de una belleza innegable no son suficientes para calmar vuestros nervios crispados. \n\n El sonido de numerosos coches patrulla subiendo por la entrada del palacio os saca de vuestro trance. Lo que ha ocurrido en este sitio se habría visto casi con toda seguridad desde la ciudad. Como no queréis problemas con la ley, os entregáis sin oponer resistencia. \n\n Tras un largo interrogatorio, aportáis a la policía pruebas suficientes para detener a los demás miembros de la secta y quedáis en libertad. Aunque sin duda hoy todo a salido bien, no podeís evitar la sensación de que únicamente habéis retrasado lo inevitable. \n\n Los siguientes años vivís en un estado de miedo y paranoia constantes. Vuestros sueños se ven atormentados por visiones del Primigenio al que milagrosamente vencísteis y en los que proclama su cruel y tortuosa venganza contra vosotros. No os queda máss remedio que estar constantemente en vilo, esperando el regreso del horror. \n\n En vuestro lecho de muerte, todavía jóvenes pero consumidos y solos, sin nadie en quién confiar, al menos sabréis que no habéis vivido lo suficiente para ver el regreso del Primigenio.
+UIPalace_PriestsWinText.uitext,Aunque luchas valientemente, los sacerdotes consiguen dominarte y te matan allí mismo. Su victoria, sin embargo, dura poco. Cuando intentan abandonar la escena del crimen, son sorprendidos por la policía y arrestados. Son acusados de tu asesinato y condenados a morir en la horca. Las pruebas encontradas en tu oficina y en tu persona se utilizan para condenar a los restantes miembros de la secta, poniendo fin definitivamente a sus catastróficos rituales y viles planes. \n\n Tu trabajo de investigación detuvo por sí solo una invasión de nuestra realidad y ayudó a acabar con tres sectas, aunque no viviste para verlo. Tu modesto funeral cuenta con un único asistente. Un agente de policía que admiraba tu valiente y desconocida labor y deseaba que al menos alguien estuviese presente cuando la tierra te fuese leve. \n\n Tu muerte fue un día señalado. Supuso una victoria decisiva en la batalla entre lo conocido y lo desconocido. Sin embargo, aunque se ganó una batalla, la guerra continúa. Tu muerte supone un duro golpe en la lucha contra las perversas fuerzas cósmicas que acechan en las sombras. \n\n Aunque ya no puedas luchar para defender nuestra realidad, tus acciones inspirarán a toda una nueva generación de investigadores dispuestos a explorar temas que otros descartan, dispuestos a ir a donde otros no se atreven y preparados para luchar contra cosas que dejarían a otros petrificados por el miedo.
+quest.authors_short,Ewen Cameron
+quest.synopsys,Debes identificar a una secta e impedir que completen la invocación de un Primigenio.
+EventPalace_RevealMap3_AtticBallroomExplore.text,Descarta la ficha de Exploración que conecta el {c:TilePalace_Ballroom} y el {c:TilePalace_Attic}.
+EventPalace_RevealMap3_AtticBallroomExplore.button1,Continuar
+EventTest_Cutscenes.text,[CUTSCENE DEBUG EVENT] \n Selecciona una escena:
+EventTest_Cutscenes.button1,Sin horas
+EventTest_Cutscenes.button2,Eliminado fuera del palacio
+EventTest_Cutscenes.button3,Eliminado dentro del palacio
+EventTest_Cutscenes.button4,Desterrar el correcto
+EventTest_Cutscenes.button5,Desterrar el incorrecto
+EventTest_Cutscenes.button6,Gana el Dios
+EventTest_Cutscenes.button7,Gana el Sacerdote
+EventPalace_PlaceAtticBallroom.text,El pequeño ático del palacio está lleno de muebles viejos y polvo. Aunque el palacio propiamente dicho está en buen estado, sería muy raro que alguien se aventurase a venir a este ala, por lo que es un lugar ideal para esconderse de miradas indiscretas. \n\n Coloca el módulo {c:TilePalace_Attic}en el lugar señalado. A continuación, descarta la ficha de Exploración que conecta los módulos {c:TilePalace_Ballroom} y {c:TilePalace_Attic}.
+EventPalace_PlaceAtticBallroom.button1,Continuar
+EventHouse_Place45Automatic.text,Encima de la chimenea se exhiben con orgullo un par de pistolas decorativas en una pequeña caja de madera con tapa de cristal. \n\n Coloca el Objeto común {c:QItem45Automatic} en el lugar señalado.
+CustomMonsterHorrificHive_ChildOfDagon.info,-
+SpawnWarehouse_StudyHorrificHive_ChildOfDagon.text,Al adentrarte en la habitación, descubres algo espantoso. Cerca de la pared del fondo, una masa de lo que parece ser carne brota de entre las tablas del suelo. Te das cuenta con horror de que hay una cara humana en esa masa de carne y que te está mirando fijamente. Ves que la boca forma en silencio la palabra «Mátame». \n\n Aparece un Hijo de Dagon en el lugar señalado. Se trata del monstruo {c:SpawnWarehouse_StudyHorrificHive_ChildOfDagon}.
+SpawnWarehouse_StudyHorrificHive_ChildOfDagon.button1,Continuar
+SpawnHouse_StudyWarlock.button1,Continuar
+SpawnHouse_OfficeThrall.button1,Continuar
+SpawnHouse_OfficeThrall.text,El hombre te tiende la mano para estrechártela. Cuando vas a corresponderle, notas que su actitud cambia de repente. Con una mirada distante, su mano se dirige hacia tu cuello y sus dedos lo rodean con una fuerza antinatural. \n\n Sufres 2 de Daño (anulados por {strength}). Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_OfficeThrall} en el lugar señalado.
+SpawnHouse_StudyThrall.text,El hombre te tiende la mano para estrechártela. Cuando vas a corresponderle, notas que su actitud cambia de repente. Con una mirada distante, su mano se dirige hacia tu cuello y sus dedos lo rodean con una fuerza antinatural. \n\n Sufres 2 de Daño (anulados por {strength}). Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_StudyThrall} en el lugar señalado.
+SpawnHouse_StudyThrall.button1,Continuar
+SpawnHouse_SmallBedroom1StarVampire.text,De repente, el color se desvanece de los rostros de los dos niños, que lanzan un grito silencioso. Largos zarcillos escarlata emergen de los cuellos de los niños. Cuando sus cuerpos sin vida caen al suelo queda al descubierto el horrible origen de los zarcillos. \n\n Descarta la ficha de Personaje y coloca un monstruo {c:SpawnHouse_SmallBedroom1StarVampire} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnHouse_SmallBedroom1StarVampire.button1,Continuar
+SpawnHouse_SmallBedroom2StarVampire.text,De repente, el color se desvanece de los rostros de los dos niños, que lanzan un grito silencioso. Largos zarcillos escarlata emergen de los cuellos de los niños. Cuando sus cuerpos sin vida caen al suelo queda al descubierto el horrible origen de los zarcillos. \n\n Descarta la ficha de Personaje y coloca un monstruo {c:SpawnHouse_SmallBedroom2StarVampire} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnHouse_SmallBedroom2StarVampire.button1,Continuar
+CustomMonsterStarVampire.info,-
+CustomMonsterStarVampire.monstername,Vampiro estelar
+CustomMonsterHorrificHive.monstername,El Engendro
+CustomMonsterHorrificHive_ChildOfDagon.monstername,El Engendro
+SpawnWarehouse_BasementHorrificHive_ChildOfDagon.button1,Continuar
+SpawnWarehouse_BasementHorrificHive_ChildOfDagon.text,A medida que tus ojos se adaptan a la oscuridad, te das cuenta de un espectáculo espantoso. Cerca de la caldera, una masa de lo que parece ser carne crece en el suelo. Te das cuenta con horror de que hay una cara humana en la masa y de que te está mirando fijamente. Ves que la boca forma en silencio la palabra «Mátame». \n\n Aparece un Hijo de Dagon en el lugar señalado. Éste es el monstruo {c:SpawnWarehouse_BasementHorrificHive_ChildOfDagon}.
+SpawnHouse_BathroomHuntingDeepOne.text,Antes de que la mujer pueda hablar, los grifos de la bañera empiezan a verter por sí solos un agua negra y repugnante. Te acercas y los cierras, pero el nivel del agua en la bañera sigue subiendo. De repente, una asquerosa mano con garras sale de la bañera y arrastra a la pobre mujer que grita bajo el agua. El agua se tiñe de rojo por la sangre y de sus profundidades emerge una repugnante criatura. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_BathroomHuntingDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnHouse_BathroomHuntingDeepOne.button1,Continuar
+SpawnHouse_Bedroom2HuntingDeepOne.text,Mientras la mujer te da las gracias profusamente, una espesa agua oscura empieza a filtrarse por debajo de la pared del cuarto de baño. El agua es tan negra que no se distingue el suelo a menos de dos centímetros bajo su superficie. De repente, una mano con garras sale disparada del charco, clavando sus dedos en la carne de la mujer. Antes de que pueda gritar, es arrastrada a las profundidades imposibles. Una horrenda criatura emerge en su lugar, con la boca aún enrojecida por su sangre fresca y caliente. \n\n Descarta esta ficha de Personaje. Aparece un monstruo {c:SpawnHouse_Bedroom2HuntingDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnHouse_Bedroom2HuntingDeepOne.button1,Continuar
+SpawnDock_HouseBoatHuntingDeepOne.text,La pequeña casa flotante es zarandeada por el mar embravecido. Otra ola provoca una fuerte escora de la embarcación. Cuando recupera su horizontalidad, te das cuenta de que hay un bulto extraño en el costado de estribor. \n\n Aparece un {c:SpawnDock_HouseBoatHuntingDeepOne} en el lugar señalado.
+SpawnDock_HouseBoatHuntingDeepOne.button1,Continuar
+SpawnDock_RentalDockHuntingDeepOne.text,Cuando vuelves en ti ves los restos destrozados de la caja en el suelo pero ninguna señal de su posible contenido. En el muelle oyes un fuerte estruendo. Te asomas a través de un hueco en la pared de la cabaña y ves a una horrible criatura que se abre paso entre los barcos de alquiler. \n\n Aparece un {c:SpawnDock_RentalDockHuntingDeepOne} en el lugar señalado.
+SpawnDock_RentalDockHuntingDeepOne.button1,Continuar
+SpawnDock_PierHuntingDeepOne.text,Como respuesta, un grito antinatural resuena desde la bahía. A través de la ventana de servicio ves a una criatura escamosa salir del agua, junto al muelle. \n\n Aparece un {c:SpawnDock_PierHuntingDeepOne} en el lugar señalado.
+SpawnDock_PierHuntingDeepOne.button1,Continuar
+SpawnWarehouse_WarehouseHuntingDeepOne.text,Un {c:SpawnWarehouse_WarehouseHuntingDeepOne} da tumbos por el almacén, cubierto de pegajosos fluidos de parto y de aspecto indefenso. Sin embargo, una vez que la criatura te ve queda claro que es cualquier cosa menos eso. Aparece un {c:SpawnWarehouse_WarehouseHuntingDeepOne} en el lugar señalado.
+SpawnWarehouse_WarehouseHuntingDeepOne.button1,Continuar
+SpawnHorrificHive_HuntingDeepOne.text,El Engendro se estremece y se abre, dando a luz a un {c:SpawnHorrificHive_HuntingDeepOne}. \n\n Aparece un {c:SpawnHorrificHive_HuntingDeepOne} en el espacio del Engendro.
+SpawnHorrificHive_HuntingDeepOne.button1,Continuar
+SpawnHouse_OfficeDarkDruid.text,El hombre extiende la mano para estrechártela. Cuando vas a corresponderle, una energía oscura conecta su mano a la tuya y un dolor agudo te sube por el brazo. \n\n Sufres 2 de Daño (anulados por {lore}). \n\n —¿Cómo es posible que siga vivo? —gruñe—. No importa, no es usted rival ni para mí ni para mi amo. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_OfficeDarkDruid} en el lugar señalado.
+SpawnHouse_OfficeDarkDruid.button1,Continuar
+SpawnHouse_StudyDarkDruid.text,El hombre extiende la mano para estrechártela. Cuando vas a corresponderle, una energía oscura conecta su mano a la tuya y un dolor agudo te sube por el brazo. \n\n Sufres 2 de Daño (anulados por {lore}). \n\n —¿Cómo es posible que siga vivo? —gruñe—. No importa, no es usted rival ni para mí ni para mi amo. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_StudyDarkDruid} en el lugar señalado.
+SpawnHouse_StudyDarkDruid.button1,Continuar
+SpawnHouse_OfficeManiac.text,El hombre te tiende la mano para estrechártela. Cuando vas a corresponderle, te llama la atención el destello de una hoja metálica en su manga. El hombre saca el cuchillo y te lo clava en el estómago. \n\n Sufres 2 de Daño (anulados por {agility}). \n\n —¡Fuera! —grita—. ¡Váyase de mi casa antes de que le destripe como a un cerdo! \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_OfficeManiac} en el lugar señalado.
+SpawnHouse_OfficeManiac.button1,Continuar
+SpawnHouse_StudyManiac.text,El hombre te tiende la mano para estrechártela. Cuando vas a corresponderle, te llama la atención el destello de una hoja metálica en su manga. El hombre saca el cuchillo y te lo clava en el estómago. \n\n Sufres 2 de Daño (anulados por {agility}). \n\n —¡Fuera! —grita—. ¡Váyase de mi casa antes de que le destripe como a un cerdo! \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_StudyManiac} en el lugar señalado.
+SpawnHouse_StudyManiac.button1,Continuar
+CustomMonsterCthonian.info,-
+SpawnHouse_SmallBedroom1Cthonian.text,Los profusos agradecimientos de los niños se ven interrumpidos por un ruido sordo. Las tablas del suelo ceden bajo ellos y unos tentáculos viscosos agarran y suspenden a los niños por encima de unas retorcidas hileras de dientes alienígenas. Contemplas horrorizado cómo son desgarrados miembro a miembro y luego engullidos por una boca invisible. Cuando termina su festín, una criatura parecida a un gusano surge del suelo. \n\n Descarta esta ficha de Personaje y coloca el monstruo {c:SpawnHouse_SmallBedroom1Cthonian} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+CustomMonsterCthonian.monstername,Chthonian
+SpawnHouse_SmallBedroom1Cthonian.button1,Continuar
+SpawnHouse_SmallBedroom2Cthonian.text,Los profusos agradecimientos de los niños se ven interrumpidos por un ruido sordo. Las tablas del suelo ceden bajo ellos y unos tentáculos viscosos agarran y suspenden a los niños por encima de unas retorcidas hileras de dientes alienígenas. Contemplas horrorizado cómo son desgarrados miembro a miembro y luego engullidos por una boca invisible. Cuando termina su festín, una criatura parecida a un gusano surge del suelo. \n\n Descarta esta ficha de Personaje y coloca un monstruo {c:SpawnHouse_SmallBedroom2Cthonian} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnHouse_SmallBedroom2Cthonian.button1,Continuar
+CustomMonsterHorrificHive.Attack_bladed_1,-
+SpawnPalace_LobbyDeepOneHybrid.text,Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace_LobbyDeepOneHybrid} en el lugar señalado.
+SpawnHorrificHive_MiGo.text,El Engendro se estremece y se abre, dando a luz un {c:SpawnHorrificHive_MiGo}. \n\n Aparece un {c:SpawnHorrificHive_MiGo} en el espacio del Engendro.
+SpawnHorrificHive_MiGo.button1,Continuar
+SpawnHorrificHive_CrawlingOne.button1,Continuar
+SpawnHorrificHive_CrawlingOne.text,El Engendro se estremece y se abre, dando a luz a un {c:SpawnHorrificHive_CrawlingOne}. \n\n Aparece un {c:SpawnHorrificHive_CrawlingOne} en el espacio del Engendro.
+SpawnPalace_LobbyDeepOneHybrid.button1,Continuar
+SpawnPalace_LobbyThrall.text,Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace_LobbyThrall} en el lugar señalado.
+SpawnPalace_LobbyThrall.button1,Continuar
+SpawnPalace_LobbySkeleton.button1,Continuar
+SpawnPalace_LobbySkeleton.text,Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace_LobbySkeleton} en el lugar señalado.
+SpawnPalace_LobbyZombie.text,Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace_LobbyZombie} en el lugar señalado.
+SpawnPalace_LobbyZombie.button1,Continuar
+SpawnPalace_LobbyChildOfTheGoat.button1,Continuar
+SpawnPalace_LobbyChildOfTheGoat.text,Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece una {c:SpawnPalace_LobbyChildOfTheGoat} en el lugar señalado.
+SpawnWarehouse_WarehouseMiGo.text,Un {c:SpawnWarehouse_WarehouseMiGo} da tumbos por el almacén, cubierto de pegajosos fluidos de parto y de aspecto indefenso. Sin embargo, una vez que la criatura te ve queda claro que es cualquier cosa menos eso. Aparece un {c:SpawnWarehouse_WarehouseMiGo} en el lugar señalado.
+SpawnWarehouse_WarehouseMiGo.button1,Continuar
+SpawnWarehouse_WarehouseCrawlingOne.text,Un {c:SpawnWarehouse_WarehouseCrawlingOne} da tumbos por el almacén, cubierto de pegajosos fluidos de parto y de aspecto indefenso. Sin embargo, una vez que la criatura te ve queda claro que es cualquier cosa menos eso. Aparece un {c:SpawnWarehouse_WarehouseCrawlingOne} en el lugar señalado.
+SpawnWarehouse_WarehouseCrawlingOne.button1,Continuar
+SpawnWarehouse_WarehouseHuntingHorror.text,Un {c:SpawnWarehouse_WarehouseHuntingHorror} da tumbos por el almacén, cubierto de pegajosos fluidos de parto y de aspecto indefenso. Sin embargo, una vez que la criatura te ve queda claro que es cualquier cosa menos eso. Aparece un {c:SpawnWarehouse_WarehouseHuntingHorror} en el lugar señalado.
+SpawnWarehouse_WarehouseHuntingHorror.button1,Continuar
+SpawnWarehouse_RootCellarDeepOne.text,En la oscuridad oyes el inconfundible gorgoteo de una criatura salvaje. La vislumbras a la luz de la luna y tu mente no puede evitar imaginar el resto de su horrenda forma. \n\n Aparece un {c:SpawnWarehouse_RootCellarDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_RootCellarDeepOne.button1,Continuar
+SpawnWarehouse_RootCellarHuntingDeepOne.text,En la oscuridad oyes el inconfundible gorgoteo de una criatura salvaje. La vislumbras a la luz de la luna y tu mente no puede evitar imaginar el resto de su horrenda forma. \n\n Aparece un {c:SpawnWarehouse_RootCellarHuntingDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_RootCellarHuntingDeepOne.button1,Continuar
+SpawnWarehouse_RootCellarMiGo.text,En la oscuridad oyes el inconfundible gorgoteo de una criatura salvaje. La vislumbras a la luz de la luna y tu mente no puede evitar imaginar el resto de su horrenda forma. \n\n Aparece un {c:SpawnWarehouse_RootCellarMiGo} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_RootCellarMiGo.button1,Continuar
+SpawnWarehouse_RootCellarCrawlingOne.text,En la oscuridad oyes el inconfundible gorgoteo de una criatura salvaje. La vislumbras a la luz de la luna y tu mente no puede evitar imaginar el resto de su horrenda forma. \n\n Aparece un {c:SpawnWarehouse_RootCellarCrawlingOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_RootCellarCrawlingOne.button1,Continuar
+SpawnWarehouse_BasementHuntingDeepOne.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_BasementHuntingDeepOne}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_BasementHuntingDeepOne} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {c:SpawnWarehouse_BasementHuntingDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_BasementHuntingDeepOne.button1,Continuar
+SpawnWarehouse_BasementHuntingHorror.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_BasementHuntingHorror}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_BasementHuntingHorror} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {c:SpawnWarehouse_BasementHuntingHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_BasementHuntingHorror.button1,Continuar
+SpawnWarehouse_BasementMiGo.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_BasementMiGo}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_BasementMiGo} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {c:SpawnWarehouse_BasementMiGo} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_BasementMiGo.button1,Continuar
+SpawnWarehouse_BasementCrawlingOne.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_BasementCrawlingOne}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_BasementCrawlingOne} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {c:SpawnWarehouse_BasementCrawlingOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_BasementCrawlingOne.button1,Continuar
+SpawnWarehouse_StudyHuntingDeepOne.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_StudyHuntingDeepOne}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_StudyHuntingDeepOne} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {c:SpawnWarehouse_StudyHuntingDeepOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_StudyHuntingDeepOne.button1,Continuar
+SpawnWarehouse_StudyHuntingHorror.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_StudyHuntingHorror}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_StudyHuntingHorror} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {c:SpawnWarehouse_StudyHuntingHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_StudyHuntingHorror.button1,Continuar
+SpawnWarehouse_StudyMiGo.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_StudyMiGo}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_StudyMiGo} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {{c:SpawnWarehouse_StudyMiGo} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_StudyMiGo.button1,Continuar
+SpawnWarehouse_StudyCrawlingOne.text,La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_StudyCrawlingOne}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_StudyCrawlingOne} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {c:SpawnWarehouse_StudyCrawlingOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnWarehouse_StudyCrawlingOne.button1,Continuar
+SpawnPalace_LoungeStarVampire.text,Desde el otro lado de la habitación ves el débil resplandor de una criatura indescriptible apenas visible pero aún así aterradora. \n\n Aparece un {c:SpawnPalace_LoungeStarVampire} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnPalace_LoungeStarVampire.button1,Continuar
+SpawnPalace_LoungeCthonian.text,Desde el otro lado de la habitación te sobresalta el repentino derrumbamiento de parte del suelo. Del agujero recién creado se eleva una criatura indescriptible y horripilante. \n\n Aparece un monstruo c:SpawnPalace_Palace_LoungeCthonian} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will}).
+SpawnPalace_BallroomHuntingDeepOne.text,En el otro extremo del salón de baile, una criatura viscosa resbala y se desliza por el suelo pulido. Aunque al principio te resulta cómica, pronto te das cuenta de tu error al ver que se pone en pie rápidamente al detectarte. \n\n Aàrece un {c:SpawnPalace_BallroomHuntingDeepOne} en el lugar señalado. A continuación sufres 1 de Horror (anulado por {will}).
+SpawnPalace_BallroomHuntingDeepOne.button1,Continuar
+EventWarehouse_SearchBarrelRitualDagger.text,Abres el barril encontrando su interior lleno de una carne no identificable. Rezas para que se trate de la carne de un animal y no de otra cosa. El mango de una extraña daga ornamentada sobresale de la carne. \n\n Ganas el Objeto común {c:QItemRitualDagger} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventWarehouse_SearchBarrelSilverTwilightDagger.text,Abres el barril encontrando su interior lleno de una carne no identificable. Rezas para que se trate de la carne de un animal y no de otra cosa. El mango de una extraña daga ornamentada sobresale de la carne. \n\n Ganas el Objeto común {c:QItemSilverTwilightDagger} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventWarehouse_SearchBarrelSilverTwilightDagger.button1,Continuar
+EventWarehouse_SearchBarrelRazor.button1,Continuar
+EventWarehouse_SearchBarrelRazor.text,Abres el barril encontrando su interior lleno de una carne no identificable. Rezas para que se trate de la carne de un animal y no de otra cosa. El mango de una navaja de afeitar sobresale de la carne. \n\n Ganas el Objeto común {c:QItemRazor} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventWarehouse_SearchBarrelScalpel.button1,Continuar
+EventWarehouse_SearchBarrelScalpel.text,Abres el barril encontrando su interior lleno de una carne no identificable. Rezas para que se trate de la carne de un animal y no de otra cosa. El mango de un bisturí sobresale de la carne. \n\n Ganas el Objeto común {c:QItemScalpel} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventHouse_SearchDiningTableFaliureWhiskey.text,Entras en pánico y agarras lo que tienes más cerca sobre la mesa, dándote cuenta demasiado tarde de que no puede utilizarse como arma en su estado actual. \n\n Ganas el Objeto común {c:QItemWhiskey}. A continuación descarta esta ficha de Búsqueda.
+EventHouse_SearchDiningTableFaliureThermos.text,Entras en pánico y agarras lo que tienes más cerca sobre la mesa, dándote cuenta demasiado tarde de que no puede utilizarse como arma en su estado actual. \n\n Ganas el Objeto común {c:QItemThermos}. A continuación descarta esta ficha de Búsqueda.
+EventHouse_SearchDiningTableFaliureThermos.button1,Continuar
+EventHouse_PlacePainkillers.button1,Continuar
+EventHouse_PlacePainkillers.text,En uno de los estantes del baño hay un botiquín de primeros auxilios. En su interior hay unos {c:QItemPainkillers}. \n\n Coloca el Objeto común {c:QItemPainkillers} en el lugar señalado.
+EventDock_RedItemPickup_LuckyRabbitsFoot.text,Aunque no estás más cerca de encontrar la caja maldita, encuentras otro objeto mágico entre los cachivaches. Supones que se trata de un regalo para un ser querido, ya que lleva la etiqueta «<i>Para Alex. Que te traiga suerte en este mundo de locos</i>». \n\n Ganas el Objeto común {c:QItemLuckyRabbitsFoot} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventDock_RedItemPickup_LuckyBandana.text,Aunque no estás más cerca de encontrar la caja maldita, encuentras otro objeto mágico entre los trastos. Supones que se trata de un regalo para un ser querido, ya que lleva la etiqueta «<i>Para Alex. Que te traiga suerte en este mundo de locos</i>». \n\n Ganas el Objeto común {c:QItemLuckyBandana} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventDock_RedItemPickup_LuckyBandana.button1,Continuar
+EventDock_RedItemPickup_LuckyCigaretteCase.text,Aunque no estás más cerca de encontrar la caja maldita, encuentras otro objeto mágico entre los trastos. Supones que se trata de un regalo para un ser querido, ya que lleva la etiqueta «<i>Para Alex. Que te traiga suerte en este mundo de locos</i>». \n\n Ganas el Objeto común {c:QItemLuckyCigaretteCase} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventDock_RedItemPickup_LuckyCigaretteCase.button1,Continuar
+EventDock_RedItemPickup_LuckyRing.text,Aunque no estás más cerca de encontrar la caja maldita, encuentras otro objeto mágico entre los trastos. Supones que se trata de un regalo para un ser querido, ya que lleva la etiqueta«<i>Para Alex. Que te traiga suerte en este mundo de locos</i>». \n\n Ganas el Objeto común {c:QItemLuckyRing} y 1 Pista <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventDock_RedItemPickup_LuckyRing.button1,Continuar
+EventDock_BlueItemPickup_Wrack.text,Entre la basura encuentras una hoja de papel rota con notas garabateadas. Al leer la hoja descubres que lo que hay escrito en ella no tiene sentido. Sin embargo, al terminar de leer, las palabras resuenan en tu cabeza, llenándola de conocimientos prohibidos. \n\n Sufres 1 de Horror boca abajo. Ganas el Hechizo {c:QItemWrack} y 2 Pistas <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventDock_BlueItemPickup_CallTheStorm.text,Entre la basura encuentras una hoja de papel rota con notas garabateadas. Al leer la hoja descubres que lo que hay escrito en ella no tiene sentido. Sin embargo, al terminar de leer, las palabras resuenan en tu cabeza, llenándola de conocimientos prohibidos. \n\n Sufres 1 de Horror boca abajo. Ganas el Hechizo {c:QItemCallTheStorm} y 2 Pistas <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+EventDock_BlueItemPickup_CallTheStorm.button1,Continuar
+EventDock_BlueItemPickup_StormOfSpirits.button1,Continuar
+EventDock_BlueItemPickup_StormOfSpirits.text,Entre la basura encuentras una hoja de papel rota con notas garabateadas. Al leer la hoja descubres que lo que hay escrito en ella no tiene sentido. Sin embargo, al terminar de leer, las palabras resuenan en tu cabeza, llenándola de conocimientos prohibidos. \n\n Sufres 1 de Horror boca abajo. Ganas el Hechizo {c:QItemStormOfSpirits} y 2 Pistas <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda.
+SpawnPalace_LoungeCthonian.button1,Continuar
+SpawnDock_Street2DeepOneHybrid.text,Un hombre aturdido y desconcertado se apoya contra la pared, mirando los folletos y carteles. Al mirar más de cerca, en lugar de la esperada botella de alcohol en su mano, lo que encuentras son unas uñas largas como garras que sobresalen de unas manos escamosas. \n\n Aparece un {c:SpawnDock_Street2DeepOneHybrid} en el lugar señalado.
+SpawnDock_Street2DeepOneHybrid.button1,Continuar
+TokenPalace_ExploreAtticLounge.button1,Continuar
+SpawnDock_Dock1DeepOneHybrid.text,Ves a un hombre que tira frenéticamente a un lado algunas de las cajas, tratando desesperadamente de alcanzar algo que hay debajo. Se detiene repentinamente al percatarse de tu presencia y sus grandes ojos negros miran hacia ti. \n\n Aparece un {c:SpawnDock_Dock1DeepOneHybrid} en el lugar señalado.
+SpawnDock_Dock1DeepOneHybrid.button1,Continuar
+EventPalace_CounterRitual_MinorQ1.button2,Verde
+EventPalace_CounterRitual_MinorQ1.button3,Azul
+EventNextLocation_NonPalace.button3,Viajar al distrito comercial
+EventNextLocation_NonPalace.text,Tras investigar dos de las sectas, tu comprensión de la situación parece más completa. Sin embargo, crees que aún te queda información vital por conocer. Sería una buena idea seguir investigando si todavía tienes tiempo.
+EventPalace_CounterRitual_MinorQ2.text,Notas un suave zumbido mientras tus palabras se impregnan de una energía cósmica. \n\n —Las barreras de nuestro mundo se hacen fuertes —prosigues—, bloqueando tus intentos para propagar...
+EventPalace_CounterRitual_MinorQ2.button1,Dolor
+EventPalace_CounterRitual_MinorQ2.button2,Lujuria
+EventPalace_CounterRitual_MinorQ2.button3,Locura
+EventPalace_CounterRitual_MajorQ.button1,Hastur
+EventPalace_CounterRitual_MajorQ.button2,Yig
+EventPalace_CounterRitual_MajorQ.button3,Zhar
+EventPalace_CounterRitual_HasturSuccess.text,Completas el contraritual para desterrar a Hastur de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración.
+EventPalace_CounterRitual_MajorFaliure.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado.
+EventPalace_CounterRitual_MajorFaliure.button1,Continuar
+UIPalace_IntroContinue.uitext,Continuar
+EventTest_Cutscenes.button8,Destierro fallido
+UIPalace_FailedBanishText.uitext,Si aún se siguieran escribiendo libros de historia, éstos hablarían muy mal de tu intento de crear un contraritual. Los historiadores te describirían como alguien que carecía de las características necesarias para llevar a cabo una tarea de esta magnitud, que claramente estaba por encima de tus posibilidades. Tu fallida investigación sería ridiculizada y criticada sin cesar por aquellos bendecidos con la clarividencia que da el mirar las cosas con la perspectiva de lo que ya ha pasado. \n\n Afortunadamente, nadie escribió nada sobre lo que ha pasado aquí, ni sobre nada más. Cuando el Primigenio y sus seguidores invadieron nuestro mundo, los pocos que sobrevivieron más allá de un par de minutos fueron torturados implacablemente hasta que desearon no haber sobrevivido. \n\n Lo que una vez fue de nuestro mundo se transformó en algo demasiado incomprensible y horrible para describirlo. Bastará con decir que deberías estar agradecido de que la muerte te llegara antes de que todo eso pasase. \n\n
+EventPalace_WinCondition_BanishIncorrect.text,Tu única esperanza de salvar esta realidad es luchar contra el Primigenio que se alza ante ti. Aunque nada en este planeta se acerca a su poder cósmico, puede que seas capaz de debilitarlo lo suficiente como para permitir que tu contraritual lo expulse de nuestro mundo.
+EventPalace_WinCondition_BanishCorrect.text,Debes derrotar a los dos Sacerdotes de la secta para salvar al mundo de sus viles planes de una vez por todas.
+EventPalace_CounterRitual_MajorQ.text,Sientes que las energías de tu hechizo se dirigen hacia tu objetivo. \n\n —Vuelve a las viles aguas que llamas hogar —gritas. Aunque lo intentes muchas veces, por siempre este mundo negará la entrada a...

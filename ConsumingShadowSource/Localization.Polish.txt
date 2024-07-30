@@ -1,5 +1,5 @@
 .,Polish
-quest.name,Pochłaniający Cień (v1.21)
+quest.name,Pochłaniający Cień (v1.22)
 quest.authors,Ewen Cameron\nMark J. Hadley\n\nTłumaczenie: Damian "sircohen" Sznyra
 TokenHouse_SearchEntryTable.button1,{action} Zbadaj
 EventHouse_PlaceYard1.button1,Kontynuuj
