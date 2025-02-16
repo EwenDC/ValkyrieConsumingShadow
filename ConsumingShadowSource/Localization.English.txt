@@ -278,7 +278,6 @@ EventDock2_SearchBarSkillCheck.text,You start the strenuous job of opening each 
 EventDock2_SearchDisplayFailure.button1,Continue
 EventDock2_SearchDisplayFailure.text,You are so focused on the task at hand that you fail to feel your grasp on the heavy glass lid slip. You notice just in time to pull your arm back before the lid slams shut.
 EventDock2_SearchDisplaySkillCheck.button1,Confirm
-EventDock2_SearchDisplaySkillCheck.button2,Button2
 EventDock2_SearchDisplaySkillCheck.text,You gently lift the glass and slide your arm underneath, rummaging through the trinkets with your hand ({observation}).
 EventDock2_SearchHouseBoatGoodsWFailure.button1,Continue
 EventDock2_SearchHouseBoatGoodsWFailure.text,You sift through the junk, but find nothing of interest.
@@ -311,7 +310,7 @@ EventEliminated_Palace.button1,Continue
 EventEliminated_Palace.text,The death of your fellow investigator prevents you from banishing the Ancient One before it invades our reality.
 EventErrorState.button1,Continue Scenario
 EventErrorState.button2,Instant Win
-EventErrorState.text,"!! CRITICAL ERROR !!\n\n{action} You have reached a game state that should not be accessible through normal gameplay. Your scenario may or may not have broken in a way that makes it impossible to continue.\n\n{clue} Please raise a new issue at https://github.com/EwenDC/ValkyrieConsumingShadow/issues with your savegame attached and a list of reproduction steps.\n\n{success} I apologise profusely for the inconvenience. To make up for it, below is an instant win button (although I would kindly recommend restarting the scenario instead of using that button, unless you were almost at the end anyway)."
+EventErrorState.text,"!! CRITICAL ERROR !!\n\n{action} You have reached a game state that should not be accessible through normal gameplay. Your scenario may or may not have broken in a way that makes it impossible to continue.\n\n{clue} Please raise a new issue at https://github.com/EwenDC/ValkyrieConsumingShadow/issues with your savegame attached and a list of reproduction steps.\n\n{success} I apologise profusely for the inconvenience. To make up for it, below is an instant win button (though I would kindly recommend restarting the scenario instead)."
 EventHorrificHive_ActivationMeleeAttack_Effect1.button1,Continue
 EventHorrificHive_ActivationMeleeAttack_Effect1.text,The barb pierces your body, sending you into excruciating agony. Suffer 2 facedown Damage ({strength}-1 negates).
 EventHorrificHive_ActivationMeleeAttack_Effect2.button1,Continue
@@ -811,7 +810,7 @@ EventViewEvidence_CultSigil_Allies.text,|||You quickly realise why this item did
 EventViewEvidence_CultSigil_Enemies.button1,Continue
 EventViewEvidence_CultSigil_Enemies.text,|||You quickly realise why this item did not make it to its intended destination. Instead of containing a destination address, the following has been written on the shipping tag: "To the far corners of the near shore. Where madness builds its tall towers soaring high into the ground. Avoid your deepest pains as they will lead you astray. Deliver to madness but stay away from pain! It is no friend of madness, and never will be."|||
 EventViewEvidence_ForensicEvidence_Lust.button1,Continue
-EventViewEvidence_ForensicEvidence_Lust.text,|||The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads "Despite it's control of the emotions of lust in our universe, the entity cannot exist in this reality. Though entity's worshippers try to appease their master with material goods, it simply cannot exist alongside anything from our world."|||
+EventViewEvidence_ForensicEvidence_Lust.text,|||The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads "Despite it's control of the emotions of lust in our universe, the entity cannot exist in this reality. Though the entity's worshippers try to appease their master with material goods, it simply cannot exist alongside anything from our world."|||
 EventViewEvidence_ForensicEvidence_Madness.button1,Continue
 EventViewEvidence_ForensicEvidence_Madness.text,|||The passage referenced in the tattoo speaks of one of the three Ancient Ones. It reads "Despite the power it exerts on our collective consciousnesses, the entity cannot exist in our reality. Whenever a human has attempted to bring their mind within range of the entity, they quickly die of the madness inflicted upon them. As all madness stems from it, to enter our world would be to destroy itself and our reality."|||
 EventViewEvidence_ForensicEvidence_Pain.button1,Continue
@@ -882,28 +881,28 @@ EventViewEvidence_RitualComponents_Green.button1,Continue
 EventViewEvidence_RitualComponents_Green.text,To gain more information, you try deconstructing the magic imbued within these components. However, when you do so you are overwhelmed by a strange vision. In this vision, you are an ancient one of great power. You have conquered many realities, subjugating them under your emerald green flag. However, when viewing our reality, your reaction is indifferent at best. By some incomprehensible logic, you conclude you wouldn't enter our reality even if somebody opened a portal for you. The vision ends and you collapse to the floor, with a throbbing head and no desire to examine the components any further.
 EventViewEvidence_RitualComponents_Red.button1,Continue
 EventViewEvidence_RitualComponents_Red.text,To gain more information, you try deconstructing the magic imbued within these components. However, when you do so you are overwhelmed by a strange vision. In this vision, you are an ancient one of great power. You have conquered many realities, subjugating them under your ruby red flag. However, when viewing our reality, your reaction is indifferent at best. By some incomprehensible logic, you conclude you wouldn't enter our reality even if somebody opened a portal for you. The vision ends and you collapse to the floor, with a throbbing head and no desire to examine the components any further.
-EventWarehouse_CultLeaderJeer_HasturCorrect.button1,Continue
-EventWarehouse_CultLeaderJeer_HasturCorrect.text,|||An unnerving smile crosses the Cultist's face. "My master always has the time for torturing heretics." Gain 2 Clues.|||
-EventWarehouse_CultLeaderJeer_HasturIncorrectNegative.button1,Continue
-EventWarehouse_CultLeaderJeer_HasturIncorrectNegative.text,|||The Cultist squints his eyes at you. "How would I know what that false god has time for?" Gain 1 Clue.|||
-EventWarehouse_CultLeaderJeer_HasturIncorrectPositive.button1,Continue
-EventWarehouse_CultLeaderJeer_HasturIncorrectPositive.text,|||The Cultist smiles menacingly. "With his and my Master's power combined, they can hurt you more than you could possibly comprehend." Gain 1 Clue.|||
-EventWarehouse_CultLeaderJeer_YigCorrect.button1,Continue
-EventWarehouse_CultLeaderJeer_YigCorrect.text,|||The Cultist snaps back "Good thing my master never fails." Gain 2 Clues.|||
-EventWarehouse_CultLeaderJeer_YigIncorrectNegative.button1,Continue
-EventWarehouse_CultLeaderJeer_YigIncorrectNegative.text,|||A sinister chuckle escapes the Cultist's lips. "Yes he will! My master will make sure that vile demon suffers." Gain 1 Clue.|||
-EventWarehouse_CultLeaderJeer_YigIncorrectPositive.button1,Continue
-EventWarehouse_CultLeaderJeer_YigIncorrectPositive.text,|||The Cultist gives you a smug look. "With my master's powerful hand behind him, Yig could never fail." Gain 1 Clue.|||
-EventWarehouse_CultLeaderJeer_ZharCorrect.button1,Continue
-EventWarehouse_CultLeaderJeer_ZharCorrect.text,|||The Cultist snarls at you. "My master rewards loyalty, not punish it!" Gain 2 Clues.|||
-EventWarehouse_CultLeaderJeer_ZharIncorrectNegative.button1,Continue
-EventWarehouse_CultLeaderJeer_ZharIncorrectNegative.text,|||Rage fills the Cultist's face. "Do you represent that vile demon? Tell him my master is coming for him next." Gain 1 Clue.|||
-EventWarehouse_CultLeaderJeer_ZharIncorrectPositive.button1,Continue
-EventWarehouse_CultLeaderJeer_ZharIncorrectPositive.text,|||The Cultist gives you a confused look. "Why would Zhar punish the devotee's of his longest ally? That makes no sense." Gain 1 Clue.|||
-EventWarehouse_CultLeaderJeer.button1,Isn't Hastur a little busy to be focusing on me?
-EventWarehouse_CultLeaderJeer.button2,Zhar will inflict the same upon you in the end.
-EventWarehouse_CultLeaderJeer.button3,Yig will feel more pain when his plan fails.
-EventWarehouse_CultLeaderJeer.text,|||The Cultist draws a long and ornate dagger from its scabbard. "You are about to experience hurt beyond this mortal realm."|||
+EventWarehouse_CultistJeer_HasturCorrect.button1,Continue
+EventWarehouse_CultistJeer_HasturCorrect.text,|||An unnerving smile crosses the Cultist's face. "My master always has the time for torturing heretics." Gain 2 Clues.|||
+EventWarehouse_CultistJeer_HasturIncorrectNegative.button1,Continue
+EventWarehouse_CultistJeer_HasturIncorrectNegative.text,|||The Cultist squints his eyes at you. "How would I know what that false god has time for?" Gain 1 Clue.|||
+EventWarehouse_CultistJeer_HasturIncorrectPositive.button1,Continue
+EventWarehouse_CultistJeer_HasturIncorrectPositive.text,|||The Cultist smiles menacingly. "With his and my Master's power combined, they can hurt you more than you could possibly comprehend." Gain 1 Clue.|||
+EventWarehouse_CultistJeer_YigCorrect.button1,Continue
+EventWarehouse_CultistJeer_YigCorrect.text,|||The Cultist snaps back "Good thing my master never fails." Gain 2 Clues.|||
+EventWarehouse_CultistJeer_YigIncorrectNegative.button1,Continue
+EventWarehouse_CultistJeer_YigIncorrectNegative.text,|||A sinister chuckle escapes the Cultist's lips. "Yes he will! My master will make sure that vile demon suffers." Gain 1 Clue.|||
+EventWarehouse_CultistJeer_YigIncorrectPositive.button1,Continue
+EventWarehouse_CultistJeer_YigIncorrectPositive.text,|||The Cultist gives you a smug look. "With my master's powerful hand behind him, Yig could never fail." Gain 1 Clue.|||
+EventWarehouse_CultistJeer_ZharCorrect.button1,Continue
+EventWarehouse_CultistJeer_ZharCorrect.text,|||The Cultist snarls at you. "My master rewards loyalty, not punish it!" Gain 2 Clues.|||
+EventWarehouse_CultistJeer_ZharIncorrectNegative.button1,Continue
+EventWarehouse_CultistJeer_ZharIncorrectNegative.text,|||Rage fills the Cultist's face. "Do you represent that vile demon? Tell him my master is coming for him next." Gain 1 Clue.|||
+EventWarehouse_CultistJeer_ZharIncorrectPositive.button1,Continue
+EventWarehouse_CultistJeer_ZharIncorrectPositive.text,|||The Cultist gives you a confused look. "Why would Zhar punish the devotee's of his longest ally? That makes no sense." Gain 1 Clue.|||
+EventWarehouse_CultistJeer.button1,Isn't Hastur a little busy to be focusing on me?
+EventWarehouse_CultistJeer.button2,Zhar will inflict the same upon you in the end.
+EventWarehouse_CultistJeer.button3,Yig will feel more pain when his plan fails.
+EventWarehouse_CultistJeer.text,|||The Cultist draws a long and ornate dagger from its scabbard. "You are about to experience hurt beyond this mortal realm."|||
 EventWarehouse_ExploreRootCellar.button1,Continue
 EventWarehouse_ExploreRootCellar.text,You throw open the door. Moonlight spills into the dark cellar through the outside trapdoor. Discard any Explore tokens leading to the {c:TileWarehouse_RootCellar}. Then place Darkness in each space of the {c:TileWarehouse_RootCellar}.
 EventWarehouse_HorrificHiveDefeated.button1,Continue
@@ -976,7 +975,7 @@ EventWarehouse_SearchBookshelfSuccess.button2,View Clue
 EventWarehouse_SearchBookshelfSuccess.text,You write down your best interpretation of the runes meaning in your notebook. Reading back what you wrote, you realise this book is a memoir from one of the Ancient One's. Gain the {c:QItemIncriminatingEvidence} Unique Item. Then discard this Search token. The investigator holding the {c:QItemIncriminatingEvidence} can view the associated clue by interacting with it in the app.
 EventWarehouse_SearchDeadCultistNoPuzzle.button1,{action} Investigate
 EventWarehouse_SearchDeadCultistNoPuzzle.button2,Cancel
-EventWarehouse_SearchDeadCultistNoPuzzle.text,You look down at the dead cultist, wondering how a life so full of potential could have devoted itself to such an awful purpose. Clearing the thought from your head, you then notice the various cult tattoo's on the body.
+EventWarehouse_SearchDeadCultistNoPuzzle.text,You look down at the dead cultist, wondering how a life so full of potential could have devoted itself to such an awful purpose. Clearing the thought from your head, you then notice the various cult tattoos on the body.
 EventWarehouse_SearchDeadCultistPuzzle.button1,{action} Attempt
 EventWarehouse_SearchDeadCultistPuzzle.button2,Cancel
 EventWarehouse_SearchDeadCultistPuzzle.text,You have not yet identified the occult passage being referenced in the cultist's tattoo. You can attempt the puzzle using {lore} as an action.
@@ -993,6 +992,50 @@ EventWarehouse_SearchFurnaceSuccess.button2,View Clue
 EventWarehouse_SearchFurnaceSuccess.text,Your efforts pay off, as you unearth a small metal tin. You grab it from the ash before the cavity can collapse. You open the tin to find the old research notes of a local professor who was an expert in ancient culture. Gain the {c:QItemMissingLink} Unique Item. Then discard this Search token. The investigator holding the {c:QItemMissingLink} can view the associated clue by interacting with it in the app.
 EventWarehouse_TriggerExit.button1,Continue
 EventWarehouse_TriggerExit.text,You unanimously agree to abandon this haunted warehouse for good. Discard this Interact token. At the end of the Investigator Phase, all investigators will leave this location.
+EventWarehouse2_Place2x4.button1,Continue
+EventWarehouse2_Place2x4.text,Among the rotten wood you spot a plank that is still in good condition. It could be used to barricade a door or as an impromptu weapon. Place the {c:QItem2x4} Common Item as indicated.
+EventWarehouse2_PlaceAlleyCorner1.button1,Continue
+EventWarehouse2_PlaceAlleyCorner1.text,You peer further down the alley, spotting some side entrances. Place the {c:TileWarehouse2_AlleyCorner1} tile and Explore tokens as indicated.
+EventWarehouse2_PlaceAlleyCorner1Barricade.button1,Continue
+EventWarehouse2_PlaceAlleyCorner1Barricade.text,Some heavy barrels and crates could be used to barricade a door if the need arose. Place a Barricade as indicated.
+EventWarehouse2_PlaceAlleyCorner2.button1,Continue
+EventWarehouse2_PlaceAlleyCorner2.text,After navigating a dizzying maze of criss-crossing alleyways, you think you have identified the abandoned warehouse. Place the {c:TileWarehouse2_AlleyCorner2} tile as indicated.
+EventWarehouse2_PlaceBasement.button1,Continue
+EventWarehouse2_PlaceBasement.text,You open the door to reveal a room shrouded in complete darkness. Place the {c:TileWarehouse2_Basement} tile and a door as indicated and discard any Explore tokens leading to it. Then place Darkness in each space of the {c:TileWarehouse2_Basement}.
+EventWarehouse2_PlaceBasementBarricade.button1,Continue
+EventWarehouse2_PlaceBasementBarricade.text,Some heavy barrels and crates could be used to barricade a door if the need arose. Place a Barricade as indicated.
+EventWarehouse2_PlaceBellTower.button1,Continue
+EventWarehouse2_PlaceBellTower.text,As you open the door, you are blinded by the light coming from a lit lamp inside a bell tower. Discard this Explore token and place the {c:TileWarehouse2_BellTower} tile as indicated.
+EventWarehouse2_PlaceExploreBasementWarehouse.button1,Continue
+EventWarehouse2_PlaceExploreBasementWarehouse.text,A door at the far end of the warehouse leads further into the building. Place an Explore token as indicated.
+EventWarehouse2_PlaceExploreBellTower.button1,Continue
+EventWarehouse2_PlaceExploreBellTower.text,A faint light is visible from the top of some stairs at the back of the room. Place an Explore token as indicated.
+EventWarehouse2_PlaceExploreStudy.button1,Continue
+EventWarehouse2_PlaceExploreStudy.text,In the darkness you barely make out the shape of a door. Place an Explore token as indicated.
+EventWarehouse2_PlaceExploreWarehouseAlleyCorner2.button1,Continue
+EventWarehouse2_PlaceExploreWarehouseAlleyCorner2.text,You spot the main entrance to the warehouse. Before you can approach, the sounds of a creature inside the warehouse stops you. Place an Explore token as indicated.
+EventWarehouse2_PlaceExploreWarehouseBasement.button1,Continue
+EventWarehouse2_PlaceExploreWarehouseBasement.text,A nondescript door leads to the main portion of the warehouse. Place an Explore token as indicated.
+EventWarehouse2_PlaceInvestigators.button1,Continue
+EventWarehouse2_PlaceInvestigators.text,You approach the warehouse, unsure of the best way inside. Place your Investigator figures as indicated.
+EventWarehouse2_PlaceLightsource.button1,Continue
+EventWarehouse2_PlaceLightsource.text,There is a source of light on the floor of the warehouse, just out of sight. You hope that whoever was originally holding it managed to escape with their life. Place the {c:QItemLightsource} Common Item as indicated.
+EventWarehouse2_PlaceSearchBarrel.button1,Continue
+EventWarehouse2_PlaceSearchBarrel.text,The room is full of empty boxes and barrels left behind by the previous owner. A lone sealed barrel stands out, having somehow been left behind inside the dilapidated warehouse. Place a Search token as indicated.
+EventWarehouse2_PlaceSearchBody.button1,Continue
+EventWarehouse2_PlaceSearchBody.text,Your heart sinks as you spot a body lying facedown amongst some boxes. This must be one of the poor souls who entered this accursed building before you. Place a Search token as indicated.
+EventWarehouse2_PlaceSearchBookshelf.button1,Continue
+EventWarehouse2_PlaceSearchBookshelf.text,Inside the office, an old bookshelf has been recently populated with various knick-knacks. Place a Search token as indicated.
+EventWarehouse2_PlaceSearchEmptyBox.button1,Continue
+EventWarehouse2_PlaceSearchEmptyBox.text,Amongst the rotting wood and cardboard, you spot an empty box that looks suspiciously intact. Place a Search token as indicated.
+EventWarehouse2_PlaceSearchFurnace.button1,Continue
+EventWarehouse2_PlaceSearchFurnace.text,The reflection of a metal object buried in the ash of the furnace briefly flashes in the darkness. Place a Search token as indicated.
+EventWarehouse2_PlaceStudy.button1,Continue
+EventWarehouse2_PlaceStudy.text,You push against the door, and with a loud creak reveal an office shrouded in darkness. Discard this Explore token and place the {c:TileWarehouse2_Study} tile as indicated. Then place Darkness in each space of the {c:TileWarehouse2_Study}
+EventWarehouse2_PlaceWarehouse.button1,Continue
+EventWarehouse2_PlaceWarehouse.text,You open the door, revealing the cavernous warehouse filled with discarded items left by the previous owner. Place the {c:TileWarehouse2_Warehouse} tile, a Door, and a Wall as indicated and discard all Explore tokens leading to it.
+EventWarehouse2_PlaceWarehouseBarricade.button1,Continue
+EventWarehouse2_PlaceWarehouseBarricade.text,Some of the junk left in the warehouse could be used to barricade a door if the need arose. Place a Barricade as indicated.
 EventWarehouseEnd_HorrificHiveAlive.button1,Continue
 EventWarehouseEnd_HorrificHiveAlive.text,You flee from the infested warehouse, sprinting away at full speed. Clear the board. Though you try to suppress the thought, deep down you know the monsters spilling out of this building will kill hundreds before they can be contained. Each investigator suffers 2 Horror.
 EventWarehouseEnd_MissionComplete.button1,Continue
@@ -1201,14 +1244,14 @@ SpawnPalace_LoungeStarVampire.button1,Continue
 SpawnPalace_LoungeStarVampire.text,From the other side of the room you see the faint shimmer of a barely visible indescribable creature of great horror. Spawn a {c:SpawnPalace_LoungeStarVampire} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_BasementCrawlingOne.button1,Continue
 SpawnWarehouse_BasementCrawlingOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_BasementCrawlingOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_BasementCrawlingOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_BasementCrawlingOne} as indicated. Then suffer 2 Horror ({will} negates).
-SpawnWarehouse_BasementCultLeader.button1,Continue
-SpawnWarehouse_BasementCultLeader.text,In the darkness, a {c:SpawnWarehouse_BasementCultLeader} is standing over the corpse of one of his comrades. He mutters various prayers in forbidden languages. As you inch forward to get a better look, you accidentally knock over a stack of boxes. The {c:SpawnWarehouse_BasementCultLeader} snaps his head in your direction. Spawn a {c:SpawnWarehouse_BasementCultLeader} and place a Search token as indicated.
+SpawnWarehouse_BasementCultist.button1,Continue
+SpawnWarehouse_BasementCultist.text,In the darkness, a {c:SpawnWarehouse_BasementCultist} is standing over the corpse of one of his comrades. He mutters various prayers in forbidden languages. As you inch forward to get a better look, you accidentally knock over a stack of boxes. The {c:SpawnWarehouse_BasementCultist} snaps his head in your direction. Spawn a {c:SpawnWarehouse_BasementCultist} and place a Search token as indicated.
 SpawnWarehouse_BasementDeepOne.button1,Continue
 SpawnWarehouse_BasementDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_BasementDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_BasementDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_BasementDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_BasementHorrificHive_ChildOfDagon.button1,Continue
-SpawnWarehouse_BasementHorrificHive_ChildOfDagon.text,|||As your eyes adjust to the darkness a horrific sight becomes apparent to you. Near the furnace a mass of what looks to be flesh is growing on the floor. You realise in horror that there is a humans face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_BasementHorrificHive_ChildOfDagon}.|||
+SpawnWarehouse_BasementHorrificHive_ChildOfDagon.text,|||As your eyes adjust to the darkness a horrific sight becomes apparent to you. Near the furnace a mass of what looks to be flesh is growing on the floor. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_BasementHorrificHive_ChildOfDagon}.|||
 SpawnWarehouse_BasementHorrificHive.button1,Continue
-SpawnWarehouse_BasementHorrificHive.text,|||As your eyes adjust to the darkness a horrific sight becomes apparent to you. Near the furnace a mass of what looks to be flesh is growing on the floor. You realise in horror that there is a humans face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Formless Spawn as indicated. This is {c:SpawnWarehouse_BasementHorrificHive}.|||
+SpawnWarehouse_BasementHorrificHive.text,|||As your eyes adjust to the darkness a horrific sight becomes apparent to you. Near the furnace a mass of what looks to be flesh is growing on the floor. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Formless Spawn as indicated. This is {c:SpawnWarehouse_BasementHorrificHive}.|||
 SpawnWarehouse_BasementHuntingDeepOne.button1,Continue
 SpawnWarehouse_BasementHuntingDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_BasementHuntingDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_BasementHuntingDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_BasementHuntingDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_BasementHuntingHorror.button1,Continue
@@ -1227,14 +1270,14 @@ SpawnWarehouse_RootCellarMiGo.button1,Continue
 SpawnWarehouse_RootCellarMiGo.text,Within the darkness you hear the unmistakable gurgling of a feral creature. You catch a glimpse of it in the moonlight, and your mind cannot help imagining the rest of its horrific form. Spawn a {c:SpawnWarehouse_RootCellarMiGo} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_StudyCrawlingOne.button1,Continue
 SpawnWarehouse_StudyCrawlingOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_StudyCrawlingOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_StudyCrawlingOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_StudyCrawlingOne} as indicated. Then suffer 2 Horror ({will} negates).
-SpawnWarehouse_StudyCultLeader.button1,Continue
-SpawnWarehouse_StudyCultLeader.text,At the back of the room, a {c:SpawnWarehouse_StudyCultLeader} is standing over the corpse of one of his comrades. He mutters various prayers in forbidden languages. As you silently observe, your body weight leans on an old floorboard, unleashing a loud creak. The {c:SpawnWarehouse_StudyCultLeader} snaps his head in your direction. Spawn a {c:SpawnWarehouse_StudyCultLeader} and place a Search token as indicated.
+SpawnWarehouse_StudyCultist.button1,Continue
+SpawnWarehouse_StudyCultist.text,At the back of the room, a {c:SpawnWarehouse_StudyCultist} is standing over the corpse of one of his comrades. He mutters various prayers in forbidden languages. As you silently observe, your body weight leans on an old floorboard, unleashing a loud creak. The {c:SpawnWarehouse_StudyCultist} snaps his head in your direction. Spawn a {c:SpawnWarehouse_StudyCultist} and place a Search token as indicated.
 SpawnWarehouse_StudyDeepOne.button1,Continue
 SpawnWarehouse_StudyDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_StudyDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_StudyDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_StudyDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_StudyHorrificHive_ChildOfDagon.button1,Continue
-SpawnWarehouse_StudyHorrificHive_ChildOfDagon.text,|||As you look further into the room you spot a horrific sight. Near the back wall a mass of what looks to be flesh is growing out of the floorboards. You realise in horror that there is a humans face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_StudyHorrificHive_ChildOfDagon}.|||
+SpawnWarehouse_StudyHorrificHive_ChildOfDagon.text,|||As you look further into the room you spot a horrific sight. Near the back wall a mass of what looks to be flesh is growing out of the floorboards. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse_StudyHorrificHive_ChildOfDagon}.|||
 SpawnWarehouse_StudyHorrificHive.button1,Continue
-SpawnWarehouse_StudyHorrificHive.text,|||As you look further into the room you spot a horrific sight. Near the back wall a mass of what looks to be flesh is growing out of the floorboards. You realise in horror that there is a humans face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Formless Spawn as indicated. This is {c:SpawnWarehouse_StudyHorrificHive}.|||
+SpawnWarehouse_StudyHorrificHive.text,|||As you look further into the room you spot a horrific sight. Near the back wall a mass of what looks to be flesh is growing out of the floorboards. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Formless Spawn as indicated. This is {c:SpawnWarehouse_StudyHorrificHive}.|||
 SpawnWarehouse_StudyHuntingDeepOne.button1,Continue
 SpawnWarehouse_StudyHuntingDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse_StudyHuntingDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse_StudyHuntingDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse_StudyHuntingDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnWarehouse_StudyHuntingHorror.button1,Continue
@@ -1251,6 +1294,58 @@ SpawnWarehouse_WarehouseHuntingHorror.button1,Continue
 SpawnWarehouse_WarehouseHuntingHorror.text,A {c:SpawnWarehouse_WarehouseHuntingHorror} stumbles around the warehouse, covered in gooey birthing fluids and looking rather helpless. Once the creature spots you however, it becomes clear that it is anything but. Spawn a {c:SpawnWarehouse_WarehouseHuntingHorror} as indicated.
 SpawnWarehouse_WarehouseMiGo.button1,Continue
 SpawnWarehouse_WarehouseMiGo.text,A {c:SpawnWarehouse_WarehouseMiGo} stumbles around the warehouse, covered in gooey birthing fluids and looking rather helpless. Once the creature spots you however, it becomes clear that it is anything but. Spawn a {c:SpawnWarehouse_WarehouseMiGo} as indicated.
+SpawnWarehouse2_BasementCrawlingOne.button1,Continue
+SpawnWarehouse2_BasementCrawlingOne.text,Within the darkness you hear the unmistakable gurgling of a feral creature. You catch a glimpse of it in the moonlight, and your mind cannot help imagining the rest of its horrific form. Spawn a {c:SpawnWarehouse2_BasementCrawlingOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BasementDeepOne.button1,Continue
+SpawnWarehouse2_BasementDeepOne.text,Within the darkness you hear the unmistakable gurgling of a feral creature. You catch a glimpse of it in the moonlight, and your mind cannot help imagining the rest of its horrific form. Spawn a {c:SpawnWarehouse2_BasementDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BasementHuntingDeepOne.button1,Continue
+SpawnWarehouse2_BasementHuntingDeepOne.text,Within the darkness you hear the unmistakable gurgling of a feral creature. You catch a glimpse of it in the moonlight, and your mind cannot help imagining the rest of its horrific form. Spawn a {c:SpawnWarehouse2_BasementHuntingDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BasementHuntingHorror.button1,Continue
+SpawnWarehouse2_BasementHuntingHorror.text,Within the darkness you hear the unmistakable gurgling of a feral creature. You catch a glimpse of it in the moonlight, and your mind cannot help imagining the rest of its horrific form. Spawn a {c:SpawnWarehouse2_BasementHuntingHorror} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BasementMiGo.button1,Continue
+SpawnWarehouse2_BasementMiGo.text,Within the darkness you hear the unmistakable gurgling of a feral creature. You catch a glimpse of it in the moonlight, and your mind cannot help imagining the rest of its horrific form. Spawn a {c:SpawnWarehouse2_BasementMiGo} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BellTowerCrawlingOne.button1,Continue
+SpawnWarehouse2_BellTowerCrawlingOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_BellTowerCrawlingOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_BellTowerCrawlingOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_BellTowerCrawlingOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BellTowerCultist.button1,Continue
+SpawnWarehouse2_BellTowerCultist.text,Looking up into the tower, you notice that its eponymous bell is missing. In its place a robed figure is attempting to hang the body of their dead comrade. When they spot you, they let the body crumple to the ground. Spawn a {c:SpawnWarehouse2_BellTowerCultist} and place a Search token as indicated.
+SpawnWarehouse2_BellTowerDeepOne.button1,Continue
+SpawnWarehouse2_BellTowerDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_BellTowerDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_BellTowerDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_BellTowerDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BellTowerHorrificHive_ChildOfDagon.button1,Continue
+SpawnWarehouse2_BellTowerHorrificHive_ChildOfDagon.text,|||Looking up into the tower, you notice that its eponymous bell is missing. In its place is a mass of what looks to be flesh growing out of a support beam. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse2_BellTowerHorrificHive_ChildOfDagon}.|||
+SpawnWarehouse2_BellTowerHorrificHive.button1,Continue
+SpawnWarehouse2_BellTowerHorrificHive.text,|||Looking up into the tower, you notice that its eponymous bell is missing. In its place is a mass of what looks to be flesh growing out of a support beam. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Formless Spawn as indicated. This is {c:SpawnWarehouse2_BellTowerHorrificHive}.|||
+SpawnWarehouse2_BellTowerHuntingDeepOne.button1,Continue
+SpawnWarehouse2_BellTowerHuntingDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_BellTowerHuntingDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_BellTowerHuntingDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_BellTowerHuntingDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BellTowerHuntingHorror.button1,Continue
+SpawnWarehouse2_BellTowerHuntingHorror.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_BellTowerHuntingHorror}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_BellTowerHuntingHorror} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_BellTowerHuntingHorror} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_BellTowerMiGo.button1,Continue
+SpawnWarehouse2_BellTowerMiGo.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_BellTowerMiGo}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_BellTowerMiGo} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_BellTowerMiGo} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_StudyCrawlingOne.button1,Continue
+SpawnWarehouse2_StudyCrawlingOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_StudyCrawlingOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_StudyCrawlingOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_StudyCrawlingOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_StudyCultist.button1,Continue
+SpawnWarehouse2_StudyCultist.text,At the back of the room, a {c:SpawnWarehouse2_StudyCultist} is standing over the corpse of one of his comrades. He mutters various prayers in forbidden languages. As you silently observe, your body weight leans on an old floorboard, unleashing a loud creak. The {c:SpawnWarehouse2_StudyCultist} snaps his head in your direction. Spawn a {c:SpawnWarehouse2_StudyCultist} and place a Search token as indicated.
+SpawnWarehouse2_StudyDeepOne.button1,Continue
+SpawnWarehouse2_StudyDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_StudyDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_StudyDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_StudyDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_StudyHorrificHive_ChildOfDagon.button1,Continue
+SpawnWarehouse2_StudyHorrificHive_ChildOfDagon.text,|||As you look further into the room you spot a horrific sight. Near the back wall a mass of what looks to be flesh is growing out of the floorboards. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Child of Dagon as indicated. This is {c:SpawnWarehouse2_StudyHorrificHive_ChildOfDagon}.|||
+SpawnWarehouse2_StudyHorrificHive.button1,Continue
+SpawnWarehouse2_StudyHorrificHive.text,|||As you look further into the room you spot a horrific sight. Near the back wall a mass of what looks to be flesh is growing out of the floorboards. You realise in horror that there is a human's face in the mass, and it is staring back at you. You see the mouth silently form the words "Kill me." Spawn a Formless Spawn as indicated. This is {c:SpawnWarehouse2_StudyHorrificHive}.|||
+SpawnWarehouse2_StudyHuntingDeepOne.button1,Continue
+SpawnWarehouse2_StudyHuntingDeepOne.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_StudyHuntingDeepOne}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_StudyHuntingDeepOne} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_StudyHuntingDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_StudyHuntingHorror.button1,Continue
+SpawnWarehouse2_StudyHuntingHorror.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_StudyHuntingHorror}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_StudyHuntingHorror} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_StudyHuntingHorror} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_StudyMiGo.button1,Continue
+SpawnWarehouse2_StudyMiGo.text,The disgusting mass writhes and pulsates, then an orifice on top of it starts slowly opening up. Before your very eyes it births a {c:SpawnWarehouse2_StudyMiGo}. Within seconds of leaving the hive, the {c:SpawnWarehouse2_StudyMiGo} is alert and ready to consume anyone within range. Spawn a {c:SpawnWarehouse2_StudyMiGo} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnWarehouse2_WarehouseCrawlingOne.button1,Continue
+SpawnWarehouse2_WarehouseCrawlingOne.text,A {c:SpawnWarehouse2_WarehouseCrawlingOne} stumbles around the warehouse, covered in gooey birthing fluids and looking rather helpless. Once the creature spots you however, it becomes clear that it is anything but. Spawn a {c:SpawnWarehouse2_WarehouseCrawlingOne} as indicated.
+SpawnWarehouse2_WarehouseDeepOne.button1,Continue
+SpawnWarehouse2_WarehouseDeepOne.text,A {c:SpawnWarehouse2_WarehouseDeepOne} stumbles around the warehouse, covered in gooey birthing fluids and looking rather helpless. Once the creature spots you however, it becomes clear that it is anything but. Spawn a {c:SpawnWarehouse2_WarehouseDeepOne} as indicated.
+SpawnWarehouse2_WarehouseHuntingDeepOne.button1,Continue
+SpawnWarehouse2_WarehouseHuntingDeepOne.text,A {c:SpawnWarehouse2_WarehouseHuntingDeepOne} stumbles around the warehouse, covered in gooey birthing fluids and looking rather helpless. Once the creature spots you however, it becomes clear that it is anything but. Spawn a {c:SpawnWarehouse2_WarehouseHuntingDeepOne} as indicated.
+SpawnWarehouse2_WarehouseHuntingHorror.button1,Continue
+SpawnWarehouse2_WarehouseHuntingHorror.text,A {c:SpawnWarehouse2_WarehouseHuntingHorror} stumbles around the warehouse, covered in gooey birthing fluids and looking rather helpless. Once the creature spots you however, it becomes clear that it is anything but. Spawn a {c:SpawnWarehouse2_WarehouseHuntingHorror} as indicated.
+SpawnWarehouse2_WarehouseMiGo.button1,Continue
+SpawnWarehouse2_WarehouseMiGo.text,A {c:SpawnWarehouse2_WarehouseMiGo} stumbles around the warehouse, covered in gooey birthing fluids and looking rather helpless. Once the creature spots you however, it becomes clear that it is anything but. Spawn a {c:SpawnWarehouse2_WarehouseMiGo} as indicated.
 TokenDock_SearchBlackStall.button1,{action} Investigate
 TokenDock_SearchBlackStall.text,Strangely, while the stall itself has been closed for the night, a table laid out with goods from the stall has been left out.
 TokenDock_SearchBlueStall.button1,{action} Investigate
@@ -1318,7 +1413,7 @@ TokenDock2_SightBeachPier.text,The large wooden boards of the dock obscure the s
 TokenDock2_SightBeachStreetCorner1.button1,Reveal
 TokenDock2_SightBeachStreetCorner1.text,The shoreline of the river is just out of sight from your current position. An investigator in {c:TileDock2_StreetCorner1} may reveal the adjacent area.
 TokenDock2_SightPierBeach.button1,Reveal
-TokenDock2_SightPierBeach.text,A light haze obscures the docks futher down the shore. An investigator in the {c:TileDock2_Beach} or {c:TileDock2_HouseBoat} may reveal the adjacent area.
+TokenDock2_SightPierBeach.text,A light haze obscures the docks further down the shore. An investigator in the {c:TileDock2_Beach} or {c:TileDock2_HouseBoat} may reveal the adjacent area.
 TokenDock2_SightPierStreetCorner2.button1,Reveal
 TokenDock2_SightPierStreetCorner2.text,The shoreline of the river is just out of sight from your current position. An investigator in {c:TileDock2_StreetCorner2} may reveal the adjacent area.
 TokenHouse_ExploreBathroom.button1,{action} Explore
@@ -1459,6 +1554,30 @@ TokenWarehouse_SearchEmptyBox.button1,{action} Investigate
 TokenWarehouse_SearchEmptyBox.text,Amongst the rotting wood and cardboard sits an empty box, looking suspiciously intact.
 TokenWarehouse_SearchFurnace.button1,{action} Investigate
 TokenWarehouse_SearchFurnace.text,You think you saw a metal object buried deep in the ash of the furnace.
+TokenWarehouse2_ExploreBasementAlleyCorner1.button1,{action} Explore
+TokenWarehouse2_ExploreBasementAlleyCorner1.text,A side door for the warehouse leads deeper into the building.
+TokenWarehouse2_ExploreBasementWarehouse.button1,{action} Explore
+TokenWarehouse2_ExploreBasementWarehouse.text,A door at the far end of the warehouse leads further into the building.
+TokenWarehouse2_ExploreBellTower.button1,{action} Explore
+TokenWarehouse2_ExploreBellTower.text,A faint light is visible from the crack underneath a door.
+TokenWarehouse2_ExploreStudy.button1,{action} Explore
+TokenWarehouse2_ExploreStudy.text,In the darkness you barely make out the shape of a door.
+TokenWarehouse2_ExploreWarehouseAlleyCorner1.button1,{action} Explore
+TokenWarehouse2_ExploreWarehouseAlleyCorner1.text,A large door leads to an abandoned warehouse for industrial materials and products.
+TokenWarehouse2_ExploreWarehouseAlleyCorner2.button1,{action} Explore
+TokenWarehouse2_ExploreWarehouseAlleyCorner2.text,A large door leads to an abandoned warehouse for industrial materials and products.
+TokenWarehouse2_ExploreWarehouseBasement.button1,{action} Explore
+TokenWarehouse2_ExploreWarehouseBasement.text,A nondescript door leads to the main portion of the warehouse.
+TokenWarehouse2_SearchBarrel.button1,{action} Investigate
+TokenWarehouse2_SearchBarrel.text,A lone sealed barrel stands out amongst a crowd of empty ones.
+TokenWarehouse2_SearchBody.button1,{action} Investigate
+TokenWarehouse2_SearchBody.text,A body lies facedown amongst some boxes. This must be one of the poor souls who entered this accursed building before you.
+TokenWarehouse2_SearchBookshelf.button1,{action} Investigate
+TokenWarehouse2_SearchBookshelf.text,Various knick-knacks line the shelf, having only recently been placed there.
+TokenWarehouse2_SearchEmptyBox.button1,{action} Investigate
+TokenWarehouse2_SearchEmptyBox.text,Amongst the rotting wood and cardboard sits an empty box, looking suspiciously intact.
+TokenWarehouse2_SearchFurnace.button1,{action} Investigate
+TokenWarehouse2_SearchFurnace.text,You think you saw a metal object buried deep in the ash of the furnace.
 UICutsceneEnd.uitext,The End
 UICutsceneFrame.button1,Continue
 UIDock_IntroContinue.uitext,Continue

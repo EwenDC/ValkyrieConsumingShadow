@@ -31,15 +31,11 @@ EventDock_ContinueCratePuzzle.text,Zawartość skrzyni jest wciąż zamknięta p
 EventDock_CratePuzzleStart.button1,Kontynuuj
 EventDock_CratePuzzleStart.text,Sięgasz po skrzynię, ale magiczna energia powstrzymuje cię, zanim zdążysz jej dotknąć. Używasz całej swojej siły woli, aby pokonać tę nienaturalną barierę. Naciśnij, aby spróbować rozwiązać łamigłówkę przy pomocy {will}.
 EventDock_CultistJeer_Correct.button1,Kontynuuj
-EventDock_CultistJeer_Correct.text,The Cultist staggers back, looking visibly shocked. Clearly, you have hit the nail on the head. Gain 2 Clues.
 EventDock_CultistJeer_IncorrectNegative.button1,Kontynuuj
-EventDock_CultistJeer_IncorrectNegative.text,Rage fills the Cultist's face, and he starts hurling gibberish abuse at you. Clearly, the name you used upset him deeply. Gain 1 Clue.
 EventDock_CultistJeer_IncorrectPositive.button1,Kontynuuj
-EventDock_CultistJeer_IncorrectPositive.text,The Cultist gives you a confused look, before bursting into laughter. Clearly, you failed to name his master, though he did not resent the name you used instead. Gain 1 Clue.
 EventDock_CultistJeer.button1,Czy wykonujesz rozkazy Hastura?
 EventDock_CultistJeer.button2,Po co tracić tak wiele tylko po to, by służyć Yigowi?
 EventDock_CultistJeer.button3,Jakimi kłamstwami karmi cię Zhar, szaleńcze?
-EventDock_CultistJeer.text,The Cultist raises his fist and starts angrily yelling gibberish at you. While the words make absolutely no sense, the meaning behind them is clear.
 EventDock_ExploreCabin.button1,Kontynuuj
 EventDock_ExploreCabin.text,"Wkładasz klucz do drzwi, odblokowując je z kliknięciem. Wewnątrz łodzi znajduje się przytulna przestrzeń mieszkalna przeznaczona dla jednego mieszkańca. \n\nOdrzuć wszystkie Żetony Eksploracji prowadzące do kabiny."
 EventDock_ExploreCabinKey.button1,{action} Eksploruj
@@ -67,7 +63,6 @@ EventDock_GreenCrateTrap.button1,Kontynuuj
 EventDock_GreenCrateTrap.text,"Otwierasz skrzynię i okazuje się, że jest całkowicie pusta. Runy na powierzchni drewna jarzą się złowieszczo, a morze wokół ciebie staje się coraz bardziej wzburzone. Duża fala nagle uderza w łódź, rzucając cię na ziemię. \n\nKażdy Badacz znajdujący się w kabinie otrzymuje 1 Zakrytą Kartę Obrażenia. Odrzuć ten Żeton Przeszukiwania."
 EventDock_GreenItemPickup.button1,Kontynuuj
 EventDock_GreenItemPickup.button2,Pokaż wskazówkę
-EventDock_GreenItemPickup.text,While you don't find the cursed object, you spot an important piece of evidence hidden amongst the junk. You see a pendant that, while innocuous to the untrained eye, is clearly a cult's membership token. You presume it was misplaced from a recent shipment, as a shipping tag has been tied to it. Gain the {c:QItemCultSigil} Unique Item. Then discard this Search token. The investigator holding the {c:QItemCultSigil} can view the associated clue by interacting with it in the app.
 EventDock_GreenKeyPickup.button1,Kontynuuj
 EventDock_GreenKeyPickup.text,|||Wśród sterty bezużytecznych drobiazgów nagle dostrzegasz małą, skórzaną sakiewkę zawierającą {c:QItemGoldKey}. Sakiewka posiada wyhaftowaną wiadomość o treści: "Bądź silny umysłem". \n\nOtrzymujesz przedmiot unikatowy {c:QItemGoldKey}. Odrzuć ten Żeton Przeszukiwania.|||
 EventDock_PlaceDock1.button1,Kontynuuj
@@ -107,7 +102,6 @@ EventDock_PlaceSearchRentalDockGoods.text,"Wśród łodzi dostępnych do wynaję
 EventDock_PlaceSearchRowboat.button1,Kontynuuj
 EventDock_PlaceSearchRowboat.text,"Zniszczona łódź znajduje się już w połowie pod morską tonią. Wygląda na to, że plandeka niedbale rzucona na łódź została niedawno naruszona, a jeden z jej rogów łopocze na wietrze. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock_PlaceSedatives.button1,Kontynuuj
-EventDock_PlaceSedatives.text,A useful item has been carelessly discarded on the dock, perhaps misplaced from a larger shipment. Place the {c:QItemSedatives} Common Item as indicated.
 EventDock_PlaceSightDock1Street2.button1,Kontynuuj
 EventDock_PlaceSightDock1Street2.text,"Na północy ulica ustępuje miejsca dokowi. \n\nUmieść Żeton Obserwacji we wskazanym miejscu. Badacz stojący na polu {c:TileDock_Street2} może wejść w interakcję z tym żetonem, aby odsłonić sąsiedni obszar."
 EventDock_PlaceSightDock2HouseBoat.button1,Kontynuuj
@@ -209,92 +203,58 @@ EventDock_WomanNote.text,|||Rozwijasz notatkę i czytasz ją uważnie. "Otwórzc
 EventDock2_ExploreCabin.button1,Kontynuuj
 EventDock2_ExploreCabin.text,"Wkładasz klucz do drzwi, odblokowując je z kliknięciem. Wewnątrz łodzi znajduje się przytulna przestrzeń mieszkalna przeznaczona dla jednego mieszkańca. \n\nOdrzuć wszystkie Żetony Eksploracji prowadzące do kabiny."
 EventDock2_ExploreMoldyShack.button1,Kontynuuj
-EventDock2_ExploreMoldyShack.text,You turn the key and hear an audible click. The door grinds against the dilapidated floorboards of the old shack as you force it open. Discard this Explore token. 
 EventDock2_ExploreMoldyShackKey.button1,{action} Eksploruj
 EventDock2_ExploreMoldyShackKey.button2,Anuluj
-EventDock2_ExploreMoldyShackKey.text,A small nondescript shack is sealed shut by a pristine silver lock. You can explore only if you have the {c:QItemSilverKey} Unique Item.
 EventDock2_ExploreMoldyShackNoKey.button1,Kontynuuj
-EventDock2_ExploreMoldyShackNoKey.text,A small nondescript shack is sealed shut by a pristine silver lock.
 EventDock2_ExploreSnackShack.button1,Kontynuuj
 EventDock2_ExploreSnackShack.text,"Zdejmujesz kłódki zabezpieczające łańcuchy, uwalniając wątłe drzwi. Ostrożnie pociągasz za klamkę, odsłaniając wnętrze chaty. \n\nOdrzuć ten Żeton Eksploracji."
 EventDock2_ExploreStorefront.button1,Kontynuuj
-EventDock2_ExploreStorefront.text,A little bell dings as you open the door to the shop. Discard this Explore token. 
 EventDock2_PlaceBeach.button1,Kontynuuj
-EventDock2_PlaceBeach.text,On the shoreline you spot a ruined house boat washed up on the shore. Place the {c:TileDock2_Beach} and the {c:TileDock2_HouseBoat} tiles as indicated. Then discard all Sight tokens leading to them.
 EventDock2_PlaceBilliardsRoom.button1,Kontynuuj
-EventDock2_PlaceBilliardsRoom.text,You open the door to reveal a small dimly lit room, barely more than a hole in the wall. Place the {c:TileDock2_BilliardsRoom} tile and a door as indicated and discard all Explore tokens leading to it.
 EventDock2_PlaceExploreMoldyShack.button1,Kontynuuj
-EventDock2_PlaceExploreMoldyShack.text,On the shoreline sits a small nondescript shack. Its dilapidated appearance is interrupted by a pristine locked door with a silver lock. Place an Explore token as indicated.
 EventDock2_PlaceExploresBilliardsRoom.button1,Kontynuuj
-EventDock2_PlaceExploresBilliardsRoom.text,Oh the other side of the street you see the facade of a small billiards hall. Place Explore tokens as indicated.
 EventDock2_PlaceExploresCabin.button1,Kontynuuj
 EventDock2_PlaceExploresCabin.text,"Drzwi na dziobie i rufie łodzi prowadzą do niewielkiej przestrzeni wewnętrznej. W obu drzwiach znajdują się zdobione, złote dziurki na klucz, które wydają się być zamknięte. \n\nUmieść Żetony Eksploracji we wskazanych miejscach."
 EventDock2_PlaceExploreSnackShack.button1,Kontynuuj
 EventDock2_PlaceExploreSnackShack.text,"Ta niewielka chatka przykuwa twoją uwagę. Choć budynek sprawia wrażenie opuszczonego i nie zawierającego w sobie nic wartościowego, to jednak zauważasz, że ktoś zadbał o to, aby nikt nieproszony nie zdołał wejść do środka. Chatka została bowiem solidnie zabezpieczona ciężkimi łańcuchami z mosiężnymi zamkami. \n\nUmieść Żeton Eksploracji we wskazanym miejscu."
 EventDock2_PlaceExploreStorefront.button1,Kontynuuj
-EventDock2_PlaceExploreStorefront.text,A small trinket store, despite showing no signs of life, appears to still be open. Place an Explore token as indicated.
 EventDock2_PlacePier.button1,Kontynuuj
-EventDock2_PlacePier.text,To the north you sight some docks on the river. Place the {c:TileDock2_Pier} tile as indicated and discard all Sight tokens leading to it.
 EventDock2_PlacePierGoods.button1,Kontynuuj
-EventDock2_PlacePierGoods.text,Various piles of junk litter the dock. While on the surface uninteresting, you conclude that it would not hurt to search them anyway. Place Search tokens as indicated.
 EventDock2_PlaceSearchBar.button1,Kontynuuj
-EventDock2_PlaceSearchBar.text,A small bar has been repurposed as storage for some suspicious unmarked crates. Place a Search token as indicated.
 EventDock2_PlaceSearchBlueCrate.button1,Kontynuuj
 EventDock2_PlaceSearchBlueCrate.text,"Wnętrze szałasu jest całkowicie puste, z wyjątkiem jednej skrzyni ładunkowej, która została umieszczona na jego środku. Pojemnik został pokryty niebieskimi runami, a powietrze wokół niego iskrzy od dziwnej energii. Być może zawiera on komponenty, których szukasz. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock2_PlaceSearchesBeach.button1,Kontynuuj
-EventDock2_PlaceSearchesBeach.text,Cargo from the wrecked ship covers its ruined deck and the beach beside it. Place Search tokens as indicated.
 EventDock2_PlaceSearchesStorefront.button1,Kontynuuj
-EventDock2_PlaceSearchesStorefront.text,You spot a number of places inside that an item from the cursed crate may have ended up. Place Search tokens as indicated.
 EventDock2_PlaceSearchGreenCrate.button1,Kontynuuj
 EventDock2_PlaceSearchGreenCrate.text,Dziwna skrzynia została wepchnięta w róg kabiny. Pojemnik został pokryty zielonymi runami, a powietrze wokół niego iskrzy od dziwnej energii. Być może zawiera on komponenty, których szukasz.
 EventDock2_PlaceSearchPosters.button1,Kontynuuj
 EventDock2_PlaceSearchPosters.text,"Ceglana ściana tego budynku została pokryta różnymi ulotkami i plakatami. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock2_PlaceSearchRedCrate.button1,Kontynuuj
-EventDock2_PlaceSearchRedCrate.text,In a pile of decayed wood you spot an intact red crate. There is a faint glow coming from within, and a tag covered in ancient runes has been attached to it. This may contain the components you are looking for. Place a Search token as indicated.
 EventDock2_PlaceSearchRowboat.button1,Kontynuuj
 EventDock2_PlaceSearchRowboat.text,"Zniszczona łódź znajduje się już w połowie pod morską tonią. Wygląda na to, że plandeka niedbale rzucona na łódź została niedawno naruszona, a jeden z jej rogów łopocze na wietrze. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock2_PlaceSedatives.button1,Kontynuuj
-EventDock2_PlaceSedatives.text,A useful item is poking out of the cushion cracks of a small sofa, presumably having fallen out of a pocket unnoticed. Place the {c:QItemSedatives} Common Item as indicated.
 EventDock2_PlaceSightBeachPier.button1,Kontynuuj
-EventDock2_PlaceSightBeachPier.text,The large wooden boards of the dock obscure the shoreline below. Place a Sight token as indicated. An investigator in the {c:TileDock2_Pier} may reveal the adjacent area.
 EventDock2_PlaceSightPierBeach.button1,Kontynuuj
-EventDock2_PlaceSightPierBeach.text,A light haze obscures the docks further down the shore. Place a Sight token as indicated. An investigator in the {c:TileDock2_Beach} or {c:TileDock2_HouseBoat} may reveal the adjacent area.
 EventDock2_PlaceSightsStreetCorners.button1,Kontynuuj
-EventDock2_PlaceSightsStreetCorners.text,The shoreline of the river is just out of sight from your current position. Place Sight tokens as indicated.
 EventDock2_PlaceStorefrontSideStreet1.button1,Kontynuuj
-EventDock2_PlaceStorefrontSideStreet1.text,You make your way down the winding streets of the commercial district and towards the dock. Place the {c:TileDock2_Storefront} and the {c:TileDock2_SideStreet1} tiles and your Investigator figures as indicated.
 EventDock2_PlaceStreetCorners.button1,Kontynuuj
-EventDock2_PlaceStreetCorners.text,Ahead of you is a street running along the shoreline of Miskatonic River. Place the {c:TileDock2_StreetCorner1} and the {c:TileDock2_StreetCorner2} tiles and a wall indicated.
 EventDock2_RedCrateTrap.button1,Kontynuuj
-EventDock2_RedCrateTrap.text,As you tear the lid off the box, the corner of the room begins to crumble, almost as if it had been structurally supported by the crate. An avalanche of soft rotten wood pushes you deep into the large piles of detritus within the shack. Each investigator in the Rental Shack drops 1 random Item. Then discard this Search token.
 EventDock2_SearchBackroomFailure.button1,Kontynuuj
-EventDock2_SearchBackroomFailure.text,You accidentally knock down an open box from a high up shelf, spilling its contents all over the floor. You pause your search to clean up the mess. 
 EventDock2_SearchBackroomSkillCheck.button1,Zatwierdź
-EventDock2_SearchBackroomSkillCheck.text,You begin the laborious process of sorting through the various boxes ({observation}).
 EventDock2_SearchBarFailure.button1,Kontynuuj
-EventDock2_SearchBarFailure.text,After searching through many crates and finding nothing, you finally relent and give your aching arms a rest.
 EventDock2_SearchBarSkillCheck.button1,Zatwierdź
-EventDock2_SearchBarSkillCheck.text,You start the strenuous job of opening each crate to check its contents ({strength}).
 EventDock2_SearchDisplayFailure.button1,Kontynuuj
-EventDock2_SearchDisplayFailure.text,You are so focused on the task at hand that you fail to feel your grasp on the heavy glass lid slip. You notice just in time to pull your arm back before the lid slams shut.
 EventDock2_SearchDisplaySkillCheck.button1,Zatwierdź
-EventDock2_SearchDisplaySkillCheck.button2,Button2
-EventDock2_SearchDisplaySkillCheck.text,You gently lift the glass and slide your arm underneath, rummaging through the trinkets with your hand ({observation}).
 EventDock2_SearchHouseBoatGoodsWFailure.button1,Kontynuuj
 EventDock2_SearchHouseBoatGoodsWFailure.text,Przeszukujesz sterty przedmiotów, ale nie znajdujesz nic interesującego.
 EventDock2_SearchHouseBoatGoodsWSkillCheck.button1,Zatwierdź
-EventDock2_SearchHouseBoatGoodsWSkillCheck.text,You search through the goods laid out on the deck, looking for anything of use ({observation}).
 EventDock2_SearchRedCrate.button1,{action} Otwórz
 EventDock2_SearchRedCrate.button2,Anuluj
-EventDock2_SearchRedCrate.text,In a pile of decayed wood sits a red crate. A faint glow emanates from within, and a tag covered in ancient runes hangs off it. This may contain the components you are looking for.
 EventDock2_SearchShelvesFailure.button1,Kontynuuj
-EventDock2_SearchShelvesFailure.text,You search for what feels like an age, but barely make a dent in the seemingly endless piles of items stuffing the shelves.
 EventDock2_SearchShelvesSkillCheck.button1,Zatwierdź
-EventDock2_SearchShelvesSkillCheck.text,You sift through the vast quantities of junk packing the shelves ({observation}).
 EventDock2_WomanEntrance.button1,Kontynuuj
-EventDock2_WomanEntrance.text,A middle-aged woman turns the street corner, heading in your direction. She stops suddenly as her eyes connect with yours.
 EventDock2_WomanExit.button1,Kontynuuj
-EventDock2_WomanExit.text,She quickly shuffles towards you, and firmly presses a scrunched up note into your hand. Before you can react, the woman hurries down the long winding street leading further into town and out of sight.
+EventDock2_WomanExit.text,Szybko podchodzi do ciebie i zdecydowanym ruchem wciska ci do ręki pomięty skrawek papieru. Zanim zdążysz zareagować na to nietypowe zachowanie, kobieta pospiesznie oddala się długą, krętą ulicą prowadzącą w kierunku centrum miasta i znika ci z pola widzenia.
 EventDockEnd_ComponentsNotTaken.button1,Kontynuuj
 EventDockEnd_ComponentsNotTaken.text,"Biegniecie sprintem przez kręte uliczki Dzielnicy Handlowej, oddalając się od doku. Podczas biegu nie macie nawet odwagi, by spojrzeć za siebie. Goni was śmiertelna cisza oraz zimne, nocne powietrze wypełniające te niegdyś tętniące życiem okolice. \n\nKażdy Badacz otrzymuje 2 Karty Przerażenia.\n\nWyczyśćcie pole gry, usuwając z niego wszystkie kafelki, figurki, żetony oraz przedmioty. "
 EventDockEnd_MissionComplete.button1,Kontynuuj
@@ -311,7 +271,6 @@ EventEliminated_Palace.button1,Kontynuuj
 EventEliminated_Palace.text,Śmierć jednego z badaczy uniemożliwia wam dokończenie kontr-rytuału i wygnanie Przedwiecznego, zanim ten zaatakuje naszą rzeczywistość.
 EventErrorState.button1,Kontynuuj scenariusz
 EventErrorState.button2,Natychmiastowa wygrana
-EventErrorState.text,"!! CRITICAL ERROR !!\n\n{action} You have reached a game state that should not be accessible through normal gameplay. Your scenario may or may not have broken in a way that makes it impossible to continue.\n\n{clue} Please raise a new issue at https://github.com/EwenDC/ValkyrieConsumingShadow/issues with your savegame attached and a list of reproduction steps.\n\n{success} I apologise profusely for the inconvenience. To make up for it, below is an instant win button (although I would kindly recommend restarting the scenario instead of using that button, unless you were almost at the end anyway)."
 EventHorrificHive_ActivationMeleeAttack_Effect1.button1,Kontynuuj
 EventHorrificHive_ActivationMeleeAttack_Effect1.text,Macka przebija twoje ciało, doprowadzając cię do rozdzierającej agonii. Otrzymujesz 2 Zakryte Karty Obrażeń ({strength}-1 neguje).
 EventHorrificHive_ActivationMeleeAttack_Effect2.button1,Kontynuuj
@@ -345,27 +304,17 @@ EventHorrificHive_Horror_Effect3.text,Zastanawiasz się, w jaki sposób doszło 
 EventHorrificHive_Horror_Effect4.button1,Kontynuuj
 EventHorrificHive_Horror_Effect4.text,Spoglądasz na twarz znajdującą się pośrodku tej bezkształtnej masy i ogarnia cię poczucie, że gdzieś już ją widziałeś ({observation}; 2). Jeśli zdałeś, zdajesz sobie sprawę, że się pomyliłeś i stajesz się zdeterminowany, aby ochronić osobę, o której myślałeś; otrzymujesz stan Skoncentrowany. Jeśli nie zdałeś, dochodzisz do wniosku, że znasz tę osobę, a jej potworny los wstrząsa tobą do głębi; otrzymujesz 2 Karty Przerażenia i następnie odwróć 2 Karty Przerażenia.
 EventHouse_CultistJeer_HasturCorrect.button1,Kontynuuj
-EventHouse_CultistJeer_HasturCorrect.text,|||The Cultist grins coyly. "My master is more powerful than you realise." Gain 2 Clues.|||
 EventHouse_CultistJeer_HasturIncorrectNegative.button1,Kontynuuj
-EventHouse_CultistJeer_HasturIncorrectNegative.text,|||You spot a look of what could be mistaken for happiness on the Cultist's face. "The lack of power that devil holds in this realm is exactly why my actions are effective." Gain 1 Clue.|||
 EventHouse_CultistJeer_HasturIncorrectPositive.button1,Kontynuuj
-EventHouse_CultistJeer_HasturIncorrectPositive.text,|||The Cultist smiles wryly. "With his and my Master's power combined, they can do more than you could possibly comprehend." Gain 1 Clue.|||
 EventHouse_CultistJeer_YigCorrect.button1,Kontynuuj
-EventHouse_CultistJeer_YigCorrect.text,|||The Cultist snarls at you. "You are not worth enough to use my masters name." Gain 2 Clues.|||
 EventHouse_CultistJeer_YigIncorrectNegative.button1,Kontynuuj
-EventHouse_CultistJeer_YigIncorrectNegative.text,|||The Cultist's face boils red with rage. "How dare you imply I would commit myself in servitude of that devil." Gain 1 Clue.|||
 EventHouse_CultistJeer_YigIncorrectPositive.button1,Kontynuuj
-EventHouse_CultistJeer_YigIncorrectPositive.text,|||The Cultist laughs at you. "Foolish investigator. Though he may be prosperous and kind, I do not serve him." Gain 1 Clue.|||
 EventHouse_CultistJeer_ZharCorrect.button1,Kontynuuj
-EventHouse_CultistJeer_ZharCorrect.text,|||The Cultist smirks at you. "The riches my master have given me are no deception." Gain 2 Clues.|||
 EventHouse_CultistJeer_ZharIncorrectNegative.button1,Kontynuuj
-EventHouse_CultistJeer_ZharIncorrectNegative.text,|||A look of annoyance flashes across the Cultist's face. "You know little of what you speak of. I have not been deceived; His treachery is well known to me." Gain 1 Clue.|||
 EventHouse_CultistJeer_ZharIncorrectPositive.button1,Kontynuuj
-EventHouse_CultistJeer_ZharIncorrectPositive.text,|||The Cultist gives you a confused look. "Do you wish to imply that Zhar would betray my master? You know not of what you speak." Gain 1 Clue.|||
 EventHouse_CultistJeer.button1,Rzuć broń, sługo Yiga, a zostaniesz oszczędzony.
 EventHouse_CultistJeer.button2,Jesteś zdrajcą ludzkości, kultysto. Zhar cię oszukał.
 EventHouse_CultistJeer.button3,Hastur nie ma tu żadnej władzy. Niczego tu nie osiągniesz.
-EventHouse_CultistJeer.text,|||The Cultist turns his attention away from the Cupboards and onto you. He sneers "You don't look like you'd be carrying much of value on you, but I'd be happy to take what you have regardless."|||
 EventHouse_ExploreBathroom.button1,Kontynuuj
 EventHouse_ExploreBathroom.text,"Otwierasz drzwi prowadzące do łazienki. \n\nOdrzuć ten Żeton Eksploracji."
 EventHouse_ExploreSmallBedroom1.button1,Kontynuuj
@@ -475,7 +424,6 @@ EventHouse_SearchCupboardsFailure.text,Wkładasz całą swoją siłę w próbę 
 EventHouse_SearchCupboardsSkillCheck.button1,Zatwierdź
 EventHouse_SearchCupboardsSkillCheck.text,Zauważasz fałszywy panel z tyłu jednej szafek i próbujesz go oderwać ({strength}).
 EventHouse_SearchCupboardsSuccess.button1,Kontynuuj
-EventHouse_SearchCupboardsSuccess.text,You tear the piece of wood away to reveal a small jewellery box. Inside is what you can only conclude to be the entire life savings of this family. This must be what the Cultist was looking for. Gain 1 clue. Then discard this Search token.
 EventHouse_SearchDiningTableFailureThermos.button1,Kontynuuj
 EventHouse_SearchDiningTableFailureThermos.text,"Wpadasz w panikę i chwytasz cokolwiek, co leży najbliżej ciebie na stole, zbyt późno zdając sobie sprawę, że w obecnym stanie nie może być użyte jako broń. \n\nOtrzymujesz przedmiot powszechny {c:QItemThermos}. Następnie odrzuć ten Żeton Przeszukiwania."
 EventHouse_SearchDiningTableFailureWhiskey.button1,Kontynuuj
@@ -520,39 +468,27 @@ EventHouse_ViewPersonWoman1.text,Kobieta leży w pustej wannie, szamocząc się 
 EventHouse2_ExploreBathroom.button1,Kontynuuj
 EventHouse2_ExploreBathroom.text,"Otwierasz drzwi prowadzące do łazienki. \n\nOdrzuć ten Żeton Eksploracji."
 EventHouse2_InteractPersonWoman2.button1,Kontynuuj
-EventHouse2_InteractPersonWoman2.text,Your initial attempts to converse with the woman fall on deaf ears. You eventually catch her attention, and she nearly jumps for joy upon seeing a friendly face.
 EventHouse2_Place45Automatic.button1,Kontynuuj
-EventHouse2_Place45Automatic.text,On the floor lies an old beat up pistol, presumably dropped in some kind of struggle before it could be used. Place the {c:QItem45Automatic} Common Item as indicated.
 EventHouse2_PlaceBandages.button1,Kontynuuj
 EventHouse2_PlaceBandages.text,Apteczka zawierająca {c:QItemBandages} znajduje się na półce w łazience. Umieść przedmiot powszechny {c:QItemBandages} we wskazanym miejscu.
 EventHouse2_PlaceBathroom.button1,Kontynuuj
-EventHouse2_PlaceBathroom.text,You turn the corner, revealing the end of the hallway. Discard this Sight token. Then place the {c:TileHouse2_Bathroom} tile and a Wall as indicated.
 EventHouse2_PlaceBathroomBarricade.button1,Kontynuuj
 EventHouse2_PlaceBathroomBarricade.text,"Niedawno opróżniona szafka może zostać użyta do zabarykadowania drzwi, jeśli zajdzie taka potrzeba. \n\nUmieść Żeton Barykady we wskazanym miejscu."
 EventHouse2_PlaceBedroom1.button1,Kontynuuj
-EventHouse2_PlaceBedroom1.text,You open the door to reveal a modest master bedroom. Discard this Explore token and place the {c:TileHouse2_Bedroom1} tile and a wall as indicated.
 EventHouse2_PlaceBedroom2.button1,Kontynuuj
-EventHouse2_PlaceBedroom2.text,You open the door to reveal a modest bedroom for two kids. Discard this Explore token and place the {c:TileHouse2_Bedroom2} tile as indicated.
 EventHouse2_PlaceDiningRoom.button1,Kontynuuj
 EventHouse2_PlaceDiningRoom.text,Otwierasz skrzypiące drzwi, odsłaniając średniej wielkości kuchnię i jadalnię. Umieść kafelek {c:TileHouse2_DiningRoom} i Żeton Ściany we wskazanym miejscu oraz odrzuć wszystkie Żetony Eksploracji prowadzące do tego miejsca.
 EventHouse2_PlaceExploreDiningRoomLounge.button1,Kontynuuj
-EventHouse2_PlaceExploreDiningRoomLounge.text,A small door provides quick access to the kitchen of the house. Place an Explore token as indicated.
 EventHouse2_PlaceExploreLoungeDiningRoom.button1,Kontynuuj
 EventHouse2_PlaceExploreLoungeDiningRoom.text,Zauważasz inne wyjście z pomieszczenia. Umieść Żeton Eksploracji we wskazanym miejscu.
 EventHouse2_PlaceExploresBathroom.button1,Kontynuuj
-EventHouse2_PlaceExploresBathroom.text,There are two further doors leading into rooms of the house. Place Explore tokens as indicated.
 EventHouse2_PlaceExploresHallEndHallCorner1.button1,Kontynuuj
-EventHouse2_PlaceExploresHallEndHallCorner1.text,Four other doors lead into the house. Place Explore tokens as indicated.
 EventHouse2_PlaceHallEndBarricade.button1,Kontynuuj
-EventHouse2_PlaceHallEndBarricade.text,A small bookshelf in the hall could be used to barricade a door if the need arose. Place a Barricade as indicated.
 EventHouse2_PlaceHallEndHallCorner1.button1,Kontynuuj
-EventHouse2_PlaceHallEndHallCorner1.text,You go to knock on the front door, only to have it drift open gently in the breeze. Place the {c:TileHouse2_HallEnd} and {c:TileHouse2_HallCorner1} tiles and a wall as indicated.
 EventHouse2_PlaceInvestigators.button1,Kontynuuj
 EventHouse2_PlaceInvestigators.text,Docieracie do drzwi wejściowych. Nieruchomość otacza mrożąca krew w żyłach cisza. Z niepokojem stwierdzacie, że rodzina, która żyje w tym miejscu, nie wydaje żadnych dźwięków, o ile w ogóle tam jest. Umieśćcie figurki swoich badaczy we wskazanym miejscu.
 EventHouse2_PlaceLibrary.button1,Kontynuuj
-EventHouse2_PlaceLibrary.text,You open the door to reveal an unexpectedly lavish library. Discard this Explore token and place the {c:TileHouse2_Library} tile and a wall as indicated.
 EventHouse2_PlaceLounge.button1,Kontynuuj
-EventHouse2_PlaceLounge.text,You open the door to reveal a spacious lounge that feels out of place in an otherwise humble dwelling. Place the {c:TileHouse2_Lounge} tile as indicated and discard all Explore tokens leading to it.
 EventHouse2_PlacePainkillers.button1,Kontynuuj
 EventHouse2_PlacePainkillers.text,"Apteczka zawierająca {c:QItemPainkillers} znajduje się na półkach w łazience. \n\nUmieść przedmiot powszechny {c:QItemPainkillers} we wskazanym miejscu."
 EventHouse2_PlacePersonChild1.button1,Kontynuuj
@@ -560,33 +496,24 @@ EventHouse2_PlacePersonChild1.text,"Mały chłopiec i mała dziewczynka chowają
 EventHouse2_PlacePersonChild2.button1,Kontynuuj
 EventHouse2_PlacePersonChild2.text,"Mały chłopiec i mała dziewczynka zostali przywiązani za ręce i nogi do słupka łóżka. Choć nie są zakneblowane, dzieci są zbyt przerażone, by wydać z siebie jakikolwiek dźwięk. \n\nUmieść Żeton Osoby we wskazanym miejscu."
 EventHouse2_PlacePersonMan1.button1,Kontynuuj
-EventHouse2_PlacePersonMan1.text,Across the room, a man is bound to a sofa chair, with a brown bag covering his head. Place a Person token as indicated.
 EventHouse2_PlacePersonMan2.button1,Kontynuuj
 EventHouse2_PlacePersonMan2.text,"Mężczyzna siedzi skulony w rogu pokoju, desperacko szukając czegoś, w czym mógłby się ukryć. \n\nUmieść Żeton Osoby we wskazanym miejscu."
 EventHouse2_PlacePersonWoman1.button1,Kontynuuj
 EventHouse2_PlacePersonWoman1.text,"Związana kobieta leży w pustej wannie. Na twój widok szamocze się rozpaczliwie. Usiłuje coś powiedzieć, ale jej słowa tłumione są skutecznie przez brudną podłogową szmatę zawiązaną na jej ustach w charakterze knebla. \n\nUmieść Żeton Osoby we wskazanym miejscu."
 EventHouse2_PlacePersonWoman2.button1,Kontynuuj
-EventHouse2_PlacePersonWoman2.text,A woman sits in a chair with a look of wide eyed fear. Though she is not bound in any way, she has clearly been compelled to stay where she is. Place a Person token as indicated.
 EventHouse2_PlaceSearchBedroomDesk.button1,Kontynuuj
 EventHouse2_PlaceSearchBedroomDesk.text,"Biurko jest zabałaganione różnymi luźnymi zwitkami papieru. Napisy umieszczone na tych papierach sprawiają niespójne wrażenie i zdają się dotyczyć tematów okultystycznych. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventHouse2_PlaceSearchCabinet_NoPuzzle.button1,Kontynuuj
-EventHouse2_PlaceSearchCabinet_NoPuzzle.text,You notice some unusally old looking tattered paper sticking out of a cabinet draw. Place a Search token as indicated.
 EventHouse2_PlaceSearchDiningTable.button1,Kontynuuj
 EventHouse2_PlaceSearchDiningTable.text,Rozglądając się po pokoju dochodzisz do wniosku, że byłbyś w stanie wykorzystać przedmioty leżące na stole w jadalni w charakterze improwizowanej broni. Umieść Żeton Przeszukiwania we wskazanym miejscu.
 EventHouse2_PlaceSearchEntryTable.button1,Kontynuuj
-EventHouse2_PlaceSearchEntryTable.text,The first thing you notice inside the house is numerous items from the entry table scattered accross the floor. You deem it unlikely to have been caused by the wind. Place a Search token as indicated.
 EventHouse2_PlaceSearchHallTable.button1,Kontynuuj
-EventHouse2_PlaceSearchHallTable.text,At the end of the hall you spot a table with books piled on top of it. Most of them appear to be very old, maybe even older than Arkham itself. Place a Search token as indicated.
 EventHouse2_PlaceSearchMagazines.button1,Kontynuuj
-EventHouse2_PlaceSearchMagazines.text,A few teenage fashion magazines have been left on a writing desk. Place a Search token as indicated.
 EventHouse2_PlaceSearchToyChest.button1,Kontynuuj
-EventHouse2_PlaceSearchToyChest.text,A fancy toy chest topped with red velvet sits beyond the foot of the only bed. Place a Search token as indicated.
 EventHouse2_PlaceSideYard2.button1,Kontynuuj
 EventHouse2_PlaceSideYard2.text,Wasz samochód podjeżdża pod frontową bramę zwyczajnie wyglądającej kamienicy. Wysiadacie z pojazdu i rozpoczynacie wędrówkę w kierunku domu. Umieśćcie kafelek {c:TileHouse2_SideYard2} we wskazanym miejscu.
 EventHouse2_PlaceSightBathroom.button1,Kontynuuj
-EventHouse2_PlaceSightBathroom.text,The entrance hall continues further out of sight. Place a Sight token as indicated. An investigator in the {c:TileHouse2_HallCorner1} may reveal the adjacent area.
 EventHouse2_SearchCabinetPuzzleStart.button1,Kontynuuj
-EventHouse2_SearchCabinetPuzzleStart.text,You start attempting to piece the pages together. Tap to attempt the puzzle using {observation}.
 EventHouseEnd_MissionComplete.button1,Kontynuuj
 EventHouseEnd_MissionComplete.text,"Opuszczacie tę zaniedbaną rezydencję, której korytarze i pokoje pogrążone są w niesamowitej ciszy. Chociaż to, co wydarzyło się w środku, bez wątpienia pozostawi trwałą bliznę na umysłach poszkodowanych osób, czujecie ulgę, że dom ten nie stanowi już żadnego bezpośredniego zagrożenia dla ludzi zamieszkujących w pobliżu...\n\nWyczyśćcie pole gry, usuwając z niego wszystkie kafelki, figurki, żetony oraz przedmioty. "
 EventHouseEnd_RemainingHostages.button1,Kontynuuj
@@ -801,15 +728,10 @@ EventViewEvidence_CircumstantialEvidence_Green.text,|||Poświęcasz chwilę na a
 EventViewEvidence_CircumstantialEvidence_Red.button1,Kontynuuj
 EventViewEvidence_CircumstantialEvidence_Red.text,|||Poświęcasz chwilę na analizę papierów i nagle dociera do ciebie, że te dokumenty stanowią tak naprawdę konkretne fragmenty pochodzące ze starych, pogańskich poematów. W różnych miejscach analizowanych przez ciebie pism powtarza się wielokrotnie silna aluzja do związku, jaki istnieje pomiędzy kolorem czerwonym a uczuciem pożądania. Jeden z zapisanych tu wierszy nosi nawet tytuł "Czerwona żądza". Masz wrażenie, że nie jest to przypadek, a ta informacja będzie ci potrzebna w przyszłości.|||
 EventViewEvidence_ConclusiveEvidence_Hastur.button1,Kontynuuj
-EventViewEvidence_ConclusiveEvidence_Hastur.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Hastur and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
 EventViewEvidence_ConclusiveEvidence_Yig.button1,Kontynuuj
-EventViewEvidence_ConclusiveEvidence_Yig.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Yig and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
 EventViewEvidence_ConclusiveEvidence_Zhar.button1,Kontynuuj
-EventViewEvidence_ConclusiveEvidence_Zhar.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Zhar and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
 EventViewEvidence_CultSigil_Allies.button1,Kontynuuj
-EventViewEvidence_CultSigil_Allies.text,|||You quickly realise why this item did not make it to its intended destination. Instead of containing a destination address, the following has been written on the shipping tag: "To the far corners of the near shore. Where madness builds its tall towers soaring high into the ground. Feel your deepest pains and know you are close. Deliver to madness or pain; it does not matter. Together they will destroy you."|||
 EventViewEvidence_CultSigil_Enemies.button1,Kontynuuj
-EventViewEvidence_CultSigil_Enemies.text,|||You quickly realise why this item did not make it to its intended destination. Instead of containing a destination address, the following has been written on the shipping tag: "To the far corners of the near shore. Where madness builds its tall towers soaring high into the ground. Avoid your deepest pains as they will lead you astray. Deliver to madness but stay away from pain! It is no friend of madness, and never will be."|||
 EventViewEvidence_ForensicEvidence_Lust.button1,Kontynuuj
 EventViewEvidence_ForensicEvidence_Lust.text,|||Fragment tekstu, do którego odnosi się tatuaż, mówi o jednym z trzech Wielkich Przedwiecznych. Brzmi on: "Pomimo tego, że istota ta sprawuje kontrolę nad emocją pożądania w naszym wszechświecie, istota ta nie może istnieć w materialny sposób w tej rzeczywistości. Chociaż czciciele tej istoty próbują uspokoić swojego pana różnego rodzaju darami oraz dobrami materialnymi, nie jest ona w stanie z nich skorzystać, ponieważ nie może ona istnieć na naszym planie egzystencji.".|||
 EventViewEvidence_ForensicEvidence_Madness.button1,Kontynuuj
@@ -882,28 +804,28 @@ EventViewEvidence_RitualComponents_Green.button1,Kontynuuj
 EventViewEvidence_RitualComponents_Green.text,Aby uzyskać więcej informacji, próbujesz zdekonstruować magię zawartą w tych komponentach. Jednak kiedy to robisz, przytłacza cię dziwna wizja. W tej wizji jesteś starożytnym, niematerialnym bytem, o wielkiej mocy. Podbiłeś już wiele rzeczywistości, podporządkowując je swojej szmaragdowo-zielonej fladze. Jednak gdy twoje spojrzenie napotyka naszą rzeczywistość, twoja reakcja jest w najlepszym razie... obojętna. Zgodnie z jakąś niezrozumiałą dla siebie, nieludzką logiką dochodzisz do wniosku, że nie wszedłbyś do naszej rzeczywistości, nawet gdyby twoi wyznawcy otworzyli dla ciebie portal. Ten plan egzystencji nie ma bowiem dla ciebie żadnej wartości. Wizja kończy się, a ty upadasz na podłogę, z pulsującą głową i brakiem chęci do dalszego badania komponentów.
 EventViewEvidence_RitualComponents_Red.button1,Kontynuuj
 EventViewEvidence_RitualComponents_Red.text,Aby uzyskać więcej informacji, próbujesz zdekonstruować magię zawartą w tych komponentach. Jednak kiedy to robisz, przytłacza cię dziwna wizja. W tej wizji jesteś starożytnym, niematerialnym bytem, o wielkiej mocy. Podbiłeś już wiele rzeczywistości, podporządkowując je swojej rubinowo-czerwonej fladze. Jednak gdy twoje spojrzenie napotyka naszą rzeczywistość, twoja reakcja jest w najlepszym razie... obojętna. Zgodnie z jakąś niezrozumiałą dla siebie, nieludzką logiką dochodzisz do wniosku, że nie wszedłbyś do naszej rzeczywistości, nawet gdyby twoi wyznawcy otworzyli dla ciebie portal. Ten plan egzystencji nie ma bowiem dla ciebie żadnej wartości. Wizja kończy się, a ty upadasz na podłogę, z pulsującą głową i brakiem chęci do dalszego badania komponentów.
-EventWarehouse_CultLeaderJeer_HasturCorrect.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_HasturCorrect.text,|||Na twarzy kultysty pojawia się niepokojący uśmiech. "Mój pan zawsze ma czas na torturowanie heretyków". \n\nOtrzymujesz 2 <COLOR=GREEN>wskazówki</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer_HasturIncorrectNegative.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_HasturIncorrectNegative.text,|||Kultysta mruży oczy. "Skąd mam wiedzieć, na co ten fałszywy bóg ma czas?". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer_HasturIncorrectPositive.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_HasturIncorrectPositive.text,|||Kultysta uśmiecha się groźnie w odpowiedzi na twoje słowa. "Połączona moc Jego i mojego Pana, jest w stanie dokonać więcej zniszczeń, niż jesteś w stanie pojąć". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer_YigCorrect.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_YigCorrect.text,|||Kultysta natychmiast odwarkuje, z przejęciem w głosie. "Dobrze, że mój Pan nigdy nie zawodzi!". \n\nOtrzymujesz 2 <COLOR=GREEN>wskazówki</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer_YigIncorrectNegative.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_YigIncorrectNegative.text,|||Z ust kultysty wydobywa się złowieszczy chichot. "Tak, zrobi to! Mój pan dopilnuje, by ten nikczemny demon cierpiał!". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer_YigIncorrectPositive.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_YigIncorrectPositive.text,|||Kultysta rzuca ci zadowolone spojrzenie. "Mając za sobą potężną rękę mojego Pana, Yig nigdy by nie zawiódł". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer_ZharCorrect.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_ZharCorrect.text,|||Kultysta warczy na ciebie, poirytowany. "Mój Pan nagradza lojalność swoich sług, a nie za nią karze!". \n\nOtrzymujesz 2 <COLOR=GREEN>wskazówki</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer_ZharIncorrectNegative.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_ZharIncorrectNegative.text,|||Wściekłość wypełnia twarz kultysty. "Reprezentujesz tego podłego demona? Powiedz mu, że mój Pan przyjdzie po niego w następnej kolejności!". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer_ZharIncorrectPositive.button1,Kontynuuj
-EventWarehouse_CultLeaderJeer_ZharIncorrectPositive.text,|||Kultysta rzuca ci zdezorientowane spojrzenie. "Dlaczego Zhar miałby karać wyznawców swojego najwierniejszego sojusznika? To, o czym mówisz, nie ma sensu." \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
-EventWarehouse_CultLeaderJeer.button1,Czy Hastur nie jest zbyt zajęty, by skupiać się na mnie?
-EventWarehouse_CultLeaderJeer.button2,Zhar w końcu zada ci to samo.
-EventWarehouse_CultLeaderJeer.button3,Yig poczuje większy ból, gdy jego plan się nie powiedzie.
-EventWarehouse_CultLeaderJeer.text,|||Kultysta wyciąga z pochwy długi, bogato zdobiony sztylet rytualny. "Za chwilę doświadczysz bólu wykraczającego poza twoje śmiertelne wyobrażenie".|||
+EventWarehouse_CultistJeer_HasturCorrect.button1,Kontynuuj
+EventWarehouse_CultistJeer_HasturCorrect.text,|||Na twarzy kultysty pojawia się niepokojący uśmiech. "Mój pan zawsze ma czas na torturowanie heretyków". \n\nOtrzymujesz 2 <COLOR=GREEN>wskazówki</COLOR> {clue}.|||
+EventWarehouse_CultistJeer_HasturIncorrectNegative.button1,Kontynuuj
+EventWarehouse_CultistJeer_HasturIncorrectNegative.text,|||Kultysta mruży oczy. "Skąd mam wiedzieć, na co ten fałszywy bóg ma czas?". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
+EventWarehouse_CultistJeer_HasturIncorrectPositive.button1,Kontynuuj
+EventWarehouse_CultistJeer_HasturIncorrectPositive.text,|||Kultysta uśmiecha się groźnie w odpowiedzi na twoje słowa. "Połączona moc Jego i mojego Pana, jest w stanie dokonać więcej zniszczeń, niż jesteś w stanie pojąć". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
+EventWarehouse_CultistJeer_YigCorrect.button1,Kontynuuj
+EventWarehouse_CultistJeer_YigCorrect.text,|||Kultysta natychmiast odwarkuje, z przejęciem w głosie. "Dobrze, że mój Pan nigdy nie zawodzi!". \n\nOtrzymujesz 2 <COLOR=GREEN>wskazówki</COLOR> {clue}.|||
+EventWarehouse_CultistJeer_YigIncorrectNegative.button1,Kontynuuj
+EventWarehouse_CultistJeer_YigIncorrectNegative.text,|||Z ust kultysty wydobywa się złowieszczy chichot. "Tak, zrobi to! Mój pan dopilnuje, by ten nikczemny demon cierpiał!". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
+EventWarehouse_CultistJeer_YigIncorrectPositive.button1,Kontynuuj
+EventWarehouse_CultistJeer_YigIncorrectPositive.text,|||Kultysta rzuca ci zadowolone spojrzenie. "Mając za sobą potężną rękę mojego Pana, Yig nigdy by nie zawiódł". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
+EventWarehouse_CultistJeer_ZharCorrect.button1,Kontynuuj
+EventWarehouse_CultistJeer_ZharCorrect.text,|||Kultysta warczy na ciebie, poirytowany. "Mój Pan nagradza lojalność swoich sług, a nie za nią karze!". \n\nOtrzymujesz 2 <COLOR=GREEN>wskazówki</COLOR> {clue}.|||
+EventWarehouse_CultistJeer_ZharIncorrectNegative.button1,Kontynuuj
+EventWarehouse_CultistJeer_ZharIncorrectNegative.text,|||Wściekłość wypełnia twarz kultysty. "Reprezentujesz tego podłego demona? Powiedz mu, że mój Pan przyjdzie po niego w następnej kolejności!". \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
+EventWarehouse_CultistJeer_ZharIncorrectPositive.button1,Kontynuuj
+EventWarehouse_CultistJeer_ZharIncorrectPositive.text,|||Kultysta rzuca ci zdezorientowane spojrzenie. "Dlaczego Zhar miałby karać wyznawców swojego najwierniejszego sojusznika? To, o czym mówisz, nie ma sensu." \n\nOtrzymujesz 1 <COLOR=GREEN>wskazówkę</COLOR> {clue}.|||
+EventWarehouse_CultistJeer.button1,Czy Hastur nie jest zbyt zajęty, by skupiać się na mnie?
+EventWarehouse_CultistJeer.button2,Zhar w końcu zada ci to samo.
+EventWarehouse_CultistJeer.button3,Yig poczuje większy ból, gdy jego plan się nie powiedzie.
+EventWarehouse_CultistJeer.text,|||Kultysta wyciąga z pochwy długi, bogato zdobiony sztylet rytualny. "Za chwilę doświadczysz bólu wykraczającego poza twoje śmiertelne wyobrażenie".|||
 EventWarehouse_ExploreRootCellar.button1,Kontynuuj
 EventWarehouse_ExploreRootCellar.text,"Otwierasz drzwi. Blade światło księżyca wpada do ciemnej piwnicy przez otwór zapadni powodując, że pomieszczenie pogrążone jest w półmroku. \n\nOdrzuć wszystkie żetony eksploracji prowadzące do {c:TileWarehouse_RootCellar}. Następnie umieść Żeton Ciemności na każdym polu {c:TileWarehouse_RootCellar}."
 EventWarehouse_HorrificHiveDefeated.button1,Kontynuuj
@@ -993,6 +915,39 @@ EventWarehouse_SearchFurnaceSuccess.button2,Pokaż wskazówkę
 EventWarehouse_SearchFurnaceSuccess.text,"Twoje wysiłki się opłacają, ponieważ spod hałdy popiołu odkrywasz małą, metalową puszkę. Wyciągasz ją z popiołu, zanim wykopany przez ciebie dół zdąży się zasypać. Otwierasz puszkę i znajdujesz w niej stare notatki z badań prowadzonych przez lokalnego profesora, który był ekspertem w dziedzinie starożytnych kultów. \n\nZdobywasz przedmiot unikatowy {c:QItemMissingLink}. Odrzuć ten Żeton Przeszukiwania. Badacz posiadający {c:QItemMissingLink} może wyświetlić powiązaną z nim wskazówkę za pomocą aplikacji."
 EventWarehouse_TriggerExit.button1,Kontynuuj
 EventWarehouse_TriggerExit.text,Jednogłośnie zgadzacie się opuścić ten nawiedzony magazyn na dobre. Odrzuć ten Żeton Interakcji. Na koniec tej fazy badaczy, wszyscy badacze opuszczą tę lokację.
+EventWarehouse2_Place2x4.button1,Kontynuuj
+EventWarehouse2_Place2x4.text,Wśród spróchniałego drewna dostrzegasz deskę, która wciąż jest w dobrym stanie. Może posłużyć do zabarykadowania drzwi lub jako zaimprowizowana broń. Umieść przedmiot powszechny {c:QItem2x4} we wskazanym miejscu.
+EventWarehouse2_PlaceAlleyCorner1.button1,Kontynuuj
+EventWarehouse2_PlaceAlleyCorner1Barricade.button1,Kontynuuj
+EventWarehouse2_PlaceAlleyCorner1Barricade.text,"Te ciężkie beczki i skrzynie mogą zostać użyte do zabarykadowania drzwi, jeśli zajdzie taka potrzeba. \n\nUmieść Żeton Barykady we wskazanym miejscu."
+EventWarehouse2_PlaceAlleyCorner2.button1,Kontynuuj
+EventWarehouse2_PlaceBasement.button1,Kontynuuj
+EventWarehouse2_PlaceBasementBarricade.button1,Kontynuuj
+EventWarehouse2_PlaceBasementBarricade.text,"Te ciężkie beczki i skrzynie mogą zostać użyte do zabarykadowania drzwi, jeśli zajdzie taka potrzeba. \n\nUmieść Żeton Barykady we wskazanym miejscu."
+EventWarehouse2_PlaceBellTower.button1,Kontynuuj
+EventWarehouse2_PlaceExploreBasementWarehouse.button1,Kontynuuj
+EventWarehouse2_PlaceExploreBellTower.button1,Kontynuuj
+EventWarehouse2_PlaceExploreStudy.button1,Kontynuuj
+EventWarehouse2_PlaceExploreWarehouseAlleyCorner2.button1,Kontynuuj
+EventWarehouse2_PlaceExploreWarehouseAlleyCorner2.text,"Zauważacie główne wejście do magazynu. Zanim zdążycie podejść bliżej, zatrzymują was odgłosy jakiegoś stworzenia, które wydaje się być uwięzione wewnątrz. \n\nUmieśćcie Żeton Eksploracji we wskazanym miejscu."
+EventWarehouse2_PlaceExploreWarehouseBasement.button1,Kontynuuj
+EventWarehouse2_PlaceInvestigators.button1,Kontynuuj
+EventWarehouse2_PlaceInvestigators.text,"Zbliżacie się do magazynu, nie mając pewności co do najlepszej drogi do środka. \n\nUmieśćcie figurki badaczy we wskazanym miejscu."
+EventWarehouse2_PlaceLightsource.button1,Kontynuuj
+EventWarehouse2_PlaceLightsource.text,"Na podłodze magazynu, tuż poza zasięgiem wzroku, znajduje się jakieś źródło światła. Masz nadzieję, że ktokolwiek je trzymał, zdołał ujść z życiem. \n\nUmieść przedmiot powszechny {c:QItemLightsource} we wskazanym miejscu."
+EventWarehouse2_PlaceSearchBarrel.button1,Kontynuuj
+EventWarehouse2_PlaceSearchBody.button1,Kontynuuj
+EventWarehouse2_PlaceSearchBody.text,"Serce ci się kraje, gdy dostrzegasz ludzkie ciało, leżące twarzą do ziemi w bałaganie wśród pudeł. Dochodzisz do wniosku, że ten biedak wszedł do tego przeklętego budynku dość niedawno przed tobą. Krew zgromadzona kałużą wokół ciała jest wciąż świeża i nie zdążyła jeszcze zakrzepnąć. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
+EventWarehouse2_PlaceSearchBookshelf.button1,Kontynuuj
+EventWarehouse2_PlaceSearchBookshelf.text,"Wewnątrz biura znajduje się stary regał z książkami, który został wypełniony różnymi bibelotami. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
+EventWarehouse2_PlaceSearchEmptyBox.button1,Kontynuuj
+EventWarehouse2_PlaceSearchEmptyBox.text,"Wśród butwiejącego drewna i kartonów dostrzegasz puste pudełko, które wygląda na podejrzanie nienaruszone. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
+EventWarehouse2_PlaceSearchFurnace.button1,Kontynuuj
+EventWarehouse2_PlaceSearchFurnace.text,"Odbicie jakiegoś metalowego przedmiotu zakopanego głęboko w popiele z pieca na chwilę rozbłysło w ciemnościach. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
+EventWarehouse2_PlaceStudy.button1,Kontynuuj
+EventWarehouse2_PlaceWarehouse.button1,Kontynuuj
+EventWarehouse2_PlaceWarehouse.text,"Otwierasz drzwi, odsłaniając przepastny magazyn, wypełniony porzuconymi skrzyniami, beczkami i przedmiotami pozostawionymi tu przez poprzedniego właściciela. \n\nUmieść kafelek {c:TileWarehouse2_Warehouse}, Żeton Drzwi i Żeton Ściany we wskazanych miejscach i odrzuć wszystkie prowadzące do niego Żetony Eksploracji."
+EventWarehouse2_PlaceWarehouseBarricade.button1,Kontynuuj
 EventWarehouseEnd_HorrificHiveAlive.button1,Kontynuuj
 EventWarehouseEnd_HorrificHiveAlive.text,"Biegnąc najszybciej jak tylko potraficie, uciekacie z opanowanego przez monstra magazynu. Choć próbujecie stłumić w sobie tę przykrą myśl, to w głębi duszy wiecie, że bestie wylewające się falą z tego budynku zabiją jeszcze dziesiątki, jeśli nie setki osób, zanim służbom porządkowym uda się je finalnie powstrzymać... o ile w ogóle będzie to możliwe. \n\nKażdy Badacz otrzymuje 2 Karty Przerażenia.\n\nWyczyśćcie pole gry, usuwając z niego wszystkie kafelki, figurki, żetony oraz przedmioty. "
 EventWarehouseEnd_MissionComplete.button1,Kontynuuj
@@ -1030,19 +985,13 @@ SpawnDock_SnackShackDeepOneHybrid.text,"Obok skrzyni stoi nieruchomo mieszkaniec
 SpawnDock_Street2DeepOneHybrid.button1,Kontynuuj
 SpawnDock_Street2DeepOneHybrid.text,"Mężczyzna opiera się o ścianę, wpatrując się w ulotki i plakaty. Spodziewasz się zobaczyć butelkę alkoholu w jego dłoni, ale gdy na nią zerkasz, zamiast tego dostrzegasz długie pazury wystające z jego pokrytych rybią łuską dłoni. \n\nUmieść figurkę potwora {c:SpawnDock_Street2DeepOneHybrid} we wskazanym miejscu."
 SpawnDock2_BeachDeepOne.button1,Kontynuuj
-SpawnDock2_BeachDeepOne.text,You hear a large shifting of silt from the river shoreline outside. You peer through the gaps in the shack wall, your dazed eyes barely registering the sight of a large lumbering mass impossibly emerging from the ground. Spawn a {c:SpawnDock2_BeachDeepOne} as indicated.
 SpawnDock2_BeachHuntingDeepOne.button1,Kontynuuj
-SpawnDock2_BeachHuntingDeepOne.text,You hear a large shifting of silt from the river shoreline outside. You peer through the gaps in the shack wall, your dazed eyes barely registering the sight of a large lumbering mass impossibly emerging from the ground. Spawn a {c:SpawnDock2_BeachHuntingDeepOne} as indicated.
 SpawnDock2_BilliardsRoomDeepOneHybrid.button1,Kontynuuj
-SpawnDock2_BilliardsRoomDeepOneHybrid.text,A patron of the hall sits in a chair, dozing slightly. You think nothing of it, until you spot his clawed hand as he rises from the chair. Spawn a {c:SpawnDock2_BilliardsRoomDeepOneHybrid} as indicated.
 SpawnDock2_CabinCultist.button1,Kontynuuj
 SpawnDock2_CabinCultist.text,"Stojący obok skrzyni {c:SpawnDock2_CabinCultist} mruczy jakieś niezrozumiałe zaklęcia, przypuszczalnie mające zapobiec jakimkolwiek próbom jej otwarcia. Światło księżyca przedostaje się przez drzwi do wnętrza kabiny, rozlewając się na podłodze obok niego i zdradzając twoją obecność. {c:SpawnDock2_CabinCultist} odwraca się i spogląda ci w oczy. \n\nUmieść figurkę potwora {c:SpawnDock2_CabinCultist} we wskazanym miejscu."
 SpawnDock2_HouseBoatDeepOne.button1,Kontynuuj
-SpawnDock2_HouseBoatDeepOne.text,You start to feel the boat move beneath you. What initially feels like the boat being picked up by the water is actually a large mass crawling over the bow and onto the deck. Spawn a {c:SpawnDock2_HouseBoatDeepOne} as indicated.
 SpawnDock2_HouseBoatHuntingDeepOne.button1,Kontynuuj
-SpawnDock2_HouseBoatHuntingDeepOne.text,You start to feel the boat move beneath you. What initially feels like the boat being picked up by the water is actually a large mass crawling over the bow and onto the deck. Spawn a {c:SpawnDock2_HouseBoatHuntingDeepOne} as indicated.
 SpawnDock2_MoldyShackDeepOneHybrid.button1,Kontynuuj
-SpawnDock2_MoldyShackDeepOneHybrid.text,You think you spot a horrific figure silhouetted against the shack, but assume that it must be the dimly lit room playing tricks on your eyes. Your comforting illusion is shattered when the figure raises a clawed hand in preparation to attack. Spawn a {c:SpawnDock2_MoldyShackDeepOneHybrid} as indicated.
 SpawnDock2_PierDeepOne.button1,Kontynuuj
 SpawnDock2_PierDeepOne.text,"Z zatoki dobiega twoich uszu nienaturalny krzyk. Przez okienko dostrzegasz łuskowate stworzenie wynurzające się z wody obok pomostu. \n\nUmieść figurkę potwora {c:SpawnDock2_PierDeepOne} we wskazanym miejscu."
 SpawnDock2_PierHuntingDeepOne.button1,Kontynuuj
@@ -1050,7 +999,6 @@ SpawnDock2_PierHuntingDeepOne.text,"Znad zatoki dobiega cię nienaturalny krzyk,
 SpawnDock2_SnackShackDeepOneHybrid.button1,Kontynuuj
 SpawnDock2_SnackShackDeepOneHybrid.text,"Obok skrzyni stoi nieruchomo mieszkaniec miasta, wpatrując się w nią plecami do ciebie. Obawiasz się, jakie szkody zostały wyrządzone psychice tej biednej osoby przez ten nikczemny przedmiot. Rozważasz delikatne wyprowadzenie go z chaty, ale zatrzymujesz się, gdy dostrzegasz łuski na jego dłoniach. Mieszkaniec odwraca się nagle w twoją stronę, ukazując ci twarz z ustami pełnymi piany, wykrzywioną w grymasie ledwo przypominającym ludzki. \n\nUmieść figurkę potwora {c:SpawnDock2_SnackShackDeepOneHybrid} we wskazanym miejscu."
 SpawnDock2_StorefrontDeepOneHybrid.button1,Kontynuuj
-SpawnDock2_StorefrontDeepOneHybrid.text,Your gaze meets that of the shopkeep standing behind the counter. What you find staring back at you makes your hair stand on end. Spawn a {c:SpawnDock2_StorefrontDeepOneHybrid} as indicated.
 SpawnHorrificHive_CrawlingOne.button1,Kontynuuj
 SpawnHorrificHive_CrawlingOne.text,"Wylęgarnia drży i otwiera się, wydając ze swojej czeluści na świat {c:SpawnHorrificHive_CrawlingOne}. \n\nUmieść figurkę potwora {c:SpawnHorrificHive_CrawlingOne} na polu, na którym znajduje się Wylęgarnia Koszmarów."
 SpawnHorrificHive_DeepOne.button1,Kontynuuj
@@ -1146,13 +1094,10 @@ SpawnHouse2_LibraryThrall.text,"Mężczyzna wyciąga rękę, by uścisnąć twoj
 SpawnHouse2_LibraryWarlock.button1,Kontynuuj
 SpawnHouse2_LibraryWarlock.text,|||Mężczyzna wyciąga rękę, by uścisnąć twoją. Gdy odwzajemniasz uścisk, mroczna energia łączy jego dłoń z twoją i odczuwasz ostry ból w ramieniu. Otrzymujesz 2 Karty Obrażeń ({lore} neguje). "Jakim cudem jeszcze żyjesz?" - warczy w twoją stronę. "Nieważne, nie możesz się równać ani ze mną, ani z moim panem". \n\nOdrzuć ten Żeton Postaci i umieść figurkę potwora {c:SpawnHouse2_LibraryWarlock} we wskazanym miejscu.|||
 SpawnHouse2_LoungeCultist.button1,Kontynuuj
-SpawnHouse2_LoungeCultist.text,A {c:SpawnHouse2_LoungeCultist} rummages through the drawers of a small side table. When they spot you out of the corner of their eye, they draw a long dagger from under their robes. Spawn a {c:SpawnHouse2_LoungeCultist} as indicated.
 SpawnHouse2_LoungeDarkDruid.button1,Kontynuuj
 SpawnHouse2_LoungeDarkDruid.text,|||Mężczyzna wyciąga rękę, by uścisnąć twoją. Gdy odwzajemniasz uścisk, mroczna energia łączy jego dłoń z twoją i odczuwasz ostry ból w ramieniu. Otrzymujesz 2 Karty Obrażeń ({lore} neguje). "Jakim cudem jeszcze żyjesz?" - warczy w twoją stronę. "Nieważne, nie możesz się równać ani ze mną, ani z moim panem". \n\nOdrzuć ten Żeton Postaci i umieść figurkę potwora {c:SpawnHouse2_LoungeDarkDruid} we wskazanym miejscu.|||
 SpawnHouse2_LoungeDeepOne.button1,Kontynuuj
-SpawnHouse2_LoungeDeepOne.text,As the woman thanks you profusely, a thick dark rain starts pelting the windows of the house. By the time you notice it, it has already completely obscured the outside view. Suddenly, a large mass crashes through the window closest to the woman. It sinks its teeth deep into her, and drags her kicking and screaming into the pouring rain. Her voice is silenced, and the beast returns to enact the same fate upon you. Discard this Person token and spawn a {c:SpawnHouse2_LoungeDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnHouse2_LoungeHuntingDeepOne.button1,Kontynuuj
-SpawnHouse2_LoungeHuntingDeepOne.text,As the woman thanks you profusely, a thick dark rain starts pelting the windows of the house. By the time you notice it, it has already completely obscured the outside view. Suddenly, a large mass crashes through the window closest to the woman. It sinks its teeth deep into her, and drags her kicking and screaming into the pouring rain. Her voice is silenced, and the beast returns to enact the same fate upon you. Discard this Person token and spawn a {c:SpawnHouse2_LoungeHuntingDeepOne} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnHouse2_LoungeManiac.button1,Kontynuuj
 SpawnHouse2_LoungeManiac.text,|||Mężczyzna wyciąga rękę, by uścisnąć twoją. Gdy rozluźniony odwzajemniasz uścisk, kątem okaz zauważasz stalowy błysk ostrza ukrytego w jego rękawie. Mężczyzna wyjmuje broń i z impetem wyrzuca ją przed siebie, planując wbić ci go w brzuch aż po rękojeść. \n\nOtrzymujesz 2 Karty Obrażenia ({agility} neguje). \n\n"Wynoś się!" krzyczy. "Opuść mój dom, zanim wypatroszę cię jak świnię!". \n\nOdrzuć ten Żeton Postaci i umieść figurkę potwora {c:SpawnHouse2_LoungeManiac} we wskazanym miejscu.|||
 SpawnHouse2_LoungeThrall.button1,Kontynuuj
@@ -1201,8 +1146,8 @@ SpawnPalace_LoungeStarVampire.button1,Kontynuuj
 SpawnPalace_LoungeStarVampire.text,"Po drugiej stronie pomieszczenia widać ledwo widoczną, nieopisywalną istotę, stanowiącą pulsującą masę macek, zębów oraz czystego przerażenia. \n\nUmieść figurkę potwora {c:SpawnPalace_LoungeStarVampire} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse_BasementCrawlingOne.button1,Kontynuuj
 SpawnWarehouse_BasementCrawlingOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse_BasementCrawlingOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse_BasementCrawlingOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse_BasementCrawlingOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
-SpawnWarehouse_BasementCultLeader.button1,Kontynuuj
-SpawnWarehouse_BasementCultLeader.text,"W ciemnościach, {c:SpawnWarehouse_BasementCultLeader} stoi nad zwłokami jednego ze swoich towarzyszy. Słyszysz, jak mężczyzna mamrocze różne modlitwy w zakazanych, starożytnych językach. Pochylasz się, aby przyjrzeć się mu lepiej, lecz nieopatrznie ciężar twojego ciała opiera się na starej desce podłogowej, która głośno skrzypi. {c:SpawnWarehouse_BasementCultLeader} natychmiast obraca się w twoim kierunku, gotów do walki. \n\nUmieść figurkę potwora {c:SpawnWarehouse_BasementCultLeader} i umieść Żeton Przeszukiwania we wskazanym miejscu."
+SpawnWarehouse_BasementCultist.button1,Kontynuuj
+SpawnWarehouse_BasementCultist.text,"W ciemnościach, {c:SpawnWarehouse_BasementCultist} stoi nad zwłokami jednego ze swoich towarzyszy. Słyszysz, jak mężczyzna mamrocze różne modlitwy w zakazanych, starożytnych językach. Pochylasz się, aby przyjrzeć się mu lepiej, lecz nieopatrznie ciężar twojego ciała opiera się na starej desce podłogowej, która głośno skrzypi. {c:SpawnWarehouse_BasementCultist} natychmiast obraca się w twoim kierunku, gotów do walki. \n\nUmieść figurkę potwora {c:SpawnWarehouse_BasementCultist} i umieść Żeton Przeszukiwania we wskazanym miejscu."
 SpawnWarehouse_BasementDeepOne.button1,Kontynuuj
 SpawnWarehouse_BasementDeepOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach rodzi się {c:SpawnWarehouse_BasementDeepOne}. W ciągu kilku sekund od narodzin, {c:SpawnWarehouse_BasementDeepOne} staje na wyprostowane nogi - czujny i gotowy do pożarcia każdego w zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse_BasementDeepOne} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse_BasementHorrificHive_ChildOfDagon.button1,Kontynuuj
@@ -1227,8 +1172,8 @@ SpawnWarehouse_RootCellarMiGo.button1,Kontynuuj
 SpawnWarehouse_RootCellarMiGo.text,"W ciemności słyszysz wyraźne bulgotanie dobywające się z gardzieli jakiegoś zdziczałego stworzenia. Dostrzegasz je kątem oka, widząc zarys jego postaci w bladym w świetle księżyca, a twój umysł zamiera w przerażeniu, nie mogąc przestać wyobrażać sobie reszty jego przerażającej postaci. \n\nUmieść figurkę potwora {c:SpawnWarehouse_RootCellarMiGo} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse_StudyCrawlingOne.button1,Kontynuuj
 SpawnWarehouse_StudyCrawlingOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse_StudyCrawlingOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse_StudyCrawlingOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse_StudyCrawlingOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
-SpawnWarehouse_StudyCultLeader.button1,Kontynuuj
-SpawnWarehouse_StudyCultLeader.text,"Z tyłu pomieszczenia, {c:SpawnWarehouse_StudyCultLeader} stoi nad zwłokami jednego ze swoich towarzyszy. Słyszysz, jak mężczyzna mamrocze różne modlitwy w zakazanych, starożytnych językach. Pochylasz się, aby przyjrzeć się mu lepiej, lecz nieopatrznie ciężar twojego ciała opiera się na starej desce podłogowej, która głośno skrzypi. {c:SpawnWarehouse_StudyCultLeader} natychmiast obraca się w twoim kierunku, gotów do walki. \n\nUmieść figurkę potwora {c:SpawnWarehouse_StudyCultLeader} i umieść Żeton Przeszukiwania we wskazanym miejscu."
+SpawnWarehouse_StudyCultist.button1,Kontynuuj
+SpawnWarehouse_StudyCultist.text,"Z tyłu pomieszczenia, {c:SpawnWarehouse_StudyCultist} stoi nad zwłokami jednego ze swoich towarzyszy. Słyszysz, jak mężczyzna mamrocze różne modlitwy w zakazanych, starożytnych językach. Pochylasz się, aby przyjrzeć się mu lepiej, lecz nieopatrznie ciężar twojego ciała opiera się na starej desce podłogowej, która głośno skrzypi. {c:SpawnWarehouse_StudyCultist} natychmiast obraca się w twoim kierunku, gotów do walki. \n\nUmieść figurkę potwora {c:SpawnWarehouse_StudyCultist} i umieść Żeton Przeszukiwania we wskazanym miejscu."
 SpawnWarehouse_StudyDeepOne.button1,Kontynuuj
 SpawnWarehouse_StudyDeepOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse_StudyDeepOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse_StudyDeepOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse_StudyDeepOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse_StudyHorrificHive_ChildOfDagon.button1,Kontynuuj
@@ -1251,6 +1196,55 @@ SpawnWarehouse_WarehouseHuntingHorror.button1,Kontynuuj
 SpawnWarehouse_WarehouseHuntingHorror.text,"{c:SpawnWarehouse_WarehouseHuntingHorror} potyka się po magazynie, pokryty lepkimi płynami porodowymi i sprawiając wrażenie raczej zagubionego oraz bezradnego. Kiedy jednak tylko stwór cię zauważa, od razu staje się jasne, że jest to wrażenie całkowicie odmienne od rzeczywistości. \n\nUmieść figurkę potwora {c:SpawnWarehouse_WarehouseHuntingHorror} we wskazanym miejscu."
 SpawnWarehouse_WarehouseMiGo.button1,Kontynuuj
 SpawnWarehouse_WarehouseMiGo.text,"{c:SpawnWarehouse_WarehouseMiGo} potyka się po magazynie, pokryte lepkimi płynami porodowymi i sprawiając wrażenie raczej zagubionego oraz bezradnego. Kiedy jednak tylko stwór cię zauważa, od razu staje się jasne, że jest to wrażenie całkowicie odmienne od rzeczywistości. \n\nUmieść figurkę potwora {c:SpawnWarehouse_WarehouseMiGo} we wskazanym miejscu."
+SpawnWarehouse2_BasementCrawlingOne.button1,Kontynuuj
+SpawnWarehouse2_BasementCrawlingOne.text,"W ciemności słyszysz wyraźne bulgotanie dobywające się z gardzieli jakiegoś zdziczałego stworzenia. Dostrzegasz je kątem oka, widząc zarys jego postaci w bladym w świetle księżyca, a twój umysł zamiera w przerażeniu, nie mogąc przestać wyobrażać sobie reszty jego przerażającej postaci. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BasementCrawlingOne} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BasementDeepOne.button1,Kontynuuj
+SpawnWarehouse2_BasementDeepOne.text,"W ciemności słyszysz wyraźne bulgotanie dobywające się z gardzieli jakiegoś zdziczałego stworzenia. Dostrzegasz je kątem oka, widząc zarys jego postaci w bladym w świetle księżyca, a twój umysł zamiera w przerażeniu, nie mogąc przestać wyobrażać sobie reszty jego przerażającej postaci. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BasementDeepOne} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BasementHuntingDeepOne.button1,Kontynuuj
+SpawnWarehouse2_BasementHuntingDeepOne.text,"W ciemności słyszysz wyraźne bulgotanie dobywające się z gardzieli jakiegoś zdziczałego stworzenia. Dostrzegasz je kątem oka, widząc zarys jego postaci w bladym w świetle księżyca, a twój umysł zamiera w przerażeniu, nie mogąc przestać wyobrażać sobie reszty jego przerażającej postaci. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BasementHuntingDeepOne} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BasementHuntingHorror.button1,Kontynuuj
+SpawnWarehouse2_BasementHuntingHorror.text,"W ciemności słyszysz wyraźne bulgotanie dobywające się z gardzieli jakiegoś zdziczałego stworzenia. Dostrzegasz je kątem oka, widząc zarys jego postaci w bladym w świetle księżyca, a twój umysł zamiera w przerażeniu, nie mogąc przestać wyobrażać sobie reszty jego przerażającej postaci. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BasementHuntingHorror} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BasementMiGo.button1,Kontynuuj
+SpawnWarehouse2_BasementMiGo.text,"W ciemności słyszysz wyraźne bulgotanie dobywające się z gardzieli jakiegoś zdziczałego stworzenia. Dostrzegasz je kątem oka, widząc zarys jego postaci w bladym w świetle księżyca, a twój umysł zamiera w przerażeniu, nie mogąc przestać wyobrażać sobie reszty jego przerażającej postaci. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BasementMiGo} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BellTowerCrawlingOne.button1,Kontynuuj
+SpawnWarehouse2_BellTowerCrawlingOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_BellTowerCrawlingOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_BellTowerCrawlingOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BellTowerCrawlingOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BellTowerCultist.button1,Kontynuuj
+SpawnWarehouse2_BellTowerDeepOne.button1,Kontynuuj
+SpawnWarehouse2_BellTowerDeepOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_BellTowerDeepOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_BellTowerDeepOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BellTowerDeepOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BellTowerHorrificHive_ChildOfDagon.button1,Kontynuuj
+SpawnWarehouse2_BellTowerHorrificHive.button1,Kontynuuj
+SpawnWarehouse2_BellTowerHuntingDeepOne.button1,Kontynuuj
+SpawnWarehouse2_BellTowerHuntingDeepOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_BellTowerHuntingDeepOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_BellTowerHuntingDeepOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BellTowerHuntingDeepOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BellTowerHuntingHorror.button1,Kontynuuj
+SpawnWarehouse2_BellTowerHuntingHorror.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_BellTowerHuntingHorror}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_BellTowerHuntingHorror} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BellTowerHuntingHorror} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_BellTowerMiGo.button1,Kontynuuj
+SpawnWarehouse2_BellTowerMiGo.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_BellTowerMiGo}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_BellTowerMiGo} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BellTowerMiGo} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_StudyCrawlingOne.button1,Kontynuuj
+SpawnWarehouse2_StudyCrawlingOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_StudyCrawlingOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_StudyCrawlingOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_StudyCrawlingOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_StudyCultist.button1,Kontynuuj
+SpawnWarehouse2_StudyCultist.text,"Z tyłu pomieszczenia, {c:SpawnWarehouse2_StudyCultist} stoi nad zwłokami jednego ze swoich towarzyszy. Słyszysz, jak mężczyzna mamrocze różne modlitwy w zakazanych, starożytnych językach. Pochylasz się, aby przyjrzeć się mu lepiej, lecz nieopatrznie ciężar twojego ciała opiera się na starej desce podłogowej, która głośno skrzypi. {c:SpawnWarehouse2_StudyCultist} natychmiast obraca się w twoim kierunku, gotów do walki. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_StudyCultist} i umieść Żeton Przeszukiwania we wskazanym miejscu."
+SpawnWarehouse2_StudyDeepOne.button1,Kontynuuj
+SpawnWarehouse2_StudyDeepOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_StudyDeepOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_StudyDeepOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_StudyDeepOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_StudyHorrificHive_ChildOfDagon.button1,Kontynuuj
+SpawnWarehouse2_StudyHorrificHive_ChildOfDagon.text,|||Gdy zaglądasz dalej w głąb pokoju, twoim oczom ukazuje się przerażający widok. W pobliżu tylnej ściany pomieszczenia, z podłogi wyrasta masa czegoś, co wygląda na ciało. Ze zgrozą zdajesz sobie sprawę z tego, że w centrum tej masy znajduje się ludzka twarz, która wpatruje się w ciebie, wykrzywiona w agonii. Widzisz, jak usta istoty cicho układają się w słowa: "Zabij mnie". \n\nUmieść figurkę potwora Dziecko Dagona we wskazanym miejscu. To jest {c:SpawnWarehouse2_StudyHorrificHive_ChildOfDagon}.|||
+SpawnWarehouse2_StudyHorrificHive.button1,Kontynuuj
+SpawnWarehouse2_StudyHorrificHive.text,|||Gdy zaglądasz do wnętrza pokoju, dostrzegasz przerażający widok. W pobliżu tylnej ściany pokoju wyrasta żywa, oślizgła góra czegoś, co wygląda na... ohydną masę mięśni, ścięgien, kości oraz żywej, ludzkiej tkanki. Z przerażeniem zdajesz sobie sprawę, że pośrodku tej obrzydliwej bryły znajduje się ludzka twarz, która wpatruje się w ciebie, wykrzywiona w niemożliwej do wyobrażenia agonii. Widzisz, jak jej usta cicho układają się w słowa: "Zabij mnie". \n\nUmieść figurkę potwora {c:SpawnWarehouse2_StudyHorrificHive} we wskazanym miejscu.|||
+SpawnWarehouse2_StudyHuntingDeepOne.button1,Kontynuuj
+SpawnWarehouse2_StudyHuntingDeepOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_StudyHuntingDeepOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_StudyHuntingDeepOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_StudyHuntingDeepOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_StudyHuntingHorror.button1,Kontynuuj
+SpawnWarehouse2_StudyHuntingHorror.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_StudyHuntingHorror}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_StudyHuntingHorror} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_StudyHuntingHorror} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_StudyMiGo.button1,Kontynuuj
+SpawnWarehouse2_StudyMiGo.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_StudyMiGo}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_StudyMiGo} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_StudyMiGo} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnWarehouse2_WarehouseCrawlingOne.button1,Kontynuuj
+SpawnWarehouse2_WarehouseCrawlingOne.text,"{c:SpawnWarehouse2_WarehouseCrawlingOne} potyka się po magazynie, pokryte lepkimi płynami porodowymi i sprawiając wrażenie raczej zagubionego oraz bezradnego. Kiedy jednak tylko stwór cię zauważa, od razu staje się jasne, że jest to wrażenie całkowicie odmienne od rzeczywistości. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_WarehouseCrawlingOne} we wskazanym miejscu."
+SpawnWarehouse2_WarehouseDeepOne.button1,Kontynuuj
+SpawnWarehouse2_WarehouseDeepOne.text,"{c:SpawnWarehouse2_WarehouseDeepOne} potyka się po magazynie, pokryte lepkimi płynami porodowymi i sprawiając wrażenie raczej zagubionego oraz bezradnego. Kiedy jednak tylko stwór cię zauważa, od razu staje się jasne, że jest to wrażenie całkowicie odmienne od rzeczywistości. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_WarehouseDeepOne} we wskazanym miejscu."
+SpawnWarehouse2_WarehouseHuntingDeepOne.button1,Kontynuuj
+SpawnWarehouse2_WarehouseHuntingDeepOne.text,"{c:SpawnWarehouse2_WarehouseHuntingDeepOne} potyka się po magazynie, pokryte lepkimi płynami porodowymi i sprawiając wrażenie raczej zagubionego oraz bezradnego. Kiedy jednak tylko stwór cię zauważa, od razu staje się jasne, że jest to wrażenie całkowicie odmienne od rzeczywistości. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_WarehouseHuntingDeepOne} we wskazanym miejscu."
+SpawnWarehouse2_WarehouseHuntingHorror.button1,Kontynuuj
+SpawnWarehouse2_WarehouseHuntingHorror.text,"{c:SpawnWarehouse2_WarehouseHuntingHorror} potyka się po magazynie, pokryte lepkimi płynami porodowymi i sprawiając wrażenie raczej zagubionego oraz bezradnego. Kiedy jednak tylko stwór cię zauważa, od razu staje się jasne, że jest to wrażenie całkowicie odmienne od rzeczywistości. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_WarehouseHuntingHorror} we wskazanym miejscu."
+SpawnWarehouse2_WarehouseMiGo.button1,Kontynuuj
+SpawnWarehouse2_WarehouseMiGo.text,"{c:SpawnWarehouse2_WarehouseMiGo} potyka się po magazynie, pokryte lepkimi płynami porodowymi i sprawiając wrażenie raczej zagubionego oraz bezradnego. Kiedy jednak tylko stwór cię zauważa, od razu staje się jasne, że jest to wrażenie całkowicie odmienne od rzeczywistości. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_WarehouseMiGo} we wskazanym miejscu."
 TokenDock_SearchBlackStall.button1,{action} Zbadaj
 TokenDock_SearchBlackStall.text,Co dziwne, podczas gdy sam stragan został pieczołowicie zamknięty na noc przez jego właściciela, sam stół z towarami ze straganu został pozostawiony w całości w nienaruszonym stanie.
 TokenDock_SearchBlueStall.button1,{action} Zbadaj
@@ -1286,23 +1280,15 @@ TokenDock_SightStreet2Dock1.text,Na południu dok ustępuje miejsca ulicy. Badac
 TokenDock_SightStreet2FleaMarket.button1,Odsłoń
 TokenDock_SightStreet2FleaMarket.text,Stragany na targu zasłaniają widok na przeciwną stronę ulicy. Badacz stojący na polu w {c:TileDock_FleaMarket} może wejść w interakcję z tym żetonem, aby odsłonić sąsiedni obszar.
 TokenDock2_ExploreBilliardsRoomSideStreet1.button1,{action} Eksploruj
-TokenDock2_ExploreBilliardsRoomSideStreet1.text,A plain door leads into a small billiards hall.
 TokenDock2_ExploreBilliardsRoomStreetCorner1.button1,{action} Eksploruj
-TokenDock2_ExploreBilliardsRoomStreetCorner1.text,A plain door leads into a small billiards hall.
 TokenDock2_ExploreStorefront.button1,{action} Eksploruj
-TokenDock2_ExploreStorefront.text,A small trinket store, despite showing no signs of life, appears to still be open.
 TokenDock2_SearchBackroom.button1,{action} Zbadaj
-TokenDock2_SearchBackroom.text,Behind the shop counter you see many boxes full of stock not on display.
 TokenDock2_SearchBar.button1,{action} Zbadaj
-TokenDock2_SearchBar.text,A small bar has been repurposed as storage for some suspicious unmarked crates.
 TokenDock2_SearchBeachGoods.button1,{action} Zbadaj
-TokenDock2_SearchBeachGoods.text,Cargo from the ruined boat has washed up on the dockside.
 TokenDock2_SearchDisplay.button1,{action} Zbadaj
-TokenDock2_SearchDisplay.text,Various baubles are laid out haphazardly inside a display case.
 TokenDock2_SearchHouseBoatGoodsE.button1,{action} Zbadaj
 TokenDock2_SearchHouseBoatGoodsE.text,Ta otwarta beczka jest wypełniona różnymi drobiazgami. Aby je ukryć, na wierzchu beczki ktoś umieścił grubą warstwę gnijących ryb.
 TokenDock2_SearchHouseBoatGoodsW.button1,{action} Zbadaj
-TokenDock2_SearchHouseBoatGoodsW.text,On the deck sits a pile of goods that look in suspiciously better condition than the rest of the ship.
 TokenDock2_SearchPierGoodsE.button1,{action} Zbadaj
 TokenDock2_SearchPierGoodsE.text,Różne śmieci porozrzucano na powierzchni molo.
 TokenDock2_SearchPierGoodsW.button1,{action} Zbadaj
@@ -1312,15 +1298,10 @@ TokenDock2_SearchPosters.text,Ceglana ściana tego budynku została pokryta ró�
 TokenDock2_SearchRowboat.button1,{action} Zbadaj
 TokenDock2_SearchRowboat.text,Zniszczona łódź znajduje się już w połowie pod powierzchnią morskiej wody. Plandeka nad nią wygląda na niedawno naruszoną.
 TokenDock2_SearchShelves.button1,{action} Zbadaj
-TokenDock2_SearchShelves.text,The shelves are packed full of items of questionable value.
 TokenDock2_SightBeachPier.button1,Odsłoń
-TokenDock2_SightBeachPier.text,The large wooden boards of the dock obscure the shoreline below. An investigator in the {c:TileDock2_Pier} may reveal the adjacent area.
 TokenDock2_SightBeachStreetCorner1.button1,Odsłoń
-TokenDock2_SightBeachStreetCorner1.text,The shoreline of the river is just out of sight from your current position. An investigator in {c:TileDock2_StreetCorner1} may reveal the adjacent area.
 TokenDock2_SightPierBeach.button1,Odsłoń
-TokenDock2_SightPierBeach.text,A light haze obscures the docks futher down the shore. An investigator in the {c:TileDock2_Beach} or {c:TileDock2_HouseBoat} may reveal the adjacent area.
 TokenDock2_SightPierStreetCorner2.button1,Odsłoń
-TokenDock2_SightPierStreetCorner2.text,The shoreline of the river is just out of sight from your current position. An investigator in {c:TileDock2_StreetCorner2} may reveal the adjacent area.
 TokenHouse_ExploreBathroom.button1,{action} Eksploruj
 TokenHouse_ExploreBathroom.text,Te drzwi prowadzą do łazienki.
 TokenHouse_ExploreBedroom2.button1,{action} Eksploruj
@@ -1374,41 +1355,29 @@ TokenHouse2_ExploreBathroom.text,Te drzwi prowadzą do łazienki.
 TokenHouse2_ExploreBedroom1.button1,{action} Eksploruj
 TokenHouse2_ExploreBedroom1.text,Te drzwi prowadzą do głównej sypialni domu.
 TokenHouse2_ExploreBedroom2.button1,{action} Eksploruj
-TokenHouse2_ExploreBedroom2.text,A door bearing the names 'Alasdair & Elizabeth' leads to the childrens bedroom.
 TokenHouse2_ExploreDiningRoomHallEnd.button1,{action} Eksploruj
 TokenHouse2_ExploreDiningRoomHallEnd.text,Te drzwi prowadzą do rodzinnej jadalni.
 TokenHouse2_ExploreDiningRoomLounge.button1,{action} Eksploruj
 TokenHouse2_ExploreDiningRoomLounge.text,Te małe drzwiczki zapewniają szybki dostęp do kuchni domu.
 TokenHouse2_ExploreLibrary.button1,{action} Eksploruj
-TokenHouse2_ExploreLibrary.text,A door leads to a library.
 TokenHouse2_ExploreLoungeDiningRoom.button1,{action} Eksploruj
-TokenHouse2_ExploreLoungeDiningRoom.text,A door leads to a spacious lounge room.
 TokenHouse2_ExploreLoungeHallCorner1.button1,{action} Eksploruj
-TokenHouse2_ExploreLoungeHallCorner1.text,A door leads to a spacious lounge room.
 TokenHouse2_PersonMan1.button1,{action} Uwolnij go
-TokenHouse2_PersonMan1.text,A man sits silently in a sofa chair, with ropes restraining him and a brown bag over his head.
 TokenHouse2_PersonWoman2.button1,{action} Porozmawiaj z nią
-TokenHouse2_PersonWoman2.text,The woman sits silently in her chair, her fearful eyes unwaveringly fixed to the ground in front of her feet.
 TokenHouse2_SearchBedroomDesk.button1,{action} Zbadaj
 TokenHouse2_SearchBedroomDesk.text,Widzisz różne luźne stosy papierów zapisanych niespójnym, chaotycznym pismem. Zauważasz jednak, że te zapiski dotyczą zjawisk nadprzyrodzonych oraz okultyzmu.
 TokenHouse2_SearchCabinet_NoPuzzle.button1,{action} Zbadaj
-TokenHouse2_SearchCabinet_NoPuzzle.text,The cabinet has been crammed full of pages ripped out of an antique book. Taking a cursory glance at some of the pages, you spot passages from Pagan religious texts.
 TokenHouse2_SearchCabinet_Puzzle.button1,{action} Rozwiąż
-TokenHouse2_SearchCabinet_Puzzle.text,Pages of an ancient text still sit unordered in a drawer. You can attempt the puzzle using {observation} as an action.
 TokenHouse2_SearchCupboards.button1,{action} Zbadaj
 TokenHouse2_SearchCupboards.text,{c:SpawnHouse2_KitchenCultist} desperacko szukał czegoś w tych szafkach.
 TokenHouse2_SearchDiningTable.button1,{action} Zbadaj
 TokenHouse2_SearchDiningTable.text,Broń można zaimprowizować z jednego z przedmiotów znajdujących się na stole w jadalni.
 TokenHouse2_SearchEntryTable.button1,{action} Zbadaj
-TokenHouse2_SearchEntryTable.text,The contents of the entry table are scattered across the floor.
 TokenHouse2_SearchHallTable.button1,{action} Zbadaj
-TokenHouse2_SearchHallTable.text,A cluttered table contains various books, most of which look older than Arkham itself.
 TokenHouse2_SearchMagazines.button1,{action} Zbadaj
-TokenHouse2_SearchMagazines.text,Teenage fashion magazines are spread out on the writing desk.
 TokenHouse2_SearchToyChest.button1,{action} Zbadaj
 TokenHouse2_SearchToyChest.text,Zaglądając do skrzyni z zabawkami, widzisz różne przedmioty, które w żadnym wypadku nie wyglądają ci na zabawki.
 TokenHouse2_SightBathroom.button1,Odsłoń
-TokenHouse2_SightBathroom.text,The entrance hall continues past the library door. An investigator in the {c:TileHouse2_HallCorner1} may reveal the adjacent area.
 TokenPalace_ExploreAtticBallroom.button1,{action} Eksploruj
 TokenPalace_ExploreAtticBallroom.text,Małe drzwi wejściowe prowadzą dalej w głąb pałacu. We wschodniej części budynku wyraźnie słychać śpiew.
 TokenPalace_ExploreAtticLounge.button1,Kontynuuj
@@ -1459,6 +1428,25 @@ TokenWarehouse_SearchEmptyBox.button1,{action} Zbadaj
 TokenWarehouse_SearchEmptyBox.text,Pośród gnijącego drewna i kartonów leży jedno puste pudełko, które wygląda na podejrzanie nienaruszone.
 TokenWarehouse_SearchFurnace.button1,{action} Zbadaj
 TokenWarehouse_SearchFurnace.text,Wydaje ci się, że dostrzegłeś odblask jakiegoś metalowego przedmiotu zakopanego głęboko w stercie popiołu rozsypanego niedaleko pieca.
+TokenWarehouse2_ExploreBasementAlleyCorner1.button1,{action} Eksploruj
+TokenWarehouse2_ExploreBasementWarehouse.button1,{action} Eksploruj
+TokenWarehouse2_ExploreBellTower.button1,{action} Eksploruj
+TokenWarehouse2_ExploreStudy.button1,{action} Eksploruj
+TokenWarehouse2_ExploreWarehouseAlleyCorner1.button1,{action} Eksploruj
+TokenWarehouse2_ExploreWarehouseAlleyCorner1.text,Duże drzwi prowadzą do opuszczonego magazynu materiałów i produktów przemysłowych.
+TokenWarehouse2_ExploreWarehouseAlleyCorner2.button1,{action} Eksploruj
+TokenWarehouse2_ExploreWarehouseAlleyCorner2.text,Duże drzwi prowadzą do opuszczonego magazynu materiałów i produktów przemysłowych.
+TokenWarehouse2_ExploreWarehouseBasement.button1,{action} Eksploruj
+TokenWarehouse2_SearchBarrel.button1,{action} Zbadaj
+TokenWarehouse2_SearchBarrel.text,Samotna zapieczętowana beczka wyróżnia się wśród szeregu pustych oraz rozbitych.
+TokenWarehouse2_SearchBody.button1,{action} Zbadaj
+TokenWarehouse2_SearchBody.text,Ciało leży twarzą do ziemi wśród pudeł w kałuży krwi. To musi być jedna z biednych dusz, które weszły do tego przeklętego budynku przed tobą.
+TokenWarehouse2_SearchBookshelf.button1,{action} Zbadaj
+TokenWarehouse2_SearchBookshelf.text,Na półce leżą różne bibeloty, które sprawiają wrażenie niedawno tam umieszczonych.
+TokenWarehouse2_SearchEmptyBox.button1,{action} Zbadaj
+TokenWarehouse2_SearchEmptyBox.text,Pośród gnijącego drewna i kartonów leży jedno puste pudełko, które wygląda na podejrzanie nienaruszone.
+TokenWarehouse2_SearchFurnace.button1,{action} Zbadaj
+TokenWarehouse2_SearchFurnace.text,Wydaje ci się, że dostrzegłeś odblask jakiegoś metalowego przedmiotu zakopanego głęboko w stercie popiołu rozsypanego niedaleko pieca.
 UICutsceneEnd.uitext,Koniec
 UICutsceneFrame.button1,Kontynuuj
 UIDock_IntroContinue.uitext,Kontynuuj
