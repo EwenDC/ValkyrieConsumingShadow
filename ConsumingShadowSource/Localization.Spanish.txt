@@ -24,7 +24,7 @@ EventDock_BlueItemPickup_StormOfSpirits.text,"Entre la basura encuentras una hoj
 EventDock_BlueItemPickup_Wrack.button1,Continuar
 EventDock_BlueItemPickup_Wrack.text,"Entre la basura encuentras una hoja de papel rota con notas garabateadas. Al leer la hoja descubres que lo que hay escrito en ella no tiene sentido. Sin embargo, al terminar de leer, las palabras resuenan en tu cabeza, llenándola de conocimientos prohibidos. \n\n Sufres 1 de Horror boca abajo. Ganas el Hechizo {c:QItemWrack} y 2 Pistas <color=Green>{clue}</color>. A continuación descarta esta ficha de Búsqueda."
 EventDock_BlueKeyPickup.button1,Continuar
-EventDock_BlueKeyPickup.text,"Percibes un destello metálico entre los trastos que tienes delante. Metes la mano y encuentras una {c:QItemBrassKey} que lleva una etiqueta con un dibujo borroso de un cerebro, dando la impresión de ser una especie de advertencia. \n\n Ganas el Objeto común {c:QItemBrassKey}. A continuación descarta esta ficha de Búsqueda."
+EventDock_BlueKeyPickup.text,"Percibes un destello metálico entre los trastos que tienes delante. Metes la mano y encuentras una {c:QItemBrassKey} que lleva una etiqueta con un dibujo borroso de un cerebro, dando la impresión de ser una especie de advertencia. \n\n Ganas el Objeto único {c:QItemBrassKey}. A continuación descarta esta ficha de Búsqueda."
 EventDock_ContinueCratePuzzle.button1,{action} Probar
 EventDock_ContinueCratePuzzle.button2,Cancelar
 EventDock_ContinueCratePuzzle.text,El contenido de la caja sigue todavía sellado por energías mágicas. Puedes intentar el rompecabezas usando {will}.
@@ -576,7 +576,7 @@ EventPalace_CounterRitual_MajorQ.button2,Yig
 EventPalace_CounterRitual_MajorQ.button3,Zhar
 EventPalace_CounterRitual_MajorQ.text,"Sientes que las energías de tu hechizo se dirigen hacia tu objetivo. \n\n —Vuelve a las viles aguas que llamas hogar —gritas. Aunque lo intentes muchas veces, por siempre este mundo negará la entrada a..."
 EventPalace_CounterRitual_MinorFailure.button1,Continuar
-EventPalace_CounterRitual_MinorFailure.text,Completas el contraritual para desterrar al Primigenio. El ritual de invocación parece perder fuerza, inhibido por tu hechizo. Sin embargo, tu contrarritual, debilitado por los errores cometidos al lanzarlo, es incapaz de detener por completo el ritual de invocación. 2N Todos los investigadores sufren 3 de Horror.
+EventPalace_CounterRitual_MinorFailure.text,Completas el contraritual para desterrar al Primigenio. El ritual de invocación parece perder fuerza, inhibido por tu hechizo. Sin embargo, tu contrarritual, debilitado por los errores cometidos al lanzarlo, es incapaz de detener por completo el ritual de invocación. \n\n Todos los investigadores sufren 3 de Horror.
 EventPalace_CounterRitual_MinorQ1.button1,Rojo
 EventPalace_CounterRitual_MinorQ1.button2,Verde
 EventPalace_CounterRitual_MinorQ1.button3,Azul
@@ -1140,7 +1140,7 @@ SpawnPalace_LobbyThrall.text,"Has conseguido llegar lo suficientemente temprano 
 SpawnPalace_LobbyZombie.button1,Continuar
 SpawnPalace_LobbyZombie.text,"Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace_LobbyZombie} en el lugar señalado."
 SpawnPalace_LoungeCthonian.button1,Continuar
-SpawnPalace_LoungeCthonian.text,"Desde el otro lado de la habitación te sobresalta el repentino derrumbamiento de parte del suelo. Del agujero recién creado se eleva una criatura indescriptible y horripilante. \n\n Aparece un monstruo c:SpawnPalace_Palace_LoungeCthonian} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
+SpawnPalace_LoungeCthonian.text,"Desde el otro lado de la habitación te sobresalta el repentino derrumbamiento de parte del suelo. Del agujero recién creado se eleva una criatura indescriptible y horripilante. \n\n Aparece un monstruo {c:SpawnPalace_LoungeCthonian} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
 SpawnPalace_LoungeHuntingHorror.button1,Continuar
 SpawnPalace_LoungeHuntingHorror.text,"Desde el otro lado de la sala oyes un sonido incomprensible procedente de una criatura indescriptible y terrorífica. \n\n Aparece un {c:Aparecerpalacio_SalónCazarHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
 SpawnPalace_LoungeStarVampire.button1,Continuar

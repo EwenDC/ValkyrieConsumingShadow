@@ -24,7 +24,7 @@ EventDock_BlueItemPickup_StormOfSpirits.text,Amongst the junk you find a torn sh
 EventDock_BlueItemPickup_Wrack.button1,Continue
 EventDock_BlueItemPickup_Wrack.text,Amongst the junk you find a torn sheet of paper with notes scribbled on it. Reading the page, you find whats written on it to be complete nonsense. However, after you finish reading the words echo around your head, filling it with forbidden knowledge. Suffer 1 facedown Horror and gain the {c:QItemWrack} Spell and 2 Clues. Then discard this Search token.
 EventDock_BlueKeyPickup.button1,Continue
-EventDock_BlueKeyPickup.text,You notice a glint of metal amongst the junk in front of you. You shove your hand in and pull it out, revealing a {c:QItemBrassKey}. Attached is a tag with a drawing of a distorted brain, serving almost like a warning. Gain the {c:QItemBrassKey} Common Item. Then discard this Search token.
+EventDock_BlueKeyPickup.text,You notice a glint of metal amongst the junk in front of you. You shove your hand in and pull it out, revealing a {c:QItemBrassKey}. Attached is a tag with a drawing of a distorted brain, serving almost like a warning. Gain the {c:QItemBrassKey} Unique Item. Then discard this Search token.
 EventDock_ContinueCratePuzzle.button1,{action} Attempt
 EventDock_ContinueCratePuzzle.button2,Cancel
 EventDock_ContinueCratePuzzle.text,The contents of the crate is still sealed away by magic energies. You can attempt the puzzle using {will} as an action.
@@ -705,7 +705,7 @@ EventPalace_PlaceHallCorner2HallEnd.text,Behind the door is a small access corri
 EventPalace_PlaceInteractSummoningRitual.button1,Continue
 EventPalace_PlaceInteractSummoningRitual.text,In the far corner of the attic you spot two robed figures standing around a summoning circle, their eyes glazed over as they chant dark magic. You have found the summoning ritual. Place an Interact token as indicated.
 EventPalace_PlaceLobby.button1,Continue
-EventPalace_PlaceLobby.text,You burst through the front entrance of the Palace, determined to put an end to these vile cult schemes once and for all. Place the {c:TilePalace_Lobby} tile, a Wall, and your Investigator figures as indicated.
+EventPalace_PlaceLobby.text,You burst through the front entrance of the Palace, determined to put an end to these vile cult schemes once and for all. Place the {c:TilePalace_Lobby} tile, a wall, and your Investigator figures as indicated.
 EventPalace_PlaceLounge.button1,Continue
 EventPalace_PlaceLounge.text,You throw open the door to reveal a small lounge for entertaining waiting visitors. Discard this Explore token and place the {c:TilePalace_Lounge} tile as indicated.
 EventPalace_PlaceSearchTrapdoor.button1,Continue
@@ -1237,7 +1237,7 @@ SpawnPalace_LobbyThrall.text,You have managed to arrive early enough in the nigh
 SpawnPalace_LobbyZombie.button1,Continue
 SpawnPalace_LobbyZombie.text,You have managed to arrive early enough in the night for the Palace Custodian to still be on duty. You begin asking them for assistance in locating the ritual, but stop when their unnatural gaze falls upon you. Spawn a {c:SpawnPalace_LobbyZombie} as indicated.
 SpawnPalace_LoungeCthonian.button1,Continue
-SpawnPalace_LoungeCthonian.text,From the other side of the room you are startled by the sudden collapse of part of the floor. From the newly created hole, an indescribable creature of great horror rises up. Spawn a {c:SpawnPalace_Palace_LoungeCthonian} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnPalace_LoungeCthonian.text,From the other side of the room you are startled by the sudden collapse of part of the floor. From the newly created hole, an indescribable creature of great horror rises up. Spawn a {c:SpawnPalace_LoungeCthonian} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnPalace_LoungeHuntingHorror.button1,Continue
 SpawnPalace_LoungeHuntingHorror.text,From the other side of the room you hear an incomprehensible sound coming from an indescribable creature of great horror. Spawn a {c:SpawnPalace_LoungeHuntingHorror} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnPalace_LoungeStarVampire.button1,Continue

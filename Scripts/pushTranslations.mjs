@@ -1,8 +1,11 @@
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
 
-const sourceDirectory = "../ConsumingShadowSource/";
-const baseLanguage = "English";
+const sourceDirectory = join(import.meta.dirname, "../ConsumingShadowSource/");
 const localizationFiles = /^Localization\.(\w+)\.txt$/;
+const fileEncoding = "utf8";
+
+const baseLanguage = "English";
 const untranslatedKeys = /^EventStart.button[2-9]$|^EventTest_/;
 const droppedValues = /^Button\d$/;
 
@@ -36,7 +39,7 @@ function writeStringsToFile(path, strings, endOfLine = "\n") {
     .sort(new Intl.Collator("en").compare)
     .join(endOfLine);
 
-  writeFileSync(path, output, "utf8");
+  writeFileSync(path, output, fileEncoding);
 }
 
 const sourceFiles = readdirSync(sourceDirectory);
@@ -45,15 +48,15 @@ const languages = sourceFiles.reduce((map, file) => {
   if (fileMatch) {
     const language = fileMatch[1];
     const filePath = `${sourceDirectory}${file}`;
-    const fileContents = readFileSync(filePath, "utf8");
+    const fileContents = readFileSync(filePath, fileEncoding);
 
     const strings = new Map();
     const endOfLine = fileContents.includes("\r\n") ? "\r\n" : "\n";
     for (const line of fileContents.split(endOfLine)) {
       if (line) {
-        const [key, ...value] = line.split(",");
-        const joinedValue = value.join();
-        if (!droppedValues.test(joinedValue)) strings.set(key, joinedValue);
+        const [key, ...valueParts] = line.split(",");
+        const value = valueParts.join();
+        if (!droppedValues.test(value)) strings.set(key, value);
       }
     }
     map.set(language, {
@@ -103,7 +106,10 @@ for (const [
     }
 
     if (missingStrings.size > 0) {
-      writeStringsToFile(`NewLocalization.${language}.txt`, missingStrings);
+      writeStringsToFile(
+        join(import.meta.dirname, `Unlocalized.${language}.txt`),
+        missingStrings
+      );
     }
   }
 
