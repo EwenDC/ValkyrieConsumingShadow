@@ -569,8 +569,10 @@ EventNextLocations_WarehouseHouseDock.button8,Viajar al palacio
 EventNextLocations_WarehouseHouseDock.text,Cierras la puerta del coche de un portazo, pero no llegas a arrancarlo. Te preguntas a dónde deberías ir en primer lugar. Reflexionas sobre cuál de los tres distritos de Arkham deberías investigar.
 EventPalace_CounterRitual_HasturSuccess.button1,Continuar
 EventPalace_CounterRitual_HasturSuccess.text,"Completas el contraritual para desterrar a Hastur de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
+EventPalace_CounterRitual_InstantFailure.button1,Continuar
+EventPalace_CounterRitual_InstantFailure.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado.
 EventPalace_CounterRitual_MajorFailure.button1,Continuar
-EventPalace_CounterRitual_MajorFailure.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado.
+EventPalace_CounterRitual_MajorFailure.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado. \n\n Todos los investigadores sufren 3 de Horror.
 EventPalace_CounterRitual_MajorQ.button1,Hastur
 EventPalace_CounterRitual_MajorQ.button2,Yig
 EventPalace_CounterRitual_MajorQ.button3,Zhar

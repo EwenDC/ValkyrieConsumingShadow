@@ -640,8 +640,10 @@ EventNextLocations_WarehouseHouseDock.button8,Travel to Palace
 EventNextLocations_WarehouseHouseDock.text,You slam the door of your car shut but stop short of starting your car. Where are you going to go first? You mull over which of the three districts of Arkham to start your investigation in.
 EventPalace_CounterRitual_HasturSuccess.button1,Continue
 EventPalace_CounterRitual_HasturSuccess.text,You complete the counter-ritual to banish Hastur from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
+EventPalace_CounterRitual_InstantFailure.button1,Continue
+EventPalace_CounterRitual_InstantFailure.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being.
 EventPalace_CounterRitual_MajorFailure.button1,Continue
-EventPalace_CounterRitual_MajorFailure.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being.
+EventPalace_CounterRitual_MajorFailure.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being. Each investigator suffers 3 Horror.
 EventPalace_CounterRitual_MajorQ.button1,Hastur
 EventPalace_CounterRitual_MajorQ.button2,Yig
 EventPalace_CounterRitual_MajorQ.button3,Zhar
