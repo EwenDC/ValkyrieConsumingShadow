@@ -567,18 +567,18 @@ EventNextLocations_WarehouseHouseDock.button6,Viajar al distrito industrial
 EventNextLocations_WarehouseHouseDock.button7,Viajar al distrito residencial
 EventNextLocations_WarehouseHouseDock.button8,Viajar al palacio
 EventNextLocations_WarehouseHouseDock.text,Cierras la puerta del coche de un portazo, pero no llegas a arrancarlo. Te preguntas a dónde deberías ir en primer lugar. Reflexionas sobre cuál de los tres distritos de Arkham deberías investigar.
-EventPalace_CounterRitual_HasturSuccess.button1,Continuar
-EventPalace_CounterRitual_HasturSuccess.text,"Completas el contraritual para desterrar a Hastur de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
-EventPalace_CounterRitual_InstantFailure.button1,Continuar
-EventPalace_CounterRitual_InstantFailure.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado.
-EventPalace_CounterRitual_MajorFailure.button1,Continuar
-EventPalace_CounterRitual_MajorFailure.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado. \n\n Todos los investigadores sufren 3 de Horror.
+EventPalace_CounterRitual_SuccessHastur.text,"Completas el contraritual para desterrar a Hastur de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
+EventPalace_CounterRitual_FailureMinor.button1,Continuar
+EventPalace_CounterRitual_FailureInstant.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado.
+EventPalace_CounterRitual_SuccessYig.button1,Continuar
+EventPalace_CounterRitual_FailureMajor.text,"Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado. \n\n Todos los investigadores sufren 3 de Horror."
+EventPalace_CounterRitual_FailureInstant.button1,Continuar
 EventPalace_CounterRitual_MajorQ.button1,Hastur
 EventPalace_CounterRitual_MajorQ.button2,Yig
 EventPalace_CounterRitual_MajorQ.button3,Zhar
 EventPalace_CounterRitual_MajorQ.text,"Sientes que las energías de tu hechizo se dirigen hacia tu objetivo. \n\n —Vuelve a las viles aguas que llamas hogar —gritas. Aunque lo intentes muchas veces, por siempre este mundo negará la entrada a..."
-EventPalace_CounterRitual_MinorFailure.button1,Continuar
-EventPalace_CounterRitual_MinorFailure.text,Completas el contraritual para desterrar al Primigenio. El ritual de invocación parece perder fuerza, inhibido por tu hechizo. Sin embargo, tu contrarritual, debilitado por los errores cometidos al lanzarlo, es incapaz de detener por completo el ritual de invocación. \n\n Todos los investigadores sufren 3 de Horror.
+EventPalace_CounterRitual_FailureMinor.text,"Completas el contraritual para desterrar al Primigenio. El ritual de invocación parece perder fuerza, inhibido por tu hechizo. Sin embargo, tu contrarritual, debilitado por los errores cometidos al lanzarlo, es incapaz de detener por completo el ritual de invocación. \n\n Todos los investigadores sufren 3 de Horror."
+EventPalace_CounterRitual_FailureMajor.button1,Continuar
 EventPalace_CounterRitual_MinorQ1.button1,Rojo
 EventPalace_CounterRitual_MinorQ1.button2,Verde
 EventPalace_CounterRitual_MinorQ1.button3,Azul
@@ -587,10 +587,9 @@ EventPalace_CounterRitual_MinorQ2.button1,Dolor
 EventPalace_CounterRitual_MinorQ2.button2,Lujuria
 EventPalace_CounterRitual_MinorQ2.button3,Locura
 EventPalace_CounterRitual_MinorQ2.text,"Notas un suave zumbido mientras tus palabras se impregnan de una energía cósmica. \n\n —Las barreras de nuestro mundo se hacen fuertes —prosigues—, bloqueando tus intentos para propagar..."
-EventPalace_CounterRitual_YigSuccess.button1,Continuar
-EventPalace_CounterRitual_YigSuccess.text,"Completas el contraritual para desterrar a Yig de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
-EventPalace_CounterRitual_ZharSuccess.button1,Continuar
-EventPalace_CounterRitual_ZharSuccess.text,"Completas el contraritual para desterrar a Zhar de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
+EventPalace_CounterRitual_SuccessYig.text,"Completas el contraritual para desterrar a Yig de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
+EventPalace_CounterRitual_SuccessZhar.button1,Continuar
+EventPalace_CounterRitual_SuccessZhar.text,"Completas el contraritual para desterrar a Zhar de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
 EventPalace_ExploreAtticBallroomFailure.button1,Continuar
 EventPalace_ExploreAtticBallroomFailure.text,Tiras de la manilla hasta que tus manos se ponen rojas, pero la puerta no se mueve.
 EventPalace_ExploreAtticBallroomSkillCheck.button1,Confirmar
@@ -609,8 +608,7 @@ EventPalace_NoHoursNotAttic.button1,Continuar
 EventPalace_NoHoursNotAttic.text,La energía que se arremolina alrededor de tu cabeza entra en tu mente proporcionándote una visión clarividente del propio ritual. Te das cuenta con horror de que el ritual está a pocos segundos de completarse. Sin pensarlo dos veces, canalizas la energía ambiental en un poderoso contraritual, listo para desterrar al dios invasor.
 EventPalace_PlaceAttic.button1,Continuar
 EventPalace_PlaceAttic.text,"El pequeño ático del palacio está lleno de muebles viejos y polvo. Aunque el palacio propiamente dicho está en buen estado, sería muy raro que alguien se aventurase a venir a este ala, por lo que es un lugar ideal para esconderse de miradas indiscretas. \n\n Coloca el módulo {c:TilePalace_Attic} en el lugar señalado."
-EventPalace_PlaceAtticBallroom.button1,Continuar
-EventPalace_PlaceAtticBallroom.text,"El pequeño ático del palacio está lleno de muebles viejos y polvo. Aunque el palacio propiamente dicho está en buen estado, sería muy raro que alguien se aventurase a venir a este ala, por lo que es un lugar ideal para esconderse de miradas indiscretas. \n\n Coloca el módulo {c:TilePalace_Attic}en el lugar señalado. A continuación, descarta la ficha de Exploración que conecta los módulos {c:TilePalace_Ballroom} y {c:TilePalace_Attic}."
+EventPalace_PlaceAttic_RemoveFinalExplore.button1,Continuar
 EventPalace_PlaceAtticSecretPassage.button1,Continuar
 EventPalace_PlaceAtticSecretPassage.text,"El pasadizo secreto conduce al interior de un viejo armario. Al abrir las puertas del armario te das cuenta de que estás en el ático. \n\n Coloca una ficha Pasadizo Secreto en el lugar señalado. A continuación mueve a tu investigador a ese espacio."
 EventPalace_PlaceAtticTrapdoor.button1,Continuar
@@ -1383,7 +1381,6 @@ TokenHouse2_SearchToyChest.text,Al asomarte al baúl de los juguetes encuentras 
 TokenHouse2_SightBathroom.button1,Revelar
 TokenPalace_ExploreAtticBallroom.button1,{action} Explorar
 TokenPalace_ExploreAtticBallroom.text,Una pequeña puerta de acceso conduce al interior del palacio. Al este se oye claramente el sonido de los cánticos.
-TokenPalace_ExploreAtticLounge.button1,Continuar
 TokenPalace_ExploreAtticLounge.text,La puerta ha sido tapiada con tablones y clavos. Aunque tratas de arrancarlos, una fuerza antinatural los mantiene donde están.
 TokenPalace_ExploreBallroomAttic.button1,{action} Explorar
 TokenPalace_ExploreBallroomAttic.text,Una puerta sin indicaciones conduce al interior del palacio.
@@ -1470,3 +1467,5 @@ UIPrologue_Continue.uitext,Continuar
 UIPrologue_Text.uitext,"Arrojas el telegrama al suelo y maldices en voz alta. ¿Cómo no lo has visto antes? Cruzas referencias con las runas traducidas pero sólo encuentras pruebas que corroboran la historia. El telegrama parece estar en lo cierto. Con las primeras luces de la mañana se llevará a cabo un ritual en el viejo palacio del gobernador. Un ritual para convocar a un Primigenio a nuestro mundo. \n\n Te levantas y paseas por tu despacho. Has pasado los últimos meses ocupado con tu investigación sobre tres sectas locales, pero nunca habrías imaginado que alguna de ellas fuera capaz de algo más que organizar fiestas de té. Está claro que te equivocabas. \n\n Aunque el mensaje que has recibido es un galimatías no puedes arriesgarte a ignorarlo. Habla de una de las sectas que habéis estado siguiendo y que sería la encargada de llevar a cabo el vil ritual. Otra de las sectas estaría prestándole ayuda. Se dice que la tercera secta trabajaría contra las otras dos, pero eso no te sirve de consuelo. \n\n Vuelves a sentarte en la silla y revisas el telegrama. Buscas desesperadamente una pista que identifique a las sectas aludidas, pero nada. Las runas traducidas que tienes en tu escritorio contienen instrucciones exactas sobre cómo realizar un ritual de destierro capaz de detener a un Primigenio. Sin embargo, el ritual descrito requiere información sobre el Primigenio a desterrar. \n\n Maldices de nuevo. Te faltan pistas y sobre todo tiempo. Te pones la chaqueta, coges tu pistola, reúnes a tu equipo y os dirigís a la ciudad."
 UIWarehouse_IntroContinue.uitext,Continuar
 UIWarehouse_IntroText.uitext,"Cuando apenas te habías adentrado en las hileras de edificios industriales te topas con algunos lugareños que deambulan por la calle, blandiendo armas cubiertas de sangre oscura y pegajosa. Temes que un mal haya poseído a estas buenas gentes, obligándolas a cometer atrocidades indescriptibles contra su voluntad. Sin embargo, cuando te ven, te ruegan que vuelvas a tu coche y abandones el distrito por tu propia seguridad. \n\n Les pides que te expliquen la situación. Te cuentan historias fantásticas de animales más grandes que los osos, pero distintos de cualquier criatura conocida por el hombre, que atacan a los trabajadores locales en las calles y edificios de todo el distrito. Te muestras escéptico ante estas historias hasta que una horrible criatura salta de repente desde un callejón cercano y acosa al grupo. Con gran dificultad vencen a la criatura, matándola no sin antes perder a uno de los suyos en la lucha. \n\n El grupo vuelve a rogarte que te marches, pero en cambio les pides que te digan de dónde vienen esas criaturas. Intentan advertirte de que no vayas allí, pero tras mucho insistir te hablan de un viejo almacén que había sido abandonado recientemente. Los vecinos del edificio dicen haber oído ruidos extraños, pero lo atribuyen a una plaga de animales. Sin embargo, todos los que han entrado en el edificio desde entonces no han vuelto a salir. \n\n Das las gracias al grupo y te marchas mientras algunos de ellos rezan en voz baja por tu alma inmortal. Te diriges hacia el viejo almacén con la intención de destruir la plaga antes de que se cobre más vidas inocentes."
+EventPalace_CounterRitual_SuccessHastur.button1,Continuar
+EventPalace_PlaceAttic_RemoveFinalExplore.text,"El pequeño ático del palacio está lleno de muebles viejos y polvo. Aunque el palacio propiamente dicho está en buen estado, sería muy raro que alguien se aventurase a venir a este ala, por lo que es un lugar ideal para esconderse de miradas indiscretas. \n\n Coloca el módulo {c:TilePalace_Attic}en el lugar señalado. A continuación, descarta la ficha de Exploración que conecta los módulos {c:TilePalace_Ballroom} y {c:TilePalace_Attic}."

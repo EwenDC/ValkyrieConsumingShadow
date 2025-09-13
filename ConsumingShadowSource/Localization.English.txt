@@ -638,18 +638,18 @@ EventNextLocations_WarehouseHouseDock.button6,Travel to Industrial District
 EventNextLocations_WarehouseHouseDock.button7,Travel to Residential District
 EventNextLocations_WarehouseHouseDock.button8,Travel to Palace
 EventNextLocations_WarehouseHouseDock.text,You slam the door of your car shut but stop short of starting your car. Where are you going to go first? You mull over which of the three districts of Arkham to start your investigation in.
-EventPalace_CounterRitual_HasturSuccess.button1,Continue
-EventPalace_CounterRitual_HasturSuccess.text,You complete the counter-ritual to banish Hastur from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
-EventPalace_CounterRitual_InstantFailure.button1,Continue
-EventPalace_CounterRitual_InstantFailure.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being.
-EventPalace_CounterRitual_MajorFailure.button1,Continue
-EventPalace_CounterRitual_MajorFailure.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being. Each investigator suffers 3 Horror.
+EventPalace_CounterRitual_SuccessHastur.text,You complete the counter-ritual to banish Hastur from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
+EventPalace_CounterRitual_FailureMinor.button1,Continue
+EventPalace_CounterRitual_FailureInstant.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being.
+EventPalace_CounterRitual_SuccessYig.button1,Continue
+EventPalace_CounterRitual_FailureMajor.text,You complete the counter-ritual to banish the ancient one. The air around you is silent for a moment, then the summoning ritual resumes at a much faster pace than before. Your heart sinks as you realise you banished the wrong being. Each investigator suffers 3 Horror.
+EventPalace_CounterRitual_FailureInstant.button1,Continue
 EventPalace_CounterRitual_MajorQ.button1,Hastur
 EventPalace_CounterRitual_MajorQ.button2,Yig
 EventPalace_CounterRitual_MajorQ.button3,Zhar
 EventPalace_CounterRitual_MajorQ.text,|||You feel the energies of your spell direct themselves towards your target. You cry, "Go back to the vile waters which you call home. Though you may try many times, forever more this world will deny the entrance of..."|||
-EventPalace_CounterRitual_MinorFailure.button1,Continue
-EventPalace_CounterRitual_MinorFailure.text,You complete the counter-ritual to banish the ancient one. The summoning ritual falters, inhibited by your spell. However, your counter-ritual, weakened by mistakes made while casting it, is unable to stop the summoning ritual's completion entirely. Each investigator suffers 3 Horror.
+EventPalace_CounterRitual_FailureMinor.text,You complete the counter-ritual to banish the ancient one. The summoning ritual falters, inhibited by your spell. However, your counter-ritual, weakened by mistakes made while casting it, is unable to stop the summoning ritual's completion entirely. Each investigator suffers 3 Horror.
+EventPalace_CounterRitual_FailureMajor.button1,Continue
 EventPalace_CounterRitual_MinorQ1.button1,Red
 EventPalace_CounterRitual_MinorQ1.button2,Green
 EventPalace_CounterRitual_MinorQ1.button3,Blue
@@ -658,10 +658,10 @@ EventPalace_CounterRitual_MinorQ2.button1,Pain
 EventPalace_CounterRitual_MinorQ2.button2,Lust
 EventPalace_CounterRitual_MinorQ2.button3,Madness
 EventPalace_CounterRitual_MinorQ2.text,|||You feel a gentle hum as your words are imbued with a cosmic energy. You continue, "The barriers of our world become strong, blocking your attempts to spread..."|||
-EventPalace_CounterRitual_YigSuccess.button1,Continue
-EventPalace_CounterRitual_YigSuccess.text,You complete the counter-ritual to banish Yig from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
-EventPalace_CounterRitual_ZharSuccess.button1,Continue
-EventPalace_CounterRitual_ZharSuccess.text,You complete the counter-ritual to banish Zhar from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
+EventPalace_CounterRitual_SuccessYig.text,You complete the counter-ritual to banish Yig from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
+EventPalace_CounterRitual_SuccessZhar.button1,Continue
+EventPalace_CounterRitual_SuccessZhar.text,You complete the counter-ritual to banish Zhar from our reality once and for all. The air around you is deathly silent as the summoning ritual fizzles out suddenly. You have successfully stopped the invasion of our reality. Each investigator becomes Focused.
+EventPalace2_PlaceBallroom.text,You open the door to reveal a lavish ballroom, used to entertain guests with concerts and small plays. The sound of chanting is audibly quieter here. Place the {c:TilePalace2_Ballroom} tile and a door as indicated and discard all Explore tokens leading to it.
 EventPalace_ExploreAtticBallroomFailure.button1,Continue
 EventPalace_ExploreAtticBallroomFailure.text,You pull on the handle until your hands are bright red, but the door does not budge.
 EventPalace_ExploreAtticBallroomSkillCheck.button1,Confirm
@@ -680,14 +680,14 @@ EventPalace_NoHoursNotAttic.button1,Continue
 EventPalace_NoHoursNotAttic.text,The energy swirling around you head enters your mind, giving you a clairvoyant view of the ritual itself. You realise in horror that the ritual is mere seconds from reaching completion. Without a second thought you channel the ambient energy into a powerful counter-ritual, ready to banish the invading god.
 EventPalace_PlaceAttic.button1,Continue
 EventPalace_PlaceAttic.text,The small attic space of the palace is dusty and full of old furniture. Though the palace proper is well maintained, it is clearly rare for anyone to venture into this wing, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace_Attic} tile as indicated.
-EventPalace_PlaceAtticBallroom.button1,Continue
-EventPalace_PlaceAtticBallroom.text,The small attic space of the palace is dusty and full of old furniture. Though the palace proper is well maintained, it is clearly rare for anyone to venture into this wing, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace_Attic} tile as indicated. Then discard the Explore token that connects the {c:TilePalace_Ballroom} and the {c:TilePalace_Attic}.
+EventPalace_PlaceAttic_RemoveFinalExplore.button1,Continue
+EventPalace2_PlaceSearchBar.text,In the corner of a room, a large drinks cabinet catches your eye. It's construction appears much cheaper than the rest of the furniture, and it is suspiciously empty. Place a Search token as indicated.
 EventPalace_PlaceAtticSecretPassage.button1,Continue
 EventPalace_PlaceAtticSecretPassage.text,The secret passage leads into the inside of an old cupboard. You swing open the cupboard doors, revealing its location to be inside the attic. Place a Secret Passage as indicated. Then move your investigator figure to that space.
 EventPalace_PlaceAtticTrapdoor.button1,Continue
 EventPalace_PlaceAtticTrapdoor.text,The secret tunnel ends with a trapdoor leading into the attic entrance, bypassing the chained up door. Place a Trapdoor as indicated. Then move your investigator figure to that space.
 EventPalace_PlaceBallroom.button1,Continue
-EventPalace_PlaceBallroom.text,You open the door to reveal the lavish ballroom, used to entertain guests with concerts and small plays. Place the {c:TilePalace_Ballroom} tile and doors as indicated and discard all Explore tokens leading to it.
+EventPalace_PlaceBallroom.text,You open the door to reveal a lavish ballroom, used to entertain guests with concerts and small plays. Place the {c:TilePalace_Ballroom} tile and doors as indicated and discard all Explore tokens leading to it.
 EventPalace_PlaceExploreAtticBallroom.button1,Continue
 EventPalace_PlaceExploreAtticBallroom.text,The sound of chanting is clearly audible behind a small access door at the back of the ballroom. Place an Explore token as indicated.
 EventPalace_PlaceExploreAtticLounge.button1,Continue
@@ -705,7 +705,7 @@ EventPalace_PlaceExploresLobby.text,The sounds of chanting echo through the stru
 EventPalace_PlaceHallCorner2HallEnd.button1,Continue
 EventPalace_PlaceHallCorner2HallEnd.text,Behind the door is a small access corridor separating the public spaces of the palace from the private ones. The sound of chanting is audibly quieter here. Place the {c:TilePalace_HallCorner2} and {c:TilePalace_HallEnd} tiles and a Wall as indicated and discard all Explore tokens leading to them.
 EventPalace_PlaceInteractSummoningRitual.button1,Continue
-EventPalace_PlaceInteractSummoningRitual.text,In the far corner of the attic you spot two robed figures standing around a summoning circle, their eyes glazed over as they chant dark magic. You have found the summoning ritual. Place an Interact token as indicated.
+EventPalace_PlaceInteractSummoningRitual.text,In the far corner of the attic two robed figures are standing around a summoning circle, their eyes glazed over as they chant dark magic. You have found the summoning ritual. Place an Interact token as indicated.
 EventPalace_PlaceLobby.button1,Continue
 EventPalace_PlaceLobby.text,You burst through the front entrance of the Palace, determined to put an end to these vile cult schemes once and for all. Place the {c:TilePalace_Lobby} tile, a wall, and your Investigator figures as indicated.
 EventPalace_PlaceLounge.button1,Continue
@@ -1508,7 +1508,6 @@ TokenHouse2_SightBathroom.button1,Reveal
 TokenHouse2_SightBathroom.text,The entrance hall continues past the library door. An investigator in the {c:TileHouse2_HallCorner1} may reveal the adjacent area.
 TokenPalace_ExploreAtticBallroom.button1,{action} Explore
 TokenPalace_ExploreAtticBallroom.text,A small access door leads further into the palace. To the east the sound of chanting is clearly audible.
-TokenPalace_ExploreAtticLounge.button1,Continue
 TokenPalace_ExploreAtticLounge.text,The door has been boarded over with planks and nails. Though you try your hardest to tear them away, an unnatural force keeps them where they are.
 TokenPalace_ExploreBallroomAttic.button1,{action} Explore
 TokenPalace_ExploreBallroomAttic.text,An unmarked door leads further into the palace.
@@ -1600,3 +1599,111 @@ UIPrologue_Continue.uitext,Continue
 UIPrologue_Text.uitext,|||<align="left">You throw down the telegram you are reading and curse loudly. How could you have not seen this sooner? You cross-reference the translated runes, but only find evidence that corroborates the story. The telegram must be telling the truth. At the first light of tomorrow morning, a ritual will be performed at the site of the Old Governors Palace. A ritual to summon an Ancient One into our world.\n\nYou stand up and pace around your office. You have spent the last few months occupied with your investigation into three local cults, but you would have never imagined any of them capable of more than hosting tea parties. Clearly, you were mistaken.\n\nWhile the message you have received is a barely coherent ramble, you cannot risk ignoring it. It speaks of one of the cults you have been following as the perpetrator of the vile ritual, with another one lending it aid. The third cult is said to be working against the other two, but you find that fact to be of little solace.\n\nYou slide back into your chair and review the telegram. You desperately search for any clues identifying the cults being discussed, but find nothing. The translated runes on your desk contain exact instructions on how to perform a banishment ritual capable of stopping an Ancient One's invasion. However, the ritual described requires information about the Ancient One being banished to be performed.\n\nYou curse again. You are short on leads and even shorter on time. You throw your jacket on, grab your gun, and head out into town.|||
 UIWarehouse_IntroContinue.uitext,Continue
 UIWarehouse_IntroText.uitext,|||<align="left">You do not make it far into the lines of industrial buildings before encountering some locals wandering the street, brandishing weapons covered in dark sticky blood. You fear that an evil might have possessed these good people, forcing them to commit unspeakable atrocities against their will. However, when they spot you, they beg you to return to your car and leave the district for your own safety.\n\nYou ask them to explain the situation. They tell you fantastical stories of animals bigger than bears, but unlike any creature known to man, attacking local workers in the streets and buildings all over the district. You are sceptical of these stories, until an awful creature suddenly jumps out of a nearby alley and besets the group. With great difficulty they overpower the creature and kill it, but not before losing one of their own in the fight.\n\nThe group again begs you to leave, but you instead ask that they tell you where these creatures are coming from. They try to warn you off going there, but after much insistence tell you about an old warehouse that had been only recently decommissioned. Neighbouring buildings reported hearing strange noises coming from within but chalked it up to an animal infestation. However, everybody who has entered the building since has not made it back out again.\n\nYou thank the group and walk away, some of them uttering quiet prayers for your immortal soul as you leave. You head in the direction of the old warehouse, intent on destroying the infestation before it can claim anymore innocent lives.|||
+EventPalace2_MaxCam.button1,Button1
+EventPalace2_PlaceEntryHall.text,You burst through the front entrance of the Palace, determined to put an end to these vile cult schemes once and for all. Place the {c:TilePalace2_EntryHall} and {c:TilePalace2_HallCorner1} tiles, walls, and your Investigator figures as indicated.
+EventPalace2_PlaceEntryHall.button1,Continue
+EventPalace2_PlaceExploresEntryHall.text,The sounds of chanting faintly whisper from somewhere just beyond the building. Four unmarked doors, as well as a hallway, lead further into the palace. Place Explore tokens and a Sight token as indicated. An investigator in the {c:TilePalace2_HallCorner1} may reveal the adjacent area.
+EventPalace2_PlaceExploresEntryHall.button1,Continue
+SpawnPalace2_EntryHallDeepOneHybrid.text,You have managed to arrive early enough in the night for the Palace Custodian to still be on duty. You begin asking them for assistance in locating the ritual, but stop when their unnatural gaze falls upon you. Spawn a {c:SpawnPalace2_EntryHallDeepOneHybrid} as indicated.
+SpawnPalace2_EntryHallDeepOneHybrid.button1,Continue
+SpawnPalace2_EntryHallThrall.text,You have managed to arrive early enough in the night for the Palace Custodian to still be on duty. You begin asking them for assistance in locating the ritual, but stop when their unnatural gaze falls upon you. Spawn a {c:SpawnPalace2_EntryHallThrall} as indicated.
+SpawnPalace2_EntryHallThrall.button1,Continue
+SpawnPalace2_EntryHallSkeleton.text,You have managed to arrive early enough in the night for the Palace Custodian to still be on duty. You begin asking them for assistance in locating the ritual, but stop when their unnatural gaze falls upon you. Spawn a {c:SpawnPalace2_EntryHallSkeleton} as indicated.
+SpawnPalace2_EntryHallSkeleton.button1,Continue
+SpawnPalace2_EntryHallZombie.text,You have managed to arrive early enough in the night for the Palace Custodian to still be on duty. You begin asking them for assistance in locating the ritual, but stop when their unnatural gaze falls upon you. Spawn a {c:SpawnPalace2_EntryHallZombie} as indicated.
+SpawnPalace2_EntryHallZombie.button1,Continue
+SpawnPalace2_EntryHallChildOfTheGoat.text,You have managed to arrive early enough in the night for the Palace Custodian to still be on duty. You begin asking them for assistance in locating the ritual, but stop when their unnatural gaze falls upon you. Spawn a {c:SpawnPalace2_EntryHallChildOfTheGoat} as indicated.
+SpawnPalace2_EntryHallChildOfTheGoat.button1,Continue
+TokenPalace2_ExploreBilliardsRoomEntryHall.text,An unmarked door leads further into the palace.
+TokenPalace2_ExploreBilliardsRoomEntryHall.button1,{action} Explore
+TokenPalace2_ExploreLoungeEntryHall.text,An unmarked door leads further into the palace.
+TokenPalace2_ExploreLoungeEntryHall.button1,{action} Explore
+TokenPalace2_ExploreBallroomHallCorner1.text,An unmarked door leads further into the palace.
+TokenPalace2_ExploreBallroomHallCorner1.button1,{action} Explore
+TokenPalace2_ExploreConservatoryHallCorner1.text,The door has been boarded over with planks and nails. Though you try your hardest to tear them away, an unnatural force keeps them where they are.
+EventPalace2_PlaceLounge.text,You throw open the door to reveal a small lounge for entertaining waiting visitors. Place the {c:TilePalace2_Lounge} tile as indicated and discard all Explore tokens leading to it.
+EventPalace2_PlaceLounge.button1,Continue
+SpawnPalace2_BilliardsRoomHuntingHorror.text,From the other side of the room you hear an incomprehensible sound coming from an indescribable creature of great horror. Spawn a {c:SpawnPalace2_BilliardsRoomHuntingHorror} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnPalace2_BilliardsRoomStarVampire.text,From the other side of the room you see the faint shimmer of a barely visible indescribable creature of great horror. Spawn a {c:SpawnPalace2_BilliardsRoomStarVampire} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnPalace2_BilliardsRoomStarVampire.button1,Continue
+SpawnPalace2_BilliardsRoomHuntingHorror.button1,Continue
+SpawnPalace2_BilliardsRoomCthonian.text,From the other side of the room you are startled by the sudden collapse of part of the floor. From the newly created hole, an indescribable creature of great horror rises up. Spawn a {c:SpawnPalace2_BilliardsRoomCthonian} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnPalace2_BilliardsRoomCthonian.button1,Continue
+EventPalace2_PlaceExploreConservatoryLounge.text,The sound of chanting is coming from the direction of a back door. Place an Explore token as indicated.
+EventPalace2_PlaceExploreConservatoryLounge.button1,Continue
+TokenPalace2_ExploreConservatoryLounge.button1,{action} Explore
+TokenPalace2_ExploreConservatoryLounge.text,A small back door leads further into the palace. To the north the sound of chanting is clearly audible.
+EventPalace2_ExploreConservatoryLoungeSkillCheck.text,You turn the handle and push on the door, only to find it tightly jammed shut. You put all of your strength into pulling open the door ({strength}).
+EventPalace2_ExploreConservatoryLoungeSkillCheck.button1,Confirm
+EventPalace2_ExploreConservatoryLoungeFailure.text,You pull on the handle until your hands are bright red, but the door does not budge.
+EventPalace2_ExploreConservatoryLoungeFailure.button1,Continue
+EventPalace2_ExploreConservatoryLoungeSuccess.text,You pull on the door until its warped frame finally gives way, releasing the door and letting it swing open. You peer through the doorway, seeing a small conservatory on the other side. Discard this Explore token.
+EventPalace2_ExploreConservatoryLoungeSuccess.button1,Continue
+EventPalace2_PlaceConservatory.text,A small conservatory acts as the entrance to the palace's beautiful gardens. Recent renovations have closed public access to the grounds, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace2_Conservatory} tile and a door as indicated.
+EventPalace2_PlaceConservatory.button1,Continue
+EventPalace2_PlaceInteractSummoningRitual.text,Just outside of the palace two robed figures are standing around a summoning circle, their eyes glazed over as they chant dark magic. You have found the summoning ritual. Place an Interact token as indicated.
+EventPalace2_PlaceExploreLoungeConservatory.button1,Continue
+EventPalace2_PlaceConservatorySewer.button1,Continue
+EventPalace2_PlaceExploreLoungeConservatory.text,An unmarked door leads further into the palace. Place an Explore token as indicated.
+EventPalace2_PlaceConservatorySewer.text,You stumble blindly through the large pipe, which eventually leads to a ladder going to the surface. You climb until you reach another cover. Moving it aside, you poke your head out and find yourself face-to-face with the ritual. Place a Sewer as indicated. Then move your investigator figure to that space.
+EventPalace2_PlaceConservatorySecretPassage.button1,Continue
+EventPalace2_PlaceConservatorySecretPassage.text,The secret passage twists and winds, before ending at a door with no handle. You push on it gently, and it swings open to reveal a conservatory. Place a Secret Passage as indicated. Then move your investigator figure to that space.
+TokenPalace2_InteractSummoningRitual.text,Two robed figures stand around a summoning circle, their eyes glazed over as they chant dark magic. When you try to approach them, the magics of the ritual knock you back. You will have to begin the counter-ritual to stop them.
+TokenPalace2_InteractSummoningRitual.button1,{action} Disrupt Ritual
+EventPalace2_PlaceInteractSummoningRitual.button1,Continue
+TokenPalace2_ExploreBilliardsRoomBallroom.text,An unmarked door leads further into the palace.
+TokenPalace2_ExploreBilliardsRoomBallroom.button1,{action} Explore
+EventPalace2_PlaceBilliardsRoom.text,Behind the door is a cozy sitting room, dominated by a billiards table that is noticibly newer than the rest of the decor. Place the {c:TilePalace2_BilliardsRoom} tile and a Door as indicated and discard all Explore tokens leading to it.
+EventPalace2_PlaceBilliardsRoom.button1,Continue
+SpawnPalace2_LoungeDeepOne.text,What at first appeared to be a nondescript figure sitting in a chair, reveals itself to instead be a hulking creature on the hunt for it's next victim. Spawn a {c:SpawnPalace2_LoungeDeepOne} as indicated. Then suffer 1 Horror ({will} negates).
+SpawnPalace2_LoungeDeepOne.button1,Continue
+SpawnPalace2_LoungeHuntingDeepOne.text,What at first appeared to be a nondescript figure sitting in a chair, reveals itself to instead be a hulking creature on the hunt for it's next victim. Spawn a {c:SpawnPalace2_LoungeHuntingDeepOne} as indicated. Then suffer 1 Horror ({will} negates).
+SpawnPalace2_LoungeHuntingDeepOne.button1,Continue
+EventPalace2_PlaceExploreBallroomBilliardsRoom.text,An unmarked door leads further into the palace. Place an Explore token as indicated.
+EventPalace2_PlaceExploreBallroomBilliardsRoom.button1,Continue
+EventPalace2_PlaceConservatory_RemoveFinalExplore.text,A small conservatory acts as the entrance to the palace's beautiful gardens. Recent renovations have closed public access to the grounds, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace2_Conservatory} tile and a door as indicated. Then discard the Explore token that connects the {c:TilePalace2_Lounge} and the {c:TilePalace2_Conservatory}.
+EventPalace2_PlaceSearchBar.button1,Continue
+TokenPalace2_SearchBar.text,A large drinks cabinet is suspiciously empty, with a construction much cheaper than the rest of the furniture.
+TokenPalace2_SearchBar.button1,{action} Investigate
+TokenPalace2_ExploreBallroomBilliardsRoom.text,An unmarked door leads further into the palace.
+TokenPalace2_ExploreBallroomBilliardsRoom.button1,{action} Explore
+EventPalace2_SearchBarSkillCheck.text,You examine the drinks cabinet, looking for any explanation for its presence in the room ({observation}).
+EventPalace2_SearchBarSkillCheck.button1,Confirm
+EventPalace2_SearchBarSkillCheck.button2,Button2
+EventPalace2_SearchBarSuccess.text,You slowly inspect the cabinet from top to bottom, finding nothing out of the ordinairy. Desperate, you try moving it away from the wall. You are shocked when it effortlessly swings open, revealing a hidden passage. Discard this Search token and place a Secret Passage as indicated.
+EventPalace2_SearchBarSuccess.button1,Continue
+EventPalace2_SearchBarFailure.text,You spend far too long examining the cabinet, before finally coming to the defeated conclusion that there is nothing to see.
+EventPalace2_SearchBarFailure.button1,Continue
+EventPalace2_RemoveBilliardsRoomSecretPassage.button1,Button1
+EventPalace2_PlaceConservatory_RemoveFinalExplore.button1,Continue
+EventPalace_CounterRitual_SuccessHastur.button1,Continue
+TokenPalace2_ExploreLoungeConservatory.text,An unmarked door leads further into the palace.
+TokenPalace2_ExploreLoungeConservatory.button1,{action} Explore
+EventPalace_PlaceAttic_RemoveFinalExplore.text,The small attic space of the palace is dusty and full of old furniture. Though the palace proper is well maintained, it is clearly rare for anyone to venture into this wing, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace_Attic} tile as indicated. Then discard the Explore token that connects the {c:TilePalace_Ballroom} and the {c:TilePalace_Attic}.
+EventPalace2_PlaceBallroom.button1,Continue
+EventPalace2_PlaceAllExploreBallroom.text,Two unmarked doors lead further into the palace. Place Explore tokens as indicated.
+EventPalace2_PlaceAllExploreBallroom.button1,Continue
+TokenPalace2_ExploreHallStairs.button1,{action} Explore
+TokenPalace2_ExploreBallroomHallStairs.text,An unmarked door leads further into the palace.
+TokenPalace2_ExploreBallroomHallStairs.button1,{action} Explore
+EventPalace2_PlaceExploreHallStairsBallroom.text,An unmarked door leads further into the palace. Place an Explore token as indicated.
+EventPalace2_PlaceExploreHallStairsBallroom.button1,Continue
+EventPalace2_PlaceExploreBilliardsRoomBallroom.text,An unmarked door leads further into the palace. Place an Explore token as indicated.
+EventPalace2_PlaceExploreBilliardsRoomBallroom.button1,Continue
+TokenPalace2_SightHallStairs.text,A hallway leads further into the palace. An investigator in the {c:TilePalace2_HallCorner1} may reveal the adjacent area.
+TokenPalace2_SightHallStairs.button1,Reveal
+EventPalace2_PlaceHallStairs.button1,Continue
+TokenPalace2_ExploreHallStairs.text,An unmarked door leads further into the palace.
+EventPalace2_PlaceHallStairs.text,The hallway ends with a staircase leading towards a basement. Place the {c:TilePalace2_HallStairs} tile and a Wall as indicated and discard all Explore and Sight tokens leading to it.
+SpawnPalace2_HallStairsCultist.button1,Continue
+SpawnPalace2_HallStairsCultist.text,At the bottom of the stairs a {c:SpawnPalace2_HallStairsCultist} finishes laying a strangely placed carpet. They turn and connect eyes with you, letting out a surprised gasp before drawing their dagger. Spawn a {c:SpawnPalace2_HallStairsCultist} and place a Search token as indicated.
+EventPalace2_PlaceExploreBallroomHallStairs.text,An unmarked door leads further into the palace. Place an Explore token as indicated.
+EventPalace2_PlaceExploreBallroomHallStairs.button1,Continue
+TokenPalace2_SearchCarpet.text,You recently caught a cultist laying a strangely placed carpet. For what purpose, you have yet to find out.
+TokenPalace2_SearchCarpet.button1,{action} Investigate
+EventPalace2_SearchCarpetSkillCheck.button1,Confirm
+EventPalace2_SearchCarpetSkillCheck.text,You pull on the carpet, but a strange force pulls it back to the floor. You try to rip it off completely before it can reset itself ({agility}).
+EventPalace2_SearchCarpetSuccess.text,In one swift motion, you rip the carpet completely from the floor, revealing a strangely placed drainage access. You lift off the cover and descend into the darkness below. Discard this Search token, and place a Sewer as indicated.
+EventPalace2_SearchCarpetSuccess.button1,Continue
+EventPalace2_SearchCarpetFailure.text,You stumble as you pull, giving the carpet time to sink back to the floor again.
+EventPalace2_SearchCarpetFailure.button1,Continue
