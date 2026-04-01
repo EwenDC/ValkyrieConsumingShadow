@@ -567,18 +567,16 @@ EventNextLocations_WarehouseHouseDock.button6,Viajar al distrito industrial
 EventNextLocations_WarehouseHouseDock.button7,Viajar al distrito residencial
 EventNextLocations_WarehouseHouseDock.button8,Viajar al palacio
 EventNextLocations_WarehouseHouseDock.text,Cierras la puerta del coche de un portazo, pero no llegas a arrancarlo. Te preguntas a dónde deberías ir en primer lugar. Reflexionas sobre cuál de los tres distritos de Arkham deberías investigar.
-EventPalace_CounterRitual_SuccessHastur.text,"Completas el contraritual para desterrar a Hastur de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
-EventPalace_CounterRitual_FailureMinor.button1,Continuar
-EventPalace_CounterRitual_FailureInstant.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado.
-EventPalace_CounterRitual_SuccessYig.button1,Continuar
-EventPalace_CounterRitual_FailureMajor.text,"Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado. \n\n Todos los investigadores sufren 3 de Horror."
 EventPalace_CounterRitual_FailureInstant.button1,Continuar
+EventPalace_CounterRitual_FailureInstant.text,Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado.
+EventPalace_CounterRitual_FailureMajor.button1,Continuar
+EventPalace_CounterRitual_FailureMajor.text,"Completas el contraritual para desterrar al Primigenio. El aire que te rodea permanece en silencio durante un momento y, a continuación, el ritual de invocación se reanuda a un ritmo mucho más rápido que antes. Tu corazón se encoge al darte cuenta de que has desterrado al ser equivocado. \n\n Todos los investigadores sufren 3 de Horror."
+EventPalace_CounterRitual_FailureMinor.button1,Continuar
+EventPalace_CounterRitual_FailureMinor.text,"Completas el contraritual para desterrar al Primigenio. El ritual de invocación parece perder fuerza, inhibido por tu hechizo. Sin embargo, tu contrarritual, debilitado por los errores cometidos al lanzarlo, es incapaz de detener por completo el ritual de invocación. \n\n Todos los investigadores sufren 3 de Horror."
 EventPalace_CounterRitual_MajorQ.button1,Hastur
 EventPalace_CounterRitual_MajorQ.button2,Yig
 EventPalace_CounterRitual_MajorQ.button3,Zhar
 EventPalace_CounterRitual_MajorQ.text,"Sientes que las energías de tu hechizo se dirigen hacia tu objetivo. \n\n —Vuelve a las viles aguas que llamas hogar —gritas. Aunque lo intentes muchas veces, por siempre este mundo negará la entrada a..."
-EventPalace_CounterRitual_FailureMinor.text,"Completas el contraritual para desterrar al Primigenio. El ritual de invocación parece perder fuerza, inhibido por tu hechizo. Sin embargo, tu contrarritual, debilitado por los errores cometidos al lanzarlo, es incapaz de detener por completo el ritual de invocación. \n\n Todos los investigadores sufren 3 de Horror."
-EventPalace_CounterRitual_FailureMajor.button1,Continuar
 EventPalace_CounterRitual_MinorQ1.button1,Rojo
 EventPalace_CounterRitual_MinorQ1.button2,Verde
 EventPalace_CounterRitual_MinorQ1.button3,Azul
@@ -587,6 +585,9 @@ EventPalace_CounterRitual_MinorQ2.button1,Dolor
 EventPalace_CounterRitual_MinorQ2.button2,Lujuria
 EventPalace_CounterRitual_MinorQ2.button3,Locura
 EventPalace_CounterRitual_MinorQ2.text,"Notas un suave zumbido mientras tus palabras se impregnan de una energía cósmica. \n\n —Las barreras de nuestro mundo se hacen fuertes —prosigues—, bloqueando tus intentos para propagar..."
+EventPalace_CounterRitual_SuccessHastur.button1,Continuar
+EventPalace_CounterRitual_SuccessHastur.text,"Completas el contraritual para desterrar a Hastur de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
+EventPalace_CounterRitual_SuccessYig.button1,Continuar
 EventPalace_CounterRitual_SuccessYig.text,"Completas el contraritual para desterrar a Yig de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
 EventPalace_CounterRitual_SuccessZhar.button1,Continuar
 EventPalace_CounterRitual_SuccessZhar.text,"Completas el contraritual para desterrar a Zhar de nuestra realidad de una vez por todas. El aire que te rodea está en un silencio sepulcral cuando el ritual de invocación se desvanece de repente. Has detenido con éxito la invasión de nuestra realidad. \n\n Todos los investigadores adquieren Concentración."
@@ -606,9 +607,10 @@ EventPalace_NoHoursAttic.button1,Continuar
 EventPalace_NoHoursAttic.text,"Miras a tu alrededor y te das cuenta, horrorizado, de que sólo restan unos pocos segundos para completar el ritual. \n\n Descarta esta ficha de Interacción. \n\n Sin pensártelo dos veces, canalizas la energía ambiental para crear un poderoso contraritual con la intención de desterrar al dios invasor."
 EventPalace_NoHoursNotAttic.button1,Continuar
 EventPalace_NoHoursNotAttic.text,La energía que se arremolina alrededor de tu cabeza entra en tu mente proporcionándote una visión clarividente del propio ritual. Te das cuenta con horror de que el ritual está a pocos segundos de completarse. Sin pensarlo dos veces, canalizas la energía ambiental en un poderoso contraritual, listo para desterrar al dios invasor.
+EventPalace_PlaceAttic_RemoveFinalExplore.button1,Continuar
+EventPalace_PlaceAttic_RemoveFinalExplore.text,"El pequeño ático del palacio está lleno de muebles viejos y polvo. Aunque el palacio propiamente dicho está en buen estado, sería muy raro que alguien se aventurase a venir a este ala, por lo que es un lugar ideal para esconderse de miradas indiscretas. \n\n Coloca el módulo {c:TilePalace_Attic}en el lugar señalado. A continuación, descarta la ficha de Exploración que conecta los módulos {c:TilePalace_Ballroom} y {c:TilePalace_Attic}."
 EventPalace_PlaceAttic.button1,Continuar
 EventPalace_PlaceAttic.text,"El pequeño ático del palacio está lleno de muebles viejos y polvo. Aunque el palacio propiamente dicho está en buen estado, sería muy raro que alguien se aventurase a venir a este ala, por lo que es un lugar ideal para esconderse de miradas indiscretas. \n\n Coloca el módulo {c:TilePalace_Attic} en el lugar señalado."
-EventPalace_PlaceAttic_RemoveFinalExplore.button1,Continuar
 EventPalace_PlaceAtticSecretPassage.button1,Continuar
 EventPalace_PlaceAtticSecretPassage.text,"El pasadizo secreto conduce al interior de un viejo armario. Al abrir las puertas del armario te das cuenta de que estás en el ático. \n\n Coloca una ficha Pasadizo Secreto en el lugar señalado. A continuación mueve a tu investigador a ese espacio."
 EventPalace_PlaceAtticTrapdoor.button1,Continuar
@@ -677,6 +679,41 @@ EventPalace_WinCondition_BanishCorrect.button1,Continuar
 EventPalace_WinCondition_BanishCorrect.text,Debes derrotar a los dos Sacerdotes de la secta para salvar al mundo de sus viles planes de una vez por todas.
 EventPalace_WinCondition_BanishIncorrect.button1,Continuar
 EventPalace_WinCondition_BanishIncorrect.text,Tu única esperanza de salvar esta realidad es luchar contra el Primigenio que se alza ante ti. Aunque nada en este planeta se acerca a su poder cósmico, puede que seas capaz de debilitarlo lo suficiente como para permitir que tu contraritual lo expulse de nuestro mundo.
+EventPalace2_ExploreConservatoryLoungeFailure.button1,Continuar
+EventPalace2_ExploreConservatoryLoungeFailure.text,Tiras de la manilla hasta que tus manos se ponen rojas, pero la puerta no se mueve.
+EventPalace2_ExploreConservatoryLoungeSkillCheck.button1,Confirmar
+EventPalace2_ExploreConservatoryLoungeSkillCheck.text,Giras la manilla y empujas la puerta pero descubres que está atrancada. Tratas de abrirla usando toda tu ({strength}).
+EventPalace2_ExploreConservatoryLoungeSuccess.button1,Continuar
+EventPalace2_PlaceAllExploreBallroom.button1,Continuar
+EventPalace2_PlaceBallroom.button1,Continuar
+EventPalace2_PlaceBilliardsRoom.button1,Continuar
+EventPalace2_PlaceConservatory_RemoveFinalExplore.button1,Continuar
+EventPalace2_PlaceConservatory.button1,Continuar
+EventPalace2_PlaceConservatorySecretPassage.button1,Continuar
+EventPalace2_PlaceConservatorySewer.button1,Continuar
+EventPalace2_PlaceEntryHall.button1,Continuar
+EventPalace2_PlaceExploreBallroomBilliardsRoom.button1,Continuar
+EventPalace2_PlaceExploreBallroomBilliardsRoom.text,Una puerta sin indicaciones conduce al interior del palacio. Coloca una ficha de Exploración en el lugar señalado.
+EventPalace2_PlaceExploreBallroomHallStairs.button1,Continuar
+EventPalace2_PlaceExploreBallroomHallStairs.text,Una puerta sin indicaciones conduce al interior del palacio. Coloca una ficha de Exploración en el lugar señalado.
+EventPalace2_PlaceExploreBilliardsRoomBallroom.button1,Continuar
+EventPalace2_PlaceExploreBilliardsRoomBallroom.text,Una puerta sin indicaciones conduce al interior del palacio. Coloca una ficha de Exploración en el lugar señalado.
+EventPalace2_PlaceExploreConservatoryLounge.button1,Continuar
+EventPalace2_PlaceExploreHallStairsBallroom.button1,Continuar
+EventPalace2_PlaceExploreHallStairsBallroom.text,Una puerta sin indicaciones conduce al interior del palacio. Coloca una ficha de Exploración en el lugar señalado.
+EventPalace2_PlaceExploreLoungeConservatory.button1,Continuar
+EventPalace2_PlaceExploreLoungeConservatory.text,Una puerta sin indicaciones conduce al interior del palacio. Coloca una ficha de Exploración en el lugar señalado.
+EventPalace2_PlaceExploresEntryHall.button1,Continuar
+EventPalace2_PlaceHallStairs.button1,Continuar
+EventPalace2_PlaceInteractSummoningRitual.button1,Continuar
+EventPalace2_PlaceLounge.button1,Continuar
+EventPalace2_PlaceSearchBar.button1,Continuar
+EventPalace2_SearchBarFailure.button1,Continuar
+EventPalace2_SearchBarSkillCheck.button1,Confirmar
+EventPalace2_SearchBarSuccess.button1,Continuar
+EventPalace2_SearchCarpetFailure.button1,Continuar
+EventPalace2_SearchCarpetSkillCheck.button1,Confirmar
+EventPalace2_SearchCarpetSuccess.button1,Continuar
 EventPalaceEnd_HasturDefeated.button1,Continuar
 EventPalaceEnd_HasturDefeated.text,{c:CustomMonsterHastur} se tambalea sólo un instante, pero es tiempo suficiente para que canalices las energías de tu contraritual contra él. Grita de rabia mientras una energía cósmica arranca su forma física de nuestro mundo y la devuelve al suyo. Los investigadores han evitado con éxito la invasión de Hastur.
 EventPalaceEnd_PriestsDefeated.button1,Continuar
@@ -1145,6 +1182,25 @@ SpawnPalace_LoungeHuntingHorror.button1,Continuar
 SpawnPalace_LoungeHuntingHorror.text,"Desde el otro lado de la sala oyes un sonido incomprensible procedente de una criatura indescriptible y terrorífica. \n\n Aparece un {c:Aparecerpalacio_SalónCazarHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
 SpawnPalace_LoungeStarVampire.button1,Continuar
 SpawnPalace_LoungeStarVampire.text,"Desde el otro lado de la habitación ves el débil resplandor de una criatura indescriptible apenas visible pero aún así aterradora. \n\n Aparece un {c:SpawnPalace_LoungeStarVampire} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
+SpawnPalace2_BilliardsRoomCthonian.button1,Continuar
+SpawnPalace2_BilliardsRoomCthonian.text,"Desde el otro lado de la habitación te sobresalta el repentino derrumbamiento de parte del suelo. Del agujero recién creado se eleva una criatura indescriptible y horripilante. \n\n Aparece un monstruo {c:SpawnPalace2_BilliardsRoomCthonian} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
+SpawnPalace2_BilliardsRoomHuntingHorror.button1,Continuar
+SpawnPalace2_BilliardsRoomHuntingHorror.text,"Desde el otro lado de la sala oyes un sonido incomprensible procedente de una criatura indescriptible y terrorífica. \n\n Aparece un {c:Aparecerpalacio_SalónCazarHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
+SpawnPalace2_BilliardsRoomStarVampire.button1,Continuar
+SpawnPalace2_BilliardsRoomStarVampire.text,"Desde el otro lado de la habitación ves el débil resplandor de una criatura indescriptible apenas visible pero aún así aterradora. \n\n Aparece un {c:SpawnPalace2_BilliardsRoomStarVampire} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
+SpawnPalace2_EntryHallChildOfTheGoat.button1,Continuar
+SpawnPalace2_EntryHallChildOfTheGoat.text,"Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace2_EntryHallChildOfTheGoat} en el lugar señalado."
+SpawnPalace2_EntryHallDeepOneHybrid.button1,Continuar
+SpawnPalace2_EntryHallDeepOneHybrid.text,"Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace2_EntryHallDeepOneHybrid} en el lugar señalado."
+SpawnPalace2_EntryHallSkeleton.button1,Continuar
+SpawnPalace2_EntryHallSkeleton.text,"Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace2_EntryHallSkeleton} en el lugar señalado."
+SpawnPalace2_EntryHallThrall.button1,Continuar
+SpawnPalace2_EntryHallThrall.text,"Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace2_EntryHallThrall} en el lugar señalado."
+SpawnPalace2_EntryHallZombie.button1,Continuar
+SpawnPalace2_EntryHallZombie.text,"Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace2_EntryHallZombie} en el lugar señalado."
+SpawnPalace2_HallStairsCultist.button1,Continuar
+SpawnPalace2_LoungeDeepOne.button1,Continuar
+SpawnPalace2_LoungeHuntingDeepOne.button1,Continuar
 SpawnWarehouse_BasementCrawlingOne.button1,Continuar
 SpawnWarehouse_BasementCrawlingOne.text,"La repugnante masa se retuerce y palpita. Es en ese momento cuando un orificio en su parte superior comienza a abrirse lentamente. Ante tus ojos nace un {c:SpawnWarehouse_BasementCrawlingOne}. A los pocos segundos de salir del Engendro, el {c:SpawnWarehouse_BasementCrawlingOne} está alerta y listo para consumir a cualquiera que se encuentre a su alcance. \n\n Aparece un {c:SpawnWarehouse_BasementCrawlingOne} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
 SpawnWarehouse_BasementCultist.button1,Continuar
@@ -1404,6 +1460,29 @@ TokenPalace_SearchBookshelf.button1,{action} Investigar
 TokenPalace_SearchBookshelf.text,Hace poco sorprendiste a un sectario moviendo esta estantería. El propósito que tenía el sectario sigue siendo un misterio para ti.
 TokenPalace_SearchTrapdoor.button1,{action} Investigar
 TokenPalace_SearchTrapdoor.text,Un trozo de suelo está notablemente más limpio que el resto. Da la impresión de que durante mucho tiempo ha habido en ese sitio una alfombra, aunque ahora no está.
+TokenPalace2_ExploreBallroomBilliardsRoom.button1,{action} Explorar
+TokenPalace2_ExploreBallroomBilliardsRoom.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_ExploreBallroomHallCorner1.button1,{action} Explorar
+TokenPalace2_ExploreBallroomHallCorner1.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_ExploreBallroomHallStairs.button1,{action} Explorar
+TokenPalace2_ExploreBallroomHallStairs.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_ExploreBilliardsRoomBallroom.button1,{action} Explorar
+TokenPalace2_ExploreBilliardsRoomBallroom.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_ExploreBilliardsRoomEntryHall.button1,{action} Explorar
+TokenPalace2_ExploreBilliardsRoomEntryHall.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_ExploreConservatoryHallCorner1.text,La puerta ha sido tapiada con tablones y clavos. Aunque tratas de arrancarlos, una fuerza antinatural los mantiene donde están.
+TokenPalace2_ExploreConservatoryLounge.button1,{action} Explorar
+TokenPalace2_ExploreHallStairs.button1,{action} Explorar
+TokenPalace2_ExploreHallStairs.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_ExploreLoungeConservatory.button1,{action} Explorar
+TokenPalace2_ExploreLoungeConservatory.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_ExploreLoungeEntryHall.button1,{action} Explorar
+TokenPalace2_ExploreLoungeEntryHall.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_InteractSummoningRitual.button1,{action} Interrumpir el ritual
+TokenPalace2_InteractSummoningRitual.text,Dos figuras ataviadas con túnicas se sitúan alrededor de un círculo de invocación. Sus ojos vidriosos brillan mientras recitan un cántico de magia oscura. Cuando tratas de acercarte a ellos, la magia del ritual te hace retroceder. Tendrás que iniciar el contraritual para detenerlos.
+TokenPalace2_SearchBar.button1,{action} Investigar
+TokenPalace2_SearchCarpet.button1,{action} Investigar
+TokenPalace2_SightHallStairs.button1,Revelar
 TokenWarehouse_ExploreBasementRootCellar.button1,{action} Explorar
 TokenWarehouse_ExploreBasementRootCellar.text,Una puerta conduce desde la bodega a un gran sótano.
 TokenWarehouse_ExploreBasementWarehouse.button1,{action} Explorar
@@ -1467,5 +1546,3 @@ UIPrologue_Continue.uitext,Continuar
 UIPrologue_Text.uitext,"Arrojas el telegrama al suelo y maldices en voz alta. ¿Cómo no lo has visto antes? Cruzas referencias con las runas traducidas pero sólo encuentras pruebas que corroboran la historia. El telegrama parece estar en lo cierto. Con las primeras luces de la mañana se llevará a cabo un ritual en el viejo palacio del gobernador. Un ritual para convocar a un Primigenio a nuestro mundo. \n\n Te levantas y paseas por tu despacho. Has pasado los últimos meses ocupado con tu investigación sobre tres sectas locales, pero nunca habrías imaginado que alguna de ellas fuera capaz de algo más que organizar fiestas de té. Está claro que te equivocabas. \n\n Aunque el mensaje que has recibido es un galimatías no puedes arriesgarte a ignorarlo. Habla de una de las sectas que habéis estado siguiendo y que sería la encargada de llevar a cabo el vil ritual. Otra de las sectas estaría prestándole ayuda. Se dice que la tercera secta trabajaría contra las otras dos, pero eso no te sirve de consuelo. \n\n Vuelves a sentarte en la silla y revisas el telegrama. Buscas desesperadamente una pista que identifique a las sectas aludidas, pero nada. Las runas traducidas que tienes en tu escritorio contienen instrucciones exactas sobre cómo realizar un ritual de destierro capaz de detener a un Primigenio. Sin embargo, el ritual descrito requiere información sobre el Primigenio a desterrar. \n\n Maldices de nuevo. Te faltan pistas y sobre todo tiempo. Te pones la chaqueta, coges tu pistola, reúnes a tu equipo y os dirigís a la ciudad."
 UIWarehouse_IntroContinue.uitext,Continuar
 UIWarehouse_IntroText.uitext,"Cuando apenas te habías adentrado en las hileras de edificios industriales te topas con algunos lugareños que deambulan por la calle, blandiendo armas cubiertas de sangre oscura y pegajosa. Temes que un mal haya poseído a estas buenas gentes, obligándolas a cometer atrocidades indescriptibles contra su voluntad. Sin embargo, cuando te ven, te ruegan que vuelvas a tu coche y abandones el distrito por tu propia seguridad. \n\n Les pides que te expliquen la situación. Te cuentan historias fantásticas de animales más grandes que los osos, pero distintos de cualquier criatura conocida por el hombre, que atacan a los trabajadores locales en las calles y edificios de todo el distrito. Te muestras escéptico ante estas historias hasta que una horrible criatura salta de repente desde un callejón cercano y acosa al grupo. Con gran dificultad vencen a la criatura, matándola no sin antes perder a uno de los suyos en la lucha. \n\n El grupo vuelve a rogarte que te marches, pero en cambio les pides que te digan de dónde vienen esas criaturas. Intentan advertirte de que no vayas allí, pero tras mucho insistir te hablan de un viejo almacén que había sido abandonado recientemente. Los vecinos del edificio dicen haber oído ruidos extraños, pero lo atribuyen a una plaga de animales. Sin embargo, todos los que han entrado en el edificio desde entonces no han vuelto a salir. \n\n Das las gracias al grupo y te marchas mientras algunos de ellos rezan en voz baja por tu alma inmortal. Te diriges hacia el viejo almacén con la intención de destruir la plaga antes de que se cobre más vidas inocentes."
-EventPalace_CounterRitual_SuccessHastur.button1,Continuar
-EventPalace_PlaceAttic_RemoveFinalExplore.text,"El pequeño ático del palacio está lleno de muebles viejos y polvo. Aunque el palacio propiamente dicho está en buen estado, sería muy raro que alguien se aventurase a venir a este ala, por lo que es un lugar ideal para esconderse de miradas indiscretas. \n\n Coloca el módulo {c:TilePalace_Attic}en el lugar señalado. A continuación, descarta la ficha de Exploración que conecta los módulos {c:TilePalace_Ballroom} y {c:TilePalace_Attic}."

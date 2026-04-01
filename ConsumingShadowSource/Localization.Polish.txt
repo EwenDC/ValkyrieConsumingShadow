@@ -566,18 +566,16 @@ EventNextLocations_WarehouseHouseDock.button6,Do Dzielnicy Przemysłowej
 EventNextLocations_WarehouseHouseDock.button7,Do Dzielnicy Mieszkalnej
 EventNextLocations_WarehouseHouseDock.button8,Do Pałacu
 EventNextLocations_WarehouseHouseDock.text,Zatrzaskujecie drzwi waszego samochodu, ale nie uruchamiacie jeszcze silnika. Trzeba podjąć decyzję. Gdzie pojedziecie najpierw? Zastanawiacie się, w której z trzech dzielnic Arkham rozpocząć wasze śledztwo.
-EventPalace_CounterRitual_SuccessHastur.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału, aby raz na zawsze wygnać Hastura z naszej rzeczywistości. Powietrze wokół ciebie staje się śmiertelnie ciche, gdy rytuał nagle wygasa. Udało ci się powstrzymać inwazję Przedwiecznego na naszą rzeczywistość. \n\nKażdy badacz otrzymuje stan Skupiony."
-EventPalace_CounterRitual_FailureMinor.button1,Kontynuuj
-EventPalace_CounterRitual_FailureInstant.text,Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału. Powietrze wokół ciebie na moment staje się śmiertelnie ciche, gdy nagle, rytuał wzmaga się, znacznie szybciej i potężniej, niż wcześniej. Twoje serce zamiera, gdy dociera do ciebie to, co się stało - popełniłeś pomyłkę. Starałeś się wygnać niewłaściwą istotę.
-EventPalace_CounterRitual_SuccessYig.button1,Kontynuuj
-EventPalace_CounterRitual_FailureMajor.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału. Powietrze wokół ciebie na moment staje się śmiertelnie ciche, gdy nagle, rytuał wzmaga się, znacznie szybciej i potężniej, niż wcześniej. Twoje serce zamiera, gdy dociera do ciebie to, co się stało - popełniłeś pomyłkę. Starałeś się wygnać niewłaściwą istotę. \n\nKażdy badacz otrzymuje 3 Karty Przerażenia."
 EventPalace_CounterRitual_FailureInstant.button1,Kontynuuj
+EventPalace_CounterRitual_FailureInstant.text,Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału. Powietrze wokół ciebie na moment staje się śmiertelnie ciche, gdy nagle, rytuał wzmaga się, znacznie szybciej i potężniej, niż wcześniej. Twoje serce zamiera, gdy dociera do ciebie to, co się stało - popełniłeś pomyłkę. Starałeś się wygnać niewłaściwą istotę.
+EventPalace_CounterRitual_FailureMajor.button1,Kontynuuj
+EventPalace_CounterRitual_FailureMajor.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału. Powietrze wokół ciebie na moment staje się śmiertelnie ciche, gdy nagle, rytuał wzmaga się, znacznie szybciej i potężniej, niż wcześniej. Twoje serce zamiera, gdy dociera do ciebie to, co się stało - popełniłeś pomyłkę. Starałeś się wygnać niewłaściwą istotę. \n\nKażdy badacz otrzymuje 3 Karty Przerażenia."
+EventPalace_CounterRitual_FailureMinor.button1,Kontynuuj
+EventPalace_CounterRitual_FailureMinor.text,"Ukończyłeś kontr-rytuał. Rytuał przywołania zawodzi, hamowany przez twoje zaklęcie. Szybko jednak zauważasz, że twój kontr-rytuał, osłabiony przez popełnione podczas jego rzucania błędy, nie jest w stanie całkowicie powstrzymać nadejścia Przedwiecznego. \n\nKażdy badacz otrzymuje 3 Karty Przerażenia."
 EventPalace_CounterRitual_MajorQ.button1,Hastura
 EventPalace_CounterRitual_MajorQ.button2,Yiga
 EventPalace_CounterRitual_MajorQ.button3,Zhara
 EventPalace_CounterRitual_MajorQ.text,|||Czujesz, jak energia zaklęcia kieruje się w stronę celu. Wołasz: "Wracaj do plugawych wód, które nazywasz domem. Choć możesz próbować wiele razy, ten świat na zawsze odmówi wejściu..."|||
-EventPalace_CounterRitual_FailureMinor.text,"Ukończyłeś kontr-rytuał. Rytuał przywołania zawodzi, hamowany przez twoje zaklęcie. Szybko jednak zauważasz, że twój kontr-rytuał, osłabiony przez popełnione podczas jego rzucania błędy, nie jest w stanie całkowicie powstrzymać nadejścia Przedwiecznego. \n\nKażdy badacz otrzymuje 3 Karty Przerażenia."
-EventPalace_CounterRitual_FailureMajor.button1,Kontynuuj
 EventPalace_CounterRitual_MinorQ1.button1,Czerwieni
 EventPalace_CounterRitual_MinorQ1.button2,Zieleni
 EventPalace_CounterRitual_MinorQ1.button3,Błękitu
@@ -586,6 +584,9 @@ EventPalace_CounterRitual_MinorQ2.button1,Bólu
 EventPalace_CounterRitual_MinorQ2.button2,Pożądania
 EventPalace_CounterRitual_MinorQ2.button3,Szaleństwa
 EventPalace_CounterRitual_MinorQ2.text,|||Czujesz delikatny szum, gdy twoje słowa zostają nasycone kosmiczną energią. Kontynuujesz: "Bariery naszego świata stają się silne, blokując twoje próby rozprzestrzeniania...".|||
+EventPalace_CounterRitual_SuccessHastur.button1,Kontynuuj
+EventPalace_CounterRitual_SuccessHastur.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału, aby raz na zawsze wygnać Hastura z naszej rzeczywistości. Powietrze wokół ciebie staje się śmiertelnie ciche, gdy rytuał nagle wygasa. Udało ci się powstrzymać inwazję Przedwiecznego na naszą rzeczywistość. \n\nKażdy badacz otrzymuje stan Skupiony."
+EventPalace_CounterRitual_SuccessYig.button1,Kontynuuj
 EventPalace_CounterRitual_SuccessYig.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału, aby raz na zawsze wygnać Yiga z naszej rzeczywistości. Powietrze wokół ciebie staje się śmiertelnie ciche, gdy rytuał nagle wygasa. Udało ci się powstrzymać inwazję Przedwiecznego na naszą rzeczywistość. \n\nKażdy badacz otrzymuje stan Skupiony."
 EventPalace_CounterRitual_SuccessZhar.button1,Kontynuuj
 EventPalace_CounterRitual_SuccessZhar.text,"Choć wydawało się to niemożliwe, to wypowiadasz ostatnie słowa kontr-rytuału, aby raz na zawsze wygnać Zhara z naszej rzeczywistości. Powietrze wokół ciebie staje się śmiertelnie ciche, gdy rytuał nagle wygasa. Udało ci się powstrzymać inwazję Przedwiecznego na naszą rzeczywistość. \n\nKażdy badacz otrzymuje stan Skupiony."
@@ -605,9 +606,10 @@ EventPalace_NoHoursAttic.button1,Kontynuuj
 EventPalace_NoHoursAttic.text,"Z przerażeniem zdajesz sobie sprawę, że do zakończenia rytuału pozostało zaledwie kilka sekund.\n\nOdrzuć ten Żeton Interakcji. Bez zastanowienia, kierujesz energię otoczenia na potężny kontr-rytuał, gotowy wygnać najeźdźcę."
 EventPalace_NoHoursNotAttic.button1,Kontynuuj
 EventPalace_NoHoursNotAttic.text,Energia wirująca wokół twojej głowy przenika do twojego umysłu, dając ci nagły wgląd w istotę przeprowadzanego rytuału. Z przerażeniem zdajesz sobie sprawę, że jest on zaledwie kilka sekund od zakończenia. Bez zastanowienia kierujesz energię otoczenia na potężny kontr-rytuał, gotowy do wypędzenia najeźdźcy.
+EventPalace_PlaceAttic_RemoveFinalExplore.button1,Kontynuuj
+EventPalace_PlaceAttic_RemoveFinalExplore.text,"Małe poddasze pałacu jest zakurzone i pełne starych mebli. Choć pałac jest dobrze utrzymany, rzadko kto zapuszcza się do tego skrzydła, co czyni je idealnym miejscem do ukrycia się przed ciekawskimi spojrzeniami. \n\nUmieść kafelek {c:TilePalace_Attic} we wskazanym miejscu. Następnie odrzuć Żeton Eksploracji, który łączy kafelki {c:TilePalace_Ballroom} i {c:TilePalace_Attic}."
 EventPalace_PlaceAttic.button1,Kontynuuj
 EventPalace_PlaceAttic.text,"Małe poddasze pałacu jest zakurzone i pełne starych mebli. Choć pałac jest dobrze utrzymany, rzadko kto zapuszcza się do tego skrzydła, co czyni je idealnym miejscem do ukrycia się przed ciekawskimi spojrzeniami. \n\nUmieść kafelek {c:TilePalace_Attic} we wskazanym miejscu."
-EventPalace_PlaceAttic_RemoveFinalExplore.button1,Kontynuuj
 EventPalace_PlaceAtticSecretPassage.button1,Kontynuuj
 EventPalace_PlaceAtticSecretPassage.text,"Sekretne przejście prowadzi do wnętrza starej szafy. Otwierasz drzwi szafy, odkrywając, że znajduje się ona na poddaszu Pałacu. \n\nUmieść Żeton Tajnego Przejścia we wskazanym miejscu. Następnie przesuń figurkę swojego badacza na to pole."
 EventPalace_PlaceAtticTrapdoor.button1,Kontynuuj
@@ -676,6 +678,41 @@ EventPalace_WinCondition_BanishCorrect.button1,Kontynuuj
 EventPalace_WinCondition_BanishCorrect.text,Musisz pokonać dwóch Arcykapłanów, aby raz na zawsze ocalić świat przed ich nikczemnymi planami.
 EventPalace_WinCondition_BanishIncorrect.button1,Kontynuuj
 EventPalace_WinCondition_BanishIncorrect.text,Jedyną nadzieją na ocalenie całej rzeczywistości jest walka ze starożytną istotą, która stoi przed tobą. Choć nic na tej planecie nie jest w stanie dorównać jej kosmicznej potędze, może będziesz w stanie osłabić ją na tyle, by twój kontr-rytuał pozwolił na wyrzucenie jej z naszego świata.
+EventPalace2_ExploreConservatoryLoungeFailure.button1,Kontynuuj
+EventPalace2_ExploreConservatoryLoungeFailure.text,Pociągasz za klamkę, aż twoje dłonie stają się czerwone, ale drzwi ani drgną.
+EventPalace2_ExploreConservatoryLoungeSkillCheck.button1,Potwierdź
+EventPalace2_ExploreConservatoryLoungeSkillCheck.text,Przekręcasz klamkę i naciskasz na drzwi, ale okazuje się, że są szczelnie zamknięte. Wkładasz całą swoją siłę w to, by otworzyć drzwi ({strength}).
+EventPalace2_ExploreConservatoryLoungeSuccess.button1,Kontynuuj
+EventPalace2_PlaceAllExploreBallroom.button1,Kontynuuj
+EventPalace2_PlaceBallroom.button1,Kontynuuj
+EventPalace2_PlaceBilliardsRoom.button1,Kontynuuj
+EventPalace2_PlaceConservatory_RemoveFinalExplore.button1,Kontynuuj
+EventPalace2_PlaceConservatory.button1,Kontynuuj
+EventPalace2_PlaceConservatorySecretPassage.button1,Kontynuuj
+EventPalace2_PlaceConservatorySewer.button1,Kontynuuj
+EventPalace2_PlaceEntryHall.button1,Kontynuuj
+EventPalace2_PlaceExploreBallroomBilliardsRoom.button1,Kontynuuj
+EventPalace2_PlaceExploreBallroomBilliardsRoom.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
+EventPalace2_PlaceExploreBallroomHallStairs.button1,Kontynuuj
+EventPalace2_PlaceExploreBallroomHallStairs.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
+EventPalace2_PlaceExploreBilliardsRoomBallroom.button1,Kontynuuj
+EventPalace2_PlaceExploreBilliardsRoomBallroom.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
+EventPalace2_PlaceExploreConservatoryLounge.button1,Kontynuuj
+EventPalace2_PlaceExploreHallStairsBallroom.button1,Kontynuuj
+EventPalace2_PlaceExploreHallStairsBallroom.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
+EventPalace2_PlaceExploreLoungeConservatory.button1,Kontynuuj
+EventPalace2_PlaceExploreLoungeConservatory.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
+EventPalace2_PlaceExploresEntryHall.button1,Kontynuuj
+EventPalace2_PlaceHallStairs.button1,Kontynuuj
+EventPalace2_PlaceInteractSummoningRitual.button1,Kontynuuj
+EventPalace2_PlaceLounge.button1,Kontynuuj
+EventPalace2_PlaceSearchBar.button1,Kontynuuj
+EventPalace2_SearchBarFailure.button1,Kontynuuj
+EventPalace2_SearchBarSkillCheck.button1,Potwierdź
+EventPalace2_SearchBarSuccess.button1,Kontynuuj
+EventPalace2_SearchCarpetFailure.button1,Kontynuuj
+EventPalace2_SearchCarpetSkillCheck.button1,Potwierdź
+EventPalace2_SearchCarpetSuccess.button1,Kontynuuj
 EventPalaceEnd_HasturDefeated.button1,Kontynuuj
 EventPalaceEnd_HasturDefeated.text,"Pod wpływem waszych ciosów, {c:CustomMonsterHastur} chwieje się przez ułamek sekundy, zaskoczony oporem, jaki mu stawiono w tym wymiarze. To trwa zaledwie mgnienie oka, lecz jednocześnie wystarczająco długo, abyś mógł skierować na niego energię swojego kontr-rytuału. Bestia wrzeszczy z wściekłości, gdy kosmiczna energia wyrywa jego fizyczną formę z naszego świata z powrotem do jego własnego. \n\nUdało się zapobiec inwazji Zhara! Badacze wygrywają!"
 EventPalaceEnd_PriestsDefeated.button1,Kontynuuj
@@ -1144,6 +1181,25 @@ SpawnPalace_LoungeHuntingHorror.button1,Kontynuuj
 SpawnPalace_LoungeHuntingHorror.text,"Z drugiej strony pomieszczenia dobiega cię potworny, mlaszczący dźwięk, który nie mógł wydobyć się z gardła człowieka. Spoglądasz w tym kierunku i dostrzegasz uskrzydloną istotę, która wyraźnie szukuje się do ataktu.\n\nUmieść figurkę potwora {c:SpawnPalace_LoungeHuntingHorror} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnPalace_LoungeStarVampire.button1,Kontynuuj
 SpawnPalace_LoungeStarVampire.text,"Po drugiej stronie pomieszczenia widać ledwo widoczną, nieopisywalną istotę, stanowiącą pulsującą masę macek, zębów oraz czystego przerażenia. \n\nUmieść figurkę potwora {c:SpawnPalace_LoungeStarVampire} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnPalace2_BilliardsRoomCthonian.button1,Kontynuuj
+SpawnPalace2_BilliardsRoomCthonian.text,"Z drugiej strony pokoju zaskakuje cię nagłe zawalenie się części podłogi. Z nowo powstałej dziury w ziemi wynurza się pulsujące, przypominające ogromnego robaka stworzenie. Na jego widok, serce zamiera ci ze zgrozy. \n\nUmieść figurkę potwora {c:SpawnPalace2_BilliardsRoomCthonian} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnPalace2_BilliardsRoomHuntingHorror.button1,Kontynuuj
+SpawnPalace2_BilliardsRoomHuntingHorror.text,"Z drugiej strony pomieszczenia dobiega cię potworny, mlaszczący dźwięk, który nie mógł wydobyć się z gardła człowieka. Spoglądasz w tym kierunku i dostrzegasz uskrzydloną istotę, która wyraźnie szukuje się do ataktu.\n\nUmieść figurkę potwora {c:SpawnPalace2_BilliardsRoomHuntingHorror} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnPalace2_BilliardsRoomStarVampire.button1,Kontynuuj
+SpawnPalace2_BilliardsRoomStarVampire.text,"Po drugiej stronie pomieszczenia widać ledwo widoczną, nieopisywalną istotę, stanowiącą pulsującą masę macek, zębów oraz czystego przerażenia. \n\nUmieść figurkę potwora {c:SpawnPalace2_BilliardsRoomStarVampire} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnPalace2_EntryHallChildOfTheGoat.button1,Kontynuuj
+SpawnPalace2_EntryHallChildOfTheGoat.text,"Udało ci się przybyć na tyle wcześnie w nocy, że kustosz Pałacu wciąż jest na służbie. Podchodzisz bliżej, planując poprosić go o pomoc w zlokalizowaniu miejsca przeprowadzania rytuału, ale zatrzymujesz się wpół kroku, gdy zauważasz, że kustosz nie jest człowiekiem, tylko ożywionym trupem! Gdy puste spojrzenie zombie pada na ciebie, natychmiast dochodzisz do wniosku, że próba porozmawiania z nim była błędem.\n\nUmieść figurkę potwora {c:SpawnPalace2_EntryHallChildOfTheGoat} we wskazanym miejscu."
+SpawnPalace2_EntryHallDeepOneHybrid.button1,Kontynuuj
+SpawnPalace2_EntryHallDeepOneHybrid.text,"Udało ci się przybyć na tyle wcześnie w nocy, że kustosz Pałacu wciąż jest na służbie. Podchodzisz bliżej, planując poprosić go o pomoc w zlokalizowaniu miejsca przeprowadzania rytuału, ale zatrzymujesz się wpół kroku, gdy zauważasz, że kustosz nie jest człowiekiem, tylko ożywionym trupem! Gdy puste spojrzenie zombie pada na ciebie, natychmiast dochodzisz do wniosku, że próba porozmawiania z nim była błędem.\n\nUmieść figurkę potwora {c:SpawnPalace2_EntryHallDeepOneHybrid} we wskazanym miejscu."
+SpawnPalace2_EntryHallSkeleton.button1,Kontynuuj
+SpawnPalace2_EntryHallSkeleton.text,"Udało ci się przybyć na tyle wcześnie w nocy, że kustosz Pałacu wciąż jest na służbie. Podchodzisz bliżej, planując poprosić go o pomoc w zlokalizowaniu miejsca przeprowadzania rytuału, ale zatrzymujesz się wpół kroku, gdy zauważasz, że kustosz nie jest człowiekiem, tylko ożywionym trupem! Gdy puste spojrzenie zombie pada na ciebie, natychmiast dochodzisz do wniosku, że próba porozmawiania z nim była błędem.\n\nUmieść figurkę potwora {c:SpawnPalace2_EntryHallSkeleton} we wskazanym miejscu."
+SpawnPalace2_EntryHallThrall.button1,Kontynuuj
+SpawnPalace2_EntryHallThrall.text,"Udało ci się przybyć na tyle wcześnie w nocy, że kustosz Pałacu wciąż jest na służbie. Podchodzisz bliżej, planując poprosić go o pomoc w zlokalizowaniu miejsca przeprowadzania rytuału, ale zatrzymujesz się wpół kroku, gdy zauważasz, że kustosz nie jest człowiekiem, tylko ożywionym trupem! Gdy puste spojrzenie zombie pada na ciebie, natychmiast dochodzisz do wniosku, że próba porozmawiania z nim była błędem.\n\nUmieść figurkę potwora {c:SpawnPalace2_EntryHallThrall} we wskazanym miejscu."
+SpawnPalace2_EntryHallZombie.button1,Kontynuuj
+SpawnPalace2_EntryHallZombie.text,"Udało ci się przybyć na tyle wcześnie w nocy, że kustosz Pałacu wciąż jest na służbie. Podchodzisz bliżej, planując poprosić go o pomoc w zlokalizowaniu miejsca przeprowadzania rytuału, ale zatrzymujesz się wpół kroku, gdy zauważasz, że kustosz nie jest człowiekiem, tylko ożywionym trupem! Gdy puste spojrzenie zombie pada na ciebie, natychmiast dochodzisz do wniosku, że próba porozmawiania z nim była błędem.\n\nUmieść figurkę potwora {c:SpawnPalace2_EntryHallZombie} we wskazanym miejscu."
+SpawnPalace2_HallStairsCultist.button1,Kontynuuj
+SpawnPalace2_LoungeDeepOne.button1,Kontynuuj
+SpawnPalace2_LoungeHuntingDeepOne.button1,Kontynuuj
 SpawnWarehouse_BasementCrawlingOne.button1,Kontynuuj
 SpawnWarehouse_BasementCrawlingOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse_BasementCrawlingOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse_BasementCrawlingOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse_BasementCrawlingOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse_BasementCultist.button1,Kontynuuj
@@ -1403,6 +1459,29 @@ TokenPalace_SearchBookshelf.button1,{action} Zbadaj
 TokenPalace_SearchBookshelf.text,Przyłapałeś kultystę na przesuwaniu tego regału. W jakim celu? Masz zamiar się dowiedzieć.
 TokenPalace_SearchTrapdoor.button1,{action} Zbadaj
 TokenPalace_SearchTrapdoor.text,Ten skrawek podłogi jest zauważalnie czystszy niż podłoga obok niego, prawie tak, jakby dywan, który był tam przechowywany przez lata, został niedawno przeniesiony.
+TokenPalace2_ExploreBallroomBilliardsRoom.button1,{action} Eksploruj
+TokenPalace2_ExploreBallroomBilliardsRoom.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_ExploreBallroomHallCorner1.button1,{action} Eksploruj
+TokenPalace2_ExploreBallroomHallCorner1.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_ExploreBallroomHallStairs.button1,{action} Eksploruj
+TokenPalace2_ExploreBallroomHallStairs.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_ExploreBilliardsRoomBallroom.button1,{action} Eksploruj
+TokenPalace2_ExploreBilliardsRoomBallroom.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_ExploreBilliardsRoomEntryHall.button1,{action} Eksploruj
+TokenPalace2_ExploreBilliardsRoomEntryHall.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_ExploreConservatoryHallCorner1.text,Drzwi zostały zabite deskami i gwoździami. Choć bardzo starasz się je wyrwać, jakaś nienaturalna siła utrzymuje je na miejscu.
+TokenPalace2_ExploreConservatoryLounge.button1,{action} Eksploruj
+TokenPalace2_ExploreHallStairs.button1,{action} Eksploruj
+TokenPalace2_ExploreHallStairs.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_ExploreLoungeConservatory.button1,{action} Eksploruj
+TokenPalace2_ExploreLoungeConservatory.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_ExploreLoungeEntryHall.button1,{action} Eksploruj
+TokenPalace2_ExploreLoungeEntryHall.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_InteractSummoningRitual.button1,{action} Przerwij Rytuał
+TokenPalace2_InteractSummoningRitual.text,Dwie odziane w szaty postacie stoją wokół kręgu przywołania. Ich oczy zaszły bielmem i sprawiają wrażenie nieprzytomnych, ale ich usta nadal poruszają się, intonując czarną magię. Kiedy próbujesz się do nich zbliżyć, moc rytuału odrzuca cię do tyłu. Będziesz musiał rozpocząć kontr-rytuał, aby ich powstrzymać.
+TokenPalace2_SearchBar.button1,{action} Zbadaj
+TokenPalace2_SearchCarpet.button1,{action} Zbadaj
+TokenPalace2_SightHallStairs.button1,Odsłoń
 TokenWarehouse_ExploreBasementRootCellar.button1,{action} Eksploruj
 TokenWarehouse_ExploreBasementRootCellar.text,Te drzwi prowadzą do dalszej części piwnicy.
 TokenWarehouse_ExploreBasementWarehouse.button1,{action} Eksploruj
@@ -1466,5 +1545,3 @@ UIPrologue_Continue.uitext,Kontynuuj
 UIPrologue_Text.uitext,|||<align="left">Odrzucasz w kąt tekst telegramu i klniesz głośno. Jak mogłeś nie zauważyć tego wcześniej? Sprawdzasz raz jeszcze przetłumaczone przez siebie runy, ale znajdujesz w nich tylko dowody potwierdzające tę historię. Telegram musi mówić prawdę. Jutro o świcie w Starym Pałacu Gubernatorskim zostanie odprawiony rytuał, mający na celu przywołanie Wielkiego Przedwiecznego wprost do naszego świata.\n\nWstajesz, chodząc nerwowo po swoim biurze. Ostatnie kilka miesięcy spędziłeś na badaniu trzech lokalnych kultów, ale nigdy byś nie przypuszczał, że którykolwiek z nich jest zdolny do czegoś więcej, niż organizowania przyjęć dla swoich członków. Najwyraźniej się myliłeś. Chociaż otrzymana przez ciebie wiadomość sprawia wrażenie ledwo spójnej paplaniny, nie możesz ryzykować jej zignorowania. Mówi ona o tym, że jeden z kultów, które badałeś, będzie sprawcą nikczemnego rytuału, zaś drugi kult udzielać będzie mu pomocy. W wiadomości mówi się też, że ostatni kult działa przeciwko dwóm pozostałym, ale ten fakt nie jest dla ciebie w żaden sposób pocieszający.\n\nOpadasz z powrotem na krzesło i podnosisz telegram. Przetłumaczone runy zawierają dokładną instrukcję na temat tego, jak wykonać Rytuał Wygnania, zdolny do powstrzymania katastrofy. Niestety, rytuał wymaga od osoby, która go przeprowadza, posiadania szczegółowych informacji na temat Przedwiecznego, który ma zostać wygnany... jego imienia, koloru oraz... emocji? Instrukcja w tym zakresie nie ma dla ciebie sensu.\n\nPonownie przeklinasz. Brak ci wskazówek, a jeszcze bardziej brak ci czasu na ich zdobycie...|||
 UIWarehouse_IntroContinue.uitext,Kontynuuj
 UIWarehouse_IntroText.uitext,|||<align="left">Nie docieracie daleko w głąb linii budynków przemysłowych, zanim napotykacie na miejscowych mieszkańców, błąkających się po ulicy i wymachujących bronią pokrytą ciemną, lepką krwią. Obawiacie się, że coś mogło opętać tych ludzi, jednak ci gdy tylko was zauważają, błagają, byście opuścili tę dzielnicę dla własnego bezpieczeństwa. \n\nProsicie o wyjaśnienie sytuacji. Grupka opowiada niemożliwe historie o stworzeniach większych niż niedźwiedzie atakujących lokalnych pracowników na ulicach i budynkach w całej dzielnicy. Brzmi to nieprawdopodobnie. Żaden ze znanych wam kultów nie posiada środków pozwalających na przywoływanie podobnych istot. Nagle, z pobliskiej uliczki wyskakuje straszliwe stworzenie i atakuje waszą grupę. Z wielkim trudem udaje się wam obezwładnić stwora i zabić go, ale niestety, nie przed tym, jak bestia śmiertelnie raniła jednego z mieszkańców. \n\nGrupa ponownie błaga was o opuszczenie tego terenu, ale zamiast tego prosicie ich, aby powiedzieli, skąd pochodzą te stworzenia. Grupka po chwili nacisku mówi w końcu o starym magazynie, który niedawno został zamknięty. Mieszkańcy sąsiednich budynków zgłaszali, że słyszano z niego dziwne odgłosy, ale do tej pory uznawano to skutek działania dzikich zwierząt lub bezdomnych. Niestety - każdy, kto wszedł do budynku od tamtej pory, już z niego nie wyszedł. \n\nDziękujecie grupie i odchodzicie. Za swoimi plecami słyszycie ciche głosy odmawianych w waszej intencji modlitw. Kierujecie się wprost w stronę starego magazynu, zamierzając zniszczyć plagę, zanim ta pochłonie więcej niewinnych istnień.|||
-EventPalace_CounterRitual_SuccessHastur.button1,Kontynuuj
-EventPalace_PlaceAttic_RemoveFinalExplore.text,"Małe poddasze pałacu jest zakurzone i pełne starych mebli. Choć pałac jest dobrze utrzymany, rzadko kto zapuszcza się do tego skrzydła, co czyni je idealnym miejscem do ukrycia się przed ciekawskimi spojrzeniami. \n\nUmieść kafelek {c:TilePalace_Attic} we wskazanym miejscu. Następnie odrzuć Żeton Eksploracji, który łączy kafelki {c:TilePalace_Ballroom} i {c:TilePalace_Attic}."
