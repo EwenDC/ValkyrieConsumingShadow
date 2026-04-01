@@ -1,5 +1,5 @@
 .,English
-quest.name,The Consuming Shadow (v1.22)
+quest.name,The Consuming Shadow (v1.23)
 quest.authors,"Ewen Cameron\nMark J. Hadley"
 TokenHouse_SearchEntryTable.button1,{action} Investigate
 EventHouse_PlaceYard1.button1,Continue
@@ -772,6 +772,8 @@ EventDockEnd_RemainingMonsters.text,You dart between the winding streets, hiding
 EventDockEnd_RemainingMonsters.button1,Continue
 UICutsceneFrame.button1,Continue
 UIPrologue_Text.uitext,|||<align="left">You throw down the telegram you are reading and curse loudly. How could you have not seen this sooner? You cross-reference the translated runes, but only find evidence that corroborates the story. The telegram must be telling the truth. At the first light of tomorrow morning, a ritual will be performed at the site of the Old Governors Palace. A ritual to summon an Ancient One into our world.\n\nYou stand up and pace around your office. You have spent the last few months occupied with your investigation into three local cults, but you would have never imagined any of them capable of more than hosting tea parties. Clearly, you were mistaken.\n\nWhile the message you have received is a barely coherent ramble, you cannot risk ignoring it. It speaks of one of the cults you have been following as the perpetrator of the vile ritual, with another one lending it aid. The third cult is said to be working against the other two, but you find that fact to be of little solace.\n\nYou slide back into your chair and review the telegram. You desperately search for any clues identifying the cults being discussed, but find nothing. The translated runes on your desk contain exact instructions on how to perform a banishment ritual capable of stopping an Ancient One's invasion. However, the ritual described requires information about the Ancient One being banished to be performed.\n\nYou curse again. You are short on leads and even shorter on time. You throw your jacket on, grab your gun, and head out into town.|||
+EventStart.button2,[DEBUG] Select Map
+EventStart.button3,[DEBUG] Play Cutscene
 EventStart.text,Each investigator begins with 2 Clue(s).
 EventStart.button1,Begin Scenario
 EventNextLocations_WarehouseHouseDock.text,You slam the door of your car shut but stop short of starting your car. Where are you going to go first? You mull over which of the three districts of Arkham to start your investigation in.
@@ -1006,6 +1008,16 @@ quest.synopsys,You must identify and stop a cult from summoning an Ancient One b
 EventPalace_RevealMap3_AtticBallroomExplore.text,Discard the Explore token connecting the {c:TilePalace_Ballroom} and the {c:TilePalace_Attic}.
 EventPalace_RevealMap3_AtticBallroomExplore.button1,Continue
 EventTest_Cutscenes.text,"[CUTSCENE DEBUG EVENT]\nSelect a cutscene:"
+EventTest_Maps.button1,Warehouse
+EventTest_Maps.button2,House
+EventTest_Maps.button3,Dock
+EventTest_Maps.button4,Palace
+EventTest_Maps.button5,Warehouse2
+EventTest_Maps.button6,House2
+EventTest_Maps.button7,Dock2
+EventTest_Maps.button8,Palace2
+EventTest_Maps.button9,Cancel
+EventTest_Maps.text,"[MAP DEBUG EVENT]\nSelect a map:"
 EventTest_Cutscenes.button1,No Hours
 EventTest_Cutscenes.button2,Eliminated Outside Palace
 EventTest_Cutscenes.button3,Eliminated Inside Palace
