@@ -654,14 +654,14 @@ EventPalace_RevealMap2_LoungeTrapdoor.button1,Kontynuuj
 EventPalace_RevealMap2_LoungeTrapdoor.text,Odrzuć ten Żeton Przeszukiwania i umieść Żeton Tajnego Przejścia we wskazanym miejscu.
 EventPalace_RevealMap3_AtticBallroom.button1,Kontynuuj
 EventPalace_RevealMap3_AtticBallroom.text,Umieść kafelek {c:TilePalace_Attic} i Żetony Tajnego Przejścia we wskazanych miejscach. Następnie odrzuć Żeton Eksploracji, który łączy {c:TilePalace_Ballroom} i {c:TilePalace_Attic}.
-EventPalace_RevealMap3_AtticBallroomExplore.button1,Kontynuuj
-EventPalace_RevealMap3_AtticBallroomExplore.text,Odrzuć Żeton Eksploracji łączący kafelek {c:TilePalace_Ballroom} z {c:TilePalace_Attic}.
 EventPalace_RevealMap3_AtticNoBallroom.button1,Kontynuuj
 EventPalace_RevealMap3_AtticNoBallroom.text,Umieść kafelek {c:TilePalace_Attic}, i Żetony Tajnego Przejścia we wskazanych miejscach.
 EventPalace_RevealMap3_AtticSecretPassage.button1,Kontynuuj
 EventPalace_RevealMap3_AtticSecretPassage.text,Umieść Żeton Tajnego Przejścia we wskazanym miejscu.
 EventPalace_RevealMap3_AtticTrapdoor.button1,Kontynuuj
 EventPalace_RevealMap3_AtticTrapdoor.text,Umieść Żeton Tajnego Przejścia we wskazanym miejscu.
+EventPalace_RevealMap3_RemoveFinalExplore.button1,Kontynuuj
+EventPalace_RevealMap3_RemoveFinalExplore.text,Odrzuć Żeton Eksploracji łączący kafelek {c:TilePalace_Ballroom} z {c:TilePalace_Attic}.
 EventPalace_SearchBookshelfFailure.button1,Kontynuuj
 EventPalace_SearchBookshelfFailure.text,Chociaż działasz tak szybko, jak możesz, tajemnicza siła okazuje się być ostatecznie szybsza. Regał zamyka się, zanim zdążysz przemknąć na drugą stronę.
 EventPalace_SearchBookshelfSkillCheck.button1,Zatwierdź
@@ -683,6 +683,10 @@ EventPalace2_ExploreConservatoryLoungeFailure.text,Pociągasz za klamkę, aż tw
 EventPalace2_ExploreConservatoryLoungeSkillCheck.button1,Potwierdź
 EventPalace2_ExploreConservatoryLoungeSkillCheck.text,Przekręcasz klamkę i naciskasz na drzwi, ale okazuje się, że są szczelnie zamknięte. Wkładasz całą swoją siłę w to, by otworzyć drzwi ({strength}).
 EventPalace2_ExploreConservatoryLoungeSuccess.button1,Kontynuuj
+EventPalace2_NoHoursConservatory.button1,Kontynuuj
+EventPalace2_NoHoursConservatory.text,"Z przerażeniem zdajesz sobie sprawę, że do zakończenia rytuału pozostało zaledwie kilka sekund.\n\nOdrzuć ten Żeton Interakcji. Bez zastanowienia, kierujesz energię otoczenia na potężny kontr-rytuał, gotowy wygnać najeźdźcę."
+EventPalace2_NoHoursNotConservatory.button1,Kontynuuj
+EventPalace2_NoHoursNotConservatory.text,Energia wirująca wokół twojej głowy przenika do twojego umysłu, dając ci nagły wgląd w istotę przeprowadzanego rytuału. Z przerażeniem zdajesz sobie sprawę, że jest on zaledwie kilka sekund od zakończenia. Bez zastanowienia kierujesz energię otoczenia na potężny kontr-rytuał, gotowy do wypędzenia najeźdźcy.
 EventPalace2_PlaceAllExploreBallroom.button1,Kontynuuj
 EventPalace2_PlaceBallroom.button1,Kontynuuj
 EventPalace2_PlaceBilliardsRoom.button1,Kontynuuj
@@ -707,6 +711,19 @@ EventPalace2_PlaceHallStairs.button1,Kontynuuj
 EventPalace2_PlaceInteractSummoningRitual.button1,Kontynuuj
 EventPalace2_PlaceLounge.button1,Kontynuuj
 EventPalace2_PlaceSearchBar.button1,Kontynuuj
+EventPalace2_RevealMap1_BilliardsRoom.button1,Kontynuuj
+EventPalace2_RevealMap1_BilliardsRoomSecretPassage.button1,Kontynuuj
+EventPalace2_RevealMap2_Ballroom.button1,Kontynuuj
+EventPalace2_RevealMap2_HallStairs.button1,Kontynuuj
+EventPalace2_RevealMap2_HallStairsSewer.button1,Kontynuuj
+EventPalace2_RevealMap3_ConservatoryLounge.button1,Kontynuuj
+EventPalace2_RevealMap3_ConservatoryNoLounge.button1,Kontynuuj
+EventPalace2_RevealMap3_ConservatorySecretPassage.button1,Kontynuuj
+EventPalace2_RevealMap3_ConservatorySecretPassage.text,Umieść Żeton Tajnego Przejścia we wskazanym miejscu.
+EventPalace2_RevealMap3_ConservatorySewer.button1,Kontynuuj
+EventPalace2_RevealMap3_Lounge.button1,Kontynuuj
+EventPalace2_RevealMap3_RemoveFinalExplore.button1,Kontynuuj
+EventPalace2_RevealMap3_RemoveFinalExplore.text,Odrzuć Żeton Eksploracji łączący kafelek {c:TilePalace2_Lounge} z {c:TilePalace2_Conservatory}.
 EventPalace2_SearchBarFailure.button1,Kontynuuj
 EventPalace2_SearchBarSkillCheck.button1,Potwierdź
 EventPalace2_SearchBarSuccess.button1,Kontynuuj
@@ -1187,6 +1204,24 @@ SpawnPalace2_BilliardsRoomHuntingHorror.button1,Kontynuuj
 SpawnPalace2_BilliardsRoomHuntingHorror.text,"Z drugiej strony pomieszczenia dobiega cię potworny, mlaszczący dźwięk, który nie mógł wydobyć się z gardła człowieka. Spoglądasz w tym kierunku i dostrzegasz uskrzydloną istotę, która wyraźnie szukuje się do ataktu.\n\nUmieść figurkę potwora {c:SpawnPalace2_BilliardsRoomHuntingHorror} we wskazanym miejscu. Otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnPalace2_BilliardsRoomStarVampire.button1,Kontynuuj
 SpawnPalace2_BilliardsRoomStarVampire.text,"Po drugiej stronie pomieszczenia widać ledwo widoczną, nieopisywalną istotę, stanowiącą pulsującą masę macek, zębów oraz czystego przerażenia. \n\nUmieść figurkę potwora {c:SpawnPalace2_BilliardsRoomStarVampire} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
+SpawnPalace2_ConservatoryChildHastur.button1,Kontynuuj
+SpawnPalace2_ConservatoryChildHastur.text,|||Druga postać również zdejmuje kaptur i zwraca się do ciebie, wykrzywiona ze wściekłości. "Brak szacunku dla naszego sojusznika, oznacza brak szacunku dla mojego pana! Zamierzam cię wypatroszyć, a z twoich kości stworzę zupełnie nowy zestaw do rytuału! Szkoda tylko, że nie dożyjesz ich użycia.". \n\nWystaw figurkę potwora Dziecko Dagona we wskazanym miejscu. Jest to {c:SpawnPalace2_ConservatoryChildHastur}.|||
+SpawnPalace2_ConservatoryChildYig.button1,Kontynuuj
+SpawnPalace2_ConservatoryChildYig.text,|||Druga postać również zdejmuje kaptur i zwraca się do ciebie, wykrzywiona ze wściekłości. "Brak szacunku dla naszego sojusznika, oznacza brak szacunku dla mojego pana! Zamierzam cię wypatroszyć, a z twoich kości stworzę zupełnie nowy zestaw do rytuału! Szkoda tylko, że nie dożyjesz ich użycia.". \n\nWystaw figurkę potwora Dziecko Dagona we wskazanym miejscu. Jest to {c:SpawnPalace2_ConservatoryChildYig}.|||
+SpawnPalace2_ConservatoryChildZhar.button1,Kontynuuj
+SpawnPalace2_ConservatoryChildZhar.text,|||Druga postać również zdejmuje kaptur i zwraca się do ciebie, wykrzywiona ze wściekłości. "Brak szacunku dla naszego sojusznika, oznacza brak szacunku dla mojego pana! Zamierzam cię wypatroszyć, a z twoich kości stworzę zupełnie nowy zestaw do rytuału! Szkoda tylko, że nie dożyjesz ich użycia.". \n\nWystaw figurkę potwora Dziecko Dagona we wskazanym miejscu. Jest to {c:SpawnPalace2_ConservatoryChildZhar}.|||
+SpawnPalace2_ConservatoryHastur.button1,Kontynuuj
+SpawnPalace2_ConservatoryHastur.text,"Rytuał przywołania kończy się sukcesem i na twoich oczach, w miejscu, w którym przed chwilą znajdował się krąg, teraz otwiera się portal do innego wymiaru. Pozbawione życia ciała dwóch odzianych w szaty postaci upadają na ziemię, oszczędzone przed przerażającymi konsekwencjami, jakie przyniosą ich działania. Z samego portalu wyłania się Hastur, gotowy przejąć ten świat na własność. \n\nUmieść figurkę potwora Gwiezdny Pomiot we wskazanym miejscu. To jest {c:SpawnPalace2_ConservatoryHastur}."
+SpawnPalace2_ConservatoryPriestHastur.button1,Kontynuuj
+SpawnPalace2_ConservatoryPriestHastur.text,|||Pierwsza postać zdejmuje kaptur i odwraca się w twoją stronę. "Jak śmiesz przeszkadzać moim panom w ich planach, ty nędzny robaku! Nieważne, kiedy cię zabiję, będę mógł cofnąć twoje żałosne zaklęcie i rozpocząć rytuał przywołania od nowa!". \n\nUmieść figurkę potwora Kapłan Dagona we wskazanym miejscu. Jest to {c:SpawnPalace2_ConservatoryPriestHastur}.|||
+SpawnPalace2_ConservatoryPriestYig.button1,Kontynuuj
+SpawnPalace2_ConservatoryPriestYig.text,|||Pierwsza postać zdejmuje kaptur i odwraca się w twoją stronę. "Jak śmiesz przeszkadzać moim panom w ich planach, ty nędzny robaku! Nieważne, kiedy cię zabiję, będę mógł cofnąć twoje żałosne zaklęcie i rozpocząć rytuał przywołania od nowa!". \n\nUmieść figurkę potwora Kapłan Dagona we wskazanym miejscu. Jest to {c:SpawnPalace2_ConservatoryPriestYig}.|||
+SpawnPalace2_ConservatoryPriestZhar.button1,Kontynuuj
+SpawnPalace2_ConservatoryPriestZhar.text,|||Pierwsza postać zdejmuje kaptur i odwraca się w twoją stronę. "Jak śmiesz przeszkadzać moim panom w ich planach, ty nędzny robaku! Nieważne, kiedy cię zabiję, będę mógł cofnąć twoje żałosne zaklęcie i rozpocząć rytuał przywołania od nowa!". \n\nUmieść figurkę potwora Kapłan Dagona we wskazanym miejscu. Jest to {c:SpawnPalace2_ConservatoryPriestZhar}.|||
+SpawnPalace2_ConservatoryYig.button1,Kontynuuj
+SpawnPalace2_ConservatoryYig.text,"Rytuał przywołania kończy się sukcesem i na twoich oczach, w miejscu, w którym przed chwilą znajdował się krąg, teraz otwiera się portal do innego wymiaru. Pozbawione życia ciała dwóch odzianych w szaty postaci upadają na ziemię, oszczędzone przed przerażającymi konsekwencjami, jakie przyniosą ich działania. Z samego portalu wyłania się Yig, gotowy przejąć ten świat na własność. \n\nUmieść figurkę potwora Gwiezdny Pomiot we wskazanym miejscu. To jest {c:SpawnPalace2_ConservatoryYig}."
+SpawnPalace2_ConservatoryZhar.button1,Kontynuuj
+SpawnPalace2_ConservatoryZhar.text,"Rytuał przywołania kończy się sukcesem i na twoich oczach, w miejscu, w którym przed chwilą znajdował się krąg, teraz otwiera się portal do innego wymiaru. Pozbawione życia ciała dwóch odzianych w szaty postaci upadają na ziemię, oszczędzone przed przerażającymi konsekwencjami, jakie przyniosą ich działania. Z samego portalu wyłania się Zhar, gotowy przejąć ten świat na własność. \n\nUmieść figurkę potwora Gwiezdny Pomiot we wskazanym miejscu. To jest {c:SpawnPalace2_ConservatoryZhar}."
 SpawnPalace2_EntryHallChildOfTheGoat.button1,Kontynuuj
 SpawnPalace2_EntryHallChildOfTheGoat.text,"Udało ci się przybyć na tyle wcześnie w nocy, że kustosz Pałacu wciąż jest na służbie. Podchodzisz bliżej, planując poprosić go o pomoc w zlokalizowaniu miejsca przeprowadzania rytuału, ale zatrzymujesz się wpół kroku, gdy zauważasz, że kustosz nie jest człowiekiem, tylko ożywionym trupem! Gdy puste spojrzenie zombie pada na ciebie, natychmiast dochodzisz do wniosku, że próba porozmawiania z nim była błędem.\n\nUmieść figurkę potwora {c:SpawnPalace2_EntryHallChildOfTheGoat} we wskazanym miejscu."
 SpawnPalace2_EntryHallDeepOneHybrid.button1,Kontynuuj
@@ -1389,7 +1424,6 @@ TokenHouse_PersonWoman2.text,Kobieta chowa się za łóżkiem, desperacko trzyma
 TokenHouse_SearchBedroomDesk.button1,{action} Zbadaj
 TokenHouse_SearchBedroomDesk.text,Widzisz różne luźne stosy papierów zapisanych niespójnym, chaotycznym pismem. Zauważasz jednak, że te zapiski dotyczą zjawisk nadprzyrodzonych oraz okultyzmu.
 TokenHouse_SearchCupboards.button1,{action} Zbadaj
-TokenHouse_SearchCupboards.text,{c:SpawnHouse_KitchenCultist} desperacko szukał czegoś w tych szafkach.
 TokenHouse_SearchDiningTable.button1,{action} Zbadaj
 TokenHouse_SearchDiningTable.text,Broń można zaimprowizować z jednego z przedmiotów znajdujących się na stole w jadalni.
 TokenHouse_SearchEntryTable.button1,{action} Zbadaj
@@ -1425,7 +1459,6 @@ TokenHouse2_SearchBedroomDesk.text,Widzisz różne luźne stosy papierów zapisa
 TokenHouse2_SearchCabinet_NoPuzzle.button1,{action} Zbadaj
 TokenHouse2_SearchCabinet_Puzzle.button1,{action} Rozwiąż
 TokenHouse2_SearchCupboards.button1,{action} Zbadaj
-TokenHouse2_SearchCupboards.text,{c:SpawnHouse2_KitchenCultist} desperacko szukał czegoś w tych szafkach.
 TokenHouse2_SearchDiningTable.button1,{action} Zbadaj
 TokenHouse2_SearchDiningTable.text,Broń można zaimprowizować z jednego z przedmiotów znajdujących się na stole w jadalni.
 TokenHouse2_SearchEntryTable.button1,{action} Zbadaj
@@ -1471,8 +1504,8 @@ TokenPalace2_ExploreBilliardsRoomEntryHall.button1,{action} Eksploruj
 TokenPalace2_ExploreBilliardsRoomEntryHall.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
 TokenPalace2_ExploreConservatoryHallCorner1.text,Drzwi zostały zabite deskami i gwoździami. Choć bardzo starasz się je wyrwać, jakaś nienaturalna siła utrzymuje je na miejscu.
 TokenPalace2_ExploreConservatoryLounge.button1,{action} Eksploruj
-TokenPalace2_ExploreHallStairs.button1,{action} Eksploruj
-TokenPalace2_ExploreHallStairs.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
+TokenPalace2_ExploreHallStairsBallroom.button1,{action} Eksploruj
+TokenPalace2_ExploreHallStairsBallroom.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
 TokenPalace2_ExploreLoungeConservatory.button1,{action} Eksploruj
 TokenPalace2_ExploreLoungeConservatory.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
 TokenPalace2_ExploreLoungeEntryHall.button1,{action} Eksploruj

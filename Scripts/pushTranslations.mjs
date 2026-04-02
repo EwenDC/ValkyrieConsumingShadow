@@ -111,6 +111,12 @@ for (const [
         missingStrings
       );
     }
+
+    for (const key of strings.keys()) {
+      if (!baseStrings.has(key)) {
+        console.warn(`Extra key in ${language}: ${key}`);
+      }
+    }
   }
 
   writeStringsToFile(filePath, strings, endOfLine);

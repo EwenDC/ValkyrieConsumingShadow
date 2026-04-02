@@ -655,14 +655,14 @@ EventPalace_RevealMap2_LoungeTrapdoor.button1,Continuar
 EventPalace_RevealMap2_LoungeTrapdoor.text,Descarta esta ficha de Búsqueda y coloca una Trampilla en el lugar señalado.
 EventPalace_RevealMap3_AtticBallroom.button1,Continuar
 EventPalace_RevealMap3_AtticBallroom.text,Coloca el módulo {c:TilePalace_Attic}, una ficha de Pasadizo secreto y otra de Trampilla en el lugar señalado. A continuación, descarta la ficha de Exploración que conecta los módulos {c:TilePalace_Ballroom} y {c:TilePalace_Attic}.
-EventPalace_RevealMap3_AtticBallroomExplore.button1,Continuar
-EventPalace_RevealMap3_AtticBallroomExplore.text,Descarta la ficha de Exploración que conecta el {c:TilePalace_Ballroom} y el {c:TilePalace_Attic}.
 EventPalace_RevealMap3_AtticNoBallroom.button1,Continuar
 EventPalace_RevealMap3_AtticNoBallroom.text,Coloca el módulo {c:TilePalace_Attic}, un Pasadizo secreto y una Trampilla en el lugar señalado.
 EventPalace_RevealMap3_AtticSecretPassage.button1,Continuar
 EventPalace_RevealMap3_AtticSecretPassage.text,Coloca un Pasadizo secreto en el lugar señalado.
 EventPalace_RevealMap3_AtticTrapdoor.button1,Continuar
 EventPalace_RevealMap3_AtticTrapdoor.text,Coloca una Trampilla en el lugar señalado.
+EventPalace_RevealMap3_RemoveFinalExplore.button1,Continuar
+EventPalace_RevealMap3_RemoveFinalExplore.text,Descarta la ficha de Exploración que conecta el {c:TilePalace_Ballroom} y el {c:TilePalace_Attic}.
 EventPalace_SearchBookshelfFailure.button1,Continuar
 EventPalace_SearchBookshelfFailure.text,Aunque actúas lo más rápido que puedes no consigues evitar que la estantería se cierre.
 EventPalace_SearchBookshelfSkillCheck.button1,Confirmar
@@ -684,6 +684,10 @@ EventPalace2_ExploreConservatoryLoungeFailure.text,Tiras de la manilla hasta que
 EventPalace2_ExploreConservatoryLoungeSkillCheck.button1,Confirmar
 EventPalace2_ExploreConservatoryLoungeSkillCheck.text,Giras la manilla y empujas la puerta pero descubres que está atrancada. Tratas de abrirla usando toda tu ({strength}).
 EventPalace2_ExploreConservatoryLoungeSuccess.button1,Continuar
+EventPalace2_NoHoursConservatory.button1,Continuar
+EventPalace2_NoHoursConservatory.text,"Miras a tu alrededor y te das cuenta, horrorizado, de que sólo restan unos pocos segundos para completar el ritual. \n\n Descarta esta ficha de Interacción. \n\n Sin pensártelo dos veces, canalizas la energía ambiental para crear un poderoso contraritual con la intención de desterrar al dios invasor."
+EventPalace2_NoHoursNotConservatory.button1,Continuar
+EventPalace2_NoHoursNotConservatory.text,La energía que se arremolina alrededor de tu cabeza entra en tu mente proporcionándote una visión clarividente del propio ritual. Te das cuenta con horror de que el ritual está a pocos segundos de completarse. Sin pensarlo dos veces, canalizas la energía ambiental en un poderoso contraritual, listo para desterrar al dios invasor.
 EventPalace2_PlaceAllExploreBallroom.button1,Continuar
 EventPalace2_PlaceBallroom.button1,Continuar
 EventPalace2_PlaceBilliardsRoom.button1,Continuar
@@ -708,6 +712,19 @@ EventPalace2_PlaceHallStairs.button1,Continuar
 EventPalace2_PlaceInteractSummoningRitual.button1,Continuar
 EventPalace2_PlaceLounge.button1,Continuar
 EventPalace2_PlaceSearchBar.button1,Continuar
+EventPalace2_RevealMap1_BilliardsRoom.button1,Continuar
+EventPalace2_RevealMap1_BilliardsRoomSecretPassage.button1,Continuar
+EventPalace2_RevealMap2_Ballroom.button1,Continuar
+EventPalace2_RevealMap2_HallStairs.button1,Continuar
+EventPalace2_RevealMap2_HallStairsSewer.button1,Continuar
+EventPalace2_RevealMap3_ConservatoryLounge.button1,Continuar
+EventPalace2_RevealMap3_ConservatoryNoLounge.button1,Continuar
+EventPalace2_RevealMap3_ConservatorySecretPassage.button1,Continuar
+EventPalace2_RevealMap3_ConservatorySecretPassage.text,Coloca un Pasadizo secreto en el lugar señalado.
+EventPalace2_RevealMap3_ConservatorySewer.button1,Continuar
+EventPalace2_RevealMap3_Lounge.button1,Continuar
+EventPalace2_RevealMap3_RemoveFinalExplore.button1,Continuar
+EventPalace2_RevealMap3_RemoveFinalExplore.text,Descarta la ficha de Exploración que conecta el {c:TilePalace2_Lounge} y el {c:TilePalace2_Conservatory}.
 EventPalace2_SearchBarFailure.button1,Continuar
 EventPalace2_SearchBarSkillCheck.button1,Confirmar
 EventPalace2_SearchBarSuccess.button1,Continuar
@@ -1188,6 +1205,24 @@ SpawnPalace2_BilliardsRoomHuntingHorror.button1,Continuar
 SpawnPalace2_BilliardsRoomHuntingHorror.text,"Desde el otro lado de la sala oyes un sonido incomprensible procedente de una criatura indescriptible y terrorífica. \n\n Aparece un {c:Aparecerpalacio_SalónCazarHorror} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
 SpawnPalace2_BilliardsRoomStarVampire.button1,Continuar
 SpawnPalace2_BilliardsRoomStarVampire.text,"Desde el otro lado de la habitación ves el débil resplandor de una criatura indescriptible apenas visible pero aún así aterradora. \n\n Aparece un {c:SpawnPalace2_BilliardsRoomStarVampire} en el lugar señalado. A continuación sufres 2 de Horror (anulados por {will})."
+SpawnPalace2_ConservatoryChildHastur.button1,Continuar
+SpawnPalace2_ConservatoryChildHastur.text,"La segunda figura se quita la capucha. \n\n —¡Faltar al respeto a un aliado de mi maestro es faltar al respeto directamente a mi maestro! Voy a destriparle y a utilizar sus huesos para fabricar un nuevo conjunto de componentes rituales. Lástima que no vivirá para ver cómo se usan. \n\n Aparece un Hijo de Dagon en el lugar señalado. Es el {c:SpawnPalace2_ConservatoryChildHastur}."
+SpawnPalace2_ConservatoryChildYig.button1,Continuar
+SpawnPalace2_ConservatoryChildYig.text,"La segunda figura se quita la capucha. \n\n —¡Faltar al respeto a un aliado de mi maestro es faltar al respeto directamente a mi maestro! Voy a destriparle y a utilizar sus huesos para fabricar un nuevo conjunto de componentes rituales. Lástima que no vivirá para ver cómo se usan. \n\n Aparece un Hijo de Dagon en el lugar señalado. Es el {c:SpawnPalace2_ConservatoryChildYig}."
+SpawnPalace2_ConservatoryChildZhar.button1,Continuar
+SpawnPalace2_ConservatoryChildZhar.text,"La segunda figura se quita la capucha. \n\n —¡Faltar al respeto a un aliado de mi maestro es faltar al respeto directamente a mi maestro! Voy a destriparle y a utilizar sus huesos para fabricar un nuevo conjunto de componentes rituales. Lástima que no vivirá para ver cómo se usan. \n\n Aparece un Hijo de Dagon en el lugar señalado. Es el {c:SpawnPalace2_ConservatoryChildZhar}."
+SpawnPalace2_ConservatoryHastur.button1,Continuar
+SpawnPalace2_ConservatoryHastur.text,"El ritual de invocación se completa con éxito y un portal a otra dimensión se abre ante tus ojos. Las cáscaras sin vida de las dos figuras con túnica caen al suelo, libradas de las horribles repercusiones que tendrán sus acciones. Del propio portal emerge el antiguo ser Hastur, dispuesto a tomar este mundo como suyo. \n\n Aparece una Semilla estelar en el lugar señalado. Es el {c:SpawnPalace2_ConservatoryHastur}."
+SpawnPalace2_ConservatoryPriestHastur.button1,Continuar
+SpawnPalace2_ConservatoryPriestHastur.text,"La primera figura se quita la capucha y se vuelve hacia ti. \n\n —¡Cómo se atreve a interrumpir los planes de mis amos, insolente! No importa, una vez que le mate podré deshacer su patético hechizo y comenzar de nuevo el ritual de invocación. \n\n Aparece un Sacerdote de Dagon en el lugar señalado. Este es el {c:SpawnPalace2_ConservatoryPriestHastur}."
+SpawnPalace2_ConservatoryPriestYig.button1,Continuar
+SpawnPalace2_ConservatoryPriestYig.text,"La primera figura se quita la capucha y se vuelve hacia ti. \n\n —¡Cómo se atreve a interrumpir los planes de mis amos, insolente! No importa, una vez que le mate podré deshacer su patético hechizo y comenzar de nuevo el ritual de invocación. \n\n Aparece un Sacerdote de Dagon en el lugar señalado. Este es el {c:SpawnPalace2_ConservatoryPriestYig}."
+SpawnPalace2_ConservatoryPriestZhar.button1,Continuar
+SpawnPalace2_ConservatoryPriestZhar.text,"La primera figura se quita la capucha y se vuelve hacia ti. \n\n —¡Cómo se atreve a interrumpir los planes de mis amos, insolente! No importa, una vez que le mate podré deshacer su patético hechizo y comenzar de nuevo el ritual de invocación. \n\n Aparece un Sacerdote de Dagon en el lugar señalado. Este es el {c:SpawnPalace2_ConservatoryPriestZhar}."
+SpawnPalace2_ConservatoryYig.button1,Continuar
+SpawnPalace2_ConservatoryYig.text,"El ritual de invocación se completa con éxito y un portal a otra dimensión se abre ante tus ojos. Las cáscaras sin vida de las dos figuras con túnica caen al suelo, libradas de las horribles repercusiones que tendrán sus acciones. Del propio portal emerge el antiguo ser Yig, dispuesto a tomar este mundo como suyo.\n\n Aparece una Semilla estelar en el lugar señalado. Es el {c:SpawnPalace2_ConservatoryYig}."
+SpawnPalace2_ConservatoryZhar.button1,Continuar
+SpawnPalace2_ConservatoryZhar.text,El ritual de invocación se completa con éxito y un portal a otra dimensión se abre ante tus ojos. Las cáscaras sin vida de las dos figuras con túnica caen al suelo, libradas de las horribles repercusiones que tendrán sus acciones. Del propio portal emerge el antiguo ser Zhar, dispuesto a tomar este mundo como suyo. Aparece una Semilla estelar en el lugar señalado. Es el {c:SpawnPalace2_ConservatoryZhar}.
 SpawnPalace2_EntryHallChildOfTheGoat.button1,Continuar
 SpawnPalace2_EntryHallChildOfTheGoat.text,"Has conseguido llegar lo suficientemente temprano para encontrar al conserje todavía de servicio. Comienzas a pedirle ayuda para localizar el ritual, pero te detienes cuando notas que fija su mirada en ti, pero hay algo antinatural en sus ojos. \n\n Aparece un {c:SpawnPalace2_EntryHallChildOfTheGoat} en el lugar señalado."
 SpawnPalace2_EntryHallDeepOneHybrid.button1,Continuar
@@ -1390,7 +1425,6 @@ TokenHouse_PersonWoman2.text,La mujer se esconde detrás de su cama, sujetando d
 TokenHouse_SearchBedroomDesk.button1,{action} Investigar
 TokenHouse_SearchBedroomDesk.text,Observas varias gavillas de papel sueltas que contienen ininteligibles escritos sobre lo antinatural.
 TokenHouse_SearchCupboards.button1,{action} Investigar
-TokenHouse_SearchCupboards.text,El {c:SpawnHouse_KitchenCultist} estaba buscando de manera desesperada algo en estos armarios.
 TokenHouse_SearchDiningTable.button1,{action} Investigar
 TokenHouse_SearchDiningTable.text,Se podría improvisar un arma con uno de los objetos que hay en la mesa del comedor.
 TokenHouse_SearchEntryTable.button1,{action} Investigar
@@ -1426,7 +1460,6 @@ TokenHouse2_SearchBedroomDesk.text,Observas varias gavillas de papel sueltas que
 TokenHouse2_SearchCabinet_NoPuzzle.button1,{action} Investigar
 TokenHouse2_SearchCabinet_Puzzle.button1,{action} Probar
 TokenHouse2_SearchCupboards.button1,{action} Investigar
-TokenHouse2_SearchCupboards.text,El {c:SpawnHouse2_KitchenCultist} estaba buscando de manera desesperada algo en estos armarios.
 TokenHouse2_SearchDiningTable.button1,{action} Investigar
 TokenHouse2_SearchDiningTable.text,Se podría improvisar un arma con uno de los objetos que hay en la mesa del comedor.
 TokenHouse2_SearchEntryTable.button1,{action} Investigar
@@ -1472,8 +1505,8 @@ TokenPalace2_ExploreBilliardsRoomEntryHall.button1,{action} Explorar
 TokenPalace2_ExploreBilliardsRoomEntryHall.text,Una puerta sin indicaciones conduce al interior del palacio.
 TokenPalace2_ExploreConservatoryHallCorner1.text,La puerta ha sido tapiada con tablones y clavos. Aunque tratas de arrancarlos, una fuerza antinatural los mantiene donde están.
 TokenPalace2_ExploreConservatoryLounge.button1,{action} Explorar
-TokenPalace2_ExploreHallStairs.button1,{action} Explorar
-TokenPalace2_ExploreHallStairs.text,Una puerta sin indicaciones conduce al interior del palacio.
+TokenPalace2_ExploreHallStairsBallroom.button1,{action} Explorar
+TokenPalace2_ExploreHallStairsBallroom.text,Una puerta sin indicaciones conduce al interior del palacio.
 TokenPalace2_ExploreLoungeConservatory.button1,{action} Explorar
 TokenPalace2_ExploreLoungeConservatory.text,Una puerta sin indicaciones conduce al interior del palacio.
 TokenPalace2_ExploreLoungeEntryHall.button1,{action} Explorar

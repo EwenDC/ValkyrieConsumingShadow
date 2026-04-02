@@ -2,10 +2,8 @@
 CustomMonsterChildHastur.monstername,Disciple d'Hastur
 CustomMonsterChildYig.monstername,Disciple d'Yig
 CustomMonsterChildZhar.monstername,Disciple de Zhar
-CustomMonsterCthonian.info,-
 CustomMonsterCthonian.monstername,Chthonien
 CustomMonsterHastur.monstername,Avatar d'Hastur
-CustomMonsterHorrificHive_ChildOfDagon.info,-
 CustomMonsterHorrificHive_ChildOfDagon.monstername,Le Nid de l'Horreur
 CustomMonsterHorrificHive.monstername,Le Nid de l'Horreur
 CustomMonsterPriestHastur.monstername,Prêtre d'Hastur
@@ -35,38 +33,23 @@ EventDock_CratePuzzleStart.text,Vous tendez la main vers la caisse, mais des én
 EventDock_CultistJeer_Correct.button1,Continuer
 EventDock_CultistJeer_IncorrectNegative.button1,Continuer
 EventDock_CultistJeer_IncorrectPositive.button1,Continuer
-EventDock_CultLeaderJeer_Correct.button1,Continuer
-EventDock_CultLeaderJeer_Correct.text,Le {c:SpawnDock_CabinCultLeader} recule, visiblement choqué. De toute évidence, vous avez mis dans le mille. Gagnez 2 Indices.
-EventDock_CultLeaderJeer_IncorrectNegative.button1,Continuer
-EventDock_CultLeaderJeer_IncorrectNegative.text,La rage déforme le visage du {c:SpawnDock_CabinCultLeader} et il commence à vous injurier bruyamment. Visiblement, le nom que vous avez prononcé l'a profondément offensé. Gagnez 1 Indice.
-EventDock_CultLeaderJeer_IncorrectPositive.button1,Continuer
-EventDock_CultLeaderJeer_IncorrectPositive.text,Le {c:SpawnDock_CabinCultLeader} vous lance un regard confus avant d'éclater de rire. Manifestement, vous n'avez pas nommé son maître, bien qu'il ne semble pas s'offusquer du nom que vous avez utilisé. Gagnez 1 Indice.
-EventDock_CultLeaderJeer.button1,Obéissez-vous aux ordres d'Hastur ?
-EventDock_CultLeaderJeer.button2,Pourquoi tout perdre pour servir Yig ?
-EventDock_CultLeaderJeer.button3,De quels mensonges Zhar t'a-t-il nourri, fou que tu es ?
-EventDock_CultLeaderJeer.text,Le {c:SpawnDock_CabinCultLeader} lève le poing et commence à vous hurler dessus des paroles incohérentes. Bien que les mots n'aient aucun sens, l'intention est claire.
+EventDock_CultistJeer.button1,Obéissez-vous aux ordres d'Hastur ?
+EventDock_CultistJeer.button2,Pourquoi tout perdre pour servir Yig ?
+EventDock_CultistJeer.button3,De quels mensonges Zhar t'a-t-il nourri, fou que tu es ?
 EventDock_ExploreCabin.button1,Continuer
+EventDock_ExploreCabin.text,Vous insérez la clé dans la serrure, l'ouvrant avec un déclic. L'intérieur de la péniche est un espace de vie confortable conçu pour un seul résident. Défaussez tous les pions Exploration menant à la Cabine.
 EventDock_ExploreCabinKey.button1,{action} Explorer
 EventDock_ExploreCabinKey.button2,Annuler
+EventDock_ExploreCabinKey.text,Une porte avec une serrure dorée, menant à l'espace de vie exigu du bateau, est verrouillée. Vous ne pouvez explorer que si vous possédez l'objet unique {c:QItemGoldKey}.
 EventDock_ExploreCabinNoKey.button1,Continuer
-EventDock_ExploreHouseboat.button1,Continuer
-EventDock_ExploreHouseboat.text,Vous insérez la clé dans la serrure, l'ouvrant avec un déclic. L'intérieur de la péniche est un espace de vie confortable conçu pour un seul résident. Défaussez tous les pions Exploration menant à la Cabine.
-EventDock_ExploreHouseboatKey.button1,{action} Explorer
-EventDock_ExploreHouseboatKey.button2,Annuler
-EventDock_ExploreHouseboatKey.text,Une porte avec une serrure dorée, menant à l'espace de vie exigu du bateau, est verrouillée. Vous ne pouvez explorer que si vous possédez l'objet unique {c:QItemGoldKey}.
-EventDock_ExploreHouseboatNoKey.button1,Continuer
-EventDock_ExploreHouseboatNoKey.text,Une porte avec une serrure dorée, menant à l'espace de vie exigu du bateau, est verrouillée.
-EventDock_ExploreRentalDock.button1,Continuer
-EventDock_ExploreRentalDock.text,Vous tournez la clé et entendez un déclic sonore. La porte s'ouvre librement, vous donnant accès à la cabane de location. Défaussez ce pion Exploration.
-EventDock_ExploreRentalDockKey.button1,{action} Explorer
-EventDock_ExploreRentalDockKey.button2,Annuler
-EventDock_ExploreRentalDockKey.text,La petite cabane abritant le commerce de location de bateaux a été verrouillée par un cadenas en argent. Vous ne pouvez explorer que si vous possédez l'objet unique {c:QItemSilverKey}.
-EventDock_ExploreRentalDockNoKey.button1,Continuer
-EventDock_ExploreRentalDockNoKey.text,La petite cabane abritant le commerce de location de bateaux a été verrouillée par un cadenas en argent.
+EventDock_ExploreCabinNoKey.text,Une porte avec une serrure dorée, menant à l'espace de vie exigu du bateau, est verrouillée.
 EventDock_ExploreRentalShack.button1,Continuer
+EventDock_ExploreRentalShack.text,Vous tournez la clé et entendez un déclic sonore. La porte s'ouvre librement, vous donnant accès à la cabane de location. Défaussez ce pion Exploration.
 EventDock_ExploreRentalShackKey.button1,{action} Explorer
 EventDock_ExploreRentalShackKey.button2,Annuler
+EventDock_ExploreRentalShackKey.text,La petite cabane abritant le commerce de location de bateaux a été verrouillée par un cadenas en argent. Vous ne pouvez explorer que si vous possédez l'objet unique {c:QItemSilverKey}.
 EventDock_ExploreRentalShackNoKey.button1,Continuer
+EventDock_ExploreRentalShackNoKey.text,La petite cabane abritant le commerce de location de bateaux a été verrouillée par un cadenas en argent.
 EventDock_ExploreSnackShack.button1,Continuer
 EventDock_ExploreSnackShack.text,Vous retirez les cadenas fixant les chaînes, libérant la porte fragile qui s'ouvre alors qu'ils tombent au sol. Vous tirez prudemment sur la poignée, révélant l'intérieur de la cabane. Défaussez ce pion Exploration.
 EventDock_ExploreSnackShackKey.button1,{action} Explorer
@@ -80,24 +63,20 @@ EventDock_GreenCrateTrap.button1,Continuer
 EventDock_GreenCrateTrap.text,Vous ouvrez brusquement la caisse pour découvrir qu'elle est totalement vide. Les runes à la surface du bois brillent d'un éclat sinistre et vous sentez la mer s'agiter autour de vous. Une vague énorme frappe soudainement le bateau, vous projetant au sol. Chaque investigateur dans la Cabine subit 1 Dégât face cachée. Puis défaussez ce pion Fouille.
 EventDock_GreenItemPickup.button1,Continuer
 EventDock_GreenItemPickup.button2,Voir l'Indice
-EventDock_GreenItemPickup.text,Bien que vous ne soyez pas plus près de trouver l'objet maudit, vous trouvez un objet utile parmi les babioles. Vous présumez qu'il a été égaré lors d'une cargaison récente, car une étiquette d'expédition y est attachée. En lisant l'étiquette, vous constatez qu'elle a été remplie avec un charabia complet. Gagnez l'objet commun {c:QItemSedatives} et 1 Indice. Puis défaussez ce pion Fouille.
 EventDock_GreenKeyPickup.button1,Continuer
 EventDock_GreenKeyPickup.text,|||Parmi les débris, vous repérez une petite pochette en cuir contenant une {c:QItemGoldKey}. Sur l'extérieur de la pochette est brodé le message "Soyez fort d'esprit". Gagnez l'objet unique {c:QItemGoldKey}. Puis défaussez ce pion Fouille.|||
 EventDock_PlaceDock1.button1,Continuer
 EventDock_PlaceDock1.text,Le quai borde le district, permettant aux bateaux de décharger les marchandises directement dans les magasins qui les vendent. Placez la tuile {c:TileDock_Dock1} comme indiqué et défaussez tous les pions Vue menant à celle-ci.
 EventDock_PlaceDock2HouseBoat.button1,Continuer
 EventDock_PlaceDock2HouseBoat.text,Le quai descend presque au niveau de l'eau, permettant l'amarrage de divers bateaux. Les pontons sont étrangement vides, à l'exception d'une péniche stationnée près du quai de location. Défaussez ce pion Vue et placez les tuiles {c:TileDock_Dock2} et {c:TileDock_HouseBoat} comme indiqué.
-EventDock_PlaceExploreHouseboat.button1,Continuer
-EventDock_PlaceExploreHouseboat.text,Des portes à la proue et à la poupe du bateau mènent à un petit espace intérieur. Les deux portes possèdent des serrures dorées qui semblent avoir été verrouillées. Placez des pions Exploration comme indiqué.
 EventDock_PlaceExploreRentalDock.button1,Continuer
 EventDock_PlaceExploreRentalDock.text,La petite cabane abritant le commerce de location a été verrouillée par un cadenas en argent. Placez un pion Exploration comme indiqué.
 EventDock_PlaceExploresCabin.button1,Continuer
+EventDock_PlaceExploresCabin.text,Des portes à la proue et à la poupe du bateau mènent à un petit espace intérieur. Les deux portes possèdent des serrures dorées qui semblent avoir été verrouillées. Placez des pions Exploration comme indiqué.
 EventDock_PlaceExploreSnackShack.button1,Continuer
 EventDock_PlaceExploreSnackShack.text,Une petite cabane sur la jetée, bien qu'elle semble ne rien contenir de valeur, a été solidement scellée par des chaînes et des cadenas en laiton. Placez un pion Exploration comme indiqué.
 EventDock_PlaceFleaMarket.button1,Continuer
 EventDock_PlaceFleaMarket.text,À l'est, un petit marché a été installé sur la place de la rue. Étrangement, bien que tous les étals soient encore ouverts, il n'y a pas une seule âme en vue. Placez la tuile {c:TileDock_FleaMarket} comme indiqué.
-EventDock_PlaceInteractExit.button1,Continuer
-EventDock_PlaceInteractExit.text,Tous les investigateurs peuvent quitter ce lieu à tout moment. Cependant, une fois quitté, il n'est plus possible d'y revenir. Placez un pion Interaction comme indiqué.
 EventDock_PlacePier.button1,Continuer
 EventDock_PlacePier.text,Au nord, vous apercevez les jetées du port. Placez la tuile {c:TileDock_Pier} comme indiqué.
 EventDock_PlaceRentalDock.button1,Continuer
@@ -137,8 +116,6 @@ EventDock_PlaceStreet1.button1,Continuer
 EventDock_PlaceStreet1.text,Vous avancez dans les rues sinueuses du district commercial vers les quais. Placez la tuile {c:TileDock_Street1} et vos figurines d'Investigateur comme indiqué.
 EventDock_PlaceStreet2.button1,Continuer
 EventDock_PlaceStreet2.text,La rue continue de la même manière que de l'autre côté. Placez la tuile {c:TileDock_Street2} comme indiqué et défaussez tous les pions Vue menant à celle-ci.
-EventDock_PlaceWoman.button1,Continuer
-EventDock_PlaceWoman.text,Une femme d'un certain âge surgit d'une porte voisine. Elle la referme doucement et la verrouille derrière elle. En se retournant pour partir, son regard croise le vôtre.
 EventDock_PuzzleRitualComponentsComplete.button1,Continuer
 EventDock_PuzzleRitualComponentsComplete.button2,Voir l'Indice
 EventDock_PuzzleRitualComponentsComplete.text,Vous luttez contre les forces magiques et forcez votre main à entrer dans la caisse. Vous sentez une ondulation dans l'air alors que les énergies protégeant la caisse se dissipent. De la boîte, vous retirez diverses babioles et colifichets magiques, que vous identifiez comme des composants rituels. Gagnez l'objet unique {c:QItemRitualComponents}. Puis défaussez ce pion Fouille. L'investigateur détenant {c:QItemRitualComponents} peut consulter l'indice associé en interagissant avec lui dans l'application.
@@ -147,56 +124,47 @@ EventDock_RedClue.text,Malheureusement, le seul objet digne d'intérêt que vous
 EventDock_RedCrateTrap.button1,Continuer
 EventDock_RedCrateTrap.text,Vous soulevez la caisse du comptoir d'une main, tandis que l'autre tente d'en ouvrir le couvercle. À l'instant où votre main entre en contact avec elle, vous êtes aveuglé par un flash lumineux, ce qui vous fait lâcher la caisse. Chaque investigateur dans la cabane de location perd 1 objet au hasard. Puis défaussez ce pion Fouille.
 EventDock_RedItemPickup_LuckyBandana.button1,Continuer
-EventDock_RedItemPickup_LuckyBandana.text,|||Vous trouvez un objet portant une note pour un certain Alex. Gagnez l'objet commun {c:QItemLuckyBandana} et 1 Indice. Défaussez ce pion Fouille.|||
+EventDock_RedItemPickup_LuckyBandana.text,Vous trouvez un objet portant une note pour un certain Alex. Gagnez l'objet commun {c:QItemLuckyBandana} et 1 Indice. Défaussez ce pion Fouille.
 EventDock_RedItemPickup_LuckyCigaretteCase.button1,Continuer
-EventDock_RedItemPickup_LuckyCigaretteCase.text,|||Vous trouvez un étui à cigarettes porte-bonheur parmi les rebuts. Gagnez l'objet commun {c:QItemLuckyCigaretteCase} et 1 Indice. Défaussez ce pion Fouille.|||
+EventDock_RedItemPickup_LuckyCigaretteCase.text,Vous trouvez un étui à cigarettes porte-bonheur parmi les rebuts. Gagnez l'objet commun {c:QItemLuckyCigaretteCase} et 1 Indice. Défaussez ce pion Fouille.
 EventDock_RedItemPickup_LuckyRabbitsFoot.button1,Continuer
-EventDock_RedItemPickup_LuckyRabbitsFoot.text,|||Bien que vous ne soyez pas plus proche de la caisse maudite, vous trouvez un autre objet parmi le bric-à-brac. Une étiquette indique : « Pour Alex. Puisse-t-il t'apporter de la chance dans ce monde de fous. » Gagnez l'objet commun {c:QItemLuckyRabbitsFoot} et 1 Indice. Défaussez ce pion Fouille.|||
+EventDock_RedItemPickup_LuckyRabbitsFoot.text,Bien que vous ne soyez pas plus proche de la caisse maudite, vous trouvez un autre objet parmi le bric-à-brac. Une étiquette indique : « Pour Alex. Puisse-t-il t'apporter de la chance dans ce monde de fous. » Gagnez l'objet commun {c:QItemLuckyRabbitsFoot} et 1 Indice. Défaussez ce pion Fouille.
 EventDock_RedItemPickup_LuckyRing.button1,Continuer
-EventDock_RedItemPickup_LuckyRing.text,|||Vous trouvez une bague ayant appartenu à Alex. Gagnez l'objet commun {c:QItemLuckyRing} et 1 Indice. Défaussez ce pion Fouille.|||
+EventDock_RedItemPickup_LuckyRing.text,Vous trouvez une bague ayant appartenu à Alex. Gagnez l'objet commun {c:QItemLuckyRing} et 1 Indice. Défaussez ce pion Fouille.
 EventDock_RedKeyPickup.button1,Continuer
 EventDock_RedKeyPickup.text,Parmi les débris, vous trouvez une {c:QItemSilverKey} cachée dans un bout de papier. Sur le papier, vous trouvez des divagations délirantes griffonnées frénétiquement et presque totalement illisibles. Gagnez l'objet unique {c:QItemSilverKey}. Puis défaussez ce pion Fouille.
-EventDock_RemoveWoman.button1,Continuer
-EventDock_RemoveWoman.text,Elle s'approche rapidement de vous et glisse fermement une note froissée dans votre main. Avant que vous ne puissiez réagir, la femme se hâte de descendre la longue rue sinueuse menant plus loin en ville et disparaît.
 EventDock_SearchBlackStallFailure.button1,Continuer
-EventDock_SearchBlackStallFaliure.button1,Continuer
-EventDock_SearchBlackStallFaliure.text,La table est encombrée de tant d'objets que vous n'arrivez à rien trouver de pertinent pour votre enquête.
+EventDock_SearchBlackStallFailure.text,La table est encombrée de tant d'objets que vous n'arrivez à rien trouver de pertinent pour votre enquête.
 EventDock_SearchBlackStallSkillCheck.button1,Confirmer
 EventDock_SearchBlackStallSkillCheck.text,Vous fouillez parmi les objets disposés sur la table, à la recherche de quoi que ce soit d'utile ({observation}).
 EventDock_SearchBlueCrate.button1,{action} Ouvrir
 EventDock_SearchBlueCrate.button2,Annuler
 EventDock_SearchBlueCrate.text,Une caisse de transport a été placée au centre de la petite cabane. Le conteneur est couvert de marquages bleus et une énergie étrange l'entoure. Elle contient peut-être les composants que vous recherchez.
 EventDock_SearchBlueStallFailure.button1,Continuer
-EventDock_SearchBlueStallFaliure.button1,Continuer
-EventDock_SearchBlueStallFaliure.text,Vous passez les babioles en revue, mais ne trouvez rien d'intéressant.
+EventDock_SearchBlueStallFailure.text,Vous passez les babioles en revue, mais ne trouvez rien d'intéressant.
 EventDock_SearchBlueStallSkillCheck.button1,Confirmer
 EventDock_SearchBlueStallSkillCheck.text,Vous fouillez parmi les objets qui garnissent l'étal, à la recherche de quoi que ce soit d'utile ({observation}).
 EventDock_SearchDock1GoodsFailure.button1,Continuer
-EventDock_SearchDock1GoodsFaliure.button1,Continuer
-EventDock_SearchDock1GoodsFaliure.text,Vous ouvrez des caisses et des barils jusqu'à avoir l'impression que vos bras vont tomber, mais vous ne trouvez rien de valeur.
+EventDock_SearchDock1GoodsFailure.text,Vous ouvrez des caisses et des barils jusqu'à avoir l'impression que vos bras vont tomber, mais vous ne trouvez rien de valeur.
 EventDock_SearchDock1GoodsSkillCheck.button1,Confirmer
 EventDock_SearchDock1GoodsSkillCheck.text,Toutes les caisses et tous les barils sont encore scellés suite à leur récent voyage en bateau. Vous commencez la tâche ardue de les ouvrir et de les fouiller ({strength}).
 EventDock_SearchDock2GoodsFailure.button1,Continuer
-EventDock_SearchDock2GoodsFaliure.button1,Continuer
-EventDock_SearchDock2GoodsFaliure.text,Vous déballez ce qui semble être la moitié de la capacité de chargement du petit bateau sans trouver quoi que ce soit d'intéressant.
+EventDock_SearchDock2GoodsFailure.text,Vous déballez ce qui semble être la moitié de la capacité de chargement du petit bateau sans trouver quoi que ce soit d'intéressant.
 EventDock_SearchDock2GoodsSkillCheck.button1,Confirmer
 EventDock_SearchDock2GoodsSkillCheck.text,Vous commencez à déballer le contenu de la cargaison, à l'affût de tout ce qui pourrait être utile à votre enquête ({strength}).
 EventDock_SearchGreenCrate.button1,{action} Ouvrir
 EventDock_SearchGreenCrate.button2,Annuler
 EventDock_SearchGreenCrate.text,Une caisse étrange a été poussée dans un coin de la Cabine. Des runes vertes incrustées dans le bois brillent intensément, et une énergie magique l'entoure. Elle contient peut-être les composants que vous recherchez.
 EventDock_SearchHouseBoatGoodsFailure.button1,Continuer
-EventDock_SearchHouseBoatGoodsFaliure.button1,Continuer
-EventDock_SearchHouseBoatGoodsFaliure.text,L'odeur du poisson submerge vos sens, vous provoquant des haut-le-cœur incontrôlables et vous empêchant de continuer.
+EventDock_SearchHouseBoatGoodsFailure.text,L'odeur du poisson submerge vos sens, vous provoquant des haut-le-cœur incontrôlables et vous empêchant de continuer.
 EventDock_SearchHouseBoatGoodsSkillCheck.button1,Confirmer
 EventDock_SearchHouseBoatGoodsSkillCheck.text,Vous commencez la sale besogne de retirer le poisson pourri et de fouiller le reste des objets dans le baril ({will}).
 EventDock_SearchPierGoodsFailure.button1,Continuer
-EventDock_SearchPierGoodsFaliure.button1,Continuer
-EventDock_SearchPierGoodsFaliure.text,Vous déplacez autant de caisses que possible, mais vous vous fatiguez avant d'avoir pu toutes les dégager.
+EventDock_SearchPierGoodsFailure.text,Vous déplacez autant de caisses que possible, mais vous vous fatiguez avant d'avoir pu toutes les dégager.
 EventDock_SearchPierGoodsSkillCheck.button1,Confirmer
 EventDock_SearchPierGoodsSkillCheck.text,Une pile de boîtes contenant de petits objets a été ensevelie sous des caisses plus lourdes. Vous commencez à soulever les caisses les plus pesantes pour fouiller celles du dessous ({strength}).
 EventDock_SearchPostersFailure.button1,Continuer
-EventDock_SearchPostersFaliure.button1,Continuer
-EventDock_SearchPostersFaliure.text,Vous fixez les feuilles de papier d'un regard vide, sans parvenir à en tirer la moindre connaissance utile.
+EventDock_SearchPostersFailure.text,Vous fixez les feuilles de papier d'un regard vide, sans parvenir à en tirer la moindre connaissance utile.
 EventDock_SearchPostersSkillCheck.button1,Confirmer
 EventDock_SearchPostersSkillCheck.text,Vous lisez les diverses affiches et prospectus, à l'affût de toute information utile à votre enquête ({lore}).
 EventDock_SearchPostersSuccess.button1,Continuer
@@ -206,35 +174,34 @@ EventDock_SearchRedCrate.button1,{action} Ouvrir
 EventDock_SearchRedCrate.button2,Annuler
 EventDock_SearchRedCrate.text,Une caisse rouge a été placée sur le comptoir. Une faible lueur s'en dégage et une étiquette couverte de runes anciennes y est attachée. Elle contient peut-être les composants que vous recherchez.
 EventDock_SearchRedStallFailure.button1,Continuer
-EventDock_SearchRedStallFaliure.button1,Continuer
-EventDock_SearchRedStallFaliure.text,Alors que vous fouillez dans les babioles, vous entendez quelqu'un approcher. Vous remettez rapidement l'étal en ordre, mais quand vous vous retournez, il n'y a personne.
+EventDock_SearchRedStallFailure.text,Alors que vous fouillez dans les babioles, vous entendez quelqu'un approcher. Vous remettez rapidement l'étal en ordre, mais quand vous vous retournez, il n'y a personne.
 EventDock_SearchRedStallSkillCheck.button1,Confirmer
 EventDock_SearchRedStallSkillCheck.text,Ne voyant personne aux alentours, vous décidez de fouiller parmi les objets exposés, à la recherche de quoi que ce soit d'intéressant ({observation}).
 EventDock_SearchRentalDockGoodsFailure.button1,Continuer
-EventDock_SearchRentalDockGoodsFaliure.button1,Continuer
-EventDock_SearchRentalDockGoodsFaliure.text,Vous faites de votre mieux, mais vous ne parvenez pas à faire bouger le moindre bateau de la pile.
+EventDock_SearchRentalDockGoodsFailure.text,Vous faites de votre mieux, mais vous ne parvenez pas à faire bouger le moindre bateau de la pile.
 EventDock_SearchRentalDockGoodsSkillCheck.button1,Confirmer
 EventDock_SearchRentalDockGoodsSkillCheck.text,En inspectant la pile de bateaux, vous réalisez que des objets sont cachés à l'intérieur des piles. Vous commencez le travail épuisant consistant à déplacer les bateaux du dessus ({strength}).
 EventDock_SearchRowboatFailure.button1,Continuer
-EventDock_SearchRowboatFaliure.button1,Continuer
-EventDock_SearchRowboatFaliure.text,Vous parvenez à réagir assez vite pour éviter de tomber à l'eau. Cependant, la barque dérive jusqu'au bout de son amarrage et hors de portée.
+EventDock_SearchRowboatFailure.text,Vous parvenez à réagir assez vite pour éviter de tomber à l'eau. Cependant, la barque dérive jusqu'au bout de son amarrage et hors de portée.
 EventDock_SearchRowboatSkillCheck.button1,Confirmer
 EventDock_SearchRowboatSkillCheck.text,Alors que vous vous penchez au-dessus du bord du quai pour retirer la bâche, la barque est soudainement emportée par le courant marin ({agility}).
 EventDock_SearchRowboatSuccess.button1,Continuer
 EventDock_SearchRowboatSuccess.button2,Voir l'Indice
 EventDock_SearchRowboatSuccess.text,Vous saisissez rapidement le bord de la barque et la ramenez vers la jetée. En retirant la bâche, vous trouvez un {c:QItemOldJournal} placé soigneusement dans le bateau, à l'abri de l'eau. Gagnez l'objet unique {c:QItemOldJournal}. Puis défaussez ce pion Fouille. L'investigateur détenant {c:QItemOldJournal} peut consulter l'indice associé en interagissant avec lui dans l'application.
 EventDock_SearchYellowStallFailure.button1,Continuer
-EventDock_SearchYellowStallFaliure.button1,Continuer
-EventDock_SearchYellowStallFaliure.text,Vous dégagez quelques-uns des débris cassés qui jonchent l'étal, mais ne trouvez rien d'intéressant.
+EventDock_SearchYellowStallFailure.text,Vous dégagez quelques-uns des débris cassés qui jonchent l'étal, mais ne trouvez rien d'intéressant.
 EventDock_SearchYellowStallSkillCheck.button1,Confirmer
 EventDock_SearchYellowStallSkillCheck.text,Vous cherchez tout ce qui est récupérable dans la pile d'objets pourris ({observation}).
 EventDock_TriggerExit.button1,Continuer
 EventDock_TriggerExit.text,Vous décidez à l'unanimité de quitter ces rues maudites pour de bon. Défaussez ce pion Interaction. À la fin de la phase d'Investigation, tous les investigateurs quitteront ce lieu.
 EventDock_WomanEntrance.button1,Continuer
+EventDock_WomanEntrance.text,Une femme d'un certain âge surgit d'une porte voisine. Elle la referme doucement et la verrouille derrière elle. En se retournant pour partir, son regard croise le vôtre.
 EventDock_WomanExit.button1,Continuer
+EventDock_WomanExit.text,Elle s'approche rapidement de vous et glisse fermement une note froissée dans votre main. Avant que vous ne puissiez réagir, la femme se hâte de descendre la longue rue sinueuse menant plus loin en ville et disparaît.
 EventDock_WomanNote.button1,Continuer
-EventDock_WomanNote.text,|||Vous dépliez la note et la lisez attentivement. « N'ouvrez que la caisse décorée de la couleur du dieu de la folie. Vos actions ne sont pas passées inaperçues, investigateurs. Bonne chance, pour le bien de tous. »|||
+EventDock_WomanNote.text,Vous dépliez la note et la lisez attentivement. « N'ouvrez que la caisse décorée de la couleur du dieu de la folie. Vos actions ne sont pas passées inaperçues, investigateurs. Bonne chance, pour le bien de tous. »
 EventDock2_ExploreCabin.button1,Continuer
+EventDock2_ExploreCabin.text,Vous insérez la clé dans la serrure, l'ouvrant avec un déclic. L'intérieur de la péniche est un espace de vie confortable conçu pour un seul résident. Défaussez tous les pions Exploration menant à la Cabine.
 EventDock2_ExploreMoldyShack.button1,Continuer
 EventDock2_ExploreMoldyShackKey.button1,{action} Explorer
 EventDock2_ExploreMoldyShackKey.button2,Annuler
@@ -247,6 +214,7 @@ EventDock2_PlaceBilliardsRoom.button1,Continuer
 EventDock2_PlaceExploreMoldyShack.button1,Continuer
 EventDock2_PlaceExploresBilliardsRoom.button1,Continuer
 EventDock2_PlaceExploresCabin.button1,Continuer
+EventDock2_PlaceExploresCabin.text,Des portes à la proue et à la poupe du bateau mènent à un petit espace intérieur. Les deux portes possèdent des serrures dorées qui semblent avoir été verrouillées. Placez des pions Exploration comme indiqué.
 EventDock2_PlaceExploreSnackShack.button1,Continuer
 EventDock2_PlaceExploreSnackShack.text,Une petite cabane sur la jetée, bien qu'elle semble ne rien contenir de valeur, a été solidement scellée par des chaînes et des cadenas en laiton. Placez un pion Exploration comme indiqué.
 EventDock2_PlaceExploreStorefront.button1,Continuer
@@ -278,6 +246,7 @@ EventDock2_SearchBarSkillCheck.button1,Confirmer
 EventDock2_SearchDisplayFailure.button1,Continuer
 EventDock2_SearchDisplaySkillCheck.button1,Confirmer
 EventDock2_SearchHouseBoatGoodsWFailure.button1,Continuer
+EventDock2_SearchHouseBoatGoodsWFailure.text,Vous passez les babioles en revue, mais ne trouvez rien d'intéressant.
 EventDock2_SearchHouseBoatGoodsWSkillCheck.button1,Confirmer
 EventDock2_SearchRedCrate.button1,{action} Ouvrir
 EventDock2_SearchRedCrate.button2,Annuler
@@ -285,6 +254,7 @@ EventDock2_SearchShelvesFailure.button1,Continuer
 EventDock2_SearchShelvesSkillCheck.button1,Confirmer
 EventDock2_WomanEntrance.button1,Continuer
 EventDock2_WomanExit.button1,Continuer
+EventDock2_WomanExit.text,Elle s'approche rapidement de vous et glisse fermement une note froissée dans votre main. Avant que vous ne puissiez réagir, la femme se hâte de descendre la longue rue sinueuse menant plus loin en ville et disparaît.
 EventDockEnd_ComponentsNotTaken.button1,Continuer
 EventDockEnd_ComponentsNotTaken.text,Vous sprintez dans les rues sinueuses loin des quais, sans oser regarder derrière vous. Videz le plateau. Votre esprit est hanté par le silence de mort de cette nuit glaciale, un calme inhabituel pour un quartier autrefois si animé. Chaque investigateur subit 2 Horreurs.
 EventDockEnd_MissionComplete.button1,Continuer
@@ -343,28 +313,9 @@ EventHouse_CultistJeer_YigIncorrectPositive.button1,Continuer
 EventHouse_CultistJeer_ZharCorrect.button1,Continuer
 EventHouse_CultistJeer_ZharIncorrectNegative.button1,Continuer
 EventHouse_CultistJeer_ZharIncorrectPositive.button1,Continuer
-EventHouse_CultLeaderJeer_HasturCorrect.button1,Continuer
-EventHouse_CultLeaderJeer_HasturCorrect.text,|||Le {c:SpawnHouse_KitchenCultLeader} sourit sournoisement. "Mon maître est plus puissant que vous ne l'imaginez." Gagnez 2 Indices.|||
-EventHouse_CultLeaderJeer_HasturIncorrectNegative.button1,Continuer
-EventHouse_CultLeaderJeer_HasturIncorrectNegative.text,|||Vous lisez sur le visage du {c:SpawnHouse_KitchenCultLeader} ce qui pourrait être confondu avec de la joie. "Le manque de pouvoir que ce diable détient dans ce royaume est exactement la raison pour laquelle mes actions sont efficaces." Gagnez 1 Indice.|||
-EventHouse_CultLeaderJeer_HasturIncorrectPositive.button1,Continuer
-EventHouse_CultLeaderJeer_HasturIncorrectPositive.text,|||Le {c:SpawnHouse_KitchenCultLeader} sourit d'un air narquois. "Avec le pouvoir combiné du sien et de celui de mon Maître, ils peuvent faire plus que ce que vous ne pourriez jamais comprendre." Gagnez 1 Indice.|||
-EventHouse_CultLeaderJeer_YigCorrect.button1,Continuer
-EventHouse_CultLeaderJeer_YigCorrect.text,|||Le {c:SpawnHouse_KitchenCultLeader} grogne après vous. "Vous ne valez pas assez pour prononcer le nom de mon maître." Gagnez 2 Indices.|||
-EventHouse_CultLeaderJeer_YigIncorrectNegative.button1,Continuer
-EventHouse_CultLeaderJeer_YigIncorrectNegative.text,|||Le visage du {c:SpawnHouse_KitchenCultLeader} vire au rouge de rage. "Comment osez-vous insinuer que je me mettrais au service de ce diable." Gagnez 1 Indice.|||
-EventHouse_CultLeaderJeer_YigIncorrectPositive.button1,Continuer
-EventHouse_CultLeaderJeer_YigIncorrectPositive.text,|||Le {c:SpawnHouse_KitchenCultLeader} se moque de vous. "Stupide investigateur. Bien qu'il puisse être prospère et bon, je ne le sers pas." Gagnez 1 Indice.|||
-EventHouse_CultLeaderJeer_ZharCorrect.button1,Continuer
-EventHouse_CultLeaderJeer_ZharCorrect.text,|||Le {c:SpawnHouse_KitchenCultLeader} vous sourit d'un air suffisant. "Les richesses que mon maître m'a données ne sont pas une tromperie." Gagnez 2 Indices.|||
-EventHouse_CultLeaderJeer_ZharIncorrectNegative.button1,Continuer
-EventHouse_CultLeaderJeer_ZharIncorrectNegative.text,|||Un regard agacé traverse le visage du {c:SpawnHouse_KitchenCultLeader}. "Vous ne connaissez rien à ce dont vous parlez. Je n'ai pas été trompé ; sa trahison m'est bien connue." Gagnez 1 Indice.|||
-EventHouse_CultLeaderJeer_ZharIncorrectPositive.button1,Continuer
-EventHouse_CultLeaderJeer_ZharIncorrectPositive.text,|||Le {c:SpawnHouse_KitchenCultLeader} vous lance un regard confus. "Voulez-vous insinuer que Zhar trahirait mon maître ? Vous ne savez pas de quoi vous parlez." Gagnez 1 Indice.|||
-EventHouse_CultLeaderJeer.button1,Posez vos armes, serviteur d'Yig, et vous serez peut-être épargné.
-EventHouse_CultLeaderJeer.button2,Vous avez trahi l'humanité, cultiste. Zhar vous a trompé.
-EventHouse_CultLeaderJeer.button3,Hastur n'a aucun pouvoir ici. Vos actions ne mènent à rien.
-EventHouse_CultLeaderJeer.text,|||Le {c:SpawnHouse_KitchenCultLeader} détourne son attention des placards pour vous regarder. Il ricane : "Vous n'avez pas l'air de porter grand-chose de valeur sur vous, mais je serais ravi de prendre ce que vous avez malgré tout."|||
+EventHouse_CultistJeer.button1,Posez vos armes, serviteur d'Yig, et vous serez peut-être épargné.
+EventHouse_CultistJeer.button2,Vous avez trahi l'humanité, cultiste. Zhar vous a trompé.
+EventHouse_CultistJeer.button3,Hastur n'a aucun pouvoir ici. Vos actions ne mènent à rien.
 EventHouse_ExploreBathroom.button1,Continuer
 EventHouse_ExploreBathroom.text,Vous ouvrez la porte menant à la salle de bain. Défaussez ce pion Exploration.
 EventHouse_ExploreSmallBedroom1.button1,Continuer
@@ -417,8 +368,6 @@ EventHouse_PlaceHallCorner2.button1,Continuer
 EventHouse_PlaceHallCorner2.text,Vous tournez le coin, révélant la fin du couloir. Défaussez ce pion Vue. Puis placez la tuile {c:TileHouse_HallCorner2}, une porte et un mur comme indiqué.
 EventHouse_PlaceHallCorner2Barricade.button1,Continuer
 EventHouse_PlaceHallCorner2Barricade.text,Une armoire récemment vidée pourrait servir de barricade. Placez une Barricade comme indiqué.
-EventHouse_PlaceInteractExit.button1,Continuer
-EventHouse_PlaceInteractExit.text,Tous les investigateurs peuvent quitter ce lieu à tout moment. Cependant, une fois quitté, il est impossible d'y revenir. Placez un pion Interaction comme indiqué.
 EventHouse_PlaceInteriorHall.button1,Continuer
 EventHouse_PlaceInteriorHall.text,Vous ouvrez la porte pour révéler un couloir intérieur d'apparence ordinaire. Placez la tuile {c:TileHouse_InteriorHall}, une porte et des murs comme indiqué et défaussez tous les pions Exploration menant à celle-ci.
 EventHouse_PlaceInteriorHallBarricade.button1,Continuer
@@ -448,9 +397,9 @@ EventHouse_PlaceSearchDiningTable.text,En jetant un coup d'œil dans la pièce, 
 EventHouse_PlaceSearchEntryTable.button1,Continuer
 EventHouse_PlaceSearchEntryTable.text,La première chose que vous remarquez à l'intérieur de la maison est une table renversée. À en juger par la fraîcheur des fleurs éparpillées au sol, cette table a été renversée récemment. Placez un pion Fouille comme indiqué.
 EventHouse_PlaceSearchFilingCabinet_NoPuzzle.button1,Continuer
-EventHouse_PlaceSearchFilingCabinet.button1,Continuer
-EventHouse_PlaceSearchFilingCabinet.text,Le contenu d'un classeur a été éparpillé sur le sol. Placez un pion Fouille comme indiqué.
+EventHouse_PlaceSearchFilingCabinet_NoPuzzle.text,Le contenu d'un classeur a été éparpillé sur le sol. Placez un pion Fouille comme indiqué.
 EventHouse_PlaceSearchHallDesk.button1,Continuer
+EventHouse_PlaceSearchHallDesk.text,Au bout du couloir, vous apercevez un bureau avec des livres empilés dessus. La plupart semblent très anciens, peut-être même plus vieux qu'Arkham elle-même. Placez un pion Fouille comme indiqué.
 EventHouse_PlaceSearchKidBookshelf.button1,Continuer
 EventHouse_PlaceSearchKidBookshelf.text,Une étagère est posée contre le mur de la chambre. Étrangement, elle est presque totalement vide, à l'exception de quelques magazines de mode pour adolescents qui parsèment les rayons. Placez un pion Fouille comme indiqué.
 EventHouse_PlaceSearchToyChest.button1,Continuer
@@ -465,54 +414,39 @@ EventHouse_PuzzleConclusiveEvidenceComplete.button1,Continuer
 EventHouse_PuzzleConclusiveEvidenceComplete.button2,Voir l'Indice
 EventHouse_PuzzleConclusiveEvidenceComplete.text,Grâce à votre connaissance des langues anciennes, vous parvenez à réassembler le texte original contenu dans ce classeur. En prenant le temps de lire les passages, vous en trouvez un qui pourrait être utile à votre enquête. Gagnez l'objet unique {c:QItemConclusiveEvidence}. Puis défaussez ce pion Fouille. L'investigateur détenant {c:QItemConclusiveEvidence} peut consulter l'indice associé en interagissant avec lui dans l'application.
 EventHouse_SearchBedroomDeskFailure.button1,Continuer
-EventHouse_SearchBedroomDeskFaliure.button1,Continuer
-EventHouse_SearchBedroomDeskFaliure.text,Malgré vos efforts, l'écriture est trop obtuse pour que vous puissiez en tirer quoi que ce soit d'utile.
+EventHouse_SearchBedroomDeskFailure.text,Malgré vos efforts, l'écriture est trop obtuse pour que vous puissiez en tirer quoi que ce soit d'utile.
 EventHouse_SearchBedroomDeskSkillCheck.button1,Confirmer
 EventHouse_SearchBedroomDeskSkillCheck.text,Vous tentez de déchiffrer toute information utile à partir de ce brouhaha incohérent ({lore}).
 EventHouse_SearchBedroomDeskSuccess.button1,Continuer
 EventHouse_SearchBedroomDeskSuccess.button2,Voir l'Indice
 EventHouse_SearchBedroomDeskSuccess.text,À travers les écrits, vous commencez à remarquer une structure d'informations qui pourrait s'avérer utile. Gagnez l'objet unique {c:QItemCircumstantialEvidence}. Puis défaussez ce pion Fouille. L'investigateur détenant {c:QItemCircumstantialEvidence} peut consulter l'indice associé en interagissant avec lui dans l'application.
 EventHouse_SearchCupboardsFailure.button1,Continuer
-EventHouse_SearchCupboardsFaliure.button1,Continuer
-EventHouse_SearchCupboardsFaliure.text,Vous mettez toutes vos forces pour essayer de déplacer le panneau, mais il reste fermement fixé au placard.
+EventHouse_SearchCupboardsFailure.text,Vous mettez toutes vos forces pour essayer de déplacer le panneau, mais il reste fermement fixé au placard.
 EventHouse_SearchCupboardsSkillCheck.button1,Confirmer
 EventHouse_SearchCupboardsSkillCheck.text,Vous remarquez un faux panneau au fond des placards et tentez de l'arracher ({strength}).
 EventHouse_SearchCupboardsSuccess.button1,Continuer
-EventHouse_SearchCupboardsSuccess.text,Vous arrachez le morceau de bois pour révéler une petite boîte à bijoux. À l'intérieur se trouve ce que vous ne pouvez que conclure être toutes les économies de cette famille. C'est sûrement ce que cherchait le {c:SpawnHouse_KitchenCultLeader}. Gagnez 1 indice. Puis défaussez ce pion Fouille.
 EventHouse_SearchDiningTableFailureThermos.button1,Continuer
+EventHouse_SearchDiningTableFailureThermos.text,Vous saisissez l'objet le plus proche, mais il s'agit d'un simple thermos. Gagnez l'objet commun {c:QItemThermos}. Défaussez ce pion Fouille.
 EventHouse_SearchDiningTableFailureWhiskey.button1,Continuer
-EventHouse_SearchDiningTableFaliureThermos.button1,Continuer
-EventHouse_SearchDiningTableFaliureThermos.text,Vous saisissez l'objet le plus proche, mais il s'agit d'un simple thermos. Gagnez l'objet commun {c:QItemThermos}. Défaussez ce pion Fouille.
-EventHouse_SearchDiningTableFaliureWhiskey.button1,Continuer
-EventHouse_SearchDiningTableFaliureWhiskey.text,Dans un mouvement de panique, vous attrapez ce qui se trouve sur la table, réalisant trop tard que ce n'est pas une arme efficace. Gagnez l'objet commun {c:QItemWhiskey}. Défaussez ce pion Fouille.
+EventHouse_SearchDiningTableFailureWhiskey.text,Dans un mouvement de panique, vous attrapez ce qui se trouve sur la table, réalisant trop tard que ce n'est pas une arme efficace. Gagnez l'objet commun {c:QItemWhiskey}. Défaussez ce pion Fouille.
 EventHouse_SearchDiningTableSkillCheck.button1,Confirmer
 EventHouse_SearchDiningTableSkillCheck.text,Vous saisissez le premier objet qui semble potentiellement mortel ({agility}).
 EventHouse_SearchDiningTableSuccess.button1,Continuer
 EventHouse_SearchDiningTableSuccess.text,Vous saisissez rapidement un {c:QItemMeatCleaver} à l'aspect féroce planté dans le rôti. Gagnez l'objet commun {c:QItemMeatCleaver}. Puis défaussez ce pion Fouille.
 EventHouse_SearchEntryTableFailure.button1,Continuer
-EventHouse_SearchEntryTableFaliure.button1,Continuer
-EventHouse_SearchEntryTableFaliure.text,Vous jetez un œil aux objets mais ne remarquez rien d'inattendu.
+EventHouse_SearchEntryTableFailure.text,Vous jetez un œil aux objets mais ne remarquez rien d'inattendu.
 EventHouse_SearchEntryTableSkillCheck.button1,Confirmer
 EventHouse_SearchEntryTableSkillCheck.text,Vous examinez les divers objets éparpillés sur le sol, à la recherche de quoi que ce soit d'anormal ({observation}).
 EventHouse_SearchEntryTableSuccess.button1,Continuer
 EventHouse_SearchEntryTableSuccess.text,En examinant les objets éparpillés au sol, une enveloppe colorée attire votre attention. Elle contient une invitation pour un club exclusif destiné aux riches et célèbres, adressée aux résidents de cette maison. Considérant qu'ils ne semblent être ni l'un ni l'autre, vous concluez que le club doit être une façade pour le culte opérant dans le quartier résidentiel. Gagnez 1 indice. Puis défaussez ce pion Fouille.
-EventHouse_SearchFilingCabinetNoPuzzle.button1,{action} Fouiller
-EventHouse_SearchFilingCabinetNoPuzzle.button2,Annuler
-EventHouse_SearchFilingCabinetNoPuzzle.text,Le contenu du classeur a été éparpillé sur le sol. En jetant un coup d'œil rapide à certaines pages, vous repérez des passages issus de textes religieux païens.
-EventHouse_SearchFilingCabinetPuzzle.button1,{action} Tenter
-EventHouse_SearchFilingCabinetPuzzle.button2,Annuler
-EventHouse_SearchFilingCabinetPuzzle.text,Des pages d'un texte ancien gisent encore au sol dans un désordre total. Vous pouvez tenter de résoudre l'énigme en utilisant {observation} comme action.
 EventHouse_SearchFilingCabinetPuzzleStart.button1,Continuer
 EventHouse_SearchFilingCabinetPuzzleStart.text,Vous commencez à ramasser les pages éparpillées sur le sol. Appuyez pour tenter de résoudre l'énigme en utilisant {observation}.
 EventHouse_SearchHallDesk.button1,Continuer
-EventHouse_SearchHallDesk.text,Au bout du couloir, vous apercevez un bureau avec des livres empilés dessus. La plupart semblent très anciens, peut-être même plus vieux qu'Arkham elle-même. Placez un pion Fouille comme indiqué.
-EventHouse_SearchHallDeskSuccess.button1,Continuer
-EventHouse_SearchHallDeskSuccess.text,La plupart des livres semblent se rapporter aux anciennes traditions et croyances païennes. Parmi la pile, vous repérez un ouvrage qui pourrait être utile lors de vos investigations. Gagnez l'objet commun {c:QItemTome}. Puis défaussez ce pion Fouille.
+EventHouse_SearchHallDesk.text,La plupart des livres semblent se rapporter aux anciennes traditions et croyances païennes. Parmi la pile, vous repérez un ouvrage qui pourrait être utile lors de vos investigations. Gagnez l'objet commun {c:QItemTome}. Puis défaussez ce pion Fouille.
 EventHouse_SearchKidBookshelf.button1,Continuer
 EventHouse_SearchKidBookshelf.text,Vous remarquez que de nombreuses pages à l'intérieur des magazines ont été arrachées. En étudiant les pages restantes, vous notez qu'elles contiennent toutes au moins un article sur le dernier régime à la mode et à haut risque. Vous frissonnez à l'idée qu'une petite fille s'inflige ce qui est écrit dans ces pages. Gagnez 1 indice. Puis défaussez ce pion Fouille.
 EventHouse_SearchToyChestFailure.button1,Continuer
-EventHouse_SearchToyChestFaliure.button1,Continuer
-EventHouse_SearchToyChestFaliure.text,Bien que votre instinct vous dise que ces objets sont importants, vous ne parvenez pas à comprendre comment.
+EventHouse_SearchToyChestFailure.text,Bien que votre instinct vous dise que ces objets sont importants, vous ne parvenez pas à comprendre comment.
 EventHouse_SearchToyChestSkillCheck.button1,Confirmer
 EventHouse_SearchToyChestSkillCheck.text,Vous fouillez parmi les bibelots étranges contenus dans le coffre, à la recherche de quoi que ce soit de notable ({observation}).
 EventHouse_SearchToyChestSuccess.button1,Continuer
@@ -520,10 +454,18 @@ EventHouse_SearchToyChestSuccess.button2,Voir l'Indice
 EventHouse_SearchToyChestSuccess.text,Parmi les objets bizarres, vous remarquez une petite statue. Bien que ce qu'elle représente soit difficile à comprendre, vous êtes certain que les informations qu'elle recèle sont vitales pour votre enquête. Gagnez l'objet unique {c:QItemGrotesqueStone}. Puis défaussez ce pion Fouille. L'investigateur détenant {c:QItemGrotesqueStone} peut consulter l'indice associé en interagissant avec lui dans l'application.
 EventHouse_TriggerExit.button1,Continuer
 EventHouse_TriggerExit.text,Vous acceptez unanimement de quitter cette maudite maison pour de bon. Défaussez ce pion Interaction. À la fin de la phase d'Investigation, tous les investigateurs quitteront ce lieu.
+EventHouse_ViewPersonChild1.button1,Continuer
 EventHouse_ViewPersonChild1.button2,Annuler
+EventHouse_ViewPersonChild1.text,Vous vous approchez lentement des enfants, en les rassurant sur le fait que tout va bien. Vous prenez doucement la main de chaque enfant et les aidez à se lever.
+EventHouse_ViewPersonChild2.button1,Continuer
 EventHouse_ViewPersonChild2.button2,Annuler
+EventHouse_ViewPersonChild2.text,Vous détachez les liens des enfants. Ils se lèvent immédiatement en étirant leurs jambes engourdies.
+EventHouse_ViewPersonMan2.button1,Continuer
 EventHouse_ViewPersonMan2.button2,Annuler
+EventHouse_ViewPersonMan2.text,Ses yeux se relâchent lorsqu'il entend le son de votre voix et un sourire illumine son visage. Vous lui tendez la main et l'aidez à se lever.
+EventHouse_ViewPersonWoman1.button1,Continuer
 EventHouse_ViewPersonWoman1.button2,Annuler
+EventHouse_ViewPersonWoman1.text,Vous vous penchez dans la baignoire et détachez la femme. Elle bondit hors du bain en retirant le linge noué autour de sa bouche.
 EventHouse2_ExploreBathroom.button1,Continuer
 EventHouse2_ExploreBathroom.text,Vous ouvrez la porte menant à la salle de bain. Défaussez ce pion Exploration.
 EventHouse2_InteractPersonWoman2.button1,Continuer
@@ -579,7 +521,11 @@ EventHouseEnd_RemainingHostages.button1,Continuer
 EventHouseEnd_RemainingHostages.text,Vous laissez derrière vous la maison hantée, sans un regard en arrière, alors que vous montez dans votre voiture et partez. Videz le plateau. Bien que vous essayiez de l'éviter, vous ne pouvez vous empêcher de penser aux innocents que vous avez laissés derrière vous dans ce domaine maudit. Chaque investigateur subit {var:House_RemainingHostages} Horreurs.
 EventHouseEnd_RemainingMonsters.button1,Continuer
 EventHouseEnd_RemainingMonsters.text,Vous vous glissez hors de la maison et passez devant toutes les créatures qui rôdent encore dans ses couloirs. Videz le plateau. Alors que vous vous éloignez en voiture, vous imaginez ce qui arrivera aux habitants du quartier lorsque ces êtres horrifiques porteront leur attention vers l'extérieur. Chaque investigateur subit {var:RemainingMonsters} Horreurs faces cachées.
+EventInteractExit.button1,{action} Quitter le District Industriel
+EventInteractExit.button2,{action} Quitter le quartier résidentiel
+EventInteractExit.button3,{action} Quitter le District Commercial
 EventInteractExit.button4,Annuler
+EventInteractExit.text,Un investigateur peut déclencher le départ de tous les investigateurs de ce lieu à la fin de la phase d'Investigation. Une fois qu'un lieu a été quitté, on ne peut plus y retourner.
 EventMissionCompleteMessage.button1,Continuer
 EventMissionCompleteMessage.text,Vous avez terminé votre mission dans ce lieu. Vous pouvez partir en interagissant avec le pion Interaction au début de la carte. Il serait sage de vaincre les monstres restants avant de quitter cet endroit.
 EventMove1SpaceMessage.button1,Continuer
@@ -622,43 +568,37 @@ EventNextLocations_WarehouseHouseDock.button7,Aller au District Résidentiel
 EventNextLocations_WarehouseHouseDock.button8,Se rendre au Palais
 EventNextLocations_WarehouseHouseDock.text,Vous claquez la portière de votre voiture mais hésitez avant de démarrer. Où allez-vous vous rendre en premier ? Vous réfléchissez au quartier d'Arkham par lequel commencer votre enquête.
 EventPalace_CounterRitual_FailureInstant.button1,Continuer
+EventPalace_CounterRitual_FailureInstant.text,Vous terminez le rituel, mais l'air ne s'apaise que pour un instant. L'invocation reprend de plus belle. Votre cœur se serre : vous avez banni la mauvaise entité.
 EventPalace_CounterRitual_FailureMajor.button1,Continuer
+EventPalace_CounterRitual_FailureMajor.text,Vous terminez le rituel, mais l'air ne s'apaise que pour un instant. L'invocation reprend de plus belle. Votre cœur se serre : vous avez banni la mauvaise entité.
 EventPalace_CounterRitual_FailureMinor.button1,Continuer
-EventPalace_CounterRitual_HasturSuccess.button1,Continuer
-EventPalace_CounterRitual_HasturSuccess.text,Vous terminez le contre-rituel pour bannir Hastur de notre réalité. L'air devient silencieux alors que l'invocation s'éteint. Vous avez stoppé l'invasion. Chaque investigateur devient Concentré.
-EventPalace_CounterRitual_MajorFaliure.button1,Continuer
-EventPalace_CounterRitual_MajorFaliure.text,Vous terminez le rituel, mais l'air ne s'apaise que pour un instant. L'invocation reprend de plus belle. Votre cœur se serre : vous avez banni la mauvaise entité.
+EventPalace_CounterRitual_FailureMinor.text,Vous terminez le contre-rituel pour bannir le Grand Ancien. Le rituel d'invocation vacille, freiné par votre sort. Cependant, votre contre-rituel, affaibli par des erreurs d'incantation, ne parvient pas à empêcher totalement l'invocation. Chaque investigateur subit 3 Horreurs.
 EventPalace_CounterRitual_MajorQ.button1,Hastur
 EventPalace_CounterRitual_MajorQ.button2,Yig
 EventPalace_CounterRitual_MajorQ.button3,Zhar
-EventPalace_CounterRitual_MajorQ.text,|||Les énergies de votre sort se dirigent vers votre cible. Vous hurlez : « Retourne dans les eaux immondes d'où tu viens. À jamais, ce monde refusera l'entrée de... »|||
-EventPalace_CounterRitual_MinorFaliure.button1,Continuer
-EventPalace_CounterRitual_MinorFaliure.text,Vous terminez le contre-rituel pour bannir le Grand Ancien. Le rituel d'invocation vacille, freiné par votre sort. Cependant, votre contre-rituel, affaibli par des erreurs d'incantation, ne parvient pas à empêcher totalement l'invocation. Chaque investigateur subit 3 Horreurs.
+EventPalace_CounterRitual_MajorQ.text,Les énergies de votre sort se dirigent vers votre cible. Vous hurlez : « Retourne dans les eaux immondes d'où tu viens. À jamais, ce monde refusera l'entrée de... »
 EventPalace_CounterRitual_MinorQ1.button1,Rouge
 EventPalace_CounterRitual_MinorQ1.button2,Vert
 EventPalace_CounterRitual_MinorQ1.button3,Bleu
-EventPalace_CounterRitual_MinorQ1.text,|||Vous prononcez les paroles en langue ancienne : « À celui qui souhaite violer notre intégrité, disparais, immonde ombre de couleur... »|||
+EventPalace_CounterRitual_MinorQ1.text,Vous prononcez les paroles en langue ancienne : « À celui qui souhaite violer notre intégrité, disparais, immonde ombre de couleur... »
 EventPalace_CounterRitual_MinorQ2.button1,Douleur
 EventPalace_CounterRitual_MinorQ2.button2,Luxure
 EventPalace_CounterRitual_MinorQ2.button3,Folie
-EventPalace_CounterRitual_MinorQ2.text,|||Un léger bourdonnement parcourt vos mots imprégnés d'énergie cosmique. Vous continuez : « Les barrières de notre monde se renforcent, bloquant vos tentatives de répandre la... »|||
+EventPalace_CounterRitual_MinorQ2.text,Un léger bourdonnement parcourt vos mots imprégnés d'énergie cosmique. Vous continuez : « Les barrières de notre monde se renforcent, bloquant vos tentatives de répandre la... »
 EventPalace_CounterRitual_SuccessHastur.button1,Continuer
+EventPalace_CounterRitual_SuccessHastur.text,Vous terminez le contre-rituel pour bannir Hastur de notre réalité. L'air devient silencieux alors que l'invocation s'éteint. Vous avez stoppé l'invasion. Chaque investigateur devient Concentré.
 EventPalace_CounterRitual_SuccessYig.button1,Continuer
+EventPalace_CounterRitual_SuccessYig.text,Vous achevez le contre-rituel pour bannir Yig de notre réalité une fois pour toutes. L'air devient étrangement silencieux alors que le rituel d'invocation s'éteint. Vous avez stoppé l'invasion. Chaque investigateur devient Concentré.
 EventPalace_CounterRitual_SuccessZhar.button1,Continuer
-EventPalace_CounterRitual_YigSuccess.button1,Continuer
-EventPalace_CounterRitual_YigSuccess.text,Vous achevez le contre-rituel pour bannir Yig de notre réalité une fois pour toutes. L'air devient étrangement silencieux alors que le rituel d'invocation s'éteint. Vous avez stoppé l'invasion. Chaque investigateur devient Concentré.
-EventPalace_CounterRitual_ZharSuccess.button1,Continuer
-EventPalace_CounterRitual_ZharSuccess.text,Vous achevez le contre-rituel pour bannir Zhar de notre réalité une fois pour toutes. L'air devient silencieux alors que le rituel s'interrompt. Vous avez stoppé l'invasion. Chaque investigateur devient Concentré.
+EventPalace_CounterRitual_SuccessZhar.text,Vous achevez le contre-rituel pour bannir Zhar de notre réalité une fois pour toutes. L'air devient silencieux alors que le rituel s'interrompt. Vous avez stoppé l'invasion. Chaque investigateur devient Concentré.
 EventPalace_ExploreAtticBallroomFailure.button1,Continuer
-EventPalace_ExploreAtticBallroomFaliure.button1,Continuer
-EventPalace_ExploreAtticBallroomFaliure.text,Vous tirez sur la poignée jusqu'à en avoir les mains rouges, mais la porte ne bouge pas d'un pouce.
+EventPalace_ExploreAtticBallroomFailure.text,Vous tirez sur la poignée jusqu'à en avoir les mains rouges, mais la porte ne bouge pas d'un pouce.
 EventPalace_ExploreAtticBallroomSkillCheck.button1,Confirmer
 EventPalace_ExploreAtticBallroomSkillCheck.text,Vous tournez la poignée et poussez la porte, mais elle semble fermement coincée. Vous mettez toute votre force pour tenter de l'ouvrir ({strength}).
 EventPalace_ExploreAtticBallroomSuccess.button1,Continuer
 EventPalace_ExploreAtticBallroomSuccess.text,Vous tirez sur la porte jusqu'à ce que son cadre déformé cède enfin, laissant la porte s'ouvrir brusquement. Vous scrutez l'obscurité et apercevez le grenier du palais de l'autre côté. Défaussez ce pion Exploration.
 EventPalace_InteractSummoningRitualFailure.button1,Continuer
-EventPalace_InteractSummoningRitualFaliure.button1,Continuer
-EventPalace_InteractSummoningRitualFaliure.text,Le doute envahit votre esprit et vous flanchez, provoquant la dissipation des énergies invoquées.
+EventPalace_InteractSummoningRitualFailure.text,Le doute envahit votre esprit et vous flanchez, provoquant la dissipation des énergies invoquées.
 EventPalace_InteractSummoningRitualSkillCheck.button1,Confirmer
 EventPalace_InteractSummoningRitualSkillCheck.text,Vous commencez à invoquer les énergies pour le contre-rituel, votre esprit tournant à plein régime en espérant posséder assez d'informations pour achever le sort ({will}).
 EventPalace_InteractSummoningRitualSuccess.button1,Continuer
@@ -668,10 +608,9 @@ EventPalace_NoHoursAttic.text,Vous réalisez avec horreur que le rituel est à q
 EventPalace_NoHoursNotAttic.button1,Continuer
 EventPalace_NoHoursNotAttic.text,L'énergie tourbillonnant autour de vous pénètre votre esprit, vous offrant une vision du rituel. Il est sur le point de s'achever. Vous canalisez immédiatement l'énergie pour un contre-rituel de la dernière chance.
 EventPalace_PlaceAttic_RemoveFinalExplore.button1,Continuer
+EventPalace_PlaceAttic_RemoveFinalExplore.text,Le petit grenier du palais est poussiéreux et rempli de vieux meubles. Bien que le palais lui-même soit bien entretenu, il est rare que quelqu'un s'aventure dans cette aile, ce qui en fait un endroit idéal pour se cacher. Placez la tuile {c:TilePalace_Attic} comme indiqué. Puis défaussez le pion Exploration qui relie la Salle de Bal au Grenier.
 EventPalace_PlaceAttic.button1,Continuer
 EventPalace_PlaceAttic.text,Le petit grenier du palais est poussiéreux et rempli de vieux meubles. Bien que le palais lui-même soit bien entretenu, il est clair que personne ne s'aventure jamais dans cette aile, ce qui en fait un endroit idéal pour se cacher des regards indiscrets. Placez la tuile {c:TilePalace_Attic} comme indiqué.
-EventPalace_PlaceAtticBallroom.button1,Continuer
-EventPalace_PlaceAtticBallroom.text,Le petit grenier du palais est poussiéreux et rempli de vieux meubles. Bien que le palais lui-même soit bien entretenu, il est rare que quelqu'un s'aventure dans cette aile, ce qui en fait un endroit idéal pour se cacher. Placez la tuile {c:TilePalace_Attic} comme indiqué. Puis défaussez le pion Exploration qui relie la Salle de Bal au Grenier.
 EventPalace_PlaceAtticSecretPassage.button1,Continuer
 EventPalace_PlaceAtticSecretPassage.text,Le passage secret mène à l'intérieur d'un vieux placard. Vous poussez les portes, révélant que vous vous trouvez dans le grenier. Placez un Passage Secret comme indiqué, puis déplacez votre figurine d'investigateur sur cette case.
 EventPalace_PlaceAtticTrapdoor.button1,Continuer
@@ -716,24 +655,22 @@ EventPalace_RevealMap2_LoungeTrapdoor.button1,Continuer
 EventPalace_RevealMap2_LoungeTrapdoor.text,Défaussez ce pion Fouille et placez une Trappe comme indiqué.
 EventPalace_RevealMap3_AtticBallroom.button1,Continuer
 EventPalace_RevealMap3_AtticBallroom.text,Placez la tuile {c:TilePalace_Attic}, un Passage Secret et une Trappe comme indiqué. Puis défaussez le pion Exploration reliant la Salle de Bal et le Grenier.
-EventPalace_RevealMap3_AtticBallroomExplore.button1,Continuer
-EventPalace_RevealMap3_AtticBallroomExplore.text,Défaussez le pion Exploration reliant la Salle de Bal et le Grenier.
 EventPalace_RevealMap3_AtticNoBallroom.button1,Continuer
 EventPalace_RevealMap3_AtticNoBallroom.text,Placez la tuile {c:TilePalace_Attic}, un Passage Secret et une Trappe comme indiqué.
 EventPalace_RevealMap3_AtticSecretPassage.button1,Continuer
 EventPalace_RevealMap3_AtticSecretPassage.text,Placez un Passage Secret comme indiqué.
 EventPalace_RevealMap3_AtticTrapdoor.button1,Continuer
 EventPalace_RevealMap3_AtticTrapdoor.text,Placez une Trappe comme indiqué.
+EventPalace_RevealMap3_RemoveFinalExplore.button1,Continuer
+EventPalace_RevealMap3_RemoveFinalExplore.text,Défaussez le pion Exploration reliant la Salle de Bal et le Grenier.
 EventPalace_SearchBookshelfFailure.button1,Continuer
-EventPalace_SearchBookshelfFaliure.button1,Continuer
-EventPalace_SearchBookshelfFaliure.text,Malgré votre rapidité, la force est plus vive. La bibliothèque se referme avant que vous ne puissiez l'en empêcher.
+EventPalace_SearchBookshelfFailure.text,Malgré votre rapidité, la force est plus vive. La bibliothèque se referme avant que vous ne puissiez l'en empêcher.
 EventPalace_SearchBookshelfSkillCheck.button1,Confirmer
 EventPalace_SearchBookshelfSkillCheck.text,Vous tirez sur la bibliothèque et découvrez qu'elle pivote sur une charnière invisible. Vous l'ouvrez, mais une force étrange tente de la refermer. Vous essayez de bloquer la bibliothèque avant qu'elle ne se referme ({agility}).
 EventPalace_SearchBookshelfSuccess.button1,Continuer
 EventPalace_SearchBookshelfSuccess.text,Vous saisissez un fauteuil à proximité et le coincez entre le mur et la bibliothèque. En grimpant par-dessus, vous découvrez une petite porte dissimulée. Elle s'ouvre sur un passage secret qui s'enfonce plus loin dans le palais. Défaussez ce pion Fouille et ce Mur, et placez un Passage Secret comme indiqué.
 EventPalace_SearchTrapdoorFailure.button1,Continuer
-EventPalace_SearchTrapdoorFaliure.button1,Continuer
-EventPalace_SearchTrapdoorFaliure.text,Vous jurez en constatant qu'il n'y a rien d'anormal.
+EventPalace_SearchTrapdoorFailure.text,Vous jurez en constatant qu'il n'y a rien d'anormal.
 EventPalace_SearchTrapdoorSkillCheck.button1,Confirmer
 EventPalace_SearchTrapdoorSkillCheck.text,Vous vous penchez pour examiner les lattes du plancher, cherchant tout ce qui pourrait s'y cacher ({observation}).
 EventPalace_SearchTrapdoorSuccess.button1,Continuer
@@ -743,9 +680,14 @@ EventPalace_WinCondition_BanishCorrect.text,Vous devez vaincre les deux Prêtres
 EventPalace_WinCondition_BanishIncorrect.button1,Continuer
 EventPalace_WinCondition_BanishIncorrect.text,Votre seul espoir de sauver la réalité est de combattre l'être ancien qui se dresse devant vous. Bien que rien sur terre n'égale sa puissance, vous pourriez l'affaiblir assez pour que le contre-rituel l'expulse.
 EventPalace2_ExploreConservatoryLoungeFailure.button1,Continuer
+EventPalace2_ExploreConservatoryLoungeFailure.text,Vous tirez sur la poignée jusqu'à en avoir les mains rouges, mais la porte ne bouge pas d'un pouce.
 EventPalace2_ExploreConservatoryLoungeSkillCheck.button1,Confirmer
 EventPalace2_ExploreConservatoryLoungeSkillCheck.text,Vous tournez la poignée et poussez la porte, mais elle semble fermement coincée. Vous mettez toute votre force pour tenter de l'ouvrir ({strength}).
 EventPalace2_ExploreConservatoryLoungeSuccess.button1,Continuer
+EventPalace2_NoHoursConservatory.button1,Continuer
+EventPalace2_NoHoursConservatory.text,Vous réalisez avec horreur que le rituel est à quelques secondes d'aboutir. Défaussez ce pion Interaction. Sans hésiter, vous canalisez l'énergie ambiante dans un puissant contre-rituel pour bannir le dieu envahisseur.
+EventPalace2_NoHoursNotConservatory.button1,Continuer
+EventPalace2_NoHoursNotConservatory.text,L'énergie tourbillonnant autour de vous pénètre votre esprit, vous offrant une vision du rituel. Il est sur le point de s'achever. Vous canalisez immédiatement l'énergie pour un contre-rituel de la dernière chance.
 EventPalace2_PlaceAllExploreBallroom.button1,Continuer
 EventPalace2_PlaceBallroom.button1,Continuer
 EventPalace2_PlaceBilliardsRoom.button1,Continuer
@@ -770,6 +712,19 @@ EventPalace2_PlaceHallStairs.button1,Continuer
 EventPalace2_PlaceInteractSummoningRitual.button1,Continuer
 EventPalace2_PlaceLounge.button1,Continuer
 EventPalace2_PlaceSearchBar.button1,Continuer
+EventPalace2_RevealMap1_BilliardsRoom.button1,Continuer
+EventPalace2_RevealMap1_BilliardsRoomSecretPassage.button1,Continuer
+EventPalace2_RevealMap2_Ballroom.button1,Continuer
+EventPalace2_RevealMap2_HallStairs.button1,Continuer
+EventPalace2_RevealMap2_HallStairsSewer.button1,Continuer
+EventPalace2_RevealMap3_ConservatoryLounge.button1,Continuer
+EventPalace2_RevealMap3_ConservatoryNoLounge.button1,Continuer
+EventPalace2_RevealMap3_ConservatorySecretPassage.button1,Continuer
+EventPalace2_RevealMap3_ConservatorySecretPassage.text,Placez un Passage Secret comme indiqué.
+EventPalace2_RevealMap3_ConservatorySewer.button1,Continuer
+EventPalace2_RevealMap3_Lounge.button1,Continuer
+EventPalace2_RevealMap3_RemoveFinalExplore.button1,Continuer
+EventPalace2_RevealMap3_RemoveFinalExplore.text,Défaussez le pion Exploration reliant la Salle de Bal et le Grenier.
 EventPalace2_SearchBarFailure.button1,Continuer
 EventPalace2_SearchBarSkillCheck.button1,Confirmer
 EventPalace2_SearchBarSuccess.button1,Continuer
@@ -785,6 +740,7 @@ EventPalaceEnd_YigDefeated.text,L'{c:CustomMonsterYig} vacille, laissant le temp
 EventPalaceEnd_ZharDefeated.button1,Continuer
 EventPalaceEnd_ZharDefeated.text,Le {c:CustomMonsterZhar} vacille un instant, assez longtemps pour que vous canalisiez les énergies de votre contre-rituel. Il hurle de rage alors qu'une force cosmique arrache sa forme physique de notre monde pour le renvoyer dans le sien. Les investigateurs ont empêché l'invasion de Zhar.
 EventPlaceInteractExitMessage.button1,Continuer
+EventPlaceInteractExitMessage.text,Tous les investigateurs peuvent quitter ce lieu à tout moment. Cependant, une fois quitté, il n'est plus possible d'y revenir. Placez un pion Interaction comme indiqué.
 EventPrintTime_ManyHours.button1,Continuer
 EventPrintTime_ManyHours.text,Il vous reste {var:InvestigationHours} heures avant que l'invocation n'ait lieu.
 EventPrintTime_NoHoursNotPalace.button1,Continuer
@@ -821,15 +777,11 @@ EventTest_Maps.button8,Palace2
 EventTest_Maps.button9,Cancel
 EventTest_Maps.text,"[MAP DEBUG EVENT]\nSelect a map:"
 EventViewEvidence_CircumstantialEvidence_Blue.button1,Continuer
-EventViewEvidence_CircumstantialEvidence_Blue.text,Les papiers contiennent des passages spécifiques de vieux poèmes païens. À travers les divers écrits, il y a une forte allusion à la relation entre la couleur bleue et les sentiments de luxure. L'un des poèmes est même intitulé "Luxure Bleue".
+EventViewEvidence_CircumstantialEvidence_Blue.text,|||Les papiers contiennent des passages spécifiques de vieux poèmes païens. À travers les divers écrits, il y a une forte allusion à la relation entre la couleur bleue et les sentiments de luxure. L'un des poèmes est même intitulé "Luxure Bleue".|||
 EventViewEvidence_CircumstantialEvidence_Green.button1,Continuer
-EventViewEvidence_CircumstantialEvidence_Green.text,Les papiers contiennent des passages spécifiques de vieux poèmes païens. À travers les divers écrits, il y a une forte allusion à la relation entre la couleur verte et les sentiments de luxure. L'un des poèmes est même intitulé "Luxure Verte".
+EventViewEvidence_CircumstantialEvidence_Green.text,|||Les papiers contiennent des passages spécifiques de vieux poèmes païens. À travers les divers écrits, il y a une forte allusion à la relation entre la couleur verte et les sentiments de luxure. L'un des poèmes est même intitulé "Luxure Verte".|||
 EventViewEvidence_CircumstantialEvidence_Red.button1,Continuer
-EventViewEvidence_CircumstantialEvidence_Red.text,Les papiers contiennent des passages spécifiques de vieux poèmes païens. À travers les divers écrits, il y a une forte allusion à la relation entre la couleur rouge et les sentiments de luxure. L'un des poèmes est même intitulé "Luxure Rouge".
-EventViewEvidence_ConclusiveEvidence_Allies.button1,Continuer
-EventViewEvidence_ConclusiveEvidence_Allies.text,|||Un passage d'un ancien texte sacré païen, approximativement traduit, dit : "La Douleur et la Folie ont longtemps été considérées comme des concepts allant de pair. En effet, il est dit que les entités derrière ces afflictions travaillent ensemble régulièrement. En fait, leur lien est si fort qu'adorer l'une reviendrait, en effet, à adorer l'autre."|||
-EventViewEvidence_ConclusiveEvidence_Enemies.button1,Continuer
-EventViewEvidence_ConclusiveEvidence_Enemies.text,|||Un passage d'un ancien texte sacré païen, approximativement traduit, dit : "Bien que nous puissions considérer que les concepts de Douleur et de Folie vont de pair, il est dit que les entités derrière ces afflictions ne partagent aucune affection l'une pour l'autre. En fait, elles pourraient même être décrites comme des ennemis jurés."|||
+EventViewEvidence_CircumstantialEvidence_Red.text,|||Les papiers contiennent des passages spécifiques de vieux poèmes païens. À travers les divers écrits, il y a une forte allusion à la relation entre la couleur rouge et les sentiments de luxure. L'un des poèmes est même intitulé "Luxure Rouge".|||
 EventViewEvidence_ConclusiveEvidence_Hastur.button1,Continuer
 EventViewEvidence_ConclusiveEvidence_Yig.button1,Continuer
 EventViewEvidence_ConclusiveEvidence_Zhar.button1,Continuer
@@ -908,36 +860,27 @@ EventViewEvidence_RitualComponents_Green.text,Pour obtenir plus d'informations, 
 EventViewEvidence_RitualComponents_Red.button1,Continuer
 EventViewEvidence_RitualComponents_Red.text,Pour obtenir plus d'informations, vous tentez de déconstruire la magie imprégnant ces composants. Ce faisant, vous êtes submergé par une vision étrange. Dans celle-ci, vous êtes un Grand Ancien d'une puissance immense. Vous avez conquis de nombreuses réalités, les soumettant sous votre bannière rouge rubis. Cependant, en observant notre réalité, votre réaction est au mieux de l'indifférence. Par une logique incompréhensible, vous concluez que vous n'entreriez pas dans notre monde même si quelqu'un vous ouvrait un portail. La vision prend fin et vous vous effondrez au sol, la tête battante, sans aucun désir d'examiner davantage les composants.
 EventWarehouse_CultistJeer_HasturCorrect.button1,Continuer
+EventWarehouse_CultistJeer_HasturCorrect.text,|||Un sourire troublant traverse le visage du cultiste. "Mon maître a toujours le temps de torturer les hérétiques." Gagnez 2 Indices.|||
 EventWarehouse_CultistJeer_HasturIncorrectNegative.button1,Continuer
+EventWarehouse_CultistJeer_HasturIncorrectNegative.text,|||Le cultiste plisse les yeux vers vous. "Comment saurais-je de quoi ce faux dieu a le temps de s'occuper ?" Gagnez 1 Indice.|||
 EventWarehouse_CultistJeer_HasturIncorrectPositive.button1,Continuer
+EventWarehouse_CultistJeer_HasturIncorrectPositive.text,|||Le cultiste sourit d'un air menaçant. "Avec le pouvoir combiné du sien et de celui de mon Maître, ils peuvent vous blesser plus que vous ne pourriez jamais le comprendre." Gagnez 1 Indice.|||
 EventWarehouse_CultistJeer_YigCorrect.button1,Continuer
+EventWarehouse_CultistJeer_YigCorrect.text,|||Le cultiste rétorque : "C'est une bonne chose que mon maître n'échoue jamais." Gagnez 2 Indices.|||
 EventWarehouse_CultistJeer_YigIncorrectNegative.button1,Continuer
+EventWarehouse_CultistJeer_YigIncorrectNegative.text,|||Un ricanement sinistre s'échappe des lèvres du cultiste. "Oh que si ! Mon maître s'assurera que ce vil démon souffre." Gagnez 1 Indice.|||
 EventWarehouse_CultistJeer_YigIncorrectPositive.button1,Continuer
+EventWarehouse_CultistJeer_YigIncorrectPositive.text,|||Le cultiste vous lance un regard suffisant. "Avec la main puissante de mon maître derrière lui, Yig ne pourrait jamais échouer." Gagnez 1 Indice.|||
 EventWarehouse_CultistJeer_ZharCorrect.button1,Continuer
+EventWarehouse_CultistJeer_ZharCorrect.text,|||Le cultiste grogne après vous. "Mon maître récompense la loyauté, il ne la punit pas !" Gagnez 2 Indices.|||
 EventWarehouse_CultistJeer_ZharIncorrectNegative.button1,Continuer
+EventWarehouse_CultistJeer_ZharIncorrectNegative.text,|||La rage envahit le visage du cultiste. "Représentez-vous ce démon ignoble ? Dites-lui que mon maître s'occupera de son cas très bientôt." Gagnez 1 Indice.|||
 EventWarehouse_CultistJeer_ZharIncorrectPositive.button1,Continuer
-EventWarehouse_CultLeaderJeer_HasturCorrect.button1,Continuer
-EventWarehouse_CultLeaderJeer_HasturCorrect.text,|||Un sourire troublant traverse le visage du cultiste. "Mon maître a toujours le temps de torturer les hérétiques." Gagnez 2 Indices.|||
-EventWarehouse_CultLeaderJeer_HasturIncorrectNegative.button1,Continuer
-EventWarehouse_CultLeaderJeer_HasturIncorrectNegative.text,|||Le cultiste plisse les yeux vers vous. "Comment saurais-je de quoi ce faux dieu a le temps de s'occuper ?" Gagnez 1 Indice.|||
-EventWarehouse_CultLeaderJeer_HasturIncorrectPositive.button1,Continuer
-EventWarehouse_CultLeaderJeer_HasturIncorrectPositive.text,|||Le cultiste sourit d'un air menaçant. "Avec le pouvoir combiné du sien et de celui de mon Maître, ils peuvent vous blesser plus que vous ne pourriez jamais le comprendre." Gagnez 1 Indice.|||
-EventWarehouse_CultLeaderJeer_YigCorrect.button1,Continuer
-EventWarehouse_CultLeaderJeer_YigCorrect.text,|||Le cultiste rétorque : "C'est une bonne chose que mon maître n'échoue jamais." Gagnez 2 Indices.|||
-EventWarehouse_CultLeaderJeer_YigIncorrectNegative.button1,Continuer
-EventWarehouse_CultLeaderJeer_YigIncorrectNegative.text,|||Un ricanement sinistre s'échappe des lèvres du cultiste. "Oh que si ! Mon maître s'assurera que ce vil démon souffre." Gagnez 1 Indice.|||
-EventWarehouse_CultLeaderJeer_YigIncorrectPositive.button1,Continuer
-EventWarehouse_CultLeaderJeer_YigIncorrectPositive.text,|||Le cultiste vous lance un regard suffisant. "Avec la main puissante de mon maître derrière lui, Yig ne pourrait jamais échouer." Gagnez 1 Indice.|||
-EventWarehouse_CultLeaderJeer_ZharCorrect.button1,Continuer
-EventWarehouse_CultLeaderJeer_ZharCorrect.text,|||Le cultiste grogne après vous. "Mon maître récompense la loyauté, il ne la punit pas !" Gagnez 2 Indices.|||
-EventWarehouse_CultLeaderJeer_ZharIncorrectNegative.button1,Continuer
-EventWarehouse_CultLeaderJeer_ZharIncorrectNegative.text,|||La rage envahit le visage du cultiste. "Représentez-vous ce démon ignoble ? Dites-lui que mon maître s'occupera de son cas très bientôt." Gagnez 1 Indice.|||
-EventWarehouse_CultLeaderJeer_ZharIncorrectPositive.button1,Continuer
-EventWarehouse_CultLeaderJeer_ZharIncorrectPositive.text,|||Le cultiste vous lance un regard confus. "Pourquoi Zhar punirait-il les dévots de son plus vieil allié ? Cela n'a aucun sens." Gagnez 1 Indice.|||
-EventWarehouse_CultLeaderJeer.button1,Hastur n'est-il pas trop occupé pour se concentrer sur moi ?
-EventWarehouse_CultLeaderJeer.button2,Zhar finira par vous infliger la même chose.
-EventWarehouse_CultLeaderJeer.button3,Yig ressentira plus de douleur quand son plan échouera.
-EventWarehouse_CultLeaderJeer.text,|||Le cultiste tire un long poignard orné de son fourreau. "Vous êtes sur le point d'éprouver une douleur qui dépasse ce royaume mortel."|||
+EventWarehouse_CultistJeer_ZharIncorrectPositive.text,|||Le cultiste vous lance un regard confus. "Pourquoi Zhar punirait-il les dévots de son plus vieil allié ? Cela n'a aucun sens." Gagnez 1 Indice.|||
+EventWarehouse_CultistJeer.button1,Hastur n'est-il pas trop occupé pour se concentrer sur moi ?
+EventWarehouse_CultistJeer.button2,Zhar finira par vous infliger la même chose.
+EventWarehouse_CultistJeer.button3,Yig ressentira plus de douleur quand son plan échouera.
+EventWarehouse_CultistJeer.text,|||Le cultiste tire un long poignard orné de son fourreau. "Vous êtes sur le point d'éprouver une douleur qui dépasse ce royaume mortel."|||
 EventWarehouse_ExploreRootCellar.button1,Continuer
 EventWarehouse_ExploreRootCellar.text,Vous ouvrez brusquement la porte. Le clair de lune se déverse dans la cave sombre par la trappe extérieure. Défaussez tout pion Exploration menant à {c:TileWarehouse_RootCellar}. Puis placez de l'Obscurité dans chaque espace de la tuile {c:TileWarehouse_RootCellar}.
 EventWarehouse_HorrificHiveDefeated.button1,Continuer
@@ -960,8 +903,6 @@ EventWarehouse_PlaceExploreWarehouseBasement.button1,Continuer
 EventWarehouse_PlaceExploreWarehouseBasement.text,Une porte en haut des escaliers offre une issue vers la zone principale de l'entrepôt. Placez un pion Exploration comme indiqué.
 EventWarehouse_PlaceExploreWarehouseYard2.button1,Continuer
 EventWarehouse_PlaceExploreWarehouseYard2.text,Vous repérez l'entrée principale de l'entrepôt. Avant de pouvoir approcher, les bruits d'une créature à l'intérieur du bâtiment vous stoppent net. Placez un pion Exploration comme indiqué.
-EventWarehouse_PlaceInteractExit.button1,Continuer
-EventWarehouse_PlaceInteractExit.text,Tous les investigateurs peuvent quitter ce lieu à tout moment. Cependant, une fois quitté, on ne peut plus y retourner. Placez un pion Interaction comme indiqué.
 EventWarehouse_PlaceInvestigators.button1,Continuer
 EventWarehouse_PlaceInvestigators.text,Vous vous approchez de l'entrepôt, incertain du meilleur moyen d'entrer. Placez vos figurines d'Investigateur comme indiqué.
 EventWarehouse_PlaceLightsource.button1,Continuer
@@ -998,15 +939,13 @@ EventWarehouse_SearchBarrelScalpel.text,Parmi les morceaux de viande, vous trouv
 EventWarehouse_SearchBarrelSilverTwilightDagger.button1,Continuer
 EventWarehouse_SearchBarrelSilverTwilightDagger.text,Vous ouvrez le baril rempli de chair crue. Une dague cérémonielle y est plantée. Gagnez l'objet commun {c:QItemSilverTwilightDagger} et 1 indice. Défaussez ce pion Fouille.
 EventWarehouse_SearchBodyFailure.button1,Continuer
-EventWarehouse_SearchBodyFaliure.button1,Continuer
-EventWarehouse_SearchBodyFaliure.text,Malgré vos efforts, vous ne pouvez vous résoudre à continuer de regarder le corps. Vous avez la nausée et vous ne pouvez vous empêcher d'imaginer que ce cadavre est le vôtre. Subissez 1 Horreur ({will}-1 annule).
+EventWarehouse_SearchBodyFailure.text,Malgré vos efforts, vous ne pouvez vous résoudre à continuer de regarder le corps. Vous avez la nausée et vous ne pouvez vous empêcher d'imaginer que ce cadavre est le vôtre. Subissez 1 Horreur ({will}-1 annule).
 EventWarehouse_SearchBodySkillCheck.button1,Confirmer
 EventWarehouse_SearchBodySkillCheck.text,Vous examinez le cadavre mutilé, essayant de déterminer la cause du décès ({will}).
 EventWarehouse_SearchBodySuccess.button1,Continuer
 EventWarehouse_SearchBodySuccess.text,Bien que le corps présente de nombreuses lacérations et des os brisés, vous déterminez que la cause du décès est une perte de sang progressive. Quoi qu'ait été la chose qui a attaqué cette personne, elle jouait avec elle, la gardant en vie et la faisant souffrir le plus longtemps possible. Gagnez 1 indice. Puis défaussez ce pion Fouille.
 EventWarehouse_SearchBookshelfFailure.button1,Continuer
-EventWarehouse_SearchBookshelfFaliure.button1,Continuer
-EventWarehouse_SearchBookshelfFaliure.text,Vous notez votre meilleure interprétation de la signification des runes dans votre carnet. En relisant ce que vous avez écrit, absolument rien n'a de sens.
+EventWarehouse_SearchBookshelfFailure.text,Vous notez votre meilleure interprétation de la signification des runes dans votre carnet. En relisant ce que vous avez écrit, absolument rien n'a de sens.
 EventWarehouse_SearchBookshelfSkillCheck.button1,Confirmer
 EventWarehouse_SearchBookshelfSkillCheck.text,En examinant les objets, vous repérez un livre entièrement écrit en runes anciennes. Vous ouvrez le livre et tentez d'en déchiffrer les pages ({lore}).
 EventWarehouse_SearchBookshelfSuccess.button1,Continuer
@@ -1023,8 +962,7 @@ EventWarehouse_SearchDeadCultistPuzzleStart.text,Les tatouages sont principaleme
 EventWarehouse_SearchEmptyBox.button1,Continuer
 EventWarehouse_SearchEmptyBox.text,|||Caché sous un rabat, vous trouvez un reçu du contenu original de la boîte. Elle contenait diverses chaînes, des carcans et de petits instruments de torture. Elle est adressée à "Arkham's Finest Butchery" (La Meilleure Boucherie d'Arkham), sans doute une façade pour le culte opérant dans le District Industriel. Gagnez 1 indice. Puis défaussez ce pion Fouille.|||
 EventWarehouse_SearchFurnaceFailure.button1,Continuer
-EventWarehouse_SearchFurnaceFaliure.button1,Continuer
-EventWarehouse_SearchFurnaceFaliure.text,Vous creusez aussi vite que possible, mais la cendre se déplace plus vite que vous. Vous vous épuisez avant d'avoir pu découvrir quoi que ce soit.
+EventWarehouse_SearchFurnaceFailure.text,Vous creusez aussi vite que possible, mais la cendre se déplace plus vite que vous. Vous vous épuisez avant d'avoir pu découvrir quoi que ce soit.
 EventWarehouse_SearchFurnaceSkillCheck.button1,Confirmer
 EventWarehouse_SearchFurnaceSkillCheck.text,Alors que vous essayez de creuser dans la cendre, celle-ci remplit le trou que vous formez plus vite que vous ne pouvez creuser. Vous tentez de creuser assez rapidement pour atteindre l'objet avant que la cendre ne se stabilise ({agility}).
 EventWarehouse_SearchFurnaceSuccess.button1,Continuer
@@ -1080,8 +1018,7 @@ quest.description,"Dans moins de 12 heures, un culte va aider un Grand Ancien à
 quest.name,L'Ombre Dévorante (v1.3)
 quest.synopsys,Vous devez identifier et arrêter un culte avant qu'il n'achève le rituel d'invocation d'un Grand Ancien.
 SpawnDock_CabinCultist.button1,Continuer
-SpawnDock_CabinCultLeader.button1,Continuer
-SpawnDock_CabinCultLeader.text,À côté de la caisse, un {c:SpawnDock_CabinCultLeader} murmure des incantations, probablement des protections contre les intrus. En remarquant la lueur de la lune sur le sol près de lui, le {c:SpawnDock_CabinCultLeader} se retourne brusquement et plante son regard dans le vôtre. Faites apparaître un {c:SpawnDock_CabinCultLeader} comme indiqué.
+SpawnDock_CabinCultist.text,À côté de la caisse, un {c:SpawnDock_CabinCultist} murmure des incantations, probablement des protections contre les intrus. En remarquant la lueur de la lune sur le sol près de lui, le {c:SpawnDock_CabinCultist} se retourne brusquement et plante son regard dans le vôtre. Faites apparaître un {c:SpawnDock_CabinCultist} comme indiqué.
 SpawnDock_Dock1DeepOneHybrid.button1,Continuer
 SpawnDock_Dock1DeepOneHybrid.text,Un homme déplace frénétiquement des caisses. Il s'arrête net en vous voyant, révélant de grands yeux noirs inhumains. Faites apparaître un {c:SpawnDock_Dock1DeepOneHybrid} comme indiqué.
 SpawnDock_HouseBoatDeepOne.button1,Continuer
@@ -1093,9 +1030,9 @@ SpawnDock_PierDeepOne.text,Un cri artificiel retentit en réponse depuis la baie
 SpawnDock_PierHuntingDeepOne.button1,Continuer
 SpawnDock_PierHuntingDeepOne.text,Un cri surnaturel résonne dans la baie. Par la fenêtre, vous voyez une créature écailleuse sortir de l'eau près du quai. Faites apparaître un {c:SpawnDock_PierHuntingDeepOne} comme indiqué.
 SpawnDock_RentalDockDeepOne.button1,Continuer
-SpawnDock_RentalDockDeepOne.text,En reprenant vos esprits, vous voyez les restes brisés de la caisse au sol, mais aucune trace de son contenu. Sur le quai extérieur, vous entendez un fracas énorme. Par une fente dans le mur de bois, vous apercevez une créature terrifiante en train de fracasser les bateaux de location. Faites apparaître un {c:SpawnDock_RentalDockDeepOne} comme indiqué.
+SpawnDock_RentalDockDeepOne.text,En reprenant vos esprits, vous voyez les restes brisés de la caisse au sol, mais aucune trace de son contenu. Sur le quai extérieur, vous entendez un fracas énorme. Par une fente dans le mur de bois, vous apercevez une créature terrifiante en train de fracasser les bateaux de location. Faites apparaître un {c:SpawnDock_RentalShackDeepOne} comme indiqué.
 SpawnDock_RentalDockHuntingDeepOne.button1,Continuer
-SpawnDock_RentalDockHuntingDeepOne.text,En reprenant vos esprits, vous voyez les restes brisés de la caisse. Sur le quai, un fracas retentit. Par une fissure, vous voyez une créature massacrer les bateaux de location. Faites apparaître un {c:SpawnDock_RentalDockHuntingDeepOne} comme indiqué.
+SpawnDock_RentalDockHuntingDeepOne.text,En reprenant vos esprits, vous voyez les restes brisés de la caisse. Sur le quai, un fracas retentit. Par une fissure, vous voyez une créature massacrer les bateaux de location. Faites apparaître un {c:SpawnDock_RentalShackHuntingDeepOne} comme indiqué.
 SpawnDock_RentalShackDeepOneHybrid.button1,Continuer
 SpawnDock_RentalShackDeepOneHybrid.text,Le propriétaire du commerce de location est assis sur un tabouret derrière le comptoir, dormant le menton sur la poitrine. Vous tentez de ne pas le réveiller en vous déplaçant discrètement. Cependant, une rafale de vent plaque la porte de la cabane. L'homme se réveille en sursaut et fixe sur vous ses yeux jaunes extraterrestres. Faites apparaître un {c:SpawnDock_RentalShackDeepOneHybrid} comme indiqué.
 SpawnDock_SnackShackDeepOneHybrid.button1,Continuer
@@ -1106,6 +1043,7 @@ SpawnDock2_BeachDeepOne.button1,Continuer
 SpawnDock2_BeachHuntingDeepOne.button1,Continuer
 SpawnDock2_BilliardsRoomDeepOneHybrid.button1,Continuer
 SpawnDock2_CabinCultist.button1,Continuer
+SpawnDock2_CabinCultist.text,À côté de la caisse, un {c:SpawnDock2_CabinCultist} murmure des incantations, probablement des protections contre les intrus. En remarquant la lueur de la lune sur le sol près de lui, le {c:SpawnDock2_CabinCultist} se retourne brusquement et plante son regard dans le vôtre. Faites apparaître un {c:SpawnDock2_CabinCultist} comme indiqué.
 SpawnDock2_HouseBoatDeepOne.button1,Continuer
 SpawnDock2_HouseBoatHuntingDeepOne.button1,Continuer
 SpawnDock2_MoldyShackDeepOneHybrid.button1,Continuer
@@ -1139,14 +1077,13 @@ SpawnHouse_Bedroom2DeepOne.text,Alors que la femme vous remercie chaleureusement
 SpawnHouse_Bedroom2HuntingDeepOne.button1,Continuer
 SpawnHouse_Bedroom2HuntingDeepOne.text,Alors que la femme vous remercie chaleureusement, une eau sombre et épaisse s'infiltre sous le mur de la salle de bain. Elle est si noire que vous ne voyez plus le sol. Soudain, une main griffue jaillit de la flaque et s'enfonce dans la chair de la femme. Avant qu'elle ne puisse crier, elle est entraînée dans les profondeurs impossibles. Une créature immonde apparaît à sa place, la gueule encore rouge de sang frais. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_Bedroom2HuntingDeepOne} comme indiqué. Puis subissez 2 Horreurs ({will} annule).
 SpawnHouse_KitchenCultist.button1,Continuer
-SpawnHouse_KitchenCultLeader.button1,Continuer
-SpawnHouse_KitchenCultLeader.text,Dans la cuisine, une silhouette encapuchonnée jonche le sol d'ustensiles de cuisine, cherchant quelque chose de valeur dans les placards. Faites apparaître un {c:SpawnHouse_KitchenCultLeader} et placez un pion Fouille comme indiqué.
+SpawnHouse_KitchenCultist.text,Dans la cuisine, une silhouette encapuchonnée jonche le sol d'ustensiles de cuisine, cherchant quelque chose de valeur dans les placards. Faites apparaître un {c:SpawnHouse_KitchenCultist} et placez un pion Fouille comme indiqué.
 SpawnHouse_OfficeCultist.button1,Continuer
 SpawnHouse_OfficeCultist.text,Un {c:SpawnHouse_OfficeCultist} fouille dans le bureau du cabinet. Absorbé par sa tâche, il n'a pas remarqué que vous observiez l'intérieur de la pièce. Faites apparaître un {c:SpawnHouse_OfficeCultist} comme indiqué.
 SpawnHouse_OfficeDarkDruid.button1,Continuer
-SpawnHouse_OfficeDarkDruid.text,|||L'homme tend la main. Alors que vous allez la serrer, une énergie sombre relie vos mains et une vive douleur remonte votre bras. Subissez 2 Dégâts ({lore} annule). « Comment es-tu encore en vie ? » grogne-t-il. « Peu importe, tu ne fais pas le poids face à mon maître. » Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_OfficeDarkDruid} comme indiqué.|||
+SpawnHouse_OfficeDarkDruid.text,L'homme tend la main. Alors que vous allez la serrer, une énergie sombre relie vos mains et une vive douleur remonte votre bras. Subissez 2 Dégâts ({lore} annule). « Comment es-tu encore en vie ? » grogne-t-il. « Peu importe, tu ne fais pas le poids face à mon maître. » Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_OfficeDarkDruid} comme indiqué.
 SpawnHouse_OfficeManiac.button1,Continuer
-SpawnHouse_OfficeManiac.text,|||L'homme tend la main. Le reflet d'une lame dans sa manche attire votre attention. Il sort un couteau et tente de vous poignarder. Subissez 2 Dégâts ({agility} annule). « Sortez d'ici ! » hurle-t-il. « Partez avant que je ne vous étripe comme un porc ! » Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_OfficeManiac} comme indiqué.|||
+SpawnHouse_OfficeManiac.text,L'homme tend la main. Le reflet d'une lame dans sa manche attire votre attention. Il sort un couteau et tente de vous poignarder. Subissez 2 Dégâts ({agility} annule). « Sortez d'ici ! » hurle-t-il. « Partez avant que je ne vous étripe comme un porc ! » Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_OfficeManiac} comme indiqué.
 SpawnHouse_OfficeThrall.button1,Continuer
 SpawnHouse_OfficeThrall.text,L'homme tend la main pour serrer la vôtre. Alors que vous allez répondre à son geste, son attitude change soudainement. Le regard vide, sa main se projette vers votre gorge et ses doigts se resserrent avec une force surnaturelle. Subissez 2 Dégâts ({strength} annule). Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_OfficeThrall} comme indiqué.
 SpawnHouse_OfficeWarlock.button1,Continuer
@@ -1170,9 +1107,9 @@ SpawnHouse_SmallBedroom2StarVampire.text,Soudain, le sang quitte le visage des d
 SpawnHouse_StudyCultist.button1,Continuer
 SpawnHouse_StudyCultist.text,Un {c:SpawnHouse_StudyCultist} s'approche de l'homme au fond de la pièce, couteau dégaîné. Faites apparaître un {c:SpawnHouse_StudyCultist} comme indiqué.
 SpawnHouse_StudyDarkDruid.button1,Continuer
-SpawnHouse_StudyDarkDruid.text,|||L'homme tend la main. Une énergie sombre vous frappe au contact. Subissez 2 Dégâts ({lore} annule). « Tu n'es rien face à mon maître ! » s'écrie-t-il. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_StudyDarkDruid} comme indiqué.|||
+SpawnHouse_StudyDarkDruid.text,L'homme tend la main. Une énergie sombre vous frappe au contact. Subissez 2 Dégâts ({lore} annule). « Tu n'es rien face à mon maître ! » s'écrie-t-il. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_StudyDarkDruid} comme indiqué.
 SpawnHouse_StudyManiac.button1,Continuer
-SpawnHouse_StudyManiac.text,|||L'homme tend la main, mais tente de vous poignarder avec un couteau dissimulé. Subissez 2 Dégâts ({agility} annule). « Hors de chez moi ! » hurle-t-il. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_StudyManiac} comme indiqué.|||
+SpawnHouse_StudyManiac.text,L'homme tend la main, mais tente de vous poignarder avec un couteau dissimulé. Subissez 2 Dégâts ({agility} annule). « Hors de chez moi ! » hurle-t-il. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_StudyManiac} comme indiqué.
 SpawnHouse_StudyThrall.button1,Continuer
 SpawnHouse_StudyThrall.text,L'homme tend la main pour serrer la vôtre. Son attitude change soudainement. Le regard absent, il tente de vous étrangler avec une force prodigieuse. Subissez 2 Dégâts ({strength} annule). Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse_StudyThrall} comme indiqué.
 SpawnHouse_StudyWarlock.button1,Continuer
@@ -1200,12 +1137,13 @@ SpawnHouse2_Bedroom2HuntingHorror.text,Soudain, un sourire tordu se dessine sur 
 SpawnHouse2_Bedroom2StarVampire.button1,Continuer
 SpawnHouse2_Bedroom2StarVampire.text,Soudain, le sang quitte le visage des deux enfants. Des tentacules rouges se matérialisent autour de leurs cous. Leurs corps tombent au sol alors que l'horreur invisible se révèle. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_Bedroom2StarVampire} comme indiqué. Puis subissez 2 Horreurs ({will} annule).
 SpawnHouse2_KitchenCultist.button1,Continuer
+SpawnHouse2_KitchenCultist.text,Dans la cuisine, une silhouette encapuchonnée jonche le sol d'ustensiles de cuisine, cherchant quelque chose de valeur dans les placards. Faites apparaître un {c:SpawnHouse2_KitchenCultist} et placez un pion Fouille comme indiqué.
 SpawnHouse2_LibraryCultist.button1,Continuer
 SpawnHouse2_LibraryCultist.text,Un {c:SpawnHouse2_LibraryCultist} s'approche de l'homme au fond de la pièce, couteau dégaîné. Faites apparaître un {c:SpawnHouse2_LibraryCultist} comme indiqué.
 SpawnHouse2_LibraryDarkDruid.button1,Continuer
 SpawnHouse2_LibraryDarkDruid.text,|||L'homme tend la main pour serrer la vôtre. Alors que vous allez lui rendre son geste, une énergie sombre relie sa main à la vôtre et une douleur aiguë remonte le long de votre bras. Subissez 2 Dégâts ({lore} annule). "Comment êtes-vous encore en vie ?" grogne-t-il. "Peu importe, vous ne faites pas le poids face à moi ou à mon maître." Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_LibraryDarkDruid} comme indiqué.|||
 SpawnHouse2_LibraryManiac.button1,Continuer
-SpawnHouse2_LibraryManiac.text,|||L'homme tend la main, mais tente de vous poignarder avec un couteau dissimulé. Subissez 2 Dégâts ({agility} annule). « Hors de chez moi ! » hurle-t-il. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_LibraryManiac} comme indiqué.|||
+SpawnHouse2_LibraryManiac.text,L'homme tend la main, mais tente de vous poignarder avec un couteau dissimulé. Subissez 2 Dégâts ({agility} annule). « Hors de chez moi ! » hurle-t-il. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_LibraryManiac} comme indiqué.
 SpawnHouse2_LibraryThrall.button1,Continuer
 SpawnHouse2_LibraryThrall.text,L'homme tend la main pour serrer la vôtre. Son attitude change soudainement. Le regard absent, il tente de vous étrangler avec une force prodigieuse. Subissez 2 Dégâts ({strength} annule). Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_LibraryThrall} comme indiqué.
 SpawnHouse2_LibraryWarlock.button1,Continuer
@@ -1216,25 +1154,25 @@ SpawnHouse2_LoungeDarkDruid.text,|||L'homme tend la main pour serrer la vôtre. 
 SpawnHouse2_LoungeDeepOne.button1,Continuer
 SpawnHouse2_LoungeHuntingDeepOne.button1,Continuer
 SpawnHouse2_LoungeManiac.button1,Continuer
-SpawnHouse2_LoungeManiac.text,|||L'homme tend la main, mais tente de vous poignarder avec un couteau dissimulé. Subissez 2 Dégâts ({agility} annule). « Hors de chez moi ! » hurle-t-il. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_LoungeManiac} comme indiqué.|||
+SpawnHouse2_LoungeManiac.text,L'homme tend la main, mais tente de vous poignarder avec un couteau dissimulé. Subissez 2 Dégâts ({agility} annule). « Hors de chez moi ! » hurle-t-il. Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_LoungeManiac} comme indiqué.
 SpawnHouse2_LoungeThrall.button1,Continuer
 SpawnHouse2_LoungeThrall.text,L'homme tend la main pour serrer la vôtre. Son attitude change soudainement. Le regard absent, il tente de vous étrangler avec une force prodigieuse. Subissez 2 Dégâts ({strength} annule). Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_LoungeThrall} comme indiqué.
 SpawnHouse2_LoungeWarlock.button1,Continuer
 SpawnHouse2_LoungeWarlock.text,|||L'homme tend la main pour serrer la vôtre. Alors que vous allez lui rendre son geste, une énergie sombre relie sa main à la vôtre et une douleur aiguë remonte le long de votre bras. Subissez 2 Dégâts ({lore} annule). "Comment êtes-vous encore en vie ?" grogne-t-il. "Peu importe, vous ne faites pas le poids face à moi ou à mon maître." Défaussez ce pion Personne et faites apparaître un {c:SpawnHouse2_LoungeWarlock} comme indiqué.|||
 SpawnPalace_AtticChildHastur.button1,Continuer
-SpawnPalace_AtticChildHastur.text,|||La seconde silhouette retire sa capuche. « Manquer de respect à un allié de mon maître, c'est l'insulter directement ! Je vais t'éventrer et utiliser tes os pour fabriquer de nouveaux composants rituels. Quel dommage que tu ne sois plus là pour les voir servir. » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticChildHastur}.|||
+SpawnPalace_AtticChildHastur.text,La seconde silhouette retire sa capuche. « Manquer de respect à un allié de mon maître, c'est l'insulter directement ! Je vais t'éventrer et utiliser tes os pour fabriquer de nouveaux composants rituels. Quel dommage que tu ne sois plus là pour les voir servir. » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticChildHastur}.
 SpawnPalace_AtticChildYig.button1,Continuer
-SpawnPalace_AtticChildYig.text,|||Le second adepte vous menace. « Je vais t'éventrer et utiliser tes os pour le prochain rituel ! » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticChildYig}.|||
+SpawnPalace_AtticChildYig.text,Le second adepte vous menace. « Je vais t'éventrer et utiliser tes os pour le prochain rituel ! » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticChildYig}.
 SpawnPalace_AtticChildZhar.button1,Continuer
-SpawnPalace_AtticChildZhar.text,|||La silhouette s'avance. « Tu vas mourir pour ton insolence ! Tes os serviront nos sombres desseins ! » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticChildZhar}.|||
+SpawnPalace_AtticChildZhar.text,La silhouette s'avance. « Tu vas mourir pour ton insolence ! Tes os serviront nos sombres desseins ! » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticChildZhar}.
 SpawnPalace_AtticHastur.button1,Continuer
 SpawnPalace_AtticHastur.text,Le rituel d'invocation s'achève et un portail vers une autre dimension s'ouvre sous vos yeux. Les cadavres vidés de leur vie des deux adeptes tombent au sol. Du portail émerge l'être ancien Hastur, prêt à asservir ce monde. Faites apparaître un Rejeton des Étoiles comme indiqué. Il s'agit de {c:SpawnPalace_AtticHastur}.
 SpawnPalace_AtticPriestHastur.button1,Continuer
-SpawnPalace_AtticPriestHastur.text,|||Le premier adepte retire sa capuche et se tourne vers vous. « Comment oses-tu interrompre les plans de mon maître, insolent vermisseau ! Peu importe, une fois que je t'aurai tué, je déferai ton pathétique sortilège et recommencerai le rituel ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticPriestHastur}.|||
+SpawnPalace_AtticPriestHastur.text,Le premier adepte retire sa capuche et se tourne vers vous. « Comment oses-tu interrompre les plans de mon maître, insolent vermisseau ! Peu importe, une fois que je t'aurai tué, je déferai ton pathétique sortilège et recommencerai le rituel ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticPriestHastur}.
 SpawnPalace_AtticPriestYig.button1,Continuer
-SpawnPalace_AtticPriestYig.text,|||L'adepte retire sa capuche. « Tu ne m'arrêteras pas ! Je vais te tuer et reprendre l'invocation ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticPriestYig}.|||
+SpawnPalace_AtticPriestYig.text,L'adepte retire sa capuche. « Tu ne m'arrêteras pas ! Je vais te tuer et reprendre l'invocation ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticPriestYig}.
 SpawnPalace_AtticPriestZhar.button1,Continuer
-SpawnPalace_AtticPriestZhar.text,|||Le premier adepte se tourne vers vous. « Comment oses-tu interrompre les plans de mon maître ! Une fois mort, je recommencerai le rituel ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticPriestZhar}.|||
+SpawnPalace_AtticPriestZhar.text,Le premier adepte se tourne vers vous. « Comment oses-tu interrompre les plans de mon maître ! Une fois mort, je recommencerai le rituel ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace_AtticPriestZhar}.
 SpawnPalace_AtticYig.button1,Continuer
 SpawnPalace_AtticYig.text,Le rituel d'invocation s'achève et un portail vers une autre dimension s'ouvre sous vos yeux. Les cadavres vidés de leur vie des deux adeptes tombent au sol. Du portail émerge l'être ancien Yig, prêt à faire de ce monde le sien. Faites apparaître un Rejeton des Étoiles comme indiqué. Il s'agit de {c:SpawnPalace_AtticYig}.
 SpawnPalace_AtticZhar.button1,Continuer
@@ -1267,6 +1205,24 @@ SpawnPalace2_BilliardsRoomHuntingHorror.button1,Continuer
 SpawnPalace2_BilliardsRoomHuntingHorror.text,Depuis l'autre côté de la pièce, vous entendez un bruit incompréhensible provenant d'une créature indescriptible d'une horreur absolue. Faites apparaître une {c:SpawnPalace2_BilliardsRoomHuntingHorror} comme indiqué. Puis subissez 2 Horreurs ({will} annule).
 SpawnPalace2_BilliardsRoomStarVampire.button1,Continuer
 SpawnPalace2_BilliardsRoomStarVampire.text,De l'autre côté de la pièce, vous apercevez le scintillement spectral d'une créature indescriptible d'une horreur absolue. Faites apparaître un {c:SpawnPalace2_BilliardsRoomStarVampire} comme indiqué. Puis subissez 2 Horreurs ({will} annule).
+SpawnPalace2_ConservatoryChildHastur.button1,Continuer
+SpawnPalace2_ConservatoryChildHastur.text,La silhouette s'avance. « Tu vas mourir pour ton insolence ! Tes os serviront nos sombres desseins ! » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryChildHastur}.
+SpawnPalace2_ConservatoryChildYig.button1,Continuer
+SpawnPalace2_ConservatoryChildYig.text,La silhouette s'avance. « Tu vas mourir pour ton insolence ! Tes os serviront nos sombres desseins ! » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryChildYig}.
+SpawnPalace2_ConservatoryChildZhar.button1,Continuer
+SpawnPalace2_ConservatoryChildZhar.text,La silhouette s'avance. « Tu vas mourir pour ton insolence ! Tes os serviront nos sombres desseins ! » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryChildZhar}.
+SpawnPalace2_ConservatoryHastur.button1,Continuer
+SpawnPalace2_ConservatoryHastur.text,Le rituel d'invocation s'achève et un portail vers une autre dimension s'ouvre sous vos yeux. Les cadavres vidés de leur vie des deux adeptes tombent au sol. Du portail émerge l'être ancien Hastur, prêt à asservir ce monde. Faites apparaître un Rejeton des Étoiles comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryHastur}.
+SpawnPalace2_ConservatoryPriestHastur.button1,Continuer
+SpawnPalace2_ConservatoryPriestHastur.text,Le premier adepte se tourne vers vous. « Comment oses-tu interrompre les plans de mon maître ! Une fois mort, je recommencerai le rituel ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryPriestHastur}.
+SpawnPalace2_ConservatoryPriestYig.button1,Continuer
+SpawnPalace2_ConservatoryPriestYig.text,Le premier adepte se tourne vers vous. « Comment oses-tu interrompre les plans de mon maître ! Une fois mort, je recommencerai le rituel ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryPriestYig}.
+SpawnPalace2_ConservatoryPriestZhar.button1,Continuer
+SpawnPalace2_ConservatoryPriestZhar.text,Le premier adepte se tourne vers vous. « Comment oses-tu interrompre les plans de mon maître ! Une fois mort, je recommencerai le rituel ! » Faites apparaître un Prêtre de Dagon comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryPriestZhar}.
+SpawnPalace2_ConservatoryYig.button1,Continuer
+SpawnPalace2_ConservatoryYig.text,Le rituel d'invocation s'achève et un portail vers une autre dimension s'ouvre sous vos yeux. Les cadavres vidés de leur vie des deux adeptes tombent au sol. Du portail émerge l'être ancien Yig, prêt à faire de ce monde le sien. Faites apparaître un Rejeton des Étoiles comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryYig}.
+SpawnPalace2_ConservatoryZhar.button1,Continuer
+SpawnPalace2_ConservatoryZhar.text,Le rituel d'invocation s'achève et un portail s'ouvre. Les corps des adeptes s'effondrent. Du portail émerge l'être ancien Zhar. Faites apparaître un Rejeton des Étoiles comme indiqué. Il s'agit de {c:SpawnPalace2_ConservatoryZhar}.
 SpawnPalace2_EntryHallChildOfTheGoat.button1,Continuer
 SpawnPalace2_EntryHallChildOfTheGoat.text,Le concierge est encore de service, mais son corps en décomposition ne laisse aucun doute sur sa nature. Faites apparaître un {c:SpawnPalace2_EntryHallChildOfTheGoat} comme indiqué.
 SpawnPalace2_EntryHallDeepOneHybrid.button1,Continuer
@@ -1283,12 +1239,11 @@ SpawnPalace2_LoungeHuntingDeepOne.button1,Continuer
 SpawnWarehouse_BasementCrawlingOne.button1,Continuer
 SpawnWarehouse_BasementCrawlingOne.text,La masse se déchire pour donner naissance à un {c:SpawnWarehouse_BasementCrawlingOne}. L'amas de vers s'anime instantanément pour vous attaquer. Faites apparaître un {c:SpawnWarehouse_BasementCrawlingOne} comme indiqué. Puis subissez 2 Horreurs ({will} annule).
 SpawnWarehouse_BasementCultist.button1,Continuer
-SpawnWarehouse_BasementCultLeader.button1,Continuer
-SpawnWarehouse_BasementCultLeader.text,Dans l'obscurité, un {c:SpawnWarehouse_BasementCultLeader} se tient au-dessus du cadavre de l'un de ses camarades. Il murmure diverses prières dans des langues interdites. Alors que vous avancez prudemment pour mieux voir, vous renversez accidentellement une pile de caisses. Le {c:SpawnWarehouse_BasementCultLeader} tourne brusquement la tête vers vous. Faites apparaître un {c:SpawnHouse_KitchenCultLeader} et placez un pion Fouille comme indiqué.
+SpawnWarehouse_BasementCultist.text,Dans l'obscurité, un {c:SpawnWarehouse_BasementCultist} se tient au-dessus du cadavre de l'un de ses camarades. Il murmure diverses prières dans des langues interdites. Alors que vous avancez prudemment pour mieux voir, vous renversez accidentellement une pile de caisses. Le {c:SpawnWarehouse_BasementCultist} tourne brusquement la tête vers vous. Faites apparaître un {c:SpawnHouse_KitchenCultist} et placez un pion Fouille comme indiqué.
 SpawnWarehouse_BasementDeepOne.button1,Continuer
 SpawnWarehouse_BasementDeepOne.text,La masse répugnante s'agite et palpite, puis un orifice au sommet commence à s'ouvrir lentement. Sous vos yeux, elle donne naissance à un {c:SpawnWarehouse_BasementDeepOne}. Quelques secondes après avoir quitté la ruche, le {c:SpawnWarehouse_BasementDeepOne} est en alerte et prêt à dévorer quiconque à sa portée. Faites apparaître un {c:SpawnWarehouse_BasementDeepOne} comme indiqué. Subissez 2 Horreurs ({will} annule).
 SpawnWarehouse_BasementHorrificHive_ChildOfDagon.button1,Continuer
-SpawnWarehouse_BasementHorrificHive_ChildOfDagon.text,|||Alors que vos yeux s'habituent à l'obscurité, une vision cauchemardesque apparaît. Près de la chaudière, une masse de chair semble croître sur le sol. Vous réalisez avec horreur qu'un visage humain se trouve dans cette masse et vous fixe. Sa bouche articule silencieusement : « Tuez-moi. » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit du {c:SpawnWarehouse_BasementHorrificHive_ChildOfDagon}.|||
+SpawnWarehouse_BasementHorrificHive_ChildOfDagon.text,Alors que vos yeux s'habituent à l'obscurité, une vision cauchemardesque apparaît. Près de la chaudière, une masse de chair semble croître sur le sol. Vous réalisez avec horreur qu'un visage humain se trouve dans cette masse et vous fixe. Sa bouche articule silencieusement : « Tuez-moi. » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit du {c:SpawnWarehouse_BasementHorrificHive_ChildOfDagon}.
 SpawnWarehouse_BasementHorrificHive.button1,Continuer
 SpawnWarehouse_BasementHorrificHive.text,|||Alors que vos yeux s'habituent à l'obscurité, une scène d'horreur s'offre à vous. Près de la fournaise, une masse ressemblant à de la chair humaine pousse sur le sol. Vous réalisez avec effroi qu'un visage humain se trouve dans la masse, et il vous fixe. Vous voyez la bouche former silencieusement les mots "Tuez-moi". Faites apparaître un Formless Spawn comme indiqué. Il s'agit de {c:SpawnWarehouse_BasementHorrificHive}.|||
 SpawnWarehouse_BasementHuntingDeepOne.button1,Continuer
@@ -1310,12 +1265,11 @@ SpawnWarehouse_RootCellarMiGo.text,Une présence extraterrestre rôde dans cette
 SpawnWarehouse_StudyCrawlingOne.button1,Continuer
 SpawnWarehouse_StudyCrawlingOne.text,Un {c:SpawnWarehouse_StudyCrawlingOne} s'extrait de la masse de chair palpitante et rampe vers vous. Faites apparaître un {c:SpawnWarehouse_StudyCrawlingOne} comme indiqué. Puis subissez 2 Horreurs ({will} annule).
 SpawnWarehouse_StudyCultist.button1,Continuer
-SpawnWarehouse_StudyCultLeader.button1,Continuer
-SpawnWarehouse_StudyCultLeader.text,Au fond de la pièce, un {c:SpawnWarehouse_StudyCultLeader} se tient au-dessus du cadavre de l'un de ses camarades. Il murmure diverses prières dans des langues interdites. Alors que vous observez en silence, le poids de votre corps repose sur une vieille planche du sol, provoquant un craquement sonore. Le {c:SpawnWarehouse_StudyCultLeader} tourne brusquement la tête vers vous. Faites apparaître un {c:SpawnHouse_KitchenCultLeader} et placez un pion Fouille comme indiqué.
+SpawnWarehouse_StudyCultist.text,Au fond de la pièce, un {c:SpawnWarehouse_StudyCultist} se tient au-dessus du cadavre de l'un de ses camarades. Il murmure diverses prières dans des langues interdites. Alors que vous observez en silence, le poids de votre corps repose sur une vieille planche du sol, provoquant un craquement sonore. Le {c:SpawnWarehouse_StudyCultist} tourne brusquement la tête vers vous. Faites apparaître un {c:SpawnHouse_KitchenCultist} et placez un pion Fouille comme indiqué.
 SpawnWarehouse_StudyDeepOne.button1,Continuer
 SpawnWarehouse_StudyDeepOne.text,La masse répugnante s'agite et palpite, puis un orifice au sommet commence à s'ouvrir lentement. Sous vos yeux, elle donne naissance à un {c:SpawnWarehouse_StudyDeepOne}. Quelques secondes après avoir quitté la ruche, le {c:SpawnWarehouse_StudyDeepOne} est en alerte et prêt à dévorer quiconque à sa portée. Faites apparaître un {c:SpawnWarehouse_StudyDeepOne} comme indiqué. Subissez 2 Horreurs ({will} annule).
 SpawnWarehouse_StudyHorrificHive_ChildOfDagon.button1,Continuer
-SpawnWarehouse_StudyHorrificHive_ChildOfDagon.text,|||En inspectant la pièce, une vision d'horreur s'offre à vous. Près du mur du fond, une masse qui semble faite de chair pousse à travers le plancher. Vous réalisez avec effroi qu'un visage humain est prisonnier de cette masse, et qu'il vous fixe. Vous voyez sa bouche former silencieusement les mots : « Tuez-moi. » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit du {c:SpawnWarehouse_StudyHorrificHive_ChildOfDagon}.|||
+SpawnWarehouse_StudyHorrificHive_ChildOfDagon.text,En inspectant la pièce, une vision d'horreur s'offre à vous. Près du mur du fond, une masse qui semble faite de chair pousse à travers le plancher. Vous réalisez avec effroi qu'un visage humain est prisonnier de cette masse, et qu'il vous fixe. Vous voyez sa bouche former silencieusement les mots : « Tuez-moi. » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit du {c:SpawnWarehouse_StudyHorrificHive_ChildOfDagon}.
 SpawnWarehouse_StudyHorrificHive.button1,Continuer
 SpawnWarehouse_StudyHorrificHive.text,|||En regardant plus loin dans la pièce, vous tombez sur une scène d'horreur. Près du mur du fond, une masse ressemblant à de la chair humaine pousse à travers le plancher. Vous réalisez avec effroi qu'un visage humain se trouve dans la masse, et il vous fixe. Vous voyez la bouche former silencieusement les mots "Tuez-moi". Faites apparaître un Formless Spawn comme indiqué. Il s'agit de {c:SpawnWarehouse_StudyHorrificHive}.|||
 SpawnWarehouse_StudyHuntingDeepOne.button1,Continuer
@@ -1360,10 +1314,11 @@ SpawnWarehouse2_BellTowerMiGo.text,Le nid expulse un {c:SpawnWarehouse2_BellTowe
 SpawnWarehouse2_StudyCrawlingOne.button1,Continuer
 SpawnWarehouse2_StudyCrawlingOne.text,Le nid expulse un {c:SpawnWarehouse2_StudyCrawlingOne} bourdonnant. Il semble déjà conscient de votre présence. Faites apparaître un {c:SpawnWarehouse2_StudyCrawlingOne} comme indiqué. Puis subissez 2 Horreurs ({will} annule).
 SpawnWarehouse2_StudyCultist.button1,Continuer
+SpawnWarehouse2_StudyCultist.text,Au fond de la pièce, un {c:SpawnWarehouse2_StudyCultist} se tient au-dessus du cadavre de l'un de ses camarades. Il murmure diverses prières dans des langues interdites. Alors que vous observez en silence, le poids de votre corps repose sur une vieille planche du sol, provoquant un craquement sonore. Le {c:SpawnWarehouse2_StudyCultist} tourne brusquement la tête vers vous. Faites apparaître un {c:SpawnWarehouse2_StudyCultist} et placez un pion Fouille comme indiqué.
 SpawnWarehouse2_StudyDeepOne.button1,Continuer
 SpawnWarehouse2_StudyDeepOne.text,Le nid expulse un {c:SpawnWarehouse2_StudyDeepOne} bourdonnant. Il semble déjà conscient de votre présence. Faites apparaître un {c:SpawnWarehouse2_StudyDeepOne} comme indiqué. Puis subissez 2 Horreurs ({will} annule).
 SpawnWarehouse2_StudyHorrificHive_ChildOfDagon.button1,Continuer
-SpawnWarehouse2_StudyHorrificHive_ChildOfDagon.text,|||En inspectant la pièce, une vision d'horreur s'offre à vous. Près du mur du fond, une masse qui semble faite de chair pousse à travers le plancher. Vous réalisez avec effroi qu'un visage humain est prisonnier de cette masse, et qu'il vous fixe. Vous voyez sa bouche former silencieusement les mots : « Tuez-moi. » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit du {c:SpawnWarehouse2_StudyHorrificHive_ChildOfDagon}.|||
+SpawnWarehouse2_StudyHorrificHive_ChildOfDagon.text,En inspectant la pièce, une vision d'horreur s'offre à vous. Près du mur du fond, une masse qui semble faite de chair pousse à travers le plancher. Vous réalisez avec effroi qu'un visage humain est prisonnier de cette masse, et qu'il vous fixe. Vous voyez sa bouche former silencieusement les mots : « Tuez-moi. » Faites apparaître un Enfant de Dagon comme indiqué. Il s'agit du {c:SpawnWarehouse2_StudyHorrificHive_ChildOfDagon}.
 SpawnWarehouse2_StudyHorrificHive.button1,Continuer
 SpawnWarehouse2_StudyHorrificHive.text,|||En regardant plus loin dans la pièce, vous tombez sur une scène d'horreur. Près du mur du fond, une masse ressemblant à de la chair humaine pousse à travers le plancher. Vous réalisez avec effroi qu'un visage humain se trouve dans la masse, et il vous fixe. Vous voyez la bouche former silencieusement les mots "Tuez-moi". Faites apparaître un Formless Spawn comme indiqué. Il s'agit de {c:SpawnWarehouse2_StudyHorrificHive}.|||
 SpawnWarehouse2_StudyHuntingDeepOne.button1,Continuer
@@ -1382,8 +1337,6 @@ SpawnWarehouse2_WarehouseHuntingHorror.button1,Continuer
 SpawnWarehouse2_WarehouseHuntingHorror.text,Un {c:SpawnWarehouse2_WarehouseHuntingHorror} erre dans l'entrepôt, couvert de fluides de naissance. Lorsqu'il vous voit, ses intentions deviennent claires. Faites apparaître un {c:SpawnWarehouse2_WarehouseHuntingHorror} comme indiqué.
 SpawnWarehouse2_WarehouseMiGo.button1,Continuer
 SpawnWarehouse2_WarehouseMiGo.text,Un {c:SpawnWarehouse2_WarehouseMiGo} erre dans l'entrepôt, couvert de fluides de naissance. Lorsqu'il vous voit, ses intentions deviennent claires. Faites apparaître un {c:SpawnWarehouse2_WarehouseMiGo} comme indiqué.
-TokenDock_InteractExit.button1,{action} Quitter le District Commercial
-TokenDock_InteractExit.text,Un investigateur peut déclencher le départ de tous les investigateurs à la fin de la phase d'Investigation. Une fois quitté, ce lieu ne peut plus être exploré.
 TokenDock_SearchBlackStall.button1,{action} Examiner
 TokenDock_SearchBlackStall.text,Étrangement, alors que l'étal lui-même a été fermé pour la nuit, une table présentant ses marchandises a été laissée dehors.
 TokenDock_SearchBlueStall.button1,{action} Examiner
@@ -1411,7 +1364,7 @@ TokenDock_SightDock1Pier.text,Le quai continue vers l'est, hors de vue. Un inves
 TokenDock_SightDock1Street2.button1,Révéler
 TokenDock_SightDock1Street2.text,Au nord, la rue cède la place au quai. Un investigateur sur la tuile {c:TileDock_Street2} peut révéler la zone adjacente.
 TokenDock_SightDock2HouseBoat.button1,Révéler
-TokenDock_SightDock2HouseBoat.text,À l'est, le quai descend vers des amarrages de bateaux non visibles d'où vous vous tenez. Un investigateur sur la tuile {c:TileDock_RentalDock} peut révéler la zone adjacente.
+TokenDock_SightDock2HouseBoat.text,À l'est, le quai descend vers des amarrages de bateaux non visibles d'où vous vous tenez. Un investigateur sur la tuile {c:TileDock_RentalShack} peut révéler la zone adjacente.
 TokenDock_SightRentalDock.button1,Révéler
 TokenDock_SightRentalDock.text,Le quai continue vers le nord, hors de vue. Un investigateur sur la tuile {c:TileDock_Pier} peut révéler la zone adjacente.
 TokenDock_SightStreet2Dock1.button1,Révéler
@@ -1465,30 +1418,21 @@ TokenHouse_ExploreStudyHallCorner2.button1,{action} Explorer
 TokenHouse_ExploreStudyHallCorner2.text,Une porte mène à un petit bureau.
 TokenHouse_ExploreStudyOffice.button1,{action} Explorer
 TokenHouse_ExploreStudyOffice.text,Un raccourci mène au bureau de la maison.
-TokenHouse_InteractExit.button1,{action} Quitter le quartier résidentiel
-TokenHouse_InteractExit.text,Un investigateur peut déclencher le départ de tous les investigateurs de ce lieu à la fin de la phase d'Investigation. Une fois qu'un lieu a été quitté, on ne peut plus y retourner.
-TokenHouse_PersonChild1.button1,{action} Réconforter les enfants
-TokenHouse_PersonChild1.text,Les enfants restent dans leur cachette, s'accrochant l'un à l'autre et se couvrant les yeux de peur.
-TokenHouse_PersonChild2.button1,{action} Libérer les enfants
-TokenHouse_PersonChild2.text,Les enfants restent attachés au lit, assis le visage baigné de larmes dans un silence de pierre.
 TokenHouse_PersonMan1.button1,{action} Libérer l'homme
 TokenHouse_PersonMan1.text,L'homme est assis, ligoté et bâillonné dans un coin de la pièce. Il essaie désespérément de vous parler mais ses mots sont étouffés.
-TokenHouse_PersonMan2.button1,{action} Parler à l'homme
-TokenHouse_PersonMan2.text,L'homme est figé sur place, un regard de terreur dans les yeux alors qu'ils croisent les vôtres.
-TokenHouse_PersonWoman1.button1,{action} Libérer la femme
-TokenHouse_PersonWoman1.text,La femme gît dans la baignoire vide, luttant contre ses liens.
 TokenHouse_PersonWoman2.button1,{action} Parler à la femme
 TokenHouse_PersonWoman2.text,La femme se cache derrière son lit, tenant désespérément un oreiller comme une forme dérisoire de légitime défense.
 TokenHouse_SearchBedroomDesk.button1,{action} Fouiller
 TokenHouse_SearchBedroomDesk.text,Vous voyez diverses feuilles de papier éparpillées contenant des écrits incohérents évoquant l'innommable.
 TokenHouse_SearchCupboards.button1,{action} Fouiller
-TokenHouse_SearchCupboards.text,Le {c:SpawnHouse_KitchenCultLeader} cherchait désespérément quelque chose dans ces placards.
 TokenHouse_SearchDiningTable.button1,{action} Fouiller
 TokenHouse_SearchDiningTable.text,Une arme pourrait être improvisée à partir de l'un des objets posés sur la table de la salle à manger.
 TokenHouse_SearchEntryTable.button1,{action} Fouiller
 TokenHouse_SearchEntryTable.text,La table est renversée sur le côté, son contenu fraîchement éparpillé sur le sol.
 TokenHouse_SearchFilingCabinet_NoPuzzle.button1,{action} Examiner
+TokenHouse_SearchFilingCabinet_NoPuzzle.text,Le contenu du classeur a été éparpillé sur le sol. En jetant un coup d'œil rapide à certaines pages, vous repérez des passages issus de textes religieux païens.
 TokenHouse_SearchFilingCabinet_Puzzle.button1,{action} Tenter
+TokenHouse_SearchFilingCabinet_Puzzle.text,Des pages d'un texte ancien gisent encore au sol dans un désordre total. Vous pouvez tenter de résoudre l'énigme en utilisant {observation} comme action.
 TokenHouse_SearchHallDesk.button1,{action} Fouiller
 TokenHouse_SearchHallDesk.text,Un bureau encombré contient divers livres, dont la plupart semblent plus vieux qu'Arkham elle-même.
 TokenHouse_SearchKidBookshelf.button1,{action} Fouiller
@@ -1516,7 +1460,6 @@ TokenHouse2_SearchBedroomDesk.text,Vous voyez diverses feuilles de papier éparp
 TokenHouse2_SearchCabinet_NoPuzzle.button1,{action} Examiner
 TokenHouse2_SearchCabinet_Puzzle.button1,{action} Tenter
 TokenHouse2_SearchCupboards.button1,{action} Examiner
-TokenHouse2_SearchCupboards.text,Le {c:SpawnHouse2_KitchenCultist} cherchait désespérément quelque chose dans ces placards.
 TokenHouse2_SearchDiningTable.button1,{action} Examiner
 TokenHouse2_SearchDiningTable.text,Une arme pourrait être improvisée à partir de l'un des objets posés sur la table de la salle à manger.
 TokenHouse2_SearchEntryTable.button1,{action} Examiner
@@ -1527,7 +1470,6 @@ TokenHouse2_SearchToyChest.text,En jetant un œil dans le coffre à jouets, vous
 TokenHouse2_SightBathroom.button1,Révéler
 TokenPalace_ExploreAtticBallroom.button1,{action} Explorer
 TokenPalace_ExploreAtticBallroom.text,Une petite porte de service mène plus loin dans le palais. À l'est, des chants sont clairement audibles.
-TokenPalace_ExploreAtticLounge.button1,Continuer
 TokenPalace_ExploreAtticLounge.text,La porte a été condamnée avec des planches et des clous. Bien que vous fassiez de votre mieux pour les arracher, une force surnaturelle les maintient en place.
 TokenPalace_ExploreBallroomAttic.button1,{action} Explorer
 TokenPalace_ExploreBallroomAttic.text,Une porte anonyme mène plus loin dans le palais.
@@ -1563,8 +1505,8 @@ TokenPalace2_ExploreBilliardsRoomEntryHall.button1,{action} Explorer
 TokenPalace2_ExploreBilliardsRoomEntryHall.text,Une porte anonyme mène plus loin dans le palais.
 TokenPalace2_ExploreConservatoryHallCorner1.text,La porte a été condamnée avec des planches et des clous. Bien que vous fassiez de votre mieux pour les arracher, une force surnaturelle les maintient en place.
 TokenPalace2_ExploreConservatoryLounge.button1,{action} Explorer
-TokenPalace2_ExploreHallStairs.button1,{action} Explorer
-TokenPalace2_ExploreHallStairs.text,Une porte anonyme mène plus loin dans le palais.
+TokenPalace2_ExploreHallStairsBallroom.button1,{action} Explorer
+TokenPalace2_ExploreHallStairsBallroom.text,Une porte anonyme mène plus loin dans le palais.
 TokenPalace2_ExploreLoungeConservatory.button1,{action} Explorer
 TokenPalace2_ExploreLoungeConservatory.text,Une porte anonyme mène plus loin dans le palais.
 TokenPalace2_ExploreLoungeEntryHall.button1,{action} Explorer
@@ -1588,8 +1530,6 @@ TokenWarehouse_ExploreWarehouseBasement.button1,{action} Explorer
 TokenWarehouse_ExploreWarehouseBasement.text,Une petite porte en haut de l'escalier mène à la partie principale de l'entrepôt.
 TokenWarehouse_ExploreWarehouseYard2.button1,{action} Explorer
 TokenWarehouse_ExploreWarehouseYard2.text,Une grande porte mène à un entrepôt abandonné destiné aux matériaux industriels.
-TokenWarehouse_InteractExit.button1,{action} Quitter le District Industriel
-TokenWarehouse_InteractExit.text,Un investigateur peut déclencher le départ de tous les investigateurs de ce lieu à la fin de la phase d'Investigation. Une fois qu'un lieu a été quitté, on ne peut plus y retourner.
 TokenWarehouse_SearchBarrel.button1,{action} Examiner
 TokenWarehouse_SearchBarrel.text,Un seul baril scellé se détache au milieu d'une multitude de barils vides.
 TokenWarehouse_SearchBody.button1,{action} Examiner

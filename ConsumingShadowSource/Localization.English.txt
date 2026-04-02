@@ -222,7 +222,7 @@ EventDock2_ExploreStorefront.text,A little bell dings as you open the door to th
 EventDock2_PlaceBeach.button1,Continue
 EventDock2_PlaceBeach.text,On the shoreline you spot a ruined house boat washed up on the shore. Place the {c:TileDock2_Beach} and the {c:TileDock2_HouseBoat} tiles as indicated. Then discard all Sight tokens leading to them.
 EventDock2_PlaceBilliardsRoom.button1,Continue
-EventDock2_PlaceBilliardsRoom.text,You open the door to reveal a small dimly lit room, barely more than a hole in the wall. Place the {c:TileDock2_BilliardsRoom} tile and a door as indicated and discard all Explore tokens leading to it.
+EventDock2_PlaceBilliardsRoom.text,You open the door to reveal a small dimly lit room, barely more than a hole in the wall. Place the {c:TileDock2_BilliardsRoom} tile and a Door as indicated and discard all Explore tokens leading to it.
 EventDock2_PlaceExploreMoldyShack.button1,Continue
 EventDock2_PlaceExploreMoldyShack.text,On the shoreline sits a small nondescript shack. Its dilapidated appearance is interrupted by a pristine locked door with a silver lock. Place an Explore token as indicated.
 EventDock2_PlaceExploresBilliardsRoom.button1,Continue
@@ -264,7 +264,7 @@ EventDock2_PlaceSightsStreetCorners.text,The shoreline of the river is just out 
 EventDock2_PlaceStorefrontSideStreet1.button1,Continue
 EventDock2_PlaceStorefrontSideStreet1.text,You make your way down the winding streets of the commercial district and towards the dock. Place the {c:TileDock2_Storefront} and the {c:TileDock2_SideStreet1} tiles and your Investigator figures as indicated.
 EventDock2_PlaceStreetCorners.button1,Continue
-EventDock2_PlaceStreetCorners.text,Ahead of you is a street running along the shoreline of Miskatonic River. Place the {c:TileDock2_StreetCorner1} and the {c:TileDock2_StreetCorner2} tiles and a wall indicated.
+EventDock2_PlaceStreetCorners.text,Ahead of you is a street running along the shoreline of Miskatonic River. Place the {c:TileDock2_StreetCorner1} and {c:TileDock2_StreetCorner2} tiles and a Wall as indicated.
 EventDock2_RedCrateTrap.button1,Continue
 EventDock2_RedCrateTrap.text,As you tear the lid off the box, the corner of the room begins to crumble, almost as if it had been structurally supported by the crate. An avalanche of soft rotten wood pushes you deep into the large piles of detritus within the shack. Each investigator in the Rental Shack drops 1 random Item. Then discard this Search token.
 EventDock2_SearchBackroomFailure.button1,Continue
@@ -396,7 +396,7 @@ EventHouse_PlaceBandages.text,A first aid kit containing {c:QItemBandages} sits 
 EventHouse_PlaceBedroom2.button1,Continue
 EventHouse_PlaceBedroom2.text,You open the door to reveal a modest master bedroom. Discard this Explore token and place the {c:TileHouse_Bedroom2} tile as indicated.
 EventHouse_PlaceDiningRoom.button1,Continue
-EventHouse_PlaceDiningRoom.text,You open the creaky door, revealing a moderately sized Kitchen and Dining Room. Place the {c:TileHouse_DiningRoom} tile and a wall as indicated and discard all Explore tokens leading to it.
+EventHouse_PlaceDiningRoom.text,You open the creaky door, revealing a moderately sized Kitchen and Dining Room. Place the {c:TileHouse_DiningRoom} tile and a Wall as indicated and discard all Explore tokens leading to it.
 EventHouse_PlaceExploreDiningRoomInteriorHall.button1,Continue
 EventHouse_PlaceExploreDiningRoomInteriorHall.text,A door leads to the family dining room. Place an Explore token as indicated.
 EventHouse_PlaceExploreInteriorHallDiningRoom.button1,Continue
@@ -418,7 +418,7 @@ EventHouse_PlaceHallCorner2.text,You turn the corner, revealing the end of the h
 EventHouse_PlaceHallCorner2Barricade.button1,Continue
 EventHouse_PlaceHallCorner2Barricade.text,A recently emptied cabinet could be used to barricade a door if the need arose. Place a Barricade as indicated.
 EventHouse_PlaceInteriorHall.button1,Continue
-EventHouse_PlaceInteriorHall.text,You open the door to reveal an ordinary looking interior hall. Place the {c:TileHouse_InteriorHall} tile, a door, and walls as indicated and discard all Explore tokens leading to it.
+EventHouse_PlaceInteriorHall.text,You open the door to reveal an ordinary looking interior hall. Place the {c:TileHouse_InteriorHall} tile, a Door, and walls as indicated and discard all Explore tokens leading to it.
 EventHouse_PlaceInteriorHallBarricade.button1,Continue
 EventHouse_PlaceInteriorHallBarricade.text,A small bookshelf in the corridor could be used to barricade a door if the need arose. Place a Barricade as indicated.
 EventHouse_PlaceInvestigators.button1,Continue
@@ -529,11 +529,11 @@ EventHouse2_PlaceBathroom.text,You turn the corner, revealing the end of the hal
 EventHouse2_PlaceBathroomBarricade.button1,Continue
 EventHouse2_PlaceBathroomBarricade.text,A recently emptied cabinet could be used to barricade a door if the need arose. Place a Barricade as indicated.
 EventHouse2_PlaceBedroom1.button1,Continue
-EventHouse2_PlaceBedroom1.text,You open the door to reveal a modest master bedroom. Discard this Explore token and place the {c:TileHouse2_Bedroom1} tile and a wall as indicated.
+EventHouse2_PlaceBedroom1.text,You open the door to reveal a modest master bedroom. Discard this Explore token and place the {c:TileHouse2_Bedroom1} tile and a Wall as indicated.
 EventHouse2_PlaceBedroom2.button1,Continue
 EventHouse2_PlaceBedroom2.text,You open the door to reveal a modest bedroom for two kids. Discard this Explore token and place the {c:TileHouse2_Bedroom2} tile as indicated.
 EventHouse2_PlaceDiningRoom.button1,Continue
-EventHouse2_PlaceDiningRoom.text,You open the creaky door, revealing a moderately sized Kitchen and Dining Room. Place the {c:TileHouse2_DiningRoom} tile and a wall as indicated and discard all Explore tokens leading to it.
+EventHouse2_PlaceDiningRoom.text,You open the creaky door, revealing a moderately sized Kitchen and Dining Room. Place the {c:TileHouse2_DiningRoom} tile and a Wall as indicated and discard all Explore tokens leading to it.
 EventHouse2_PlaceExploreDiningRoomLounge.button1,Continue
 EventHouse2_PlaceExploreDiningRoomLounge.text,A small door provides quick access to the kitchen of the house. Place an Explore token as indicated.
 EventHouse2_PlaceExploreLoungeDiningRoom.button1,Continue
@@ -545,11 +545,11 @@ EventHouse2_PlaceExploresHallEndHallCorner1.text,Four other doors lead into the 
 EventHouse2_PlaceHallEndBarricade.button1,Continue
 EventHouse2_PlaceHallEndBarricade.text,A small bookshelf in the hall could be used to barricade a door if the need arose. Place a Barricade as indicated.
 EventHouse2_PlaceHallEndHallCorner1.button1,Continue
-EventHouse2_PlaceHallEndHallCorner1.text,You go to knock on the front door, only to have it drift open gently in the breeze. Place the {c:TileHouse2_HallEnd} and {c:TileHouse2_HallCorner1} tiles and a wall as indicated.
+EventHouse2_PlaceHallEndHallCorner1.text,You go to knock on the front door, only to have it drift open gently in the breeze. Place the {c:TileHouse2_HallEnd} and {c:TileHouse2_HallCorner1} tiles and a Wall as indicated.
 EventHouse2_PlaceInvestigators.button1,Continue
 EventHouse2_PlaceInvestigators.text,You arrive at the front door. A chilling silence envelops the property. The family inside are making no sound, if they are even still there. Place your Investigator figures as indicated.
 EventHouse2_PlaceLibrary.button1,Continue
-EventHouse2_PlaceLibrary.text,You open the door to reveal an unexpectedly lavish library. Discard this Explore token and place the {c:TileHouse2_Library} tile and a wall as indicated.
+EventHouse2_PlaceLibrary.text,You open the door to reveal an unexpectedly lavish library. Discard this Explore token and place the {c:TileHouse2_Library} tile and a Wall as indicated.
 EventHouse2_PlaceLounge.button1,Continue
 EventHouse2_PlaceLounge.text,You open the door to reveal a spacious lounge that feels out of place in an otherwise humble dwelling. Place the {c:TileHouse2_Lounge} tile as indicated and discard all Explore tokens leading to it.
 EventHouse2_PlacePainkillers.button1,Continue
@@ -707,7 +707,7 @@ EventPalace_PlaceHallCorner2HallEnd.text,Behind the door is a small access corri
 EventPalace_PlaceInteractSummoningRitual.button1,Continue
 EventPalace_PlaceInteractSummoningRitual.text,In the far corner of the attic two robed figures are standing around a summoning circle, their eyes glazed over as they chant dark magic. You have found the summoning ritual. Place an Interact token as indicated.
 EventPalace_PlaceLobby.button1,Continue
-EventPalace_PlaceLobby.text,You burst through the front entrance of the Palace, determined to put an end to these vile cult schemes once and for all. Place the {c:TilePalace_Lobby} tile, a wall, and your Investigator figures as indicated.
+EventPalace_PlaceLobby.text,You burst through the front entrance of the Palace, determined to put an end to these vile cult schemes once and for all. Place the {c:TilePalace_Lobby} tile, a Wall, and your Investigator figures as indicated.
 EventPalace_PlaceLounge.button1,Continue
 EventPalace_PlaceLounge.text,You throw open the door to reveal a small lounge for entertaining waiting visitors. Discard this Explore token and place the {c:TilePalace_Lounge} tile as indicated.
 EventPalace_PlaceSearchTrapdoor.button1,Continue
@@ -726,14 +726,14 @@ EventPalace_RevealMap2_LoungeTrapdoor.button1,Continue
 EventPalace_RevealMap2_LoungeTrapdoor.text,Discard this Search token and place a Trapdoor as indicated.
 EventPalace_RevealMap3_AtticBallroom.button1,Continue
 EventPalace_RevealMap3_AtticBallroom.text,Place the {c:TilePalace_Attic} tile, a Secret Passage, and a Trapdoor as indicated. Then discard the Explore token that connects the {c:TilePalace_Ballroom} and the {c:TilePalace_Attic}.
-EventPalace_RevealMap3_AtticBallroomExplore.button1,Continue
-EventPalace_RevealMap3_AtticBallroomExplore.text,Discard the Explore token connecting the {c:TilePalace_Ballroom} and the {c:TilePalace_Attic}.
 EventPalace_RevealMap3_AtticNoBallroom.button1,Continue
 EventPalace_RevealMap3_AtticNoBallroom.text,Place the {c:TilePalace_Attic} tile, a Secret Passage, and a Trapdoor as indicated.
 EventPalace_RevealMap3_AtticSecretPassage.button1,Continue
 EventPalace_RevealMap3_AtticSecretPassage.text,Place a Secret Passage as indicated.
 EventPalace_RevealMap3_AtticTrapdoor.button1,Continue
 EventPalace_RevealMap3_AtticTrapdoor.text,Place a Trapdoor as indicated.
+EventPalace_RevealMap3_RemoveFinalExplore.button1,Continue
+EventPalace_RevealMap3_RemoveFinalExplore.text,Discard the Explore token connecting the {c:TilePalace_Ballroom} and the {c:TilePalace_Attic}.
 EventPalace_SearchBookshelfFailure.button1,Continue
 EventPalace_SearchBookshelfFailure.text,Though you work as fast as you can the force is ultimately faster. The bookshelf shuts before you can stop it.
 EventPalace_SearchBookshelfSkillCheck.button1,Confirm
@@ -756,16 +756,20 @@ EventPalace2_ExploreConservatoryLoungeSkillCheck.button1,Confirm
 EventPalace2_ExploreConservatoryLoungeSkillCheck.text,You turn the handle and push on the door, only to find it tightly jammed shut. You put all of your strength into pulling open the door ({strength}).
 EventPalace2_ExploreConservatoryLoungeSuccess.button1,Continue
 EventPalace2_ExploreConservatoryLoungeSuccess.text,You pull on the door until its warped frame finally gives way, releasing the door and letting it swing open. You peer through the doorway, seeing a small conservatory on the other side. Discard this Explore token.
+EventPalace2_NoHoursConservatory.button1,Continue
+EventPalace2_NoHoursConservatory.text,You look over and realise in horror that the ritual is mere seconds from reaching completion. Discard this Interact token. Without a second thought you channel the ambient energy into a powerful counter-ritual, ready to banish the invading god.
+EventPalace2_NoHoursNotConservatory.button1,Continue
+EventPalace2_NoHoursNotConservatory.text,The energy swirling around you head enters your mind, giving you a clairvoyant view of the ritual itself. You realise in horror that the ritual is mere seconds from reaching completion. Without a second thought you channel the ambient energy into a powerful counter-ritual, ready to banish the invading god.
 EventPalace2_PlaceAllExploreBallroom.button1,Continue
 EventPalace2_PlaceAllExploreBallroom.text,Two unmarked doors lead further into the palace. Place Explore tokens as indicated.
 EventPalace2_PlaceBallroom.button1,Continue
-EventPalace2_PlaceBallroom.text,You open the door to reveal a lavish ballroom, used to entertain guests with concerts and small plays. The sound of chanting is audibly quieter here. Place the {c:TilePalace2_Ballroom} tile and a door as indicated and discard all Explore tokens leading to it.
+EventPalace2_PlaceBallroom.text,You open the door to reveal a lavish ballroom, used to entertain guests with concerts and small plays. The sound of chanting is audibly quieter here. Place the {c:TilePalace2_Ballroom} tile and a Door as indicated and discard all Explore tokens leading to it.
 EventPalace2_PlaceBilliardsRoom.button1,Continue
 EventPalace2_PlaceBilliardsRoom.text,Behind the door is a cozy sitting room, dominated by a billiards table that is noticibly newer than the rest of the decor. Place the {c:TilePalace2_BilliardsRoom} tile and a Door as indicated and discard all Explore tokens leading to it.
 EventPalace2_PlaceConservatory_RemoveFinalExplore.button1,Continue
-EventPalace2_PlaceConservatory_RemoveFinalExplore.text,A small conservatory acts as the entrance to the palace's beautiful gardens. Recent renovations have closed public access to the grounds, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace2_Conservatory} tile and a door as indicated. Then discard the Explore token that connects the {c:TilePalace2_Lounge} and the {c:TilePalace2_Conservatory}.
+EventPalace2_PlaceConservatory_RemoveFinalExplore.text,A small conservatory acts as the entrance to the palace's beautiful gardens. Recent renovations have closed public access to the grounds, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace2_Conservatory} tile and a Door as indicated. Then discard the Explore token that connects the {c:TilePalace2_Lounge} and the {c:TilePalace2_Conservatory}.
 EventPalace2_PlaceConservatory.button1,Continue
-EventPalace2_PlaceConservatory.text,A small conservatory acts as the entrance to the palace's beautiful gardens. Recent renovations have closed public access to the grounds, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace2_Conservatory} tile and a door as indicated.
+EventPalace2_PlaceConservatory.text,A small conservatory acts as the entrance to the palace's beautiful gardens. Recent renovations have closed public access to the grounds, making it an ideal spot to hide from prying eyes. Place the {c:TilePalace2_Conservatory} tile and a Door as indicated.
 EventPalace2_PlaceConservatorySecretPassage.button1,Continue
 EventPalace2_PlaceConservatorySecretPassage.text,The secret passage twists and winds, before ending at a door with no handle. You push on it gently, and it swings open to reveal a conservatory. Place a Secret Passage as indicated. Then move your investigator figure to that space.
 EventPalace2_PlaceConservatorySewer.button1,Continue
@@ -794,6 +798,28 @@ EventPalace2_PlaceLounge.button1,Continue
 EventPalace2_PlaceLounge.text,You throw open the door to reveal a small lounge for entertaining waiting visitors. Place the {c:TilePalace2_Lounge} tile as indicated and discard all Explore tokens leading to it.
 EventPalace2_PlaceSearchBar.button1,Continue
 EventPalace2_PlaceSearchBar.text,In the corner of a room, a large drinks cabinet catches your eye. It's construction appears much cheaper than the rest of the furniture, and it is suspiciously empty. Place a Search token as indicated.
+EventPalace2_RevealMap1_BilliardsRoom.button1,Continue
+EventPalace2_RevealMap1_BilliardsRoom.text,Place the {c:TilePalace2_BilliardsRoom} tile, a Door, and a Secret Passage as indicated and discard all Explore tokens leading to it.
+EventPalace2_RevealMap1_BilliardsRoomSecretPassage.button1,Continue
+EventPalace2_RevealMap1_BilliardsRoomSecretPassage.text,Discard this Search token and place a Secret Passage as indicated.
+EventPalace2_RevealMap2_Ballroom.button1,Continue
+EventPalace2_RevealMap2_Ballroom.text,Place the {c:TilePalace2_Ballroom} tile and a Door as indicated and discard all Explore tokens leading to it.
+EventPalace2_RevealMap2_HallStairs.button1,Continue
+EventPalace2_RevealMap2_HallStairs.text,Place the {c:TilePalace2_HallStairs} tile, a Door, and a Sewer as indicated and discard all Explore and Sight tokens leading to it.
+EventPalace2_RevealMap2_HallStairsSewer.button1,Continue
+EventPalace2_RevealMap2_HallStairsSewer.text,Discard this Search token and place a Sewer as indicated.
+EventPalace2_RevealMap3_ConservatoryLounge.button1,Continue
+EventPalace2_RevealMap3_ConservatoryLounge.text,Place the {c:TilePalace2_Conservatory} tile, a Door, a Secret Passage, and a Sewer as indicated. Then discard the Explore token that connects the {c:TilePalace2_Lounge} and the {c:TilePalace2_Conservatory}.
+EventPalace2_RevealMap3_ConservatoryNoLounge.button1,Continue
+EventPalace2_RevealMap3_ConservatoryNoLounge.text,Place the {c:TilePalace2_Conservatory} tile, a Door, a Secret Passage, and a Sewer as indicated.
+EventPalace2_RevealMap3_ConservatorySecretPassage.button1,Continue
+EventPalace2_RevealMap3_ConservatorySecretPassage.text,Place a Secret Passage as indicated.
+EventPalace2_RevealMap3_ConservatorySewer.button1,Continue
+EventPalace2_RevealMap3_ConservatorySewer.text,Place a Sewer as indicated.
+EventPalace2_RevealMap3_Lounge.button1,Continue
+EventPalace2_RevealMap3_Lounge.text,Place the {c:TilePalace2_Lounge} tile as indicated and discard all Explore tokens leading to it.
+EventPalace2_RevealMap3_RemoveFinalExplore.button1,Continue
+EventPalace2_RevealMap3_RemoveFinalExplore.text,Discard the Explore token connecting the {c:TilePalace2_Lounge} and the {c:TilePalace2_Conservatory}.
 EventPalace2_SearchBarFailure.button1,Continue
 EventPalace2_SearchBarFailure.text,You spend far too long examining the cabinet, before finally coming to the defeated conclusion that there is nothing to see.
 EventPalace2_SearchBarSkillCheck.button1,Confirm
@@ -858,11 +884,11 @@ EventViewEvidence_CircumstantialEvidence_Green.text,The papers contain specific 
 EventViewEvidence_CircumstantialEvidence_Red.button1,Continue
 EventViewEvidence_CircumstantialEvidence_Red.text,The papers contain specific passages of old pagan poems. Throughout the various writings, there is a strong allusion to the relationship between the colour red and feelings of lust. One of the poems is even titled 'Red Lust.'
 EventViewEvidence_ConclusiveEvidence_Hastur.button1,Continue
-EventViewEvidence_ConclusiveEvidence_Hastur.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Hastur and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_ConclusiveEvidence_Hastur.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it try to torment you with hollow threats. Remember Hastur and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember how our actions stop him from ever trying to enter our world again. Remember, so that we all may sleep soundly."|||
 EventViewEvidence_ConclusiveEvidence_Yig.button1,Continue
-EventViewEvidence_ConclusiveEvidence_Yig.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Yig and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_ConclusiveEvidence_Yig.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it try to torment you with hollow threats. Remember Yig and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember how our actions stop him from ever trying to enter our world again. Remember, so that we all may sleep soundly."|||
 EventViewEvidence_ConclusiveEvidence_Zhar.button1,Continue
-EventViewEvidence_ConclusiveEvidence_Zhar.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it be repeated again. Remember Zhar and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember that he can never try to enter our world again. Remember, so that we do not forget."|||
+EventViewEvidence_ConclusiveEvidence_Zhar.text,|||A passage from an ancient Pagan holy text, roughly translated, reads: "Remember the past, lest it try to torment you with hollow threats. Remember Zhar and his evil ways. Remember how his tricks almost led him to enter our world. Remember how humanity permanently banished him, for time forevermore. Remember how our actions stop him from ever trying to enter our world again. Remember, so that we all may sleep soundly."|||
 EventViewEvidence_CultSigil_Allies.button1,Continue
 EventViewEvidence_CultSigil_Allies.text,|||You quickly realise why this item did not make it to its intended destination. Instead of containing a destination address, the following has been written on the shipping tag: "To the far corners of the near shore. Where madness builds its tall towers soaring high into the ground. Feel your deepest pains and know you are close. Deliver to madness or pain; it does not matter. Together they will destroy you."|||
 EventViewEvidence_CultSigil_Enemies.button1,Continue
@@ -1059,7 +1085,7 @@ EventWarehouse2_PlaceAlleyCorner1Barricade.text,Some heavy barrels and crates co
 EventWarehouse2_PlaceAlleyCorner2.button1,Continue
 EventWarehouse2_PlaceAlleyCorner2.text,After navigating a dizzying maze of criss-crossing alleyways, you think you have identified the abandoned warehouse. Place the {c:TileWarehouse2_AlleyCorner2} tile as indicated.
 EventWarehouse2_PlaceBasement.button1,Continue
-EventWarehouse2_PlaceBasement.text,You open the door to reveal a room shrouded in complete darkness. Place the {c:TileWarehouse2_Basement} tile and a door as indicated and discard any Explore tokens leading to it. Then place Darkness in each space of the {c:TileWarehouse2_Basement}.
+EventWarehouse2_PlaceBasement.text,You open the door to reveal a room shrouded in complete darkness. Place the {c:TileWarehouse2_Basement} tile and a Door as indicated and discard any Explore tokens leading to it. Then place Darkness in each space of the {c:TileWarehouse2_Basement}.
 EventWarehouse2_PlaceBasementBarricade.button1,Continue
 EventWarehouse2_PlaceBasementBarricade.text,Some heavy barrels and crates could be used to barricade a door if the need arose. Place a Barricade as indicated.
 EventWarehouse2_PlaceBellTower.button1,Continue
@@ -1306,6 +1332,24 @@ SpawnPalace2_BilliardsRoomHuntingHorror.button1,Continue
 SpawnPalace2_BilliardsRoomHuntingHorror.text,From the other side of the room you hear an incomprehensible sound coming from an indescribable creature of great horror. Spawn a {c:SpawnPalace2_BilliardsRoomHuntingHorror} as indicated. Then suffer 2 Horror ({will} negates).
 SpawnPalace2_BilliardsRoomStarVampire.button1,Continue
 SpawnPalace2_BilliardsRoomStarVampire.text,From the other side of the room you see the faint shimmer of a barely visible indescribable creature of great horror. Spawn a {c:SpawnPalace2_BilliardsRoomStarVampire} as indicated. Then suffer 2 Horror ({will} negates).
+SpawnPalace2_ConservatoryChildHastur.button1,Continue
+SpawnPalace2_ConservatoryChildHastur.text,|||The second figure removes their hood. "To disrespect an ally of my master, is to disrespect my master directly! I am going to gut you and use your bones to make a brand new set of ritual components. It is just too bad that you will not live to see them used." Spawn a Child of Dagon as indicated. This is the {c:SpawnPalace2_ConservatoryChildHastur}.|||
+SpawnPalace2_ConservatoryChildYig.button1,Continue
+SpawnPalace2_ConservatoryChildYig.text,|||The second figure removes their hood. "To disrespect an ally of my master, is to disrespect my master directly! I am going to gut you and use your bones to make a brand new set of ritual components. It is just too bad that you will not live to see them used." Spawn a Child of Dagon as indicated. This is the {c:SpawnPalace2_ConservatoryChildYig}.|||
+SpawnPalace2_ConservatoryChildZhar.button1,Continue
+SpawnPalace2_ConservatoryChildZhar.text,|||The second figure removes their hood. "To disrespect an ally of my master, is to disrespect my master directly! I am going to gut you and use your bones to make a brand new set of ritual components. It is just too bad that you will not live to see them used." Spawn a Child of Dagon as indicated. This is the {c:SpawnPalace2_ConservatoryChildZhar}.|||
+SpawnPalace2_ConservatoryHastur.button1,Continue
+SpawnPalace2_ConservatoryHastur.text,The summoning ritual completes successfully and a portal into another dimension opens before your very eyes. The lifeless husks of the two robed figures fall to the ground, spared from the horrific repercussions their actions will bring. From the portal itself the ancient being Hastur emerges, ready to take this world as its own. Spawn a Star Spawn as indicated. This is the {c:SpawnPalace2_ConservatoryHastur}.
+SpawnPalace2_ConservatoryPriestHastur.button1,Continue
+SpawnPalace2_ConservatoryPriestHastur.text,|||The first robed figure takes off their hood and turns towards you. "How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!" Spawn a Priest of Dagon as indicated. This is the {c:SpawnPalace2_ConservatoryPriestHastur}.|||
+SpawnPalace2_ConservatoryPriestYig.button1,Continue
+SpawnPalace2_ConservatoryPriestYig.text,|||The first robed figure takes off their hood and turns towards you. "How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!" Spawn a Priest of Dagon as indicated. This is the {c:SpawnPalace2_ConservatoryPriestYig}.|||
+SpawnPalace2_ConservatoryPriestZhar.button1,Continue
+SpawnPalace2_ConservatoryPriestZhar.text,|||The first robed figure takes off their hood and turns towards you. "How dare you interrupt my masters plans you insolent cur! No matter, once I kill you I can undo your pathetic spell and begin the summoning ritual anew!" Spawn a Priest of Dagon as indicated. This is the {c:SpawnPalace2_ConservatoryPriestZhar}.|||
+SpawnPalace2_ConservatoryYig.button1,Continue
+SpawnPalace2_ConservatoryYig.text,The summoning ritual completes successfully and a portal into another dimension opens before your very eyes. The lifeless husks of the two robed figures fall to the ground, spared from the horrific repercussions their actions will bring. From the portal itself the ancient being Yig emerges, ready to take this world as its own. Spawn a Star Spawn as indicated. This is the {c:SpawnPalace2_ConservatoryYig}.
+SpawnPalace2_ConservatoryZhar.button1,Continue
+SpawnPalace2_ConservatoryZhar.text,The summoning ritual completes successfully and a portal into another dimension opens before your very eyes. The lifeless husks of the two robed figures fall to the ground, spared from the horrific repercussions their actions will bring. From the portal itself the ancient being Zhar emerges, ready to take this world as its own. Spawn a Star Spawn as indicated. This is the {c:SpawnPalace2_ConservatoryZhar}.
 SpawnPalace2_EntryHallChildOfTheGoat.button1,Continue
 SpawnPalace2_EntryHallChildOfTheGoat.text,You have managed to arrive early enough in the night for the Palace Custodian to still be on duty. You begin asking them for assistance in locating the ritual, but stop when their unnatural gaze falls upon you. Spawn a {c:SpawnPalace2_EntryHallChildOfTheGoat} as indicated.
 SpawnPalace2_EntryHallDeepOneHybrid.button1,Continue
@@ -1527,7 +1571,7 @@ TokenHouse_PersonWoman2.text,The woman is hiding behind her bed, desperately hol
 TokenHouse_SearchBedroomDesk.button1,{action} Investigate
 TokenHouse_SearchBedroomDesk.text,You see various loose sheaves of paper containing incoherent writing that speaks of the unnatural.
 TokenHouse_SearchCupboards.button1,{action} Investigate
-TokenHouse_SearchCupboards.text,The {c:SpawnHouse_KitchenCultist} was desperately searching for something in these cupboards.
+TokenHouse_SearchCupboards.text,The cultist was desperately searching for something in these cupboards.
 TokenHouse_SearchDiningTable.button1,{action} Investigate
 TokenHouse_SearchDiningTable.text,A weapon could be improvised from one of the items sitting on the Dining Room table.
 TokenHouse_SearchEntryTable.button1,{action} Investigate
@@ -1571,7 +1615,7 @@ TokenHouse2_SearchCabinet_NoPuzzle.text,The cabinet has been crammed full of pag
 TokenHouse2_SearchCabinet_Puzzle.button1,{action} Attempt
 TokenHouse2_SearchCabinet_Puzzle.text,Pages of an ancient text still sit unordered in a drawer. You can attempt the puzzle using {observation} as an action.
 TokenHouse2_SearchCupboards.button1,{action} Investigate
-TokenHouse2_SearchCupboards.text,The {c:SpawnHouse2_KitchenCultist} was desperately searching for something in these cupboards.
+TokenHouse2_SearchCupboards.text,The cultist was desperately searching for something in these cupboards.
 TokenHouse2_SearchDiningTable.button1,{action} Investigate
 TokenHouse2_SearchDiningTable.text,A weapon could be improvised from one of the items sitting on the Dining Room table.
 TokenHouse2_SearchEntryTable.button1,{action} Investigate
@@ -1622,8 +1666,8 @@ TokenPalace2_ExploreBilliardsRoomEntryHall.text,An unmarked door leads further i
 TokenPalace2_ExploreConservatoryHallCorner1.text,The door has been boarded over with planks and nails. Though you try your hardest to tear them away, an unnatural force keeps them where they are.
 TokenPalace2_ExploreConservatoryLounge.button1,{action} Explore
 TokenPalace2_ExploreConservatoryLounge.text,A small back door leads further into the palace. To the north the sound of chanting is clearly audible.
-TokenPalace2_ExploreHallStairs.button1,{action} Explore
-TokenPalace2_ExploreHallStairs.text,An unmarked door leads further into the palace.
+TokenPalace2_ExploreHallStairsBallroom.button1,{action} Explore
+TokenPalace2_ExploreHallStairsBallroom.text,An unmarked door leads further into the palace.
 TokenPalace2_ExploreLoungeConservatory.button1,{action} Explore
 TokenPalace2_ExploreLoungeConservatory.text,An unmarked door leads further into the palace.
 TokenPalace2_ExploreLoungeEntryHall.button1,{action} Explore
@@ -1699,7 +1743,7 @@ UIPalace_FailedBanishText.uitext,|||<align="left">If history books were still to
 UIPalace_GodWinText.uitext,|||<align="left">If history books were still to be written, they would speak highly of your valiant attempt to fight off the ancient one single-handedly. Historians would not fault you for succumbing to your injuries or insanity, as the fight itself was a forgone conclusion. You would be praised for managing to last as long as you did, and hailed as a shining beacon of humanity.\n\nSadly, none of those things would be written about you, or indeed anything else. As the ancient one and its minions poured into our world, few survived more than a couple of minutes. Those that did were relentlessly tortured until they wished they had not.\n\nWhat became of our world after that is too incomprehensibly horrific to describe. Suffice it to say, you should be thankful death came for you first.|||
 UIPalace_IntroContinue.uitext,Continue
 UIPalace_IntroText.uitext,|||<align="left">You drive your car up the long and winding road leading to Governors Palace. While there are several cars parked outside, the building itself is eerily quiet. A thought flashes in your head, what if the translation was wrong? What if there is no invasion happening? You disregard the idea. Even if that were true, you cannot risk what will happen if the translations are correct.\n\nYou pause to consider all of the evidence you have collected so far. You are unsure if it will be enough, but then again, no amount of evidence could sufficiently prepare you for something like this. You steel yourself, before approaching the palaces grand entrance.|||
-UIPalace_PriestsWinText.uitext,|||<align="left">Though you fight valiantly, the priests manage to overpower you and kill you where you stand. Their victory, however, is short lived. As they try to leave the scene of the crime they are caught by police and arrested. They are charged with your murder and sentenced to be hanged. The evidence found in your office and on your person is used to convict the remaining cult members, putting a permanent end to their catastrophic rituals and vile schemes.\n\nYour investigation work single-handedly stopped an invasion of our reality and helped take down three cults, though you did not live to see it happen. Your funeral is a small affair with only one attendee. A police officer, who admired your valiant and unsung work, and wished to spare you from a unremembered passing.\n\nYour death was a red letter day. It marked a decisive victory in the battle between the known and the unknowable. However, though the battle was won, the war was certainly not. Your death marks a significant blow to the effort against the evil cosmic forces lurking in the shadows.\n\nThough you can no longer fight to defend our reality, your actions will inspire a whole new generation of investigators. Ready to explore topics others dismiss. Ready to go places others do not dare. Ready to fight that which would paralyse most men with fear.|||
+UIPalace_PriestsWinText.uitext,|||<align="left">Though you fight valiantly, the priests manage to overpower you and kill you where you stand. Their victory, however, is short lived. As they try to leave the scene of the crime they are caught by police and arrested. They are charged with your murder and sentenced to be hanged. The evidence found in your office and on your person is used to convict the remaining cult members, putting a permanent end to their catastrophic rituals and vile schemes.\n\nYour investigation work single-handedly stopped an invasion of our reality and helped take down three cults, though you did not live to see it happen. Your funeral is a small affair with only one attendee: A police officer, who admired your valiant and unsung work, and wished to spare you from an unremembered passing.\n\nYour death was a red letter day. It marked a decisive victory in the battle between the known and the unknowable. However, though the battle was won, the war was certainly not. Your death marks a significant blow to the effort against the evil cosmic forces lurking in the shadows.\n\nThough you can no longer fight to defend our reality, your actions will inspire a whole new generation of investigators. Ready to explore topics others dismiss. Ready to go places others do not dare. Ready to fight that which would paralyse most men with fear.|||
 UIPrologue_Continue.uitext,Continue
 UIPrologue_Text.uitext,|||<align="left">You throw down the telegram you are reading and curse loudly. How could you have not seen this sooner? You cross-reference the translated runes, but only find evidence that corroborates the story. The telegram must be telling the truth. At the first light of tomorrow morning, a ritual will be performed at the site of the Old Governors Palace. A ritual to summon an Ancient One into our world.\n\nYou stand up and pace around your office. You have spent the last few months occupied with your investigation into three local cults, but you would have never imagined any of them capable of more than hosting tea parties. Clearly, you were mistaken.\n\nWhile the message you have received is a barely coherent ramble, you cannot risk ignoring it. It speaks of one of the cults you have been following as the perpetrator of the vile ritual, with another one lending it aid. The third cult is said to be working against the other two, but you find that fact to be of little solace.\n\nYou slide back into your chair and review the telegram. You desperately search for any clues identifying the cults being discussed, but find nothing. The translated runes on your desk contain exact instructions on how to perform a banishment ritual capable of stopping an Ancient One's invasion. However, the ritual described requires information about the Ancient One being banished to be performed.\n\nYou curse again. You are short on leads and even shorter on time. You throw your jacket on, grab your gun, and head out into town.|||
 UIWarehouse_IntroContinue.uitext,Continue
