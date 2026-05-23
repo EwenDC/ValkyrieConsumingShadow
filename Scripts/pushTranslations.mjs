@@ -47,17 +47,16 @@ const languages = sourceFiles.reduce((map, file) => {
   const fileMatch = file.match(localizationFiles);
   if (fileMatch) {
     const language = fileMatch[1];
-    const filePath = `${sourceDirectory}${file}`;
+    const filePath = join(sourceDirectory, file);
     const fileContents = readFileSync(filePath, fileEncoding);
 
     const strings = new Map();
     const endOfLine = fileContents.includes("\r\n") ? "\r\n" : "\n";
     for (const line of fileContents.split(endOfLine)) {
-      if (line) {
-        const [key, ...valueParts] = line.split(",");
-        const value = valueParts.join();
-        if (!droppedValues.test(value)) strings.set(key, value);
-      }
+      if (!line) continue;
+      const [key, ...valueParts] = line.split(",");
+      const value = valueParts.join();
+      if (!droppedValues.test(value)) strings.set(key, value);
     }
     map.set(language, {
       filePath,
@@ -106,6 +105,7 @@ for (const [
     }
 
     if (missingStrings.size > 0) {
+      console.warn(`${language} is missing ${missingStrings.size} strings!`);
       writeStringsToFile(
         join(import.meta.dirname, `Unlocalized.${language}.txt`),
         missingStrings
@@ -121,3 +121,5 @@ for (const [
 
   writeStringsToFile(filePath, strings, endOfLine);
 }
+
+console.log("Translation push complete");

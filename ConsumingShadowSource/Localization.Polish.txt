@@ -31,11 +31,15 @@ EventDock_ContinueCratePuzzle.text,Zawartość skrzyni jest wciąż zamknięta p
 EventDock_CratePuzzleStart.button1,Kontynuuj
 EventDock_CratePuzzleStart.text,Sięgasz po skrzynię, ale magiczna energia powstrzymuje cię, zanim zdążysz jej dotknąć. Używasz całej swojej siły woli, aby pokonać tę nienaturalną barierę. Naciśnij, aby spróbować rozwiązać łamigłówkę przy pomocy {will}.
 EventDock_CultistJeer_Correct.button1,Kontynuuj
+EventDock_CultistJeer_Correct.text,Kultysta cofa się chwiejnym krokiem, wyraźnie zszokowany. Najwyraźniej trafiłeś w sedno. Zyskujesz 2  <COLOR=GREEN>Wskazówki {clue}</COLOR>.
 EventDock_CultistJeer_IncorrectNegative.button1,Kontynuuj
+EventDock_CultistJeer_IncorrectNegative.text,Twarz kultysty wykrzywia gniew, a on sam zaczyna rzucać w twoim kierunku bełkotliwymi obelgami. Najwyraźniej użyte przez ciebie imię głęboko go poruszyło. Zyskujesz 1 <COLOR=GREEN>Wskazówkę {clue}</COLOR>.
 EventDock_CultistJeer_IncorrectPositive.button1,Kontynuuj
+EventDock_CultistJeer_IncorrectPositive.text,Kultysta spogląda na ciebie zdezorientowanym wzrokiem, po czym wybucha śmiechem. Najwyraźniej nie udało ci się wymienić imienia jego pana, choć imię, które użyłeś nie sprawiło mu przykrości. Zyskujesz 1 <COLOR=GREEN>Wskazówkę {clue}</COLOR>.
 EventDock_CultistJeer.button1,Czy wykonujesz rozkazy Hastura?
 EventDock_CultistJeer.button2,Po co tracić tak wiele tylko po to, by służyć Yigowi?
 EventDock_CultistJeer.button3,Jakimi kłamstwami karmi cię Zhar, szaleńcze?
+EventDock_CultistJeer.text,Kultysta unosi pięść i zaczyna wściekle wykrzykiwać pod twoim adresem niezrozumiały bełkot w nieznanym ci języku. Chociaż słowa te nie mają absolutnie żadnego sensu, ich znaczenie jest jasne.
 EventDock_ExploreCabin.button1,Kontynuuj
 EventDock_ExploreCabin.text,"Wkładasz klucz do drzwi, odblokowując je z kliknięciem. Wewnątrz łodzi znajduje się przytulna przestrzeń mieszkalna przeznaczona dla jednego mieszkańca. \n\nOdrzuć wszystkie Żetony Eksploracji prowadzące do kabiny."
 EventDock_ExploreCabinKey.button1,{action} Eksploruj
@@ -63,6 +67,7 @@ EventDock_GreenCrateTrap.button1,Kontynuuj
 EventDock_GreenCrateTrap.text,"Otwierasz skrzynię i okazuje się, że jest całkowicie pusta. Runy na powierzchni drewna jarzą się złowieszczo, a morze wokół ciebie staje się coraz bardziej wzburzone. Duża fala nagle uderza w łódź, rzucając cię na ziemię. \n\nKażdy Badacz znajdujący się w kabinie otrzymuje 1 Zakrytą Kartę Obrażenia. Odrzuć ten Żeton Przeszukiwania."
 EventDock_GreenItemPickup.button1,Kontynuuj
 EventDock_GreenItemPickup.button2,Pokaż wskazówkę
+EventDock_GreenItemPickup.text,Chociaż nie udaje ci się znaleźć przeklętego przedmiotu, dostrzegasz ważny dowód ukryty wśród śmieci. Zauważasz wisiorek, który choć dla niewprawnego oka wygląda niegroźnie, jest ewidentnie symbolem przynależności do kultu. Zakładasz, że został on zgubiony podczas ostatniej dostawy, ponieważ przywiązana jest do niego etykieta wysyłkowa. Otrzymujesz unikatowy przedmiot <COLOR=CYAN>{c:QItemCultSigil}</COLOR>. Następnie odrzuć ten <COLOR=CYAN>Żeton Przeszukiwania</COLOR>. Badacz posiadający <COLOR=CYAN>{c:QItemCultSigil}</COLOR> może go badać przy użyciu aplikacji.
 EventDock_GreenKeyPickup.button1,Kontynuuj
 EventDock_GreenKeyPickup.text,|||Wśród sterty bezużytecznych drobiazgów nagle dostrzegasz małą, skórzaną sakiewkę zawierającą {c:QItemGoldKey}. Sakiewka posiada wyhaftowaną wiadomość o treści: "Bądź silny umysłem". \n\nOtrzymujesz przedmiot unikatowy {c:QItemGoldKey}. Odrzuć ten Żeton Przeszukiwania.|||
 EventDock_PlaceDock1.button1,Kontynuuj
@@ -102,6 +107,7 @@ EventDock_PlaceSearchRentalDockGoods.text,"Wśród łodzi dostępnych do wynaję
 EventDock_PlaceSearchRowboat.button1,Kontynuuj
 EventDock_PlaceSearchRowboat.text,"Zniszczona łódź znajduje się już w połowie pod morską tonią. Wygląda na to, że plandeka niedbale rzucona na łódź została niedawno naruszona, a jeden z jej rogów łopocze na wietrze. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock_PlaceSedatives.button1,Kontynuuj
+EventDock_PlaceSedatives.text,Na nabrzeżu leży porzucony przedmiot, który mógł się zgubić z większej dostawy. Umieść przedmiot powszechny <COLOR=CYAN>{c:QItemSedatives}</COLOR> we wskazanym miejscu.
 EventDock_PlaceSightDock1Street2.button1,Kontynuuj
 EventDock_PlaceSightDock1Street2.text,"Na północy ulica ustępuje miejsca dokowi. \n\nUmieść Żeton Obserwacji we wskazanym miejscu. Badacz stojący na polu {c:TileDock_Street2} może wejść w interakcję z tym żetonem, aby odsłonić sąsiedni obszar."
 EventDock_PlaceSightDock2HouseBoat.button1,Kontynuuj
@@ -203,56 +209,89 @@ EventDock_WomanNote.text,|||Rozwijasz notatkę i czytasz ją uważnie. "Otwórzc
 EventDock2_ExploreCabin.button1,Kontynuuj
 EventDock2_ExploreCabin.text,"Wkładasz klucz do drzwi, odblokowując je z kliknięciem. Wewnątrz łodzi znajduje się przytulna przestrzeń mieszkalna przeznaczona dla jednego mieszkańca. \n\nOdrzuć wszystkie Żetony Eksploracji prowadzące do kabiny."
 EventDock2_ExploreMoldyShack.button1,Kontynuuj
+EventDock2_ExploreMoldyShack.text,Przekręcasz klucz i słyszysz wyraźne kliknięcie. Drzwi zgrzytają o zniszczone deski podłogi starej szopy, gdy je otwierasz. Odrzuć ten <COLOR=CYAN>Żeton Eksploracji</COLOR>.
 EventDock2_ExploreMoldyShackKey.button1,{action} Eksploruj
 EventDock2_ExploreMoldyShackKey.button2,Anuluj
+EventDock2_ExploreMoldyShackKey.text,Ta mała, niepozorna chatka zamknięta została na nowiutki, srebrny zamek. Możesz ją zbadać tylko wtedy, gdy posiadasz przedmiot unikatowy <COLOR=CYAN>{c:QItemSilverKey}</COLOR>.
 EventDock2_ExploreMoldyShackNoKey.button1,Kontynuuj
+EventDock2_ExploreMoldyShackNoKey.text,Ta mała, niepozorna chatka zamknięta została na nowiutki, srebrny zamek. 
 EventDock2_ExploreSnackShack.button1,Kontynuuj
 EventDock2_ExploreSnackShack.text,"Zdejmujesz kłódki zabezpieczające łańcuchy, uwalniając wątłe drzwi. Ostrożnie pociągasz za klamkę, odsłaniając wnętrze chaty. \n\nOdrzuć ten Żeton Eksploracji."
 EventDock2_ExploreStorefront.button1,Kontynuuj
+EventDock2_ExploreStorefront.text,Gdy otwierasz drzwi do sklepu, rozlega się dźwięk dzwoneczka. Odrzuć ten <COLOR=CYAN>Żeton Eksploracji</COLOR>.
 EventDock2_PlaceBeach.button1,Kontynuuj
+EventDock2_PlaceBeach.text,Na brzegu dostrzegasz rozbitą łódź mieszkalną. Umieść kafelki <COLOR=CYAN>{c:TileDock2_Beach}</COLOR> i <COLOR=CYAN>{c:TileDock2_HouseBoat}</COLOR> we wskazanym miejscu. Następnie odrzuć wszystkie <COLOR=CYAN>Żetony Obserwacji</COLOR> które do nich prowadzą.
 EventDock2_PlaceBilliardsRoom.button1,Kontynuuj
+EventDock2_PlaceBilliardsRoom.text,Otwierasz drzwi i przed tobą pojawia się niewielkie, słabo oświetlone pomieszczenie, niewiele większe od dziury w ścianie. Umieść kafelek <COLOR=CYAN>{c:TileDock2_BilliardsRoom}</COLOR> oraz drzwi we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR>, które do niego prowadzą.
 EventDock2_PlaceExploreMoldyShack.button1,Kontynuuj
+EventDock2_PlaceExploreMoldyShack.text,Na wybrzeżu stoi mała, niepozorna chatka. Jej zrujnowany wygląd przełamują nieskazitelnie czyste, zamknięte drzwi ze srebrnym zamkiem. Umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 EventDock2_PlaceExploresBilliardsRoom.button1,Kontynuuj
+EventDock2_PlaceExploresBilliardsRoom.text,Po drugiej stronie ulicy widać fasadę małej sali bilardowej. Umieść <COLOR=CYAN>Żetony Eksploracji</COLOR> we wskazanych miejscach.
 EventDock2_PlaceExploresCabin.button1,Kontynuuj
 EventDock2_PlaceExploresCabin.text,"Drzwi na dziobie i rufie łodzi prowadzą do niewielkiej przestrzeni wewnętrznej. W obu drzwiach znajdują się zdobione, złote dziurki na klucz, które wydają się być zamknięte. \n\nUmieść Żetony Eksploracji we wskazanych miejscach."
 EventDock2_PlaceExploreSnackShack.button1,Kontynuuj
 EventDock2_PlaceExploreSnackShack.text,"Ta niewielka chatka przykuwa twoją uwagę. Choć budynek sprawia wrażenie opuszczonego i nie zawierającego w sobie nic wartościowego, to jednak zauważasz, że ktoś zadbał o to, aby nikt nieproszony nie zdołał wejść do środka. Chatka została bowiem solidnie zabezpieczona ciężkimi łańcuchami z mosiężnymi zamkami. \n\nUmieść Żeton Eksploracji we wskazanym miejscu."
 EventDock2_PlaceExploreStorefront.button1,Kontynuuj
+EventDock2_PlaceExploreStorefront.text,Mały sklepik z drobiazgami, choć nie widać w nim żadnych oznak życia, wydaje się być nadal otwarty. Umieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.
 EventDock2_PlacePier.button1,Kontynuuj
+EventDock2_PlacePier.text,Na północy dostrzegasz dok. Umieść kafelek <COLOR=CYAN>{c:TileDock2_Pier}</COLOR> we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Obserwacji</COLOR>, które do niego prowadzą.
 EventDock2_PlacePierGoods.button1,Kontynuuj
+EventDock2_PlacePierGoods.text,Na nabrzeżu leżą różne stosy śmieci. Choć na pierwszy rzut oka nie wydają się one interesujące, dochodzisz do wniosku, że nie zaszkodzi ich mimo wszystko przeszukać. Umieść <COLOR=CYAN>Żetony Przeszukiwania</COLOR> we wskazanych miejscach.
 EventDock2_PlaceSearchBar.button1,Kontynuuj
+EventDock2_PlaceSearchBar.text,Mały bar został przekształcony w magazyn, w którym przechowuje się podejrzane, nieoznakowane skrzynie. Umieść <COLOR=CYAN>Żeton Przeszukania</COLOR> we wskazanym miejscu.
 EventDock2_PlaceSearchBlueCrate.button1,Kontynuuj
 EventDock2_PlaceSearchBlueCrate.text,"Wnętrze szałasu jest całkowicie puste, z wyjątkiem jednej skrzyni ładunkowej, która została umieszczona na jego środku. Pojemnik został pokryty niebieskimi runami, a powietrze wokół niego iskrzy od dziwnej energii. Być może zawiera on komponenty, których szukasz. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock2_PlaceSearchesBeach.button1,Kontynuuj
+EventDock2_PlaceSearchesBeach.text,Ładunek z rozbitego statku rozsypało się po jego zniszczonym pokładzie oraz plaży nieopodal. Umieść <COLOR=CYAN>Żetony Przeszukiwania</COLOR> we wskazanych miejscach.
 EventDock2_PlaceSearchesStorefront.button1,Kontynuuj
+EventDock2_PlaceSearchesStorefront.text,Zauważasz kilka miejsc, w których mogła się znaleźć rzecz z przeklętej skrzyni. Umieść <COLOR=CYAN>Żetony Przeszukiwania</COLOR> we wskazanych miejscach.
 EventDock2_PlaceSearchGreenCrate.button1,Kontynuuj
 EventDock2_PlaceSearchGreenCrate.text,Dziwna skrzynia została wepchnięta w róg kabiny. Pojemnik został pokryty zielonymi runami, a powietrze wokół niego iskrzy od dziwnej energii. Być może zawiera on komponenty, których szukasz.
 EventDock2_PlaceSearchPosters.button1,Kontynuuj
 EventDock2_PlaceSearchPosters.text,"Ceglana ściana tego budynku została pokryta różnymi ulotkami i plakatami. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock2_PlaceSearchRedCrate.button1,Kontynuuj
+EventDock2_PlaceSearchRedCrate.text,W stercie zgniłego drewna dostrzegasz nienaruszoną, czerwoną skrzynię. Z jej wnętrza wydobywa się słaba poświata, a do skrzyni przymocowana jest etykieta pokryta starożytnymi runami. Być może zawiera ona elementy, których szukasz. Umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 EventDock2_PlaceSearchRowboat.button1,Kontynuuj
 EventDock2_PlaceSearchRowboat.text,"Zniszczona łódź znajduje się już w połowie pod morską tonią. Wygląda na to, że plandeka niedbale rzucona na łódź została niedawno naruszona, a jeden z jej rogów łopocze na wietrze. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventDock2_PlaceSedatives.button1,Kontynuuj
+EventDock2_PlaceSedatives.text,Z szczeliny pomiędzy poduszkach małej sofy wystaje jakiś przedmiot, który najprawdopodobniej wypadł komuś z kieszeni i nikt tego nie zauważył. Umieść przedmiot <COLOR=CYAN>{c:QItemSedatives}</COLOR> we wskazanym miejscu.
 EventDock2_PlaceSightBeachPier.button1,Kontynuuj
+EventDock2_PlaceSightBeachPier.text,Duże drewniane deski pomostu zasłaniają linię brzegową poniżej. Umieść <COLOR=CYAN>Żeton Obserwacji</COLOR> we wskazanym miejscu. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TileDock2_Pier}</COLOR> może eksplorować sąsiedni obszar.
 EventDock2_PlaceSightPierBeach.button1,Kontynuuj
+EventDock2_PlaceSightPierBeach.text,Lekka mgła zasłania dalszą część nabrzeża. Umieść <COLOR=CYAN>Żeton Obserwacji</COLOR> we wskazanym miejscu. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TileDock2_Beach}</COLOR> lub <COLOR=CYAN>{c:TileDock2_HouseBoat}</COLOR> może eksplorować sąsiedni obszar.
 EventDock2_PlaceSightsStreetCorners.button1,Kontynuuj
+EventDock2_PlaceSightsStreetCorners.text,Z miejsca, w którym się teraz znajdujesz, brzeg rzeki jest niewidoczny. Umieść <COLOR=CYAN>Żeton Obserwacji</COLOR> we wskazanym miejscu.
 EventDock2_PlaceStorefrontSideStreet1.button1,Kontynuuj
+EventDock2_PlaceStorefrontSideStreet1.text,Podążasz krętymi uliczkami dzielnicy handlowej w kierunku nabrzeża. Umieść kafelki <COLOR=CYAN>{c:TileDock2_Storefront}</COLOR> i <COLOR=CYAN>{c:TileDock2_SideStreet1}</COLOR> oraz figurki Badaczy we wskazanych miejscach.
 EventDock2_PlaceStreetCorners.button1,Kontynuuj
+EventDock2_PlaceStreetCorners.text,Przed tobą rozciąga się ulica biegnąca wzdłuż brzegu rzeki Miskatonic. Umieść kafelki <COLOR=CYAN>{c:TileDock2_StreetCorner1}</COLOR> i <COLOR=CYAN>{c:TileDock2_StreetCorner2}</COLOR> oraz ścianę we wskazanym miejscu.
 EventDock2_RedCrateTrap.button1,Kontynuuj
+EventDock2_RedCrateTrap.text,Gdy zrywasz pokrywę skrzyni, róg pomieszczenia zaczyna się osuwać, jakby to właśnie skrzynia stanowiła jego podporę. Lawina miękkiego, zgniłego drewna spycha cię głęboko w stosy gruzu wewnątrz szopy. Każdy badacz przebywający w wewnątrz szopy upuszcza 1 losowy przedmiot. Następnie odrzuć ten <COLOR=CYAN>Żeton Przeszukania</COLOR>.
 EventDock2_SearchBackroomFailure.button1,Kontynuuj
+EventDock2_SearchBackroomFailure.text,Przypadkowo strącasz otwarte pudełko z wysokiej półki, a jego zawartość rozsypuje się po całej podłodze. Przerywasz poszukiwania, żeby posprzątać bałagan. 
 EventDock2_SearchBackroomSkillCheck.button1,Zatwierdź
+EventDock2_SearchBackroomSkillCheck.text,Rozpoczynasz żmudny proces przeglądania różnych pudełek ({observation}).
 EventDock2_SearchBarFailure.button1,Kontynuuj
+EventDock2_SearchBarFailure.text,Po przeszukaniu wielu skrzyń i nieznalezieniu niczego wartego uwagi, w końcu się poddajesz i dajesz odpocząć obolałym ramionom.
 EventDock2_SearchBarSkillCheck.button1,Zatwierdź
+EventDock2_SearchBarSkillCheck.text,Zaczynasz żmudną pracę polegającą na otwieraniu każdej skrzyni w celu sprawdzenia jej zawartości ({strength}).
 EventDock2_SearchDisplayFailure.button1,Kontynuuj
+EventDock2_SearchDisplayFailure.text,Jesteś tak pochłonięty wykonywanym zadaniem, że nie czujesz, jak wymyka ci się z rąk ciężka, szklana pokrywa. Zauważasz to w samą porę, by cofnąć rękę, zanim pokrywa z hukiem się zamknie.
 EventDock2_SearchDisplaySkillCheck.button1,Zatwierdź
+EventDock2_SearchDisplaySkillCheck.text,Delikatnie podnosisz pokrywę i wsuwasz pod nią rękę, grzebiąc dłonią wśród drobiazgów ({observation}).
 EventDock2_SearchHouseBoatGoodsWFailure.button1,Kontynuuj
 EventDock2_SearchHouseBoatGoodsWFailure.text,Przeszukujesz sterty przedmiotów, ale nie znajdujesz nic interesującego.
 EventDock2_SearchHouseBoatGoodsWSkillCheck.button1,Zatwierdź
+EventDock2_SearchHouseBoatGoodsWSkillCheck.text,Przeglądasz przedmioty rozłożone na pokładzie, szukając czegoś przydatnego ({observation}).
 EventDock2_SearchRedCrate.button1,{action} Otwórz
 EventDock2_SearchRedCrate.button2,Anuluj
+EventDock2_SearchRedCrate.text,W stosie zgniłego drewna leży czerwona skrzynia. Z jej wnętrza wydobywa się słaba poświata, a na zewnątrz zwisa przywieszka pokryta starożytnymi runami. Być może znajdziesz w niej elementy, których szukasz.
 EventDock2_SearchShelvesFailure.button1,Kontynuuj
+EventDock2_SearchShelvesFailure.text,Przeszukiwanie wydaje się trwać całe wieki, ale pomimo tego ledwo udaje ci się napocząć całe stosy przedmiotów, które wypełniają tutejsze półki.
 EventDock2_SearchShelvesSkillCheck.button1,Zatwierdź
+EventDock2_SearchShelvesSkillCheck.text,Przeglądasz ogromne ilości śmieci zalegających na półkach ({observation}).
 EventDock2_WomanEntrance.button1,Kontynuuj
+EventDock2_WomanEntrance.text,Kobieta w średnim wieku skręca za róg ulicy i zmierza w twoim kierunku. Nagle zatrzymuje się, gdy jej wzrok spotyka się z twoim.
 EventDock2_WomanExit.button1,Kontynuuj
 EventDock2_WomanExit.text,Szybko podchodzi do ciebie i zdecydowanym ruchem wciska ci do ręki pomięty skrawek papieru. Zanim zdążysz zareagować na to nietypowe zachowanie, kobieta pospiesznie oddala się długą, krętą ulicą prowadzącą w kierunku centrum miasta i znika ci z pola widzenia.
 EventDockEnd_ComponentsNotTaken.button1,Kontynuuj
@@ -271,6 +310,7 @@ EventEliminated_Palace.button1,Kontynuuj
 EventEliminated_Palace.text,Śmierć jednego z badaczy uniemożliwia wam dokończenie kontr-rytuału i wygnanie Przedwiecznego, zanim ten zaatakuje naszą rzeczywistość.
 EventErrorState.button1,Kontynuuj scenariusz
 EventErrorState.button2,Natychmiastowa wygrana
+EventErrorState.text,"!! BŁĄD KRYTYCZNY !!\n\n{action} Osiągnąłeś stan gry, który nie powinien być dostępny w ramach normalnej rozgrywki. Być może scenariusz uległ uszkodzeniu w sposób uniemożliwiający dalszą grę.\ n\n{clue} Proszę zgłosić nowy problem na stronie https://github.com/EwenDC/ValkyrieConsumingShadow/issues, dołączając zapis gry oraz opis zawierający listę kroków jakie wykonałeś podczas tej rozgrywki, co pozwoli autorowi scenariusza odtworzyć błąd.\n\n{success} Bardzo przepraszam za niedogodności. Aby to zrekompensować, poniżej znajduje się przycisk natychmiastowej wygranej (chociaż uprzejmie zalecam raczej ponowne uruchomienie scenariusza)."
 EventHorrificHive_ActivationMeleeAttack_Effect1.button1,Kontynuuj
 EventHorrificHive_ActivationMeleeAttack_Effect1.text,Macka przebija twoje ciało, doprowadzając cię do rozdzierającej agonii. Otrzymujesz 2 Zakryte Karty Obrażeń ({strength}-1 neguje).
 EventHorrificHive_ActivationMeleeAttack_Effect2.button1,Kontynuuj
@@ -304,17 +344,27 @@ EventHorrificHive_Horror_Effect3.text,Zastanawiasz się, w jaki sposób doszło 
 EventHorrificHive_Horror_Effect4.button1,Kontynuuj
 EventHorrificHive_Horror_Effect4.text,Spoglądasz na twarz znajdującą się pośrodku tej bezkształtnej masy i ogarnia cię poczucie, że gdzieś już ją widziałeś ({observation}; 2). Jeśli zdałeś, zdajesz sobie sprawę, że się pomyliłeś i stajesz się zdeterminowany, aby ochronić osobę, o której myślałeś; otrzymujesz stan Skoncentrowany. Jeśli nie zdałeś, dochodzisz do wniosku, że znasz tę osobę, a jej potworny los wstrząsa tobą do głębi; otrzymujesz 2 Karty Przerażenia i następnie odwróć 2 Karty Przerażenia.
 EventHouse_CultistJeer_HasturCorrect.button1,Kontynuuj
+EventHouse_CultistJeer_HasturCorrect.text,Kultysta uśmiecha się figlarnie. „Mój pan jest potężniejszy, niż ci się wydaje”. Zyskujesz 2 wskazówki {clue}.
 EventHouse_CultistJeer_HasturIncorrectNegative.button1,Kontynuuj
+EventHouse_CultistJeer_HasturIncorrectNegative.text,Na twarzy kultysty dostrzegasz wyraz, który można by pomylić z radością. „To właśnie brak władzy, jaką ten demon ma w tej krainie, sprawia, że moje działania są skuteczne”. Zyskujesz 1 wskazówkę {clue}.
 EventHouse_CultistJeer_HasturIncorrectPositive.button1,Kontynuuj
+EventHouse_CultistJeer_HasturIncorrectPositive.text,Kultysta uśmiecha się ironicznie. „Dzięki połączeniu mocy jego i mojego Mistrza są w stanie dokonać więcej, niż jesteś w stanie sobie wyobrazić”. Zyskujesz 1 wskazówkę {clue}.
 EventHouse_CultistJeer_YigCorrect.button1,Kontynuuj
+EventHouse_CultistJeer_YigCorrect.text,Kultysta warczy na ciebie. „Nie jesteś wystarczająco ważny, by wypowiadać imię mojego pana”. Zyskujesz 2 wskazówki {clue}.
 EventHouse_CultistJeer_YigIncorrectNegative.button1,Kontynuuj
+EventHouse_CultistJeer_YigIncorrectNegative.text,Twarz kultysty płonie z wściekłości. „Jak śmiesz sugerować, że oddałbym się w służbę temu diabłu”. Zyskujesz 1 wskazówkę {clue}.
 EventHouse_CultistJeer_YigIncorrectPositive.button1,Kontynuuj
+EventHouse_CultistJeer_YigIncorrectPositive.text,Kultysta śmieje się z ciebie. „Głupcze. Choć jest on zamożny i potężny, to nie służę mu”. Zyskujesz 1 wskazówkę {clue}.
 EventHouse_CultistJeer_ZharCorrect.button1,Kontynuuj
+EventHouse_CultistJeer_ZharCorrect.text,Kultysta uśmiecha się do ciebie złośliwie. „Bogactwa, które obdarzył mnie mój pan, nie są żadnym oszustwem”. Zyskujesz 2 wskazówki {clue}.
 EventHouse_CultistJeer_ZharIncorrectNegative.button1,Kontynuuj
+EventHouse_CultistJeer_ZharIncorrectNegative.text,Na twarzy kultysty miga wyraz irytacji. „Niewiele wiesz o tym, o czym mówisz. Nie dałem się zwieść; jego kłamstwa są mi dobrze znane”. Zyskujesz 1 wskazówkę {clue}.
 EventHouse_CultistJeer_ZharIncorrectPositive.button1,Kontynuuj
+EventHouse_CultistJeer_ZharIncorrectPositive.text,Kultysta spogląda na ciebie zdezorientowanym wzrokiem. „Czy chcesz przez to powiedzieć, że Zhar zdradziłby mojego pana? Nie masz pojęcia, o czym mówisz”. Zyskujesz 1 wskazówkę {clue}.
 EventHouse_CultistJeer.button1,Rzuć broń, sługo Yiga, a zostaniesz oszczędzony.
 EventHouse_CultistJeer.button2,Jesteś zdrajcą ludzkości, kultysto. Zhar cię oszukał.
 EventHouse_CultistJeer.button3,Hastur nie ma tu żadnej władzy. Niczego tu nie osiągniesz.
+EventHouse_CultistJeer.text,Kultysta odwraca uwagę od szafek i kieruje ją na ciebie. Z drwiną w głosie mówi: „Nie wygląda na to, żebyś miał przy sobie coś wartościowego, ale i tak chętnie zabiorę to, co masz”.
 EventHouse_ExploreBathroom.button1,Kontynuuj
 EventHouse_ExploreBathroom.text,"Otwierasz drzwi prowadzące do łazienki. \n\nOdrzuć ten Żeton Eksploracji."
 EventHouse_ExploreSmallBedroom1.button1,Kontynuuj
@@ -424,6 +474,7 @@ EventHouse_SearchCupboardsFailure.text,Wkładasz całą swoją siłę w próbę 
 EventHouse_SearchCupboardsSkillCheck.button1,Zatwierdź
 EventHouse_SearchCupboardsSkillCheck.text,Zauważasz fałszywy panel z tyłu jednej szafek i próbujesz go oderwać ({strength}).
 EventHouse_SearchCupboardsSuccess.button1,Kontynuuj
+EventHouse_SearchCupboardsSuccess.text,Odrywasz kawałek drewna i odkrywasz małe pudełko na biżuterię. W środku znajduje się coś, co można uznać za całe oszczędności tej rodziny. To zapewne właśnie tego szukał kultysta. Zyskujesz 1 wskazówkę {clue}. Następnie odrzuć ten <COLOR=CYAN>Żeton Przeszukiwania</COLOR>.
 EventHouse_SearchDiningTableFailureThermos.button1,Kontynuuj
 EventHouse_SearchDiningTableFailureThermos.text,"Wpadasz w panikę i chwytasz cokolwiek, co leży najbliżej ciebie na stole, zbyt późno zdając sobie sprawę, że w obecnym stanie nie może być użyte jako broń. \n\nOtrzymujesz przedmiot powszechny {c:QItemThermos}. Następnie odrzuć ten Żeton Przeszukiwania."
 EventHouse_SearchDiningTableFailureWhiskey.button1,Kontynuuj
@@ -468,27 +519,39 @@ EventHouse_ViewPersonWoman1.text,Kobieta leży w pustej wannie, szamocząc się 
 EventHouse2_ExploreBathroom.button1,Kontynuuj
 EventHouse2_ExploreBathroom.text,"Otwierasz drzwi prowadzące do łazienki. \n\nOdrzuć ten Żeton Eksploracji."
 EventHouse2_InteractPersonWoman2.button1,Kontynuuj
+EventHouse2_InteractPersonWoman2.text,Twoje pierwsze próby nawiązania rozmowy z tą kobietą nie spotykają się z żadnym odzewem. W końcu udaje ci się przyciągnąć jej uwagę, a ona niemal podskakuje z radości na widok przyjaznej twarzy.
 EventHouse2_Place45Automatic.button1,Kontynuuj
+EventHouse2_Place45Automatic.text,Na podłodze leży stary, zniszczony pistolet, który najprawdopodobniej wypadł komuś z rąk podczas jakiejś szamotaniny, zanim zdążono go użyć. Umieść przedmiot <COLOR=CYAN>{c:QItem45Automatic}</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceBandages.button1,Kontynuuj
 EventHouse2_PlaceBandages.text,Apteczka zawierająca {c:QItemBandages} znajduje się na półce w łazience. Umieść przedmiot powszechny {c:QItemBandages} we wskazanym miejscu.
 EventHouse2_PlaceBathroom.button1,Kontynuuj
+EventHouse2_PlaceBathroom.text,Skręcasz za róg i widzisz koniec korytarza. Odrzuć ten <COLOR=CYAN>Żeton Obserwacji</COLOR>. Następnie umieść kafelek <COLOR=CYAN>{c:TileHouse2_Bathroom}</COLOR> oraz ścianę we wskazanym miejscu.
 EventHouse2_PlaceBathroomBarricade.button1,Kontynuuj
 EventHouse2_PlaceBathroomBarricade.text,"Niedawno opróżniona szafka może zostać użyta do zabarykadowania drzwi, jeśli zajdzie taka potrzeba. \n\nUmieść Żeton Barykady we wskazanym miejscu."
 EventHouse2_PlaceBedroom1.button1,Kontynuuj
+EventHouse2_PlaceBedroom1.text,Po otwarciu drzwi ukazuje się skromna sypialnia. Odrzuć ten <COLOR=CYAN>Żeton Eksploracji</COLOR> i umieść kafelek <COLOR=CYAN>{c:TileHouse2_Bedroom1}</COLOR> oraz ścianę we wskazanym miejscu.
 EventHouse2_PlaceBedroom2.button1,Kontynuuj
+EventHouse2_PlaceBedroom2.text,Po otwarciu drzwi twoim oczom ukazuje się skromna sypialnia dla dwojga dzieci. Odrzuć ten <COLOR=CYAN>Żeton Eksploracji</COLOR> i umieść kafelek <COLOR=CYAN>{c:TileHouse2_Bedroom2}</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceDiningRoom.button1,Kontynuuj
 EventHouse2_PlaceDiningRoom.text,Otwierasz skrzypiące drzwi, odsłaniając średniej wielkości kuchnię i jadalnię. Umieść kafelek {c:TileHouse2_DiningRoom} i Żeton Ściany we wskazanym miejscu oraz odrzuć wszystkie Żetony Eksploracji prowadzące do tego miejsca.
 EventHouse2_PlaceExploreDiningRoomLounge.button1,Kontynuuj
+EventHouse2_PlaceExploreDiningRoomLounge.text,Małe drzwi zapewniają szybki dostęp do kuchni w domu. Umieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceExploreLoungeDiningRoom.button1,Kontynuuj
 EventHouse2_PlaceExploreLoungeDiningRoom.text,Zauważasz inne wyjście z pomieszczenia. Umieść Żeton Eksploracji we wskazanym miejscu.
 EventHouse2_PlaceExploresBathroom.button1,Kontynuuj
+EventHouse2_PlaceExploresBathroom.text,Zauważasz jeszcze dwa przejścia prowadzące do kolejnych pomieszczeń. Umieść <COLOR=CYAN>Żetony Eksploracji</COLOR> we wskazanych miejscach.
 EventHouse2_PlaceExploresHallEndHallCorner1.button1,Kontynuuj
+EventHouse2_PlaceExploresHallEndHallCorner1.text,Do domu prowadzą jeszcze cztery inne pary drzwi. Umieść <COLOR=CYAN>Żetony Eksploracji</COLOR> we wskazanych miejscach.
 EventHouse2_PlaceHallEndBarricade.button1,Kontynuuj
+EventHouse2_PlaceHallEndBarricade.text,Mały regał w przedpokoju może posłużyć do zabarykadowania drzwi w razie potrzeby. Umieść żeton barykady we wskazanym miejscu.
 EventHouse2_PlaceHallEndHallCorner1.button1,Kontynuuj
+EventHouse2_PlaceHallEndHallCorner1.text,Podchodzisz, by zapukać do drzwi wejściowych, ale te delikatnie uchyliły się pod wpływem podmuchu wiatru. Umieść kafelki <COLOR=CYAN>{c:TileHouse2_HallEnd} i {c:TileHouse2_HallCorner1}</COLOR> oraz ścianę we wskazanym miejscu.
 EventHouse2_PlaceInvestigators.button1,Kontynuuj
 EventHouse2_PlaceInvestigators.text,Docieracie do drzwi wejściowych. Nieruchomość otacza mrożąca krew w żyłach cisza. Z niepokojem stwierdzacie, że rodzina, która żyje w tym miejscu, nie wydaje żadnych dźwięków, o ile w ogóle tam jest. Umieśćcie figurki swoich badaczy we wskazanym miejscu.
 EventHouse2_PlaceLibrary.button1,Kontynuuj
+EventHouse2_PlaceLibrary.text,Otwierasz drzwi i przed tobą pojawia się nieoczekiwanie okazała biblioteka. Odrzuć ten <COLOR=CYAN>Żeton Eksploracji</COLOR> i umieść kafelek <COLOR=CYAN>{c:TileHouse2_Library}</COLOR> oraz ścianę we wskazanym miejscu.
 EventHouse2_PlaceLounge.button1,Kontynuuj
+EventHouse2_PlaceLounge.text,Po otwarciu drzwi ukazuje się przestronny salon, który wydaje się nie pasować do tego skromnego mieszkania. Umieść kafelek <COLOR=CYAN>{c:TileHouse2_Lounge}</COLOR> we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR> prowadzące do niego.
 EventHouse2_PlacePainkillers.button1,Kontynuuj
 EventHouse2_PlacePainkillers.text,"Apteczka zawierająca {c:QItemPainkillers} znajduje się na półkach w łazience. \n\nUmieść przedmiot powszechny {c:QItemPainkillers} we wskazanym miejscu."
 EventHouse2_PlacePersonChild1.button1,Kontynuuj
@@ -496,24 +559,33 @@ EventHouse2_PlacePersonChild1.text,"Mały chłopiec i mała dziewczynka chowają
 EventHouse2_PlacePersonChild2.button1,Kontynuuj
 EventHouse2_PlacePersonChild2.text,"Mały chłopiec i mała dziewczynka zostali przywiązani za ręce i nogi do słupka łóżka. Choć nie są zakneblowane, dzieci są zbyt przerażone, by wydać z siebie jakikolwiek dźwięk. \n\nUmieść Żeton Osoby we wskazanym miejscu."
 EventHouse2_PlacePersonMan1.button1,Kontynuuj
+EventHouse2_PlacePersonMan1.text,Po drugiej stronie pokoju siedzi mężczyzna przywiązany do fotela, z brązową torbą na głowie. Umieść <COLOR=CYAN>Żeton Postaci</COLOR> we wskazanym miejscu.
 EventHouse2_PlacePersonMan2.button1,Kontynuuj
 EventHouse2_PlacePersonMan2.text,"Mężczyzna siedzi skulony w rogu pokoju, desperacko szukając czegoś, w czym mógłby się ukryć. \n\nUmieść Żeton Osoby we wskazanym miejscu."
 EventHouse2_PlacePersonWoman1.button1,Kontynuuj
 EventHouse2_PlacePersonWoman1.text,"Związana kobieta leży w pustej wannie. Na twój widok szamocze się rozpaczliwie. Usiłuje coś powiedzieć, ale jej słowa tłumione są skutecznie przez brudną podłogową szmatę zawiązaną na jej ustach w charakterze knebla. \n\nUmieść Żeton Osoby we wskazanym miejscu."
 EventHouse2_PlacePersonWoman2.button1,Kontynuuj
+EventHouse2_PlacePersonWoman2.text,Kobieta siedzi na krześle obok, z przerażeniem w oczach. Chociaż nie jest w żaden sposób skrępowana, najwyraźniej zmuszono ją do pozostania na miejscu. Umieść <COLOR=CYAN>Żeton Osoby</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceSearchBedroomDesk.button1,Kontynuuj
 EventHouse2_PlaceSearchBedroomDesk.text,"Biurko jest zabałaganione różnymi luźnymi zwitkami papieru. Napisy umieszczone na tych papierach sprawiają niespójne wrażenie i zdają się dotyczyć tematów okultystycznych. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventHouse2_PlaceSearchCabinet_NoPuzzle.button1,Kontynuuj
+EventHouse2_PlaceSearchCabinet_NoPuzzle.text,Zauważasz wystający z szuflady szafki kawałek papieru, który wygląda na niezwykle stary i podniszczony. Umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceSearchDiningTable.button1,Kontynuuj
 EventHouse2_PlaceSearchDiningTable.text,Rozglądając się po pokoju dochodzisz do wniosku, że byłbyś w stanie wykorzystać przedmioty leżące na stole w jadalni w charakterze improwizowanej broni. Umieść Żeton Przeszukiwania we wskazanym miejscu.
 EventHouse2_PlaceSearchEntryTable.button1,Kontynuuj
+EventHouse2_PlaceSearchEntryTable.text,Pierwszą rzeczą, jaką zauważasz wewnątrz domu, są liczne przedmioty ze stolika w przedpokoju, porozrzucane po podłodze. Na pewno nie była to sprawka wiatru. Umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceSearchHallTable.button1,Kontynuuj
+EventHouse2_PlaceSearchHallTable.text,Na końcu korytarza dostrzegasz stół, na którym leżą stosy książek. Większość z nich wygląda na bardzo stare, może nawet starsze niż samo Arkham. Umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceSearchMagazines.button1,Kontynuuj
+EventHouse2_PlaceSearchMagazines.text,Na biurku leży kilka magazynów o modzie dla nastolatków. Umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceSearchToyChest.button1,Kontynuuj
+EventHouse2_PlaceSearchToyChest.text,U stóp jedynego łóżka stoi elegancka skrzynia na zabawki pokryta czerwonym aksamitem. Umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 EventHouse2_PlaceSideYard2.button1,Kontynuuj
 EventHouse2_PlaceSideYard2.text,Wasz samochód podjeżdża pod frontową bramę zwyczajnie wyglądającej kamienicy. Wysiadacie z pojazdu i rozpoczynacie wędrówkę w kierunku domu. Umieśćcie kafelek {c:TileHouse2_SideYard2} we wskazanym miejscu.
 EventHouse2_PlaceSightBathroom.button1,Kontynuuj
+EventHouse2_PlaceSightBathroom.text,Hol wejściowy rozciąga się dalej, poza zasięgiem wzroku. Umieść <COLOR=CYAN>Żeton Obserwacji</COLOR> we wskazanym miejscu. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TileHouse2_HallCorner1}</COLOR> może zbadać sąsiedni obszar.
 EventHouse2_SearchCabinetPuzzleStart.button1,Kontynuuj
+EventHouse2_SearchCabinetPuzzleStart.text,Zaczynasz układać strony w całość. Kliknij, aby spróbować rozwiązać łamigłówkę, wykorzystując {observation}.
 EventHouseEnd_MissionComplete.button1,Kontynuuj
 EventHouseEnd_MissionComplete.text,"Opuszczacie tę zaniedbaną rezydencję, której korytarze i pokoje pogrążone są w niesamowitej ciszy. Chociaż to, co wydarzyło się w środku, bez wątpienia pozostawi trwałą bliznę na umysłach poszkodowanych osób, czujecie ulgę, że dom ten nie stanowi już żadnego bezpośredniego zagrożenia dla ludzi zamieszkujących w pobliżu...\n\nWyczyśćcie pole gry, usuwając z niego wszystkie kafelki, figurki, żetony oraz przedmioty. "
 EventHouseEnd_RemainingHostages.button1,Kontynuuj
@@ -683,18 +755,27 @@ EventPalace2_ExploreConservatoryLoungeFailure.text,Pociągasz za klamkę, aż tw
 EventPalace2_ExploreConservatoryLoungeSkillCheck.button1,Potwierdź
 EventPalace2_ExploreConservatoryLoungeSkillCheck.text,Przekręcasz klamkę i naciskasz na drzwi, ale okazuje się, że są szczelnie zamknięte. Wkładasz całą swoją siłę w to, by otworzyć drzwi ({strength}).
 EventPalace2_ExploreConservatoryLoungeSuccess.button1,Kontynuuj
+EventPalace2_ExploreConservatoryLoungeSuccess.text,Pociągasz za drzwi, aż ich wypaczona ościeżnica w końcu ustępuje, pozwalając im się otworzyć. Zaglądasz przez próg i dostrzegasz po drugiej stronie niewielką oranżerię. Odrzuć ten <COLOR=CYAN>Żeton Eksploracji</COLOR>.
 EventPalace2_NoHoursConservatory.button1,Kontynuuj
 EventPalace2_NoHoursConservatory.text,"Z przerażeniem zdajesz sobie sprawę, że do zakończenia rytuału pozostało zaledwie kilka sekund.\n\nOdrzuć ten Żeton Interakcji. Bez zastanowienia, kierujesz energię otoczenia na potężny kontr-rytuał, gotowy wygnać najeźdźcę."
 EventPalace2_NoHoursNotConservatory.button1,Kontynuuj
 EventPalace2_NoHoursNotConservatory.text,Energia wirująca wokół twojej głowy przenika do twojego umysłu, dając ci nagły wgląd w istotę przeprowadzanego rytuału. Z przerażeniem zdajesz sobie sprawę, że jest on zaledwie kilka sekund od zakończenia. Bez zastanowienia kierujesz energię otoczenia na potężny kontr-rytuał, gotowy do wypędzenia najeźdźcy.
 EventPalace2_PlaceAllExploreBallroom.button1,Kontynuuj
+EventPalace2_PlaceAllExploreBallroom.text,Dwoje nieoznakowanych drzwi prowadzi w głąb pałacu. Umieść <COLOR=CYAN>Żetony Eksploracji</COLOR> we wskazanych miejscach.
 EventPalace2_PlaceBallroom.button1,Kontynuuj
+EventPalace2_PlaceBallroom.text,Drzwi prowadzą do okazałej sali balowej, w której niegdyś organizowano dla gości koncerty i krótkie przedstawienia. Odgłosy śpiewów są tu wyraźnie cichsze. Umieść kafelek <COLOR=CYAN>{c:TilePalace2_Ballroom}</COLOR> oraz drzwi we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR> prowadzące do tego miejsca.
 EventPalace2_PlaceBilliardsRoom.button1,Kontynuuj
+EventPalace2_PlaceBilliardsRoom.text,Za drzwiami znajduje się przytulny salon, w którym dominuje stół bilardowy, wyraźnie nowszy od pozostałych elementów wystroju. Umieść kafelek <COLOR=CYAN>{c:TilePalace2_BilliardsRoom}</COLOR> oraz drzwi we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR> prowadzące do tego miejsca.
 EventPalace2_PlaceConservatory_RemoveFinalExplore.button1,Kontynuuj
+EventPalace2_PlaceConservatory_RemoveFinalExplore.text,Mała oranżeria stanowi wejście do pięknych ogrodów pałacu. Niedawne prace renowacyjne uniemożliwiły publiczny dostęp do terenu, czyniąc to miejsce idealnym do ukrycia się przed wzrokiem ciekawskich. Umieść kafelek <COLOR=CYAN>{c:TilePalace2_Conservatory}</COLOR> oraz drzwi we wskazanym miejscu. Następnie odrzuć <COLOR=CYAN>Żeton Eksploracji</COLOR> łączący kafelki <COLOR=CYAN>{c:TilePalace2_Lounge} i {c:TilePalace2_Conservatory}</COLOR>.
 EventPalace2_PlaceConservatory.button1,Kontynuuj
+EventPalace2_PlaceConservatory.text,Mała oranżeria stanowi wejście do pięknych ogrodów pałacu. Niedawna renowacja uniemożliwiła publiczny dostęp do terenu, dzięki czemu jest to idealne miejsce, by schronić się przed ciekawskimi spojrzeniami. Umieść kafelek <COLOR=CYAN>{c:TilePalace2_Conservatory}</COLOR> oraz drzwi we wskazanym miejscu.
 EventPalace2_PlaceConservatorySecretPassage.button1,Kontynuuj
+EventPalace2_PlaceConservatorySecretPassage.text,Tajemniczy korytarz wije się i kręci, by w końcu doprowadzić do drzwi bez klamki. Delikatnie je popychasz, a one się otwierają, odsłaniając oranżerię. Umieść żeton tajemnego przejścia we wskazanym miejscu. Następnie przenieś swoją figurkę badacza na eksplorowany obszar.
 EventPalace2_PlaceConservatorySewer.button1,Kontynuuj
+EventPalace2_PlaceConservatorySewer.text,Poruszasz się na oślep przez wielką rurę, która w końcu prowadzi do drabiny wychodzącej na powierzchnię. Wspinasz się, aż docierasz do włazu. Odsuwasz go na bok, wychylasz głowę i stajesz twarzą w twarz z prowadzonym tutaj rytuałem. Umieść żeton tajnego przejścia we wskazanym miejscu. Następnie przenieś swoją figurkę badacza na eksplorowany obszar.
 EventPalace2_PlaceEntryHall.button1,Kontynuuj
+EventPalace2_PlaceEntryHall.text,Wpadasz przez główne wejście do pałacu, zdecydowany położyć kres tym nikczemnym intrygom kultu raz na zawsze. Umieść kafelki <COLOR=CYAN>{c:TilePalace2_EntryHall}</COLOR> i <COLOR=CYAN>{c:TilePalace2_HallCorner1}</COLOR>, ściany oraz figurki badaczy we wskazanym miejscu.
 EventPalace2_PlaceExploreBallroomBilliardsRoom.button1,Kontynuuj
 EventPalace2_PlaceExploreBallroomBilliardsRoom.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
 EventPalace2_PlaceExploreBallroomHallStairs.button1,Kontynuuj
@@ -702,34 +783,55 @@ EventPalace2_PlaceExploreBallroomHallStairs.text,"Nieoznakowane drzwi prowadzą 
 EventPalace2_PlaceExploreBilliardsRoomBallroom.button1,Kontynuuj
 EventPalace2_PlaceExploreBilliardsRoomBallroom.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
 EventPalace2_PlaceExploreConservatoryLounge.button1,Kontynuuj
+EventPalace2_PlaceExploreConservatoryLounge.text,Od strony tylnych drzwi dochodzi odgłos śpiewu. Umieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.
 EventPalace2_PlaceExploreHallStairsBallroom.button1,Kontynuuj
 EventPalace2_PlaceExploreHallStairsBallroom.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
 EventPalace2_PlaceExploreLoungeConservatory.button1,Kontynuuj
 EventPalace2_PlaceExploreLoungeConservatory.text,"Nieoznakowane drzwi prowadzą dalej w głąb pałacu.\n\nUmieść Żeton Eksploracji we wskazanym miejscu."
 EventPalace2_PlaceExploresEntryHall.button1,Kontynuuj
+EventPalace2_PlaceExploresEntryHall.text,Zza budynku dobiegają ciche szepty śpiewów. Cztery nieoznakowane drzwi oraz korytarz prowadzą w głąb pałacu. Umieść <COLOR=CYAN>Żetony Eksploracji</COLOR> i <COLOR=CYAN>Żeton Obserwacji</COLOR> we wskazanych miejscach. Badacz znajdujący się na polu <COLOR=CYAN>{c:TilePalace2_HallCorner1}</COLOR> może eksplorować sąsiedni obszar.
 EventPalace2_PlaceHallStairs.button1,Kontynuuj
+EventPalace2_PlaceHallStairs.text,Korytarz kończy się schodami prowadzącymi do piwnicy. Umieść kafelek <COLOR=CYAN>{c:TilePalace2_HallStairs}</COLOR> oraz ścianę we wskazanym miejscu i usuń wszystkie żetony prowadzące do tego miejsca.
 EventPalace2_PlaceInteractSummoningRitual.button1,Kontynuuj
+EventPalace2_PlaceInteractSummoningRitual.text,Tuż przed pałacem dwie postacie w szatach rytualnych stoją wokół kręgu przywołania. Ich oczy są zamglone, a ich usta nieustannie intonują zaklęcia mrocznej magii. Odkryłeś rytuał przywołania. Umieść <COLOR=CYAN>Żeton Interakcji</COLOR> we wskazanym miejscu.
 EventPalace2_PlaceLounge.button1,Kontynuuj
+EventPalace2_PlaceLounge.text,Otwierasz szeroko drzwi, odsłaniając niewielki salon przeznaczony do przyjmowania oczekujących gości. Umieść kafelek <COLOR=CYAN>{c:TilePalace2_Lounge}</COLOR> we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR> prowadzące do niego.
 EventPalace2_PlaceSearchBar.button1,Kontynuuj
+EventPalace2_PlaceSearchBar.text,W rogu pokoju twoją uwagę przyciąga duża szafka na alkohole. Wygląda na znacznie tańszą niż pozostałe meble i jest podejrzanie pusta. Umieść <COLOR=CYAN>Żeton przeszukiwania</COLOR> we wskazanym miejscu.
 EventPalace2_RevealMap1_BilliardsRoom.button1,Kontynuuj
+EventPalace2_RevealMap1_BilliardsRoom.text,Umieść kafelek <COLOR=CYAN>{c:TilePalace2_BilliardsRoom}</COLOR>, drzwi i tajne przejście we wskazanych miejscach, a następnie odrzuć wszystkie <COLOR=CYAN>Żetony eksploracji</COLOR> prowadzące do tego miejsca.
 EventPalace2_RevealMap1_BilliardsRoomSecretPassage.button1,Kontynuuj
+EventPalace2_RevealMap1_BilliardsRoomSecretPassage.text,Odrzuć ten <COLOR=CYAN>Żeton Przeszukiwania</COLOR> i umieść znacznik <COLOR=CYAN>Tajnego przejścia</COLOR> we wskazanym miejscu.
 EventPalace2_RevealMap2_Ballroom.button1,Kontynuuj
+EventPalace2_RevealMap2_Ballroom.text,Umieść kafelek <COLOR=CYAN>{c:TilePalace2_Ballroom}</COLOR> oraz drzwi we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR> prowadzące do niego.
 EventPalace2_RevealMap2_HallStairs.button1,Kontynuuj
+EventPalace2_RevealMap2_HallStairs.text,Umieść kafelek <COLOR=CYAN>{c:TilePalace2_HallStairs}</COLOR>, drzwi i znacznik tajnego przejścia we wskazanych miejscach, a następnie odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR> i <COLOR=CYAN>Żetony Obserwacji</COLOR> prowadzące do tego miejsca.
 EventPalace2_RevealMap2_HallStairsSewer.button1,Kontynuuj
+EventPalace2_RevealMap2_HallStairsSewer.text,Odrzuć ten <COLOR=CYAN>Żeton Przeszukiwania</COLOR> i umieść znacznik <COLOR=CYAN>Tajnego przejścia</COLOR> we wskazanym miejscu.
 EventPalace2_RevealMap3_ConservatoryLounge.button1,Kontynuuj
+EventPalace2_RevealMap3_ConservatoryLounge.text,Umieść kafelek <COLOR=CYAN>{c:TilePalace2_Conservatory}</COLOR>, drzwi i znacznik tajnego przejścia we wskazanych miejscach. Następnie odrzuć <COLOR=CYAN>Żeton Eksploracji</COLOR> łączący kafelki <COLOR=CYAN>{c:TilePalace2_Lounge} i {c:TilePalace2_Conservatory}</COLOR>.
 EventPalace2_RevealMap3_ConservatoryNoLounge.button1,Kontynuuj
+EventPalace2_RevealMap3_ConservatoryNoLounge.text,Umieść kafelek <COLOR=CYAN>{c:TilePalace2_Conservatory}</COLOR>, drzwi i znacznik tajnego przejścia we wskazanym miejscu.
 EventPalace2_RevealMap3_ConservatorySecretPassage.button1,Kontynuuj
 EventPalace2_RevealMap3_ConservatorySecretPassage.text,Umieść Żeton Tajnego Przejścia we wskazanym miejscu.
 EventPalace2_RevealMap3_ConservatorySewer.button1,Kontynuuj
+EventPalace2_RevealMap3_ConservatorySewer.text,Umieść znacznik tajnego przejścia we wskazanym miejscu.
 EventPalace2_RevealMap3_Lounge.button1,Kontynuuj
+EventPalace2_RevealMap3_Lounge.text,Umieść kafelek <COLOR=CYAN>{c:TilePalace2_Lounge}</COLOR> we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR> prowadzące do niego.
 EventPalace2_RevealMap3_RemoveFinalExplore.button1,Kontynuuj
 EventPalace2_RevealMap3_RemoveFinalExplore.text,Odrzuć Żeton Eksploracji łączący kafelek {c:TilePalace2_Lounge} z {c:TilePalace2_Conservatory}.
 EventPalace2_SearchBarFailure.button1,Kontynuuj
+EventPalace2_SearchBarFailure.text,Przyglądasz się szafce zdecydowanie zbyt długo, by w końcu z rezygnacją stwierdzić, że nie w niej nic ciekawego.
 EventPalace2_SearchBarSkillCheck.button1,Potwierdź
+EventPalace2_SearchBarSkillCheck.text,Przeglądasz szafkę z alkoholami, szukając jakiegokolwiek wyjaśnienia jej obecności w tym pomieszczeniu ({observation}).
 EventPalace2_SearchBarSuccess.button1,Kontynuuj
+EventPalace2_SearchBarSuccess.text,Powoli oglądasz szafkę od góry do dołu, nie zauważając nic niezwykłego. W końcu, w akcie desperacji próbujesz odsunąć ją od ściany. Ku twojemu zaskoczeniu, udaje ci się to bez trudu, odsłaniając ukryte przejście. Odrzuć ten <COLOR=CYAN>Żeton Przeszukiwania</COLOR> i umieść znacznik ukrytego przejścia we wskazanym miejscu.
 EventPalace2_SearchCarpetFailure.button1,Kontynuuj
+EventPalace2_SearchCarpetFailure.text,Potykasz się, ciągnąc dywan, przez co ma on czas, by znów opaść na podłogę.
 EventPalace2_SearchCarpetSkillCheck.button1,Potwierdź
+EventPalace2_SearchCarpetSkillCheck.text,Próbujesz podciągnąć dywan, ale jakaś dziwna siła przyciąga go z powrotem do podłogi. Próbujesz go całkowicie zerwać, zanim zdąży się ponownie ułożyć ({agility}).
 EventPalace2_SearchCarpetSuccess.button1,Kontynuuj
+EventPalace2_SearchCarpetSuccess.text,Jednym szybkim ruchem zrywasz dywan z podłogi, odsłaniając dziwnie umieszczony właz kanalizacyjny. Podnosisz pokrywę i schodzisz w ciemność poniżej. Odrzuć ten <COLOR=CYAN>Żeton Przeszukiwania</COLOR> i umieść znacznik tajnego przejścia we wskazanym miejscu.
 EventPalaceEnd_HasturDefeated.button1,Kontynuuj
 EventPalaceEnd_HasturDefeated.text,"Pod wpływem waszych ciosów, {c:CustomMonsterHastur} chwieje się przez ułamek sekundy, zaskoczony oporem, jaki mu stawiono w tym wymiarze. To trwa zaledwie mgnienie oka, lecz jednocześnie wystarczająco długo, abyś mógł skierować na niego energię swojego kontr-rytuału. Bestia wrzeszczy z wściekłości, gdy kosmiczna energia wyrywa jego fizyczną formę z naszego świata z powrotem do jego własnego. \n\nUdało się zapobiec inwazji Zhara! Badacze wygrywają!"
 EventPalaceEnd_PriestsDefeated.button1,Kontynuuj
@@ -782,10 +884,15 @@ EventViewEvidence_CircumstantialEvidence_Green.text,|||Poświęcasz chwilę na a
 EventViewEvidence_CircumstantialEvidence_Red.button1,Kontynuuj
 EventViewEvidence_CircumstantialEvidence_Red.text,|||Poświęcasz chwilę na analizę papierów i nagle dociera do ciebie, że te dokumenty stanowią tak naprawdę konkretne fragmenty pochodzące ze starych, pogańskich poematów. W różnych miejscach analizowanych przez ciebie pism powtarza się wielokrotnie silna aluzja do związku, jaki istnieje pomiędzy kolorem czerwonym a uczuciem pożądania. Jeden z zapisanych tu wierszy nosi nawet tytuł "Czerwona żądza". Masz wrażenie, że nie jest to przypadek, a ta informacja będzie ci potrzebna w przyszłości.|||
 EventViewEvidence_ConclusiveEvidence_Hastur.button1,Kontynuuj
+EventViewEvidence_ConclusiveEvidence_Hastur.text,Fragment starożytnego, świętego tekstu, w przybliżonym tłumaczeniu, brzmi: „Pamiętajcie o przeszłości, aby nie dręczyła was pustymi groźbami. Pamiętajcie o Hasturze i jego złych czynach. Pamiętajcie, jak jego podstępy niemal doprowadziły go do wkroczenia do naszego świata. Pamiętajcie, jak ludzkość wygnała go na zawsze, na całe wieki. Pamiętajcie, jak nasze działania powstrzymują go przed ponowną próbą wkroczenia do naszego świata. Pamiętajcie, abyśmy wszyscy mogli spać spokojnie”.
 EventViewEvidence_ConclusiveEvidence_Yig.button1,Kontynuuj
+EventViewEvidence_ConclusiveEvidence_Yig.text,Fragment starożytnego, świętego tekstu, w przybliżonym tłumaczeniu, brzmi: „Pamiętajcie o przeszłości, aby nie dręczyła was pustymi groźbami. Pamiętajcie o Yigu i jego złych czynach. Pamiętajcie, jak jego podstępy niemal doprowadziły go do wkroczenia do naszego świata. Pamiętajcie, jak ludzkość wygnała go na zawsze, na całe wieki. Pamiętajcie, jak nasze działania powstrzymują go przed ponowną próbą wkroczenia do naszego świata. Pamiętajcie, abyśmy wszyscy mogli spać spokojnie”.
 EventViewEvidence_ConclusiveEvidence_Zhar.button1,Kontynuuj
+EventViewEvidence_ConclusiveEvidence_Zhar.text,Fragment starożytnego, świętego tekstu, w przybliżonym tłumaczeniu, brzmi: „Pamiętajcie o przeszłości, aby nie dręczyła was pustymi groźbami. Pamiętajcie o Zharze i jego złych czynach. Pamiętajcie, jak jego podstępy niemal doprowadziły go do wkroczenia do naszego świata. Pamiętajcie, jak ludzkość wygnała go na zawsze, na całe wieki. Pamiętajcie, jak nasze działania powstrzymują go przed ponowną próbą wkroczenia do naszego świata. Pamiętajcie, abyśmy wszyscy mogli spać spokojnie”.
 EventViewEvidence_CultSigil_Allies.button1,Kontynuuj
+EventViewEvidence_CultSigil_Allies.text,Szybko staje się jasne, dlaczego ta przesyłka nie dotarła do zamierzonego miejsca przeznaczenia. Zamiast adresu odbiorcy na etykiecie wysyłkowej widnieje następujący napis: „Do najdalszych zakątków bliskiego brzegu. Tam, gdzie szaleństwo wznosi swoje wysokie wieże, sięgające głęboko w ziemię. Poczuj swój najgłębszy ból i wiedz, że jesteś blisko. Dostarcz to szaleństwu lub bólowi – to nie ma znaczenia. Razem cię zniszczą”.
 EventViewEvidence_CultSigil_Enemies.button1,Kontynuuj
+EventViewEvidence_CultSigil_Enemies.text,Szybko staje się jasne, dlaczego ta przesyłka nie dotarła do zamierzonego miejsca przeznaczenia. Zamiast adresu odbiorcy na etykiecie wysyłkowej widnieje następujący napis: „Do najdalszych zakątków bliskiego brzegu. Tam, gdzie szaleństwo wznosi swoje wysokie wieże, sięgające głęboko w ziemię. Unikaj swoich najgłębszych bólów, gdyż sprowadzą cię one na manowce. Dostarcz to szaleństwu, ale trzymaj się z dala od bólu! Nie jest on przyjacielem szaleństwa i nigdy nim nie będzie”.
 EventViewEvidence_ForensicEvidence_Lust.button1,Kontynuuj
 EventViewEvidence_ForensicEvidence_Lust.text,|||Fragment tekstu, do którego odnosi się tatuaż, mówi o jednym z trzech Wielkich Przedwiecznych. Brzmi on: "Pomimo tego, że istota ta sprawuje kontrolę nad emocją pożądania w naszym wszechświecie, istota ta nie może istnieć w materialny sposób w tej rzeczywistości. Chociaż czciciele tej istoty próbują uspokoić swojego pana różnego rodzaju darami oraz dobrami materialnymi, nie jest ona w stanie z nich skorzystać, ponieważ nie może ona istnieć na naszym planie egzystencji.".|||
 EventViewEvidence_ForensicEvidence_Madness.button1,Kontynuuj
@@ -972,24 +1079,33 @@ EventWarehouse_TriggerExit.text,Jednogłośnie zgadzacie się opuścić ten nawi
 EventWarehouse2_Place2x4.button1,Kontynuuj
 EventWarehouse2_Place2x4.text,Wśród spróchniałego drewna dostrzegasz deskę, która wciąż jest w dobrym stanie. Może posłużyć do zabarykadowania drzwi lub jako zaimprowizowana broń. Umieść przedmiot powszechny {c:QItem2x4} we wskazanym miejscu.
 EventWarehouse2_PlaceAlleyCorner1.button1,Kontynuuj
+EventWarehouse2_PlaceAlleyCorner1.text,Zaglądasz głębiej w alejkę i dostrzegasz kilka bocznych wejść. Umieść kafelek <COLOR=CYAN>{c:TileWarehouse2_AlleyCorner1}</COLOR> oraz <COLOR=CYAN>Żetony Eksploracji</COLOR> we wskazanych miejscach.
 EventWarehouse2_PlaceAlleyCorner1Barricade.button1,Kontynuuj
 EventWarehouse2_PlaceAlleyCorner1Barricade.text,"Te ciężkie beczki i skrzynie mogą zostać użyte do zabarykadowania drzwi, jeśli zajdzie taka potrzeba. \n\nUmieść Żeton Barykady we wskazanym miejscu."
 EventWarehouse2_PlaceAlleyCorner2.button1,Kontynuuj
+EventWarehouse2_PlaceAlleyCorner2.text,Po przedarciu się przez zawiły labirynt krzyżujących się uliczek wydaje ci się, że znalazłeś opuszczony magazyn. Umieść kafelek <COLOR=CYAN>{c:TileWarehouse2_AlleyCorner2}</COLOR> we wskazanym miejscu.
 EventWarehouse2_PlaceBasement.button1,Kontynuuj
+EventWarehouse2_PlaceBasement.text,Otwierasz drzwi i przed tobą pojawia się pomieszczenie pogrążone w całkowitej ciemności. Umieść kafelek <COLOR=CYAN>{c:TileWarehouse2_Basement}</COLOR> oraz drzwi we wskazanym miejscu i odrzuć wszystkie <COLOR=CYAN>Żetony Eksploracji</COLOR> prowadzące do tego miejsca. Następnie umieść żeton ciemności na każdym polu kafelka <COLOR=CYAN>{c:TileWarehouse2_Basement}</COLOR>.
 EventWarehouse2_PlaceBasementBarricade.button1,Kontynuuj
 EventWarehouse2_PlaceBasementBarricade.text,"Te ciężkie beczki i skrzynie mogą zostać użyte do zabarykadowania drzwi, jeśli zajdzie taka potrzeba. \n\nUmieść Żeton Barykady we wskazanym miejscu."
 EventWarehouse2_PlaceBellTower.button1,Kontynuuj
+EventWarehouse2_PlaceBellTower.text,Gdy otwierasz drzwi, oślepia cię światło padające z lampy w dzwonnicy. Odrzuć ten <COLOR=CYAN>Żeton Eksploracji</COLOR> i umieść kafelek <COLOR=CYAN>{c:TileWarehouse2_BellTower}</COLOR> we wskazanym miejscu.
 EventWarehouse2_PlaceExploreBasementWarehouse.button1,Kontynuuj
+EventWarehouse2_PlaceExploreBasementWarehouse.text,Drzwi na końcu magazynu prowadzą w głąb budynku. Umieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.
 EventWarehouse2_PlaceExploreBellTower.button1,Kontynuuj
+EventWarehouse2_PlaceExploreBellTower.text,Z góry schodów znajdujących się na tyłach pomieszczenia widać słabe światło. Umieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.
 EventWarehouse2_PlaceExploreStudy.button1,Kontynuuj
+EventWarehouse2_PlaceExploreStudy.text,W ciemnościach ledwo dostrzegasz zarys drzwi. Umieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.
 EventWarehouse2_PlaceExploreWarehouseAlleyCorner2.button1,Kontynuuj
 EventWarehouse2_PlaceExploreWarehouseAlleyCorner2.text,"Zauważacie główne wejście do magazynu. Zanim zdążycie podejść bliżej, zatrzymują was odgłosy jakiegoś stworzenia, które wydaje się być uwięzione wewnątrz. \n\nUmieśćcie Żeton Eksploracji we wskazanym miejscu."
 EventWarehouse2_PlaceExploreWarehouseBasement.button1,Kontynuuj
+EventWarehouse2_PlaceExploreWarehouseBasement.text,Niepozorne drzwi prowadzą do głównej części magazynu. Umieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.
 EventWarehouse2_PlaceInvestigators.button1,Kontynuuj
 EventWarehouse2_PlaceInvestigators.text,"Zbliżacie się do magazynu, nie mając pewności co do najlepszej drogi do środka. \n\nUmieśćcie figurki badaczy we wskazanym miejscu."
 EventWarehouse2_PlaceLightsource.button1,Kontynuuj
 EventWarehouse2_PlaceLightsource.text,"Na podłodze magazynu, tuż poza zasięgiem wzroku, znajduje się jakieś źródło światła. Masz nadzieję, że ktokolwiek je trzymał, zdołał ujść z życiem. \n\nUmieść przedmiot powszechny {c:QItemLightsource} we wskazanym miejscu."
 EventWarehouse2_PlaceSearchBarrel.button1,Kontynuuj
+EventWarehouse2_PlaceSearchBarrel.text,Pomieszczenie jest pełne pustych pudeł i beczek pozostawionych przez poprzedniego właściciela. Wśród nich wyróżnia się jedna zamknięta beczka, która w jakiś sposób została zapomniana w tym zrujnowanym magazynie. Umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 EventWarehouse2_PlaceSearchBody.button1,Kontynuuj
 EventWarehouse2_PlaceSearchBody.text,"Serce ci się kraje, gdy dostrzegasz ludzkie ciało, leżące twarzą do ziemi w bałaganie wśród pudeł. Dochodzisz do wniosku, że ten biedak wszedł do tego przeklętego budynku dość niedawno przed tobą. Krew zgromadzona kałużą wokół ciała jest wciąż świeża i nie zdążyła jeszcze zakrzepnąć. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventWarehouse2_PlaceSearchBookshelf.button1,Kontynuuj
@@ -999,9 +1115,11 @@ EventWarehouse2_PlaceSearchEmptyBox.text,"Wśród butwiejącego drewna i karton�
 EventWarehouse2_PlaceSearchFurnace.button1,Kontynuuj
 EventWarehouse2_PlaceSearchFurnace.text,"Odbicie jakiegoś metalowego przedmiotu zakopanego głęboko w popiele z pieca na chwilę rozbłysło w ciemnościach. \n\nUmieść Żeton Przeszukiwania we wskazanym miejscu."
 EventWarehouse2_PlaceStudy.button1,Kontynuuj
+EventWarehouse2_PlaceStudy.text,Pchając drzwi, które z głośnym skrzypnięciem się otwierają, wkraczasz do biura spowitego ciemnością. Odrzuć ten <COLOR=CYAN>Żeton Eksploracji</COLOR> i umieść kafelek <COLOR=CYAN>{c:TileWarehouse2_Study}</COLOR> we wskazanym miejscu. Następnie umieść żeton ciemności na każdym polu kafelka <COLOR=CYAN>{c:TileWarehouse2_Study}</COLOR>.
 EventWarehouse2_PlaceWarehouse.button1,Kontynuuj
 EventWarehouse2_PlaceWarehouse.text,"Otwierasz drzwi, odsłaniając przepastny magazyn, wypełniony porzuconymi skrzyniami, beczkami i przedmiotami pozostawionymi tu przez poprzedniego właściciela. \n\nUmieść kafelek {c:TileWarehouse2_Warehouse}, Żeton Drzwi i Żeton Ściany we wskazanych miejscach i odrzuć wszystkie prowadzące do niego Żetony Eksploracji."
 EventWarehouse2_PlaceWarehouseBarricade.button1,Kontynuuj
+EventWarehouse2_PlaceWarehouseBarricade.text,Niektóre z rzeczy pozostawionych w magazynie mogą posłużyć do zablokowania drzwi w razie potrzeby. Umieść żeton barykady we wskazanym miejscu.
 EventWarehouseEnd_HorrificHiveAlive.button1,Kontynuuj
 EventWarehouseEnd_HorrificHiveAlive.text,"Biegnąc najszybciej jak tylko potraficie, uciekacie z opanowanego przez monstra magazynu. Choć próbujecie stłumić w sobie tę przykrą myśl, to w głębi duszy wiecie, że bestie wylewające się falą z tego budynku zabiją jeszcze dziesiątki, jeśli nie setki osób, zanim służbom porządkowym uda się je finalnie powstrzymać... o ile w ogóle będzie to możliwe. \n\nKażdy Badacz otrzymuje 2 Karty Przerażenia.\n\nWyczyśćcie pole gry, usuwając z niego wszystkie kafelki, figurki, żetony oraz przedmioty. "
 EventWarehouseEnd_MissionComplete.button1,Kontynuuj
@@ -1039,13 +1157,19 @@ SpawnDock_SnackShackDeepOneHybrid.text,"Obok skrzyni stoi nieruchomo mieszkaniec
 SpawnDock_Street2DeepOneHybrid.button1,Kontynuuj
 SpawnDock_Street2DeepOneHybrid.text,"Mężczyzna opiera się o ścianę, wpatrując się w ulotki i plakaty. Spodziewasz się zobaczyć butelkę alkoholu w jego dłoni, ale gdy na nią zerkasz, zamiast tego dostrzegasz długie pazury wystające z jego pokrytych rybią łuską dłoni. \n\nUmieść figurkę potwora {c:SpawnDock_Street2DeepOneHybrid} we wskazanym miejscu."
 SpawnDock2_BeachDeepOne.button1,Kontynuuj
+SpawnDock2_BeachDeepOne.text,Z zewnątrz słychać odgłos przemieszczania się ogromnej ilości mułu z brzegu rzeki. Zerkasz przez szczeliny w ścianie chatki, a twoje oszołomione oczy ledwo rejestrują widok wielkiej, ociężałej masy, która w niewiarygodny sposób wyłania się z ziemi. Umieść <COLOR=CYAN>{c:SpawnDock2_BeachDeepOne}</COLOR> w wskazanym miejscu.
 SpawnDock2_BeachHuntingDeepOne.button1,Kontynuuj
+SpawnDock2_BeachHuntingDeepOne.text,Z zewnątrz słychać odgłos przemieszczania się ogromnej ilości mułu z brzegu rzeki. Zerkasz przez szczeliny w ścianie chatki, a twoje oszołomione oczy ledwo rejestrują widok wielkiej, ociężałej masy, która w niewiarygodny sposób wyłania się z ziemi. Umieść <COLOR=CYAN>{c:SpawnDock2_BeachHuntingDeepOne}</COLOR> w wskazanym miejscu.
 SpawnDock2_BilliardsRoomDeepOneHybrid.button1,Kontynuuj
+SpawnDock2_BilliardsRoomDeepOneHybrid.text,Jeden z bywalców sali siedzi na krześle, lekko drzemiąc. Nie zwracasz na to uwagi, dopóki nie dostrzegasz jego szponiastych dłoni, gdy wstaje z krzesła. Umieść<COLOR=CYAN>{c:SpawnDock2_BilliardsRoomDeepOneHybrid}</COLOR> we wskazanym miejscu.
 SpawnDock2_CabinCultist.button1,Kontynuuj
 SpawnDock2_CabinCultist.text,"Stojący obok skrzyni {c:SpawnDock2_CabinCultist} mruczy jakieś niezrozumiałe zaklęcia, przypuszczalnie mające zapobiec jakimkolwiek próbom jej otwarcia. Światło księżyca przedostaje się przez drzwi do wnętrza kabiny, rozlewając się na podłodze obok niego i zdradzając twoją obecność. {c:SpawnDock2_CabinCultist} odwraca się i spogląda ci w oczy. \n\nUmieść figurkę potwora {c:SpawnDock2_CabinCultist} we wskazanym miejscu."
 SpawnDock2_HouseBoatDeepOne.button1,Kontynuuj
+SpawnDock2_HouseBoatDeepOne.text,Zaczynasz czuć, jak pokład łodzi chybocze się pod twoimi stopami. Początkowo wydaje ci się, że jest to spowodowane ruchem fal, ale ku twojemu przerażeniu, nie jest to prawda. Na pokład wchodzi <COLOR=CYAN>{c:SpawnDock2_HouseBoatDeepOne}</COLOR>. Umieść figurkę potwora we wskazanym miejscu.
 SpawnDock2_HouseBoatHuntingDeepOne.button1,Kontynuuj
+SpawnDock2_HouseBoatHuntingDeepOne.text,Zaczynasz czuć, jak pokład łodzi chybocze się pod twoimi stopami. Początkowo wydaje ci się, że jest to spowodowane ruchem fal, ale ku twojemu przerażeniu, nie jest to prawda. Na pokład wchodzi <COLOR=CYAN>{c:SpawnDock2_HouseBoatHuntingDeepOne}</COLOR>. Umieść figurkę potwora we wskazanym miejscu.
 SpawnDock2_MoldyShackDeepOneHybrid.button1,Kontynuuj
+SpawnDock2_MoldyShackDeepOneHybrid.text,Wydaje ci się, że dostrzegasz przerażającą postać rysującą się na tle szopy, ale zakładasz, że to tylko złudzenie optyczne spowodowane słabym oświetleniem pomieszczenia. Twoje pocieszające złudzenie pryska, gdy postać unosi szponiastą dłoń, szykując się do ataku. Umieść <COLOR=CYAN>{c:SpawnDock2_MoldyShackDeepOneHybrid}</COLOR> we wskazanym miejscu.
 SpawnDock2_PierDeepOne.button1,Kontynuuj
 SpawnDock2_PierDeepOne.text,"Z zatoki dobiega twoich uszu nienaturalny krzyk. Przez okienko dostrzegasz łuskowate stworzenie wynurzające się z wody obok pomostu. \n\nUmieść figurkę potwora {c:SpawnDock2_PierDeepOne} we wskazanym miejscu."
 SpawnDock2_PierHuntingDeepOne.button1,Kontynuuj
@@ -1053,6 +1177,7 @@ SpawnDock2_PierHuntingDeepOne.text,"Znad zatoki dobiega cię nienaturalny krzyk,
 SpawnDock2_SnackShackDeepOneHybrid.button1,Kontynuuj
 SpawnDock2_SnackShackDeepOneHybrid.text,"Obok skrzyni stoi nieruchomo mieszkaniec miasta, wpatrując się w nią plecami do ciebie. Obawiasz się, jakie szkody zostały wyrządzone psychice tej biednej osoby przez ten nikczemny przedmiot. Rozważasz delikatne wyprowadzenie go z chaty, ale zatrzymujesz się, gdy dostrzegasz łuski na jego dłoniach. Mieszkaniec odwraca się nagle w twoją stronę, ukazując ci twarz z ustami pełnymi piany, wykrzywioną w grymasie ledwo przypominającym ludzki. \n\nUmieść figurkę potwora {c:SpawnDock2_SnackShackDeepOneHybrid} we wskazanym miejscu."
 SpawnDock2_StorefrontDeepOneHybrid.button1,Kontynuuj
+SpawnDock2_StorefrontDeepOneHybrid.text,Twoje spojrzenie krzyżuje się ze wzrokiem sprzedawcy stojącego za ladą. To, co dostrzegasz w jego oczach sprawia, że włosy stają ci dęba. Uświadamiasz sobie, że nie należą one do człowieka. Umieść <COLOR=CYAN>{c:SpawnDock2_StorefrontDeepOneHybrid}</COLOR> we wskazanym miejscu.
 SpawnHorrificHive_CrawlingOne.button1,Kontynuuj
 SpawnHorrificHive_CrawlingOne.text,"Wylęgarnia drży i otwiera się, wydając ze swojej czeluści na świat {c:SpawnHorrificHive_CrawlingOne}. \n\nUmieść figurkę potwora {c:SpawnHorrificHive_CrawlingOne} na polu, na którym znajduje się Wylęgarnia Koszmarów."
 SpawnHorrificHive_DeepOne.button1,Kontynuuj
@@ -1148,10 +1273,13 @@ SpawnHouse2_LibraryThrall.text,"Mężczyzna wyciąga rękę, by uścisnąć twoj
 SpawnHouse2_LibraryWarlock.button1,Kontynuuj
 SpawnHouse2_LibraryWarlock.text,|||Mężczyzna wyciąga rękę, by uścisnąć twoją. Gdy odwzajemniasz uścisk, mroczna energia łączy jego dłoń z twoją i odczuwasz ostry ból w ramieniu. Otrzymujesz 2 Karty Obrażeń ({lore} neguje). "Jakim cudem jeszcze żyjesz?" - warczy w twoją stronę. "Nieważne, nie możesz się równać ani ze mną, ani z moim panem". \n\nOdrzuć ten Żeton Postaci i umieść figurkę potwora {c:SpawnHouse2_LibraryWarlock} we wskazanym miejscu.|||
 SpawnHouse2_LoungeCultist.button1,Kontynuuj
+SpawnHouse2_LoungeCultist.text,{c:SpawnHouse2_LoungeCultist} grzebie w szufladach małego stolika. Kiedy dostrzega cię kątem oka, wyciąga spod szaty długi sztylet. Umieść <COLOR=CYAN>{c:SpawnHouse2_LoungeCultist}</COLOR> we wskazanym miejscu.
 SpawnHouse2_LoungeDarkDruid.button1,Kontynuuj
 SpawnHouse2_LoungeDarkDruid.text,|||Mężczyzna wyciąga rękę, by uścisnąć twoją. Gdy odwzajemniasz uścisk, mroczna energia łączy jego dłoń z twoją i odczuwasz ostry ból w ramieniu. Otrzymujesz 2 Karty Obrażeń ({lore} neguje). "Jakim cudem jeszcze żyjesz?" - warczy w twoją stronę. "Nieważne, nie możesz się równać ani ze mną, ani z moim panem". \n\nOdrzuć ten Żeton Postaci i umieść figurkę potwora {c:SpawnHouse2_LoungeDarkDruid} we wskazanym miejscu.|||
 SpawnHouse2_LoungeDeepOne.button1,Kontynuuj
+SpawnHouse2_LoungeDeepOne.text,Kiedy kobieta gorąco ci dziękuje, gęsty, ciemny deszcz zaczyna uderzać o okna domu. Zanim zdążysz to zauważyć, czarna ściana ulewy całkowicie zasłania widok na zewnątrz. Nagle, cielsko bestii roztrzaskuje okno znajdujące się najbliżej kobiety. Potwór wbija w nią głęboko zęby i wyciąga ją, kopiącą i krzyczącą, na ulewę. Jej głos cichnie, a po kilku sekundach bestia wraca, by spotkał cię ten sam los. Odrzuć ten żeton Osoby i umieść <COLOR=CYAN>{c:SpawnHouse2_LoungeDeepOne}</COLOR> we wskazanym miejscu. Przyjmujesz 2 karty przerażenia ({will} niweluje).
 SpawnHouse2_LoungeHuntingDeepOne.button1,Kontynuuj
+SpawnHouse2_LoungeHuntingDeepOne.text,Kiedy kobieta gorąco ci dziękuje, gęsty, ciemny deszcz zaczyna uderzać o okna domu. Zanim zdążysz to zauważyć, czarna ściana ulewy całkowicie zasłania widok na zewnątrz. Nagle, cielsko bestii roztrzaskuje okno znajdujące się najbliżej kobiety. Potwór wbija w nią głęboko zęby i wyciąga ją, kopiącą i krzyczącą, na ulewę. Jej głos cichnie, a po kilku sekundach bestia wraca, by spotkał cię ten sam los. Odrzuć ten żeton Osoby i umieść <COLOR=CYAN>{c:SpawnHouse2_LoungeHuntingDeepOne}</COLOR> we wskazanym miejscu. Przyjmujesz 2 karty przerażenia ({will} niweluje).
 SpawnHouse2_LoungeManiac.button1,Kontynuuj
 SpawnHouse2_LoungeManiac.text,|||Mężczyzna wyciąga rękę, by uścisnąć twoją. Gdy rozluźniony odwzajemniasz uścisk, kątem okaz zauważasz stalowy błysk ostrza ukrytego w jego rękawie. Mężczyzna wyjmuje broń i z impetem wyrzuca ją przed siebie, planując wbić ci go w brzuch aż po rękojeść. \n\nOtrzymujesz 2 Karty Obrażenia ({agility} neguje). \n\n"Wynoś się!" krzyczy. "Opuść mój dom, zanim wypatroszę cię jak świnię!". \n\nOdrzuć ten Żeton Postaci i umieść figurkę potwora {c:SpawnHouse2_LoungeManiac} we wskazanym miejscu.|||
 SpawnHouse2_LoungeThrall.button1,Kontynuuj
@@ -1233,8 +1361,11 @@ SpawnPalace2_EntryHallThrall.text,"Udało ci się przybyć na tyle wcześnie w n
 SpawnPalace2_EntryHallZombie.button1,Kontynuuj
 SpawnPalace2_EntryHallZombie.text,"Udało ci się przybyć na tyle wcześnie w nocy, że kustosz Pałacu wciąż jest na służbie. Podchodzisz bliżej, planując poprosić go o pomoc w zlokalizowaniu miejsca przeprowadzania rytuału, ale zatrzymujesz się wpół kroku, gdy zauważasz, że kustosz nie jest człowiekiem, tylko ożywionym trupem! Gdy puste spojrzenie zombie pada na ciebie, natychmiast dochodzisz do wniosku, że próba porozmawiania z nim była błędem.\n\nUmieść figurkę potwora {c:SpawnPalace2_EntryHallZombie} we wskazanym miejscu."
 SpawnPalace2_HallStairsCultist.button1,Kontynuuj
+SpawnPalace2_HallStairsCultist.text,Na dole schodów {c:SpawnPalace2_HallStairsCultist} kończy układać dziwnie ułożony dywan. Odwraca się i nawiązuje z tobą kontakt wzrokowy, po czym wydaje z siebie zdziwiony okrzyk i wyciąga sztylet. Umieść <COLOR=CYAN>{c:SpawnPalace2_HallStairsCultist}</COLOR> i umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 SpawnPalace2_LoungeDeepOne.button1,Kontynuuj
+SpawnPalace2_LoungeDeepOne.text,To, co na pierwszy rzut oka wyglądało jak nieokreślona postać siedząca na krześle, okazuje się potężnym stworzeniem polującym na kolejną ofiarę. Umieść na planszy <COLOR=CYAN>{c:SpawnPalace2_LoungeDeepOne}</COLOR> we wskazanym miejscu. Otrzymujesz 1 kartę przerażenia ({will} neguje).
 SpawnPalace2_LoungeHuntingDeepOne.button1,Kontynuuj
+SpawnPalace2_LoungeHuntingDeepOne.text,To, co na pierwszy rzut oka wyglądało jak nieokreślona postać siedząca na krześle, okazuje się potężnym stworzeniem polującym na kolejną ofiarę. Umieść na planszy <COLOR=CYAN>{c:SpawnPalace2_LoungeHuntingDeepOne}</COLOR> we wskazanym miejscu. Otrzymujesz 1 kartę przerażenia ({will} neguje).
 SpawnWarehouse_BasementCrawlingOne.button1,Kontynuuj
 SpawnWarehouse_BasementCrawlingOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse_BasementCrawlingOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse_BasementCrawlingOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse_BasementCrawlingOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse_BasementCultist.button1,Kontynuuj
@@ -1300,10 +1431,13 @@ SpawnWarehouse2_BasementMiGo.text,"W ciemności słyszysz wyraźne bulgotanie do
 SpawnWarehouse2_BellTowerCrawlingOne.button1,Kontynuuj
 SpawnWarehouse2_BellTowerCrawlingOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_BellTowerCrawlingOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_BellTowerCrawlingOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BellTowerCrawlingOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse2_BellTowerCultist.button1,Kontynuuj
+SpawnWarehouse2_BellTowerCultist.text,Gdy spoglądasz w górę na wieżę zauważasz, że brakuje w niej tytułowego dzwonu. W tym miejscu postać w szacie próbuje powiesić ciało swojego zmarłego towarzysza. Gdy cię dostrzega, pozwala, by ciało osunęło się na ziemię. Umieść <COLOR=CYAN>{c:SpawnWarehouse2_BellTowerCultist}</COLOR> i umieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
 SpawnWarehouse2_BellTowerDeepOne.button1,Kontynuuj
 SpawnWarehouse2_BellTowerDeepOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_BellTowerDeepOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_BellTowerDeepOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BellTowerDeepOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse2_BellTowerHorrificHive_ChildOfDagon.button1,Kontynuuj
+SpawnWarehouse2_BellTowerHorrificHive_ChildOfDagon.text,Spoglądając w górę na wieżę, zauważasz, że brakuje w niej tytułowego dzwonu. W tym miejscu widzisz masę przypominającą ciało, wyrastającą z belki nośnej. Z przerażeniem zdajesz sobie sprawę, że w tej masie dostrzegasz ludzką twarz, która wpatruje się w ciebie. Widzisz, jak usta bezgłośnie układają się w słowa „Zabij mnie”. Umieść <COLOR=CYAN>{c:SpawnWarehouse2_BellTowerHorrificHive_ChildOfDagon}</COLOR> we wskazanym miejscu.
 SpawnWarehouse2_BellTowerHorrificHive.button1,Kontynuuj
+SpawnWarehouse2_BellTowerHorrificHive.text,Spoglądając w górę na wieżę, zauważasz, że brakuje w niej tytułowego dzwonu. W tym miejscu widzisz masę przypominającą ciało, wyrastającą z belki nośnej. Z przerażeniem zdajesz sobie sprawę, że w tej masie dostrzegasz ludzką twarz, która wpatruje się w ciebie. Widzisz, jak usta bezgłośnie układają się w słowa „Zabij mnie”. Umieść <COLOR=CYAN>{{c:SpawnWarehouse2_BellTowerHorrificHive}</COLOR> we wskazanym miejscu.
 SpawnWarehouse2_BellTowerHuntingDeepOne.button1,Kontynuuj
 SpawnWarehouse2_BellTowerHuntingDeepOne.text,"Obrzydliwa masa wije się i pulsuje, po czym otwór na jej szczycie zaczyna się powoli otwierać. Na twoich oczach z jego wnętrza wydostaje się {c:SpawnWarehouse2_BellTowerHuntingDeepOne}. W ciągu kilku sekund od opuszczenia masy, {c:SpawnWarehouse2_BellTowerHuntingDeepOne} jest w pełni przytomny, czujny i gotowy do pożarcia każdego, kto znajdzie się w jego zasięgu. \n\nUmieść figurkę potwora {c:SpawnWarehouse2_BellTowerHuntingDeepOne} we wskazanym miejscu. Następnie otrzymujesz 2 Karty Przerażenia ({will} neguje)."
 SpawnWarehouse2_BellTowerHuntingHorror.button1,Kontynuuj
@@ -1371,15 +1505,23 @@ TokenDock_SightStreet2Dock1.text,Na południu dok ustępuje miejsca ulicy. Badac
 TokenDock_SightStreet2FleaMarket.button1,Odsłoń
 TokenDock_SightStreet2FleaMarket.text,Stragany na targu zasłaniają widok na przeciwną stronę ulicy. Badacz stojący na polu w {c:TileDock_FleaMarket} może wejść w interakcję z tym żetonem, aby odsłonić sąsiedni obszar.
 TokenDock2_ExploreBilliardsRoomSideStreet1.button1,{action} Eksploruj
+TokenDock2_ExploreBilliardsRoomSideStreet1.text,Proste drzwi prowadzą do małej sali bilardowej.
 TokenDock2_ExploreBilliardsRoomStreetCorner1.button1,{action} Eksploruj
+TokenDock2_ExploreBilliardsRoomStreetCorner1.text,Proste drzwi prowadzą do małej sali bilardowej.
 TokenDock2_ExploreStorefront.button1,{action} Eksploruj
+TokenDock2_ExploreStorefront.text,Mały sklepik z drobiazgami, choć nie widać w nim żadnych oznak życia, wydaje się być nadal otwarty.
 TokenDock2_SearchBackroom.button1,{action} Zbadaj
+TokenDock2_SearchBackroom.text,Za ladą widać wiele pudeł z towarem, który nie został wystawiony na sprzedaż.
 TokenDock2_SearchBar.button1,{action} Zbadaj
+TokenDock2_SearchBar.text,Mały bar został przekształcony w magazyn, w którym przechowuje się podejrzane, nieoznakowane skrzynie.
 TokenDock2_SearchBeachGoods.button1,{action} Zbadaj
+TokenDock2_SearchBeachGoods.text,Ładunek z rozbitej łodzi wyrzuciło na brzeg w porcie.
 TokenDock2_SearchDisplay.button1,{action} Zbadaj
+TokenDock2_SearchDisplay.text,W gablocie leżą porozrzucane różne bibeloty.
 TokenDock2_SearchHouseBoatGoodsE.button1,{action} Zbadaj
 TokenDock2_SearchHouseBoatGoodsE.text,Ta otwarta beczka jest wypełniona różnymi drobiazgami. Aby je ukryć, na wierzchu beczki ktoś umieścił grubą warstwę gnijących ryb.
 TokenDock2_SearchHouseBoatGoodsW.button1,{action} Zbadaj
+TokenDock2_SearchHouseBoatGoodsW.text,Na pokładzie leży stos towarów, które wyglądają podejrzanie lepiej niż reszta statku.
 TokenDock2_SearchPierGoodsE.button1,{action} Zbadaj
 TokenDock2_SearchPierGoodsE.text,Różne śmieci porozrzucano na powierzchni molo.
 TokenDock2_SearchPierGoodsW.button1,{action} Zbadaj
@@ -1389,10 +1531,15 @@ TokenDock2_SearchPosters.text,Ceglana ściana tego budynku została pokryta ró�
 TokenDock2_SearchRowboat.button1,{action} Zbadaj
 TokenDock2_SearchRowboat.text,Zniszczona łódź znajduje się już w połowie pod powierzchnią morskiej wody. Plandeka nad nią wygląda na niedawno naruszoną.
 TokenDock2_SearchShelves.button1,{action} Zbadaj
+TokenDock2_SearchShelves.text,Półki są wypełnione po brzegi przedmiotami o wątpliwej wartości.
 TokenDock2_SightBeachPier.button1,Odsłoń
+TokenDock2_SightBeachPier.text,Duże drewniane deski pomostu zasłaniają linię brzegową poniżej. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TileDock2_Pier}</COLOR> może odsłonić sąsiadujący obszar.
 TokenDock2_SightBeachStreetCorner1.button1,Odsłoń
+TokenDock2_SightBeachStreetCorner1.text,Z miejsca, w którym się teraz znajdujesz, brzeg rzeki jest niewidoczny. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TileDock2_StreetCorner1}</COLOR> może odsłonić sąsiadujący obszar.
 TokenDock2_SightPierBeach.button1,Odsłoń
+TokenDock2_SightPierBeach.text,Lekka mgła zasłania nabrzeże. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TileDock2_Beach}</COLOR> lub <COLOR=CYAN>{c:TileDock2_HouseBoat}</COLOR> może odsłonić sąsiadujący obszar.
 TokenDock2_SightPierStreetCorner2.button1,Odsłoń
+TokenDock2_SightPierStreetCorner2.text,Brzeg rzeki znajduje się tuż poza zasięgiem wzroku z miejsca, w którym się obecnie znajdujesz. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TileDock2_StreetCorner2}</COLOR> może odsłonić sąsiadujący obszar.
 TokenHouse_ExploreBathroom.button1,{action} Eksploruj
 TokenHouse_ExploreBathroom.text,Te drzwi prowadzą do łazienki.
 TokenHouse_ExploreBedroom2.button1,{action} Eksploruj
@@ -1424,6 +1571,7 @@ TokenHouse_PersonWoman2.text,Kobieta chowa się za łóżkiem, desperacko trzyma
 TokenHouse_SearchBedroomDesk.button1,{action} Zbadaj
 TokenHouse_SearchBedroomDesk.text,Widzisz różne luźne stosy papierów zapisanych niespójnym, chaotycznym pismem. Zauważasz jednak, że te zapiski dotyczą zjawisk nadprzyrodzonych oraz okultyzmu.
 TokenHouse_SearchCupboards.button1,{action} Zbadaj
+TokenHouse_SearchCupboards.text,Kultysta szukał gorączkowo czegoś w tych szafkach.
 TokenHouse_SearchDiningTable.button1,{action} Zbadaj
 TokenHouse_SearchDiningTable.text,Broń można zaimprowizować z jednego z przedmiotów znajdujących się na stole w jadalni.
 TokenHouse_SearchEntryTable.button1,{action} Zbadaj
@@ -1445,28 +1593,41 @@ TokenHouse2_ExploreBathroom.text,Te drzwi prowadzą do łazienki.
 TokenHouse2_ExploreBedroom1.button1,{action} Eksploruj
 TokenHouse2_ExploreBedroom1.text,Te drzwi prowadzą do głównej sypialni domu.
 TokenHouse2_ExploreBedroom2.button1,{action} Eksploruj
+TokenHouse2_ExploreBedroom2.text,Drzwi z napisem „Alasdair i Elizabeth” prowadzą do sypialni dzieci.
 TokenHouse2_ExploreDiningRoomHallEnd.button1,{action} Eksploruj
 TokenHouse2_ExploreDiningRoomHallEnd.text,Te drzwi prowadzą do rodzinnej jadalni.
 TokenHouse2_ExploreDiningRoomLounge.button1,{action} Eksploruj
 TokenHouse2_ExploreDiningRoomLounge.text,Te małe drzwiczki zapewniają szybki dostęp do kuchni domu.
 TokenHouse2_ExploreLibrary.button1,{action} Eksploruj
+TokenHouse2_ExploreLibrary.text,Drzwi prowadzą do biblioteki.
 TokenHouse2_ExploreLoungeDiningRoom.button1,{action} Eksploruj
+TokenHouse2_ExploreLoungeDiningRoom.text,Drzwi prowadzą do przestronnego salonu.
 TokenHouse2_ExploreLoungeHallCorner1.button1,{action} Eksploruj
+TokenHouse2_ExploreLoungeHallCorner1.text,Drzwi prowadzą do przestronnego salonu.
 TokenHouse2_PersonMan1.button1,{action} Uwolnij go
+TokenHouse2_PersonMan1.text,Mężczyzna siedzi w milczeniu w fotelu, skrępowany linami, z brązową torbą na głowie.
 TokenHouse2_PersonWoman2.button1,{action} Porozmawiaj z nią
+TokenHouse2_PersonWoman2.text,Kobieta siedzi w milczeniu na krześle, a jej przerażone oczy wpatrują się nieustannie w ziemię przed jej stopami.
 TokenHouse2_SearchBedroomDesk.button1,{action} Zbadaj
 TokenHouse2_SearchBedroomDesk.text,Widzisz różne luźne stosy papierów zapisanych niespójnym, chaotycznym pismem. Zauważasz jednak, że te zapiski dotyczą zjawisk nadprzyrodzonych oraz okultyzmu.
 TokenHouse2_SearchCabinet_NoPuzzle.button1,{action} Zbadaj
+TokenHouse2_SearchCabinet_NoPuzzle.text,Szafka jest wypełniona po brzegi kartkami wyrwanymi ze starej książki. Przeglądając pobieżnie niektóre z nich, dostrzegasz fragmenty pogańskich tekstów religijnych.
 TokenHouse2_SearchCabinet_Puzzle.button1,{action} Rozwiąż
+TokenHouse2_SearchCabinet_Puzzle.text,Strony starożytnego tekstu wciąż leżą w szufladzie w nieuporządkowanym stosie. Możesz spróbować rozwiązać tę łamigłówkę przy użyciu {observation}.
 TokenHouse2_SearchCupboards.button1,{action} Zbadaj
+TokenHouse2_SearchCupboards.text,Kultysta szukał gorączkowo czegoś w tych szafkach.
 TokenHouse2_SearchDiningTable.button1,{action} Zbadaj
 TokenHouse2_SearchDiningTable.text,Broń można zaimprowizować z jednego z przedmiotów znajdujących się na stole w jadalni.
 TokenHouse2_SearchEntryTable.button1,{action} Zbadaj
+TokenHouse2_SearchEntryTable.text,Zawartość szafki rozsypała się po podłodze.
 TokenHouse2_SearchHallTable.button1,{action} Zbadaj
+TokenHouse2_SearchHallTable.text,Na zagraconym stole leżą różne książki, z których większość wygląda na starszą niż samo Arkham.
 TokenHouse2_SearchMagazines.button1,{action} Zbadaj
+TokenHouse2_SearchMagazines.text,Na biurku leżą rozłożone magazyny z modą dla nastolatków.
 TokenHouse2_SearchToyChest.button1,{action} Zbadaj
 TokenHouse2_SearchToyChest.text,Zaglądając do skrzyni z zabawkami, widzisz różne przedmioty, które w żadnym wypadku nie wyglądają ci na zabawki.
 TokenHouse2_SightBathroom.button1,Odsłoń
+TokenHouse2_SightBathroom.text,Hol wejściowy biegnie dalej za drzwiami biblioteki. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TileHouse2_HallCorner1}</COLOR> może odsłonić sąsiadujący obszar.
 TokenPalace_ExploreAtticBallroom.button1,{action} Eksploruj
 TokenPalace_ExploreAtticBallroom.text,Małe drzwi wejściowe prowadzą dalej w głąb pałacu. We wschodniej części budynku wyraźnie słychać śpiew.
 TokenPalace_ExploreAtticLounge.text,Drzwi zostały zabite deskami i gwoździami. Choć bardzo starasz się je wyrwać, jakaś nienaturalna siła utrzymuje je na miejscu.
@@ -1504,6 +1665,7 @@ TokenPalace2_ExploreBilliardsRoomEntryHall.button1,{action} Eksploruj
 TokenPalace2_ExploreBilliardsRoomEntryHall.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
 TokenPalace2_ExploreConservatoryHallCorner1.text,Drzwi zostały zabite deskami i gwoździami. Choć bardzo starasz się je wyrwać, jakaś nienaturalna siła utrzymuje je na miejscu.
 TokenPalace2_ExploreConservatoryLounge.button1,{action} Eksploruj
+TokenPalace2_ExploreConservatoryLounge.text,Małe tylne drzwi prowadzą w głąb pałacu. Z północy wyraźnie słychać śpiewy.
 TokenPalace2_ExploreHallStairsBallroom.button1,{action} Eksploruj
 TokenPalace2_ExploreHallStairsBallroom.text,Nieoznakowane drzwi prowadzą dalej w głąb pałacu.
 TokenPalace2_ExploreLoungeConservatory.button1,{action} Eksploruj
@@ -1513,8 +1675,11 @@ TokenPalace2_ExploreLoungeEntryHall.text,Nieoznakowane drzwi prowadzą dalej w g
 TokenPalace2_InteractSummoningRitual.button1,{action} Przerwij Rytuał
 TokenPalace2_InteractSummoningRitual.text,Dwie odziane w szaty postacie stoją wokół kręgu przywołania. Ich oczy zaszły bielmem i sprawiają wrażenie nieprzytomnych, ale ich usta nadal poruszają się, intonując czarną magię. Kiedy próbujesz się do nich zbliżyć, moc rytuału odrzuca cię do tyłu. Będziesz musiał rozpocząć kontr-rytuał, aby ich powstrzymać.
 TokenPalace2_SearchBar.button1,{action} Zbadaj
+TokenPalace2_SearchBar.text,Duża szafka na napoje wygląda podejrzanie pusto, a jej wykonanie jest znacznie tańsze niż w przypadku pozostałych mebli.
 TokenPalace2_SearchCarpet.button1,{action} Zbadaj
+TokenPalace2_SearchCarpet.text,Niedawno przyłapałeś wyznawcę sekty na układaniu dywanu w dziwnym miejscu. W jakim celu to robił, musisz jeszcze ustalić.
 TokenPalace2_SightHallStairs.button1,Odsłoń
+TokenPalace2_SightHallStairs.text,Korytarz prowadzi dalej w głąb pałacu. Badacz znajdujący się na kafelku <COLOR=CYAN>{c:TilePalace2_HallCorner1}</COLOR> może odsłonić sąsiadujący obszar.
 TokenWarehouse_ExploreBasementRootCellar.button1,{action} Eksploruj
 TokenWarehouse_ExploreBasementRootCellar.text,Te drzwi prowadzą do dalszej części piwnicy.
 TokenWarehouse_ExploreBasementWarehouse.button1,{action} Eksploruj
@@ -1540,14 +1705,19 @@ TokenWarehouse_SearchEmptyBox.text,Pośród gnijącego drewna i kartonów leży 
 TokenWarehouse_SearchFurnace.button1,{action} Zbadaj
 TokenWarehouse_SearchFurnace.text,Wydaje ci się, że dostrzegłeś odblask jakiegoś metalowego przedmiotu zakopanego głęboko w stercie popiołu rozsypanego niedaleko pieca.
 TokenWarehouse2_ExploreBasementAlleyCorner1.button1,{action} Eksploruj
+TokenWarehouse2_ExploreBasementAlleyCorner1.text,Boczne drzwi magazynu prowadzą w głąb budynku.
 TokenWarehouse2_ExploreBasementWarehouse.button1,{action} Eksploruj
+TokenWarehouse2_ExploreBasementWarehouse.text,Drzwi na drugim końcu magazynu prowadzą w głąb budynku.
 TokenWarehouse2_ExploreBellTower.button1,{action} Eksploruj
+TokenWarehouse2_ExploreBellTower.text,Z szczeliny pod drzwiami prześwituje słabe światło.
 TokenWarehouse2_ExploreStudy.button1,{action} Eksploruj
+TokenWarehouse2_ExploreStudy.text,W ciemnościach ledwo dostrzega się zarys drzwi.
 TokenWarehouse2_ExploreWarehouseAlleyCorner1.button1,{action} Eksploruj
 TokenWarehouse2_ExploreWarehouseAlleyCorner1.text,Duże drzwi prowadzą do opuszczonego magazynu materiałów i produktów przemysłowych.
 TokenWarehouse2_ExploreWarehouseAlleyCorner2.button1,{action} Eksploruj
 TokenWarehouse2_ExploreWarehouseAlleyCorner2.text,Duże drzwi prowadzą do opuszczonego magazynu materiałów i produktów przemysłowych.
 TokenWarehouse2_ExploreWarehouseBasement.button1,{action} Eksploruj
+TokenWarehouse2_ExploreWarehouseBasement.text,Niepozorne drzwi prowadzą do głównej części magazynu.
 TokenWarehouse2_SearchBarrel.button1,{action} Zbadaj
 TokenWarehouse2_SearchBarrel.text,Samotna zapieczętowana beczka wyróżnia się wśród szeregu pustych oraz rozbitych.
 TokenWarehouse2_SearchBody.button1,{action} Zbadaj
